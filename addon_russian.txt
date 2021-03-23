@@ -4339,6 +4339,13 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_all_damage_bonus_pct" 		"+% к всему исходящему урону: " 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_strength" 			"+ко всем атрибутам:"   
 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4"              		"Проклятая Коса Смерти"
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_Description" 			"<h1>Активируемая: Дезинтеграция</h1> Призывает Жнеца на каждого юнита в радиусе 500, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев." 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_spell_amp_pct" 				"+% к урону от заклинаний:" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_cast_range_bonus" 			"+к дальности применения способностей:" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_attack_range" 		"+к дальности атаки: "  
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_all_damage_bonus_pct" 		"+% к всему исходящему урону: " 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_strength" 			"+ко всем атрибутам:"   
 
 
  
@@ -6694,6 +6701,23 @@
 		"qvest_race_spirits" "Данное задание основано на выбранной вами расе, ваша раса Spirits. Ваше задание состоит в том чтобы запечатать души духов которых вы сможете найти на карте,для того чтобы запечатать душу духа вам нужно купить предмет « Кристалл Сефиры» за выполнение данного задания вы получите уникальный эффект.<br><br>
 		Ограничения: Нету.<br><br>
 		Время на задание: Не ограничено"	
+
+		"DOTA_Tooltip_ability_item_desolator_anubis"								"Дезолятор Анубиса"
+		"DOTA_Tooltip_ability_item_desolator_anubis_Description"					"<h1>Пассивная: Last Stand</h1> Каждая ваша атака будет игнорировать всю броню противника.\n"
+		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_damage"					"Урон:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_agi"				"Ловкость:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_str"				"Сила:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_int"				"Интеллект:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_resistance"				"%Сопротивление магии:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_as"						"Скорость атаки:"
+
+		"DOTA_Tooltip_ability_item_ancient_technology"								"Технологии Древних"
+		"DOTA_Tooltip_ability_item_ancient_technology_Description"					"<h1>Пассивная: Вознесение</h1> Если данный предмет находится в инвентаре у героя то все союзные герои а также владелец предмета после смерти будут оставлять за собой Надгробный Камень с помощью которого его можно воскресить. Владелец предмета будет неуязвим пока воскрешает союзника."
+		"DOTA_Tooltip_ability_item_ancient_technology_int"                          "Интеллект:"	
+		"DOTA_Tooltip_ability_item_ancient_technology_mana_regen"                          "Регенерация Маны:"
+		"DOTA_Tooltip_ability_item_ancient_technology_spell_amp"                          "%Усиление урона от заклинаний:"
+		"DOTA_Tooltip_ability_item_ancient_technology_absorb_spell"                          "%Сопротивление эффектам:"
+
 
 
 }
