@@ -4518,7 +4518,7 @@
 		"DOTA_Tooltip_modifier_item_unstable_quasar_aura_Description" 		"Магическое сопротивление снижено "
 		
 		"DOTA_Tooltip_ability_item_unstable_quasar" 					"Маленький Карлик"
-		"DOTA_Tooltip_ability_item_unstable_quasar_Description" 			"<h1>Пассивная: Сингулярность</h1> При использовании способности или предмета, имеющего ненулевой расход маны, наносит %base_damage% + %damage_pct%%% (%intelligence_damage_pct%%% для героев с основной характеристикой - Интеллект) от максимального здоровья всем противникам, уменьшая их скорость передвижения до %slow_speed% единиц на %slow_duration% секунды. <br> <br>Срабатывание расходует %manacost% + %manacost_pct%%% от максимальной маны. <br> <br>Радиус: %singularity_radius%\n<h1>Пассивная: Магическая Нестабильность</h1> Дает возможность видеть невидимых юнитов и варды, а также снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br> <br>Радиус: %aura_radius%" 
+		"DOTA_Tooltip_ability_item_unstable_quasar_Description" 			"<h1>Пассивная: Магическая Нестабильность</h1> Дает возможность видеть невидимых юнитов и варды, а также снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br> <br>Радиус: %aura_radius%" 
 		"DOTA_Tooltip_ability_item_unstable_quasar_Note0" 					"Эффекты от нескольких Карликов не складываются." 
 		"DOTA_Tooltip_ability_item_unstable_quasar_bonus_day_vision" 		"+к радиусу обзора днем" 
 		"DOTA_Tooltip_ability_item_unstable_quasar_bonus_night_vision" 		"+к радиусу обзора ночью" 
@@ -4533,7 +4533,7 @@
 		"DOTA_Tooltip_modifier_item_unstable_quasar2_aura_Description" 		"Магическое сопротивление снижено"
 		
 		"DOTA_Tooltip_ability_item_unstable_quasar2" 					"Нестабильный Карлик"
-		"DOTA_Tooltip_ability_item_unstable_quasar2_Description" 			"<h1>Пассивная: Сингулярность</h1> При использовании способности или предмета, имеющего ненулевой расход маны, наносит %base_damage% + %damage_pct%%% (%intelligence_damage_pct%%% для героев с основной характеристикой - Интеллект) от максимального здоровья всем противникам, уменьшая их скорость передвижения до %slow_speed% единиц на %slow_duration% секунды. <br> <br>Срабатывание расходует %manacost% + %manacost_pct%%% от максимальной маны. <br> <br>Радиус: %singularity_radius%\n<h1>Пассивная: Магическая Нестабильность</h1> Дает возможность видеть невидимых юнитов и варды, а также снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br> <br>Радиус: %aura_radius%"
+		"DOTA_Tooltip_ability_item_unstable_quasar2_Description" 			"<h1>Пассивная: Магическая Нестабильность</h1> Дает возможность видеть невидимых юнитов и варды, а также снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br> <br>Радиус: %aura_radius%"
 		"DOTA_Tooltip_ability_item_unstable_quasar2_Note0" 						"Эффекты от нескольких Карликов не складываются." 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_day_vision" 			"+к радиусу обзора днем" 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_night_vision" 		"+к радиусу обзора ночью" 
@@ -4915,7 +4915,7 @@
 		"DOTA_Tooltip_ability_item_gu_armor_3_health_per_str" 							"+к здоровью за единицу силы "
 
 		"DOTA_Tooltip_ability_item_gu_armor_4"              						"Накидка Бога"
-		"DOTA_Tooltip_ability_item_gu_armor_4_Description" 							"<h1>Пассивная: Поглощение</h1> Востанавливает здоровье владельцу предмета в размере %lifesteal% % от нанесённого урона его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Титан</h1> Уменьшает весь входящий урон по владельцу предмета на %demageres%.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% к всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки, %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
+		"DOTA_Tooltip_ability_item_gu_armor_4_Description" 							"<h1>Пассивная: Поглощение</h1> Востанавливает здоровье владельцу предмета в размере %lifesteal% % от нанесённого урона его союзниками в радиусе %radius%.\n <h1>Пассивная: Божество</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Титан</h1> Уменьшает весь входящий урон по владельцу предмета на %demageres%.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% к всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки, %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
         "DOTA_Tooltip_ability_item_gu_armor_4_health_regen_percent" 					"+% к восстановлению здоровья"
         "DOTA_Tooltip_ability_item_gu_armor_4_bonus_all" 								"+ко всем атрибутам"
         "DOTA_Tooltip_ability_item_gu_armor_4_bonus_health" 							"+к здоровью " 
