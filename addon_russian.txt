@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language"	"russian"
 "Tokens"
@@ -3161,28 +3161,6 @@
 		"DOTA_Tooltip_Ability_mq9_predator_damage"					"Урон:"
         "DOTA_Tooltip_Ability_mq9_predator_attack_speed"					"Скорость обстрела:"
         "DOTA_Tooltip_Ability_mq9_predator_life"					"Длительность:"
-
-
-
-
-		
-
-        "DOTA_Tooltip_ability_ability_armored_base"	"Основная Механика WOT"
-	    "DOTA_Tooltip_ability_ability_armored_base_Description"	"Данный способность содержит в себе всю сущность ВБР, в нём прописаны все основные шансы на повреждение модулей, шанс на пробитие, рикошет и тд. Да почувствуй силу ВБР."
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_track"	"Шанс на повреждение гусеницы:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_engine"	"Шанс на повреждение двигателя:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_gun"	"Шанс на повреждение орудия:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_turrer"	"Шанс на повреждение башни:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_triplex"	"Шанс на повреждение приборов наблюдения:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_radio"	"Шанс на повреждение радиостанции:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_baki"	"Шанс на повреждение баков:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_commander"	"Шанс на контузию командира:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_navodchik"	"Шанс на контузию наводчика:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_driver"	"Шанс на контузию мех-вода:"
-		"DOTA_Tooltip_ability_ability_armored_base_chance_damage_gunner"	"Шанс на контузию заряжающего:"
-        "DOTA_Tooltip_ability_ability_armored_base_gorit"	"Шанс на возгорание:"
-        "DOTA_Tooltip_ability_ability_armored_base_gorit_rofl"	"Шанс на бесконечное возгорание:"
-
 
 
 
