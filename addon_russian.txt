@@ -2390,7 +2390,6 @@
 		
 		"DOTA_Tooltip_ability_saber"						"Трансформация: Рыцарь"
 		"DOTA_Tooltip_ability_saber_Description"			"Трансформируется в форму Рыцарь увеличивая скорость передвижения на %Riding%, также изменяет базовую характеристику персонажа на Силу"
-		"DOTA_Tooltip_ability_saber_base_attack_time"		"Время атаки:"
 		"DOTA_Tooltip_ability_saber_bonus_range"			"Дальность атаки:"
         "DOTA_Tooltip_ability_saber_attribute"				"Бонусная Сила"
 
@@ -2428,7 +2427,7 @@
 		"DOTA_Tooltip_modifier_assassin"	"Трансформация:Асасин"
 		"DOTA_Tooltip_modifier_assassin_Description"	""
 		
-		"DOTA_Tooltip_ability_saber_defend"	"Палка Иллии"
+		"DOTA_Tooltip_ability_saber_defend"	"Руби"
 		"DOTA_Tooltip_ability_saber_defend_Description"	"Защищает Иллию от врагов путём увеличения брони на %spell_shield_resistance% а также позволяет уклонится от атаки врага с шансом в %shanbi%"
 		
 		"DOTA_Tooltip_ability_excalibur_illiya"	"Экскалибур"
@@ -3083,21 +3082,17 @@
 		"DOTA_Tooltip_ability_mi28age_damage_to_exp"		"Опыт от Урона:"
  
  
-		"dota_tooltip_ability_imba_luna_lucent_beam" "Лунный луч"
+		"dota_tooltip_ability_imba_luna_lucent_beam" "Звезда Каптейна"
+		"dota_tooltip_ability_imba_luna_lucent_beam_description" "Атакует врага энергетическим лучом звезды."
 		"dota_tooltip_ability_imba_luna_lucent_beam_beam_damage" "Урон:"
-		"dota_tooltip_ability_imba_luna_lucent_beam_description" "Атакует врага лунным лучом"
 		"dota_tooltip_ability_imba_luna_lucent_beam_stun_duration" "Длительность оглушения:"
  
- 		"dota_tooltip_ability_imba_luna_eclipse" "Лунный град"
-		"dota_tooltip_ability_imba_luna_eclipse_aghanim_description" "Обрушивает на врагов огромное количество лунных лучей"
-		"dota_tooltip_ability_imba_luna_eclipse_beams" "Всего лучей"
+ 		"dota_tooltip_ability_imba_luna_eclipse" "Судьба"
+		"dota_tooltip_ability_imba_luna_eclipse_description" "Надеюсь, что в конце своих дней, когда я предстану перед Богом, у меня не останется ни капли таланта, чтобы я могла сказать ему: Я использовала все, что ты дал мне. Поражает огромную область энергетическими лучами."
+		"dota_tooltip_ability_imba_luna_eclipse_beams" "Всего лучей:"
 		"dota_tooltip_ability_imba_luna_eclipse_beams_scepter" "Лучей с скипетром:"
-		"dota_tooltip_ability_imba_luna_eclipse_cast_range_tooltip_scepter" "Радиус каста с аганимом:"
-		"dota_tooltip_ability_imba_luna_eclipse_description" "Обрушивает на врагов огромное количество лунных лучей"
 		"dota_tooltip_ability_imba_luna_eclipse_duration_tooltip" "Длительность:"
 		"dota_tooltip_ability_imba_luna_eclipse_duration_tooltip_scepter" "Длительность с аганимом:"
-		"dota_tooltip_ability_imba_luna_eclipse_hit_count" "Ударов лучом по 1 врагу:"
-		"dota_tooltip_ability_imba_luna_eclipse_radius" "Радиус:"
  
  
  
@@ -4879,7 +4874,7 @@
 
 
         "DOTA_Tooltip_ability_item_gu_armor"              						"Накидка Полубога"
-		"DOTA_Tooltip_ability_item_gu_armor_Description" 							"<h1>Пассивная: Поглощение</h1> Востанавливает здоровье владельцу предмета в размере %lifesteal% % от нанесённого урона его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Титан</h1> Уменьшает весь входящий урон по владельцу предмета на %demageres%.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% к всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки, %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
+		"DOTA_Tooltip_ability_item_gu_armor_Description" 							"<h1>Пассивная: Поглощение</h1> Востанавливает здоровье владельцу предмета в размере %lifesteal% % от нанесённого урона его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% к всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки, %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
         "DOTA_Tooltip_ability_item_gu_armor_health_regen_percent" 						"+% к восстановлению здоровья"
         "DOTA_Tooltip_ability_item_gu_armor_bonus_all" 									"+ко всем атрибутам"
         "DOTA_Tooltip_ability_item_gu_armor_bonus_health" 								"+к здоровью " 
@@ -4895,7 +4890,7 @@
 		"DOTA_Tooltip_item_gu_armor_passive_team_Description"						"На вас работает аура Накидки Полубога"
 
         "DOTA_Tooltip_ability_item_gu_armor_2"              						"Накидка Полубога 2"
-		"DOTA_Tooltip_ability_item_gu_armor_2_Description" 							"<h1>Пассивная: Поглощение</h1> Востанавливает здоровье владельцу предмета в размере %lifesteal% % от нанесённого урона его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Титан</h1> Уменьшает весь входящий урон по владельцу предмета на %demageres%.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% к всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки, %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
+		"DOTA_Tooltip_ability_item_gu_armor_2_Description" 							"<h1>Пассивная: Поглощение</h1> Востанавливает здоровье владельцу предмета в размере %lifesteal% % от нанесённого урона его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% к всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки, %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
         "DOTA_Tooltip_ability_item_gu_armor_2_health_regen_percent" 					"+% к восстановлению здоровья"
         "DOTA_Tooltip_ability_item_gu_armor_2_bonus_all" 								"+ко всем атрибутам"
         "DOTA_Tooltip_ability_item_gu_armor_2_bonus_health" 							"+к здоровью " 
@@ -4905,7 +4900,7 @@
 		"DOTA_Tooltip_ability_item_gu_armor_2_health_per_str" 							"+к здоровью за единицу силы "
 		
         "DOTA_Tooltip_ability_item_gu_armor_3"              						"Накидка Полубога 3"
-		"DOTA_Tooltip_ability_item_gu_armor_3_Description" 							"<h1>Пассивная: Поглощение</h1> Востанавливает здоровье владельцу предмета в размере %lifesteal% % от нанесённого урона его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Титан</h1> Уменьшает весь входящий урон по владельцу предмета на %demageres%.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% к всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки, %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
+		"DOTA_Tooltip_ability_item_gu_armor_3_Description" 							"<h1>Пассивная: Поглощение</h1> Востанавливает здоровье владельцу предмета в размере %lifesteal% % от нанесённого урона его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% к всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки, %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
         "DOTA_Tooltip_ability_item_gu_armor_3_health_regen_percent" 					"+% к восстановлению здоровья"
         "DOTA_Tooltip_ability_item_gu_armor_3_bonus_all" 								"+ко всем атрибутам"
         "DOTA_Tooltip_ability_item_gu_armor_3_bonus_health" 							"+к здоровью " 
@@ -6719,7 +6714,11 @@
 		"DOTA_Tooltip_ability_item_ancient_technology_absorb_spell"                          "%Сопротивление эффектам:"
 
 
-
+		"DOTA_Tooltip_modifier_imba_luna_eclipse" "Судьба"
+ 		"DOTA_Tooltip_ability_princess_heal_ability"								"Аура Исцеления"
+		"DOTA_Tooltip_ability_princess_heal_ability_Description"					"Востанавливает здоровье всех союзных героев в радиусе %heal_radius% на %heal_ph%% "
+		
+		"DOTA_Tooltip_modifier_princess_heal_ability_team"							"Аура Исцеления" 
 }
 
 
