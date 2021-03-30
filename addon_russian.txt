@@ -215,7 +215,7 @@
 		
 
 		"DOTA_Tooltip_ability_reus_gaias_fury"											"Каменный Удар"
-		"DOTA_Tooltip_ability_reus_gaias_fury_description"									"Заряжает свой удар силой земли, нанося огромный урон по площади. Урон расчитывается по формуле сила * множитель<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
+		"DOTA_Tooltip_ability_reus_gaias_fury_description"									"Заряжает свой удар силой земли, нанося огромный урон по площади. Урон расчитывается по формуле сила * множитель. Перезарядку способности нельзя уменьшить, способность автоприменяемая.<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
 		"DOTA_Tooltip_ability_reus_gaias_fury_radius"											"Радиус: "
 		"DOTA_Tooltip_ability_reus_gaias_fury_duration"											"Длительность: "
 		"DOTA_Tooltip_ability_reus_gaias_fury_damage"											"Множитель: "
@@ -223,16 +223,10 @@
 		"DOTA_Tooltip_ability_reus_gaias_fury_stun"												"Длительность оглушения: "
 		"DOTA_Tooltip_ability_reus_gaias_fury_slow"												"Замедление: "
 		"DOTA_Tooltip_ability_reus_gaias_fury_slow_duration"									"Длительность замедления: "	
-			
-		"DOTA_Tooltip_ability_reus_ancient_arena"                                       "Арена"
-		"DOTA_Tooltip_ability_reus_ancient_arena_Description"								"Создаёт арену из скал для сражения с врагами."
-		"DOTA_Tooltip_ability_reus_ancient_arena_radius"										 "Радиус: "
-		"DOTA_Tooltip_ability_reus_ancient_arena_bonus_attackspeed"								 "+к скорости атаки: "
-		"DOTA_Tooltip_ability_reus_ancient_arena_bonus_movespeed"								 "%Скорость передвижения: "
-		"DOTA_Tooltip_ability_reus_ancient_arena_bonus_damage"                         			 "Дополнительный урон: "
-		"DOTA_Tooltip_ability_reus_ancient_arena_bonus_strength"								 "Дополнительная сила: "
-		"DOTA_Tooltip_ability_reus_ancient_arena_duration"										 "Длительность: "
 
+		"DOTA_Tooltip_modifier_gaias_fury"														"Каменный Удар"
+		"DOTA_Tooltip_modifier_gaias_fury_description"											"Заряжен"
+			
 		"DOTA_Tooltip_ability_reus_magnitude"                                           "Раскол Породы"
 		"DOTA_Tooltip_ability_reus_magnitude_Description"									"После задержки в 10 секунд раскалывает почву под собой, замедляя врагов. Урон высчитывается по формуле базовый урон * сила.<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
 		"DOTA_Tooltip_ability_reus_magnitude_radius"											 "Радиус: "
@@ -242,18 +236,21 @@
 		"DOTA_Tooltip_ability_reus_magnitude_attack_slow"										 "Замедление атаки: "
 		"DOTA_Tooltip_ability_reus_magnitude_duration"											 "Длительность: "
 		"DOTA_Tooltip_ability_reus_magnitude_damage"											 "базовый урон: "
+ 		"DOTA_Tooltip_modifier_magnitude_slow_ally"												 "Замедление"
 
-
-			///Отсутствует на данный момент2///
-		"DOTA_Tooltip_ability_reus_stalagmite"                                          "Удар Сталагмитом"
-		"DOTA_Tooltip_ability_reus_stalagmite_Description"									"Атакует врага куском сталагмита и оглушая их."
-		"DOTA_Tooltip_ability_reus_stalagmite_stun"												 "Оглушение: "
 
 		"DOTA_Tooltip_ability_reus_stoneblast"                                          "Бросок Камня"
 		"DOTA_Tooltip_ability_reus_stoneblast_Description"									"Маг Земли бросает в указанную точку булыжник, оглушающий всех на своём пути<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
 		"DOTA_Tooltip_ability_reus_stoneblast_stun"												 "Оглушение: "
 		"DOTA_Tooltip_ability_reus_stoneblast_damage"											 "Урон: "
 			
+		"DOTA_Tooltip_ability_earch_mag_ylti"                                          	"Маг Земли"
+		"DOTA_Tooltip_ability_earch_mag_ylti_Description"                              	"Увеличивает базовый(белый урон) в зависимости от вашей силы, также увеличивает сопротивление эффектам до 100%."
+		"DOTA_Tooltip_ability_earch_mag_ylti_bonus_str"                              	"Бонусная Сила:"
+		"DOTA_Tooltip_ability_earch_mag_ylti_str_multi"                              	"Множитель Силы:"
+
+		"DOTA_Tooltip_modifier_earch_mag_ylti" 											"Маг Земли"
+		"DOTA_Tooltip_modifier_earch_mag_ylti_Description" 											"Бонусный урон - %dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% "
 
 			///Способность для Разблокировки Героя Маг Земли///
 		"DOTA_Tooltip_ability_reus_stoneblast_unlock"                                   "Бросок Камня"
@@ -264,24 +261,6 @@
 		
 
 										/// U N I V E R S E - A G I L I T Y ///
-										
-	"npc_dota_hero_drow_ranger" "Сильвана"
-		
-		"DOTA_Tooltip_Ability_drow_ranger_marksmanship"													"Ярость"
-		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_Description"											"Сильвана впадает в ярость, от чего с некоторым шансом может нанести дополнительный урон, который игнорирует броню. Даёт дополнительную ловкость всем союзникам в радиусе."
-		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_chance"													"Шанс срабатывания :"	
-		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_bonus_damage"											"Дополнительный Урон:"	
-		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_split_count_scepter"										"Количество стрел с скипетром:"
-		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_scepter_range"											"Радиус стрел с скипетром:"	
-		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_damage_reduction_scepter"								"Уменьшение Урона с скипетром:"		
-		"DOTA_Tooltip_Ability_drow_ranger_marksmanship_disable_range"											"Радиус отключение ульты"	
-		
-		"DOTA_Tooltip_Ability_drowylt"																	"Marksmanship"
-		"DOTA_Tooltip_ability_drowylt_Description"															"Даёт дополнительную ловкость."
-		"DOTA_Tooltip_ability_drowylt_ag"																		"Ловкость."											
-	
-	
-	
 	
 	"npc_dota_hero_windrunner"											"Warrior of the Wind"
 		
@@ -1793,7 +1772,7 @@
 	 "npc_dota_hero_void_spirit"										"Marisa Kirisame"
 
 		
-		"DOTA_Tooltip_ability_marisa_starhex"            										"Звёздный Хекс" //CANNOT BE REFRESH ATTENTION(-Пиздит, пизди-ит. Простите, я обещал не ругаться.)
+		"DOTA_Tooltip_ability_marisa_starhex"            										"Звёздный Хекс"
 		"DOTA_Tooltip_ability_marisa_starhex_Description"											"Превращает юнита в бесполезное создание, которое будет покорно ждать своей участи."
 		"DOTA_Tooltip_ability_marisa_starhex_duration"   												"Длительность:"
 		"DOTA_Tooltip_ability_marisa_starhex_ms"         												"Скорость юнита:"
@@ -1806,27 +1785,19 @@
 		"DOTA_Tooltip_ability_marisa_spark_Description"  											"Мариса колдует огромный радужный луч, который наносит урон по врагам и лечит союзников"
 		"DOTA_Tooltip_ability_marisa_spark_distance"     												"Дальность луча:"
 		"DOTA_Tooltip_ability_marisa_spark_start_width"                              					"Ширина луча:"
-		//"DOTA_Tooltip_ability_marisa_spark_end_width"    												"Конечная ширина:"
 		"DOTA_Tooltip_ability_marisa_spark_damage_heal"  												"Урон/Лечение:"
-		//"DOTA_Tooltip_ability_marisa_spark_interval"     												"Период:"
+		"DOTA_Tooltip_ability_marisa_spark_damage_heal_full"  												"Всего Урона/Лечения:"
         "DOTA_Tooltip_ability_marisa_Lore"														"Урок Марисы по Искре радуги : 1. Сконцентрируйтесь 2.Нежно прошепчите заклинание в ミニ八卦炉(Mini Hakkero). 3. Нацельтесь на неприятеля. 4. Теперь высвободите вашу смертоносную силу любви!"
 
 		//Marisa Aura
 		"DOTA_Tooltip_ability_marisa_aura"                										"Звёздная аура"
-		"DOTA_Tooltip_ability_marisa_aura_Description"    											"Аура, дающая здоровья, чакру и их регенерацию."
-		"DOTA_Tooltip_ability_marisa_aura_radius"         												"Радиус:"
-		"DOTA_Tooltip_ability_marisa_aura_health_bonus"   												"Дополнительнаяного здоровья:"
-		"DOTA_Tooltip_ability_marisa_aura_mana_bonus"     												"Дополнительная мана:"
-		"DOTA_Tooltip_ability_marisa_aura_health_regen"   												"+к регенерации здоровья"
-		"DOTA_Tooltip_ability_marisa_aura_mana_regen"     												"Регенерация маны:"
-		"DOTA_Tooltip_ability_marisa_aura_ally_bonus"     												"%Дополнительная не героям:"
+		"DOTA_Tooltip_ability_marisa_aura_Description"    											"Аура, которая всем союзникам в радиусе %radius% увеличивает максимальный запас здоровья на %health_bonus%, ману на %mana_bonus%, а также увеличивает регенерацию здоровья на %health_regen% и маны на %mana_regen%."
 
 		"DOTA_Tooltip_modifier_marisa_aura_buff"												"Звёздная аура"
 		"DOTA_Tooltip_modifier_marisa_aura_buff_Description"										"+%dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% к здоровьяу, +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% к мане, +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регенерации здоровья, +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенерации маны."
 		//Marisa Starfall
 		"DOTA_Tooltip_ability_marisa_starfall"            										"Звездопад"
-		"DOTA_Tooltip_ability_marisa_starfall_Description"											"Пока способность активен, звезды падают с неба. Звезды наносят Урон врагам и лечат союзников."
-		"DOTA_Tooltip_ability_marisa_starfall_Note0"												"Активация способности не требует маны. Отображено потребление маны в секунду." 
+		"DOTA_Tooltip_ability_marisa_starfall_Description"											"Пока способность активен, с неба падают звёзды которые наносят урон врагам и лечат союзников."
 		"DOTA_Tooltip_ability_marisa_starfall_radius"     												"Радиус:"
 		"DOTA_Tooltip_ability_marisa_starfall_interval"   												"Период:"
 		"DOTA_Tooltip_ability_marisa_starfall_damage_heal"												"Урон/Лечение:"
@@ -3801,42 +3772,6 @@
 		"DOTA_Tooltip_ability_item_midas_fury_2_radius"                                     "Радиус: "
 		"DOTA_Tooltip_ability_item_midas_fury_2_splash_damage"                              "%Урон:"
 
-		"DOTA_Tooltip_ability_item_heart7"                                                         "Сердце Галактики 7"
-		"DOTA_Tooltip_ability_item_heart7_Description"                                             ""
-		"DOTA_Tooltip_ability_item_heart7_Lore"                                                    "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart7_health_regen_percent"            "+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart7_bonus_strength"                                  "+к силе"
-		"DOTA_Tooltip_ability_item_heart7_bonus_health_max"                                "+к здоровью"
-		
-		"DOTA_Tooltip_ability_item_heart8"                                                         "Сердце Галактики 8"
-		"DOTA_Tooltip_ability_item_heart8_Description"                                             ""
-		"DOTA_Tooltip_ability_item_heart8_Lore"                                                    "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart8_health_regen_percent"            "+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart8_bonus_strength"                                  "+к силе"
-		"DOTA_Tooltip_ability_item_heart8_bonus_health_max"                                "+к здоровью"
-		
-		"DOTA_Tooltip_ability_item_heart9"                                                         "Сердце Галактики 9"
-		"DOTA_Tooltip_ability_item_heart9_Description"                                             ""
-		"DOTA_Tooltip_ability_item_heart9_Lore"                                                    "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart9_health_regen_percent"            "+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart9_bonus_strength"                                  "+к силе"
-		"DOTA_Tooltip_ability_item_heart9_bonus_health_max"                                "+к здоровью"
-		
-		"DOTA_Tooltip_ability_item_heart10"                                                         "Сердце Галактики 10"
-		"DOTA_Tooltip_ability_item_heart10_Description"                                             ""
-		"DOTA_Tooltip_ability_item_heart10_Lore"                                                    "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart10_health_regen_percent"            "+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart10_bonus_strength"                                  "+к силе"
-		"DOTA_Tooltip_ability_item_heart10_bonus_health_max"                                "+к здоровью"
-		
-		"DOTA_Tooltip_ability_item_heart11"                                                         "Сердце Галактики 11"
-		"DOTA_Tooltip_ability_item_heart11_Description"                                             ""
-		"DOTA_Tooltip_ability_item_heart11_Lore"                                                    "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart11_health_regen_percent"            "+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart11_bonus_strength"                                  "+к силе"
-		"DOTA_Tooltip_ability_item_heart11_bonus_health_max"                                "+к здоровью"
-
-
 		"DOTA_Tooltip_bootsbuff"														"Ботинки из Материи"
 		"DOTA_Tooltip_bootsbuff_Description"											""
 
@@ -4835,40 +4770,40 @@
 		"DOTA_Tooltip_ability_item_cu_fury_7_bonus_strange"                             "+к силе"
 
 	
-		"DOTA_Tooltip_ability_item_heart2"                                      "Сердце Галактики"
-		"DOTA_Tooltip_ability_item_heart2_Description"                          	""
-		"DOTA_Tooltip_ability_item_heart2_Lore"                                     "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart2_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart2_bonus_strength"                               "+к силе "
-		"DOTA_Tooltip_ability_item_heart2_bonus_health_max"                             "+к здоровью"
+		"DOTA_Tooltip_ability_item_gu_hearth"                                      "Сердце Галактики"
+		"DOTA_Tooltip_ability_item_gu_hearth_Description"                          	"<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>"
+		"DOTA_Tooltip_ability_item_gu_hearth_Lore"                                     "Это сердце извлекли из ещё живого титана."
+		"DOTA_Tooltip_ability_item_gu_hearth_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
+		"DOTA_Tooltip_ability_item_gu_hearth_bonus_strength"                               "+к силе "
+		"DOTA_Tooltip_ability_item_gu_hearth_bonus_health_max"                             "+к здоровью"
 		
-		"DOTA_Tooltip_ability_item_heart3"                                       "Сердце Галактики 2"
-		"DOTA_Tooltip_ability_item_heart3_Description"                           	""
-		"DOTA_Tooltip_ability_item_heart3_Lore"                                     "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart3_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart3_bonus_strength"                               "+к силе"
-		"DOTA_Tooltip_ability_item_heart3_bonus_health_max"                             "+к здоровью"
+		"DOTA_Tooltip_ability_item_gu_hearth_2"                                       "Сердце Галактики 2"
+		"DOTA_Tooltip_ability_item_gu_hearth_2_Description"                           	"<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>"
+		"DOTA_Tooltip_ability_item_gu_hearth_2_Lore"                                     "Это сердце извлекли из ещё живого титана."
+		"DOTA_Tooltip_ability_item_gu_hearth_2_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
+		"DOTA_Tooltip_ability_item_gu_hearth_2_bonus_strength"                               "+к силе"
+		"DOTA_Tooltip_ability_item_gu_hearth_2_bonus_health_max"                             "+к здоровью"
 		
-		"DOTA_Tooltip_ability_item_heart4"                                       "Сердце Галактики 3"
-		"DOTA_Tooltip_ability_item_heart4_Description"                           	""
-		"DOTA_Tooltip_ability_item_heart4_Lore"                                     "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart4_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart4_bonus_strength"                               "+к силе"
-		"DOTA_Tooltip_ability_item_heart4_bonus_health_max"                             "+к здоровью"
+		"DOTA_Tooltip_ability_item_gu_hearth_3"                                       "Сердце Галактики 3"
+		"DOTA_Tooltip_ability_item_gu_hearth_3_Description"                           	"<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>"
+		"DOTA_Tooltip_ability_item_gu_hearth_3_Lore"                                     "Это сердце извлекли из ещё живого титана."
+		"DOTA_Tooltip_ability_item_gu_hearth_3_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
+		"DOTA_Tooltip_ability_item_gu_hearth_3_bonus_strength"                               "+к силе"
+		"DOTA_Tooltip_ability_item_gu_hearth_3_bonus_health_max"                             "+к здоровью"
 		
-		"DOTA_Tooltip_ability_item_heart5"                                       "Сердце Галактики 4"
-		"DOTA_Tooltip_ability_item_heart5_Description"                           	""
-		"DOTA_Tooltip_ability_item_heart5_Lore"                                     "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart5_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart5_bonus_strength"                               "+к силе"
-		"DOTA_Tooltip_ability_item_heart5_bonus_health_max"                             "+к здоровью"
+		"DOTA_Tooltip_ability_item_gu_hearth_4"                                       "Сердце Галактики 4"
+		"DOTA_Tooltip_ability_item_gu_hearth_4_Description"                           	"<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>"
+		"DOTA_Tooltip_ability_item_gu_hearth_4_Lore"                                     "Это сердце извлекли из ещё живого титана."
+		"DOTA_Tooltip_ability_item_gu_hearth_4_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
+		"DOTA_Tooltip_ability_item_gu_hearth_4_bonus_strength"                               "+к силе"
+		"DOTA_Tooltip_ability_item_gu_hearth_4_bonus_health_max"                             "+к здоровью"
 		
-		"DOTA_Tooltip_ability_item_heart6"                                       "Сердце Галактики 5"
-		"DOTA_Tooltip_ability_item_heart6_Description"                           	""
-		"DOTA_Tooltip_ability_item_heart6_Lore"                                     "Это сердце извлекли из ещё живого титана."
-		"DOTA_Tooltip_ability_item_heart6_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
-		"DOTA_Tooltip_ability_item_heart6_bonus_strength"                               "+к силе"
-		"DOTA_Tooltip_ability_item_heart6_bonus_health_max"                             "+к здоровью"
+		"DOTA_Tooltip_ability_item_gu_hearth_5"                                       "Сердце Галактики 5"
+		"DOTA_Tooltip_ability_item_gu_hearth_5_Description"                           	"<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>"
+		"DOTA_Tooltip_ability_item_gu_hearth_5_Lore"                                     "Это сердце извлекли из ещё живого титана."
+		"DOTA_Tooltip_ability_item_gu_hearth_5_health_regen_percent"            				"+% к восстановлению здоровья в секунду"
+		"DOTA_Tooltip_ability_item_gu_hearth_5_bonus_strength"                               "+к силе"
+		"DOTA_Tooltip_ability_item_gu_hearth_5_bonus_health_max"                             "+к здоровью"
 		
 
 
@@ -5685,6 +5620,7 @@
 		"npc_dota_hero_skeleton_king_race" 		"Раса - Anquietas"
 		"npc_dota_hero_skywrath_mage_race" 		"Раса - Asgard"
 		"npc_dota_hero_mirana_race"             "Раса - とうほう"
+		"npc_dota_hero_void_spirit_race"             "Раса - とうほう"
 
 
 		"dota_tooltip_ability_damage_resist_angelic" 						"Ангельская защита"
