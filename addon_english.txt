@@ -1945,7 +1945,7 @@
  "DOTA_Tooltip_ability_soulblade" "Beyond the Soul"
 "DOTA_Tooltip_ability_soulblade_Description" "Deals damage in front of itself. During the sacrifice, each soul deals an additional damage of 1%%  of Health.<br></br>-----------------------------------------------<br></br>Base damage: 50 * Ability level<br></br>damage of agility: 2 * Ability level<br></br>Range : 350<br></br>-----------------------------------------------"
  "DOTA_Tooltip_ability_soulblade_Lore" "Attacking the soul is the best way to deal with the devil."
- "DOTA_Tooltip_ability_soulblade_damage" "Multiplier:"
+ "DOTA_Tooltip_ability_soulblade_damage" "Agility multiplier:"
  "DOTA_Tooltip_ability_soulblade_base_damage" "Base damage:"
  // ================================================ ======================================================================
  "DOTA_Tooltip_ability_soulring" "Soul Field" 
@@ -1953,6 +1953,7 @@
  "DOTA_Tooltip_ability_soulring_Lore" "Soul Draining"  
  "DOTA_Tooltip_ability_soulring_damage" "Multiplier:"
  "DOTA_Tooltip_ability_soulring_base_damage" "Base damage:"
+ "DOTA_Tooltip_modifier_soulring" "Soul Field"
  // ================================================ ======================================================================
  "DOTA_Tooltip_ability_magic_blade" "Void Blade"
 "DOTA_Tooltip_ability_magic_blade_Description" "Each attack siphons enemy power and deals additional magical damage<br></br>-----------------------------------------------<br></br>Additional damage: strength * Ability level <br ></br>Converts to damage: 2 * Ability level<br></br>Duration: 5<br></br>-----------------------------------------------"
@@ -1966,7 +1967,11 @@
  "DOTA_Tooltip_ability_metamorphosis_bonus_damage" "Bonus damage:"
  "DOTA_Tooltip_ability_metamorphosis_min_damage" "Min damage spirit:"
  "DOTA_Tooltip_ability_metamorphosis_max_damage" "Max damage spirit:"
- "DOTA_Tooltip_ability_metamorphosis_heal_percent" "%Heal:"
+		"DOTA_Tooltip_ability_metamorphosis_heal_percent"	"Heal:"
+		"DOTA_Tooltip_modifier_magic_blade_buff"			"Void blade"
+		"DOTA_Tooltip_modifier_magic_blade_debuff"			"Void blade"
+		"DOTA_Tooltip_modifier_exorcism" "Metamorphosis"
+ 		"DOTA_Tooltip_modifier_metamorphosis"		"Metamorphosis"
 
  
  
@@ -3548,6 +3553,9 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_attack_range" 		"Bonus attack range:"  
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_all_damage_bonus_pct" 		"%Outgoing damage amplification:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_strength" 			"+All stats:"   
+		
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r"              		"Cursed death' scythe"
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 			"Can be abtained by completing Casters' quest"
  
  
  
@@ -4883,6 +4891,7 @@ Base MMR * Multiplier<br>
 "npc_dota_hero_skywrath_mage_race" 		"Race - Asgard"
 "npc_dota_hero_mirana_race"             "Race - とうほう"
 "npc_dota_hero_void_spirit_race" "Race - とうほう"
+"npc_dota_hero_antimage_race"        	"Race - Asgard"
 
 
 "dota_tooltip_ability_damage_resist_angelic" "Angelic protection"
