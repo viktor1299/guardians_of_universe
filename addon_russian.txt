@@ -2074,7 +2074,7 @@
 		"DOTA_Tooltip_modifier_abstrusemoon_shadow_buff_Description"	"После каждого удара повышает силу атаки<br></br>Увеличивает Урон на：Уровень * 2<br></br>Продолжительность：10"
 		// =====================================================================================================================
 		
-			"DOTA_Tooltip_ability_demon_hunter"	"Охотник на демонов"
+		"DOTA_Tooltip_ability_demon_hunter"	"Охотник на демонов"
 		"DOTA_Tooltip_ability_demon_hunter_Description"	"Охотник захватывает души противников, каждая душа дает +1 ко всем атрибутам. Максимальный предел 50. Активируя высвобождает души,для усиления других навыков. Каждые 100 душ даруют вам +10 к атрибутам. Эффект длится 10 секунд"
 		"DOTA_Tooltip_ability_demon_hunter_Lore"	"Возьми источник власти дьявола"
 		"DOTA_Tooltip_ability_demon_hunter_stats"	"Статы:"
@@ -2086,17 +2086,20 @@
 		"DOTA_Tooltip_ability_soulblade"	"По ту сторону души"
 		"DOTA_Tooltip_ability_soulblade_Description"	"Наносит Урон перед собой. Во время жертвоприношения, каждая душа наносит дополнительный Урон в размере 1%% от здоровья.<br></br>-----------------------------------------------<br></br>базовый урон: 50 * Уровень способности<br></br>Урон от спермы: 2 * Уровень способности<br></br>Радиус: 350<br></br>-----------------------------------------------"
 		"DOTA_Tooltip_ability_soulblade_Lore"	"Атаковать душу это лучший способ иметь дела с дьяволом."
-		"DOTA_Tooltip_ability_soulblade_damage"	"Множитель:"
-		"DOTA_Tooltip_ability_soulblade_base_damage"	"базовый урон:"
+		"DOTA_Tooltip_ability_soulblade_damage"	"Множитель ловкости:"
+		"DOTA_Tooltip_ability_soulblade_base_damage"	"Базовый урон:"
 		// =====================================================================================================================
 		"DOTA_Tooltip_ability_soulring"	"Поле души"
 		"DOTA_Tooltip_ability_soulring_Description"	"Создает поле, поглощающее жизнь врагов. Во время жертвоприношения каждая душа поднимает Урон на 2%%. Double radius when use&nbsp;Metamorphosis.<br></br>-----------------------------------------------<br></br>Урон в секунду: 1 + 0.5 * сила * Уровень способности<br></br>база ущерб: 10 *&nbsp;Уровень способности<br></br>Скорость поглощения: 0.01 * Уровень способности<br></br>Радиус： 400<br></br>-----------------------------------------------"
 		"DOTA_Tooltip_ability_soulring_Lore"	"Вывасывание души"
 		"DOTA_Tooltip_ability_soulring_damage"	"Множитель:"
-		"DOTA_Tooltip_ability_soulring_base_damage"	"базовый урон:"
+		"DOTA_Tooltip_ability_soulring_base_damage"	"Базовый урон:"
+
+		"DOTA_Tooltip_modifier_soulring"		"Поле души"
+
 		// =====================================================================================================================
 		"DOTA_Tooltip_ability_magic_blade"	"Пустотный клинок"
-		"DOTA_Tooltip_ability_magic_blade_Description"	"Каждая атака вытягивает силу противника и наносит дополнительный Урон Гарри Поттером<br></br>-----------------------------------------------<br></br>Дополнительный Урон: сила * Уровень способности<br></br>Превращает в Урон: 2 * Уровень способности<br></br>длительность:  5<br></br>-----------------------------------------------"
+		"DOTA_Tooltip_ability_magic_blade_Description"	"Каждая атака вытягивает силу противника и наносит дополнительный Урон магией<br></br>-----------------------------------------------<br></br>Дополнительный Урон: сила * Уровень способности<br></br>Превращает в Урон: 2 * Уровень способности<br></br>длительность:  5<br></br>-----------------------------------------------"
 		"DOTA_Tooltip_ability_magic_blade_Lore"	"Кража жизни"
 		"DOTA_Tooltip_ability_magic_blade_attack"	"Атака:"
 		"DOTA_Tooltip_ability_magic_blade_damage"	"базовый урон:"
@@ -2107,13 +2110,11 @@
 		"DOTA_Tooltip_ability_metamorphosis_bonus_damage"	"Дополнительный Урон:"
 		"DOTA_Tooltip_ability_metamorphosis_min_damage"	"Мин Урон духа:"
 		"DOTA_Tooltip_ability_metamorphosis_max_damage"	"Макс Урон духа:"
-		"DOTA_Tooltip_ability_metamorphosis_heal_percent"	"Хилка:"
-		
-				
-			
-
-				
-
+		"DOTA_Tooltip_ability_metamorphosis_heal_percent"	"Востановление здоровья:"
+		"DOTA_Tooltip_modifier_magic_blade_buff"			"Пустотный клинок"
+		"DOTA_Tooltip_modifier_magic_blade_debuff"			"Пустотный клинок"
+		"DOTA_Tooltip_modifier_exorcism" "Метаморфоза"
+ 		"DOTA_Tooltip_modifier_metamorphosis"		"Метаморфоза"
 
 
 
@@ -4277,7 +4278,8 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_all_damage_bonus_pct" 		"+% к всему исходящему урону: " 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_strength" 			"+ко всем атрибутам:"   
 
-
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r"              		"Проклятая Коса Смерти"
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 			"Можно получить выполнив квест за Кастера"
  
 
         "DOTA_Tooltip_ability_item_stellar_flare"								"Звёздная вспышка"
@@ -4854,7 +4856,8 @@
 		"DOTA_Tooltip_ability_item_gu_armor_4_mag_res" 									"+% к магическому сопротивлению "
 		"DOTA_Tooltip_ability_item_gu_armor_4_health_per_str" 							"+к здоровью за единицу силы "
 
-
+		"DOTA_Tooltip_ability_item_gu_armor_4_r"              						"Накидка Бога"
+		"DOTA_Tooltip_ability_item_gu_armor_4_r_Description" 							"Можно получить выполнив квест за Танка"
 
 		"DOTA_Tooltip_ability_item_armor2"                                           "Броня титана"
 		"DOTA_Tooltip_ability_item_armor2_Description"									"<h1>Пассивная: Титан</h1> Дарует союзникам %health_max_aoe% здоровья и %bonus_armor_aoe% брони в радиусе %Range%, при этом снижая противнику %bonus_armor_debuff% брони."
@@ -5620,7 +5623,8 @@
 		"npc_dota_hero_skeleton_king_race" 		"Раса - Anquietas"
 		"npc_dota_hero_skywrath_mage_race" 		"Раса - Asgard"
 		"npc_dota_hero_mirana_race"             "Раса - とうほう"
-		"npc_dota_hero_void_spirit_race"             "Раса - とうほう"
+		"npc_dota_hero_void_spirit_race"        "Раса - とうほう"
+		"npc_dota_hero_antimage_race"        	"Раса - Asgard"
 
 
 		"dota_tooltip_ability_damage_resist_angelic" 						"Ангельская защита"
@@ -6641,6 +6645,9 @@
 		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_int"				"Интеллект:"
 		"DOTA_Tooltip_ability_item_desolator_anubis_resistance"				"%Сопротивление магии:"
 		"DOTA_Tooltip_ability_item_desolator_anubis_as"						"Скорость атаки:"
+
+		"DOTA_Tooltip_ability_item_desolator_anubis_r"								"Дезолятор Анубиса"
+		"DOTA_Tooltip_ability_item_desolator_anubis_r_Description"					"Можно получить выполнив квест за Физического ДД"
 
 		"DOTA_Tooltip_ability_item_ancient_technology"								"Технологии Древних"
 		"DOTA_Tooltip_ability_item_ancient_technology_Description"					"<h1>Пассивная: Вознесение</h1> Если данный предмет находится в инвентаре у героя то все союзные герои а также владелец предмета после смерти будут оставлять за собой Надгробный Камень с помощью которого его можно воскресить. Владелец предмета будет неуязвим пока воскрешает союзника."
