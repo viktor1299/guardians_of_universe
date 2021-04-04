@@ -3549,7 +3549,8 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_all_damage_bonus_pct" 		"%Outgoing damage amplification:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_strength" 			"+All stats:"   
  
- 
+ 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r"              		"Cursed death's scythe"
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 			"Item is abtained by completing Caster's quest"
  
  
          "DOTA_Tooltip_ability_item_stellar_flare"	"Stellar flare"
@@ -4125,6 +4126,8 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_ability_item_gu_armor_4_mag_res" 									"+Magical resistance:"
 		"DOTA_Tooltip_ability_item_gu_armor_4_health_per_str" 							"+Health per 1 strength:"
 
+		"DOTA_Tooltip_ability_item_gu_armor_4_r"              						"God's cape"
+		"DOTA_Tooltip_ability_item_gu_armor_4_r_Description" 							"Item is abtained by completing Tank's quest."
 
 
 					    "DOTA_Tooltip_ability_item_armor2"                                                         "Titan armor"
@@ -5902,7 +5905,10 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_int"				"Intelligence:"
 		"DOTA_Tooltip_ability_item_desolator_anubis_resistance"				"%Magical resistance:"
 		"DOTA_Tooltip_ability_item_desolator_anubis_as"						"Attack speed:"
-
+		
+		"DOTA_Tooltip_ability_item_desolator_anubis_r"								"Anubis' desolator"
+		"DOTA_Tooltip_ability_item_desolator_anubis_r_Description"					"Item is abtained by completing DD's quest."
+		
 		"DOTA_Tooltip_ability_item_ancient_technology"								"Ancients' technologies"
 		"DOTA_Tooltip_ability_item_ancient_technology_Description"					"<h1>Passive: Ascension</h1> If this item is in hero's inventory, then all ally heroes will leave a Tombstone after death which allows to resurrect them. Owner is invulnerable during resurrection."	
 		"DOTA_Tooltip_ability_item_ancient_technology_int"                          "Intelligence:"	
