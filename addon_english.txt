@@ -3549,7 +3549,8 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_all_damage_bonus_pct" 		"%Outgoing damage amplification:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_strength" 			"+All stats:"   
  
- 
+ 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r"              		"Cursed death's scythe"
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 			"Item is abtained by completing Caster's quest"
  
  
          "DOTA_Tooltip_ability_item_stellar_flare"	"Stellar flare"
@@ -3681,31 +3682,31 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
  "DOTA_Tooltip_Ability_item_magidesolator" "Magical scythe"
- "DOTA_Tooltip_Ability_item_magidesolator_Description" "<h1>Passive: Magical Instability</h1>  Each attack will reduce the magical resistance by %corruption_mag%%.\n <h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
  When you cast any ability, you will release a charge that reduces magical resistance of targets
  "DOTA_Tooltip_Ability_item_magidesolator_bonus_mana" "Mana:"
  "DOTA_Tooltip_Ability_item_magidesolator_amp" "Spell amplification:"
  
  "DOTA_Tooltip_Ability_item_magidesolator2" "Magical scythe 2"
- "DOTA_Tooltip_Ability_item_magidesolator2_Description" "<h1>Passive: Magical Instability</h1>  Each attack will reduce the magical resistance by a certain amount. <h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator2_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
  "DOTA_Tooltip_Ability_item_magidesolator2_bonus_mana" "Mana:"
  		"DOTA_Tooltip_Ability_item_magidesolator2_mana_regen"		"Mana regeneration:"
  "DOTA_Tooltip_Ability_item_magidesolator2_amp" "Spell amplification:"
  
  "DOTA_Tooltip_Ability_item_magidesolator3" "Magical scythe 3"
- "DOTA_Tooltip_Ability_item_magidesolator3_Description" "<h1>Passive: Magical Instability</h1>  Each attack will reduce the magical resistance by a certain amount. <h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator3_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
  "DOTA_Tooltip_Ability_item_magidesolator3_bonus_mana" "Mana:"
  		"DOTA_Tooltip_Ability_item_magidesolator3_mana_regen"		"Mana regeneration:"
  "DOTA_Tooltip_Ability_item_magidesolator3_amp" "Spell amplification:"
  
  "DOTA_Tooltip_Ability_item_magidesolator4" "Magical scythe 4"
- "DOTA_Tooltip_Ability_item_magidesolator4_Description" "<h1>Passive: Magical Instability</h1>  Each attack will reduce the target's magical resistance by a certain amount. <h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator4_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
  "DOTA_Tooltip_Ability_item_magidesolator4_bonus_mana" "Mana:"
  "DOTA_Tooltip_Ability_item_magidesolator4_mana_regen"		"Mana regeneration:"
  "DOTA_Tooltip_Ability_item_magidesolator4_amp" "Spell amplification:"
  
  "DOTA_Tooltip_Ability_item_magidesolator5" "Magical scythe 5"
- "DOTA_Tooltip_Ability_item_magidesolator5_Description" "<h1>Passive: Magical Instability</h1>  Each attack will reduce the magical resistance by a certain amount. <h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator5_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
  "DOTA_Tooltip_Ability_item_magidesolator5_bonus_mana" "Mana:"
  "DOTA_Tooltip_Ability_item_magidesolator5_mana_regen"		"Mana regeneration:"
  "DOTA_Tooltip_Ability_item_magidesolator5_amp" "Spell amplification:"
@@ -4125,6 +4126,8 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_ability_item_gu_armor_4_mag_res" 									"+Magical resistance:"
 		"DOTA_Tooltip_ability_item_gu_armor_4_health_per_str" 							"+Health per 1 strength:"
 
+		"DOTA_Tooltip_ability_item_gu_armor_4_r"              						"God's cape"
+		"DOTA_Tooltip_ability_item_gu_armor_4_r_Description" 							"Item is abtained by completing Tank's quest."
 
 
 					    "DOTA_Tooltip_ability_item_armor2"                                                         "Titan armor"
@@ -5902,7 +5905,10 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_int"				"Intelligence:"
 		"DOTA_Tooltip_ability_item_desolator_anubis_resistance"				"%Magical resistance:"
 		"DOTA_Tooltip_ability_item_desolator_anubis_as"						"Attack speed:"
-
+		
+		"DOTA_Tooltip_ability_item_desolator_anubis_r"								"Anubis' desolator"
+		"DOTA_Tooltip_ability_item_desolator_anubis_r_Description"					"Item is abtained by completing DD's quest."
+		
 		"DOTA_Tooltip_ability_item_ancient_technology"								"Ancients' technologies"
 		"DOTA_Tooltip_ability_item_ancient_technology_Description"					"<h1>Passive: Ascension</h1> If this item is in hero's inventory, then all ally heroes will leave a Tombstone after death which allows to resurrect them. Owner is invulnerable during resurrection."	
 		"DOTA_Tooltip_ability_item_ancient_technology_int"                          "Intelligence:"	
@@ -5930,6 +5936,78 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_modifier_item_stormcrafter_Description" "Slowed down by 40%"
 		
 		"npc_dota_hero_mirana" "Yagokoro Eirin"
+		
+		"no_race" "Без расы"
+
+		"battle_pass_text" "Guardians of Universe Batlle Pass"
+		"battle_pass_text_des" "Gain MMR to recieve unique effects and bonuses with each level!"
+		"battle_pass_lvl" "Level:"
+		"battle_pass_progress_standart" "Battle Pass Progress"
+		"battle_pass_progress_premium" "Upgraded Battle Pass Progress"
+		"battle_pass_standart" "Battle Pass"
+		"battle_pass_premium" "Upgraded Battle Pass"
+"battle_pass_lvl_1" "<font color='#b55904'>Level 1</font> <br> Rating required: 100<br><br>You will recieve unique level 1 effect for your hero!" 
+		"battle_pass_lvl_2" "<font color='#83b504'>Level 2</font> <br> Rating required: ?<br><br>Your hero will recieve unique level 1 colour outline from above!"
+		"battle_pass_lvl_3" "<font color='#048cb5'>Level 3</font> <br> Rating required: ?<br><br>Your hero will recieve unique level 1 effect while moving!"
+		"battle_pass_lvl_4" "<font color='#9204b5'>Level 4</font> <br> Rating required: ?<br><br>Your hero will recieve unique level 2 colour outline from above!"
+		"battle_pass_lvl_5" "<font color='#57ff52'>Level 5</font> <br> Rating required: ?<br><br>Using items - Small and medium health potions - won't consume them!"
+		"battle_pass_lvl_6" "<font color='#525efa'>Level 6</font> <br> Rating required: ?<br><br>Using items - Small and medium mana potions - won't consume them!"
+		"battle_pass_lvl_7" "<font color='#ff52a9'>Level 7</font> <br> Rating required: ?<br><br>Heal beam's cooldown is reduced by 80%!"
+		"battle_pass_lvl_8" "<font color='#0c8731'>Level 8</font> <br> Rating required: ?<br><br>You will recieve unique level 2 effect for your hero!"
+		"battle_pass_lvl_9" "<font color='#6eba59'>Level 9</font> <br> Rating required: ?<br><br>Your hero will recieve unique level 3 colour outline from above!"
+		"battle_pass_lvl_10" "<font color='#b4ba59'>Level 10</font> <br> Rating required: ?<br><br>Your hero will recieve unique level 1 effect while moving!"
+		"battle_pass_lvl_11" "<font color='#ed4c2f'>Level 11</font> <br> Rating required: ?<br><br>You recieve 2x experience from items - Experience stone and Consciousness talisman!"
+		"battle_pass_lvl_12" "<font color='#ed2f94'>Level 12</font> <br> Rating required: ?<br><br>All grades of Galaxy have cooldown reduction values increased by 10!"
+		"battle_pass_lvl_13" "<font color='#11c4fa'>Level 13</font> <br> Rating required: ?<br><br>You have built in Aghanim scepter from the start of a game!"
+		"battle_pass_lvl_14" "<font color='#11c4fa'>Level 14</font> <br> Rating required: ?<br><br>All Support role heroes have healing increased by 100%!"
+		"battle_pass_lvl_15" ""
+
+		"battle_pass_premium_lvl_1" "" 
+		"battle_pass_premium_lvl_2" ""
+		"battle_pass_premium_lvl_3" ""
+		"battle_pass_premium_lvl_4" ""
+		"battle_pass_premium_lvl_5" ""
+		"battle_pass_premium_lvl_6" ""
+		"battle_pass_premium_lvl_7" ""
+		"battle_pass_premium_lvl_8" ""
+		"battle_pass_premium_lvl_9" ""
+		"battle_pass_premium_lvl_10" ""
+		"battle_pass_premium_lvl_11" ""
+		"battle_pass_premium_lvl_12" ""
+		"battle_pass_premium_lvl_13" ""
+		"battle_pass_premium_lvl_14" ""
+		"battle_pass_premium_lvl_15" ""
+
+		"DOTA_Tooltip_ability_item_started_key"								"Stargate key"
+		"DOTA_Tooltip_ability_item_started_key_Description"					"Collect 6 Stargate keys to get full address."
+
+		"npc_gu_vase" 	"Vase"
+		"npc_gu_box" 	"Treasure box"
+
+		"npc_starter_boss" 	"Keeper"
+		"npc_starter_mob_1" "Stray Warrior"
+		"npc_starter_mob_2" "Caveman Warrior"
+
+
+		"prolog_qvest_end" "Quest is completed!" 
+		"prolog_qvest_start" "New quest is recieved!" 
+		"hammond_repli_1" "Initiate address dialling!" 
+		"hammond_repli_2" "Our target is the R3H-439 planet, an unknown signal has came from it."
+		"hammond_repli_3" "Mission's goal - reckon! According to MALP's data the planet is habitable, but we couldn't find a DHD."
+		"hammond_repli_4" "I won't be able to keep contact through the subspace after you pass through the stargate."
+		"hammond_repli_5" "Stargates are activated! Good luck!"
+
+		"hammond_prolog_repli_1" "You have successfully got though the stargate, but as expected DHD was destroyed or lost over the years."
+		"hammond_prolog_repli_2" "You have to search this area, according to MALP's data there are artefacts which contain address' parts."
+		"hammond_prolog_repli_3" "Collect all 6 parts to get the Stargate address!"
+		"hammond_prolog_repli_4" "You have found DHD's keeper! Kill it to get it!"
+		"hammond_prolog_repli_5" "Excellent job! DHD is retrieved, find other stargate and reach the collected address!"
+		"hammond_prolog_repli_6" "Excellent job! DHD is retrieved, but you have yet to collect all all keys, find them to figure out destination point's address!"
+		"hammond_prolog_repli_7" "You have collected all keys! Now you know needed address! Reach the 2nd stargate to dial the address."
+		"hammond_prolog_repli_8" "You have collected all keys! Now you know needed address! But you still have to find a DHD, find a way to retrieve it!"
+
+		"hammond_prolog_repli_9" "Excellent job! You are ready for dialling the address. I won't be able to keep contact with you after team comes through it."
+		"hammond_prolog_repli_10" "I wish you luck, no one knows what awaits you on the other side, but we know one thing for sure - whoever sent the signal will receive it!"
 }
 
 

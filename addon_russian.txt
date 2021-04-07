@@ -6707,7 +6707,7 @@
 		"battle_pass_premium_lvl_15" ""
 
 
-		"DOTA_Tooltip_ability_item_started_key"								"Ключь Звёздных Врат"
+		"DOTA_Tooltip_ability_item_started_key"								"Ключ Звёздных Врат"
 		"DOTA_Tooltip_ability_item_started_key_Description"					"Соберите 6 ключей для получения полного адреса."
 
 		"npc_gu_vase" 	"Ваза"
