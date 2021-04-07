@@ -6689,19 +6689,6 @@
 		"battle_pass_lvl_13" "<font color='#11c4fa'>Уровень: 13</font> <br> Нужно рейтинга: ?<br><br>У вас с начала игры будет встроенный Аганим!"
 		"battle_pass_lvl_14" "<font color='#11c4fa'>Уровень: 14</font> <br> Нужно рейтинга: ?<br><br>У всех героев с основным классом Поддержка весь исходящий отхил будет увеличен на 100%!"
 		"battle_pass_lvl_15" ""
-		"battle_pass_lvl_16" ""
-		"battle_pass_lvl_17" ""
-		"battle_pass_lvl_18" ""
-		"battle_pass_lvl_19" ""
-		"battle_pass_lvl_20" ""
-		"battle_pass_lvl_21" ""
-		"battle_pass_lvl_22" ""
-		"battle_pass_lvl_23" ""
-		"battle_pass_lvl_24" ""
-		"battle_pass_lvl_25" ""
-		"battle_pass_lvl_26" ""
-		"battle_pass_lvl_27" ""
-		"battle_pass_lvl_28" ""
 		
 		"battle_pass_premium_lvl_1" "" 
 		"battle_pass_premium_lvl_2" ""
@@ -6718,19 +6705,44 @@
 		"battle_pass_premium_lvl_13" ""
 		"battle_pass_premium_lvl_14" ""
 		"battle_pass_premium_lvl_15" ""
-		"battle_pass_premium_lvl_16" ""
-		"battle_pass_premium_lvl_17" ""
-		"battle_pass_premium_lvl_18" ""
-		"battle_pass_premium_lvl_19" ""
-		"battle_pass_premium_lvl_20" ""
-		"battle_pass_premium_lvl_21" ""
-		"battle_pass_premium_lvl_22" ""
-		"battle_pass_premium_lvl_23" ""
-		"battle_pass_premium_lvl_24" ""
-		"battle_pass_premium_lvl_25" ""
-		"battle_pass_premium_lvl_26" ""
-		"battle_pass_premium_lvl_27" ""
-		"battle_pass_premium_lvl_28" ""
+
+
+		"DOTA_Tooltip_ability_item_started_key"								"Ключь Звёздных Врат"
+		"DOTA_Tooltip_ability_item_started_key_Description"					"Соберите 6 ключей для получения полного адреса."
+
+		"npc_gu_vase" 	"Ваза"
+		"npc_gu_box" 	"Коробка с драгоценностями"
+
+		"npc_starter_boss" 	"Хранитель"
+		"npc_starter_mob_1" "Заблудший Воин"
+		"npc_starter_mob_2" "Пещерный Воин"
+
+
+		"prolog_qvest_end" "Задание выполнено!" 
+		"prolog_qvest_start" "Получено новое задание!" 
+		"hammond_repli_1" "Начать набор адреса!" 
+		"hammond_repli_2" "Наша цель планета под названием p3x-439, к нам пришёл неизвестный сигнал с этой планеты."
+		"hammond_repli_3" "Цель миссии - разведка! По данным датчиков МАЛП планета пригодна для жизни, но наличие наборного устройства определить не удалось."
+		"hammond_repli_4" "После того как вы пройдёте через врата я смогу поддерживать с вами связь через подпространство."
+		"hammond_repli_5" "Звёздные Врата активированы! Желаю удачи!"
+
+		"hammond_prolog_repli_1" "Вы успешно прошли через Врата, но как и ожидалось наборное устройство уничтожено либо утеряно с годами."
+		"hammond_prolog_repli_2" "Вам нужно иследовать данную местность, по данным МАЛП здесь есть артефакты которые содержат фрагменты адреса."
+		"hammond_prolog_repli_3" "Соберите все 6 фрагментов для получения адреса врат!"
+		"hammond_prolog_repli_4" "Вы нашли хранителя наборного устройства! Убейте его чтобы получить его!"
+		"hammond_prolog_repli_5" "Отличная работа! Наборное устройство востановленно, найдите другие Звуздные Врата и проследуйте по полученному адресу!"
+		"hammond_prolog_repli_6" "Отличная работа! Наборное устройство востановленно, но вы не собрали все ключи, найдите их чтобы узнать адрес точки назначения!"
+		"hammond_prolog_repli_7" "Все ключи собраны! Теперь вы знаете нужный вам адрес! Пройдите к 2 вратам для набора адреса."
+		"hammond_prolog_repli_8" "Все ключи собраны! Теперь вы знаете нужный вам адрес! Но наборное устройство не найденно, найдите способ его восстановить!"
+
+		"hammond_prolog_repli_9" "Отличная работа! Вы готовы к набору адреса, после прохода через врата я не смогу больше поддерживать с вами связь."
+		"hammond_prolog_repli_10" "Удачи вам, никто не знает что вас ждёт на другой стороне, но одно мы знаем - кто бы не послал сигнал о помощи, он её получит!"
+
+
+
+
+
+
 
 
 }
