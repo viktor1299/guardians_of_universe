@@ -6,8 +6,8 @@
 "addon_game_name" "Guardians of Universe"
 
 
-	"princess_of_the_universe" "Guardian of the Universe"
-	"npc_dota_holdout_goodguys_fort" "Guardian of the Universe"
+	"princess_of_the_universe" "Andromeda"
+	"npc_dota_holdout_goodguys_fort" "Andromeda"
 
 "op_help" "FAQ"
 
@@ -46,7 +46,7 @@
 
 	"DOTA_HUD_RoundStart" "The Battle Begins!"
 
-	"dota_game_end_victory_title_radiant" "Guardian of the Universe is Saved!"
+	"dota_game_end_victory_title_radiant" "Andromeda is Saved!"
 	"dota_game_end_victory_title_dire" "You were defeated!"
 
 
@@ -866,7 +866,7 @@
  		"DOTA_Tooltip_ability_kurumi_seven_bullet"												"Seventh Bullet: Zayin"
 		"DOTA_Tooltip_ability_kurumi_seven_bullet_Description"									"Seventh Bullet - Locally stops time of the target and deals damage, applies basic dispel to the target."
 		"DOTA_Tooltip_ability_kurumi_seven_bullet_speed"										"Bullet's speed:"
-		"DOTA_Tooltip_ability_kurumi_seven_bullet_damage"										"damage:"
+		"DOTA_Tooltip_ability_kurumi_seven_bullet_damage"										"Damage:"
 		"DOTA_Tooltip_ability_kurumi_seven_bullet_duration"										"Duration: "	
 		"DOTA_Tooltip_ability_kurumi_seven_bullet_health_cost"									"%Health cost:"
 
@@ -909,7 +909,7 @@
 		"DOTA_Tooltip_ability_kurumi_devouring_time_health_steal"								"Health drain:"
  
  "DOTA_Tooltip_Ability_kurumi_teleport" "Twelfth Bullet: Yude Bet"
-"DOTA_Tooltip_Ability_kurumi_teleport_Description" "The ability to travel in time or send objects to the past. The side effect of changing history in the past can lead to the creation of alternative timelines. The limit of the range of time travel remains unknown: at least for decades, potentially until any moment , assuming Kurumi has enough magical energy to do it. "
+"DOTA_Tooltip_Ability_kurumi_teleport_Description" "The ability to travel in time or send objects to the past. The side effect of changing history in the past can lead to the creation of alternative timelines. The limit of the range of time travel remains unknown: at least for decades, potentially until any moment , assuming Kurumi has enough magical energy to do it."
 "DOTA_Tooltip_Ability_kurumi_teleport_cd" "Cooldown:" 
  
 "DOTA_Tooltip_Ability_kurumi_teleport_release" "Twelfth Bullet: Yude Bet"
@@ -1751,7 +1751,7 @@
 "npc_dota_hero_luna" "AH-1Z Super Cobra"
 "npc_dota_hero_witch_doctor" "BMP-2"
 "npc_dota_hero_nevermore" "F-35"
-"npc_cu_mq9" "MQ-9 Reaper"
+"npc_cu_mq9" "F-16 Falcon"
 "npc_dota_hero_dark_seer" "2C1 «Gvozdika»"
 "npc_dota_hero_bristleback" "AH-64D «Apache»"
 "npc_dota_hero_magnataur" "Bychara"
@@ -1787,11 +1787,11 @@
  "DOTA_Tooltip_ability_marisa_Lore" "Lesson of Marisa on Rainbow beam: 1. Concentrate 2. Gently whisper the spell in ミニ 八卦炉 (Mini Hakkero) 3. Target the enemy 4. Now unleash your deadly power of love! "
  
  // Marisa Aura
- "DOTA_Tooltip_ability_marisa_aura" "Star Aura"
- "DOTA_Tooltip_ability_marisa_aura_Description" "A %radius% radius aura that increases maximal health by %health_bonus% and mana by %mana_bonus%, and also increases health regeneration by %health_regen% and mana regeneraion by %mana_regen%.
+"DOTA_Tooltip_ability_marisa_aura"                										"Star aura"
+ "DOTA_Tooltip_ability_marisa_aura_Description" "A %radius% radius aura that increases maximal health by %health_bonus% and mana by %mana_bonus%, and also increases health regeneration by %health_regen% and mana regeneraion by %mana_regen%."
 
- "DOTA_Tooltip_modifier_marisa_aura_buff" "Star Aura"
- "DOTA_Tooltip_modifier_marisa_aura_buff_Description" "+ %dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% Health +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health regeneretion, +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana regeneration. "
+ "DOTA_Tooltip_modifier_marisa_aura_buff"												"Star aura"
+ "DOTA_Tooltip_modifier_marisa_aura_buff_Description" "+ %dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% Health +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health regeneretion, +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana regeneration."
  // Marisa Starfall
  "DOTA_Tooltip_ability_marisa_starfall" "Starfall"
  "DOTA_Tooltip_ability_marisa_starfall_Description" "While the skill is active, stars that damage enemies and heal allies fall from the sky."
@@ -2482,7 +2482,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_bvo_rory_skill_4_modifier" "Damage deflection"
 		"DOTA_Tooltip_bvo_rory_skill_4_modifier_enemy" "You recieve part of damage dealt to Rori"
 
-		"DOTA_Tooltip_ability_bvo_rory_skill_5" "Axe blow"
+		"DOTA_Tooltip_ability_bvo_rory_skill_5" "Axe strike"
 		"DOTA_Tooltip_ability_bvo_rory_skill_5_Description" "Rori hits enemy with her axe dealing colossal damage to all enemies within range of the hit."
 		"DOTA_Tooltip_ability_bvo_rory_skill_5_base_damage" "Damage:"
 		"DOTA_Tooltip_ability_bvo_rory_skill_5_agi_as_damage_per_stack" "Damage per agility:"
@@ -3470,8 +3470,8 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  
  
  
- "DOTA_Tooltip_Ability_item_givelife" "Galactic Split"
-"DOTA_Tooltip_Ability_item_givelife_Description" "When cast, splits the galaxy and travels back in time, giving you an extra life."
+ "DOTA_Tooltip_Ability_item_givelife" "Galaxy Split"
+"DOTA_Tooltip_Ability_item_givelife_Description" "<h1>Active: Galaxy split</h1> Lord of the Universe knew the secret to travel back in time. You get an attempt to travel back in time to save Andromeda."
  
  
  
@@ -4505,9 +4505,9 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 /// Б И О Г Р А Ф И Я  П Е Р С О Н А Ж Е Й///
 
  "npc_dota_hero_abaddon_hype" "One of many, faceless wanderer. The youngest son of landlord family. Went on adventures to seek fame with his loyal mount and died on a battlefield. His ghost wandered for centuries until the beginning guardian war."
- "npc_dota_hero_enigma_hype" "Minor deity, created by faith of people. Human unconsciousness sustains life of this creature, controlling gravity power. After despairing monarch spreaded knowledge of it, assumed form of an ancient princess."
+ "npc_dota_hero_enigma_hype" "Minor deity, created by faith of people. Human unconsciousness sustains life of this creature, controlling gravity power. After despairing monarch spreaded knowledge of it, assumed form of Andromeda."
  "npc_dota_hero_ember_spirit_hype" "Shana is an extremely powerful girl with devastating fire spells."
- "npc_dota_hero_tinker_hype" "Magical girl, who have spent enormous effort to save her best friend. Some time after becoming entity balancing Madoka, Homura chose to join guardian forces."
+ "npc_dota_hero_tinker_hype" "Magical girl, who have spent enormous effort to save her best friend. Some time after becoming entity balancing Madoka, Homura chose to join Andromeda's forces."
  "npc_dota_hero_furion_hype" "Itsuka Kotori (五河琴里 いつか ことり Itsuka Kotori?) is one of the main characters of Date A Live. Half-sister of Shido, secretly works for the Ratatosk organization and is the commander of the airship Fraxinus. "
  "npc_dota_hero_bloodseeker_hype" "Grishch is the son of the ATO Veteran who does not understand what his dad went through. He himself is a vegetable that cannot achieve anything on his own and is forced to simply exist in this evil world."
  "npc_dota_hero_weaver_hype" "Kurumi Tokisaki (時崎 狂三 ときさき くるみ Tokisaki Kurumi?) is the third spirit Shido met. Because of her violent actions, she is referred to as the Worst Spirit (最 悪 の 精 霊, Saiaku no Seirei).She is the first spirit to act as an antagonist in the Date A Live series. " 
@@ -4516,11 +4516,11 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "npc_dota_hero_terrorblade_hype" "Vlad is a character soaked in pain and humiliation who has accumulated all his hatred of the world in himself for many years, but times change, someone remains the same, but Vlad is not who he was before ... Feel his power!"
  "npc_dota_hero_sniper_hype" "After an unlucky error in the code, the well-known Sniper became a Sniper and acquired a new power of destruction of the universe."
  "npc_dota_hero_elder_titan_hype" "Once upon a time 4 people lived in peace until the people of the Earth Mages unleashed a war ..."
- "npc_dota_hero_dark_willow_hype" "Megumin is a very powerful explosive magician, capable of crushing any enemy."
+ "npc_dota_hero_dark_willow_hype" "Megumin is a very powerful explosive magician, capable of crushing any enemy. She has strong passion for using her magic so it didn't take long to persuade her to join Andromeda's army."
  "npc_dota_hero_axe_hype" "A tall, beautiful young woman, Darkness gives the appearance of a cool beauty. She is well-endowed and also has light blue eyes and straight, long blonde hair, usually kept in a ponytail tied with a braid and red hair clips secured on both sides of her bangs."
  "npc_dota_hero_pudge_hype" "Standard Pudge because what custom game can exist without Pudge ?."
  "npc_dota_hero_grimstroke_hype" "Pyotr Alekseevich Poroshenko (Ukrainian Petro Oleksiyovich Poroshenko; born September 26, 1965, Bolgrad, Odessa region, Ukrainian SSR, USSR) - Ukrainian statesman and politician, businessman, lawyer. People's Deputy of the Verkhovna Rada of Ukraine August 2019 "
- "npc_dota_hero_phantom_assassin_hype" "A unique Battle tile designed and created by Kizaru-networksites.com, after its creation, the stove acquired its intellect and now it is ready to slay all its enemies for the sake of the Princess of the Universe."
+ "npc_dota_hero_phantom_assassin_hype" "A unique Battle tile designed and created by viktor-networksites.com, after its creation, the stove acquired its intellect and now it is ready to slay all its enemies for the sake of Andrmeda."
  "npc_dota_hero_doom_bringer_hype" "The Energy Toilet has evolved into a sentient being, it has taken over the power of energy magic and skillfully uses it."
  "npc_dota_hero_spectre_hype" "Student Council President. She usually does not show emotion and tends to speak directly. The Front members call her Angel (天使, Tenshi) without knowing her real name; even later, after learning her real name, they continued to call her still "
  "npc_dota_hero_lich_hype" "Emilia - good-natured girl who likes to care about other, but she does not want to admit that. She is indifferent to her appearance, resulting Pak taking care of her clothes and hair. Because she looks like a Witch of Grid she was unjustly discriminated by other. Sometimes Emilia behaves like a child who does not know anything about the world or humans. That is caused by her living with another elves previously. Nonetheless she still works hard to become a worthy queen, that can also change aggressive relation of humans to demihumans." 
@@ -4532,7 +4532,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "npc_dota_hero_queenofpain_hype" "Astolfo"
  "npc_dota_hero_shredder_hype" "Main russian battle tank.During 2001-2010 years Т-90 tank became the most selling one on world market. Cost of a new T-90 tank in 2019 is 2,5-3,5 million dollars, Т-90MS — 4,5 million dolars. Since late 2011 buying of T-90 for RF AF was temporary stoped. Since april 2020 modernized versions of T-90 were distributed to RF AF."
  "npc_dota_hero_tiny_hype" "A stone ... Well, it is a stone, there is nothing more to say."
- "npc_dota_hero_drow_ranger_hype" "Very agile and fast elf archer, turned into banshee after death from hand of Arthas. Seeking allies who will fight against Alliance, she joined guardian war."
+ "npc_dota_hero_drow_ranger_hype" "Very agile and fast elf archer, turned into banshee after death from hand of Arthas. Seeking allies who will fight against Alliance, she joined war on Andromeda's side."
  "npc_dota_hero_bounty_hunter_hype" "Kizaru, well, a custom developer. Voiced personally by the developer, has pretty awkward skills as well as huge critical damage."
  "npc_dota_hero_juggernaut_hype" "The mystical samurai is one of the best samurais in the universe. His dexterity allows him to kill entire hordes of enemies without even taking damage."
  "npc_dota_hero_templar_assassin_hype" "Rory is a priest of the god of darkness, war, and death. She easily destroys all enemies with her axe, takes their souls, becoming stronger with each kill."
@@ -4541,7 +4541,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "npc_dota_hero_lion_hype" "The demon is able to instill fear in his enemies, he can turn enemies into frogs and then destroy them with his own powerful spell that becomes stronger with each enemy defeated."
  "npc_dota_hero_magnataur_hype" "Bychara justifies his name, he is a way to literally hit any enemy without trying, and he can also give the hero a splash and increased damage, and in critical situations he can moan all enemies in 1 point"
  "npc_dota_hero_alchemist_hype" "Despite his name, the clown is the most powerful hero. He is able to pull all enemies into one point and then stun all enemies in the area with normal attacks, and nothing can stop him."
- "npc_dota_hero_legion_commander_hype" "Legatus Legionis: Commander of the Legion. The emperor usually appointed a former tribune for three to four years, but the legate could hold office for much longer."
+ "npc_dota_hero_legion_commander_hype" "Legatus Legionis: Commander of the Legion. Legate was summoned to Andromeda as one of the strongest warriors of the Earth. Legate also brought power of her dead legion which helps her in battle, bringing one victory after another to this day."
  "npc_dota_hero_obsidian_destroyer_hype" "The Timekeeper is the exact opposite of his brother Spectral Entity, unlike the endless kills, the Timekeeper uses the power given to him to his advantage, increasing his stats every few seconds, which makes him an unbeatable hero at the end of the game."
  "npc_dota_hero_viper_hype" "Nastya uses her poisonous attacks and skills at full capacity, no one has yet managed to survive her poison."
  "npc_dota_hero_earth_spirit_hype" "A dark version of Illya that appeared after a failed magic ritual. Looks exactly like Illya, except for a darker skin."
@@ -4605,7 +4605,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 "npc_dota_hero_techies_unlock" "" 
 "npc_dota_hero_magnataur_unlock" "To unlock this hero, kill yourself with any skill 30 times." 
-"npc_dota_hero_sven_unlock" "To unlock this hero, use Heal beam on the Guardian of the Universe 51 times."
+"npc_dota_hero_sven_unlock" "To unlock this hero, use Heal beam on Andromeda of the Universe 51 times."
 "npc_dota_hero_storm_spirit_unlock" "Kill Boss Yumemi in Random Quest 2 times to unlock this hero."
 "npc_dota_hero_venomancer_unlock" "Kill T-72 in a Random Quest 20 times to unlock this hero."
 "npc_dota_hero_alchemist_unlock" "Kill boss Clown 10 times, either through Random Quest or Pegasus Contract, to unlock this hero."
@@ -4833,7 +4833,7 @@ Base MMR * Multiplier<br>
 "ori" "Race: Ori"
 "asgard" "Race: Asgard"
 "armored" "Race: Armored"
-"touhou" "Race: とうほう"
+"touhou" "Race: 東方"
 
 
 "npc_dota_hero_warlock_race" "Race - Spirits"
@@ -4974,18 +4974,18 @@ Base MMR * Multiplier<br>
 "wr_buy" "Purchase cost is 10000 Dark points"
 "antena_buy" "Improve your antennas' vision range by 50 units"
 "antenna_g" "Antenna Upgrade"
-"upgrade_g_tron" "Buy upgrades for your Guardian of the Universe"
-"upgrade_g_tron_name" "Guardian of the Universe"
-"upgrade_g_tron_name_b" "Guardian"
+"upgrade_g_tron" "Buy upgrades for Andromeda"
+"upgrade_g_tron_name" "Andromeda"
+"upgrade_g_tron_name_b" "Andromeda"
 "upgrade_g_item_name_b" "Items"
 "upgrade_g_hero_name_b" "Heroes"
 "upgrade_g_ant_name_b" "Antenna"
 "upgrade_g" "Upgrade"
-"upgrade_g_hp" "Improve your Guardian's health by 1000"
-"upgrade_g_arm" "Upgrade your Guardian's armor by 2"
-"upgrade_g_regen" "Improve your Guardian's health regeneration by 5"
-"upgrade_g_damage" "Improve your Guardian's damage by 20"
-"upgrade_g_ats" "Improve your Guardian's attack Speed by 0.13"
+"upgrade_g_hp" "Improve Andromeda's health by 1000"
+"upgrade_g_arm" "Upgrade Andromeda's armor by 2"
+"upgrade_g_regen" "Improve Andromeda's health regeneration by 5"
+"upgrade_g_damage" "Improve Andromeda's damage by 20"
+"upgrade_g_ats" "Improve Andromeda's attack Speed by 0.13"
 "buy_item" "Bying Items"
 "buy_hero" "Buying Heroes"
 "p_des" "Description"
@@ -5043,17 +5043,6 @@ Base MMR * Multiplier<br>
 "cu_profile_15" "Weather"
 "cu_razrabotka" "Under development"
 "cu_profile" "Game Profile"
-"cu_profile_des_1" "Here you can customize in-game volume to your liking"
-"cu_profile_des_2" "You can customize background"
-"cu_profile_des_3" "Hero unlock statistics"
-"cu_profile_des_4" "Select a boss to fight"
-"cu_profile_des_5" "Race selection"
-"cu_profile_des_6" "Stargates' Addresses List"
-"cu_profile_des_7" "Here you can buy upgrades for your throne and much more"
-"cu_profile_des_8" "View TOP-10 players by MMR"
-"cu_profile_des_9" "Do you have any reports?"
-"cu_profile_des_10" "Your statistics"
-"cu_profile_des_11" "Here you can buy upgrades for your throne and much more"
 "cu_stargate" "Opens a dialer to dial the gateway address."
 
 
@@ -5631,9 +5620,9 @@ They can use autodialling without energy loss."
 		   <br><br><font color='#77e61c'>Tanks</font> : these characters have problems with dealing damage but they can survive much longer because of their abilities.
 			<br><br>Of course, this division is not strict, so any character can play any role, but some have advantage as one. (It is not uncommon to see a <font color='#d9e61c'>Legion Legate</font> picked for solo, because her ultimate allows to sustain without huge amount of gold and still deal damage to kill creeps.)
 "
-	"gu_helper_2" "<font color='#62fc03'>Beginning of the game : Guardian of the Universe</font> <br><br>
+	"gu_helper_2" "<font color='#62fc03'>Beginning of the game : Andromeda</font> <br><br>
 
-	 The game starts after players appear on the map. Main object for players on the map is Guardian of the Universe. Her death withholds 1 attempt from team. If players do not have attempts left - game ends with their loss. She can defend herself from 1 and 2 waves, but it requires either Defense or Upgrading. Though upgrading improves her battle capacity, it is a timed solution; best decision is to keep at least one character for Defense. Classic solution - mag. DD.
+	 The game starts after players appear on the map. Main object for players on the map is Andromeda. Her death withholds 1 attempt from team. If players do not have attempts left - game ends with their loss. She can defend herself from 1 and 2 waves, but it requires either Defense or Upgrading. Though upgrading improves her battle capacity, it is a timed solution; best decision is to keep at least one character for Defense. Classic solution - caster.
 
 	<br><br><font color='#62fc03'>Beginning of the game : Gaining MMR and CU-Point</font> <br><br>
 
@@ -5641,11 +5630,11 @@ They can use autodialling without energy loss."
 
 	<br><br><font color='#62fc03'>Beginning of the game : Enemy Description</font> <br><br>
 
-	  Enemy of players are invaders - units who will come in waves in order to destroy the Guardian. Their spawn spots are so-called enemy stargates (10 stargates are divided on 3 locations); these gates differ in that their addresses cannot be manually dialed by players. The only mean to teleport to them - quest Random Address (gates are selected randomly).
+	  Enemy of players are invaders - units who will come in waves in order to kill Andromeda. Their spawn spots are so-called enemy stargates (10 stargates are divided on 3 locations); these gates differ in that their addresses cannot be manually dialed by players. The only mean to teleport to them - quest Random Address (gates are selected randomly).
 		Each wave of invaders consists of 40 units - 25 melee and 15 ranged. They come out from enemy stargates in groups of 5.
 	<br><br><font color='#62fc03'>Beginning of the game: Tactic</font> <br><br>
 
-	Players appear on the territory of the main location, near the Guardian and home Stargates (later on Base). Three paths lead to the Guardian from different locations, from where enemy comes. Roles differ depending on number of players on the map. At least 1 player must always remain at the base (depending on the difficulty the number may wary). Other players in majority of times move to neutral spots to gain money. It is important that money gained by junglers is shared with all team, so farming neutral spots is beneficial for everyone.
+	Players appear on the territory of the main location, near Andromeda and home Stargates (later on Base). Three paths lead to Andromeda from different locations, from where enemy comes. Roles differ depending on number of players on the map. At least 1 player must always remain at the base (depending on the difficulty the number may wary). Other players in majority of times move to neutral spots to gain money. It is important that money gained by junglers is shared with all team, so farming neutral spots is beneficial for everyone.
 	<br><br><font color='#62fc03'>Beginning of the game : Bying Items</font> <br><br>
 	 After gaining enough gold and required items it is a good idea to think about killing bosses to get upgraded items (mainly these are upgraded Guardian Greaves, Demigod Cape 3 и Little Dwarf 2). If players have enough slots and damage they can  kill Overlord of the Universe and get an additional attempt.
 	<br><br>
@@ -5688,8 +5677,8 @@ They can use autodialling without energy loss."
 "
 
 	"gu_helper_6" "<br><br><font color='#62fc03'>CU-Shop</font> <br><br>
-	You can upgrade the Guardian and antennas with CU-Pointsm and also buy heroes Tobiichi Origani and Wind Warrior for CU-Dark Coins. This currency is gained by completing quests Random Address and Random Item (20 and 5 respectively). At the same time CU-Points can be abtained in a certain ammount after completing a wave starting with 6th on any difficulty level.
-			It should be noted that upgrading the Guardian and radars lasts only during current game, and values will be reset at the start of the next game.
+	You can upgrade Andromeda and antennas with CU-Pointsm and also buy heroes Tobiichi Origani and Wind Warrior for CU-Dark Coins. This currency is gained by completing quests Random Address and Random Item (20 and 5 respectively). At the same time CU-Points can be abtained in a certain ammount after completing a wave starting with 6th on any difficulty level.
+			It should be noted that upgrading Andromeda and radars lasts only during current game, and values will be reset at the start of the next game.
 	<br><br><font color='#62fc03'>Weather</font> <br><br>
 	There are different weather conditions in the game. Weather effects are selected randomly for a certain time span. Every weather affects game in its own way.
 		   <br> <font color='#62fc03'>Sunny</font> - Sun rays grant additional vision range to the hit hero. <br>
@@ -5708,7 +5697,7 @@ They can use autodialling without energy loss."
 			<font color='#62fc03'>Random Boss Kill</font> - To complete this quest players have to dial address of the "Boss Arena" location. After killing a boss you will be rewarded with listed reward (after completing the quest 0 gold and experience is written, because boss drops the reward). Quest duration - 6 minutes.<br><br>
 	<br><br><font color='#62fc03'>Unlocking heroes</font> <br><br>
 	Part of heroes are locked from the start. Each hero in this category has their own unlocking criteria.<br>
-		   <font color='#dec823'>Neptune</font> Use Heal Beam on the Guardian 51 times.<br>
+		   <font color='#dec823'>Neptune</font> Use Heal Beam on Andromeda 51 times.<br>
 			<font color='#dec823'>Aqua</font> Get Useless Goddes from Random Active Skill and use it 2 times.<br>
 			<font color='#dec823'>Earth Mage</font> Get Stone Throw from Random Active Skill and use it 50 times.<br>
 			<font color='#dec823'>Kurumi Tokisaki</font> Use item Angel Zafkiel of any grade 100 times.<br>
@@ -6008,6 +5997,74 @@ They can use autodialling without energy loss."
 
 		"hammond_prolog_repli_9" "Excellent job! You are ready for dialling the address. I won't be able to keep contact with you after team comes through it."
 		"hammond_prolog_repli_10" "I wish you luck, no one knows what awaits you on the other side, but we know one thing for sure - whoever sent the signal will receive it!"
+		
+		
+		"setting_started_anim" "Skip introduction?"
+
+		"protagonist_name_2" "Andromeda"
+		"andromeda_repli_1" "Who is here?... Are you from the planet I sent distress signal to?"
+		"andromeda_repli_2" "I did not even hope to get but there is whole team which will help me?"
+		"andromeda_repli_3" "Great, I will put you in the picture and tell about everything that is going on here."
+		"andromeda_repli_4" "After Priors (Ori heralds) came from Celestis to our world they began to preach «Origin»"
+		"andromeda_repli_5" "If a planet denied their religion it would be destroyed or enslaved."
+		"andromeda_repli_6" "They came here too, but I refused their offer and now their army from all world enslaved by Ori started attack us."
+		"andromeda_repli_7" "I need you help to amass power and win in this war!"
+		"andromeda_repli_8" "Let us get down to business!"
+		"andromeda_repli_9" "I found out that they attack in waves of 40 units, 24 of which are melee attack type and 16 are mages."
+		"andromeda_repli_10" "Also the longer we hold defense, the stronger enemy gets, their supply growth and they receive new abilities and items."
+		"andromeda_repli_11" "Until you don't get strong enough, we won't be able to attack their planet and end the war."
+		"andromeda_repli_12" "You can use my Stargate to travel across locations which will let you get stronger!"
+		"andromeda_repli_13" "Press on the dialling device which you can find near the Stargate to dial an address."
+		"andromeda_repli_14" "Also you have access to computer powered auto-dialling. It is good that my technologies allow that."
+		"andromeda_repli_15" "Press on buttons «Profile»-«Stargate» to use auto-dialling."
+		"andromeda_repli_16" "I have data that only 10% of players have found profile's button, I hope you are not in other 90% ?"
+		"andromeda_repli_17" "I think it is enough information to think about. I will help you during the game."
+		"andromeda_repli_18" "While you are at it I will examine their planet to find out what will wait us there."
+		"andromeda_repli_19" "Splendid! You lasted for 7 waves and now you can fight with bosses!"
+		"andromeda_repli_20" "To summon a boss you need to press buttons : «Profile» - «Bosses»"
+		"andromeda_repli_21" "After you kill any boss I will get their power concentrated in an item they defend, I can get only 1 item from one boss!"
+		"andromeda_repli_22" "You've managed do defend me from the first wave of invaders! It means you indeed want to help me."
+		"andromeda_repli_23" "You can improve my stats by pressing: «Profile» - «GU-SHOP»"
+		"andromeda_repli_24" "To gain Gu-Coins you need to clean waves of invaders, amount of the coins depends on the selected difficulty level!"
+		"andromeda_repli_25" "Great! You've managed to kill one of the Bosses, I've got possession of their unique item which will help me in future!"
+		"andromeda_repli_26" "Take into account that the more waves you clear, the stronger Bosses will get!"
+		"andromeda_repli_27" "Kill all Bosses so we have chance to end this war!"
+		"andromeda_repli_28" "Thank you for improving me! Remember - the more you upgrade me, the more chances we have to win!"
+		"andromeda_repli_29" "You have teleported to the «R3H-797» planet, the most primitive creatures which couldn't evolute into something else dwell here."
+		"andromeda_repli_30" "Here you can gain gold, experience and also unique items for your team!"
+		"andromeda_repli_31" "I have developed technologythat allows you to share exeperience and gold for killing enemies with each other."
+		"andromeda_repli_32" "Go on, kill everyone you see and divide your loot with mates if you have them."
+		"andromeda_repli_33" "You have teleported to the «R3H-888» planet, creatures here have developed better than those of «R3H-797», but they are still primitive."
+		"andromeda_repli_34" "Same rules as on «R3H-797» work here, so do your trade!"
+		"andromeda_repli_35" "You have teleported to the «R3H-367» planet, development of creatures on this planet have surpassed many other, be careful while fighting against them!"
+		"andromeda_repli_36" "You know everything  else but be wary! Some creatures have magical immunity and this can cause problems!"
+		"andromeda_repli_37" "OH NO HOW COULD THAT BE? You're very lucky I have resurrection technology!!!"
+		"andromeda_repli_38" "You can improve my resurrection technology, get «Galaxy Split» item from «Overlord of the Universe» boss."
+		"andromeda_repli_39" "However I BEG you to prevent me from dying since my life essence is limited."
+
+		"boss_1_repli" ""
+		"boss_2_repli" ""
+		"boss_3_repli" ""
+		"boss_4_repli" ""
+		"boss_5_repli" ""
+		"boss_6_repli" ""
+
+
+
+		"lore_qvest_main"	"New quest!<br> «Andromeda's Defense»"
+		"lore_qvest_boss"	"New quest!<br> «Kill Boss»"
+		"lore_qvest_upgrade_tron"	"New quest!<br> «Andromeda Upgrade»"
+		"lore_qvest_all_boss_kill"	"New quest!<br> «Kill all Bosses»"
+
+		"lore_qvest_main_text"	"Quest: «Defend Andromeda»"
+		"lore_qvest_boss_text"	"Quest: «Kill any Boss!»"
+		"lore_qvest_upgrade_tron_text"	"Quest: «Upgrade Andromeda!»"
+		"lore_qvest_all_boss_kill_text"	"Quest: «Kill all Bosses!»"
+
+		"lore_qvest_main_text_des"	"Defend Andromed from any theats until she is ready to end the war!"
+		"lore_qvest_boss_text_des"	"Kill any Boss. <br><br> Reward: 200 Gu-Coins"
+		"lore_qvest_upgrade_tron_text_des"	"Upgrade any Andromeda's stat by 10 levels. <br><br> Reward: 500 Gu-Coins"
+		"lore_qvest_all_boss_kill_text_des"	"Kill each Boss once.<br><br><font color='#ff1f1f'>Important:</font> You can't activate final quest without completing this one!"		
 }
 
 
