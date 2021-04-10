@@ -5694,7 +5694,7 @@ They can use autodialling without energy loss."
 	There are 3 types of random quests : address dial, random item quest and random boss kill.<br>
 			<font color='#62fc03'>Address Dial</font> - This quest comes in two variants : Milkyway Stargate Address (7 chevrons) and Pegasus Stargate Address(8 chevrons). Reward for quest is same for both. Quest can be completed only within range of 1500 from a DHD. After successful address dialling player is moved to one of enemy gates(randomly). Aside from rewards shown in the description completing the quest also gives player 20 CU-Dark Coins. Quest duration - 2 minutes.<br><br>
 			<font color='#62fc03'>Item Quest</font> - An item appears at one of several spots on the map in. Red circle will show its location (the item is located at the center of the circle). Circe will be visible on the mini-map for 1 minute. To pick up the item you have to have a free neutral item slot. Aside from rewards shown in the description completing the quest also gives player 5 CU-Dark Coins. Quest duration - 2 minutes.<br><br>
-			<font color='#62fc03'>Random Boss Kill</font> - To complete this quest players have to dial address of the "Boss Arena" location. After killing a boss you will be rewarded with listed reward (after completing the quest 0 gold and experience is written, because boss drops the reward). Quest duration - 6 minutes.<br><br>
+			<font color='#62fc03'>Random Boss Kill</font> - To complete this quest players have to dial address of the 'Boss Arena' location. After killing a boss you will be rewarded with listed reward (after completing the quest 0 gold and experience is written, because boss drops the reward). Quest duration - 6 minutes.<br><br>
 	<br><br><font color='#62fc03'>Unlocking heroes</font> <br><br>
 	Part of heroes are locked from the start. Each hero in this category has their own unlocking criteria.<br>
 		   <font color='#dec823'>Neptune</font> Use Heal Beam on Andromeda 51 times.<br>
@@ -5851,7 +5851,7 @@ They can use autodialling without energy loss."
 		
 		
 		
-				"qvest_global_tank" "Global Quest: Tank"
+		"qvest_global_tank" "Global Quest: Tank"
 		"qvest_global_tank_text" "This quest is based on main role of your character, your role in this game - Tank. Your quest is to recieve damage from Invaders, for completing this quest you will recieve a unique item.<br><br>
 		Limitations: Only damage recieved from lane creeps (Invaders) counts towards the goal.<br><br>
 		Time limit: None"
@@ -5935,7 +5935,7 @@ They can use autodialling without energy loss."
 		"battle_pass_progress_premium" "Upgraded Battle Pass Progress"
 		"battle_pass_standart" "Battle Pass"
 		"battle_pass_premium" "Upgraded Battle Pass"
-"battle_pass_lvl_1" "<font color='#b55904'>Level 1</font> <br> Rating required: 100<br><br>You will recieve unique level 1 effect for your hero!" 
+		"battle_pass_lvl_1" "<font color='#b55904'>Level 1</font> <br> Rating required: 100<br><br>You will recieve unique level 1 effect for your hero!" 
 		"battle_pass_lvl_2" "<font color='#83b504'>Level 2</font> <br> Rating required: ?<br><br>Your hero will recieve unique level 1 colour outline from above!"
 		"battle_pass_lvl_3" "<font color='#048cb5'>Level 3</font> <br> Rating required: ?<br><br>Your hero will recieve unique level 1 effect while moving!"
 		"battle_pass_lvl_4" "<font color='#9204b5'>Level 4</font> <br> Rating required: ?<br><br>Your hero will recieve unique level 2 colour outline from above!"
