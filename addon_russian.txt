@@ -5626,6 +5626,7 @@
 		"npc_dota_hero_mirana_race"             "Раса - とうほう"
 		"npc_dota_hero_void_spirit_race"        "Раса - とうほう"
 		"npc_dota_hero_antimage_race"        	"Раса - Asgard"
+		"npc_dota_hero_dawnbreaker_race"        "Раса - Asgard"
 
 
 		"dota_tooltip_ability_damage_resist_angelic" 						"Ангельская защита"
@@ -5955,8 +5956,8 @@
 	"DOTA_Tooltip_Ability_item_address_1_Description"		"Телепортирует вас в сложный лес."
 	"DOTA_Tooltip_Ability_item_address_2"					"Адрес Врат"
 	"DOTA_Tooltip_Ability_item_address_2_Description"		"Телепортирует вас в лёгкий лес."
-	"DOTA_Tooltip_Ability_item_address_3"					"Свиток с Адресом"
-	"DOTA_Tooltip_Ability_item_address_3_Description"		"<h1>Активная: Набор Адреса</h1>При активации если возле вас в радиусе 1300 будут врата с наборной панелью, то вас телепортирует на вашу базу."
+	"DOTA_Tooltip_Ability_item_tpscroll"					"Свиток с Адресом"
+	"DOTA_Tooltip_Ability_item_tpscroll_Description"		"<h1>Активная: Набор Адреса</h1>При активации если возле вас в радиусе 1300 будут врата с наборной панелью, то вас телепортирует на вашу базу."
 
 
 	/// С П И С О К  А Н И М Е  Т Я Н О Ч Е К ///
@@ -6204,14 +6205,6 @@
 		"load_state_1"   "Устанавливаем соединение с сервером..."
 		"load_state_2"   "Загружаем данные об игроке..."
 		"load_state_3"   "Соединение установлено, данные загружены!"
-		"load_state_4"   "Загрузка выбора героев..."
-		"load_state_5"   "Загрузка заднего фона..."
-		"load_state_6"   "Загрузка видео героев..."
-		"load_state_7"   "Загрузка информации о заблокированных героях..."
-		"load_state_8"   "Загрузка выбора героя завершена!"
-		"load_state_9"   "Загрузка системы Звёздных Врат..."
-		"load_state_10"  "Загрузка системы расового Урона..."
-		"load_state_11"  "Загрузка завершена!"
 		"load_state_12"  "Обнаружены включённые читы, игры не загружена, использование читов запрещено, вы проиграете через 3 секунды."
 		"load_state_13"  "Не удалось получить доступ к базе данных, используйте для игры выделенный сервер."
 		"load_state_14"  "У вас нету доступа для закрытого тестирования проекта, вы будете удалены через 5 секунды."
@@ -6587,6 +6580,7 @@
 		"sound_boss4" "Watch It Burn"
 		"sound_boss5" "Dark Star"
 		"sound_boss6" "Solar"
+		"sound_boss7" ""
 
 		"boss_round_kd" "Боссы станут доступны после прохождения 6 волны!"
 
