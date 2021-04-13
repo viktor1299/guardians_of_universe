@@ -1468,7 +1468,7 @@
  
  
 
-	"npc_dota_hero_warlock"						"Тобиичи Оригами"
+	"npc_dota_hero_warlock"						"Origami Tobiichi"
 
 
 		"DOTA_Tooltip_ability_origami_sun"									"Шемеш: Солнце"
@@ -1649,7 +1649,7 @@
 
 
 
-	"npc_dota_hero_enigma"										"Блэкхолл-Тян"	
+	"npc_dota_hero_enigma"										"Andromeda"	
 
 
 		"DOTA_Tooltip_ability_gemini_abyssal_vortex"										"Неуправляемая Чёрная Дыра"
@@ -4353,7 +4353,7 @@
 
 
 
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock"										"Ангел зафкиэль"
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock"										"Зафкиэль"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_Description"								"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности, кроме ультимативных."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_str"									"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_agi"									"+к ловкости"
@@ -4362,7 +4362,7 @@
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_mana_regen"								"+к восстановлению маны"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_amplify"								"+% к урону от заклинаний"	
 
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock2"										"Ангел Зафкиэль 2"
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock2"										"Зафкиэль 2"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_Description"								"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности, кроме ультимативных."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_str"									"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_agi"									"+к ловкости"
@@ -4371,7 +4371,7 @@
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_mana_regen"							"+к восстановлению маны"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_amplify"								"+% к урону от заклинаний"	
 
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock3"										"Ангел Зафкиэль 3"
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock3"										"Зафкиэль 3"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_Description"								"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности, кроме ультимативных."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_str"									"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_agi"									"+к ловкости"
@@ -5117,8 +5117,8 @@
 
 	
 
-		"DOTA_Tooltip_ability_phantom_sword_dance"						"Шквал Ударов"
-		"DOTA_Tooltip_ability_phantom_sword_dance_Description"				"Самая редкая способность, которую вы можете найти в рандоме. При активации герой атакует всех врагов в выбранном радиусе нанося колосальный урон."
+		"DOTA_Tooltip_ability_phantom_sword_dance"						"Реальность не есть истинна!"
+		"DOTA_Tooltip_ability_phantom_sword_dance_Description"				"Репликатор способен входить в параллельные реальности, и может находиться в нескольких точках одновременно."
  
  
  		"DOTA_Tooltip_ability_penis4"									"Исцеление"
@@ -5209,9 +5209,9 @@
 		
 
 
-		"DOTA_Tooltip_ability_boss_armor" 								"Разлом Сознания" 
-		"DOTA_Tooltip_ability_boss_armor_Description" 						"При атаке у врага будет снижена дальность атаки до 900, а также враг не сможет использовать невидимость." 
-		"DOTA_Tooltip_modifier_boss_armor_no_invisibility" 					"Невидимость не имеет значения" 
+		"DOTA_Tooltip_ability_boss_armor" 								"Модульные блоки" 
+		"DOTA_Tooltip_ability_boss_armor_Description" 						"Поглащает любые технологии и уменьшает влияние оружия на владельца." 
+		"DOTA_Tooltip_modifier_boss_armor_no_invisibility" 					"Модульные блоки" 
 		"DOTA_Tooltip_modifier_boss_armor_no_invisibility_Description" 		"Сознание сломано."
 
 
@@ -5332,38 +5332,17 @@
 
 	/// Р А З Б Л О К И Р О В К А  Г Е Р О Е В///
 
-	"dvachpickhero6000" 	"Нужно 29700ММР"
-	"dvachpickhero1000" 	"Нужно 3000ММР"
-	"dvachpickhero8000" 	"Нужно 41700ММР"
-	"dvachpickhero3000" 	"Нужно 15000ММР"
-	"dvachpickhero2000" 	"Нужно 7200ММР"
-	"dvachpickhero12000" 	"Нужно 60000ММР"
-	"dvachpickheros" 		"Разблокирован"
-	"dvachpickherosen" 		"Заблокирован"
-
-
-	"npc_dota_hero_techies_unlock"				"" 
-	"npc_dota_hero_magnataur_unlock"			"Для разблокировки данного героя убейте себя любым заклинанием 30 раз" 
-	"npc_dota_hero_sven_unlock"					"Для разблокировки данного героя используйте на Андромеду предмет Луч Отхила 51 раз"
-	"npc_dota_hero_storm_spirit_unlock"			"Для разблокировки данного героя убейте босса Юмеми в случайном задании 2 раза"
-	"npc_dota_hero_venomancer_unlock"			"Для разблокировки данного героя убейте Т-72 в случайном задании 20 раз"
-	"npc_dota_hero_alchemist_unlock"			"Для разблокировки данного героя убейте мини босса Клоун в случайном задании, либо по контракту 10 раз."
-	"npc_dota_hero_faceless_void_unlock"		"Для разблокировки данного героя умрите от команды -kill 30 раз"
-	"npc_dota_hero_doom_bringer_unlock"			""
-	"npc_dota_hero_axe_unlock"					""
-	"npc_dota_hero_lich_unlock"					"Для разблокировки данного героя убейте минибосса Эмилия в случайном задании, либо по контракту 50 раз"
-	"npc_dota_hero_abyssal_underlord_unlock"	"Для разблокировки данного героя убейте минибосса А-10 в случайном задании либо по контракту 30 раза"
-	"npc_dota_hero_grimstroke_unlock"			""
-	"npc_dota_hero_wisp_unlock"					""
-	"npc_dota_hero_elder_titan_unlock"			"Для разблокировки данного героя найдите в случайных способностях Маг Земли: Бросок Камня и используйте его 50 раз"
-	"npc_dota_hero_enigma_unlock"				"Для разблокировки данного героя убейте минибосса Блэкхол-тян в случайном задании либо по контракту 100 раз."
-	"npc_dota_hero_leshrac_unlock"				""
-	"npc_dota_hero_sniper_unlock"				"Для разблокировки данного героя убейте минибосса Ынайпер в случайном задании, либо по контракту 20 раз."
-	"npc_dota_hero_bounty_hunter_unlock"		"Для разблокировки данного героя убейте минибосса Виктор в случайном задании, либо по контракту 30 раз."
-	"npc_dota_hero_puck_unlock"					""
-	"npc_dota_hero_weaver_unlock"				"Для разблокировки данного героя используйте предмет Ангель Зафкиэль 100 раз"
-	"npc_dota_hero_crystal_maiden_unlock"		"Для разблокировки данного героя найдите в случайных способностях Бесполезногиню и используйте её 2 раза"
-	"npc_dota_hero_warlock_unlock"				"Купите данного героя в внутриигровом магазине за 5000 Dark point"
+	"npc_dota_hero_sven_unlock"					"Для разблокировки данного героя используйте на Андромеду предмет Луч Отхила 50 раз"
+	"npc_dota_hero_enigma_unlock"				"Для разблокировки данного героя, пройдите игру на любом уровне сложности."
+	"npc_dota_hero_lich_unlock"					"Для разблокировки данного героя, пройдите игру на уровне сложности «Легко»"
+	"npc_dota_hero_storm_spirit_unlock"			"Для разблокировки данного героя, пройдите игру на уровне сложности «Стандарт»"
+	"npc_dota_hero_sniper_unlock"				"Для разблокировки данного героя, пройдите игру на уровне сложности «Сложно»"
+	"npc_dota_hero_warlock_unlock"				"Для разблокировки данного героя, пройдите игру на уровне сложности «Абсурд»"
+	"npc_dota_hero_alchemist_unlock"			"Для разблокировки данного героя убейте босса Клоун по контракту 10 раз."
+	"npc_dota_hero_elder_titan_unlock"			"Для разблокировки данного героя убейте босса «Маг Земли» - 5 раз"
+	"npc_dota_hero_bounty_hunter_unlock"		"Для разблокировки данного героя убейте босса Кизару по контракту 30 раз."
+	"npc_dota_hero_weaver_unlock"				"Для разблокировки данного героя используйте предмет «Зафкиэль» 100 раз"
+	"npc_dota_hero_crystal_maiden_unlock"		"Для разблокировки данного героя убейте босса «Богиня Аква» - 2 раза."
 	"npc_dota_hero_windrunner_unlock"			"Купите данного героя в внутриигровом магазине за 10000 Dark point"
 	"npc_dota_hero_oracle_unlock" 				"Наберите 3000 ММР для разблокировки данного героя"
 	"npc_dota_hero_lina_unlock" 				"Наберите 15000 ММР для разблокировки данного героя"
@@ -5854,11 +5833,6 @@
 
 		/// З А Д А Н И Я  И  Б О С С Ы ///
 
-	"task_random_boss_1"		"В течение 6 минут вам нужно убить босса Т-72, который находится на арене справа, если вы не успеете, то босс будет уничтожен неведомой силой, а вы упустите возможность разблокировать героя Т-72."
-	"task_random_boss_2"		"В течение 6 минут вам нужно убить босса Эмилия, которая находится на арене справа, если вы не успеете, то босс будет уничтожен неведомой силой, а вы упустите возможность разблокировать героя Эмилия."
-	"task_random_boss_3"		"В течение 6 минут вам нужно убить босса Блэкхол Тян, который находится на арене справа, если вы не успеете, то босс будет уничтожен неведомой силой, а вы упустите возможность разблокировать героя Блэкхол Тян."
-	"task_random_boss_4"		"В течение 6 минут вам нужно убить босса А-10, который находится на арене справа, если вы не успеете, то босс будет уничтожен неведомой силой, а вы упустите возможность разблокировать героя А-10."
-	"task_random_boss_5"		"В течение 6 минут вам нужно убить босса Юмеми Окадзаки, которая находится на арене справа, если вы не успеете, то босс будет уничтожен неведомой силой, а вы упустите возможность разблокировать героя Юмеми Окадзаки."
 	"task_random_item"			"Найдите предмет в случайной точке на карте за 2 минуты. Область, где находится предмет, подсвечена на карте красным кругом."
 	"task_name_item"			"Поиск предмета"
 	"task_random_address"		"Для всех игроков сгенерирован рандомный адресс Звёздных Врат, кто первый его наберёт тот и получит награду. При активации врат игрок будет телепортированы на случайные вражеские врата."
@@ -5874,9 +5848,6 @@
 		"DOTA_Tooltip_modifier_kill_vert"						"Время Жизни" ///Для задания сопровождения///
 
 		"task_name_winitem"			"Поиск предмета<br>
-		<font color='#03fc17'>-----ВЫПОЛНЕНО-----</font>"
-
-		"task_name_winboss"			"Убийство Босса<br>
 		<font color='#03fc17'>-----ВЫПОЛНЕНО-----</font>"
 
 		"task_name_winaddress"		"Рандомный Адрес<br>
@@ -6150,7 +6121,6 @@
 
             "npc_universal_boss_t72"		"T-72"
             "npc_universal_boss_emiliya"	"Эмилия" 
-            "npc_universal_boss_enigma"		"Блэкхолл Тян" 
             "npc_universal_boss_a10"		"F-16 Fighting Falcon"
             "npc_universal_boss_yumemi"		"Yumemi Okazaki"
 			"npc_universal_boss_clown"		"Клоун"
@@ -6290,7 +6260,7 @@
 	"progressbarpetro"		"В Разработке"
 	"progressbarchlen"		"В Разработке"
 	"progressbarelder"		"Earth Mage"
-	"progressbarenigma"		"Блэкхолл-Тян"
+	"progressbarenigma"		"Andromeda"
 	"progressbarinvalid"	"В Разработке"
 	"progressbarsniper"		"Sniper"
 	"progressbarviktor"		"Виктор"
@@ -6887,6 +6857,10 @@
 		"end_game_help_6" "Поздравляем вы успешно завершили одну из сюжетных линий проекта Guardians of Universe! Следите за обновлениями в скором времени сюжетная линия будет расширена!"
 		"end_game_help_7" "Вы всегда можете вернуться и повторить свой подвиг, ведь как же много чего вы не исследовали! "
 		"end_game_help_8" "Спасибо за то что играете в проект! Удачи!"
+
+		"end_game_vote"	"Задание - «Закончить Войну!»"
+		"end_game_vote_a"	"Голосование за начало!"
+		"end_vote_yes"		"Начать!"
 
 
 
