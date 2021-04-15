@@ -3623,7 +3623,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
 
-"DOTA_Tooltip_ability_item_anime_kurumi_clock" "Angel Zafkiel"
+"DOTA_Tooltip_ability_item_anime_kurumi_clock" "Zafkiel"
 "DOTA_Tooltip_ability_item_anime_kurumi_clock_Description" "<h1>Active: Zafkiel</h1>Recharges all abilities except the ultimates."
 "DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_agi" "Agility:"
@@ -3632,7 +3632,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_mana_regen" "Mana regeneration:"
 "DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_amplify" "%Spell amplification:"	
 
-"DOTA_Tooltip_ability_item_anime_kurumi_clock2" "Angel Zafkiel 2"
+"DOTA_Tooltip_ability_item_anime_kurumi_clock2" "Zafkiel 2"
 "DOTA_Tooltip_ability_item_anime_kurumi_clock2_Description" "<h1>Active: Zafkiel</h1>Recharges all abilities except the ultimates."
 "DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_agi" "Agility:"
@@ -3641,7 +3641,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_mana_regen" "Mana regeneration:"
 "DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_amplify" "%Spell amplification: "	
 
-"DOTA_Tooltip_ability_item_anime_kurumi_clock3" "Angel Zafkiel 3"
+"DOTA_Tooltip_ability_item_anime_kurumi_clock3" "Zafkiel 3"
 "DOTA_Tooltip_ability_item_anime_kurumi_clock3_Description" "<h1>Active: Zafkiel</h1>Recharges all abilities except the ultimates."
 "DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_agi" "Agility:"
@@ -4387,8 +4387,8 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
 
- "DOTA_Tooltip_ability_phantom_sword_dance" "Flurry of strikes"
- "DOTA_Tooltip_ability_phantom_sword_dance_Description" "The rarest skill you can find in the Random skill. When activated, you start attacking all enemies in the selected area, dealing colossal damage."
+ "DOTA_Tooltip_ability_phantom_sword_dance" "Reality is not truth!"
+ "DOTA_Tooltip_ability_phantom_sword_dance_Description" "Replicator is able to enter parallel universes and be in several positions simultaneously."
 
 
  		"DOTA_Tooltip_ability_penis4"									"Heal"
@@ -4470,9 +4470,9 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
 
- "DOTA_Tooltip_ability_boss_armor" "Consciousness Rift" 
- "DOTA_Tooltip_ability_boss_armor_Description" "When attacking a unit,attack range will be reduced to 900 and the enemy will not be able to become invisible invade." 
- "DOTA_Tooltip_modifier_boss_armor_no_invisibility" "Visible even if invisible" 
+ "DOTA_Tooltip_ability_boss_armor" "Modular Blocks" 
+ "DOTA_Tooltip_ability_boss_armor_Description" "Absorbs any technologies and reduces weapon effectiveness against the wearer." 
+ "DOTA_Tooltip_modifier_boss_armor_no_invisibility" "Modular Block" 
  "DOTA_Tooltip_modifier_boss_armor_no_invisibility_Description" "Consciousness is broken."
 
 
@@ -4593,38 +4593,17 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 /// Р А З Б Л О К И Р О В К А  Г Е Р О Е В///
 
- "dvachpickhero6000" "Need 29700MMR"
- "dvachpickhero1000" "Need 3000MMR"
- "dvachpickhero8000" "Need 41700MMR"
- "dvachpickhero3000" "Need 15000 MMR"
- "dvachpickhero2000" "Need 7200MMR"
- "dvachpickhero12000" "Need 60000MMR"
- "dvachpickheros" "Unlocked"
- "dvachpickherosen" "Blocked"
-
-
-"npc_dota_hero_techies_unlock" "" 
-"npc_dota_hero_magnataur_unlock" "To unlock this hero, kill yourself with any skill 30 times." 
-"npc_dota_hero_sven_unlock" "To unlock this hero, use Heal beam on Andromeda of the Universe 51 times."
-"npc_dota_hero_storm_spirit_unlock" "Kill Boss Yumemi in Random Quest 2 times to unlock this hero."
-"npc_dota_hero_venomancer_unlock" "Kill T-72 in a Random Quest 20 times to unlock this hero."
-"npc_dota_hero_alchemist_unlock" "Kill boss Clown 10 times, either through Random Quest or Pegasus Contract, to unlock this hero."
-"npc_dota_hero_faceless_void_unlock" "Die from command «-kill» 30 times to unlock this hero."
-"npc_dota_hero_doom_bringer_unlock" ""
-"npc_dota_hero_axe_unlock" ""
-"npc_dota_hero_lich_unlock" "To unlock this hero, kill Boss Emilia 50 times in the Random Quest."
-"npc_dota_hero_abyssal_underlord_unlock" "Kill Boss F-16 in a Random Quest 30 times, either through Random Quest or Pegasus Contract, to unlock this hero."
-"npc_dota_hero_grimstroke_unlock" ""
-"npc_dota_hero_wisp_unlock" ""
-"npc_dota_hero_elder_titan_unlock" "To unlock this hero, find the skill Earth Mage: Throw a Stone in random skills and use it 50 times."
-"npc_dota_hero_enigma_unlock" "To unlock this hero, kill the mini-boss Blackhole-Chan, either through Random Quest or Pegasus Contract, 100 times."
-"npc_dota_hero_leshrac_unlock" ""
-"npc_dota_hero_sniper_unlock" "To unlock this hero, kill the mini-boss Sniper 20 times"
-"npc_dota_hero_bounty_hunter_unlock" "To unlock this hero, kill the mini-boss Kizaru, either through Random Quest or Pegasus Contract, 30 times."
-"npc_dota_hero_puck_unlock" ""
-"npc_dota_hero_weaver_unlock" "Use Angel Zafkiel 100 times to unlock this hero."
-"npc_dota_hero_crystal_maiden_unlock" "To unlock this hero, find the Useless goddess ability in random active ability and use it 2 times."
-"npc_dota_hero_warlock_unlock" "Buy this hero in the in-game store for 5000 GU-Dark coins."
+ "npc_dota_hero_sven_unlock" "Use Heal beam on Andromeda 50 times to unlock this hero."
+"npc_dota_hero_enigma_unlock"				"Complete game on any difficulty level to unlock this hero."
+"npc_dota_hero_lich_unlock"					"Complete game on the «Easy» difficulty level to unlock this hero"
+"npc_dota_hero_storm_spirit_unlock"			"Complete game on the «Standard» difficulty level to unlock this hero"
+"npc_dota_hero_sniper_unlock"				"Complete game on the «Hard» difficulty level to unlock this hero"
+"npc_dota_hero_warlock_unlock"				"Complete game on the «Absurd» difficulty level to unlock this hero"
+"npc_dota_hero_alchemist_unlock"			"Kill boss Clown 10 through Pegasus Contract 10 times to unlock this hero."
+"npc_dota_hero_elder_titan_unlock"			"Kill boss «Earth Mage» 5 times to unlock this hero."
+"npc_dota_hero_bounty_hunter_unlock"		"Kill boss Kizaru 30 times to unlock this hero."
+"npc_dota_hero_weaver_unlock"				"Use a «Zafkiel» item 100 times to unlock this hero."
+"npc_dota_hero_crystal_maiden_unlock"		"Kill boss «Aqua Goddes» 2 times to unlock this hero."
 "npc_dota_hero_windrunner_unlock"  "Buy this hero in the in-game store for 10000 GU-Dark coins."
 "npc_dota_hero_oracle_unlock" "Reach 3000 MMR to unlock this hero."
 "npc_dota_hero_lina_unlock" 				"Reach 15000 MMR to unlock this hero."
@@ -5126,11 +5105,6 @@ You can increase Energy limit and regeneration by completing quests in random ev
 
 /// З А Д А Н И Я  И  Б О С С Ы ///
 
-"task_random_boss_1" "You have to kill boss Т-72, which is located on the arena to the right within 6 minutes. If you do not manage to kill it in time, you will lose this opportunity to unlock hero Т-72."
-"task_random_boss_2" "You have to kill boss Emilia, which is located on the arena to the right within 6 minutes. If you do not manage to kill it in time, you will lose this opportunity to unlock hero Emilia."
-"task_random_boss_3" "You have to kill boss BlackHole-chan, which is located on the arena to the right within 6 minutes. If you do not manage to kill it in time, you will lose this opportunity to unlock hero BlackHole-Chan."
-"task_random_boss_4" "You have to kill boss F-16, which is located on the arena to the right within 6 minutes. If you do not manage to kill it in time, you will lose this opportunity to unlock hero F-16."
-"task_random_boss_5" "You have to kill boss Yumemi Okazaki, which is located on the arena to the right within 6 minutes. If you do not manage to kill it in time, you will lose this opportunity to unlock hero Yumemi Okazaki."
 "task_random_item" "Find an item at random spot on the map within 2 minutes, mini-map will mark area at which the item is located with a red circle."
 "task_name_item" "Item quest"
 "task_random_address" "All players have a random stargate address generated, whoever is first to dial it will be rewarded.Upon stargate's activation the player will be teleported to a random spot on the map."
@@ -5148,8 +5122,6 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "task_name_winitem" "Item Quest<br>
 <font color='#03fc17'>-----COMPLETED-----</font>"
 
-"task_name_winboss" "Boss Kill<br>
-<font color='#03fc17'>-----COMPLETED-----</font>"
 
 "task_name_winaddress" "Random Address<br>
 <font color='#03fc17'>-----COMPLETED-----</font>"
@@ -5422,7 +5394,6 @@ You can increase Energy limit and regeneration by completing quests in random ev
 
 "npc_universal_boss_t72" "T-72"
 "npc_universal_boss_emiliya" "Emilia"
-"npc_universal_boss_enigma" "Blackhole-chan"
 "npc_universal_boss_a10" "F-16 Falcon"
 "npc_universal_boss_yumemi" "Yumemi Okazaki"
 "npc_universal_boss_clown" "Clown"
@@ -5570,7 +5541,7 @@ They can use autodialling without energy loss."
 "progressbarpetro" "Under development"
 "progressbarchlen" "Under development"
 "progressbarelder" "Earth Mage"
-"progressbarenigma" "BlackHole-Chan"
+"progressbarenigma" "Andromeda"
 "progressbarinvalid" "Under development"
 "progressbarsniper" "Sniper"
 "progressbarviktor" "Kizaru"
@@ -6061,12 +6032,32 @@ They can use autodialling without energy loss."
 		"lore_qvest_boss"	"New quest!<br> «Kill Boss»"
 		"lore_qvest_upgrade_tron"	"New quest!<br> «Andromeda Upgrade»"
 		"lore_qvest_all_boss_kill"	"New quest!<br> «Kill all Bosses»"
+		"lore_qvest_prolog_a"	"New quest!<br> «Make your escape!»"
+		"lore_qvest_forest_e"	"New quest!<br> «Slaughter on «R3H-797» »"
+		"lore_qvest_forest_h"	"New quest!<br> «Slaughter on «R3H-888» »"
+		"lore_qvest_forest_a"	"New quest!<br> «Slaughter on «R3H-367» »"
+		"lore_qvest_start_forest_e"	"New quest!<br> «R3H-797»"
+		"lore_qvest_start_forest_h"	"New quest!<br> «R3H-888»"
+		"lore_qvest_start_forest_a"	"New quest!<br> «R3H-367»"
 
 		"lore_qvest_main_text"	"Quest: «Defend Andromeda»"
 		"lore_qvest_boss_text"	"Quest: «Kill any Boss!»"
 		"lore_qvest_upgrade_tron_text"	"Quest: «Upgrade Andromeda!»"
 		"lore_qvest_all_boss_kill_text"	"Quest: «Kill all Bosses!»"
+		"lore_qvest_prolog"	"Quest: «Make your escape!»"
+		"lore_qvest_forest_e_text"	"Quest: « «R3H-797» Killing creatures»"
+		"lore_qvest_forest_h_text"	"Quest: « «R3H-888» Killing creatures»"
+		"lore_qvest_forest_a_text"	"Quest: « «R3H-367» Killing creatures»"
+		"lore_qvest_start_forest_e_text"	"Quest: «Visit «R3H-797» »"
+		"lore_qvest_start_forest_h_text"	"Quest: «Visit «R3H-888» »"
+		"lore_qvest_start_forest_a_text"	"Quest: «Visit «R3H-367» »"
 
+		"lore_qvest_start_forest_e_text_des"	"Visit «R3H-797». <br><br> Награда: 100 Золота"
+		"lore_qvest_start_forest_h_text_des"	"Visit «R3H-888». <br><br> Награда: 100 Золота"
+		"lore_qvest_start_forest_a_text_des"	"Visit «R3H-367». <br><br> Награда: 100 Золота"
+		"lore_qvest_forest_e_text_des"	"Kill 100 creatures on «R3H-797» planet. <br><br> Reward: 400 Gold"
+		"lore_qvest_forest_h_text_des"	"Kill 200 creatures on «R3H-888» planet. <br><br> Reward: 600 Gold"
+		"lore_qvest_forest_a_text_des"	"Kill 300 creatures on «R3H-367» planet. <br><br> Reward: 2000 Gold"
 		"lore_qvest_main_text_des"	"Defend Andromed from any theats until she is ready to end the war!"
 		"lore_qvest_boss_text_des"	"Kill any Boss. <br><br> Reward: 200 Gu-Coins"
 		"lore_qvest_upgrade_tron_text_des"	"Upgrade any Andromeda's stat by 10 levels. <br><br> Reward: 500 Gu-Coins"
@@ -6162,6 +6153,10 @@ They can use autodialling without energy loss."
 		"end_game_help_6" "Congratulations, you have completed one of plotlines of the Guardians of Universe project! Follow updates as plotline will be enlarged in near future!"
 		"end_game_help_7" "You can always come back and repeat your deed, there is so much you have yet to discover!"
 		"end_game_help_8" "Thank you for playing in the project! Good luck!"	
+		
+		"end_game_vote"	"Quest - «End the War!»"
+		"end_game_vote_a"	"Vote for start!"
+		"end_vote_yes"		"Start!"
 }
 
 
