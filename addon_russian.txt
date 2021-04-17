@@ -4541,19 +4541,16 @@
 	    "DOTA_Tooltip_ability_item_sun_core_Description"			"<h1>Пассивная: Горение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% физический урон по формуле %damage% + (%damage_str% * ваш сила).<br>Внимание! Данный предмет работает только у героев с основным атрибутом - Сила"
 	    "DOTA_Tooltip_ability_item_sun_core_str"						"+к силе"
 		"DOTA_Tooltip_ability_item_sun_core_hp"							"+к здоровью"
-		"DOTA_Tooltip_ability_item_sun_core_regen"						"+к восстановлению здоровья"
 
 		"DOTA_Tooltip_ability_item_sun_core_2"					"Солнечное ядро 2"
 	    "DOTA_Tooltip_ability_item_sun_core_2_Description"			"<h1>Пассивная: Горение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% физический урон по формуле %damage% + (%damage_str% * ваш сила).<br>Внимание! Данный предмет работает только у героев с основным атрибутом - Сила"
 	    "DOTA_Tooltip_ability_item_sun_core_2_str"						"+к силе"
 		"DOTA_Tooltip_ability_item_sun_core_2_hp"						"+к здоровью"
-		"DOTA_Tooltip_ability_item_sun_core_2_regen"					"+к восстановлению здоровья"
 
 		"DOTA_Tooltip_ability_item_sun_core_3"					"Солнечное ядро 3"
 	    "DOTA_Tooltip_ability_item_sun_core_3_Description"			"<h1>Пассивная: Горение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% физический урон по формуле %damage% + (%damage_str% * ваш сила).<br>Внимание! Данный предмет работает только у героев с основным атрибутом - Сила"
 	    "DOTA_Tooltip_ability_item_sun_core_3_str"						"+к силе"
 		"DOTA_Tooltip_ability_item_sun_core_3_hp"						"+к здоровью"
-		"DOTA_Tooltip_ability_item_sun_core_3_regen"					"+к восстановлению здоровья"
 
 	
 		"DOTA_Tooltip_ability_item_cursed_stone"                                         "Проклятый Камень"
@@ -6643,21 +6640,21 @@
 		"battle_pass_lvl_20" "<font color='#11c4fa'>Уровень: 20</font> <br> Нужен ранг: 153 <br><br>С шансом в 40% вы игнорируете урон от любого типа атаки либо способности!"
 
 		
-		"battle_pass_premium_lvl_1" "" 
-		"battle_pass_premium_lvl_2" ""
-		"battle_pass_premium_lvl_3" ""
-		"battle_pass_premium_lvl_4" ""
-		"battle_pass_premium_lvl_5" ""
-		"battle_pass_premium_lvl_6" ""
-		"battle_pass_premium_lvl_7" ""
-		"battle_pass_premium_lvl_8" ""
-		"battle_pass_premium_lvl_9" ""
-		"battle_pass_premium_lvl_10" ""
-		"battle_pass_premium_lvl_11" ""
-		"battle_pass_premium_lvl_12" ""
-		"battle_pass_premium_lvl_13" ""
-		"battle_pass_premium_lvl_14" ""
-		"battle_pass_premium_lvl_15" ""
+		"battle_pass_premium_lvl_1" "Скоро!" 
+		"battle_pass_premium_lvl_2" "Скоро!"
+		"battle_pass_premium_lvl_3" "Скоро!"
+		"battle_pass_premium_lvl_4" "Скоро!"
+		"battle_pass_premium_lvl_5" "Скоро!"
+		"battle_pass_premium_lvl_6" "Скоро!"
+		"battle_pass_premium_lvl_7" "Скоро!"
+		"battle_pass_premium_lvl_8" "Скоро!"
+		"battle_pass_premium_lvl_9" "Скоро!"
+		"battle_pass_premium_lvl_10" "Скоро!"
+		"battle_pass_premium_lvl_11" "Скоро!"
+		"battle_pass_premium_lvl_12" "Скоро!"
+		"battle_pass_premium_lvl_13" "Скоро!"
+		"battle_pass_premium_lvl_14" "Скоро!"
+		"battle_pass_premium_lvl_15" "Скоро!"
 
 
 		"DOTA_Tooltip_ability_item_started_key"								"Ключ Звёздных Врат"
@@ -6876,6 +6873,21 @@
 
 
  		"DOTA_Tooltip_modifier_black_king_bar_activate" "Магическая Неуязвимость"
+
+
+
+		"gu_hud_profile" "Профиль"
+		"stats_privilege" 	"Привилегии"
+		"stats_all" 	"Статистика"
+		"stats_top" 	"ТОП 30"
+		"stats_reports" "Репорты"
+		"setting_name" "Настройки профиля"
+		"setting_bg" 	"Настройки заднего фона:"
+		"setting_bg_default" "Стандартный"
+		"setting_bg_custom"	"Кастомный"
+		"custom_bg_url"	"Вставьте ссылку сюда..."
+		"boss_fite_text" "Выбор Босса"
+		"boss_fite_time" "Следующего босса можно будет убить через:"
 	
 
 }
