@@ -6888,7 +6888,28 @@
 		"custom_bg_url"	"Вставьте ссылку сюда..."
 		"boss_fite_text" "Выбор Босса"
 		"boss_fite_time" "Следующего босса можно будет убить через:"
+
+
+		"DOTA_Tooltip_ability_gu_duel"				"Воодушевление"
+		"DOTA_Tooltip_ability_gu_duel_Description"	"За каждого убитого врага с шансом 17% добавляет %damage% к урону и %str% к силе. Эффект не пропадает после смерти."		
 	
+        "DOTA_Tooltip_modifier_gu_duel_buff" "Воодушевление"
+		"DOTA_Tooltip_modifier_gu_duel_buff_Description" "Получает %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% к силе и %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% к урону."
+
+
+		"DOTA_Tooltip_ability_item_book_of_stats_boss" 						"Знания Древних"
+		"DOTA_Tooltip_ability_item_book_of_stats_boss_bonus_str" 				"+ко всем атрибутам" 
+
+		"DOTA_Tooltip_ability_item_rune_boss" 						"Реликвия Орай"
+		"DOTA_Tooltip_ability_item_rune_boss_Description" 				"Даёт случайный эффект руны на 5 минут" 
+
+
+
+
+
+
+
+
 
 }
 
