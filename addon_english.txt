@@ -154,7 +154,6 @@
  "DOTA_Tooltip_ability_odin_sleipnirs_veil_description" "Enters a ghost form in which it can run through units, dealing damage to them. Increases move speed by 45. Damage is dealt each time Ghost Warrior collides with an enemy.<br>Damage Type: <font color='#e5ff00'>Pure Matter</font>"
  "DOTA_Tooltip_ability_odin_sleipnirs_veil_duration" "Duration:"
  "DOTA_Tooltip_ability_odin_sleipnirs_veil_slow" "%Move speed slow:"
- "DOTA_Tooltip_ability_odin_sleipnirs_veil_damage" "Damage:"
  "DOTA_Tooltip_ability_odin_sleipnirs_veil_armor"										"Bonus armor:"
  "DOTA_Tooltip_modifier_sleipnir"                                              "Ghost form"
 
@@ -1783,7 +1782,7 @@
  "DOTA_Tooltip_ability_marisa_spark_distance" "Beam's length :"
  "DOTA_Tooltip_ability_marisa_spark_start_width" "Beam's width :"
  "DOTA_Tooltip_ability_marisa_spark_damage_heal" "Damage/Heal:"
- "DOTA_Tooltip_ability_marisa_spark_damage_heal_full"
+ "DOTA_Tooltip_ability_marisa_spark_damage_heal_full" "Total damage/heal:"
  "DOTA_Tooltip_ability_marisa_Lore" "Lesson of Marisa on Rainbow beam: 1. Concentrate 2. Gently whisper the spell in ミニ 八卦炉 (Mini Hakkero) 3. Target the enemy 4. Now unleash your deadly power of love! "
  
  // Marisa Aura
@@ -1791,7 +1790,7 @@
  "DOTA_Tooltip_ability_marisa_aura_Description" "A %radius% radius aura that increases maximal health by %health_bonus% and mana by %mana_bonus%, and also increases health regeneration by %health_regen% and mana regeneraion by %mana_regen%."
 
  "DOTA_Tooltip_modifier_marisa_aura_buff"												"Star aura"
- "DOTA_Tooltip_modifier_marisa_aura_buff_Description" "+ %dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% Health +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health regeneretion, +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana regeneration."
+ "DOTA_Tooltip_modifier_marisa_aura_buff_Description" "+ %dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% Health, +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% mana, +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health regeneretion, +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana regeneration."
  // Marisa Starfall
  "DOTA_Tooltip_ability_marisa_starfall" "Starfall"
  "DOTA_Tooltip_ability_marisa_starfall_Description" "While the skill is active, stars that damage enemies and heal allies fall from the sky."
@@ -3180,26 +3179,26 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  
  "DOTA_Tooltip_ability_item_bashercustom" "Matter of destruction strike"
  "DOTA_Tooltip_ability_item_bashercustom_Description" "<h1>Passive: Stun</h1>Attacks have chance bash target for %bash_duration% seconds.\n<br>For melee heroes : %bash_chance_melee%% <br>For ranged heroes : %bash_chance_ranged%%."
- "DOTA_Tooltip_ability_item_bashercustom_bonus_damage" "+Damage:"
- "DOTA_Tooltip_ability_item_bashercustom_bonus_strength" "+Health:"
+ "DOTA_Tooltip_ability_item_bashercustom_bonus_damage" "Damage:"
+ "DOTA_Tooltip_ability_item_bashercustom_bonus_strength" "Strength:"
  "DOTA_Tooltip_ability_item_bashercustom_bash_cooldown" "CD:"
  
  "DOTA_Tooltip_ability_item_bashercustom2" "Matter of destruction strike"
  "DOTA_Tooltip_ability_item_bashercustom2_Description" "<h1>Passive: Stun</h1>Attacks have chance bash target for %bash_duration% seconds.\n<br>For melee heroes : %bash_chance_melee%% <br>For ranged heroes : %bash_chance_ranged%%."
- "DOTA_Tooltip_ability_item_bashercustom2_bonus_damage" "+Damage:"
- "DOTA_Tooltip_ability_item_bashercustom2_bonus_strength" "+Health:"
+ "DOTA_Tooltip_ability_item_bashercustom2_bonus_damage" "Damage:"
+ "DOTA_Tooltip_ability_item_bashercustom2_bonus_strength" "Strength:"
  "DOTA_Tooltip_ability_item_bashercustom2_bash_cooldown" "CD:"	
  
  "DOTA_Tooltip_ability_item_bashercustom3" "Matter of destruction strike 2"
  "DOTA_Tooltip_ability_item_bashercustom3_Description" "<h1>Passive: Stun</h1>Attacks have chance bash target for %bash_duration% seconds.\n<br>For melee heroes : %bash_chance_melee%% <br>For ranged heroes : %bash_chance_ranged%%."
- "DOTA_Tooltip_ability_item_bashercustom3_bonus_damage" "+Damage:"
- "DOTA_Tooltip_ability_item_bashercustom3_bonus_strength" "+Health:"
+ "DOTA_Tooltip_ability_item_bashercustom3_bonus_damage" "Damage:"
+ "DOTA_Tooltip_ability_item_bashercustom3_bonus_strength" "Strength:"
  "DOTA_Tooltip_ability_item_bashercustom3_bash_cooldown" "CD:"
  
  		"DOTA_Tooltip_ability_item_bashercustom4"												"Matter of destruction strike 3"
 		"DOTA_Tooltip_ability_item_bashercustom4_Description"									"<h1>Passive: Stun</h1>Attacks have chance bash target for %bash_duration% seconds.\n<br>For melee heroes : %bash_chance_melee%% <br>For ranged heroes : %bash_chance_ranged%%."
-		"DOTA_Tooltip_ability_item_bashercustom4_bonus_damage"									"+Damage:"
-		"DOTA_Tooltip_ability_item_bashercustom4_bonus_strength"									"+Health:"
+		"DOTA_Tooltip_ability_item_bashercustom4_bonus_damage"									"Damage:"
+		"DOTA_Tooltip_ability_item_bashercustom4_bonus_strength"									"Health:"
 		"DOTA_Tooltip_ability_item_bashercustom4_bash_cooldown"									"CD:"
  
  
@@ -3284,17 +3283,17 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 "DOTA_Tooltip_ability_item_hand_of_hunter" "Hunter's glove"
 "DOTA_Tooltip_ability_item_hand_of_hunter_Description" ""
-"DOTA_Tooltip_ability_item_hand_of_hunter_bonus_attack_speed" "Bonus attack speed::"
+"DOTA_Tooltip_ability_item_hand_of_hunter_bonus_attack_speed" "Bonus attack speed:"
 "DOTA_Tooltip_ability_item_hand_of_hunter_bonus_damage" "Damage:"
 
 "DOTA_Tooltip_ability_item_hand_of_hunter_2" "Hunter's glove 2"
 "DOTA_Tooltip_ability_item_hand_of_hunter_2_Description" ""
-"DOTA_Tooltip_ability_item_hand_of_hunter_2_bonus_attack_speed" "Bonus attack speed::"
+"DOTA_Tooltip_ability_item_hand_of_hunter_2_bonus_attack_speed" "Bonus attack speed:"
 "DOTA_Tooltip_ability_item_hand_of_hunter_2_bonus_damage" "Damage:"
 
 "DOTA_Tooltip_ability_item_hand_of_hunter_3" "Hunter's glove 3"
 "DOTA_Tooltip_ability_item_hand_of_hunter_3_Description" ""
-"DOTA_Tooltip_ability_item_hand_of_hunter_3_bonus_attack_speed" "Bonus attack speed::"
+"DOTA_Tooltip_ability_item_hand_of_hunter_3_bonus_attack_speed" "Bonus attack speed:"
 "DOTA_Tooltip_ability_item_hand_of_hunter_3_bonus_damage" "Damage:"
 
 "DOTA_Tooltip_ability_item_mana_drop" "Mana Spring drop"
@@ -3505,12 +3504,12 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_ability_item_lens3" "Matter amplifier 2"
  "DOTA_Tooltip_ability_item_lens3_Description" "<h1Passive:</h1>Increases cast range by %cast_range_bonus%."
  "DOTA_Tooltip_ability_item_lens3_bonus_mana" "Bonus mana:"
- "DOTA_Tooltip_ability_item_lens3_bonus_mana_regen" "+Mana regeneration:"
+ "DOTA_Tooltip_ability_item_lens3_bonus_mana_regen" "Mana regeneration:"
  
  "DOTA_Tooltip_ability_item_lens4" "Matter amplifier 3"
  "DOTA_Tooltip_ability_item_lens4_Description" "<h1Passive:</h1>Increases cast range by %cast_range_bonus%."
  "DOTA_Tooltip_ability_item_lens4_bonus_mana" "Bonus mana:"
- "DOTA_Tooltip_ability_item_lens4_bonus_mana_regen" "+Mana regeneration:"
+ "DOTA_Tooltip_ability_item_lens4_bonus_mana_regen" "Mana regeneration:"
  
  
  
@@ -3901,9 +3900,9 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
  "DOTA_Tooltip_ability_item_lifestealtank" "Blood gem"
  "DOTA_Tooltip_ability_item_lifestealtank_Description" "<h1>Passive: Ally blood</h1> 20% of all damage dealt by allies within %radius% radius will replenish your health.\n<h1>Passive: Vampirism</h1> Each attack replenishes %lifesteal%%  owner's health based on damage."
- "DOTA_Tooltip_ability_item_lifestealtank_bonus_armor" "+Armor:"
- "DOTA_Tooltip_ability_item_lifestealtank_tooltip_allstats" "+All stats:"
- "DOTA_Tooltip_ability_item_lifestealtank_bonus_damage" "+Damage:"
+ "DOTA_Tooltip_ability_item_lifestealtank_bonus_armor" "Armor:"
+ "DOTA_Tooltip_ability_item_lifestealtank_tooltip_allstats" "All stats:"
+ "DOTA_Tooltip_ability_item_lifestealtank_bonus_damage" "Damage:"
  
  "DOTA_Tooltip_lifestealtank" "Blood Gem aura"
  "DOTA_Tooltip_lifestealtank_Description" "20% of your damage heal the owner of this item."
@@ -3963,11 +3962,11 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
  "DOTA_Tooltip_ability_item_daedalus2" "Daedalus 2"
  "DOTA_Tooltip_ability_item_daedalus2_Description" "Each attack has %critical_chance%%  chance to deal %critical_bonus%% damage."
- "DOTA_Tooltip_ability_item_daedalus2_bonus_damage" "+Damage:"
+ "DOTA_Tooltip_ability_item_daedalus2_bonus_damage" "Damage:"
  
  "DOTA_Tooltip_ability_item_daedalus3" "Daedalus 3"
  "DOTA_Tooltip_ability_item_daedalus3_Description" "Each attack has %critical_chance%%  chance to deal %critical_bonus%% damage."
- "DOTA_Tooltip_ability_item_daedalus3_bonus_damage" "+Damage:"
+ "DOTA_Tooltip_ability_item_daedalus3_bonus_damage" "Damage:"
 
 
 
@@ -4121,7 +4120,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
         "DOTA_Tooltip_ability_item_gu_armor_4_health_regen_percent" 					"%Health regeneration per second:"
         "DOTA_Tooltip_ability_item_gu_armor_4_bonus_all" 								"All stats:"
         "DOTA_Tooltip_ability_item_gu_armor_4_bonus_health" 							"Health:" 
-        "DOTA_Tooltip_ability_item_gu_armor_4_bonus_armor" 								"+Armor:"
+        "DOTA_Tooltip_ability_item_gu_armor_4_bonus_armor" 								"Armor:"
         "DOTA_Tooltip_ability_item_gu_armor_4_bonus_attackspeed" 						"Attack speed:"
 		"DOTA_Tooltip_ability_item_gu_armor_4_mag_res" 									"Magical resistance:"
 		"DOTA_Tooltip_ability_item_gu_armor_4_health_per_str" 							"Health per 1 strength:"
@@ -4492,7 +4491,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
  "DOTA_Tooltip_Ability_item_izu" "Emerald"
  "DOTA_Tooltip_Ability_item_izu_Description" "You can only know the true importance and value of this item after going through numerous tests in the fight against the forces of evil, but believe me, if you could get it, then you have no equal in this universe. Needed to craft some of the most powerful items in the game."
- "DOTA_Tooltip_Ability_item_izu_pizda" "+All stats:"
+ "DOTA_Tooltip_Ability_item_izu_pizda" "All stats:"
 
 
 
@@ -5066,14 +5065,14 @@ Contract"
 "energy_bonus_rewards" "+Maximal Energy"
 "energy_regen_rewards" "+Energy regeneration"
 "gold_rewards" "+Gold"
-"hp_rewards" " +Health"
+"hp_rewards" "+Health"
 "int_rewards" "+Intelligence"
 "mag_armor_rewards" "+Magical resistance"
-"mana_rewards" " +Mana regeneration"
+"mana_rewards" "+Mana regeneration"
 "spell_ampl_rewards" "+Spell amplification"
 "str_rewards" "+Strength"
-"stres_rewards" " +Status resistance"
-"xp_rewards" " +Experience"
+"stres_rewards" "+Status resistance"
+"xp_rewards" "+Experience"
 
 
 "npc_universal_pudge" "Pudge(Deleted)"
