@@ -6891,7 +6891,8 @@
 
 
 		"DOTA_Tooltip_ability_gu_duel"				"Воодушевление"
-		"DOTA_Tooltip_ability_gu_duel_Description"	"За каждого убитого врага с шансом 17% добавляет %damage% к урону и %str% к силе. Эффект не пропадает после смерти."		
+		"DOTA_Tooltip_ability_gu_duel_Description"	"За каждого убитого врага с шансом 17% добавляет %damage% к урону и %str% к силе. Эффект не пропадает после смерти."
+		"DOTA_Tooltip_ability_gu_duel_cd"	"Перезарядка: "		
 	
         "DOTA_Tooltip_modifier_gu_duel_buff" "Воодушевление"
 		"DOTA_Tooltip_modifier_gu_duel_buff_Description" "Получает %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% к силе и %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% к урону."
@@ -6904,10 +6905,10 @@
 		"DOTA_Tooltip_ability_item_rune_boss_Description" 				"Даёт случайный эффект руны на 5 минут" 
 
 
-
-
-
-
+		"gu_chat_help"	"Глобальный чат обновляеться раз в 10 секунд. <br><br> Здесь вы можете найти себе друзей для совместной игры!<br><br> Правила:<br> Запрещена политота в любом виде.<br> Реклама в любом виде запрещена!<br><br> За нарушение правил чата он будет у вас отключён! <br><br> Возможности чата:<br> Вы можете отправить ссылку на любое изображение либо видео в чат и оно будет показано всем игрокам."
+		"gu_chat"       "Введите ваше сообщение.. Макс 300 символов!"
+		"gu_chat_send"  "Сообщение отправлено!"
+		"open_chat"		"Chat"
 
 
 
