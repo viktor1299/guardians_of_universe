@@ -6172,6 +6172,20 @@ They can use autodialling without energy loss."
 		"custom_bg_url"	"Paste the link here..."
 		"boss_fite_text" "Boss Choice"
 		"boss_fite_time" "The next boss can be killed in:"
+
+
+"DOTA_Tooltip_ability_gu_duel"				"Encouragament"
+		"DOTA_Tooltip_ability_gu_duel_Description"	"Each kill will grant hero %str% bonus strength and %damage% attack damage with 17% chance."	
+
+        "DOTA_Tooltip_modifier_gu_duel_buff" "Encouragament"
+		"DOTA_Tooltip_modifier_gu_duel_buff_Description" "Recieves %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength and %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% damage."
+
+
+		"DOTA_Tooltip_ability_item_book_of_stats_boss" 						"Ancients' knowledge"
+		"DOTA_Tooltip_ability_item_book_of_stats_boss_bonus_str" 				"+all attributes" 
+
+		"DOTA_Tooltip_ability_item_rune_boss" 						"Ori Relic"
+		"DOTA_Tooltip_ability_item_rune_boss_Description" 				"Grants a random rune effect for 5 minutes."	
 }
 
 
