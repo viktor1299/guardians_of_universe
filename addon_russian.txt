@@ -70,6 +70,13 @@
     "player_desc"   "Вы обычный игрок, у вас нету никаких привилегий, для получения другой роли обратитесть в дискорд сервер проекта."
 	"dev_desc"      "Вы состоите в команде разработчиков проекта, ваши преимущества:
 
+	"P:Ori" "P-Ori"
+	"P:Asgard" "P-Asgard"
+	"P:Alteran" "P-Alteran"
+	"P:Wraith" "P-Wraith"
+	"P:Goauld" "P-Goa'uld"
+	"P:Tauri" "P-Tau'ri"
+
 	Команды чата:
 	-w изменяет текужую погоду на рандомную
 	-rune спавнит на всех спотах новые руны
@@ -4477,49 +4484,49 @@
 	
 		
         "DOTA_Tooltip_ability_item_quibbela"              "Камень Опыта"
-        "DOTA_Tooltip_ability_item_quibbela_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n"
+        "DOTA_Tooltip_ability_item_quibbela_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela_mana"  				"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela_mana_regen"			"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela2"              "Камень Опыта 2"
-        "DOTA_Tooltip_ability_item_quibbela2_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n"
+        "DOTA_Tooltip_ability_item_quibbela2_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela2_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela2_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela2_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela2_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela3"              "Камень Опыта 3"
-        "DOTA_Tooltip_ability_item_quibbela3_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n"
+        "DOTA_Tooltip_ability_item_quibbela3_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela3_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela3_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela3_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela3_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela4"              "Камень Опыта 4"
-        "DOTA_Tooltip_ability_item_quibbela4_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n"
+        "DOTA_Tooltip_ability_item_quibbela4_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela4_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela4_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela4_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela4_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela5"              "Камень Опыта 5"
-        "DOTA_Tooltip_ability_item_quibbela5_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n"
+        "DOTA_Tooltip_ability_item_quibbela5_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela5_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela5_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela5_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela5_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela6"              "Камень Опыта 6"
-        "DOTA_Tooltip_ability_item_quibbela6_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n"
+        "DOTA_Tooltip_ability_item_quibbela6_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela6_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela6_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela6_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela6_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela7"              "Камень Опыта 7"
-        "DOTA_Tooltip_ability_item_quibbela7_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n"
+        "DOTA_Tooltip_ability_item_quibbela7_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela7_Lore"           "Подобный Камень Опыта использовал Повелитель Вселенной в своих эксперементах по перемещению во времени."
         "DOTA_Tooltip_ability_item_quibbela7_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela7_mana"  			"+к мане "
@@ -4763,7 +4770,7 @@
 
 
 		"DOTA_Tooltip_ability_item_cu_fury_7"                                   "Крушитель Мидаса"
-		"DOTA_Tooltip_ability_item_cu_fury_7_Description"                       	"<h1>Пассивная: Splash</h1> Прорубающий урон в %cleave_damage%% на расстоянии %distance%. \n <h1>Пассивная: Золотое Дно</h1> Если предмет не перезаряжается, то каждый удар будет давать вам 2 золота (Не работает на героях дальнего боя) \n <h1>Пассивная: Удар Материей Разрушения</h1> есть шанс оглушить противника."                                        
+		"DOTA_Tooltip_ability_item_cu_fury_7_Description"                       	"<h1>Пассивная: Splash</h1> Прорубающий урон в %cleave_damage%% на расстоянии %distance%. \n <h1>Пассивная: Золотое Дно</h1> С шансом в 20% при атаке будет давать 1 золото (Не работает на героях дальнего боя) \n <h1>Пассивная: Удар Материей Разрушения</h1> Оглушает противника с перезарядкой в 8 секунд."                                        
 		"DOTA_Tooltip_ability_item_cu_fury_7_damage"                            		"+к урону"
 		"DOTA_Tooltip_ability_item_cu_fury_7_regen_hp"                         			"+к восстановлению здоровья"
 		"DOTA_Tooltip_ability_item_cu_fury_7_regen_mana"                           		"+к восстановлению маны "
@@ -4891,43 +4898,43 @@
 		
 		
 		"DOTA_Tooltip_ability_item_talisman_of_mastery"							"Талисман Сознания 1"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт."
+		"DOTA_Tooltip_ability_item_talisman_of_mastery_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery_bonus_hp_regen"			"+к восстановлению здоровья "
 		
 		"DOTA_Tooltip_ability_item_talisman_of_mastery2"						"Талисман Сознания 2"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery2_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт."
+		"DOTA_Tooltip_ability_item_talisman_of_mastery2_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery2_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery2_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery2_bonus_hp_regen"			"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery3"						"Талисман Сознания 3"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery3_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт."
+		"DOTA_Tooltip_ability_item_talisman_of_mastery3_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery3_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery3_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery3_bonus_hp_regen"			"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery4"						"Талисман Сознания 4"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery4_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт."
+		"DOTA_Tooltip_ability_item_talisman_of_mastery4_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery4_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery4_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery4_bonus_hp_regen"			"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5"						"Талисман Сознания 5"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery5_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт."
+		"DOTA_Tooltip_ability_item_talisman_of_mastery5_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_hp_regen"			"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6"						"Талисман Сознания 6"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery6_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт."
+		"DOTA_Tooltip_ability_item_talisman_of_mastery6_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_hp_regen"			"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7"						"Талисман Сознания 7"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт."
+		"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_hp_regen"			"+к восстановлению здоровья "
@@ -5809,9 +5816,6 @@
 
 
 		"cost_teleport" 												"Стоимость компютерного набора - 200 Энергии. Для активации автонабора нажмите на любую точку назначения."
-		"dota_tooltip_ability_item_rangesplash" 						"<font color='#f7a62d'>Энергетическое Разделение"
-		"dota_tooltip_ability_item_rangesplash_description" 			"<h1>Активная: Активация</h1>Разделяет вашу атаку, но потребляет по 7 единиц энергии за выстрел."
-
 
 	
 		"cost_teleport_pegasus"				"Стоимость компютерного набора - 500 Энергии."
@@ -6909,6 +6913,64 @@
 		"gu_chat"       "Введите ваше сообщение.. Макс 300 символов!"
 		"gu_chat_send"  "Сообщение отправлено!"
 		"open_chat"		"Chat"
+
+		"DOTA_Tooltip_ability_item_gu_midas_range" 						"Эссенция Мидаса"
+		"DOTA_Tooltip_ability_item_gu_midas_range_Description" 				"За каждую атаку (если предмет не в КД), даёт владельцу 2 золота. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font>" 
+
+		"DOTA_Tooltip_ability_item_gu_range_splash" 						"Энергетическая Атака"
+		"DOTA_Tooltip_ability_item_gu_range_splash_Description" 				"Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font>" 
+		"DOTA_Tooltip_ability_item_gu_range_splash_bonus_damage" 				"Урон: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_gold" 						"Золото за удар: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_chanse" 						"Шанс на получение золота: "
+
+		"DOTA_Tooltip_ability_item_gu_range_splash_2" 						"Энергетическая Атака 2"
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_Description" 				"Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font>" 
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_bonus_damage" 				"Урон: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_gold" 						"Золото за удар: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_chanse" 						"Шанс на получение золота: "
+
+		"DOTA_Tooltip_ability_item_gu_range_splash_3" 						"Энергетическая Атака 3"
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_Description" 				"<h1>Пассивная: Энергетическая Нестабильность </h1> Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font>" 
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_bonus_damage" 				"Урон: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_gold" 						"Золото за удар: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_chanse" 						"Шанс на получение золота: "
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox" 						"Энергетический Парадокс 1"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_Description" 				"<h1>Пассивная: Нестабильность </h1>Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font> \n <h1>Пассивная: Парадокс</h1> С шансом %crit_chance%% атака нанесёт %crit_bonus%% урона. \n <h1>Пассивная: Двойная атака</h1> У всех героев дальнего боя при атаке будет выпущена дополнительная атака." 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_bonus_damage" 				"Урон: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_gold" 						"Золото за удар: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_chanse" 						"Шанс на получение золота: "
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2" 						"Энергетический Парадокс 2"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_Description" 				"<h1>Пассивная: Нестабильность </h1>Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font> \n <h1>Пассивная: Парадокс</h1> С шансом %crit_chance%% атака нанесёт %crit_bonus%% урона. \n <h1>Пассивная: Двойная атака</h1> У всех героев дальнего боя при атаке будет выпущена дополнительная атака." 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_bonus_damage" 				"Урон: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_gold" 						"Золото за удар: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_chanse" 						"Шанс на получение золота: "
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3" 						"Энергетический Парадокс 3"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_Description" 				"<h1>Пассивная: Нестабильность </h1>Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font> \n <h1>Пассивная: Парадокс</h1> С шансом %crit_chance%% атака нанесёт %crit_bonus%% урона. \n <h1>Пассивная: Двойная атака</h1> У всех героев дальнего боя при атаке будет выпущена дополнительная атака." 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_bonus_damage" 				"Урон: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_gold" 						"Золото за удар: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_chanse" 						"Шанс на получение золота: "
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4" 						"Энергетический Парадокс 4"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_Description" 				"<h1>Пассивная: Нестабильность </h1>Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font> \n <h1>Пассивная: Парадокс</h1> С шансом %crit_chance%% атака нанесёт %crit_bonus%% урона. \n <h1>Пассивная: Двойная атака</h1> У всех героев дальнего боя при атаке будет выпущена дополнительная атака." 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_bonus_damage" 				"Урон: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_gold" 						"Золото за удар: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_chanse" 						"Шанс на получение золота: "
+
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r" 						"Энергетический Парадокс 2 Рецепт"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r_Description" 				"Можно получить убив босса Маг Земли" 
+
+		"prolog_off" "Пропустить пролог?"
 
 
 
