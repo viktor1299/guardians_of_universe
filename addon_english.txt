@@ -69,6 +69,13 @@
     "player_desc"   "You are common player without any priveleges. Apply in project's dicord server to get another role."
 	"dev_desc"      "You are a member of project's development team. Your priveleges:	
 
+	"P:Ori" "P-Ori"
+	"P:Asgard" "P-Asgard"
+	"P:Alteran" "P-Alteran"
+	"P:Wraith" "P-Wraith"
+	"P:Goauld" "P-Goa'uld"
+	"P:Tauri" "P-Tau'ri"
+
 	Chat commands:
 	-«-w» randomly changes current weather;
 	-«-rune» spawns new runes on all spots;
@@ -3745,49 +3752,49 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
  "DOTA_Tooltip_ability_item_quibbela" "Experience stone"
- "DOTA_Tooltip_ability_item_quibbela_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. Full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown's duration. Works according to the formula exp*CD/100*100%."
+ "DOTA_Tooltip_ability_item_quibbela_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. Full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown's duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela2" "Experience stone 2"
- "DOTA_Tooltip_ability_item_quibbela2_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%."
+ "DOTA_Tooltip_ability_item_quibbela2_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela2_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela2_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela2_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela2_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela3" "Experience stone 3"
- "DOTA_Tooltip_ability_item_quibbela3_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. The full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%."
+ "DOTA_Tooltip_ability_item_quibbela3_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. The full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela3_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela3_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela3_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela3_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela4" "Experience stone 4"
- "DOTA_Tooltip_ability_item_quibbela4_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown's duration. Works according to the formula exp*CD/100*100%."
+ "DOTA_Tooltip_ability_item_quibbela4_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown's duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela4_Lore" "Without this stone you will be useless."
  "DOTA_Tooltip_ability_item_quibbela4_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela4_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela4_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela5" "Experience stone 5"
- "DOTA_Tooltip_ability_item_quibbela5_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%."
+ "DOTA_Tooltip_ability_item_quibbela5_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela5_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela5_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela5_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela5_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela6" "Experience stone 6"
- "DOTA_Tooltip_ability_item_quibbela6_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%."
+ "DOTA_Tooltip_ability_item_quibbela6_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela6_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela6_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela6_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela6_mana_regen" "Mana regeneration:"
  
  "DOTA_Tooltip_ability_item_quibbela7" "Experience stone 7"
- "DOTA_Tooltip_ability_item_quibbela7_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%."
+ "DOTA_Tooltip_ability_item_quibbela7_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela7_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela7_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela7_mana" "Mana:"
@@ -3998,31 +4005,31 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
                 "DOTA_Tooltip_ability_item_cu_fury_1_Description"                                          "<h1>Passive: Splash</h1>   Deals %cleave_damage%%  cleave damage to all enemies in front of you in %distance% range."                                        
                 "DOTA_Tooltip_ability_item_cu_fury_1_damage"                               "Damage:"
                 "DOTA_Tooltip_ability_item_cu_fury_1_regen_hp"                         "Health Regeneration"
-                "DOTA_Tooltip_ability_item_cu_fury_1_regen_mana"                           "%Mana Regeneration:"
+                "DOTA_Tooltip_ability_item_cu_fury_1_regen_mana"                           "Mana Regeneration:"
 					   
 				"DOTA_Tooltip_ability_item_cu_fury_2"                                                              "Warhammer 2"
                 "DOTA_Tooltip_ability_item_cu_fury_2_Description"                                          "<h1>Passive: Splash</h1>   Deals %cleave_damage%%  cleave damage to all enemies in front of you in %distance% range."                                        
                 "DOTA_Tooltip_ability_item_cu_fury_2_damage"                               "Damage:"
                 "DOTA_Tooltip_ability_item_cu_fury_2_regen_hp"                         "Health Regeneration"
-                "DOTA_Tooltip_ability_item_cu_fury_2_regen_mana"                           "%Mana Regeneration:"			   
+                "DOTA_Tooltip_ability_item_cu_fury_2_regen_mana"                           "Mana Regeneration:"			   
 					   
 				"DOTA_Tooltip_ability_item_cu_fury_3"                                                              "Warhammer 3"
                 "DOTA_Tooltip_ability_item_cu_fury_3_Description"                                          "<h1>Passive: Splash</h1>   Deals %cleave_damage%%  cleave damage to all enemies in front of you in %distance% range."                                        
                 "DOTA_Tooltip_ability_item_cu_fury_3_damage"                               "Damage:"
                 "DOTA_Tooltip_ability_item_cu_fury_3_regen_hp"                         "Health Regeneration"
-                "DOTA_Tooltip_ability_item_cu_fury_3_regen_mana"                           "%Mana Regeneration:"
+                "DOTA_Tooltip_ability_item_cu_fury_3_regen_mana"                           "Mana Regeneration:"
 					   
 				"DOTA_Tooltip_ability_item_cu_fury_4"                                                              "Warhammer 4"
                 "DOTA_Tooltip_ability_item_cu_fury_4_Description"                                          "<h1>Passive: Splash</h1>   Deals %cleave_damage%%  cleave damage to all enemies in front of you in %distance% range."                                        
                 "DOTA_Tooltip_ability_item_cu_fury_4_damage"                               "Damage:"
                 "DOTA_Tooltip_ability_item_cu_fury_4_regen_hp"                         "Health Regeneration"
-                "DOTA_Tooltip_ability_item_cu_fury_4_regen_mana"                           "%Mana Regeneration:"
+                "DOTA_Tooltip_ability_item_cu_fury_4_regen_mana"                           "Mana Regeneration:"
 					   
 				"DOTA_Tooltip_ability_item_cu_fury_5"                                                              "Warhammer 5"
                 "DOTA_Tooltip_ability_item_cu_fury_5_Description"                                          "<h1>Passive: Splash</h1>   Deals %cleave_damage%%  cleave damage to all enemies in front of you in %distance% range."                                        
                 "DOTA_Tooltip_ability_item_cu_fury_5_damage"                               "Damage:"
                 "DOTA_Tooltip_ability_item_cu_fury_5_regen_hp"                         "Health Regeneration"
-                "DOTA_Tooltip_ability_item_cu_fury_5_regen_mana"                           "%Mana Regeneration:"
+                "DOTA_Tooltip_ability_item_cu_fury_5_regen_mana"                           "Mana Regeneration:"
 					   
 					   
 					   
@@ -4030,14 +4037,14 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
                 "DOTA_Tooltip_ability_item_cu_fury_6_Description"                                          "<h1>Passive: Splash</h1>   Deals %cleave_damage%%  cleave damage to all enemies in front of you in %distance% range.<br><br>Passive: Bonanza   Each hit will give you 1 gold when item is active."                                        
                 "DOTA_Tooltip_ability_item_cu_fury_6_damage"                               "Damage:"
                 "DOTA_Tooltip_ability_item_cu_fury_6_regen_hp"                         "Health Regeneration"
-                "DOTA_Tooltip_ability_item_cu_fury_6_regen_mana"                           "%Mana Regeneration:"
+                "DOTA_Tooltip_ability_item_cu_fury_6_regen_mana"                           "Mana Regeneration:"
 
 
                 "DOTA_Tooltip_ability_item_cu_fury_7"                                                              "Midas crusher"
-                "DOTA_Tooltip_ability_item_cu_fury_7_Description"                                          "<h1>Passive: Splash</h1>   Deals %cleave_damage%%  cleave damage to all enemies in front of you in a %distance% range.<br><br>Passive: Bonanza   Each hit will give you 2 gold when item is active (Does not work for ranged heroes). \n <h1>Passive: Destruction matter hit</h1>   there is a chance to bash the target."                                        
+                "DOTA_Tooltip_ability_item_cu_fury_7_Description"                                          "<h1>Passive: Splash</h1>   Deals %cleave_damage%%  cleave damage to all enemies in front of you in a %distance% range.<br><br>Passive: Bonanza   Each attack has 20% chance to give you 1 gold (Does not work for ranged heroes). \n <h1>Passive: Destruction matter hit</h1> Stuns enemy. Has cooldown of 8 seconds."                                        
                 "DOTA_Tooltip_ability_item_cu_fury_7_damage"                               "Damage:"
                 "DOTA_Tooltip_ability_item_cu_fury_7_regen_hp"                         "Health Regeneration"
-                "DOTA_Tooltip_ability_item_cu_fury_7_regen_mana"                           "%Mana Regeneration:"
+                "DOTA_Tooltip_ability_item_cu_fury_7_regen_mana"                           "Mana Regeneration:"
                 "DOTA_Tooltip_ability_item_cu_fury_7_bonus_strange"                               "Strength:"
 
 
@@ -4163,43 +4170,43 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
  "DOTA_Tooltip_ability_item_talisman_of_mastery" "Consciousness Talisman 1"
-"DOTA_Tooltip_ability_item_talisman_of_mastery_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience."
+"DOTA_Tooltip_ability_item_talisman_of_mastery_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery_bonus_hp_regen" "Health regeneration:"
 
  "DOTA_Tooltip_ability_item_talisman_of_mastery2" "Consciousness Talisman 2"
-"DOTA_Tooltip_ability_item_talisman_of_mastery2_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience."
+"DOTA_Tooltip_ability_item_talisman_of_mastery2_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery2_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery2_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery2_bonus_hp_regen" "Health regeneration:"
 
  "DOTA_Tooltip_ability_item_talisman_of_mastery3" "Consciousness Talisman 3"
-"DOTA_Tooltip_ability_item_talisman_of_mastery3_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience."
+"DOTA_Tooltip_ability_item_talisman_of_mastery3_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery3_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery3_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery3_bonus_hp_regen" "Health regeneration:"
 
  "DOTA_Tooltip_ability_item_talisman_of_mastery4" "Consciousness Talisman 4"
-"DOTA_Tooltip_ability_item_talisman_of_mastery4_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience."
+"DOTA_Tooltip_ability_item_talisman_of_mastery4_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery4_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery4_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery4_bonus_hp_regen" "Health regeneration:"
 
  "DOTA_Tooltip_ability_item_talisman_of_mastery5" "Consciousness Talisman 5"
-"DOTA_Tooltip_ability_item_talisman_of_mastery5_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience."
+"DOTA_Tooltip_ability_item_talisman_of_mastery5_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_hp_regen" "Health regeneration:"
 
 "DOTA_Tooltip_ability_item_talisman_of_mastery6" "Consciousness Talisman 6"
-"DOTA_Tooltip_ability_item_talisman_of_mastery6_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience."
+"DOTA_Tooltip_ability_item_talisman_of_mastery6_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_hp_regen" "Health regeneration:"
 
 "DOTA_Tooltip_ability_item_talisman_of_mastery7" "Consciousness Talisman 7"
-"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience."
+"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_hp_regen" "Health regeneration:"
@@ -5083,8 +5090,7 @@ Contract"
 
 
 "cost_teleport" "Automated dialling costs 200 Energy. To activate autodial, click on any destination point."
-"dota_tooltip_ability_item_rangesplash" "<font color ='#f7a62d'>Energetic Separarion</font>"
-"dota_tooltip_ability_item_rangesplash_description" "<h1>Active: Activate</h1> Splits your attack but consumes 7 energy per attack."
+
  
  
  
@@ -6171,6 +6177,64 @@ They can use autodialling without energy loss."
 		"custom_bg_url"	"Paste the link here..."
 		"boss_fite_text" "Boss Choice"
 		"boss_fite_time" "The next boss can be killed in:"
+
+		"DOTA_Tooltip_ability_item_gu_midas_range" 						"Midas' Essence"
+		"DOTA_Tooltip_ability_item_gu_midas_range_Description" 				"Each attack (if item is not on CD) gives 2 gold. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font>" 
+
+		"DOTA_Tooltip_ability_item_gu_range_splash" 						"Energy attack"
+		"DOTA_Tooltip_ability_item_gu_range_splash_Description" 				"Charges your attack with Energym, which allows you to deal area damage. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font><br><br><font color='#fceb28'>Each attack consumes 1% of your maximal energy!</font>" 
+		"DOTA_Tooltip_ability_item_gu_range_splash_bonus_damage" 				"Damage: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_splash_range" 				"Radius: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_gold" 						"Gold per attack: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_chanse" 						"Chance to gain gold: "
+
+		"DOTA_Tooltip_ability_item_gu_range_splash_2" 						"Energy attack 2"
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_Description" 				"Charges your attack with Energym, which allows you to deal area damage. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font><br><br><font color='#fceb28'>Each attack consumes 1% of your maximal energy!</font>" 
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_bonus_damage" 				"Damage: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_splash_range" 				"Radius: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_gold" 						"Gold per attack: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_2_chanse" 						"Chance to gain gold: "
+
+		"DOTA_Tooltip_ability_item_gu_range_splash_3" 						"Energy attack 3"
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_Description" 				"Charges your attack with Energym, which allows you to deal area damage. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font><br><br><font color='#fceb28'>Each attack consumes 1% of your maximal energy!</font>" 
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_bonus_damage" 				"Damage: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_splash_range" 				"Radius: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_gold" 						"Gold per attack: " 
+		"DOTA_Tooltip_ability_item_gu_range_splash_3_chanse" 						"Chance to gain gold: "
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox" 						"Energy Paradox 1"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_Description" 				"<h1>Passive: Instability </h1>Charges your attack with Energym, which allows you to deal area damage. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font><br><br><font color='#fceb28'>Each attack consumes 1% of your maximal energy!</font> \n <h1>Passive: Paradox</h1> Attacks have %crit_chance%% chance to deal %crit_bonus%% damage. \n <h1>Passive: Double attack</h1> All ranged heroes will attack twice with this item." 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_bonus_damage" 				"Damage: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_splash_range" 				"Radius: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_gold" 						"Gold per attack: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_chanse" 						"Chance to gain gold: "
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2" 						"Energy Paradox 2"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_Description" 				"<h1>Passive: Instability </h1>Charges your attack with Energym, which allows you to deal area damage. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font><br><br><font color='#fceb28'>Each attack consumes 1% of your maximal energy!</font> \n <h1>Passive: Paradox</h1> Attacks have %crit_chance%% chance to deal %crit_bonus%% damage. \n <h1>Passive: Double attack</h1> All ranged heroes will attack twice with this item." 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_bonus_damage" 				"Damage: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_gold" 						"Gold per attack: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_chanse" 						"Chance to gain gold: "
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3" 						"Energy Paradox 3"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_Description" 				"<h1>Passive: Instability </h1>Charges your attack with Energym, which allows you to deal area damage. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font><br><br><font color='#fceb28'>Each attack consumes 1% of your maximal energy!</font> \n <h1>Passive: Paradox</h1> Attacks have %crit_chance%% chance to deal %crit_bonus%% damage. \n <h1>Passive: Double attack</h1> All ranged heroes will attack twice with this item." 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_bonus_damage" 				"Damage: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_splash_range" 				"Radius: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_gold" 						"Gold per attack: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_chanse" 						"Chance to gain gold: "
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4" 						"Energy Paradox 4"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_Description" 				"<h1>Passive: Instability </h1>Charges your attack with Energym, which allows you to deal area damage. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font><br><br><font color='#fceb28'>Each attack consumes 1% of your maximal energy!</font> \n <h1>Passive: Paradox</h1> Attacks have %crit_chance%% chance to deal %crit_bonus%% damage. \n <h1>Passive: Double attack</h1> All ranged heroes will attack twice with this item." 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_bonus_damage" 				"Damage: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_splash_range" 				"Radius: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_gold" 						"Gold per attack: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_chanse" 						"Chance to gain gold: "
+
+
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r" 						"Recipe Energy Paradox 2"
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r_Description" 				"Can be abtained by killing Earth Mage boss" 
+
+		"prolog_off" "Skip prologue?"
 
 		
 }
