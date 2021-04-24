@@ -67,16 +67,12 @@
 	"an"			"Anquietas"
 	"admin" 		"Админ" 
 	"tester" 		"Тестер" 
-    "player_desc"   "Вы обычный игрок, у вас нету никаких привилегий, для получения другой роли обратитесть в дискорд сервер проекта."
+    "player_desc"   "Вы обычный игрок, у вас нету никаких привилегий, для получения другой роли обратитесть в дискорд сервер проекта. Доступные команды чата:
+	-kill моментально убивает вас.
+	-sr аналог кнопки начать волну.
+	-zoom x, где х (300 - 1800), устанавливает дальность камеры игрока."
+	
 	"dev_desc"      "Вы состоите в команде разработчиков проекта, ваши преимущества:
-
-	"P:Ori" "P-Ori"
-	"P:Asgard" "P-Asgard"
-	"P:Alteran" "P-Alteran"
-	"P:Wraith" "P-Wraith"
-	"P:Goauld" "P-Goa'uld"
-	"P:Tauri" "P-Tau'ri"
-
 	Команды чата:
 	-w изменяет текужую погоду на рандомную
 	-rune спавнит на всех спотах новые руны
@@ -89,6 +85,13 @@
 	Возможность пика любого даже заблокированного героя
 	
 	Вы можете воспроизвести любое видео отправив ссылку на него в игровой чат."
+
+	"P:Ori" "P-Ori"
+	"P:Asgard" "P-Asgard"
+	"P:Alteran" "P-Alteran"
+	"P:Wraith" "P-Wraith"
+	"P:Goauld" "P-Goa'uld"
+	"P:Tauri" "P-Tau'ri"
 
 	"jaffa_desc"      "Вы проявили активность в дискорде проекта, ваши преимущества:
 
@@ -2098,31 +2101,25 @@
 		"DOTA_Tooltip_ability_soulblade_base_damage"	"Базовый урон:"
 		// =====================================================================================================================
 		"DOTA_Tooltip_ability_soulring"	"Поле души"
-		"DOTA_Tooltip_ability_soulring_Description"	"Создает поле, поглощающее жизнь врагов. Во время жертвоприношения каждая душа поднимает Урон на 2%%. Double radius when use&nbsp;Metamorphosis.<br></br>-----------------------------------------------<br></br>Урон в секунду: 1 + 0.5 * сила * Уровень способности<br></br>база ущерб: 10 *&nbsp;Уровень способности<br></br>Скорость поглощения: 0.01 * Уровень способности<br></br>Радиус： 400<br></br>-----------------------------------------------"
-		"DOTA_Tooltip_ability_soulring_Lore"	"Вывасывание души"
+		"DOTA_Tooltip_ability_soulring_Description"	"Создает поле, поглощающее жизнь врагов. Наносит урон в зависимости от ловкости, всем врагам в радиусе а также востанавливает здоровье владельцу способности."
 		"DOTA_Tooltip_ability_soulring_damage"	"Множитель:"
 		"DOTA_Tooltip_ability_soulring_base_damage"	"Базовый урон:"
 
 		"DOTA_Tooltip_modifier_soulring"		"Поле души"
 
-		// =====================================================================================================================
 		"DOTA_Tooltip_ability_magic_blade"	"Пустотный клинок"
-		"DOTA_Tooltip_ability_magic_blade_Description"	"Каждая атака вытягивает силу противника и наносит дополнительный Урон магией<br></br>-----------------------------------------------<br></br>Дополнительный Урон: сила * Уровень способности<br></br>Превращает в Урон: 2 * Уровень способности<br></br>длительность:  5<br></br>-----------------------------------------------"
-		"DOTA_Tooltip_ability_magic_blade_Lore"	"Кража жизни"
-		"DOTA_Tooltip_ability_magic_blade_attack"	"Атака:"
-		"DOTA_Tooltip_ability_magic_blade_damage"	"базовый урон:"
-		// =====================================================================================================================
-		"DOTA_Tooltip_ability_metamorphosis"	"Метаморфоза"
-		"DOTA_Tooltip_ability_metamorphosis_Description"	"Превращает вас в большого демона и окружает вас духами, добавляет дополнительные свойства к атакам. Духи атакуют врагов и восстанавливают вам здоровья. Во время жертвоприношения каждая душа поднимает Урон на 1%%<br></br>-----------------------------------------------<br></br>Дополнительный Урон: 400 * уровень способности<br></br>Радиус сплеша: 300<br></br>Количество духов: 20<br></br>Урон духа: 3 * сила * Уровень способности<br></br>Скорость регенерации: 10<br></br>длительность:  40<br></br>-----------------------------------------------"
-		"DOTA_Tooltip_ability_metamorphosis_Lore"	"Сила демона"
+		"DOTA_Tooltip_ability_magic_blade_Description"	"Каждой атакой наносит дополнительный урон по формуле - ловкость * %multi%"
+
+		"DOTA_Tooltip_ability_metamorphosis"				"Метаморфоза"
+		"DOTA_Tooltip_ability_metamorphosis_Description"	"Превращает вас в большого демона и окружает вас духами, добавляет %bonus_range% к дальности атаки, даёт возможность нанесения урона по области а также увеличивает ваш урон на %bonus_damage%. Также вокруг вас будут летать духи которые наносят урон всем врагам в радиусе а также востанавливают здоровье Демон Хантеру"
 		"DOTA_Tooltip_ability_metamorphosis_bonus_damage"	"Дополнительный Урон:"
-		"DOTA_Tooltip_ability_metamorphosis_min_damage"	"Мин Урон духа:"
-		"DOTA_Tooltip_ability_metamorphosis_max_damage"	"Макс Урон духа:"
+		"DOTA_Tooltip_ability_metamorphosis_min_damage"		"Мин Урон духа:"
+		"DOTA_Tooltip_ability_metamorphosis_max_damage"		"Макс Урон духа:"
 		"DOTA_Tooltip_ability_metamorphosis_heal_percent"	"Востановление здоровья:"
 		"DOTA_Tooltip_modifier_magic_blade_buff"			"Пустотный клинок"
 		"DOTA_Tooltip_modifier_magic_blade_debuff"			"Пустотный клинок"
-		"DOTA_Tooltip_modifier_exorcism" "Метаморфоза"
- 		"DOTA_Tooltip_modifier_metamorphosis"		"Метаморфоза"
+		"DOTA_Tooltip_modifier_exorcism" 					"Метаморфоза"
+ 		"DOTA_Tooltip_modifier_metamorphosis"				"Метаморфоза"
 
 
 
@@ -4561,13 +4558,13 @@
 
 	
 		"DOTA_Tooltip_ability_item_cursed_stone"                                         "Проклятый Камень"
-        "DOTA_Tooltip_ability_item_cursed_stone_Description"                           	 	"<h1>Пассивная:</h1>Уменьшает базовое время атаки до %base_attack_time% и увеличивает скорость атаки на %bonus_attack_speed% "
+        "DOTA_Tooltip_ability_item_cursed_stone_Description"                           	 	"<h1>Пассивная:</h1>Уменьшает базовое время атаки до %base_attack_time% и увеличивает скорость атаки на %attack_speed% "
 
 		"DOTA_Tooltip_ability_item_cursed_stone_2"                                       "Проклятый Камень 2"
-        "DOTA_Tooltip_ability_item_cursed_stone_2_Description"                           	"<h1>Пассивная:</h1>Уменьшает базовое время атаки до %base_attack_time% и увеличивает скорость атаки на %bonus_attack_speed% "
+        "DOTA_Tooltip_ability_item_cursed_stone_2_Description"                           	"<h1>Пассивная:</h1>Уменьшает базовое время атаки до %base_attack_time% и увеличивает скорость атаки на %attack_speed% "
 
 		"DOTA_Tooltip_ability_item_cursed_stone_3"                                       "Проклятый Камень 3"
-        "DOTA_Tooltip_ability_item_cursed_stone_3_Description"                           	"<h1>Пассивная:</h1>Уменьшает базовое время атаки до %base_attack_time% и увеличивает скорость атаки на %bonus_attack_speed% "
+        "DOTA_Tooltip_ability_item_cursed_stone_3_Description"                           	"<h1>Пассивная:</h1>Уменьшает базовое время атаки до %base_attack_time% и увеличивает скорость атаки на %attack_speed% "
 
 		"DOTA_Tooltip_ability_item_cursed_stone_r"                                       "Проклятый Камень Рецепт"
         "DOTA_Tooltip_ability_item_cursed_stone_r_Description"                           	"Эссенция проклятия скорости, которой владела Галактическая Фея."
@@ -5562,10 +5559,10 @@
 		"npc_dota_hero_venomancer_race" 		"Раса - Armored"
 		"npc_dota_hero_dark_seer_race" 			"Раса - Armored"
 		"npc_dota_hero_bristleback_race" 		"Раса - Armored"
-		"npc_dota_hero_lycan_race" 				"Раса - Human"
+		"npc_dota_hero_lycan_race" 				"Раса - Tau'ri"
 		"npc_dota_hero_abaddon_race" 			"Раса - Anquietas"
 		"npc_dota_hero_earth_spirit_race" 		"Раса - Asgard"
-		"npc_dota_hero_sven_race" 				"Раса - Human"
+		"npc_dota_hero_sven_race" 				"Раса - Tau'ri"
 		"npc_dota_hero_elder_titan_race" 		"Раса - Ori"
 		"npc_dota_hero_storm_spirit_race" 		"Раса - とうほう"
 		"npc_dota_hero_lina_race" 				"Раса - Ori"
@@ -5573,18 +5570,18 @@
 		"npc_dota_hero_tiny_race" 				"Раса - Anquietas"
 		"npc_dota_hero_luna_race" 				"Раса - Armored"
 		"npc_dota_hero_silencer_race" 			"Раса - Armored"
-		"npc_dota_hero_drow_ranger_race" 		"Раса - Human"
-		"npc_dota_hero_ember_spirit_race" 		"Раса - Human"
+		"npc_dota_hero_drow_ranger_race" 		"Раса - Tau'ri"
+		"npc_dota_hero_ember_spirit_race" 		"Раса - Tau'ri"
 		"npc_dota_hero_oracle_race" 			"Раса - Spirits"
 		"npc_dota_hero_furion_race" 			"Раса - Spirits"
-		"npc_dota_hero_windrunner_race" 		"Раса - Human"
-		"npc_dota_hero_legion_commander_race" 	"Раса - Human"
+		"npc_dota_hero_windrunner_race" 		"Раса - Tau'ri"
+		"npc_dota_hero_legion_commander_race" 	"Раса - Tau'ri"
 		"npc_dota_hero_bounty_hunter_race" 		"Раса - Anquietas"
 		"npc_dota_hero_enigma_race" 			"Раса - Spirits"
-		"npc_dota_hero_sniper_race" 			"Раса - Human"
+		"npc_dota_hero_sniper_race" 			"Раса - Tau'ri"
 		"npc_dota_hero_abyssal_underlord_race" 	"Раса - Armored"
-		"npc_dota_hero_spirit_breaker_race" 	"Раса - Human"
-		"npc_dota_hero_winter_wyvern_race" 		"Раса - Human"
+		"npc_dota_hero_spirit_breaker_race" 	"Раса - Tau'ri"
+		"npc_dota_hero_winter_wyvern_race" 		"Раса - Tau'ri"
 		"npc_dota_hero_naga_siren_race" 		"Раса - Ori"
 		"npc_dota_hero_slark_race" 				"Раса - Ori"
 		"npc_dota_hero_dark_willow_race" 		"Раса - Ori"
@@ -5593,7 +5590,7 @@
 		"npc_dota_hero_lich_race" 				"Раса - Ori"
 		"npc_dota_hero_tinker_race" 			"Раса - Ori"
 		"npc_dota_hero_alchemist_race" 			"Раса - とうほう"
-		"npc_dota_hero_clinkz_race" 			"Раса - Human"
+		"npc_dota_hero_clinkz_race" 			"Раса - Tau'ri"
 		"npc_dota_hero_nyx_assassin_race" 		"Раса - Asgard"
 		"npc_dota_hero_zuus_race" 				"Раса - Armored"
 		"npc_dota_hero_gyrocopter_race" 		"Раса - Armored"
@@ -6999,6 +6996,44 @@
 
         "DOTA_Tooltip_modifier_jekob_5_casted"				"Ана́льный секс (от лат. anus — анус), также анали́зм, ана́льный ко́итус, ана́льная пенетра́ция, ана́льное сноше́ние, заднепроходно́е сноше́ние — половые сношения, совершаемые путём введения полового члена, фаллопротеза или страпона одного партнёра в анальное отверстие другого. Анальные сношения практикуются как между разнополыми, так и между однополыми партнёрами. При этом такой вид полового акта в отличие от вагинального сношения требует от партнёров некоторой предварительной подготовки"
 		"DOTA_Tooltip_modifier_jekob_5_casted_Description"				""
+
+
+		"sg_key_name" "Найденно ключей:" 
+		"rain_infinity" " "
+
+		"DOTA_Tooltip_ability_gu_marisa_aura"                "Звездная аура"
+        "DOTA_Tooltip_ability_gu_marisa_aura_Description"    "Данная аура усиливает всех союзников(включая вас) за счет ваших атрибутов, работает по формуле ваш атрибут(сила,ловкость,интелект,*на значения в описаний) статус резист не увеличиваеться от атрибутов. <br> Бонус здоровье от ауры(сила)  %hp% <br> Бонус хп реген от ауры (сила) %hp_regen% <br> Статус резист от ауры  %status_resistance% <br> Бонусный белый урон от ауры(Ловкость) %Bonus_damage% <br> Бонусная мана от ауры(Интелект) %mana% <br> Бонус мана реген от ауры (Интелект) %mana_regen% <br> Бонусное% усиление заклинаний от ауры (Интелект) %spell_amplufy_percentage%"
+
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff" "Звездная аура"
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% к максимальному хп,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регену хп,<br> +%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% бонус к урону заклинаний."
+
+		"DOTA_Tooltip_ability_item_ultimate_scepter" 						"Скипитр Вселенной"
+		"DOTA_Tooltip_ability_item_ultimate_scepter_Description" 				"Улучшает некоторые способности у героев." 
+		
+		"DOTA_Tooltip_ability_item_ultimate_scepter_2" 						"Скипитр Вселенной"
+		"DOTA_Tooltip_ability_item_ultimate_scepter_2_Description" 				"Улучшает некоторые способности у героев, можно поглотить." 
+
+		"DOTA_Tooltip_ability_item_gu_energy_booster_1" 						"Энергетический Камень"
+		"DOTA_Tooltip_ability_item_gu_energy_booster_1_Description" 				"<h1>Пассивная: Энергетический Вампир </h1> Востанавливает энергию за каждый удар по формуле %energy_life_steal%%  от нанесённого урона." 
+		"DOTA_Tooltip_ability_item_gu_energy_booster_1_bonus_energy_regen" 				"Регенерация Энергии:" 
+		
+		"DOTA_Tooltip_ability_item_gu_energy_booster_2" 						"Энергетический Камень 2"
+		"DOTA_Tooltip_ability_item_gu_energy_booster_2_Description" 				"<h1>Пассивная: Энергетический Вампир </h1> Востанавливает энергию за каждый удар по формуле %energy_life_steal%%  от нанесённого урона." 
+		"DOTA_Tooltip_ability_item_gu_energy_booster_2_bonus_energy_regen" 				"Регенерация Энергии:" 
+		
+		"DOTA_Tooltip_ability_item_gu_energy_booster_3" 						"Энергетический Камень 3"
+		"DOTA_Tooltip_ability_item_gu_energy_booster_3_Description" 				"<h1>Пассивная: Энергетический Вампир </h1> Востанавливает энергию за каждый удар по формуле %energy_life_steal%%  от нанесённого урона." 
+		"DOTA_Tooltip_ability_item_gu_energy_booster_3_bonus_energy_regen" 				"Регенерация Энергии:" 
+		
+		"DOTA_Tooltip_ability_item_gu_energy_booster_4" 						"Энергетический Камень 4"
+		"DOTA_Tooltip_ability_item_gu_energy_booster_4_Description" 				"<h1>Пассивная: Энергетический Вампир </h1> Востанавливает энергию за каждый удар по формуле %energy_life_steal%%  от нанесённого урона." 
+		"DOTA_Tooltip_ability_item_gu_energy_booster_4_bonus_energy_regen" 				"Регенерация Энергии:" 
+		
+		"DOTA_Tooltip_ability_item_gu_energy_booster_5" 						"Энергетический Камень 5"
+		"DOTA_Tooltip_ability_item_gu_energy_booster_5_Description" 				"<h1>Пассивная: Энергетический Вампир </h1> Востанавливает энергию за каждый удар по формуле %energy_life_steal%%  от нанесённого урона." 
+		"DOTA_Tooltip_ability_item_gu_energy_booster_5_bonus_energy_regen" 				"Регенерация Энергии:" 
+		
+		
 }
 
 

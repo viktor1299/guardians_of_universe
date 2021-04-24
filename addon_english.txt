@@ -1961,10 +1961,8 @@
  "DOTA_Tooltip_ability_soulring_base_damage" "Base damage:"
  // ================================================ ======================================================================
  "DOTA_Tooltip_ability_magic_blade" "Void Blade"
-"DOTA_Tooltip_ability_magic_blade_Description" "Each attack siphons enemy power and deals additional magical damage<br></br>-----------------------------------------------<br></br>Additional damage: strength * Ability level <br ></br>Converts to damage: 2 * Ability level<br></br>Duration: 5<br></br>-----------------------------------------------"
- "DOTA_Tooltip_ability_magic_blade_Lore" "Steal life"
- DOTA_Tooltip_ability_magic_blade_attack Attack:
- "DOTA_Tooltip_ability_magic_blade_damage" "Base damage:"
+"DOTA_Tooltip_ability_magic_blade_Description" "Each attack deals additional damage according to the formula - agility * %multi%"
+
  // ================================================ ======================================================================
  "DOTA_Tooltip_ability_metamorphosis" "Metamorphosis"
 "DOTA_Tooltip_ability_metamorphosis_Description" "Transforms you into a large demon and surrounds you with spirits, adds additional properties to your attacks. Spirits attack enemies and restore <font color='#53e632'> health and</font> During the sacrifice, each soul raises damage by 1%%<br></br>-----------------------------------------------<br></br>Additional damage: 400 * ability level<br></br>Splash radius: 300<br></br>Number of spirits: 20<br></br>Spirit damage: 3 * strength * ability level<br></br>Regeneration rate: 10<br></br>Duration: 40<br></br>-----------------------------------------------"
@@ -6264,7 +6262,8 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_modifier_jekob_5_casted" "الجنس الشرجي (من فتحة الشرج اللاتينية) ، وكذلك التحليل ، والجماع الشرجي ، والاختراق الشرجي ، والجماع الشرجي ، والجماع الشرجي. ويمارس الجماع بين الجنس الآخر وبين الشريكين من نفس الجنس. علاوة على ذلك ، هذا النوع من الجماع على عكس الجماع المهبلي ، يتطلب بعض التحضير الأولي من الشركاء "
 		"DOTA_Tooltip_modifier_jekob_5_casted_Description" "" 
 
-
+		"sg_key_name" "Найденно ключей:" 
+		"rain_infinity" " "
 
 
 }
