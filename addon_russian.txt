@@ -371,15 +371,15 @@
 		"DOTA_Tooltip_ability_lina_laguna_cu_target_count"								"Количество целей:"
 		"DOTA_Tooltip_ability_lina_laguna_cu_duration"									"Длительность:"
 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade" 							"Лагуна"
+		"DOTA_Tooltip_ability_mjz_lina_laguna_blade" 							"Молния"
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" 					"Выпускает разряд молнии во врага .<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Note0"								"Со скипетром аганима работает по области. Накапливает урон от каждого убийства."
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Note1"								"В течении некоторого времени на недобитых лагуной врагах висит дебафф. Добивание такого противника засчитывает убийство лагуной."
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage" 							"Урон:" 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_scepter" 					"Урон с скипетром:" 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill" 					"Дополнительная Урон за убийство:" 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_splash_radius_scepter" 				"Радиус лагуны с (скипетром):" 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_delay" 						"Задержка каста:" 
+		
+		
 		
 		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus" 					"Увеличивает урон лагуны за каждого убитого крипа/героя."
 		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" 			"ваш урон с лагуны увеличен<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
@@ -2086,7 +2086,7 @@
 		// =====================================================================================================================
 		
 		"DOTA_Tooltip_ability_demon_hunter"	"Охотник на демонов"
-		"DOTA_Tooltip_ability_demon_hunter_Description"	"Охотник захватывает души противников, каждая душа дает +1 ко всем атрибутам. Максимальный предел 50. Активируя высвобождает души,для усиления других навыков. Каждые 100 душ даруют вам +10 к атрибутам. Эффект длится 10 секунд"
+		"DOTA_Tooltip_ability_demon_hunter_Description"	"Охотник захватывает души противников, каждая душа дает +1 ко всем атрибутам. Максимальный предел 50. Активируя высвобождает души,для усиления других навыков. Каждые 100 душ даруют вам +10 к атрибутам. Эффект длится 10 секунд. Шанс получения стака - 17.1%"
 		"DOTA_Tooltip_ability_demon_hunter_Lore"	"Возьми источник власти дьявола"
 		"DOTA_Tooltip_ability_demon_hunter_stats"	"Статы:"
 		"DOTA_Tooltip_modifier_demon_hunter_buff"	"Охотник на демонов"
@@ -3845,7 +3845,7 @@
 
 
 		"dota_tooltip_ability_item_boots_cu_1" "Ботинки Вселенной"
-		"dota_tooltip_ability_item_boots_cu_1_description" "Увеличивает скорость передвижения игнорируя ограничение в 550"
+		"dota_tooltip_ability_item_boots_cu_1_description" "Увеличивает скорость передвижения игнорируя ограничение в 550<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 		"dota_tooltip_ability_item_boots_cu_1_bonus_movement_speed" "Скорость передвижения:"
 		"dota_tooltip_ability_item_boots_cu_1_bonus_hp_regen" "+к регенерации здоровья"
 
@@ -3881,7 +3881,7 @@
 
 
 		"dota_tooltip_ability_item_ressurection_stone_2"					"Камень Воскрешения"
-		"dota_tooltip_ability_item_ressurection_stone_2_description"		"Воскрешает вашего героя после 1 секунды задержки. Работает в рюкзаке."
+		"dota_tooltip_ability_item_ressurection_stone_2_description"		"Воскрешает вашего героя после 1 секунды задержки. Работает в рюкзаке.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 
         "DOTA_Tooltip_ability_item_contract_1"						"Контракт Пегаса" 
@@ -4173,21 +4173,21 @@
 			
 
 		"DOTA_Tooltip_Ability_item_scythe_of_the_ancients_3_r"				"Рецепт Косы Смерти"
-		"DOTA_Tooltip_Ability_item_scythe_of_the_ancients_3_r_Description"		"Осколок артефакта Повелителя Вселенной, позволяющий собрать Косу Смерти."
+		"DOTA_Tooltip_Ability_item_scythe_of_the_ancients_3_r_Description"		"Осколок артефакта Повелителя Вселенной, позволяющий собрать Косу Смерти.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 		"DOTA_Tooltip_ability_item_aqua_greaves_r" 							"Рецепт Поножи Богини Аквы"
-		"DOTA_Tooltip_ability_item_aqua_greaves_r_Description" 					"Божественная сущность богини Аквы"
+		"DOTA_Tooltip_ability_item_aqua_greaves_r_Description" 					"Божественная сущность богини Аквы<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 		"DOTA_Tooltip_ability_item_demon_echo_sabre_r"						"Рецепт Демонической Сабли"
-        "DOTA_Tooltip_ability_item_demon_echo_sabre_r_Description"				"Уникальный предмет, который можно получить, убив босса Маг Земли"
+        "DOTA_Tooltip_ability_item_demon_echo_sabre_r_Description"				"Уникальный предмет, который можно получить, убив босса Маг Земли<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 
 		"DOTA_Tooltip_ability_item_armor_cu_3_r"							"Рецепт Накидки Полубога 3"
-		"DOTA_Tooltip_ability_item_armor_cu_3_r_Description"					"Уникальный предмет, который можно получить, убив босса Древний Воин"
+		"DOTA_Tooltip_ability_item_armor_cu_3_r_Description"					"Уникальный предмет, который можно получить, убив босса Древний Воин<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_r"						"Рецепт Маленький Карлик 2"
-		"DOTA_Tooltip_ability_item_unstable_quasar2_r_Description"				"Уникальный предмет, который можно получить, убив босса Сингулярность"
+		"DOTA_Tooltip_ability_item_unstable_quasar2_r_Description"				"Уникальный предмет, который можно получить, убив босса Сингулярность<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 
 
@@ -4516,14 +4516,14 @@
 		"DOTA_Tooltip_ability_item_quibbela5_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela6"              "Камень Опыта 6"
-        "DOTA_Tooltip_ability_item_quibbela6_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela6_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
         "DOTA_Tooltip_ability_item_quibbela6_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela6_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela6_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela6_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela7"              "Камень Опыта 7"
-        "DOTA_Tooltip_ability_item_quibbela7_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela7_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
         "DOTA_Tooltip_ability_item_quibbela7_Lore"           "Подобный Камень Опыта использовал Повелитель Вселенной в своих эксперементах по перемещению во времени."
         "DOTA_Tooltip_ability_item_quibbela7_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela7_mana"  			"+к мане "
@@ -4567,7 +4567,7 @@
         "DOTA_Tooltip_ability_item_cursed_stone_3_Description"                           	"<h1>Пассивная:</h1>Уменьшает базовое время атаки до %base_attack_time% и увеличивает скорость атаки на %attack_speed% "
 
 		"DOTA_Tooltip_ability_item_cursed_stone_r"                                       "Проклятый Камень Рецепт"
-        "DOTA_Tooltip_ability_item_cursed_stone_r_Description"                           	"Эссенция проклятия скорости, которой владела Галактическая Фея."
+        "DOTA_Tooltip_ability_item_cursed_stone_r_Description"                           	"Эссенция проклятия скорости, которой владела Галактическая Фея.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 
 
@@ -4628,7 +4628,7 @@
 
 
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_r"							"Нестабильный Меч Марса Рецепт"
-		"DOTA_Tooltip_Ability_item_unstable_mars_sword_r_Description"					"Осколок меча Повелителя Вселенной"
+		"DOTA_Tooltip_Ability_item_unstable_mars_sword_r_Description"					"Осколок меча Повелителя Вселенной<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 
 		"DOTA_Tooltip_ability_item_lifestealtank"										"Кровавый самоцвет"
@@ -4925,13 +4925,13 @@
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_hp_regen"			"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6"						"Талисман Сознания 6"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery6_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+		"DOTA_Tooltip_ability_item_talisman_of_mastery6_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_hp_regen"			"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7"						"Талисман Сознания 7"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+		"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description"				"<h1>Пассивно: Осознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. Герои ближнего боя получают больше опыта. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_attack"			"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_str"				"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_hp_regen"			"+к восстановлению здоровья "
@@ -5073,7 +5073,7 @@
 		"DOTA_Tooltip_ability_item_book2_all_agi_gain" 						"+ко всем атрибутам" 
 
 		
-		"DOTA_Tooltip_ability_item_book_of_stats_immortality" 			"Книга Ямамото Цунэтомо - Кодекс самурая"
+		"DOTA_Tooltip_ability_item_book_of_stats_immortality" 			"Книга Ямамото Цунэтомо - Кодекс самурая<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 		"DOTA_Tooltip_ability_item_book_of_stats_immortality_bonus_str" 	"+ко всем атрибутам" 
 		
 		"DOTA_Tooltip_ability_item_book_str" 							"Моя Борьба"
@@ -5231,7 +5231,7 @@
 
  
 		"DOTA_Tooltip_Ability_item_izu"									"Изумруд"
-		"DOTA_Tooltip_Ability_item_izu_Description"							"Познать истинную важность и стоимость этого предмета можно лишь пройдя многочисленные испытания в борьбе с силами зла. Если вы достойны им владеть, то вам нет равных в этой вселенной. Необходим для создания одних из самых мощных предметов в игре."
+		"DOTA_Tooltip_Ability_item_izu_Description"							"Познать истинную важность и стоимость этого предмета можно лишь пройдя многочисленные испытания в борьбе с силами зла. Если вы достойны им владеть, то вам нет равных в этой вселенной. Необходим для создания одних из самых мощных предметов в игре.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 		"DOTA_Tooltip_Ability_item_izu_pizda"								"+ко всем атрибутам:" 
  
 
@@ -5525,23 +5525,6 @@
 
 		"npc_dota_cu_antenna" 									"Радиовышка"
 		
-		
-		"data_des" 												"<font color='#19e326'>Рейтинг Система:<br> За каждый выигранный раунд начиная с 6, вы получаете ММР. MMR снижается из-за проигрыша раундов, за убийство союзников и в случае поражения до 6 волны. Ниже приведён расчёт MMR и CU-Points в зависимости от выбранной сложности.<br>
-		<font color='#ed0909'>Базовое кол-во ММР = 2</font><br>
-		<font color='#ed0909'>Базовый множитель = 0</font><br>
-		<font color='#0084ff'>Уровень сложности Легко:</font><br>
-		Множитель ММР = 1 - 3<br>
-		<font color='#66ff58'>Уровень сложности Стандарт:</font><br>
-		Множитель ММР = 3 - 5 <br>
-		<font color='#d8cd31'>Уровень сложности Сложно:</font><br>
-		Множитель ММР = 5 - 9<br>
-		<font color='#ee4e4e'>Уровень сложности Абсурд:</font><br>
-		Множитель ММР = 7 - 13<br>
-		После выбора сложности вы будете получать ММР и CU Point по следующей формуле:<br>
-		Базовое кол-во ММР * Множитель<br>
-		
-		<font color='#b809ed'>Расовая Система:<br>Вы можете выбрать расу нажав на соответствующую ей иконку. Раса выбирается один раз и навсегда.</font>"
-
 
 		/// Р А С О В А Я  С И С Т Е М А ///
 
@@ -6273,10 +6256,10 @@
 
 	/// П О Д С К А З К А  О  В О Л Н А Х ///
 
-	"dif1" "Вы будете получать от 2 до 6 ММР за пройденный раунд после 6 волны."
-	"dif2" "Вы будете получать от 6 до 10 ММР за пройденный раунд после 6 волны."
-	"dif3" "Вы будете получать от 10 до 18 ММР за пройденный раунд после 6 волны."
-	"dif4" "Вы будете получать от 14 до 26 ММР за пройденный раунд после 6 волны."
+	"dif1" "Вы будете получать от 5 до 8 ММР за пройденный раунд после 6 волны."
+	"dif2" "Вы будете получать от 8 до 15 ММР за пройденный раунд после 6 волны."
+	"dif3" "Вы будете получать от 15 до 25 ММР за пройденный раунд после 6 волны."
+	"dif4" "Вы будете получать от 25 до 40 ММР за пройденный раунд после 6 волны."
 
 
 
@@ -6899,11 +6882,11 @@
 		"DOTA_Tooltip_modifier_gu_duel_buff_Description" "Получает %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% к силе и %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% к урону."
 
 
-		"DOTA_Tooltip_ability_item_book_of_stats_boss" 						"Знания Древних"
+		"DOTA_Tooltip_ability_item_book_of_stats_boss" 						"Знания Древних <br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 		"DOTA_Tooltip_ability_item_book_of_stats_boss_bonus_str" 				"+ко всем атрибутам" 
 
 		"DOTA_Tooltip_ability_item_rune_boss" 						"Реликвия Орай"
-		"DOTA_Tooltip_ability_item_rune_boss_Description" 				"Даёт случайный эффект руны на 5 минут" 
+		"DOTA_Tooltip_ability_item_rune_boss_Description" 				"Даёт случайный эффект руны на 5 минут<br><br><font color='#7ee340'>Можно передать союзнику!</font>" 
 
 
 		"gu_chat_help"	"Глобальный чат обновляеться раз в 10 секунд. <br><br> Здесь вы можете найти себе друзей для совместной игры!<br><br> Правила:<br> Запрещена политота в любом виде.<br> Реклама в любом виде запрещена!<br><br> За нарушение правил чата он будет у вас отключён! <br><br> Возможности чата:<br> Вы можете отправить ссылку на любое изображение либо видео в чат и оно будет показано всем игрокам."
@@ -6965,7 +6948,7 @@
 
 
 		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r" 						"Энергетический Парадокс 2 Рецепт"
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r_Description" 				"Можно получить убив босса Маг Земли" 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r_Description" 				"Можно получить убив босса Маг Земли<br><br><font color='#7ee340'>Можно передать союзнику!</font>" 
 
 		"prolog_off" "Пропустить пролог?"
 
@@ -7008,7 +6991,7 @@
         "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% к максимальному хп,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регену хп,<br> +%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% бонус к урону заклинаний."
 
 		"DOTA_Tooltip_ability_item_ultimate_scepter" 						"Скипитр Вселенной"
-		"DOTA_Tooltip_ability_item_ultimate_scepter_Description" 				"Улучшает некоторые способности у героев." 
+		"DOTA_Tooltip_ability_item_ultimate_scepter_Description" 				"Улучшает некоторые способности у героев.<br><br><font color='#7ee340'>Можно передать союзнику!</font>" 
 		
 		"DOTA_Tooltip_ability_item_ultimate_scepter_2" 						"Скипитр Вселенной"
 		"DOTA_Tooltip_ability_item_ultimate_scepter_2_Description" 				"Улучшает некоторые способности у героев, можно поглотить." 
@@ -7024,16 +7007,61 @@
 		"DOTA_Tooltip_ability_item_gu_energy_booster_3" 						"Энергетический Камень 3"
 		"DOTA_Tooltip_ability_item_gu_energy_booster_3_Description" 				"<h1>Пассивная: Энергетический Вампир </h1> Востанавливает энергию за каждый удар по формуле %energy_life_steal%%  от нанесённого урона." 
 		"DOTA_Tooltip_ability_item_gu_energy_booster_3_bonus_energy_regen" 				"Регенерация Энергии:" 
+
+		"DOTA_Tooltip_ability_gu_boss_jump"                "Временной Прыжок"
+        "DOTA_Tooltip_ability_gu_boss_jump_Description"    "Прыгает на цель у которой меньше всего здоровья. Наносит 40% урона от максимального здоровья цели, также станит на 2 секунды."
+
+		"DOTA_Tooltip_ability_gu_boss_threshold"                "Наквадах Усиление"
+        "DOTA_Tooltip_ability_gu_boss_threshold_Description"    "Возвращает урон по формуле (5 + (сложность * 5 )) % от нанесённого урона по существу, если полученый урон будет более (50 - (сложность * 5))% от максимального здоровья существа, оно востановит здоровье в размере 30% от нанесённого урона с шансом в 17%."
+
+		"DOTA_Tooltip_ability_sniper_concussive_grenade"                "М67"
+        "DOTA_Tooltip_ability_sniper_concussive_grenade_Description"    "Кидает гранату М-67, которая отталкивает всех юнитов из точки а также накладывает эффект дизармора."
+		"DOTA_Tooltip_ability_sniper_concussive_grenade_radius"    		"Радиус:"
+		"DOTA_Tooltip_ability_sniper_concussive_grenade_debuff_duration"    "Длительность:"
+
+		"DOTA_Tooltip_ability_item_aghanims_shard"                "Модуль Нулевой Точки"
+        "DOTA_Tooltip_ability_item_aghanims_shard_Description"    "Добавляет либо улучшает некоторые способности персонажей."
+		"DOTA_Tooltip_ability_item_aghanims_shard_Lore"    "Бесконечная Энергия - это не мечта!"
 		
-		"DOTA_Tooltip_ability_item_gu_energy_booster_4" 						"Энергетический Камень 4"
-		"DOTA_Tooltip_ability_item_gu_energy_booster_4_Description" 				"<h1>Пассивная: Энергетический Вампир </h1> Востанавливает энергию за каждый удар по формуле %energy_life_steal%%  от нанесённого урона." 
-		"DOTA_Tooltip_ability_item_gu_energy_booster_4_bonus_energy_regen" 				"Регенерация Энергии:" 
+		"DOTA_AbilityTooltip_ScepterUpgrade_Header" "Улучшение от Скипитра Вселенной"
+		"DOTA_AbilityTooltip_No_Aghs_Upgrade_Found" "В процессе материализации"
+		"DOTA_AbilityTooltip_Scepter_Upgrade" "Улучшение от Скипитра Вселенной"
+		"DOTA_AbilityTooltip_Shard_Upgrade" "Улучшение от Модуля Нулевой Точки"
+		"DOTA_AbilityTooltip_Aghs_New_Ability" "Новая способность"
+		"DOTA_AbilityTooltip_Aghs_Scepter" "Скипитр Вселенной"
+		"DOTA_AbilityTooltip_Aghs_Shard" "Модуль Нулевой Точки"
+		"DOTA_AbilityTooltip_Upgrade" "Улучшение"
+
+
+		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_scepter_description"		"Позволяет применять способность Молния по области а также игнорировать магический имунитет."
+		"DOTA_Tooltip_ability_legion_commander_press_the_attack_shard_description"		"При применении накладывает на цель Магический Имунитет на 2 сек, также уменьшает перезарядку на 2 секунды."
+		"DOTA_Tooltip_ability_mjz_sniper_assassinate_scepter_description"		"Позволяет применять способность Barrett M82 .50 BMG по области, также добавляет пробитие снарядами врагов которые стоят позади цели, наносит критический урон + применяет все эффекты атаки."
+		"DOTA_Tooltip_ability_kotori_rage_scepter_description"		"Позволяет управлять героем во время действия способности Ярость."
+		"DOTA_Tooltip_ability_sakuya_time_scepter_description"		"Перезарядка способности Остановка Времени - становит 40 секунд."
+		"DOTA_Tooltip_ability_kongou_ammo_scepter_description"		"Атакует врагов вокруг героя с интервалом в 0.8 секунд, на атаки работают все эффекты атаки."
+		"DOTA_Tooltip_ability_noire_next_scepter_description"		"Позволяет проходить сквозь юнитов."
+		"DOTA_Tooltip_ability_enterprise_lucky_scepter_description"		"Добавляет новую способность - Эскадрилия: Истребитель."
+		"DOTA_Tooltip_ability_skywrath_mage_shard_description"		""
+
+		"DOTA_Tooltip_ability_jekob_1_shard_description"		"Дрочит на пол стоя"
+		"DOTA_Tooltip_ability_jekob_1_scepter_description"		"Перестаёт дрочить стоя и присаживается"
+
+		"DOTA_Tooltip_ability_jekob_2_shard_description"		"Дае 10 гривень"
+		"DOTA_Tooltip_ability_jekob_2_scepter_description"		"Пізда від начальніка - 3000 гривень"
 		
-		"DOTA_Tooltip_ability_item_gu_energy_booster_5" 						"Энергетический Камень 5"
-		"DOTA_Tooltip_ability_item_gu_energy_booster_5_Description" 				"<h1>Пассивная: Энергетический Вампир </h1> Востанавливает энергию за каждый удар по формуле %energy_life_steal%%  от нанесённого урона." 
-		"DOTA_Tooltip_ability_item_gu_energy_booster_5_bonus_energy_regen" 				"Регенерация Энергии:" 
+		"DOTA_Tooltip_ability_jekob_3_shard_description"		"Ты начинаешь понимать"
+		"DOTA_Tooltip_ability_jekob_3_scepter_description"		"Ты перестаешь понимать"
+
+		"DOTA_Tooltip_ability_jekob_4_shard_description"		"Позволяет пойти нахуй трижды"
+		"DOTA_Tooltip_ability_jekob_4_scepter_description"		"Добавляет трусы на 2 хуя"
+
+		"DOTA_Tooltip_ability_drow_ranger_shard_description"		"Стоимость внесения героя в систему рас 10$"
+		"DOTA_Tooltip_ability_drow_ranger_scepter_description"		"Плата за просмотр, думал халява ?"
+
+		"DOTA_Tooltip_ability_storm_spirit_overload"                "<font color='#ff8400'> 「Overload」</font>"
+        "DOTA_Tooltip_ability_storm_spirit_overload_Description"    "При активации любой способности, заряжает следующую атаку энергетическим зарядом который при попадании по врагу нанесёт урон по области а также замедлит цель на %overload_move_slow%"
 		
-		
+
 }
 
 
