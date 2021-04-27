@@ -66,15 +66,11 @@
 	"an"			"Anquietas"
 	"admin" "Admin" 
 	"tester" "Tester"
-    "player_desc"   "You are common player without any priveleges. Apply in project's dicord server to get another role."
+    "player_desc"   "You are common player without any priveleges. Apply in project's dicord server to get another role. Available chat commands:
+	-kill instantly kills you.
+	-sr start round button's analogue.
+	-zoom x, where х [300 - 1800], sets player's camera distance."
 	"dev_desc"      "You are a member of project's development team. Your priveleges:	
-
-	"P:Ori" "P-Ori"
-	"P:Asgard" "P-Asgard"
-	"P:Alteran" "P-Alteran"
-	"P:Wraith" "P-Wraith"
-	"P:Goauld" "P-Goa'uld"
-	"P:Tauri" "P-Tau'ri"
 
 	Chat commands:
 	-«-w» randomly changes current weather;
@@ -88,6 +84,13 @@
 	You can pick any hero
 	
 	You can air any video by sending its link in the in-game chat."
+	
+	"P:Ori" "P-Ori"
+	"P:Asgard" "P-Asgard"
+	"P:Alteran" "P-Alteran"
+	"P:Wraith" "P-Wraith"
+	"P:Goauld" "P-Goa'uld"
+	"P:Tauri" "P-Tau'ri"
 
 	"jaffa_desc"      "You have shown activity in project's discord sever. Your priveleges:
 
@@ -381,10 +384,8 @@
 "DOTA_Tooltip_ability_lina_laguna_cu_target_count" "Number of targets:"
 "DOTA_Tooltip_ability_lina_laguna_cu_duration" "Duration:"
 
- "DOTA_Tooltip_ability_mjz_lina_laguna_blade" "Laguna"
+ "DOTA_Tooltip_ability_mjz_lina_laguna_blade" "Lightning"
  "DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" "Shoots lightning at the enemy and kills everyone and even allies.<br>Damage type: <font color='#f7a62d'>Energy</font> " 
-"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Note0"								"Ability affects area with the scepter. Damage is increased with each kill."
-"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Note1"								"Affected units who have survived will have a debuff applied. Killing an enemy with the debuff counts as Laguna kill."
  "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage" "Damage:" 
  "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_scepter" "Damage with the scepter: "
  "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill" "Damage per kill bonus:" 
@@ -393,6 +394,8 @@
 
  "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus" "Increases laguna damage for each creep/hero killed."
  "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" "your lagunas' damage has been increased<br>Damage type: <font color='#f7a62d'>Energy</font> "
+
+
 
 
 		"DOTA_Tooltip_ability_ashes"	"Power of fire"
@@ -1940,7 +1943,7 @@
  // ======================================================================================================================
 
  "DOTA_Tooltip_ability_demon_hunter" "Demon Hunter"
- "DOTA_Tooltip_ability_demon_hunter_Description" "The hunter captures the souls of opponents, each soul gives +1 to all attributes. The maximum limit is 50. When activated, it releases souls to enhance other skills. Every 100 souls grant you +10 to attributes. The effect lasts 10 seconds."
+ "DOTA_Tooltip_ability_demon_hunter_Description" "The hunter captures the souls of opponents, each soul gives +1 to all attributes. The maximum limit is 50. When activated, it releases souls to enhance other skills. Every 100 souls grant you +10 to attributes. The effect lasts 10 seconds. Chance to receive a stack - 17.1%"
  "DOTA_Tooltip_ability_demon_hunter_Lore" "Take the source of the devil's power"
  "DOTA_Tooltip_ability_demon_hunter_stats" "Stats:"
  "DOTA_Tooltip_modifier_demon_hunter_buff" "Demon Hunter"
@@ -1955,7 +1958,7 @@
  "DOTA_Tooltip_ability_soulblade_base_damage" "Base damage:"
  // ================================================ ======================================================================
  "DOTA_Tooltip_ability_soulring" "Soul Field" 
-"DOTA_Tooltip_ability_soulring_Description" "Creates a field that absorbs the life of enemies. During the sacrifice, each soul raises damage by 2%%. Double range when use &nbsp; Metamorphosis.<br></br>-----------------------------------------------<br></br>damage per second: 1 + 0.5 * strength * Ability level<br></br>base damage: 10 * &nbsp; Ability level<br></br>Absorption rate: 0.01 * Ability level<br></br>Radius ： 400<br></br>----------------------------------------------- "
+"DOTA_Tooltip_ability_soulring_Description" "Creates a field which absorbs enemies' life. Deals damage based on agility to all nearby enemies and also replenishes caster's health."
  "DOTA_Tooltip_ability_soulring_Lore" "Soul Draining"  
  "DOTA_Tooltip_ability_soulring_damage" "Multiplier:"
  "DOTA_Tooltip_ability_soulring_base_damage" "Base damage:"
@@ -1965,14 +1968,16 @@
 
  // ================================================ ======================================================================
  "DOTA_Tooltip_ability_metamorphosis" "Metamorphosis"
-"DOTA_Tooltip_ability_metamorphosis_Description" "Transforms you into a large demon and surrounds you with spirits, adds additional properties to your attacks. Spirits attack enemies and restore <font color='#53e632'> health and</font> During the sacrifice, each soul raises damage by 1%%<br></br>-----------------------------------------------<br></br>Additional damage: 400 * ability level<br></br>Splash radius: 300<br></br>Number of spirits: 20<br></br>Spirit damage: 3 * strength * ability level<br></br>Regeneration rate: 10<br></br>Duration: 40<br></br>-----------------------------------------------"
+"DOTA_Tooltip_ability_metamorphosis_Description" "Transforms you into a large demon and surrounds you with spirits, adds %bonus_range% bonus attack range, gives ability to deal area damage and also increases your attack damage by %bonus_damage%. Also spirits deal damage to enemies within radius and heal Demon Hunter."
  "DOTA_Tooltip_ability_metamorphosis_Lore" "Demon Power"
  "DOTA_Tooltip_ability_metamorphosis_bonus_damage" "Bonus damage:"
  "DOTA_Tooltip_ability_metamorphosis_min_damage" "Min damage spirit:"
  "DOTA_Tooltip_ability_metamorphosis_max_damage" "Max damage spirit:"
  "DOTA_Tooltip_ability_metamorphosis_heal_percent" "%Heal:"
-
- 
+ "DOTA_Tooltip_modifier_magic_blade_buff"			"Void blade"
+ "DOTA_Tooltip_modifier_magic_blade_debuff"			"Void blade"
+ "DOTA_Tooltip_modifier_exorcism" 				"Metamorphosis"
+ "DOTA_Tooltip_modifier_metamorphosis"				"Metamorphosis"
  
   "npc_dota_hero_lion" "Demonic Creation"
   
@@ -3127,37 +3132,37 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
          "dota_tooltip_ability_item_boots_cu_1" "Boots of the universal"
-		 "dota_tooltip_ability_item_boots_cu_1_description" "Increases move speed ignoring the 550 limit"
+		 "dota_tooltip_ability_item_boots_cu_1_description" "Increases move speed ignoring the 550 limit.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
 		 "dota_tooltip_ability_item_boots_cu_1_bonus_movement_speed" "Move speed:"
          "dota_tooltip_ability_item_boots_cu_1_bonus_hp_regen" "Health regeneration:"
 
          "dota_tooltip_ability_item_boots_cu_2" "Boots of the universal 2"
-		 "dota_tooltip_ability_item_boots_cu_2_description" "Increases move speed ignoring the 550 limit"
+		 "dota_tooltip_ability_item_boots_cu_2_description" "Increases move speed ignoring the 550 limit."
 		 "dota_tooltip_ability_item_boots_cu_2_bonus_movement_speed" "Move speed:"
          "dota_tooltip_ability_item_boots_cu_2_bonus_hp_regen" "Health regeneration:"
 
 		 "dota_tooltip_ability_item_boots_cu_3" "Boots of the universal 3"
-		 "dota_tooltip_ability_item_boots_cu_3_description" "Increases move speed ignoring the 550 limit"
+		 "dota_tooltip_ability_item_boots_cu_3_description" "Increases move speed ignoring the 550 limit."
 		 "dota_tooltip_ability_item_boots_cu_3_bonus_movement_speed" "Move speed:"
          "dota_tooltip_ability_item_boots_cu_3_bonus_hp_regen" "Health regeneration:"
 
 		 "dota_tooltip_ability_item_boots_cu_4" "Boots of the universal 4"
-		 "dota_tooltip_ability_item_boots_cu_4_description" "Increases move speed ignoring the 550 limit"
+		 "dota_tooltip_ability_item_boots_cu_4_description" "Increases move speed ignoring the 550 limit."
 		 "dota_tooltip_ability_item_boots_cu_4_bonus_movement_speed" "Move speed:"
          "dota_tooltip_ability_item_boots_cu_4_bonus_hp_regen" "Health regeneration:"
 
 		 "dota_tooltip_ability_item_boots_cu_5" "Boots of the universal 5"
-		 "dota_tooltip_ability_item_boots_cu_5_description" "Increases move speed ignoring the 550 limit"
+		 "dota_tooltip_ability_item_boots_cu_5_description" "Increases move speed ignoring the 550 limit."
 		 "dota_tooltip_ability_item_boots_cu_5_bonus_movement_speed" "Move speed:"
          "dota_tooltip_ability_item_boots_cu_5_bonus_hp_regen" "Health regeneration:"
 
 		 "dota_tooltip_ability_item_boots_cu_6" "Boots of the universal 6"
-		 "dota_tooltip_ability_item_boots_cu_6_description" "Increases move speed ignoring the 550 limit"
+		 "dota_tooltip_ability_item_boots_cu_6_description" "Increases move speed ignoring the 550 limit."
 		 "dota_tooltip_ability_item_boots_cu_6_bonus_movement_speed" "Move speed:"
          "dota_tooltip_ability_item_boots_cu_6_bonus_hp_regen" "Health regeneration:"
 
 		 "dota_tooltip_ability_item_boots_cu_7" "Boots of the universal 7"
-		 "dota_tooltip_ability_item_boots_cu_7_description" "Increases move speed ignoring the 550 limit"
+		 "dota_tooltip_ability_item_boots_cu_7_description" "Increases move speed ignoring the 550 limit."
 		 "dota_tooltip_ability_item_boots_cu_7_bonus_movement_speed" "Move speed:"
          "dota_tooltip_ability_item_boots_cu_7_bonus_hp_regen" "Health Regeneration:"
  
@@ -3451,21 +3456,21 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  
  
 		"DOTA_Tooltip_Ability_item_scythe_of_the_ancients_3_r"				"Recipe Charged magical scythe 3"
-		"DOTA_Tooltip_Ability_item_scythe_of_the_ancients_3_r_Description"		"Fragment of the artifact, which belongs to Overlord of the Universe, that allows to craft Charged magical scythe 3." 
+		"DOTA_Tooltip_Ability_item_scythe_of_the_ancients_3_r_Description"		"Fragment of the artifact, which belongs to Overlord of the Universe, that allows to craft Charged magical scythe 3.<br><br><font color='#7ee340'>Can be shared with an ally!</font>" 
  
 		"DOTA_Tooltip_ability_item_aqua_greaves_r" "Recipe Aqua's Greaves"
-		"DOTA_Tooltip_ability_item_aqua_greaves_r_Description" "Aqua's divene escence."
+		"DOTA_Tooltip_ability_item_aqua_greaves_r_Description" "Aqua's divene escence.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
  
  		"DOTA_Tooltip_ability_item_demon_echo_sabre_r" "Recipe Demon Echo Sabre"
-        "DOTA_Tooltip_ability_item_demon_echo_sabre_r_Description" "A unique item that can be obtained by killing the boss Ancient Warrior"
+        "DOTA_Tooltip_ability_item_demon_echo_sabre_r_Description" "A unique item that can be obtained by killing the boss Ancient Warrior.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
  
  
 		"DOTA_Tooltip_ability_item_armor_cu_3_r" "Recipe Demigod's Cape 3"
-        "DOTA_Tooltip_ability_item_armor_cu_3_r_Description" "A unique item that can be obtained by killing the boss Ancient Warrior"
+        "DOTA_Tooltip_ability_item_armor_cu_3_r_Description" "A unique item that can be obtained by killing the boss Ancient Warrior.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
 
 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_r" "Recipe Little Dwarf 2"
-        "DOTA_Tooltip_ability_item_unstable_quasar2_r_Description" "A unique item that can be obtained by killing the Singularity boss" 
+        "DOTA_Tooltip_ability_item_unstable_quasar2_r_Description" "A unique item that can be obtained by killing the Singularity boss.<br><br><font color='#7ee340'>Can be shared with an ally!</font>" 
  
  
  
@@ -3785,14 +3790,14 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_ability_item_quibbela5_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela6" "Experience stone 6"
- "DOTA_Tooltip_ability_item_quibbela6_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+ "DOTA_Tooltip_ability_item_quibbela6_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font><br><br><font color='#7ee340'>Can be shared with an ally!</font>"
  "DOTA_Tooltip_ability_item_quibbela6_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela6_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela6_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela6_mana_regen" "Mana regeneration:"
  
  "DOTA_Tooltip_ability_item_quibbela7" "Experience stone 7"
- "DOTA_Tooltip_ability_item_quibbela7_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+ "DOTA_Tooltip_ability_item_quibbela7_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font><br><br><font color='#7ee340'>Can be shared with an ally!</font>"
  "DOTA_Tooltip_ability_item_quibbela7_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela7_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela7_mana" "Mana:"
@@ -3830,16 +3835,16 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
 		"DOTA_Tooltip_ability_item_cursed_stone"                                         "Cursed stone"
-        "DOTA_Tooltip_ability_item_cursed_stone_Description"                           	 	"<h1>Passive:</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %bonus_attack_speed%."
+        "DOTA_Tooltip_ability_item_cursed_stone_Description"                           	 	"<h1>Passive:</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %attack_speed%."
 
 		"DOTA_Tooltip_ability_item_cursed_stone_2"                                       "Cursed stone 2"
-        "DOTA_Tooltip_ability_item_cursed_stone_2_Description"                           	"<h1>Passive:</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %bonus_attack_speed%."
+        "DOTA_Tooltip_ability_item_cursed_stone_2_Description"                           	"<h1>Passive:</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %attack_speed%."
 
 		"DOTA_Tooltip_ability_item_cursed_stone_3"                                       "Cursed stone 3"
-        "DOTA_Tooltip_ability_item_cursed_stone_3_Description"                           	"<h1>Passive:</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %bonus_attack_speed%."
+        "DOTA_Tooltip_ability_item_cursed_stone_3_Description"                           	"<h1>Passive:</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %attack_speed%."
 
 		"DOTA_Tooltip_ability_item_cursed_stone_r"                                       "Recipe Cursed stone "
-        "DOTA_Tooltip_ability_item_cursed_stone_r_Description"                           	"Essence of speed curse, which Galactic Fairy possessed."
+        "DOTA_Tooltip_ability_item_cursed_stone_r_Description"                           	"Essence of speed curse, which Galactic Fairy possessed.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
 
 
 
@@ -3900,7 +3905,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
 "DOTA_Tooltip_Ability_item_unstable_mars_sword_r"							"Recipe Unstable Mars' sword"
-"DOTA_Tooltip_Ability_item_unstable_mars_sword_r_Description"							"Allows to craft the Unstable Mars' sword"
+"DOTA_Tooltip_Ability_item_unstable_mars_sword_r_Description"							"Allows to craft the Unstable Mars' sword.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
 
 
  "DOTA_Tooltip_ability_item_lifestealtank" "Blood gem"
@@ -4198,13 +4203,13 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_hp_regen" "Health regeneration:"
 
 "DOTA_Tooltip_ability_item_talisman_of_mastery6" "Consciousness Talisman 6"
-"DOTA_Tooltip_ability_item_talisman_of_mastery6_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+"DOTA_Tooltip_ability_item_talisman_of_mastery6_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font><br><br><font color='#7ee340'>Can be shared with an ally!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_hp_regen" "Health regeneration:"
 
 "DOTA_Tooltip_ability_item_talisman_of_mastery7" "Consciousness Talisman 7"
-"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description" "<h1>Passive: Acknowledgement</h1>Each attack gives additional experience varying from %min_exp% to %max_exp%. Melee heroes get more experience. %damage_to_exp%%  of damage is converted into experience.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font><br><br><font color='#7ee340'>Can be shared with an ally!</font>"
 "DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_attack" "Damage:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_str" "Strength:"
 "DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_hp_regen" "Health regeneration:"
@@ -4346,7 +4351,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_ability_item_book2_all_agi_gain" "All stats:"
  
  
- "DOTA_Tooltip_ability_item_book_of_stats_immortality" "Book by Yamamoto Tsunetomo - Samurai Codex"
+ "DOTA_Tooltip_ability_item_book_of_stats_immortality" "Book by Yamamoto Tsunetomo - Samurai Codex<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
  "DOTA_Tooltip_ability_item_book_of_stats_immortality_bonus_str" "All stats:"
  
  "DOTA_Tooltip_ability_item_book_str" "Mein Kampf"
@@ -4790,21 +4795,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "npc_dota_cu_antenna" "Radio tower"
 
 
-"data_des" "<font color='#19e326'>Rating System:</font> - You get MMR for each round won starting with 6th. MMR is withdrawn after lost rounds, killing allies and for losing before 6th wave. You can see MMR and CU-points gain, which depends on difficulty level, lower<br>
-<font color='#ed0909'>Base MMR</font> = 2<br>
-<font color='#ed0909'>Base multiplier</font> = 1<br>
-<font color='#0084ff'>Difficulty level Easy:</font><br>
-- MMR multiplier = 1 - 3<br>
-<font color='#66ff58'>Difficulty level Standard:</font><br>
-- MMR multiplier = 3 - 5<br>
-<font color='#d8cd31'>Difficulty level Hard:</font><br>
-- MMR multiplier = 5 - 9<br>
-<font color='#ee4e4e'>Difficulty level Absurd:</font><br>
-- MMR multiplier = 7 - 13<br>
-After choosing the difficulty you will receive MMR and CU Point according to the following formula:<br>
-Base MMR * Multiplier<br>
 
-<font color='#b809ed'>Race System:</font> - You can select a race by pressing the button in the form of a crown, the race is selected once and for all<br>
 
 
 /// Р А С О В А Я  С И С Т Е М А ///
@@ -4869,7 +4860,7 @@ Base MMR * Multiplier<br>
 "npc_dota_hero_skywrath_mage_race" 		"Race - Asgard"
 "npc_dota_hero_mirana_race"             "Race - とうほう"
 "npc_dota_hero_void_spirit_race" "Race - とうほう"
-
+"npc_dota_hero_dawnbreaker_race"        "Race - Asgard"
 
 "dota_tooltip_ability_damage_resist_angelic" "Angelic protection"
 "dota_tooltip_ability_damage_resist_angelic_description" "Reduces all incoming <font color='#00ff1e'>Angelic</font> type damage by a certain amount of %" 
@@ -5155,13 +5146,13 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "vote_2" "Total Votes: - "
 "boss_rewards" "Reward for Boss Kill:"
 
-"task_vote_boss_boss_1" "Boss Fairy"
-"task_vote_boss_boss_2" "Boss Goddes Aqua"
-"task_vote_boss_boss_3" "Boss Elder Warrior"
-"task_vote_boss_boss_4" "Boss Singularity"
-"task_vote_boss_boss_5" "Boss Earth Mage"
-"task_vote_boss_boss_6" "Boss Overlord of the Universe"
-"task_vote_boss_boss_7" "Boss ?????????"
+"task_vote_boss_b_1" "Boss Fairy"
+"task_vote_boss_b_2" "Boss Goddes Aqua"
+"task_vote_boss_b_3" "Boss Elder Warrior"
+"task_vote_boss_b_4" "Boss Singularity"
+"task_vote_boss_b_5" "Boss Earth Mage"
+"task_vote_boss_b_6" "Boss Overlord of the Universe"
+"task_vote_boss_b_7" "Boss ?????????"
 
 
 "info_player_open" "Open"
@@ -5559,10 +5550,10 @@ They can use autodialling without energy loss."
 
 /// П О Д С К А З К А  О  В О Л Н А Х ///
 
-"dif1" "You will gain 2-6 MMR for every completed round after the 6th one."
-"dif2" "You will gain 6-10 MMR for every completed round after the 6th one."
-"dif3" "You will gain 10-18 MMR for every completed round after the 6th one."
-"dif4" "You will gain 14-26 MMR for every completed round after the 6th one."
+"dif1" "You will gain 5-8 MMR for every completed round after the 6th one."
+"dif2" "You will gain 8-15 MMR for every completed round after the 6th one."
+"dif3" "You will gain 15-25 MMR for every completed round after the 6th one."
+"dif4" "You will gain 25-40 MMR for every completed round after the 6th one."
 
 
 
@@ -5880,6 +5871,19 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_ability_item_desolator_anubis_r"								"Anubis' desolator"
 		"DOTA_Tooltip_ability_item_desolator_anubis_r_Description"					"Item is abtained by completing DD's quest."
 		
+		"DOTA_Tooltip_ability_gu_duel"				"Encouragement"
+		"DOTA_Tooltip_ability_gu_duel_Description"	"Each kill has 17% chance to grant %damage% bonus attack damage and %str% strength. Effect does not disappear on death."
+		"DOTA_Tooltip_ability_gu_duel_cd"	"Cooldown: "		
+	
+        "DOTA_Tooltip_modifier_gu_duel_buff" "Encouragement"
+		"DOTA_Tooltip_modifier_gu_duel_buff_Description" "Grants %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength and %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% damage."
+
+		"DOTA_Tooltip_ability_item_book_of_stats_boss" 						"Ancients' Knowledge <br><br><font color='#7ee340'>Can be shared with an ally!</font>"
+		"DOTA_Tooltip_ability_item_book_of_stats_boss_bonus_str" 				"All stats:" 
+
+		"DOTA_Tooltip_ability_item_rune_boss" 						"Ori Relic"
+"DOTA_Tooltip_ability_item_rune_boss_Description" 				"Gives random rune's effect for 5 minutes<br><br><font color='#7ee340'>Can be shared with an ally!</font>" 		
+		
 		"DOTA_Tooltip_ability_item_ancient_technology"								"Ancients' technologies"
 		"DOTA_Tooltip_ability_item_ancient_technology_Description"					"<h1>Passive: Ascension</h1> If this item is in hero's inventory, then all ally heroes will leave a Tombstone after death which allows to resurrect them. Owner is invulnerable during resurrection."	
 		"DOTA_Tooltip_ability_item_ancient_technology_int"                          "Intelligence:"	
@@ -5908,7 +5912,7 @@ They can use autodialling without energy loss."
 		
 		"npc_dota_hero_mirana" "Yagokoro Eirin"
 		
-		"no_race" "Без расы"
+		"no_race" "No race"
 
 		"battle_pass_text" "Guardians of Universe Batlle Pass"
 		"battle_pass_text_des" "Gain MMR to recieve unique effects and bonuses with each level!"
@@ -6055,9 +6059,9 @@ They can use autodialling without energy loss."
 		"lore_qvest_start_forest_h_text"	"Quest: «Visit «R3H-888» »"
 		"lore_qvest_start_forest_a_text"	"Quest: «Visit «R3H-367» »"
 
-		"lore_qvest_start_forest_e_text_des"	"Visit «R3H-797». <br><br> Награда: 100 Золота"
-		"lore_qvest_start_forest_h_text_des"	"Visit «R3H-888». <br><br> Награда: 100 Золота"
-		"lore_qvest_start_forest_a_text_des"	"Visit «R3H-367». <br><br> Награда: 100 Золота"
+		"lore_qvest_start_forest_e_text_des"	"Visit «R3H-797». <br><br> Reward: 100 Gold"
+		"lore_qvest_start_forest_h_text_des"	"Visit «R3H-888». <br><br> Reward: 100 Gold"
+		"lore_qvest_start_forest_a_text_des"	"Visit «R3H-367». <br><br> Reward: 100 Gold"
 		"lore_qvest_forest_e_text_des"	"Kill 100 creatures on «R3H-797» planet. <br><br> Reward: 400 Gold"
 		"lore_qvest_forest_h_text_des"	"Kill 200 creatures on «R3H-888» planet. <br><br> Reward: 600 Gold"
 		"lore_qvest_forest_a_text_des"	"Kill 300 creatures on «R3H-367» planet. <br><br> Reward: 2000 Gold"
@@ -6210,7 +6214,7 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_ability_item_gu_energy_paradox_2" 						"Energy Paradox 2"
 		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_Description" 				"<h1>Passive: Instability </h1>Charges your attack with Energym, which allows you to deal area damage. <font color='#ff1f1f'>Works only in ranged heroes' inventory!</font><br><br><font color='#fceb28'>Each attack consumes 1% of your maximal energy!</font> \n <h1>Passive: Paradox</h1> Attacks have %crit_chance%% chance to deal %crit_bonus%% damage. \n <h1>Passive: Double attack</h1> All ranged heroes will attack twice with this item." 
 		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_bonus_damage" 				"Damage: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_splash_range" 				"Радиус: " 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_splash_range" 				"Radius: " 
 		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_gold" 						"Gold per attack: " 
 		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_chanse" 						"Chance to gain gold: "
 
@@ -6230,7 +6234,7 @@ They can use autodialling without energy loss."
 
 
 		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r" 						"Recipe Energy Paradox 2"
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r_Description" 				"Can be abtained by killing Earth Mage boss" 
+		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r_Description" 				"Can be abtained by killing Earth Mage boss.<br><br><font color='#7ee340'>Can be shared with an ally!</font>" 
 
 		"prolog_off" "Skip prologue?"
 
@@ -6262,8 +6266,161 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_modifier_jekob_5_casted" "الجنس الشرجي (من فتحة الشرج اللاتينية) ، وكذلك التحليل ، والجماع الشرجي ، والاختراق الشرجي ، والجماع الشرجي ، والجماع الشرجي. ويمارس الجماع بين الجنس الآخر وبين الشريكين من نفس الجنس. علاوة على ذلك ، هذا النوع من الجماع على عكس الجماع المهبلي ، يتطلب بعض التحضير الأولي من الشركاء "
 		"DOTA_Tooltip_modifier_jekob_5_casted_Description" "" 
 
-		"sg_key_name" "Найденно ключей:" 
+		"sg_key_name" "Keys found:" 
 		"rain_infinity" " "
+
+		"DOTA_Tooltip_ability_gu_marisa_aura"                "Star aura"
+        "DOTA_Tooltip_ability_gu_marisa_aura_Description"    "This aura powers up all your allies(including you) based on your attributes, works according to the formula : your attribute(strength,agility,intellect * the value in the description). Attributes do not increase status resist value. <br> Bonus health from the aura(strength) %hp% <br> Bonus HP regen from the aura (strength) %hp_regen% <br> Status resist from the aura %status_resistance% <br> Bonus white damage from the aura (agility) %Bonus_damage% <br> Bonus mana from the aura (inelligence) %mana% <br> Bonus MP regen from the aura (inelligence) Bonus MP regen from the aura (inelligence) %mana_regen% <br> %Bonus spell amplification from the aura (inelligence) %spell_amplufy_percentage%"
+
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff" "Star aura"
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% maximal HP,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% HP regeneration,<br> +%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% bonus base damage <br> +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% bonus MP,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% bonus MP regeneration <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% bonus spell amplification."
+
+		"DOTA_Tooltip_ability_item_ultimate_scepter" 						"Scepter of the Universe"
+		"DOTA_Tooltip_ability_item_ultimate_scepter_Description" 				"Improves some heroes' abilities.<br><br><font color='#7ee340'>Can be shared with an ally!</font>" 
+
+		"DOTA_Tooltip_ability_item_ultimate_scepter_2" 						"Scepter of the Universe"
+		"DOTA_Tooltip_ability_item_ultimate_scepter_2_Description" 				"Improves some heroes' abilities, can be consumed." 
+
+		"DOTA_Tooltip_ability_item_gu_energy_booster_1" 						"Energy stone"
+		"DOTA_Tooltip_ability_item_gu_energy_booster_1_Description" 				"<h1>Passive: Energy Vampire </h1> Replenishes energy with each strike according to the formula %energy_life_steal%%  of dealth damage." 
+		"DOTA_Tooltip_ability_item_gu_energy_booster_1_bonus_energy_regen" 				"Energy regeneration:" 
+
+		"DOTA_Tooltip_ability_item_gu_energy_booster_2" 						"Energy stone 2"
+		"DOTA_Tooltip_ability_item_gu_energy_booster_2_Description" 				"<h1>Passive: Energy Vampire </h1> Replenishes energy with each strike according to the formula %energy_life_steal%%  of dealth damage." 
+		"DOTA_Tooltip_ability_item_gu_energy_booster_2_bonus_energy_regen" 				"Energy regeneration:" 
+
+		"DOTA_Tooltip_ability_item_gu_energy_booster_3" 						"Energy stone 3"
+		"DOTA_Tooltip_ability_item_gu_energy_booster_3_Description" 				"<h1>Passive: Energy Vampire </h1> Replenishes energy with each strike according to the formula %energy_life_steal%%  of dealth damage." 
+		"DOTA_Tooltip_ability_item_gu_energy_booster_3_bonus_energy_regen" 				"Energy regeneration:" 
+
+		"DOTA_Tooltip_ability_gu_boss_jump"                "Time Leap"
+        "DOTA_Tooltip_ability_gu_boss_jump_Description"    "Jumps at the target with the least health. Deals 40% of targer's maximum health as damage, also stuns for 2 seconds."
+
+		"DOTA_Tooltip_ability_gu_boss_threshold"                "Naquadah Emprowerment"
+        "DOTA_Tooltip_ability_gu_boss_threshold_Description"    "Reflects back damage according to the formula (5 + (difficulty * 5 )) % of received damage, if damage value is greater than (50 - (difficulty * 5))% of maximal unit's health then it will replenish heakth in 30% amount of received damage with a 17% chance"
+
+		"DOTA_Tooltip_ability_sniper_concussive_grenade"                "M67"
+        "DOTA_Tooltip_ability_sniper_concussive_grenade_Description"    "Throws a M-67 grenade, which pushes all units away from the target point and also applies armor corruption."
+		"DOTA_Tooltip_ability_sniper_concussive_grenade_radius"    		"Radius:"
+		"DOTA_Tooltip_ability_sniper_concussive_grenade_debuff_duration"    "Duration:"
+
+		"DOTA_Tooltip_ability_item_aghanims_shard"                "Null Poin Module"
+        "DOTA_Tooltip_ability_item_aghanims_shard_Description"    "Adds new abilities to some heroes or improves present."
+		"DOTA_Tooltip_ability_item_aghanims_shard_Lore"    "Infinite Energy - is not a dream!"
+
+		"DOTA_AbilityTooltip_ScepterUpgrade_Header" "Scepter of the Universe upgrade"
+		"DOTA_AbilityTooltip_No_Aghs_Upgrade_Found" "In process of materializing"
+		"DOTA_AbilityTooltip_Scepter_Upgrade" "UScepter of the Universe upgrade"
+		"DOTA_AbilityTooltip_Shard_Upgrade" "Null Point Module upgrade"
+		"DOTA_AbilityTooltip_Aghs_New_Ability" "New ability"
+		"DOTA_AbilityTooltip_Aghs_Scepter" "Scepter of the Universe"
+		"DOTA_AbilityTooltip_Aghs_Shard" "Null Point Module"
+		"DOTA_AbilityTooltip_Upgrade" "Upgrade"
+
+
+		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_scepter_description"		"Allows to use the ability Lightning on point and also pierce magical immunity."
+		"DOTA_Tooltip_ability_legion_commander_press_the_attack_shard_description"		"Applies Magical Immunity on the target for 2 seconds, also reduces cooldown by 2 seconds."
+		"DOTA_Tooltip_ability_mjz_sniper_assassinate_scepter_description"		"Allows to use ability M82 .50 BMG on point, also adds penetration of enemies which are located behind the targer, deals critical damage + applies all attack modifiers."
+		"DOTA_Tooltip_ability_kotori_rage_scepter_description"		"Allows to control the hero during the Rage ability."
+		"DOTA_Tooltip_ability_sakuya_time_scepter_description"		"Cooldown of Time Stop ability - 40 seconds."
+		"DOTA_Tooltip_ability_kongou_ammo_scepter_description"		"Attacks all enemies around the hero in 0.8 seconds intervals, all attack modifiers are applied on attacks."
+		"DOTA_Tooltip_ability_noire_next_scepter_description"		"Grants phased movement."
+		"DOTA_Tooltip_ability_enterprise_lucky_scepter_description"		"Adds new ability - Squadron: Fighter."
+		"DOTA_Tooltip_ability_skywrath_mage_shard_description"		""
+
+		"DOTA_Tooltip_ability_jekob_1_shard_description"		"Why"
+		"DOTA_Tooltip_ability_jekob_1_scepter_description"		"Kinda"
+
+		"DOTA_Tooltip_ability_jekob_2_shard_description"		"Donne 10 UAH"
+		"DOTA_Tooltip_ability_jekob_2_scepter_description"		"Reprimande du patron - 3000 UAH"
+
+		"DOTA_Tooltip_ability_jekob_3_shard_description"		"Tu commencez a comprendre"
+		"DOTA_Tooltip_ability_jekob_3_scepter_description"		"Tu n'es plus comprehensif"
+
+		"DOTA_Tooltip_ability_jekob_4_shard_description"		"Ofcourse"
+		"DOTA_Tooltip_ability_jekob_4_scepter_description"		"Sure"
+
+		"DOTA_Tooltip_ability_drow_ranger_shard_description"		"Cost of adding a hero to the race system - $10"
+		"DOTA_Tooltip_ability_drow_ranger_scepter_description"		"Why not ?"
+
+		"DOTA_Tooltip_ability_storm_spirit_overload"                "<font color='#ff8400'> 「Overload」</font>"
+        "DOTA_Tooltip_ability_storm_spirit_overload_Description"    "On activation of any ability charges next attack with an energy charge which deals additional area damage on hit as well as slow down the target for %overload_move_slow%."
+
+		 "DOTA_Tooltip_ability_invoker_fire_ellement"                                     "<font color='#f74307'>Element : Fire</font>"
+                "DOTA_Tooltip_ability_invoker_fire_ellement_Description"                    "Increases your attack damage and allows to use <font color='#f74307'>Fire</font> magic in combinations.\n\n<font color='#f74307'>Fire aura</font> : you imbue yourself with power of fire, increasing attack damage. <font color='#f74307'>At least 1 element power is required</font>.\n\n<font color='#fa2e00'>Fireball</font> : you release a fire ball. <font color='#f74307'>At least 2,2 element power is required</font>.\n\n<font color='#fa2e00'>Fireballs Cone</font> : you release many fire balls in a cone before you.<font color='#f74307'>At least 6 element power is required</font>.\n\n<font color='#fa1900'>Bomb</font> : you release a fire projectile, which deals pure damage and creates a huge explosion, igniting enemies. <font color='#f74307'>More than 10,2 element power is required</font>."
+              "DOTA_Tooltip_ability_invoker_fire_ellement_Note0"                    "Mixed combinations : \n\n<font color='#5ce9ff'>Ice</font> : \n\n<font color='#00deb9'>Water whirwind</font> : you create a <font color='#5ce9ff'>water</font> <font color='#f74307'>whirlwind</font>. <font color='#f74307'>Little amounts of <font color='#5ce9ff'>both powers</font> are required</font>.\n\n<font color='#00d6a4'>Water whirwind cone</font> : you release many <font color='#5ce9ff'>water</font> <font color='#f74307'>whirlwinds</font> in a cone. <font color='#f74307'>Large amounts of <font color='#5ce9ff'>both powers</font> are required</font>.\n\n<font color='#d974f7'>Wind</font> : \n\n<font color='#c75300'>Fire tornado</font> : you create a <font color='#f74307'>fire</font> <font color='#d974f7'>tornado</font>. <font color='#f74307'>Little amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#bf400a'>Fire tornadoes cone</font> : you release a cone of <font color='#f74307'>fire</font> <font color='#d974f7'>tornadoes</font>. <font color='#f74307'>Large amounts of <font color='#d974f7'>both powers</font> are required</font>."
+                "DOTA_Tooltip_ability_invoker_fire_ellement_bonus_damage_per_instance"                    "Attack damage per orb: "
+                "DOTA_Tooltip_ability_invoker_fire_ellement_ellement_power"                    "<font color='#f74307'>Element power</font>: "
+
+                "DOTA_Tooltip_ability_invoker_ice_ellement"                                     "<font color='#5ce9ff'>Element : Ice</font>"
+                "DOTA_Tooltip_ability_invoker_ice_ellement_Description"                    "Increases your manaregen and allows to use <font color='#5ce9ff'>Water</font> magic in combinations.\n\n<font color='#5ce9ff'>Ice aura</font> : you imbue yourself with ice power, slowing down nearby enemies. <font color='#5ce9ff'>At least 1 element power is required</font>.\n\n<font color='#30e3ff'>Iceplosion</font> : you create a field of sharp shards of ice in front of you. <font color='#5ce9ff'>At least 2,2 element power is required</font>.\n\n<font color='#0fdfff'>Ice field</font> : you create lots of ice shards around yourself. <font color='#5ce9ff'>At least 6 element power is required</font>."
+                "DOTA_Tooltip_ability_invoker_ice_ellement_Note0"                    "Mixed combinations : \n\n<font color='#f74307'>Fire</font> : \n\n<font color='#00deb9'>Water whirwind</font> : you create a <font color='#5ce9ff'>water</font> <font color='#f74307'>whirlwind</font>. <font color='#f74307'>Little amounts of <font color='#5ce9ff'>both powers</font> are required</font>.\n\n<font color='#00d6a4'>Water whirwind cone</font> : you release many <font color='#5ce9ff'>water</font> <font color='#f74307'>whirlwinds</font> in a cone. <font color='#f74307'>Large amounts of <font color='#5ce9ff'>both powers</font> are required</font>.\n\n<font color='#d974f7'>Wind</font> : \n\n<font color='#24dff0'>Ice shere</font> : You create a <font color='#d974f7'>rotating</font> <font color='#5ce9ff'>ice sphere</font>. <font color='#5ce9ff'>Little amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#9cf7ff'>Ice star</font> : you create an <font color='#5ce9ff'>ice sphere</font>, <font color='#d974f7'>which periodically unleashes several ice projectiles</font>. <font color='#5ce9ff'>Large amounts of <font color='#d974f7'>both powers</font> are required</font>."
+                "DOTA_Tooltip_ability_invoker_ice_ellement_bonus_mana_regen_per_instance"                    "<font color='#3280e6'>мана</font> : "
+                "DOTA_Tooltip_ability_invoker_ice_ellement_ellement_power"                    "<font color='#5ce9ff'>Сила элемента</font> : "
+
+                "DOTA_Tooltip_ability_invoker_wind_ellement"                                     "<font color='#d974f7'>Element : Wind</font>"
+                "DOTA_Tooltip_ability_invoker_wind_ellement_Description"                    "Increases your speed and allows to use <font color='#d974f7'>Wind</font> magic in combinations.\n\n<font color='#d974f7'>Wind aura</font> : you imbue yourself with wind power, increasing your body's speed. <font color='#d974f7'>At least 1 element power is required</font>.\n\n<font color='#d455fa'>Push</font> : you strike enemy with a powerful gush. <font color='#d974f7'>At least 2,2 element power is required</font>.\n\n<font color='#d455fa'>Tornado</font> : you release an electrified tornado. <font color='#d974f7'>At least 6 element power is required</font>.\n\n<font color='#b20dff'>Cone of electrified</font> : you release many electrified tornadoes in a cone. <font color='#d974f7'>More than 10,2 element power is required</font>."
+                "DOTA_Tooltip_ability_invoker_wind_ellement_Note0"                    "Mixed combinations : \n\n<font color='#f74307'>Fire</font> : \n\n<font color='#c75300'>Огненный смерч</font> : вы создаёте <font color='#f74307'>огненный</font> <font color='#d974f7'>смерч</font>. <font color='#c75300'>Fire tornado</font> : you create a <font color='#f74307'>fire</font> <font color='#d974f7'>tornado</font>. <font color='#f74307'>Little amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#bf400a'>Fire tornadoes cone</font> : you release a cone of <font color='#f74307'>fire</font> <font color='#d974f7'>tornadoes</font>. <font color='#f74307'>Large amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#5ce9ff'>Ice</font> : \n\n<font color='#24dff0'>Ice shere</font> : You create a <font color='#d974f7'>rotating</font> <font color='#5ce9ff'>ice sphere</font>. <font color='#5ce9ff'>Little amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#9cf7ff'>Ice star</font> : you create an <font color='#5ce9ff'>ice sphere</font>, <font color='#d974f7'>which periodically unleashes several ice projectiles</font>. <font color='#5ce9ff'>Large amounts of <font color='#d974f7'>both powers</font> are required</font>."
+                "DOTA_Tooltip_ability_invoker_wind_ellement_bonus_speed_per_instance"                    "%Move speed: "
+                "DOTA_Tooltip_ability_invoker_wind_ellement_bonus_attack_speed_per_instance"                    "Attack speed: "
+                "DOTA_Tooltip_ability_invoker_wind_ellement_ellement_power"                    "<font color='#d974f7'>Element power</font> : "
+
+                "DOTA_Tooltip_ability_invoker_combine"                                     "<font color='#f74307'>Com</font><font color='#5ce9ff'>bi</font><font color='#d974f7'>na</font><font color='#00d6a4'>ti</font><font color='#9cf7ff'>on</font>"
+                "DOTA_Tooltip_ability_invoker_combine_Description"        "Ram combines elements to create a new spell. Spell is selected based on the major part."
+                "DOTA_Tooltip_ability_invoker_combine_Lore"                  "Additional sphere is available each 10 levels : lvl 1 : 1 sphere , lvl 10 : 2 spheres , lvl 20 : 3 spheres , lvl 30 : 4 spheres : lvl 40 : 5 spheres , lvl 50 : 6 spheres"
+                "DOTA_Tooltip_ability_invoker_combine_Note0"                "<font color='#72fc4c'>Source : you replenish some health. <font color='#de3576'>1-2.5 of all element powers are required. \n\n<font color='#fcd144'>Arcana laser : you unleash a ray of magical energy. <font color='#de3576'>More than 2,5 power units of all elements are required."
+                "DOTA_Tooltip_ability_invoker_combine_Note1"                "Experiment with combinations, you might find something new and unique."
+                 "DOTA_Tooltip_ability_invoker_combine_Note2"                "Items that grant additional cast range do not affect spells."
+ 
+                "DOTA_Tooltip_ability_invoker_reset"                                     "Reset"
+                "DOTA_Tooltip_ability_invoker_reset_Description"                    "Removes all orbs."
+
+
+                
+                "DOTA_Tooltip_ellement_wind_modifiers"                                      "<font color='#d974f7'>Wind</font>"
+                "DOTA_Tooltip_ellement_wind_modifiers_Description"                   "<font color='#d974f7'>You have summoned an orb of wind element</font>"
+
+                "DOTA_Tooltip_ellement_ice_modifiers"                                      "<font color='#5ce9ff'>Ice</font>"
+                "DOTA_Tooltip_ellement_ice_modifiers_Description"                   "<font color='#5ce9ff'>You have summoned an orb of ice element</font>"
+
+                "DOTA_Tooltip_ellement_fire_modifiers"                                      "<font color='#f74307'>Fire</font>"
+                "DOTA_Tooltip_ellement_fire_modifiers_Description"                   "<font color='#f74307'>You have summoned an orb of fire element</font>"
+
+                "DOTA_Tooltip_speed_aura_display"                                      "<font color='#d974f7'>Wind</font>"
+                "DOTA_Tooltip_speed_aura_display_Description"                   "Attack and move speed are increased."
+
+                "DOTA_Tooltip_power_aura_display"                                      "<font color='#f74307'>Fire</font>"
+                "DOTA_Tooltip_power_aura_display_Description"                   "Bonus attack damage"
+
+                "DOTA_Tooltip_slow_modifier_caster"                                      "<font color='#5ce9ff'>Ice</font>"
+                "DOTA_Tooltip_slow_modifier_caster_Description"                   "Enemies around you are slowd down."
+
+                "DOTA_Tooltip_modifier_arcana_laser_charge"                              "<font color='#fcd144'>Arcana laser</font>"
+                "DOTA_Tooltip_modifier_arcana_laser_charge_Description"           "You unleash a ray of magical energy."
+
+                "DOTA_Tooltip_health_regen_display"                                      "<font color='#72fc4c'>Source</font>"
+                "DOTA_Tooltip_health_regen_display_Description"                   "You replenish health."
+
+                "DOTA_Tooltip_fire_dot_display"                                      "Ignite"
+                "DOTA_Tooltip_fire_dot_display_Description"                   ""
+
+                "DOTA_Tooltip_iceflame_display"                                      "Freeze"
+                "DOTA_Tooltip_iceflame_display_Description"                   "You are frozen"
+
+                "DOTA_Tooltip_ice_freeze_display"                                      "Frozen"
+                "DOTA_Tooltip_ice_freeze_display_Description"                   ""
+
+                "DOTA_Tooltip_slow_modifier_display"                                      "Slow"
+                "DOTA_Tooltip_slow_modifier_display_Description"                   ""
+
+                "DOTA_Tooltip_armor_debuff_display"                                      "Armor corruption"
+                "DOTA_Tooltip_armor_debuff_display_Description"                   ""
+
+				"ban_cause_1"	"You are banned! Reason: Using the game's flaws for your own benefit!"
+				"ban_cause_2"	"You are banned! Reason: Excessive killing of allies!"
+				"ban_cause_3"	"You are banned! Reason: Obstacle to normal play!"
+				"ban_cause_4"	"You are banned! Reason: Attempting to dudos the server!"
+				"ban_cause_5"	"You are banned! Reason: You are an over-blood brat, go fuck yourself out of here to your custom Hiro Chaos and don't come back again!"
 
 
 }
