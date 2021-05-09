@@ -26,7 +26,7 @@
 	"Result"				"Результат"
 
 	"DOTA_GoodGuys"						"Стражи Вселенной"
-	"DOTA_BadGuys"						"Приспешники Зла"
+	"DOTA_BadGuys"						"Воины Орай"
 
 
 	/// H U D  В О Л Н Ы ///
@@ -4723,56 +4723,6 @@
 
 		"DOTA_Tooltip_ability_item_hyperstone6"                                       "Нестабильный Камень 6"
 		"DOTA_Tooltip_ability_item_hyperstone6_base_attack_time"                      "+к скорости атаки"
-
-
-
-	
-		"DOTA_Tooltip_ability_item_cu_fury_1"                                         "Боевой Молот"
-		"DOTA_Tooltip_ability_item_cu_fury_1_Description"                             	"<h1>Пассивная: Splash</h1> Прорубающий урон в %cleave_damage%%  на расстоянии %distance%."                                        
-		"DOTA_Tooltip_ability_item_cu_fury_1_damage"                               			"+к урону "
-		"DOTA_Tooltip_ability_item_cu_fury_1_regen_hp"                         				"+к восстановлению здоровья "
-		"DOTA_Tooltip_ability_item_cu_fury_1_regen_mana"                           			"+к восстановлению маны "
-
-		"DOTA_Tooltip_ability_item_cu_fury_2"                                         "Боевой Молот 2"
-		"DOTA_Tooltip_ability_item_cu_fury_2_Description"                             	"<h1>Пассивная: Splash</h1> Прорубающий урон в %cleave_damage%%  на расстоянии %distance%."                                        
-		"DOTA_Tooltip_ability_item_cu_fury_2_damage"                               			"+к урону "
-		"DOTA_Tooltip_ability_item_cu_fury_2_regen_hp"                         				"+к восстановлению здоровья "
-		"DOTA_Tooltip_ability_item_cu_fury_2_regen_mana"                           			"+к восстановлению маны "
-
-		"DOTA_Tooltip_ability_item_cu_fury_3"                                         "Боевой Молот 3"
-		"DOTA_Tooltip_ability_item_cu_fury_3_Description"                             	"<h1>Пассивная: Splash</h1> Прорубающий урон в %cleave_damage%%  на расстоянии %distance%."                                        
-		"DOTA_Tooltip_ability_item_cu_fury_3_damage"                               			"+к урону "
-		"DOTA_Tooltip_ability_item_cu_fury_3_regen_hp"                         				"+к восстановлению здоровья "
-		"DOTA_Tooltip_ability_item_cu_fury_3_regen_mana"                           			"+к восстановлению маны "
-
-		"DOTA_Tooltip_ability_item_cu_fury_4"                                         "Боевой Молот 4"
-		"DOTA_Tooltip_ability_item_cu_fury_4_Description"                             	"<h1>Пассивная: Splash</h1> Прорубающий урон в %cleave_damage%%  на расстоянии %distance%."                                        
-		"DOTA_Tooltip_ability_item_cu_fury_4_damage"                               			"+к урону "
-		"DOTA_Tooltip_ability_item_cu_fury_4_regen_hp"                         				"+к восстановлению здоровья"
-		"DOTA_Tooltip_ability_item_cu_fury_4_regen_mana"                           			"+к восстановлению маны "
-
-		"DOTA_Tooltip_ability_item_cu_fury_5"                                         "Боевой Молот 5"
-		"DOTA_Tooltip_ability_item_cu_fury_5_Description"                             	"<h1>Пассивная: Splash</h1> Прорубающий урон в %cleave_damage%%  на расстоянии %distance%."                                        
-		"DOTA_Tooltip_ability_item_cu_fury_5_damage"                               			"+к урону "
-		"DOTA_Tooltip_ability_item_cu_fury_5_regen_hp"                         				"+к восстановлению здоровья "
-		"DOTA_Tooltip_ability_item_cu_fury_5_regen_mana"                           			"+к восстановлению маны "
-
-
-	
-		"DOTA_Tooltip_ability_item_cu_fury_6"                                  	"Ярость Мидаса"
-		"DOTA_Tooltip_ability_item_cu_fury_6_Description"                           "<h1>Пассивная: Splash<h1> Прорубающий урон в %cleave_damage%% на расстоянии %distance%. \n <h1>Пассивная: Золотое Дно<h1> Если предмет не перезаряжается, то каждый удар будет давать вам 1 золота."                                        
-		"DOTA_Tooltip_ability_item_cu_fury_6_damage"                               		"+к урону"
-		"DOTA_Tooltip_ability_item_cu_fury_6_regen_hp"                         			"+к восстановлению здоровья "
-		"DOTA_Tooltip_ability_item_cu_fury_6_regen_mana"                           		"+к восстановлению маны "
-
-
-		"DOTA_Tooltip_ability_item_cu_fury_7"                                   "Крушитель Мидаса"
-		"DOTA_Tooltip_ability_item_cu_fury_7_Description"                       	"<h1>Пассивная: Splash</h1> Прорубающий урон в %cleave_damage%% на расстоянии %distance%. \n <h1>Пассивная: Золотое Дно</h1> С шансом в 20% при атаке будет давать 1 золото (Не работает на героях дальнего боя) \n <h1>Пассивная: Удар Материей Разрушения</h1> Оглушает противника с перезарядкой в 8 секунд."                                        
-		"DOTA_Tooltip_ability_item_cu_fury_7_damage"                            		"+к урону"
-		"DOTA_Tooltip_ability_item_cu_fury_7_regen_hp"                         			"+к восстановлению здоровья"
-		"DOTA_Tooltip_ability_item_cu_fury_7_regen_mana"                           		"+к восстановлению маны "
-		"DOTA_Tooltip_ability_item_cu_fury_7_bonus_strange"                             "+к силе"
-
 	
 		"DOTA_Tooltip_ability_item_gu_hearth"                                      "Сердце Галактики"
 		"DOTA_Tooltip_ability_item_gu_hearth_Description"                          	"<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>"
@@ -5754,13 +5704,12 @@
 
 	"ad_1" "База «P3X-234»"
 	"ad_2" "Центр Карты «P3X-403»"
-	"ad_3" "Случайный предмет «P3X-421»"
-	"ad_4" "Случайный противник «P3X-298»"
+	"ad_3" "???? «P3X-421»"
+	"ad_4" "???? «P3X-298»"
 	"ad_5" "Лёгкий Лес «P3X-797»"
 	"ad_6" "Сложный Лес «P3X-888»"
 	"ad_7" "Абсурдный Лес «P3X-367»"
 	"ad_8" "Босс Арена «P3X-772»"
-	"ad_9" "Контракт Пегаса «P3X-887»"
 	
 	
 
@@ -6895,62 +6844,6 @@
 		"gu_chat_send"  "Сообщение отправлено!"
 		"open_chat"		"Chat"
 
-		"DOTA_Tooltip_ability_item_gu_midas_range" 						"Эссенция Мидаса"
-		"DOTA_Tooltip_ability_item_gu_midas_range_Description" 				"За каждую атаку (если предмет не в КД), даёт владельцу 2 золота. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font>" 
-
-		"DOTA_Tooltip_ability_item_gu_range_splash" 						"Энергетическая Атака"
-		"DOTA_Tooltip_ability_item_gu_range_splash_Description" 				"Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font>" 
-		"DOTA_Tooltip_ability_item_gu_range_splash_bonus_damage" 				"Урон: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_splash_range" 				"Радиус: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_gold" 						"Золото за удар: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_chanse" 						"Шанс на получение золота: "
-
-		"DOTA_Tooltip_ability_item_gu_range_splash_2" 						"Энергетическая Атака 2"
-		"DOTA_Tooltip_ability_item_gu_range_splash_2_Description" 				"Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font>" 
-		"DOTA_Tooltip_ability_item_gu_range_splash_2_bonus_damage" 				"Урон: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_2_splash_range" 				"Радиус: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_2_gold" 						"Золото за удар: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_2_chanse" 						"Шанс на получение золота: "
-
-		"DOTA_Tooltip_ability_item_gu_range_splash_3" 						"Энергетическая Атака 3"
-		"DOTA_Tooltip_ability_item_gu_range_splash_3_Description" 				"<h1>Пассивная: Энергетическая Нестабильность </h1> Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font>" 
-		"DOTA_Tooltip_ability_item_gu_range_splash_3_bonus_damage" 				"Урон: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_3_splash_range" 				"Радиус: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_3_gold" 						"Золото за удар: " 
-		"DOTA_Tooltip_ability_item_gu_range_splash_3_chanse" 						"Шанс на получение золота: "
-
-		"DOTA_Tooltip_ability_item_gu_energy_paradox" 						"Энергетический Парадокс 1"
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_Description" 				"<h1>Пассивная: Нестабильность </h1>Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font> \n <h1>Пассивная: Парадокс</h1> С шансом %crit_chance%% атака нанесёт %crit_bonus%% урона. \n <h1>Пассивная: Двойная атака</h1> У всех героев дальнего боя при атаке будет выпущена дополнительная атака." 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_bonus_damage" 				"Урон: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_splash_range" 				"Радиус: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_gold" 						"Золото за удар: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_chanse" 						"Шанс на получение золота: "
-
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2" 						"Энергетический Парадокс 2"
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_Description" 				"<h1>Пассивная: Нестабильность </h1>Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font> \n <h1>Пассивная: Парадокс</h1> С шансом %crit_chance%% атака нанесёт %crit_bonus%% урона. \n <h1>Пассивная: Двойная атака</h1> У всех героев дальнего боя при атаке будет выпущена дополнительная атака." 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_bonus_damage" 				"Урон: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_splash_range" 				"Радиус: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_gold" 						"Золото за удар: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_chanse" 						"Шанс на получение золота: "
-
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_3" 						"Энергетический Парадокс 3"
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_Description" 				"<h1>Пассивная: Нестабильность </h1>Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font> \n <h1>Пассивная: Парадокс</h1> С шансом %crit_chance%% атака нанесёт %crit_bonus%% урона. \n <h1>Пассивная: Двойная атака</h1> У всех героев дальнего боя при атаке будет выпущена дополнительная атака." 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_bonus_damage" 				"Урон: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_splash_range" 				"Радиус: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_gold" 						"Золото за удар: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_3_chanse" 						"Шанс на получение золота: "
-
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_4" 						"Энергетический Парадокс 4"
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_Description" 				"<h1>Пассивная: Нестабильность </h1>Заряжает вашу атаку Энергией, что даёт возможность наносить урон по области. <font color='#ff1f1f'>Работает только на героях дальнего боя!</font><br><br><font color='#fceb28'>За каждую атаку требует 1% от вашей максимальной энергии!</font> \n <h1>Пассивная: Парадокс</h1> С шансом %crit_chance%% атака нанесёт %crit_bonus%% урона. \n <h1>Пассивная: Двойная атака</h1> У всех героев дальнего боя при атаке будет выпущена дополнительная атака." 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_bonus_damage" 				"Урон: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_splash_range" 				"Радиус: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_gold" 						"Золото за удар: " 
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_4_chanse" 						"Шанс на получение золота: "
-
-
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r" 						"Энергетический Парадокс 2 Рецепт"
-		"DOTA_Tooltip_ability_item_gu_energy_paradox_2_r_Description" 				"Можно получить убив босса Маг Земли<br><br><font color='#7ee340'>Можно передать союзнику!</font>" 
-
 		"prolog_off" "Пропустить пролог?"
 
 		"npc_dota_hero_drow_ranger"		"Miku سلالقسنقل قس "
@@ -7068,8 +6961,96 @@
 		"ban_cause_4"	"Вы забанены! Причина: Попытка дудоса сервера!"
 		"ban_cause_5"	"Вы забанены! Причина: Ты овертровный выблядок иди нахуй отсюда в свой кастом хиро чаос и больше не возвращайся!"
 
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1"		"Dead Sword 1"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1_damage"		"Урон:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1_hp_regen"		"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1_mana_regen"		"Регенерация маны:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2"		"Dead Sword 2"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2_damage"		"Урон:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2_hp_regen"		"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2_mana_regen"		"Регенерация маны:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3"		"Dead Sword 3"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3_damage"		"Урон:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3_hp_regen"		"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3_mana_regen"		"Регенерация маны:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4"		"Dead Sword 4"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4_damage"		"Урон:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4_hp_regen"		"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4_mana_regen"		"Регенерация маны:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5"		"Dead Fury 1"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 10%, для других - 20% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_damage"		"Урон:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_hp_regen"		"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_mana_regen"		"Регенерация маны:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6"		"Dead Fury 2"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 10%, для других - 20% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_damage"		"Урон:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_hp_regen"		"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_mana_regen"		"Регенерация маны:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7"		"Dead Fury 3"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 10%, для других - 20% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_damage"		"Урон:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_hp_regen"		"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"		"Регенерация маны:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8"		"Unstable Dead Fury"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"		"<h1>Активная: Break World  </h1> При активации выведет из строя всех вражеских юнитов на 1.8 - 2.2 сек в радиусе 300 \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 10%, для других - 20% может забашить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 17% может украсть у врага случайное кол-во золота (1-4)"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"			"Урон:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"		"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"		"Регенерация маны:"
 
 
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1"		"Helm of God"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_description"		"<h1>Активная: Helm of Universe  </h1> При активации на 60 сек увеличит ваш урон, здоровье и броню на %mult_active%% \n  <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле - (Ваш основной атрибут * %mult%)"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_armor"			"Броня:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_str"			"Сила:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_int"			"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_hp"			"Здоровье:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_mana"			"Мана:"
+
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2"		"Helm of Anubis"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_description"		"<h1>Активная: Helm of Universe  </h1> При активации на 60 сек увеличит ваш урон, здоровье и броню на %mult_active%% \n  <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле - (Ваш основной атрибут * %mult%)"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_armor"			"Броня:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_str"			"Сила:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_int"			"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_hp"			"Здоровье:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_mana"			"Мана:"
+
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3"		"Helm of Universe"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_description"		"<h1>Активная: Helm of Universe  </h1> При активации на 60 сек увеличит ваш урон и здоровье на %mult_active%% \n  <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле - (Ваш основной атрибут * %mult%) \n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_armor"			"Броня:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_str"			"Сила:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_int"			"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_hp"			"Здоровье:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_mana"			"Мана:"
+
+        "DOTA_Tooltip_modifier_gu_helm_of_universe_active"				"Helm of Universe"
+
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_3_r"				"Рецепт Helm of Universe"
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_3_r_Description"		"Осколок артефакта, позволяющий собрать Helm of Universe.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_2_r"				"Рецепт Helm of Anubis"
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_2_r_Description"		"Осколок артефакта, позволяющий собрать Helm of Anubis.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_1_r"				"Рецепт Helm of God"
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_1_r_Description"		"Осколок артефакта, позволяющий собрать Helm of God.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+		"pray_name"		"Вселенская Молитва"
+		"pray_start"		"Помолиться"
+
+		"hero_category_1"	"Вселенная"
+		"hero_category_2"	"Аниме"
+		"hero_category_3"	"Бронетехника"
 
 
 
