@@ -217,15 +217,15 @@
 		"DOTA_Tooltip_ability_hell_field"																			"Поле Боя"
 		"DOTA_Tooltip_ability_hell_field_Description"																	"Призывает души павших в бою воинов, которые пытаются утянуть за собой как можно больше врагов."
 		"DOTA_Tooltip_ability_hell_field_base_damage"																		"Урон:"
-		"DOTA_Tooltip_ability_hell_field_bonus_regen"																		"+к регенерации здоровья"
+		"DOTA_Tooltip_ability_hell_field_bonus_regen"																		"Регенерация здоровья:"
 	
 	
 	
-	"npc_dota_hero_elder_titan"									"Earth Mage"
+	"npc_dota_hero_elder_titan"									"Morax"
 		
 		
 
-		"DOTA_Tooltip_ability_reus_gaias_fury"											"Каменный Удар"
+		"DOTA_Tooltip_ability_reus_gaias_fury"											"Кристальная судьба"
 		"DOTA_Tooltip_ability_reus_gaias_fury_description"									"Заряжает свой удар силой земли, нанося огромный урон по площади. Урон расчитывается по формуле сила * множитель. Перезарядку способности нельзя уменьшить, способность автоприменяемая.<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
 		"DOTA_Tooltip_ability_reus_gaias_fury_radius"											"Радиус: "
 		"DOTA_Tooltip_ability_reus_gaias_fury_duration"											"Длительность: "
@@ -238,7 +238,7 @@
 		"DOTA_Tooltip_modifier_gaias_fury"														"Каменный Удар"
 		"DOTA_Tooltip_modifier_gaias_fury_description"											"Заряжен"
 			
-		"DOTA_Tooltip_ability_reus_magnitude"                                           "Раскол Породы"
+		"DOTA_Tooltip_ability_reus_magnitude"                                           "Господство земли"
 		"DOTA_Tooltip_ability_reus_magnitude_Description"									"После задержки в 10 секунд раскалывает почву под собой, замедляя врагов. Урон высчитывается по формуле базовый урон * сила.<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
 		"DOTA_Tooltip_ability_reus_magnitude_radius"											 "Радиус: "
 		"DOTA_Tooltip_ability_reus_magnitude_quake_interval"									 "Интервал раскола: "
@@ -250,12 +250,12 @@
  		"DOTA_Tooltip_modifier_magnitude_slow_ally"												 "Замедление"
 
 
-		"DOTA_Tooltip_ability_reus_stoneblast"                                          "Бросок Камня"
+		"DOTA_Tooltip_ability_reus_stoneblast"                                          "Власть над камнем"
 		"DOTA_Tooltip_ability_reus_stoneblast_Description"									"Маг Земли бросает в указанную точку булыжник, оглушающий всех на своём пути<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
 		"DOTA_Tooltip_ability_reus_stoneblast_stun"												 "Оглушение: "
 		"DOTA_Tooltip_ability_reus_stoneblast_damage"											 "Урон: "
 			
-		"DOTA_Tooltip_ability_earch_mag_ylti"                                          	"Маг Земли"
+		"DOTA_Tooltip_ability_earch_mag_ylti"                                          	"Каменная воля"
 		"DOTA_Tooltip_ability_earch_mag_ylti_Description"                              	"Увеличивает базовый(белый урон) в зависимости от вашей силы, также увеличивает сопротивление эффектам до 100%."
 		"DOTA_Tooltip_ability_earch_mag_ylti_bonus_str"                              	"Бонусная Сила:"
 		"DOTA_Tooltip_ability_earch_mag_ylti_str_multi"                              	"Множитель Силы:"
@@ -264,7 +264,7 @@
 		"DOTA_Tooltip_modifier_earch_mag_ylti_Description" 											"Бонусный урон - %dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% "
 
 			///Способность для Разблокировки Героя Маг Земли///
-		"DOTA_Tooltip_ability_reus_stoneblast_unlock"                                   "Бросок Камня"
+		"DOTA_Tooltip_ability_reus_stoneblast_unlock"                                   "Власть над камнем"
 		"DOTA_Tooltip_ability_reus_stoneblast_unlock_Description"                       	"Бросает в указанную точку булыжник, оглушающий всех на своём пути<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>""
 		"DOTA_Tooltip_ability_reus_stoneblast_unlock_stun"                             			 "Оглушение: "
 		"DOTA_Tooltip_ability_reus_stoneblast_unlock_damage"                           			 "Урон: "	
@@ -5205,7 +5205,7 @@
 	"npc_dota_hero_brewmaster_hype" "Герой Украины, Ветеран Ато, Боевой Офицер который прошёл войну и готов защитить свой дом от напасти злодеев."
 	"npc_dota_hero_terrorblade_hype" "Влад пропитанный болью и унижением персонаж который многие годы копил всю свою ненависть к миру в себе, но времена меняются кто-то остается прежним но Влад уже не тот кем был раньше... Ощути же его силу!"
 	"npc_dota_hero_sniper_hype" "После неудачной ошибки в коде всем известный Снайпер стал Ынайпером и преобрёл новую силу разрушения вселенной."
-	"npc_dota_hero_elder_titan_hype" "Когда то 4 народа жили в мире пока народ Магов Земли не развязал войну..."
+	"npc_dota_hero_elder_titan_hype" "Историю можно записать, но также ее можно изменить. Время — могучая сила, в потоках которой история искажается..."
 	"npc_dota_hero_dark_willow_hype" "Мегумин - очень сильная волшебница взрывной магии, способная сокрушить любого врага. Обладает огромной любовью к использованию своей магии, поэтому её не пришлось долго уговаривать, чтобы вступить в армию Андромеды."
 	"npc_dota_hero_axe_hype" "Даркнесс — высокая, красивая молодая девушка со светлыми волосами и голубыми глазами, как и у большинства дворян. Её волосы завязаны в конский хвост, а по бокам спереди свисают две пряди, которые обмотаны красными резинками."
 	"npc_dota_hero_pudge_hype" "Оглушениедартный пудж потому что какая кастомка может быть без пуджа?."
@@ -5347,31 +5347,31 @@
 		"dota_tooltip_ability_item_custom_universe_rune_lvlup_description" "Даёт вам 100 опыта, за каждое поднятие данной руны получаемый опыт будет расти на 50."
 
         "dota_tooltip_ability_item_custom_universe_rune_arcane" "Вселенская Руна: Частица Архимага"
-		"dota_tooltip_ability_item_custom_universe_rune_arcane_description" "Снижает время восстановления способностей на 30% и затраты маны на 40%"
+		"dota_tooltip_ability_item_custom_universe_rune_arcane_description" "Снижает время восстановления способностей на 50%,затраты маны на 80% также увеличивает урон от заклинаний на 300%"
 
 		"dota_tooltip_ability_item_custom_universe_rune_bounty" "Вселенская Руна: Богатство"
 		"dota_tooltip_ability_item_custom_universe_rune_bounty_description" "Дает 10*уровень волны золота."
 
-		"dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" "базовый урон увеличен в 2 раза. \nОсновной атрибут увеличен на 20%."
+		"dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" "Базовый урон увеличен в 10 раза. \nОсновной атрибут увеличен на 20%."
 		"dota_tooltip_ability_item_custom_universe_rune_doubledamage" "Вселенская Руна: Двойной Урон"
 
 		"dota_tooltip_ability_item_custom_universe_rune_ember" "Вселенская Руна: Огненная Душа"
 		"dota_tooltip_ability_item_custom_universe_rune_ember_description" "Накладывает эффект горения, наносящий Урон противникам вокруг вас. Ваши атаки поджигают цель."
 
-		"dota_tooltip_ability_item_custom_universe_rune_frost" "Вселенская Руна: Ледяная Частица"
-		"dota_tooltip_ability_item_custom_universe_rune_frost_description" "Ваши атаки замедляют противников. \nА также замедляет врагов, атакующих вас."
+		"dota_tooltip_ability_item_custom_universe_rune_frost" "Вселенская Руна: Карающий Взор"
+		"dota_tooltip_ability_item_custom_universe_rune_frost_description" "Ваши атаки замедляют противников. \nА также замедляет врагов, атакующих вас, с шаном в 30% атакующий юнит будет застанен на 3 секунды и будет получать на 100% больше физического урона."
 
 		"dota_tooltip_ability_item_custom_universe_rune_haste" "Вселенская Руна: Кошмарная тень"
-		"dota_tooltip_ability_item_custom_universe_rune_haste_description" "Скорость атаки увеличена на 80. \nСкорость передвижения увеличена на 60%.\nУбирает лимит скорости передвижения."
+		"dota_tooltip_ability_item_custom_universe_rune_haste_description" "Скорость атаки увеличена на 500. \nСкорость передвижения увеличена на 250%.\nУбирает лимит скорости передвижения."
 
 		"dota_tooltip_ability_item_custom_universe_rune_illusion" "Вселенская Руна: Иллюзии"
-		"dota_tooltip_ability_item_custom_universe_rune_illusion_description" "С шансом в 50% вы можете избежать любого Урона."
+		"dota_tooltip_ability_item_custom_universe_rune_illusion_description" "С шансом в 90% вы можете избежать любого Урона."
 
 		"dota_tooltip_ability_item_custom_universe_rune_invis" "Вселенская Руна: Невидимость"
-		"dota_tooltip_ability_item_custom_universe_rune_invis_description" "Вы становитесь невидимым на 45 секунд. Невидимость исчезает в случае атаки, применения способностей или предметов."
+		"dota_tooltip_ability_item_custom_universe_rune_invis_description" "Вы становитесь невидимым на 45 секунд. Невидимость исчезает в случае атаки, применения способностей или предметов, при ударе из невидимости вы нанесёте 5000% крита."
 
 		"dota_tooltip_ability_item_custom_universe_rune_regen" "Вселенская Руна: Регенерация"
-		"dota_tooltip_ability_item_custom_universe_rune_regen_description" "Постоянно восстанавливает здоровье и ману на 50 + 5%/20 + 2% (соответственно).\nЭффект исчезнет, если бы потеряете все заряды."
+		"dota_tooltip_ability_item_custom_universe_rune_regen_description" "Постоянно восстанавливает здоровье и ману на 50 + 10%/20 + 20% (соответственно).\nЭффект исчезнет, если бы потеряете все заряды."
 
 		"dota_tooltip_ability_item_custom_universe_rune_stone"					"Вселенская Руна: Окаменелость"
 		"dota_tooltip_ability_item_custom_universe_rune_stone_description"		"После 7 попаданий превращает цель в камень, делая ее неуязвимой к магии и оглушая на 1 секунду"
@@ -5382,7 +5382,7 @@
 		"dota_tooltip_modifier_custom_universe_ember_rune_description"			"Атакующий вас враг будет получать Урон огнём, а также будет промахиваться."
 		
 		"dota_tooltip_modifier_custom_universe_double_damage_rune" "Вселенская Руна: Двойной Урон"
-		"dota_tooltip_modifier_custom_universe_double_damage_rune_description" "базовый урон увеличен на 50%, основной атрибут увеличен на 20%."
+		"dota_tooltip_modifier_custom_universe_double_damage_rune_description" "базовый урон увеличен на 1000%, основной атрибут увеличен на 100%."
 
 		"dota_tooltip_modifier_custom_universe_arcane_rune" "Вселенская Руна: Частица Архимага"
 		"dota_tooltip_modifier_custom_universe_arcane_rune_aura" "Вселенская Руна: Частица Архимага"
@@ -5405,7 +5405,7 @@
 		"dota_tooltip_modifier_custom_universe_illusion_rune_description" "Повышает шанс уклонения на 50%."
 
 		"dota_tooltip_modifier_custom_universe_invisibility_rune" "Вселенская Руна: Невидимость"
-		"dota_tooltip_modifier_custom_universe_invisibility_rune_description" "Невидим. Скорость передвижения увеличена на +20%%. Атака прервет невидимость и нанесет дополнительно 200%% Урона."
+		"dota_tooltip_modifier_custom_universe_invisibility_rune_description" "Невидим. Скорость передвижения увеличена на +20%%. Атака прервет невидимость и нанесет дополнительно 5000%% Урона."
 		"dota_tooltip_modifier_custom_universe_invisibility_rune_handler" "задержка"
 
 		"dota_tooltip_modifier_custom_universe_regen_rune" "Вселенская Руна: Регенерация"
@@ -5444,15 +5444,14 @@
 
 					/// Э Ф Ф Е К Т Ы  П О Г О Д Ы ///
 
-		"sunny_des"			"Лучи солнца при попадании по герою дают дополнительную дальность обзора." 
+		"sunny_des"			"Увеличивает дальность обзора всех игроков на 1500." 
 		"rain_des"			"Уменьшение радиуса видимости до уровня ночи."  
-		"storm_des"			"Попадание молнией по герою во время грозы оглушает на 5 секунд." 
-		"snow_des"			"Никак не влияет" 
-		"blizzard_des"		"Попадание ледяным взрывом по герою во время бури обездвиживает его на 5 секунд" 
+		"storm_des"			"Попадание молнией по герою во время грозы оглушает на 5 секунд а также наносит 5% урона от вашего здоровья." 
+		"snow_des"			"Попадание снежным вихрем нанесёт 3% урона а также зарутит на 3 секунды." 
+		"blizzard_des"		"Попадание ледяным взрывом по герою во время бури обездвиживает его на 5 секунд а также наносит 7% урона от вашего здоровья." 
 		"swamp_des"			"Попадание в болото очень сильно замедляет вас и уменьшает броню" 
-		"sandstorm_des"		"Снижает вашу видимость до минимальной, а также создаёт по карте песчаные бури, которые замедляют вас и увеличивают шанс промаха." 
-		"spacerift_des"		"Создаёт временные разломы. Попадание в разлом приносит 500 опыта." 
-		"bloodrain_des"		"Прохождение героя через лужу крови ненадолго увеличивает его скорость атаки." 
+		"sandstorm_des"		"Снижает вашу видимость до минимальной, а также создаёт песчаные бури, которые замедляют вас и увеличивают шанс промаха." 
+		"spacerift_des"		"Создаёт временные разломы. Попадание в разлом приносит 500 опыта а также востановит 10% здоровья." 
 
 
 		"DOTA_Tooltip_modifier_weather_blizzard_debuff"					"Буря" 
@@ -5757,36 +5756,6 @@
 		<br>
 		<font color='#ba1a14'>Для открытия панели набора адреса врат Атлантиды(Pegasus) нажмите сюда с зажатым шифтом"
 
-
-
-
-		/// З А Д А Н И Я  И  Б О С С Ы ///
-
-	"task_random_item"			"Найдите предмет в случайной точке на карте за 2 минуты. Область, где находится предмет, подсвечена на карте красным кругом."
-	"task_name_item"			"Поиск предмета"
-	"task_random_address"		"Для всех игроков сгенерирован рандомный адресс Звёздных Врат, кто первый его наберёт тот и получит награду. При активации врат игрок будет телепортированы на случайные вражеские врата."
-	"task_name_address"			"Случайный Адрес"
-	"task_random_mi24"			"Вам нужно в течении 5 минут защищать ваш союзный вертолёт MI-24V Hind который появился в правом нижнем углу карты, если его уничтожат то задание будет провалено. При успешном сопровождении вертолёта вся ваша команда выполнит квест 'Сопровождение' и для всех игроков станет доступна техника для пика."
-	"task_name_mi24"			"Сопровождение Конвоя"
-
-	"task_name_catch"			"Захват Цели"
-    "task_random_catch"         "Вам нужно в течении 4 минут найти и поймать Петуха который рандомно заспавнился на територии игровой области карты. За поимку данного Петуха(Удалён) вам будет предложено на выбор Случайная Способность(Активная либо Пассивная)"
-
-
-
-		"DOTA_Tooltip_modifier_kill_vert"						"Время Жизни" ///Для задания сопровождения///
-
-		"task_name_winitem"			"Поиск предмета<br>
-		<font color='#03fc17'>-----ВЫПОЛНЕНО-----</font>"
-
-		"task_name_winaddress"		"Рандомный Адрес<br>
-		<font color='#03fc17'>-----ВЫПОЛНЕНО-----</font>"
-
-		"task_name_boss" "Убийство Босса"
-
-		"task_name_global" "Случайное задание"
-
-
 // Н А Г Р А Д Ы //
 
 	"re_desc_rewards_1"				"Золото:"
@@ -5820,10 +5789,6 @@
 
 	"info_player_open"		"Открыть"
 	"info_player_closed"	"Свернуть"
-	"cu_task_win"			"Задание Выполнено!"
-	"cu_p_1"				"Игрок"
-	"cu_yes"				"Выполнил задание, за что получил:"
-	"cu_yes_all"			"Все игроки выполнили задание и получили:"
 
 
 
@@ -6083,6 +6048,10 @@
 		"DOTA_Tooltip_ability_item_gold_Description"	"Даёт игровое золото."
 		"DOTA_Tooltip_ability_item_xp"					"Опыт"
 		"DOTA_Tooltip_ability_item_xp_Description"		"Даёт опыт."
+		"DOTA_Tooltip_ability_item_dark_point"					"Gu-Coins"
+		"DOTA_Tooltip_ability_item_dark_point_Description"		"Даёт GU-Coins."
+		"DOTA_Tooltip_ability_item_primogem"					"Переплетающиеся Судьбы"
+		"DOTA_Tooltip_ability_item_primogem_Description"		"Вы получите 1 прокрутку для стандартного банера _История Андромеды_"
 
 
 		/// З А Г Р У З К А ... ///
@@ -6401,81 +6370,6 @@
             -Один уровень расы - 1000 ММР.<br><br>
             -Расовый ММР - глобальный. То есть, на повышение ранга расы влияют все игроки."
 
-
-
-		"sound_sound_1" "New Horizons"
-		"sound_sound_2" "Liberators"
-		"sound_sound_3" "Glory"
-		"sound_sound_4" "United Throught The Fire"
-		"sound_sound_5" "Collapsing Universe"
-		"sound_sound_6" "Children Of Time"
-		"sound_sound_7" "Lux Imperia"
-		"sound_sound_8" "Meraki"
-		"sound_sound_9" "Starchild"
-		"sound_sound_10" "Basileus"
-		"sound_sound_11" "None Shall Live"
-		"sound_sound_12" "For The Win"
-		"sound_sound_13" "Flight of the Silverbird"
-		"sound_sound_14" "Celestial Motion"
-		"sound_sound_15" "Falling Stars"
-		"sound_sound_16" "Rise of Storm"
-		"sound_sound_17" "Rise of the Immortals"
-		"sound_sound_18" "Ride to Glory "
-		"sound_sound_19" "Army Of Kings"
-		"sound_sound_20" "ニヒル神楽【幽閉サテライト】"
-		"sound_sound_21" "紅薔薇へ捧げる小夜曲"
-		"sound_sound_22" "夜明けの紅い月"
-		"sound_sound_23" "ニヒル神楽"
-		"sound_sound_24" "Darling in the Franxx op"
-		"sound_sound_25" "Skyrim - Theme"
-		"sound_sound_26" "オリジナルサウンドトラック"
-		"sound_sound_27" "ナルサウンドト"
-		"sound_sound_28" "ックリジウ"
-		"sound_sound_29" "オリジンド"
-		"sound_sound_30" "ジナル"
-		"sound_sound_31" "トラッ"
-		"sound_sound_32" "ジナルサ"
-		"sound_sound_33" "ウンドトラック"
-		"sound_sound_34" "オリジナル"
-		"sound_sound_35" "クトラッ"
-		"sound_sound_36" "ナルドトラッ"
-		"sound_sound_37" "リジドトラッ"
-		"sound_sound_38" "Modern Warfare 2"
-		"sound_sound_39" "Kill Ghoust"
-		"sound_sound_40" "Code of Conduct"
-		"sound_sound_41" "D.C Burning"
-		"sound_sound_42" "Whitehouse Battle"
-		"sound_sound_43" "Estate Betrayal"
-		"sound_sound_44" "Bridge Battle"
-		"sound_sound_45" "COD MW3 - Main Theme"
-		"sound_sound_46" "Warlords"
-		"sound_sound_47" "Arabian End Game"
-		"sound_sound_48" "COD MW3 - End Game"
-		"sound_sound_49" "BC2 - Main Theme"
-		"sound_sound_50" "Warsaw Theme"
-		"sound_sound_51" "Something Big Is Coming"
-		"sound_sound_52" "Battlefield 1"
-		"sound_sound_53" "Prologue We Push"
-		"sound_sound_54" "Short Hair - Mulan"
-		"sound_sound_55" "捧げ薔薇"
-		"sound_sound_56" "夜明けル神"
-		"sound_lose_boss" "Naomi Scott - Speechless"
-		"sound_boss1" "See What Ive Become"
-		"sound_boss2" "Tomorrow Never Comes"
-		"sound_boss3" "Nobility"
-		"sound_boss4" "Watch It Burn"
-		"sound_boss5" "Dark Star"
-		"sound_boss6" "Solar"
-		"sound_boss7" ""
-
-		"sound_sound_prolog_1" "Takeover"
-		"sound_sound_prolog_2" "Settling"
-		"sound_sound_prolog_3" "End Run"
-		"sound_sound_prolog_4" "The Crevasse"
-		"sound_sound_prolog_5" "Skimming a Gas Giant"
-		"sound_sound_prolog_6" "A Father's Sacrifice"
-		"sound_sound_prolog_7" "Arrival on Destiny"
-
 		"boss_round_kd" "Боссы станут доступны после прохождения 6 волны!"
 
 
@@ -6726,7 +6620,7 @@
 		"andromeda_end_game_repli_8" "Начинаю набор!"
 		"andromeda_end_game_repli_9" "И так, начнём! Мы на планете «Риз» - родина Репликаторов. Наша задача собрать нужное кол-во частей Наквадаха, для этого убивайте всех репликаторов которых найдёте!"
 		"andromeda_end_game_repli_10" "Я останусь здесь и буду охранять зону высадки!"
-		"andromeda_end_game_repli_11" "Отличная работа вы собрали все 100 фрагментов, теперь уничтожьте врата «Орлина» для того чтобы Репликаторы больше не могли нападать!"
+		"andromeda_end_game_repli_11" "Отличная работа вы собрали все фрагменты, теперь уничтожьте врата «Орлина» для того чтобы Репликаторы больше не могли нападать!"
 		"andromeda_end_game_repli_12" "Для того чтобы уничтожить врата найдите все Энергетические Кристаллы и уничтожьте их! "
 		"andromeda_end_game_repli_13" "Будьте внимательны если Репликаторы узнают что вы хотите уничтожить их врата, они попытаются вам помешать!"
 		"andromeda_end_game_repli_14" "Отличная работа! Вы нашли и уничтожили все кристаллы, теперь вы можете раз и навсегда уничтожить их Врата!"
@@ -6773,7 +6667,7 @@
 		"end_game_qvest_1_text_des"	"Проследуйте на планету «Риз» и следуйте указаниям Андромеды!"
 		"end_game_qvest_2" "Получено новое задание!<br> «Сбор Наквадаха»"
 		"end_game_qvest_2_text" "Задание: «Сбор Наквадаха»"
-		"end_game_qvest_2_text_des"	"Соберите 100 фрагментов Наквадаха убивая Репликаторов!"
+		"end_game_qvest_2_text_des"	"Соберите нужное кол-во фрагментов Наквадаха убивая Репликаторов!"
 		"end_game_qvest_3" "Получено новое задание!<br> «Энергетические Кристаллы»"
 		"end_game_qvest_3_text" "Задание: «Энергетические Кристаллы»"
 		"end_game_qvest_3_text_des"	"Уничтожте 13 Кристаллов для отключения источника питания Врат Орлина!"
@@ -7053,8 +6947,416 @@
 		"hero_category_3"	"Бронетехника"
 
 
+		"pray_button"		"Молитва"
+		"hero_const_0"		"<font color='#6ff542'>Конст - 0</font>"
+		"hero_const_1"		"<font color='#6ff542'>Конст - 0</font>"
+		"hero_const_2"		"<font color='#87f542'>Конст - I</font>"
+		"hero_const_3"		"<font color='#a4f542'>Конст - II</font>"
+		"hero_const_4"		"<font color='#bcf542'>Конст - III</font>"
+		"hero_const_5"		"<font color='#d7f542'>Конст - IV</font>"
+		"hero_const_6"		"<font color='#f2f542'>Конст - V</font>"
+		"hero_const_7"		"<font color='#f5d742'>Конст - VI</font>"
+		"hero_const_8"		"<font color='#f5ad42'>Конст - VII</font>"
+		"hero_const_9"		"<font color='#f58d42'>Конст - VIII</font>"
+		"hero_const_10"		"<font color='#f55d42'>Конст - IX</font>"
+		"hero_const_11"		"<font color='#f54242'>Конст - X</font>"
+		"hero_const_12"		"<font color='#f5424e'>Конст - XI</font>"
+		"hero_const_13"		"<font color='#f54266'>Конст - XII</font>"
+		"hero_const_14"		"<font color='#f54287'>Конст - XIII</font>"
+		"hero_const_15"		"<font color='#f542ad'>Конст - XIV</font>"
+		"hero_const_16"		"<font color='#f542ce'>Конст - XV</font>"
+		"hero_const_17"		"<font color='#ef42f5'>Конст - XVI</font>"
+		"hero_const_18"		"<font color='#bc42f5'>Конст - XVII</font>"
+		"hero_const_19"		"<font color='#9042f5'>Конст - XVIII</font>"
+		"hero_const_20"		"<font color='#6642f5'>Конст - XIX</font>"
+		"hero_const_21"		"<font color='#4248f5'>Конст - XX</font>"
+
+		"pray_info"	"Детали"
+		"pray_info_text_a"	"      Стандартная Молитва: История Андромеды"
+		"pray_info_text"	"Подробнее о Молитвах<br><br>
+
+<font color='#d63131ef'>Нет ограничения по времени</font><br><br>
+
+Жажда странствий – это стандартная Молитва. Она не ограничена по времени. В рамках Молитвы доступны не эксклюзивные персонажи и оружие.<br><br>
+За каждые 10 Молитв вы гарантированно получите как минимум одного персонажа 4★.<br><br>
+※ При обычных условиях базовая вероятность выпадения всех персонажей распределяется равномерно. Если действуют какие-либо усиления или гарантии, пожалуйста, прочтите соответствующие правила.<br><br>
+〓 Правила 〓<br>
+Базовая вероятность получения героя 5★ = 1,600%. Гарантированное получение героя 5★ как минимум один раз за 90 попыток.<br><br>
+Базовая вероятность получения героя 4★ = 13,100%. Гарантированное получение героя 4★ как минимум один раз за 10 попыток.<br><br>
+Базовая вероятность получения героя 3★ = 85,300%.<br><br>
+
+<font color='#c2133f'>Важно!</font><br>
+Если при опросе вы указали негативное отношение к аниме тематике, то вам не будут выпадать персонажи данной категории!<br>
+
+<br>〓 Дубликаты 〓<br><br>
+Если у вас есть повторяющиеся персонажи (открытые в игре, купленные в магазине или выигранные в Молитве), то начиная с 2 по 20 вы будете прокачивать уникальные таланты каждому персонажу
+<br><br>〓 Список героев 〓<br><br>
+<font color='#c27913'>Герои 5★</font><br>
+-Kurumi Tokisaki<br>
+-Lich King<br>
+-Demon Hunter<br>
+-Warrior of the Wind<br>
+-Sniper<br>
+-Lina<br>
+-Chloe von Einzbern<br>
+-Hatsune Miku<br>
+-Andromeda<br>
+-Enterprise<br>
+-Origami Tobiichi<br>
+-Yagokoro Eirin<br>
+-Aqua<br>
+-Т-90М «Прорыв»<br><br>
+
+<font color='#8e13c2'>Герои 4★</font><br>
+-Legate of the Legion<br>
+-Ghost Warrior<br>
+-Earth Mage<br>
+-Interdimensional Parrot<br>
+-Lalatina Dustiness Ford<br>
+-Marisa Kirisame<br>
+-Neptune<br>
+-Kaname Madoka<br>
+-Kongou<br>
+-Noire<br>
+-Yumemi Okazaki<br>
+-Megumin<br>
+-AH-64D «Apache»<br>
+-MI-24V<br>
+-AH-1Z Super Cobra<br><br>
+
+<font color='#1368c2'>Герои 3★</font><br>
+-Rem<br>
+-Dawnbreaker<br>
+-Merlin<br>
+-Kotori Itsuka<br>
+-Izayoi Sakuya<br>
+-Kizaru<br>
+-Cirno<br>
+-9K31 «Strela-1»<br>
+-F-16 Fighting Falcon<br>
+-Т-72<br>
+-2С1 «Gvozdika»<br>
+-Иллия<br>
+-M270 MLRS<br>"
+ 
+		"custom_sound_pack_text"	"Если у вас есть уникальный ключ смены пакета музыки, введите его ниже."
+		"custom_sound_pack"			"Введите ключь..."
+		"new_player_text_a" 		"Добро пожаловать в Guardians of Universe"
+		"new_player_text" 			"Для продолжения заполните ниже приведённые пункты, обратите внимание что это повлияет на ваш игровой процесс, изменить данные пункты будет невозможно!"
+		"new_player_name" 			"Введите ваше имя."
+		"new_player_anime" 			"Укажите своё отношение к Аниме контенту (это повлияет на вашу дальнейшую игру!)"
+		"new_player_anime_false"    "При выборе данного варианта вы не сможете получить из Молитвы героев категории Аниме, из игровой музыки будет исключён аниме контент и многое другое."
+		"new_player_anime_true"    	"При выборе данного варианта вы сможете изучить весь контент проекта."
+
+		"setting_game" 		"Настройка игры"
+		"setting_game_text" 		"Лидеру лобби доступны настройки игры, обратите внимание что для полного погружения в игру все пункты должны остаться со значениями по умолчанию!"
+		"setting_prolog" 		"-_Пропустить пролог?_-"
+		"setting_prolog_text" 		"Вы сразу приступите к основной игре пропуская вступление, обратите внимание что в прологе можно получить стартовый уровень а также предметы, без них начать играть будет сложнее"
+		"setting_yes" 		"Да"
+		"setting_no" 		"Нет"
+		"setting_save" 		"Сохранить"
+		"setting_timer" 		"-_Время до начала волны_-"
+		"setting_timer_text" 		"Если выбрать 0 сек, то вы запустите хард режим где волны нападающих будут идти одна за другой моментально вплоть до бесконечности!"
+		"time_300" 		"300 сек"
+		"time_150" 		"150 сек"
+		"time_0" 		"0 сек"
+		"default" 		"Текущий набор: Стандартный"
+		"default_no_anime" 		"Текущий набор: Стандартный без аниме"
 
 
+
+		"custom_sound"    	"Кастомная подборка!"
+		"Kurumi_GU_talents_name"    	"Созвездия"
+
+		"DOTA_Tooltip_ability_gu_talents_ability"					"Возвышение"
+		"DOTA_Tooltip_ability_gu_talents_ability_description"		"Отображает степень возвышения вашего персонажа, при активации открывает таланты героя."
+
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity"							"Luminosity"
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_Lore"							"Валора ослабла без укрепляющего света Детей Сияния, но всё же способна подпитывать союзную мощь, создавая порядок из хаоса, присущего каждой битве."
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_Description"				"После %attack_count% атак герой преисполняется мощью, отчего его следующая атака наносит критический урон и излечивает всех союзных героев в радиусе %heal_radius% на %allied_healing_pct%%% от урона. Лечение от атаки по крипу или нейтральному существу будет слабее."
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_bonus_damage"				"%КРИТИЧЕСКИЙ УРОН:"
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_heal_pct"					"%ЛЕЧЕНИЕ ОТ АТАКИ ПО ГЕРОЮ:"
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_heal_from_creeps"			"%УМЕНЬШЕНИЕ ЛЕЧЕНИЯ ПРИ АТАКЕ ПО КРИПУ:"
+
+		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity"								"Luminosity"
+		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_Description"								"Готовит атаку с Luminosity"
+		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_attack_buff"					"Эффект атаки от Luminosity"
+		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_attack_buff_Description"					"Следующая атака нанесёт критический урон и излечит союзных героев"
+		
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker"								"Starbreaker"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Lore"								"Средь несчётных звёздных наследников многие не желали выполнять волю Детей Сияния. К тем, кто осмеливался противиться, Дети отправляли молотоносную Валору, дабы показать свою силу — и отступники либо терпели крах, либо возвращались на путь истинный."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Description"							"Герой 3 раза вращает молотом вокруг себя, нанося врагам увеличенный урон от своей атаки. С последним взмахом герой бьёт молотом по земле, оглушая врагов перед собой и нанося им урон."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note0"	 							"Под действием этой способности герой передвигается со скоростью %movement_speed%, а на восстановление после последнего взмаха ему требуется %self_stun_duration% сек."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note1"								"Под действием этой способности нельзя применять Celestial Hammer или Solar Guardian."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note2"								"На атаки этой способностью не действует прорубание."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note3"								"Можно применить на себя, чтобы передвигаться вперёд."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_duration"								"ДЛИТЕЛЬНОСТЬ:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_swipe_radius"							"РАДИУС ВЗМАХОВ:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_swipe_damage"							"ДОП. УРОН ОТ ВЗМАХОВ:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_damage"							"ДОП. УРОН ОТ УДАРА ПО ЗЕМЛЕ:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_radius"							"РАДИУС УДАРА ПО ЗЕМЛЕ:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_stun_duration"					"ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+
+		"DOTA_Tooltip_modifier_godseye_speed_bonus_t3"  "Броня Уменьшена"
+
+		"npc_dota_hero_skeleton_king_t2_name"		"Primal Cold"
+		"npc_dota_hero_skeleton_king_t3_name"		"Immortality"
+		"npc_dota_hero_skeleton_king_t4_name"		"FROSTMOURNE DRAIN"
+		"npc_dota_hero_skeleton_king_t5_name"		"COLD REAPER"
+		"npc_dota_hero_skeleton_king_t6_name"		"Winter's Curse"
+		"npc_dota_hero_skeleton_king_t2"		"Улучшает - Primal Cold<br><br> Длительность стана = 10 сек.<br> Радиус = 1000"
+		"npc_dota_hero_skeleton_king_t3"		"Улучшает - Immortality<br><br> С шансом в 17% может моментально перезарядить способности при активации."
+		"npc_dota_hero_skeleton_king_t4"		"Улучшает - FROSTMOURNE DRAIN<br><br> Востанавливает здоровье Личу в размере 100% от нанесённого урона."
+		"npc_dota_hero_skeleton_king_t5"		"Улучшает - COLD REAPER<br><br> Урон и радиус увеличен в 4 раза, длительность заморозки = 15 сек."
+		"npc_dota_hero_skeleton_king_t6"		"Улучшает - Winter's Curse<br><br> Больше не тратит энергию."
+
+		"npc_dota_hero_abaddon_t2_name"		"Доспех Абстракции"
+		"npc_dota_hero_abaddon_t3_name"		"Поле Хаоса"
+		"npc_dota_hero_abaddon_t4_name"		"Форма Призрака"
+		"npc_dota_hero_abaddon_t5_name"		"Поле хаоса v1.9 final"
+		"npc_dota_hero_abaddon_t6_name"		"Доспех Абстракции v1.9 final"
+		"npc_dota_hero_abaddon_t2"		"Улучшает - Доспех Абстракции<br><br> За каждый стак уменьшает броню атакующего на 5."
+		"npc_dota_hero_abaddon_t3"		"Улучшает - Поле Хаоса<br><br> Отключает регенерацию здоровья всем врагам в радиусе поля."
+		"npc_dota_hero_abaddon_t4"		"Улучшает - Форма Призрака<br><br> Убирает перезарядку"
+		"npc_dota_hero_abaddon_t5"		"Улучшает - Поле хаоса<br><br> Уменьшает броню врагам на 1000."
+		"npc_dota_hero_abaddon_t6"		"Улучшает - Доспех Абстракции<br><br> За каждый удар по вам враг будет получать по 3 стака пассивки."
+
+
+		"npc_dota_hero_legion_commander_t2_name"		"-_Поле боя_-"
+		"npc_dota_hero_legion_commander_t3_name"		"-_Воодушевление_-"
+		"npc_dota_hero_legion_commander_t4_name"		"-_Воодушевление v 1.1_-"
+		"npc_dota_hero_legion_commander_t5_name"		"-_Поле боя v2.0 final_-"
+		"npc_dota_hero_legion_commander_t6_name"		"-_Воодушевление v2.0 final_-"
+		"npc_dota_hero_legion_commander_t2"		"Улучшает - Поле Боя!<br><br> Теперь души павших воинов следуют за игроком."
+		"npc_dota_hero_legion_commander_t3"		"Улучшает - Воодушевление<br><br> Уменьшает перезарядку способности до 30 секунд."
+		"npc_dota_hero_legion_commander_t4"		"Улучшает - Воодушевление <br><br> Увеличивает шанс получения стака до 95%"
+		"npc_dota_hero_legion_commander_t5"		"Улучшает - Поле боя <br><br> Увеличивает длительность в 3 раза."
+		"npc_dota_hero_legion_commander_t6"		"Улучшает - Воодушевление <br><br> Теперь срабатывает на любых вражеских юнитов."
+
+		"npc_dota_hero_elder_titan_t2_name"		"-_Каменное Господство_-"
+		"npc_dota_hero_elder_titan_t3_name"		"-_Слабое Место_-"
+		"npc_dota_hero_elder_titan_t4_name"		"-_Долговечность_-"
+		"npc_dota_hero_elder_titan_t5_name"		"-_Господство земли_-"
+		"npc_dota_hero_elder_titan_t6_name"		"-_Кристальная Судьба_-"
+		"npc_dota_hero_elder_titan_t2"		"Улучшает - первую способность! <br><br>Моракс долго изучал технику бросания булыжников во врагов, и теперь умеет наносить дополнительный урон в размере Х3 от своей атаки!"
+		"npc_dota_hero_elder_titan_t3"		"Улучшает - вторую способность! <br><br>После некоторых изучений Моракс пришёл к тому что он может выводить из строя противников на 0.3 секунды за каждый удар породы."
+		"npc_dota_hero_elder_titan_t4"		"Улучшает - третью способность! <br><br>Наносит дополнительный урон в размере максимального здоровья героя."
+		"npc_dota_hero_elder_titan_t5"		"Улучшает - вторую способность! <br><br>Убирает задержку активации."
+		"npc_dota_hero_elder_titan_t6"		"Улучшает - третью способность! <br><br>Уменьшает перезарядку до 0.5 сек."
+
+
+
+
+
+
+
+		"t1_name" 	"-_RISE OF A HERO_-"
+		"t1_1" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 500<br>
+		Бонус к броне: 20<br>
+		Бонус к урону: 40<br>
+		Бонус к скорости бега: 50<br>
+		Бонус к востановлению маны: 150"
+
+		"t1_2" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 500<br>
+		Бонус к броне: 20<br>
+		Бонус к урону: 40<br>
+		Бонус к скорости бега: 50<br>
+		Бонус к востановлению маны: 150"
+
+		"t1_3" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 100<br>
+		Бонус к броне: 30<br>
+		Бонус к урону: 80<br>
+		Бонус к скорости бега: 75<br>
+		Бонус к востановлению маны: 175"
+
+		"t1_4" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 1500<br>
+		Бонус к броне: 40<br>
+		Бонус к урону: 120<br>
+		Бонус к скорости бега: 100<br>
+		Бонус к востановлению маны: 200"
+
+		"t1_5" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 2000<br>
+		Бонус к броне: 50<br>
+		Бонус к урону: 200<br>
+		Бонус к скорости бега: 125<br>
+		Бонус к востановлению маны: 225"
+
+		"t1_6" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 2500<br>
+		Бонус к броне: 60<br>
+		Бонус к урону: 300<br>
+		Бонус к скорости бега: 150<br>
+		Бонус к востановлению маны: 250"
+
+		"t1_7" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 3000<br>
+		Бонус к броне: 70<br>
+		Бонус к урону: 400<br>
+		Бонус к скорости бега: 175<br>
+		Бонус к востановлению маны: 275"
+
+		"t1_8" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 3500<br>
+		Бонус к броне: 80<br>
+		Бонус к урону: 500<br>
+		Бонус к скорости бега: 200<br>
+		Бонус к востановлению маны: 300"
+
+		"t1_9" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 4000<br>
+		Бонус к броне: 90<br>
+		Бонус к урону: 600<br>
+		Бонус к скорости бега: 225<br>
+		Бонус к востановлению маны: 325"
+
+		"t1_10" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 4500<br>
+		Бонус к броне: 100<br>
+		Бонус к урону: 700<br>
+		Бонус к скорости бега: 250<br>
+		Бонус к востановлению маны: 350"
+
+		"t1_11" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 5000<br>
+		Бонус к броне: 110<br>
+		Бонус к урону: 800<br>
+		Бонус к скорости бега: 275<br>
+		Бонус к востановлению маны: 375"
+
+		"t1_12" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 5500<br>
+		Бонус к броне: 120<br>
+		Бонус к урону: 900<br>
+		Бонус к скорости бега: 300<br>
+		Бонус к востановлению маны: 400"
+
+		"t1_13" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 6000<br>
+		Бонус к броне: 130<br>
+		Бонус к урону: 1000<br>
+		Бонус к скорости бега: 325<br>
+		Бонус к востановлению маны: 425"
+
+		"t1_14" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 6500<br>
+		Бонус к броне: 140<br>
+		Бонус к урону: 1100<br>
+		Бонус к скорости бега: 350<br>
+		Бонус к востановлению маны: 450"
+
+		"t1_15" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 7000<br>
+		Бонус к броне: 150<br>
+		Бонус к урону: 1200<br>
+		Бонус к скорости бега: 375<br>
+		Бонус к востановлению маны: 475"
+
+		"t1_16" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 7500<br>
+		Бонус к броне: 160<br>
+		Бонус к урону: 1300<br>
+		Бонус к скорости бега: 400<br>
+		Бонус к востановлению маны: 500"
+
+		"t1_17" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 8000<br>
+		Бонус к броне: 170<br>
+		Бонус к урону: 1400<br>
+		Бонус к скорости бега: 425<br>
+		Бонус к востановлению маны: 600"
+
+		"t1_18" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 8500<br>
+		Бонус к броне: 180<br>
+		Бонус к урону: 1500<br>
+		Бонус к скорости бега: 450<br>
+		Бонус к востановлению маны: 700"
+
+		"t1_19" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 9000<br>
+		Бонус к броне: 190<br>
+		Бонус к урону: 1600<br>
+		Бонус к скорости бега: 475<br>
+		Бонус к востановлению маны: 800"
+
+		"t1_20" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 9500<br>
+		Бонус к броне: 250<br>
+		Бонус к урону: 1700<br>
+		Бонус к скорости бега: 500<br>
+		Бонус к востановлению маны: 900"
+
+		"t1_21" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
+		Бонус к здоровью: 10000<br>
+		Бонус к броне: 250<br>
+		Бонус к урону: 1800<br>
+		Бонус к скорости бега: 600<br> 
+		Бонус к востановлению маны: 1000"
+
+
+	"task_random_item"			"Найдите предмет в случайной точке на карте за 2 минуты. Область, где находится предмет, подсвечена на карте красным кругом."
+	"task_name_item"			"Поиск предмета"
+	"task_random_mi24"			"Вам нужно в течении 5 минут защищать ваш союзный вертолёт MI-24V Hind который появился в правом нижнем углу карты, если его уничтожат то задание будет провалено. При успешном сопровождении вертолёта вся ваша команда выполнит квест 'Сопровождение' и для всех игроков станет доступна техника для пика."
+	"task_name_mi24"			"Сопровождение Конвоя"
+
+	
+
+	"task_random_address"		"Для вас сгенерирован случайный адресс для системы врат  Milky Way либо Pegasus, наберите его на устройстве набора за отведённое время и получите награду!"
+	"task_name_address"			"Случайный Адрес"
+	
+	"task_random_address_symbols"		"Символы:"
+	"task_random_timer"		"Таймер: "
+	"qvest_failed"		"Статус: <font color='#ab2b2b'>Провалено</font>"
+	"rewards_text"		"Получено:"
+	"rewards_des"		"Нажмите на пустое место чтобы продолжить"
+	"gold"				"Золото"
+	"xp"				"Опыт"
+	"energy"			"Энергия"
+	"mmr"				"Рейтинг"
+	"gu_coins"				"Gu-coins"
+	"pray_coin"				"Молитвы"
+
+		"gu_ActivatedRune" "{player_name} подобрал руну {rune_name}"
+		"item_custom_universe_rune_lvlup" "Прозрение"
+        "item_custom_universe_rune_arcane" "Частица Архимага"
+		"item_custom_universe_rune_bounty" "Богатство"
+		"item_custom_universe_rune_doubledamage" "Божественная Сила"
+		"item_custom_universe_rune_ember" "Огненная Душа"
+		"item_custom_universe_rune_frost" "Карающий Взор"
+		"item_custom_universe_rune_haste" "Кошмарная тень"
+		"item_custom_universe_rune_illusion" "Силовое Поле"
+		"item_custom_universe_rune_invis" "Подпространство"
+		"item_custom_universe_rune_regen" "Регенерация"
+		"item_custom_universe_rune_regen" "Регенерация"
+		"item_custom_universe_rune_energy" "МНТ"
+
+		"gu_BossKill"	"{player_name} убил босса {boss_name}"
+
+		"gu_weather_1"	"Клятвы, данные в бурю, забываются в тихую погоду. {weather}"
+		"gu_weather_2"	"Ничто так не портит прогнозы, как погода. {weather}"
+		"gu_weather_3"	"Все ругают погоду, но никто с ней не борется. {weather}"
+		"gu_weather_4"	"Пусть предсказывает погоду тот, кто ее делает. {weather}"
+		"gu_weather_5"	"Холод - только для погоды. Не впускайте его в свою душу. {weather}"
+
+		"sunny_chat"				"Погода: <font color='#c7de1d'>Солнечно</font>" 
+		"rain_chat"				"Погода: <font color='#084a99'>Дождь</font>"  
+		"storm_chat"				"Погода: <font color='#a6caf5'>Гроза</font>" 
+		"snow_chat"				"Погода: <font color='#6ea8eb'>Снег</font>" 
+		"blizzard_chat"			"Погода: <font color='#506b8a'>Снежная Буря</font>" 
+		"swamp_chat"				"Погода: <font color='#74b84f'>Слякоть</font>" 
+		"sandstorm_chat"			"Погода: <font color='#dbb235'>Песчаная Буря</font>" 
+		"spacerift_chat"			"Погода: <font color='#d428c0'>Временной Разлом</font>" 
+		"rain_infinity_chat"			"Погода: <font color='#7a7a7a'>Пустота</font>" 
+
+		"gu_qvest"		"{player_name} Выполнил {qvest}"
+
+		"Milky_Way"		"Задание: Случайный адрес Млечный Путь"
+		"Pegasus"		"Задание: Случайный адрес Пегас"
 }
 
 
