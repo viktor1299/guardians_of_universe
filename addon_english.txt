@@ -4861,6 +4861,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "npc_dota_hero_mirana_race"             "Race - とうほう"
 "npc_dota_hero_void_spirit_race" "Race - とうほう"
 "npc_dota_hero_dawnbreaker_race"        "Race - Asgard"
+"npc_dota_hero_pudge_race"        		"Race - Meat Mage"
 
 "dota_tooltip_ability_damage_resist_angelic" "Angelic protection"
 "dota_tooltip_ability_damage_resist_angelic_description" "Reduces all incoming <font color='#00ff1e'>Angelic</font> type damage by a certain amount of %" 
@@ -5121,7 +5122,7 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "task_vote_boss_b_4" "Boss Singularity"
 "task_vote_boss_b_5" "Boss Earth Mage"
 "task_vote_boss_b_6" "Boss Overlord of the Universe"
-"task_vote_boss_b_7" "Boss ?????????"
+"task_vote_boss_b_7" "Boss Kurumi"
 
 
 "info_player_open" "Open"
@@ -5347,27 +5348,58 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "DOTA_Tooltip_modifier_item_magician_ring_buff" "Magical Ring"
 
 
-/// С Л У Ч А Й Н Ы Е  Б О С С Ы ///
-
-"npc_universal_boss_t72" "T-72"
-"npc_universal_boss_emiliya" "Emilia"
-"npc_universal_boss_a10" "F-16 Falcon"
-"npc_universal_boss_yumemi" "Yumemi Okazaki"
-"npc_universal_boss_clown" "Clown"
-"npc_universal_boss_sniper" "Sniper"
-"npc_universal_boss_viktor" "Kizaru"
-
-
 /// К Р У П Н Ы Е  Б О С С Ы ///
 
-"npc_universal_boss_dark_willow" "Fairy"
-"npc_universal_boss_aqua" "Goddess Aqua"
-"npc_universal_boss_ancient_voin" "Ancient Warrior"
-"npc_universal_boss_puck" "Singularity"
-"npc_universal_boss_magzemli" "Earth Mage"
-"npc_universal_boss_fura" "Overlord of the Universe"
-"npc_universal_boss_secret" "Kurumi"
+			"boss_1" "Kids love telling stories about wonderful adventures of fayries... Oh, if only they knew that most fayries - just cunning meanies!"
+			"boss_2" "Mobile fortress Destroyer has wandered world for several decades and has destroyed many cities."
+			"boss_3" "What others call will is the power within them. It is neither a thought, an item nor a wish. Will - is what makes me win, when my sanity tells me that I am defeated."
+			"boss_4" "Time machine is not needed to look back through millions of years : you just have to look up at stars. I am terrified by eternal silence of those spaces."
+			"boss_5" "All roads eventually lead to an end. There is no need to hurry. Past - ghost, future – dream, and everything that we have is present."
+			"boss_6" "Do you know that you are surrounded by eternity at this very moment? And do you know that you can spend it however you want?"
+			"boss_7" "Thirty years ago First Spirit has appeared on Earth and became a predecessor of other spirits. Мy goal - kill it. I want to see how God will this ridiculous futile attempt to change the world."
 
+			"boss_name_1" "Mireska Sunbreeze"
+			"boss_name_2" "Aqua"
+			"boss_name_3" "Ancient Warrior"
+			"boss_name_4" "Singularity"
+			"boss_name_5" "Earth Mage"
+			"boss_name_6" "Overlord of the Universe"
+			"boss_name_7" "Tokisaki Kurumi"
+
+			"npc_universal_boss_dark_willow"						"Mireska Sunbreeze"
+			"npc_universal_boss_dark_willow_text"					"Insidious Reptile"
+			"npc_universal_boss_dark_willow_text_1"					"Kids love telling stories about wonderful adventures of fairies... Oh, if only they knew that most fayries - just cunning meanies!"
+			"npc_universal_boss_dark_willow_text_1_2"				"And there are few in their cunning world, who are as infamous as I, Mireska Sunbreeze, am."
+
+			"npc_universal_boss_aqua"								"Aqua"
+			"npc_universal_boss_aqua_text"							"Axel's Best Healer"
+			"npc_universal_boss_aqua_text_1"						"Mobile fortress Destroyer has wandered world for several decades and has destroyed many cities."
+			"npc_universal_boss_aqua_text_1_2"						"But only I, Goddes Aqua, managed to destroy its magical barrier."
+
+			"npc_universal_boss_ancient_voin"						"Ancient Warrior"
+			"npc_universal_boss_ancient_voin_text"					"Forgotten Warrior Anquietas"
+			"npc_universal_boss_ancient_voin_text_1"				"What others call will is the power within them. It is not a thought, an item, a wish."
+			"npc_universal_boss_ancient_voin_text_1_2"				"Will - is what makes me win, when my sanity tells me that I am defeated."
+
+			"npc_universal_boss_puck"								"Singularity"
+			"npc_universal_boss_puck_text"							"The beginning of a new story"
+			"npc_universal_boss_puck_text_1"						"Time machine is not needed to look back through millions of years : you just have to look up at stars."
+			"npc_universal_boss_puck_text_1_2"						"I am terrified by eternal silence of those spaces."
+
+			"npc_universal_boss_magzemli"							"Earth Mage"
+			"npc_universal_boss_magzemli_text"						"The God of History"
+			"npc_universal_boss_magzemli_text_1"					"All roads eventually lead to an end. There is no need to hurry."
+			"npc_universal_boss_magzemli_text_1_2"					"Past - ghost, future – dream, and everything that we have is present."
+
+			"npc_universal_boss_fura"								"Overlord of the Universe"
+			"npc_universal_boss_fura_text"							"Guardian of Time and Consciousness"
+			"npc_universal_boss_fura_text_1"						"Do you know that you are surrounded by eternity at this very moment?"
+			"npc_universal_boss_fura_text_1_2"						"And do you know that you can spend it however you want?""
+
+			"npc_universal_boss_secret"								"Kurumi"
+			"npc_universal_boss_secret_text"						"Nightmare"		
+			"npc_universal_boss_secret_text_1"						"It seems that you are very confident in your powers. This overconfidence will end you."
+			"npc_universal_boss_secret_text_1_2"					"I thought that I have found a worthy oponent for a moment, only to meet this disappointment... Even hell won't be enough for you."
 
 
 /// О П И С А Н И Я  П А Н Е Л Е Й ///
@@ -5388,6 +5420,8 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "DOTA_Tooltip_ability_item_dark_point_Description"		"Gives GU-Coins."
 "DOTA_Tooltip_ability_item_primogem"					"Interwoven Fates"
 "DOTA_Tooltip_ability_item_primogem_Description"		"You will recieve one spin for the standard banner _Andromeda's Story_"
+		"DOTA_Tooltip_ability_item_unknown"					"Uncertainty"
+		"DOTA_Tooltip_ability_item_unknown_Description"		"No one knows what you will receive..."
 
 
 /// З А Г Р У З К А ... ///
@@ -5918,14 +5952,6 @@ They can use autodialling without energy loss."
 		"andromeda_repli_37" "OH NO HOW COULD THAT BE? You're very lucky I have resurrection technology!!!"
 		"andromeda_repli_38" "You can improve my resurrection technology, get «Galaxy Split» item from «Overlord of the Universe» boss."
 		"andromeda_repli_39" "However I BEG you to prevent me from dying since my life essence is limited."
-
-		"boss_1_repli" ""
-		"boss_2_repli" ""
-		"boss_3_repli" ""
-		"boss_4_repli" ""
-		"boss_5_repli" ""
-		"boss_6_repli" ""
-
 
 
 		"lore_qvest_main"	"New quest!<br> «Andromeda's Defense»"
@@ -6725,6 +6751,74 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 
 		"Milky_Way"		"Quest: Random address Milky Way"
 		"Pegasus"		"Quest: Random address Pegasus"
+
+
+		"boss_error_1"	"You already have an active boss fight!!!"
+		"boss_error_2"	"You have lost the boss fight, try again later!"
+		"stargate_event"	"Warning incoming wormhole!"
+		"stargate_error_1" 	"DHD is not found!"
+		"stargate_error_2" 	"Stargate is not found!"
+
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom"									"Thunder spear"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2"									"Thunder spear 2"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3"									"Thunder spear 3"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4"									"Thunder spear 4"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5"									"Thunder spear 5"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir"										"Weather core"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack. \n <h1Active: Weather Shield </h1> Applies a thunder shiel effect to the target, each %static_proc_count% attack on whom will trigger a lightning to hit the attacker for %static_damage%% of their damage and also slow them by %static_slow% for %static_slow_duration% seconds."
+		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2"									"Weather core 2"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack. \n <h1Active: Weather Shield </h1> Applies a thunder shiel effect to the target, each %static_proc_count% attack on whom will trigger a lightning to hit the attacker for %static_damage%% of their damage and also slow them by %static_slow% for %static_slow_duration% seconds."
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3"									"Weather core 3"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack. \n <h1Active: Weather Shield </h1> Applies a thunder shiel effect to the target, each %static_proc_count% attack on whom will trigger a lightning to hit the attacker for %static_damage%% of their damage and also slow them by %static_slow% for %static_slow_duration% seconds."
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"								"Attack speed:"
+
+
+ 		"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"						"Weather core shield"
+
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"									"Recipe Cuirasse of the Universe"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"A unique item, which can be abtained by killing Lord of the Universe boss<br><br><font color='#7ee340'>Can be shared with an all!</font>"
+
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe"									"Cuirasse of the Universe"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance to create a chain lightning which will jump between all enemy units within %bounce_radius% radius and deal %bounce_damage%% of owner's base attack. \n <h1Active: Weather Shield </h1> Applies a thunder shiel effect to the target, each %static_proc_count% attack on whom will trigger a lightning to hit the attacker for %static_damage%% of their damage and also slow them by %static_slow% for %static_slow_duration% seconds. \n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Grants immunity to all negative weather effects (lightning cannot hit you, etc.) \n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「Full set of Universe items will grant a new ability - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"Attack speed:"
+
+
+		"sound_set"			"Sound pack is loaded!"
+		"sound_no"			"Such package does not exist!"
+
+
+
+
+
 
 }
 
