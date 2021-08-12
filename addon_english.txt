@@ -224,14 +224,14 @@
 "DOTA_Tooltip_ability_hell_field" "Battlefield"
  "DOTA_Tooltip_ability_hell_field_Description" "Summons the souls of warriors who have fallen in battle and try to drag as much enemies within a range as they can with them."
  		"DOTA_Tooltip_ability_hell_field_base_damage"	"Damage:"
-		"DOTA_Tooltip_ability_hell_field_bonus_regen"	"+ Health regeneration"
+		"DOTA_Tooltip_ability_hell_field_bonus_regen"	"Health regeneration:"
 
 
-"npc_dota_hero_elder_titan" "Earth Mage"
+"npc_dota_hero_elder_titan" "Morax"
 
 
 
- "DOTA_Tooltip_ability_reus_gaias_fury" "Stone Strike"
+ "DOTA_Tooltip_ability_reus_gaias_fury" "Crystal fate"
  "DOTA_Tooltip_ability_reus_gaias_fury_description" "Charges their strike with the power of the earth and deals massive AoE damage when attacking. Damage depends on strength of Earth Mage and works according to the formula Strength * multiplier. Cooldown cannot be reduced, ability is autocasted<br>Damage type: <font color='#f7a62d'>Energy</font>"
  "DOTA_Tooltip_ability_reus_gaias_fury_radius" "Radius:"
  "DOTA_Tooltip_ability_reus_gaias_fury_duration" "Duration:"
@@ -244,8 +244,8 @@
 "DOTA_Tooltip_modifier_gaias_fury"		"Stone Strike"
 		"DOTA_Tooltip_modifier_gaias_fury_description"											"Charged"
 
- "DOTA_Tooltip_ability_reus_magnitude" "Rock Shatter"
- "DOTA_Tooltip_ability_reus_magnitude_Description" "Earth Mage: after a delay of 10 seconds, begins to split the soil beneath him, causing damage to enemies. Damage depends on your Strength and works according to formula Base Damage * Strength.<br>Damage type: <font color='#f7a62d'>Energy</font> "
+ "DOTA_Tooltip_ability_reus_magnitude" "Earth dominance"
+ "DOTA_Tooltip_ability_reus_magnitude_Description" "Morax: after a delay of 10 seconds, begins to split the soil beneath him, causing damage to enemies. Damage depends on your Strength and works according to formula Base Damage * Strength.<br>Damage type: <font color='#f7a62d'>Energy</font> "
  "DOTA_Tooltip_ability_reus_magnitude_radius" "Radius:"
  "DOTA_Tooltip_ability_reus_magnitude_quake_interval" "Split Interval:"
  "DOTA_Tooltip_ability_reus_magnitude_root_time" "Move speed slow: duration:"
@@ -255,17 +255,17 @@
  "DOTA_Tooltip_ability_reus_magnitude_damage" "Base damage: "
  "DOTA_Tooltip_modifier_magnitude_slow_ally" "Slowdown"
 
- "DOTA_Tooltip_ability_reus_stoneblast" "Stone Throw"
- "DOTA_Tooltip_ability_reus_stoneblast_Description" "The Earth Mage throws a stone at the selected point that stuns and damages all units on its way<br>Damage type: <font color='#f7a62d'>Energy</font>"
+ "DOTA_Tooltip_ability_reus_stoneblast" "Rule over stone"
+ "DOTA_Tooltip_ability_reus_stoneblast_Description" "Morax throws a stone at the selected point that stuns and damages all units on its way<br>Damage type: <font color='#f7a62d'>Energy</font>"
  "DOTA_Tooltip_ability_reus_stoneblast_stun" "Stun:"
  "DOTA_Tooltip_ability_reus_stoneblast_damage" "Damage:"
  
- "DOTA_Tooltip_ability_earch_mag_ylti"                                          	"Earth Mage"
+ "DOTA_Tooltip_ability_earch_mag_ylti"                                          	"Stone will"
 		"DOTA_Tooltip_ability_earch_mag_ylti_Description"                              	"Increases base(white) damage depending on your strength, also increases status resistance to 100%."
 		"DOTA_Tooltip_ability_earch_mag_ylti_bonus_str"                              	"Bonus strength:"
 		"DOTA_Tooltip_ability_earch_mag_ylti_str_multi"                              	"Strength multiplier:"
 
-		"DOTA_Tooltip_modifier_earch_mag_ylti" 											"Earth Mage"
+		"DOTA_Tooltip_modifier_earch_mag_ylti" 											"Morax"
 		"DOTA_Tooltip_modifier_earch_mag_ylti_Description" 											"Bonus damage - %dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% "
 
 ///Способность для Разблокировки Героя Маг Земли///
@@ -4524,7 +4524,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "npc_dota_hero_brewmaster_hype" "Hero of Ukraine, ATO Veteran , Fighting Officer who went through the war and is ready to defend his home from the attacks of villains."
  "npc_dota_hero_terrorblade_hype" "Vlad is a character soaked in pain and humiliation who has accumulated all his hatred of the world in himself for many years, but times change, someone remains the same, but Vlad is not who he was before ... Feel his power!"
  "npc_dota_hero_sniper_hype" "After an unlucky error in the code, the well-known Sniper became a Sniper and acquired a new power of destruction of the universe."
- "npc_dota_hero_elder_titan_hype" "Once upon a time 4 people lived in peace until the people of the Earth Mages unleashed a war ..."
+ "npc_dota_hero_elder_titan_hype" "History can be written down, but it also can be changed. Time - is a mighty power, in which currents history warps..."
  "npc_dota_hero_dark_willow_hype" "Megumin is a very powerful explosive magician, capable of crushing any enemy. She has strong passion for using her magic so it didn't take long to persuade her to join Andromeda's army."
  "npc_dota_hero_axe_hype" "A tall, beautiful young woman, Darkness gives the appearance of a cool beauty. She is well-endowed and also has light blue eyes and straight, long blonde hair, usually kept in a ponytail tied with a braid and red hair clips secured on both sides of her bangs."
  "npc_dota_hero_pudge_hype" "Standard Pudge because what custom game can exist without Pudge ?."
@@ -4662,54 +4662,54 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 /// Р У Н Ы ///
 
-"dota_tooltip_ability_item_custom_universe_rune_lvlup" "Universal rune: Insight"
+"dota_tooltip_ability_item_custom_universe_rune_lvlup" "Universal rune: Enlightenment"
  "dota_tooltip_ability_item_custom_universe_rune_lvlup_description" "Gives you 100 experience, for each time you pick this rune up the experience gained will increase by 50"
 
  "dota_tooltip_ability_item_custom_universe_rune_arcane" "Universal rune: Particle of the Archmage"
- "dota_tooltip_ability_item_custom_universe_rune_arcane_description" "Reduces abilities' cooldown by 30% and manacost by 40%"
+ "dota_tooltip_ability_item_custom_universe_rune_arcane_description" "Reduces abilities' cooldown by 50%, manacost by 80% and increases spell damage by 300%"
 
- "dota_tooltip_ability_item_custom_universe_rune_bounty" "Universe rune: Wealth"
- "dota_tooltip_ability_item_custom_universe_rune_bounty_description" "Gives 10*round number gold."
+ "dota_tooltip_ability_item_custom_universe_rune_bounty" "Universe rune: Bounty"
+ "dota_tooltip_ability_item_custom_universe_rune_bounty_description" "Gives 100*round number gold."
 
- "dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" "Base damage is increased by 2 times. \nMain attribute increased by 20%"
+ "dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" "Base damage is increased by 10 times. \nMain attribute increased by 20%"
  "dota_tooltip_ability_item_custom_universe_rune_doubledamage" "Universal Rune: Double Damage"
  
- "dota_tooltip_ability_item_custom_universe_rune_ember" "Universal rune: Fire soul"
+ "dota_tooltip_ability_item_custom_universe_rune_ember" "Universal rune: Fiery soul"
  "dota_tooltip_ability_item_custom_universe_rune_ember_description" "Provides a burning effect that damages enemies around you. Your attacks target set target on fire"
  
- "dota_tooltip_ability_item_custom_universe_rune_frost" "Universe rune: Ice particle"
- "dota_tooltip_ability_item_custom_universe_rune_frost_description" "Your attacks slow down enemies. \nAnd also slows down enemies attacking you"
+ "dota_tooltip_ability_item_custom_universe_rune_frost" "Universe rune: Punishing gaze"
+ "dota_tooltip_ability_item_custom_universe_rune_frost_description" "Your attacks slow down enemies. \nAnd also slows down enemies, attacking you. There is a 30% chance on incoming attack that enemy will be stunned for 3 seconds and recieve double physical damage"
  
  "dota_tooltip_ability_item_custom_universe_rune_haste" "Universe rune: Nightmarish shadow"
- "dota_tooltip_ability_item_custom_universe_rune_haste_description" "Attack speed increased by 80; \nMove speed is increased by 60%; \nRemoves move speed limit"
+ "dota_tooltip_ability_item_custom_universe_rune_haste_description" "Attack speed increased by 500; \nMove speed is increased by 250%; \nRemoves move speed limit"
  
- "dota_tooltip_ability_item_custom_universe_rune_illusion" "Universe rune: Illusions"
- "dota_tooltip_ability_item_custom_universe_rune_illusion_description" "You can dodge any damage with 50% chance"
+ "dota_tooltip_ability_item_custom_universe_rune_illusion" "Universe rune: Force field"
+ "dota_tooltip_ability_item_custom_universe_rune_illusion_description" "You can dodge any damage with 90% chance"
  
- "dota_tooltip_ability_item_custom_universe_rune_invis" "Universe rune: Invisibility"
- "dota_tooltip_ability_item_custom_universe_rune_invis_description" "You become invisible for 45 seconds. Invisibility disappears upon attack, hero or item ability cast"
+ "dota_tooltip_ability_item_custom_universe_rune_invis" "Universe rune: Subspace"
+ "dota_tooltip_ability_item_custom_universe_rune_invis_description" "You become invisible for 45 seconds. Invisibility disappears upon attack, hero or item ability cast. If you break invisibility with a base attack, it will deal 5000% critical damage"
  
  "dota_tooltip_ability_item_custom_universe_rune_regen" "Universe rune: Regeneration"
- "dota_tooltip_ability_item_custom_universe_rune_regen_description" "Constantly restores health and mana by 50 + 5% / 20 + 2% (respectively). \nThe effect will disappear if you lose all charges"
+ "dota_tooltip_ability_item_custom_universe_rune_regen_description" "Constantly restores health and mana by 50 + 10% / 20 + 20% (respectively). \nThe effect will disappear if you lose all charges"
  
  "dota_tooltip_ability_item_custom_universe_rune_stone" "Universe rune: Fossil"
  "dota_tooltip_ability_item_custom_universe_rune_stone_description" "After 7 successful hits, turns the target to stone, rendering them invulnerable to magic and stunning them for 1 second"
 
- "dota_tooltip_modifier_custom_universe_ember_rune" "Universe rune: Fire soul"
- "dota_tooltip_modifier_custom_universe_ember_rune_burn" "Universe rune: Fire soul"
+ "dota_tooltip_modifier_custom_universe_ember_rune" "Universe rune: Fiery soul"
+ "dota_tooltip_modifier_custom_universe_ember_rune_burn" "Universe rune: Fiery soul"
  "dota_tooltip_modifier_custom_universe_ember_rune_burn_description" 	"Attacker will recieve fire damage and their attacks will miss"
  "dota_tooltip_modifier_custom_universe_ember_rune_description" 		"Attacker will recieve fire damage and their attacks will miss"
  
- "dota_tooltip_modifier_custom_universe_double_damage_rune" "Universal rune: Double damage"
- "dota_tooltip_modifier_custom_universe_double_damage_rune_description" "Base damage increased by 100%, main attribute increased by 20%"
+ "dota_tooltip_modifier_custom_universe_double_damage_rune" "Universal rune: Divine Strength"
+ "dota_tooltip_modifier_custom_universe_double_damage_rune_description" "Base damage increased by 1000%, main attribute increased by 100%"
 
  "dota_tooltip_modifier_custom_universe_arcane_rune" "Universal Rune: Archmage particle"
  "dota_tooltip_modifier_custom_universe_arcane_rune_aura" "Universal Rune: Archmage particle"
  "Dota_tooltip_modifier_custom_universe_arcane_rune_aura_description" "Reduces cooldowns of your abilities by %dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%% and mana cost by %dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%%.<br>Increases spell damage by %dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%% and cast speed by %dMODIFIER_PROPERTY_CASTTIME_PERCENTAGE%%%"
  "Dota_tooltip_modifier_custom_universe_arcane_rune_description" "Reduces cooldowns of your abilities by %dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%% and mana cost by %dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%%.<br>Increases spell damage by %dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%% and cast speed by %dMODIFIER_PROPERTY_CASTTIME_PERCENTAGE%%%"
 
-"dota_tooltip_modifier_custom_universe_frost_rune" "Universe Rune: Ice particle"
- "dota_tooltip_modifier_custom_universe_frost_rune_aura" "Universal Rune: Ice particle"
+"dota_tooltip_modifier_custom_universe_frost_rune" "Universe Rune: Punishing gaze"
+ "dota_tooltip_modifier_custom_universe_frost_rune_aura" "Universal Rune: Punishing gaze"
  "dota_tooltip_modifier_custom_universe_frost_rune_aura_description" "Getting hit or attacking an enemy will result in slowing down their attack and move speed"
  "dota_tooltip_modifier_custom_universe_frost_rune_description" "Getting hit or attacking an enemy will result in slowing down their attack and move speed"
  "dota_tooltip_modifier_custom_universe_frost_rune_slow" "Universe Rune: Ice particle"
@@ -4720,11 +4720,11 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "dota_tooltip_modifier_custom_universe_haste_rune_aura_description" "Increases your move speed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. And attack speed by %dMODIFIER_PROPERTY_ATTACK_SPEED_BONUS%"
  "dota_tooltip_modifier_custom_universe_haste_rune_description" "Increases your move speed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. And attack speed by %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%"
 
- "dota_tooltip_modifier_custom_universe_illusion_rune" "Universal Rune: Illusions"
- "dota_tooltip_modifier_custom_universe_illusion_rune_description" "Increases evasion by 50%"
+ "dota_tooltip_modifier_custom_universe_illusion_rune" "Universal Rune: Force field"
+ "dota_tooltip_modifier_custom_universe_illusion_rune_description" "Increases evasion by 90%"
 
-"dota_tooltip_modifier_custom_universe_invisibility_rune" "Universal Rune: Invisibility"
- "dota_tooltip_modifier_custom_universe_invisibility_rune_description" "Invisible. Move speed increased by + 20%%. The attack will break invisibility and deal an additional 200%%damage"
+"dota_tooltip_modifier_custom_universe_invisibility_rune" "Universal Rune: Subspace"
+ "dota_tooltip_modifier_custom_universe_invisibility_rune_description" "Invisible. Move speed increased by + 20%%. Base attack will break invisibility and deal an additional 5000%% damage"
  "dota_tooltip_modifier_custom_universe_invisibility_rune_handler" "Delay:"
 
  "dota_tooltip_modifier_custom_universe_regen_rune" "Universe Rune: Regeneration"
@@ -4732,10 +4732,10 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "Dota_tooltip_modifier_custom_universe_regen_rune_aura_description" "Regenerate %dMODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE%%% maximum HP + %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% HP and %dMODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE%%% maximum mana +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana per second."
  "Dota_tooltip_modifier_custom_universe_regen_rune_description" "Regenerate %dMODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE%%% maximum HP + %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% HP and %dMODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE%%% maximum mana +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana per second."
 
-"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura" "Universal Rune: Double damage"
+"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura" "Universal Rune: Divine Strength"
  "dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" "Base damage increased by 100%, main attribute increased by 20%."
 
-"dota_tooltip_ability_item_custom_universe_rune_energy" "Universal Rune: Energy"
+"dota_tooltip_ability_item_custom_universe_rune_energy" "Universal Rune: ZPM"
             "dota_tooltip_ability_item_custom_universe_rune_energy_description" "Gives you extra energy as well as its regeneration."
 
 
@@ -4752,25 +4752,25 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "rain" "Weather : Rain" 
 "storm" "Weather : Thunderstorm" 
 "snow" "Weather : Snow" 
-"blizzard" "Weather : Storm" 
+"blizzard" "Weather : Blizzard" 
 "swamp" "Weather : Slush" 
 "sandstorm" "Weather : Sandstorm" 
 "spacerift" "Weather : Time Rift" 
 "bloodrain" "Weather : Blood Rain" 
+"rain_infinity" "Weather : Void"
 
 
 
 
 /// Э Ф Ф Е К Т Ы  П О Г О Д Ы ///
-"sunny_des" "Sun rays increase hero's vision range if they hit latter" 
-"rain_des" "This weather reduces your vision to that level of night time" 
-"storm_des" "This weather randomly hits the map with lightnings, which, if they hit you, will stun you for 5 seconds" 
-"snow_des" "This weather does not affect your character in any way" 
-"blizzard_des" "This weather randomly creates ice explosions on the map that will freeze you for a while" 
-"swamp_des" "This weather randomly creates swamp bursts that slow you down a lot and also reduce your armor" 
-"sandstorm_des" "This weather reduces your visibility to the minimum and also creates sandstorms on the map which slow units down and make your attacks miss" 
-"spacerift_des" "This weather creates time rifts. If a hero gets hit by it, they will receive 500 experience" 
-"bloodrain_des" "Walking over a blood puddle will shortly increase attack speed" 
+"sunny_des" "Increases vision range of all heroes by 1500." 
+"rain_des" "This weather reduces your vision range to that level of night time." 
+"storm_des" "This weather randomly hits the map with lightnings, which, if they hit you, will stun you for 5 seconds and lose 5% of your maximal health." 
+"snow_des" "Getting hit by a snowy whirlwind will make you lose 3% of your maximal HP and root you for 3 seconds." 
+"blizzard_des" "This weather randomly creates ice explosions on the map that will freeze you for 5 seconds and make you lose 7% of your maximal health." 
+"swamp_des" "This weather randomly creates swamp bursts that slow you down a lot and also reduce your armor." 
+"sandstorm_des" "This weather reduces your vision range to minimal, and also creates sandstorms, which slow you down and make you miss with your attacks more often." 
+"spacerift_des" "This weather creates time rifts. Getting hit by one will grant 500 experience and replenish 10% of maximal health."  
 
 
 
@@ -5093,37 +5093,6 @@ You can increase Energy limit and regeneration by completing quests in random ev
 <br>
 <font color='#ba1a14'>Click here with «Shift» held to open Atlantis(Pegasus) address dialling panel.</font>"
 
-
-
-
-/// З А Д А Н И Я  И  Б О С С Ы ///
-
-"task_random_item" "Find an item at random spot on the map within 2 minutes, mini-map will mark area at which the item is located with a red circle."
-"task_name_item" "Item quest"
-"task_random_address" "All players have a random stargate address generated, whoever is first to dial it will be rewarded.Upon stargate's activation the player will be teleported to a random spot on the map."
-"task_name_address" "Random Address"
-"task_random_mi24" "You need to defend ally MI-24V Hind, that will appear in lower right corner of the map, for 5 minutes. If it is destroyed, then quest will be failed. If you complete the quest all team will complete «Convoy Escort» mission and all players will get access to Armored Vehicles in Pick Menu."
-"task_name_mi24" "Convoy Escort"
-
-	"task_name_catch"			"Catching Target"
-    "task_random_catch"         "You have to find and catch a Cockeller that will spawn at a random spot of the map. You will be suggested to choose a Random ability (Active or Passive) for catching this unit."
-
-
-
-"DOTA_Tooltip_modifier_kill_vert" "Life Duration" ///Для задания сопровождения///
-
-"task_name_winitem" "Item Quest<br>
-<font color='#03fc17'>-----COMPLETED-----</font>"
-
-
-"task_name_winaddress" "Random Address<br>
-<font color='#03fc17'>-----COMPLETED-----</font>"
-
-"task_name_boss" "Boss Kill"
-
-"task_name_global" "Random Quest"
-
-
 // Н А Г Р А Д Ы //
 "re_desc_rewards_1" "Gold:"
 "re_desc_rewards_2" "Experience:"
@@ -5157,11 +5126,6 @@ You can increase Energy limit and regeneration by completing quests in random ev
 
 "info_player_open" "Open"
 "info_player_closed" "Collapse"
-"cu_task_win" "Quest is Completed!"
-"cu_p_1" "Player"
-"cu_yes" "Has completed the quest and recieved:"
-"cu_yes_all" "All players have completed the quest and recieved:"
-
 
 
 /// В Р А Т А ///
@@ -5420,6 +5384,10 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "DOTA_Tooltip_ability_item_gold_Description" "Gives in-game gold."
 "DOTA_Tooltip_ability_item_xp" "Experience"
 "DOTA_Tooltip_ability_item_xp_Description" "Gives experience."
+"DOTA_Tooltip_ability_item_dark_point"					"Gu-Coins"
+"DOTA_Tooltip_ability_item_dark_point_Description"		"Gives GU-Coins."
+"DOTA_Tooltip_ability_item_primogem"					"Interwoven Fates"
+"DOTA_Tooltip_ability_item_primogem_Description"		"You will recieve one spin for the standard banner _Andromeda's Story_"
 
 
 /// З А Г Р У З К А ... ///
@@ -5745,81 +5713,6 @@ They can use autodialling without energy loss."
             -One racial rank - 1000 MMR.<br><br>
             -Race MMR - global. This means that all players affect progression."
 
-
-
-		"sound_sound_1" "New Horizons"
-		"sound_sound_2" "Liberators"
-		"sound_sound_3" "Glory"
-		"sound_sound_4" "United Throught The Fire"
-		"sound_sound_5" "Collapsing Universe"
-		"sound_sound_6" "Children Of Time"
-		"sound_sound_7" "Lux Imperia"
-		"sound_sound_8" "Meraki"
-		"sound_sound_9" "Starchild"
-		"sound_sound_10" "Basileus"
-		"sound_sound_11" "None Shall Live"
-		"sound_sound_12" "For The Win"
-		"sound_sound_13" "Flight of the Silverbird"
-		"sound_sound_14" "Celestial Motion"
-		"sound_sound_15" "Falling Stars"
-		"sound_sound_16" "Rise of Storm"
-		"sound_sound_17" "Rise of the Immortals"
-		"sound_sound_18" "Ride to Glory "
-		"sound_sound_19" "Army Of Kings"
-		"sound_sound_20" "ニヒル神楽【幽閉サテライト】"
-		"sound_sound_21" "紅薔薇へ捧げる小夜曲"
-		"sound_sound_22" "夜明けの紅い月"
-		"sound_sound_23" "ニヒル神楽"
-		"sound_sound_24" "Darling in the Franxx op"
-		"sound_sound_25" "Skyrim - Theme"
-		"sound_sound_26" "オリジナルサウンドトラック"
-		"sound_sound_27" "ナルサウンドト"
-		"sound_sound_28" "ックリジウ"
-		"sound_sound_29" "オリジンド"
-		"sound_sound_30" "ジナル"
-		"sound_sound_31" "トラッ"
-		"sound_sound_32" "ジナルサ"
-		"sound_sound_33" "ウンドトラック"
-		"sound_sound_34" "オリジナル"
-		"sound_sound_35" "クトラッ"
-		"sound_sound_36" "ナルドトラッ"
-		"sound_sound_37" "リジドトラッ"
-		"sound_sound_38" "Modern Warfare 2"
-		"sound_sound_39" "Kill Ghoust"
-		"sound_sound_40" "Code of Conduct"
-		"sound_sound_41" "D.C Burning"
-		"sound_sound_42" "Whitehouse Battle"
-		"sound_sound_43" "Estate Betrayal"
-		"sound_sound_44" "Bridge Battle"
-		"sound_sound_45" "COD MW3 - Main Theme"
-		"sound_sound_46" "Warlords"
-		"sound_sound_47" "Arabian End Game"
-		"sound_sound_48" "COD MW3 - End Game"
-		"sound_sound_49" "BC2 - Main Theme"
-		"sound_sound_50" "Warsaw Theme"
-		"sound_sound_51" "Something Big Is Coming"
-		"sound_sound_52" "Battlefield 1"
-		"sound_sound_53" "Prologue We Push"
-		"sound_sound_54" "Short Hair - Mulan"
-		"sound_sound_55" "捧げ薔薇"
-		"sound_sound_56" "夜明けル神"
-		"sound_lose_boss" "Naomi Scott - Speechless"
-		"sound_boss1" "See What Ive Become"
-		"sound_boss2" "Tomorrow Never Comes"
-		"sound_boss3" "Nobility"
-		"sound_boss4" "Watch It Burn"
-		"sound_boss5" "Dark Star"
-		"sound_boss6" "Solar"
-		"sound_boss7" ""
-		
-		"sound_sound_prolog_1" "Takeover"
-		"sound_sound_prolog_2" "Settling"
-		"sound_sound_prolog_3" "End Run"
-		"sound_sound_prolog_4" "The Crevasse"
-		"sound_sound_prolog_5" "Skimming a Gas Giant"
-		"sound_sound_prolog_6" "A Father's Sacrifice"
-		"sound_sound_prolog_7" "Arrival on Destiny"
-		
 		"boss_round_kd" "Bosses can be fought against after completing the 6th wave!"
 		
 		
@@ -6085,7 +5978,7 @@ They can use autodialling without energy loss."
 		"andromeda_end_game_repli_8" "Initiating dialling!"
 		"andromeda_end_game_repli_9" "Let's start! We are on the «Reese» planet - homewrold of Replicators. Our goal is to collect 100 Naquadah fragments, kill any replicator you find to get them!"
 		"andromeda_end_game_repli_10" "I will stay here and defend landing zone!"
-		"andromeda_end_game_repli_11" "Excellent job! You've collected all 100 fragments, now destroy «Orlin's» stargate to prevent their further attacks!"
+		"andromeda_end_game_repli_11" "Excellent job! You've collected all fragments, now destroy «Orlin's» stargate to prevent their further attacks!"
 		"andromeda_end_game_repli_12" "You have to find and destroy 13 Energy Crystals to destroy the stargate!"
 		"andromeda_end_game_repli_13" "Be wary because replicators will try to stop you if they find out that you want to destroy their stargate!"
 		"andromeda_end_game_repli_14" "Great job! You've found and destroyed all 13 crystals, now you can destroy their stargate once and for all!"
@@ -6133,7 +6026,7 @@ They can use autodialling without energy loss."
 		"end_game_qvest_1_text_des"	"Travel to «Reese» planet and follow Andromeda's guidances!"
 		"end_game_qvest_2" "New quest!<br> «Naquadah Gathering»"
 		"end_game_qvest_2_text" "Quest: «Naquadah Gathering»"
-		"end_game_qvest_2_text_des"	"Collect 100 Naquadah fragments by killing Replicators!"
+		"end_game_qvest_2_text_des"	"Collect required amount of Naquadah fragments by killing Replicators!"
 		"end_game_qvest_3" "New quest!<br> «Energy Crystals»"
 		"end_game_qvest_3_text" "Quest: «Energy Crystals»"
 		"end_game_qvest_3_text_des"	"Destroy 13 Crystals to shutdown Orlin's stargate power source!"
@@ -6360,7 +6253,7 @@ They can use autodialling without energy loss."
 
                 "DOTA_Tooltip_ability_invoker_wind_ellement"                                     "<font color='#d974f7'>Element : Wind</font>"
                 "DOTA_Tooltip_ability_invoker_wind_ellement_Description"                    "Increases your speed and allows to use <font color='#d974f7'>Wind</font> magic in combinations.\n\n<font color='#d974f7'>Wind aura</font> : you imbue yourself with wind power, increasing your body's speed. <font color='#d974f7'>At least 1 element power is required</font>.\n\n<font color='#d455fa'>Push</font> : you strike enemy with a powerful gush. <font color='#d974f7'>At least 2,2 element power is required</font>.\n\n<font color='#d455fa'>Tornado</font> : you release an electrified tornado. <font color='#d974f7'>At least 6 element power is required</font>.\n\n<font color='#b20dff'>Cone of electrified</font> : you release many electrified tornadoes in a cone. <font color='#d974f7'>More than 10,2 element power is required</font>."
-                "DOTA_Tooltip_ability_invoker_wind_ellement_Note0"                    "Mixed combinations : \n\n<font color='#f74307'>Fire</font> : \n\n<font color='#c75300'>Огненный смерч</font> : вы создаёте <font color='#f74307'>огненный</font> <font color='#d974f7'>смерч</font>. <font color='#c75300'>Fire tornado</font> : you create a <font color='#f74307'>fire</font> <font color='#d974f7'>tornado</font>. <font color='#f74307'>Little amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#bf400a'>Fire tornadoes cone</font> : you release a cone of <font color='#f74307'>fire</font> <font color='#d974f7'>tornadoes</font>. <font color='#f74307'>Large amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#5ce9ff'>Ice</font> : \n\n<font color='#24dff0'>Ice shere</font> : You create a <font color='#d974f7'>rotating</font> <font color='#5ce9ff'>ice sphere</font>. <font color='#5ce9ff'>Little amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#9cf7ff'>Ice star</font> : you create an <font color='#5ce9ff'>ice sphere</font>, <font color='#d974f7'>which periodically unleashes several ice projectiles</font>. <font color='#5ce9ff'>Large amounts of <font color='#d974f7'>both powers</font> are required</font>."
+                "DOTA_Tooltip_ability_invoker_wind_ellement_Note0"                    "Mixed combinations : \n\n<font color='#f74307'>Fire</font> : \n\n<font color='#c75300'>Fire storm</font> : you create a <font color='#f74307'>fire</font> <font color='#d974f7'>storm</font>. <font color='#c75300'>Fire tornado</font> : you create a <font color='#f74307'>fire</font> <font color='#d974f7'>tornado</font>. <font color='#f74307'>Little amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#bf400a'>Fire tornadoes cone</font> : you release a cone of <font color='#f74307'>fire</font> <font color='#d974f7'>tornadoes</font>. <font color='#f74307'>Large amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#5ce9ff'>Ice</font> : \n\n<font color='#24dff0'>Ice shere</font> : You create a <font color='#d974f7'>rotating</font> <font color='#5ce9ff'>ice sphere</font>. <font color='#5ce9ff'>Little amounts of <font color='#d974f7'>both powers</font> are required</font>.\n\n<font color='#9cf7ff'>Ice star</font> : you create an <font color='#5ce9ff'>ice sphere</font>, <font color='#d974f7'>which periodically unleashes several ice projectiles</font>. <font color='#5ce9ff'>Large amounts of <font color='#d974f7'>both powers</font> are required</font>."
                 "DOTA_Tooltip_ability_invoker_wind_ellement_bonus_speed_per_instance"                    "%Move speed: "
                 "DOTA_Tooltip_ability_invoker_wind_ellement_bonus_attack_speed_per_instance"                    "Attack speed: "
                 "DOTA_Tooltip_ability_invoker_wind_ellement_ellement_power"                    "<font color='#d974f7'>Element power</font> : "
@@ -6422,6 +6315,416 @@ They can use autodialling without energy loss."
 				"ban_cause_4"	"You are banned! Reason: Attempting to dudos the server!"
 				"ban_cause_5"	"You are banned! Reason: You are an over-blood brat, go fuck yourself out of here to your custom Hiro Chaos and don't come back again!"
 
+		"pray_button"		"Prayer"
+		"hero_const_0"		"<font color='#6ff542'>Ascension - 0</font>"
+		"hero_const_1"		"<font color='#6ff542'>Ascension - 0</font>"
+		"hero_const_2"		"<font color='#87f542'>Ascension - I</font>"
+		"hero_const_3"		"<font color='#a4f542'>Ascension - II</font>"
+		"hero_const_4"		"<font color='#bcf542'>Ascension - III</font>"
+		"hero_const_5"		"<font color='#d7f542'>Ascension - IV</font>"
+		"hero_const_6"		"<font color='#f2f542'>Ascension - V</font>"
+		"hero_const_7"		"<font color='#f5d742'>Ascension - VI</font>"
+		"hero_const_8"		"<font color='#f5ad42'>Ascension - VII</font>"
+		"hero_const_9"		"<font color='#f58d42'>Ascension - VIII</font>"
+		"hero_const_10"		"<font color='#f55d42'>Ascension - IX</font>"
+		"hero_const_11"		"<font color='#f54242'>Ascension - X</font>"
+		"hero_const_12"		"<font color='#f5424e'>Ascension - XI</font>"
+		"hero_const_13"		"<font color='#f54266'>Ascension - XII</font>"
+		"hero_const_14"		"<font color='#f54287'>Ascension - XIII</font>"
+		"hero_const_15"		"<font color='#f542ad'>Ascension - XIV</font>"
+		"hero_const_16"		"<font color='#f542ce'>Ascension - XV</font>"
+		"hero_const_17"		"<font color='#ef42f5'>Ascension - XVI</font>"
+		"hero_const_18"		"<font color='#bc42f5'>Ascension - XVII</font>"
+		"hero_const_19"		"<font color='#9042f5'>Ascension - XVIII</font>"
+		"hero_const_20"		"<font color='#6642f5'>Ascension - XIX</font>"
+		"hero_const_21"		"<font color='#4248f5'>Ascension - XX</font>"
+
+		"pray_info"	"Details"
+		"pray_info_text_a"	"      Standard Prayer: Andromeda's Story"
+		"pray_info_text"	"More about prayers<br><br>
+
+<font color='#d63131ef'>No time limit</font><br><br>
+
+Thirst for adventures – standard Prayer. It is not limited in time. This prayer does not contain exlusive characters or weapons.<br><br>
+You are guaranteed to recieve at least one 4★ character with each 10 prayers.<br><br>
+※ Usually base probabilities of getting characters are split equally. If there are any increasments or guaranties, please read respective rules.<br><br>
+〓 Rules 〓<br>
+Base chance to get 5★ a hero = 1,600%. Getting a 5★ hero is guaranteed at least once in 90 attemts.<br><br>
+Base chance to get 4★ a hero = 13,100%. Getting a 4★ hero is guaranteed at least once in 10 attemts.<br><br>
+Base chance to get 3★ a hero = 85,300%.<br><br>
+
+<font color='#c2133f'>Warning!</font><br>
+You will not have anime appear during prayers ,if you chose negative opinion on the thematic during the questioning!<br>
+
+<br>〓 Dublicates 〓<br><br>
+If you have several same characters (unlocked in-game, bought in the shop or won in a Prayer), then, starting with 2nd dublicate, you will upgrade unique talents of each character up to 20 times
+<br><br>〓 Character pool 〓<br><br>
+<font color='#c27913'>5★ Heroes</font><br>
+-Kurumi Tokisaki<br>
+-Lich King<br>
+-Demon Hunter<br>
+-Warrior of the Wind<br>
+-Sniper<br>
+-Lina<br>
+-Chloe von Einzbern<br>
+-Hatsune Miku<br>
+-Andromeda<br>
+-Enterprise<br>
+-Origami Tobiichi<br>
+-Yagokoro Eirin<br>
+-Aqua<br>
+-Т-90М «Breach»<br><br>
+
+<font color='#8e13c2'>4★ Heroes</font><br>
+-Legate of the Legion<br>
+-Ghost Warrior<br>
+-Earth Mage<br>
+-Interdimensional Parrot<br>
+-Lalatina Dustiness Ford<br>
+-Marisa Kirisame<br>
+-Neptune<br>
+-Kaname Madoka<br>
+-Kongou<br>
+-Noire<br>
+-Yumemi Okazaki<br>
+-Megumin<br>
+-AH-64D «Apache»<br>
+-MI-24V<br>
+-AH-1Z Super Cobra<br><br>
+
+<font color='#1368c2'>3★ Heroes</font><br>
+-Rem<br>
+-Dawnbreaker<br>
+-Merlin<br>
+-Kotori Itsuka<br>
+-Izayoi Sakuya<br>
+-Kizaru<br>
+-Cirno<br>
+-9K31 «Strela-1»<br>
+-F-16 Fighting Falcon<br>
+-Т-72<br>
+-2С1 «Gvozdika»<br>
+-Illya<br>
+-M270 MLRS<br>"
+
+		"custom_sound_pack_text"	"If you have a unique music pack changing key, insert it in the window below."
+		"custom_sound_pack"			"Insert key..."
+		"new_player_text_a" 		"Welcome to the Guardians of Universe" ///welcum to the club,buddy
+		"new_player_text" 			"Fill in answers to continue. Keep in mind that this will affect your game experience, you won't be able to change later!"
+		"new_player_name" 			"Type in your name."
+		"new_player_anime" 			"Choose your opinion on anime content (this will affect the later game!)"
+		"new_player_anime_false"    "If you choose this option, then you will not be able to get anime category characters from Prayers, in-game music pack will have anime content removed as well as other anime related contentеnt."
+		"new_player_anime_true"    	"If you choose this option, then you will be able to experince all content of the project."
+
+		"setting_game" 		"Game settings"
+		"setting_game_text" 		"Host has access to game settings. Notice that all options should be kept untouched to get intended experience!"
+		"setting_prolog" 		"-_Skip prologue?_-"
+		"setting_prolog_text" 		"You will instantly start a new game, skipping the introduction. Keep in mind that you can recieve experience and items during the prologue; it will be harder to proceed without them."
+		"setting_yes" 		"Yes"
+		"setting_no" 		"No"
+		"setting_save" 		"Save"
+		"setting_timer" 		"-_Delay between waves_-"
+		"setting_timer_text" 		"If 0 seconds is choosen, then you will start hard mode, in which wave after wave of enemies will come after you eternally without a break!"
+		"time_300" 		"300 secs"
+		"time_150" 		"150 secs"
+		"time_0" 		"0 secs"
+		"default" 		"Current pack: Standard"
+		"default_no_anime" 		"Current pack: Without anime"
+
+
+
+		"custom_sound"    	"Custom pack!"
+		"Kurumi_GU_talents_name"    	"Constellations"
+
+		"DOTA_Tooltip_ability_gu_talents_ability"					"Ascension"
+		"DOTA_Tooltip_ability_gu_talents_ability_description"		"Shows how far your character has ascended, opens charactes's talents on activating."
+
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity"							"Luminosity"
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_Lore"							"Diminished in power without access to the Children's replenishing light, Valora can still recharge herself and her allies by creating order from the chaos which resides within each fight."
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_Description"				"After %attack_count% attacks, Dawnbreaker powers up, charging her next attack with a critical hit that heals all allied heroes within %heal_radius% around her for %allied_healing_pct%%% of attack damage dealt. Creeps and neutral enemies provide less healing."
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_bonus_damage"				"%Crtical damage:"
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_heal_pct"					"%Lifesteal:"
+		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_heal_from_creeps"			"%Non-hero lifesteal:"
+
+		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity"								"Luminosity"
+		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_Description"								"Prepares an attack with Luminosity"
+		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_attack_buff"					"Luminosity attack effect"
+		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_attack_buff_Description"					"Next attack will deal additional critical damage and heal ally heroes"
+
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker"								"Starbreaker"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Lore"								"Across the vast lineage of star progeny, there were multitudes unwilling to align with the aims of the Children of Light. To those who dared organize defiance, the Children would dispatch Valora and her hammer to show a measure of their power--to leave the rebels either shattered or set back to rights."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Description"							"Dawnbreaker whirls her hammer around 3 times, damaging enemies with her attack plus bonus damage. On the final strike, she smashes her hammer down, stunning and damaging enemies in front of her."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note0"	 							"During Starbreaker, Dawnbreaker gets moved towards the targeted direction at a speed of %movement_speed% and will be stunned for %self_stun_duration% seconds after the final strike."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note1"								"During Starbreaker, Dawnbreaker can't cast Celestial Hammer or Solar Guardian."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note2"								"Cleave isn't applied to attacks of this ability."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note3"								"Can be cast on self to stat moving in direction of gaze."
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_duration"								"Duration:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_swipe_radius"							"Swipe radius:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_swipe_damage"							"Swipe attack damage bonus:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_damage"							"Smash attack damage bonus:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_radius"							"Smash radius:"
+		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_stun_duration"					"Stun duration:"
+
+		"DOTA_Tooltip_modifier_godseye_speed_bonus_t3"  "Armor is reduced"
+
+		"npc_dota_hero_skeleton_king_t2_name"		"Primal Cold"
+		"npc_dota_hero_skeleton_king_t3_name"		"Immortality"
+		"npc_dota_hero_skeleton_king_t4_name"		"FROSTMOURNE DRAIN"
+		"npc_dota_hero_skeleton_king_t5_name"		"COLD REAPER"
+		"npc_dota_hero_skeleton_king_t6_name"		"Winter's Curse"
+		"npc_dota_hero_skeleton_king_t2"		"Improves - Primal Cold<br><br> Stun duration = 10 seconds.<br> Radius = 1000"
+		"npc_dota_hero_skeleton_king_t3"		"Improves - Immortality<br><br> Has a 17% chance to instantly recharge abilities on activation."
+		"npc_dota_hero_skeleton_king_t4"		"Improves - FROSTMOURNE DRAIN<br><br> Replenishes Lich's health in 100% amount of damage dealth."
+		"npc_dota_hero_skeleton_king_t5"		"Improves - COLD REAPER<br><br> Damage and radius are increased by 4 times, freeze duration = 15 сек."
+		"npc_dota_hero_skeleton_king_t6"		"Improves - Winter's Curse<br><br> No longer spends Energy."
+
+		"npc_dota_hero_abaddon_t2_name"		"Armor of abstraction"
+		"npc_dota_hero_abaddon_t3_name"		"Chaous field"
+		"npc_dota_hero_abaddon_t4_name"		"Chaos field"
+		"npc_dota_hero_abaddon_t5_name"		"Chaos field v1.9 final"
+		"npc_dota_hero_abaddon_t6_name"		"Armor of abstraction v1.9 final"
+		"npc_dota_hero_abaddon_t2"		"Improves - Armor of abstraction<br><br> Each stack reduces attacker's armor by 5."
+		"npc_dota_hero_abaddon_t3"		"Improves - Chaos field<br><br> Blocks health regeneration of all enemies within the field."
+		"npc_dota_hero_abaddon_t4"		"Improves - Ghost form<br><br> Removes cooldown"
+		"npc_dota_hero_abaddon_t5"		"Improves - Chaos field<br><br> Reduces enemy armor by 1000."
+		"npc_dota_hero_abaddon_t6"		"Improves - Armor of abstraction<br><br> Each time effect is applied, it will apply 3 stacks."
+
+
+		"npc_dota_hero_legion_commander_t2_name"		"-_Battlefield_-"
+		"npc_dota_hero_legion_commander_t3_name"		"-_Encouragement_-"
+		"npc_dota_hero_legion_commander_t4_name"		"-_Encouragement v 1.1_-"
+		"npc_dota_hero_legion_commander_t5_name"		"-_Battlefield v2.0 final_-"
+		"npc_dota_hero_legion_commander_t6_name"		"-_Encouragement v2.0 final_-"
+		"npc_dota_hero_legion_commander_t2"		"Improves - Battlefield!<br><br> Now souls of fallen warriors follow the character."
+		"npc_dota_hero_legion_commander_t3"		"Improves - Encouragement<br><br> Reduces cooldown to 30 seconds."
+		"npc_dota_hero_legion_commander_t4"		"Improves - Encouragement <br><br> Chance to get a stack is increased to 95%"
+		"npc_dota_hero_legion_commander_t5"		"Improves - Battlefield <br><br> Duration is increased by 3 times."
+		"npc_dota_hero_legion_commander_t6"		"Improves - Encouragement <br><br> It is triggered by any enemy unit."
+
+		"npc_dota_hero_elder_titan_t2_name"		"-_Stone dominance_-"
+		"npc_dota_hero_elder_titan_t3_name"		"-_Weak spot_-"
+		"npc_dota_hero_elder_titan_t4_name"		"-_Durability_-"
+		"npc_dota_hero_elder_titan_t5_name"		"-_Stone dominance_-"
+		"npc_dota_hero_elder_titan_t6_name"		"-_Crystal fate_-"
+		"npc_dota_hero_elder_titan_t2"		"Improves - first ability! <br><br>Morax has studied technique of throwing cobblestones at enemies for a long time, and now he is able to deal additional damage of x3 of his attack damage!"
+		"npc_dota_hero_elder_titan_t3"		"Improves - second ability! <br><br>After some study, Morax has come to the conclusion that he can stun enemies for 0.3 seconds with each strike of rocks."
+		"npc_dota_hero_elder_titan_t4"		"Improves - third ability! <br><br>Deals additional damage based on hero's maximal health."
+		"npc_dota_hero_elder_titan_t5"		"Improves - second ability! <br><br>Removes activation delay."
+		"npc_dota_hero_elder_titan_t6"		"Improves - third ability! <br><br>Reduces cooldown to 0.5 seconds."
+
+
+
+
+
+
+
+		"t1_name" 	"-_RISE OF A HERO_-"
+		"t1_1" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 500<br>
+		Bonus armor: 20<br>
+		Bonus damage: 40<br>
+		Bonus movement speed: 50<br>
+		Bonus mana regeneration: 150"
+
+		"t1_2" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 500<br>
+		Bonus armor: 20<br>
+		Bonus damage: 40<br>
+		Bonus movement speed: 50<br>
+		Bonus mana regeneration: 150"
+
+		"t1_3" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 100<br>
+		Bonus armor: 30<br>
+		Bonus damage: 80<br>
+		Bonus movement speed: 75<br>
+		Bonus mana regeneration: 175"
+
+		"t1_4" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 1500<br>
+		Bonus armor: 40<br>
+		Bonus damage: 120<br>
+		Bonus movement speed: 100<br>
+		Bonus mana regeneration: 200"
+
+		"t1_5" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 2000<br>
+		Bonus armor: 50<br>
+		Bonus damage: 200<br>
+		Bonus movement speed: 125<br>
+		Bonus mana regeneration: 225"
+
+		"t1_6" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 2500<br>
+		Bonus armor: 60<br>
+		Bonus damage: 300<br>
+		Bonus movement speed: 150<br>
+		Bonus mana regeneration: 250"
+
+		"t1_7" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 3000<br>
+		Bonus armor: 70<br>
+		Bonus damage: 400<br>
+		Bonus movement speed: 175<br>
+		Bonus mana regeneration: 275"
+
+		"t1_8" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 3500<br>
+		Bonus armor: 80<br>
+		Bonus damage: 500<br>
+		Bonus movement speed: 200<br>
+		Bonus mana regeneration: 300"
+
+		"t1_9" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 4000<br>
+		Bonus armor: 90<br>
+		Bonus damage: 600<br>
+		Bonus movement speed: 225<br>
+		Bonus mana regeneration: 325"
+
+		"t1_10" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 4500<br>
+		Bonus armor: 100<br>
+		Bonus damage: 700<br>
+		Bonus movement speed: 250<br>
+		Bonus mana regeneration: 350"
+
+		"t1_11" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 5000<br>
+		Bonus armor: 110<br>
+		Bonus damage: 800<br>
+		Bonus movement speed: 275<br>
+		Bonus mana regeneration: 375"
+
+		"t1_12" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 5500<br>
+		Bonus armor: 120<br>
+		Bonus damage: 900<br>
+		Bonus movement speed: 300<br>
+		Bonus mana regeneration: 400"
+
+		"t1_13" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 6000<br>
+		Bonus armor: 130<br>
+		Bonus damage: 1000<br>
+		Bonus movement speed: 325<br>
+		Bonus mana regeneration: 425"
+
+		"t1_14" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 6500<br>
+		Bonus armor: 140<br>
+		Bonus damage: 1100<br>
+		Bonus movement speed: 350<br>
+		Bonus mana regeneration: 450"
+
+		"t1_15" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 7000<br>
+		Bonus armor: 150<br>
+		Bonus damage: 1200<br>
+		Bonus movement speed: 375<br>
+		Bonus mana regeneration: 475"
+
+		"t1_16" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 7500<br>
+		Bonus armor: 160<br>
+		Bonus damage: 1300<br>
+		Bonus movement speed: 400<br>
+		Bonus mana regeneration: 500"
+
+		"t1_17" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 8000<br>
+		Bonus armor: 170<br>
+		Bonus damage: 1400<br>
+		Bonus movement speed: 425<br>
+		Bonus mana regeneration: 600"
+
+		"t1_18" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 8500<br>
+		Bonus armor: 180<br>
+		Bonus damage: 1500<br>
+		Bonus movement speed: 450<br>
+		Bonus mana regeneration: 700"
+
+		"t1_19" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 9000<br>
+		Bonus armor: 190<br>
+		Bonus damage: 1600<br>
+		Bonus movement speed: 475<br>
+		Bonus mana regeneration: 800"
+
+		"t1_20" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 9500<br>
+		Bonus armor: 250<br>
+		Bonus damage: 1700<br>
+		Bonus movement speed: 500<br>
+		Bonus mana regeneration: 900"
+
+		"t1_21" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
+		Bonus health: 10000<br>
+		Bonus armor: 250<br>
+		Bonus damage: 1800<br>
+		Bonus movement speed: 600<br> 
+		Bonus mana regeneration: 1000"
+
+
+	"task_random_item"			"Find an item in a random spot on the map within 2 minutes. Aproximate location is shown on the mini-map with a red circle."
+	"task_name_item"			"Treasure hunt"
+	"task_random_mi24"			"You have to defent ally MI-24V Hind, which has appeared in right lower corner of the map, for 5 minutes. You will fail this quest if it is destroyed. If you manage to escort the helicopter, then all team will complete the quest 'Escort' and all players will have access to pick combat vehicles during the pick phase."
+	"task_name_mi24"			"Convoy escort"
+
+
+
+	"task_random_address"		"You have a random Mily Way or Pegasus sytems' address generated, dial it in the DHD within time limit and recieve a reward!"
+	"task_name_address"			"Random address"
+
+	"task_random_address_symbols"		"Glyphs:"
+	"task_random_timer"		"Timer: "
+	"qvest_failed"		"Status: <font color='#ab2b2b'>Failed</font>"
+	"rewards_text"		"Recieved:"
+	"rewards_des"		"Click out of this window to continue"
+	"gold"				"Gold"
+	"xp"				"Experience"
+	"energy"			"Energy"
+	"mmr"				"Rating"
+	"gu_coins"				"Gu-coins"
+	"pray_coin"				"Prayers"
+
+		"gu_ActivatedRune" "{player_name} has picked up {rune_name}"
+		"item_custom_universe_rune_lvlup" "Enlighenment"
+        "item_custom_universe_rune_arcane" "Particle of the Archmage"
+		"item_custom_universe_rune_bounty" "Bounty"
+		"item_custom_universe_rune_doubledamage" "Divine Strength"
+		"item_custom_universe_rune_ember" "Fiery soul"
+		"item_custom_universe_rune_frost" "Punishing gaze"
+		"item_custom_universe_rune_haste" "Nightmarish shadow"
+		"item_custom_universe_rune_illusion" "Force field"
+		"item_custom_universe_rune_invis" "Subspace"
+		"item_custom_universe_rune_regen" "Regeneration"
+		"item_custom_universe_rune_regen" "Regeneration"
+		"item_custom_universe_rune_energy" "ZPM"
+
+		"gu_BossKill"	"{player_name} has killed boss {boss_name}"
+
+		"gu_weather_1"	"Vows, given during the storm, are forgotten during calm. {weather}"
+		"gu_weather_2"	"Nothing spoils forecasts like weather. {weather}"
+		"gu_weather_3"	"Everyone complains about the weather, but nobody fights it. {weather}"
+		"gu_weather_4"	"Let those who make the weather forecast it. {weather}"
+		"gu_weather_5"	"Cold - only for weather. Do not let it in your soul. {weather}"
+
+		"sunny_chat"				"Weather: <font color='#c7de1d'>Sunny</font>" 
+		"rain_chat"				"Weather: <font color='#084a99'>Rain</font>"  
+		"storm_chat"				"Weather: <font color='#a6caf5'>Thunderstorm</font>" 
+		"snow_chat"				"Weather: <font color='#6ea8eb'>Snow</font>" 
+		"blizzard_chat"			"Weather: <font color='#506b8a'>Blizzard</font>" 
+		"swamp_chat"				"Weather: <font color='#74b84f'>Slush</font>" 
+		"sandstorm_chat"			"Weather: <font color='#dbb235'>Sandstorm</font>" 
+		"spacerift_chat"			"Weather: <font color='#d428c0'>Timerift</font>" 
+		"rain_infinity_chat"			"Weather: <font color='#7a7a7a'>Void</font>" 
+
+		"gu_qvest"		"{player_name} has completed {qvest}"
+
+		"Milky_Way"		"Quest: Random address Milky Way"
+		"Pegasus"		"Quest: Random address Pegasus"
 
 }
 

@@ -5208,7 +5208,7 @@
 	"npc_dota_hero_elder_titan_hype" "Историю можно записать, но также ее можно изменить. Время — могучая сила, в потоках которой история искажается..."
 	"npc_dota_hero_dark_willow_hype" "Мегумин - очень сильная волшебница взрывной магии, способная сокрушить любого врага. Обладает огромной любовью к использованию своей магии, поэтому её не пришлось долго уговаривать, чтобы вступить в армию Андромеды."
 	"npc_dota_hero_axe_hype" "Даркнесс — высокая, красивая молодая девушка со светлыми волосами и голубыми глазами, как и у большинства дворян. Её волосы завязаны в конский хвост, а по бокам спереди свисают две пряди, которые обмотаны красными резинками."
-	"npc_dota_hero_pudge_hype" "Оглушениедартный пудж потому что какая кастомка может быть без пуджа?."
+	"npc_dota_hero_pudge_hype" "Стандартный пудж потому что какая кастомка может быть без пуджа?."
 	"npc_dota_hero_grimstroke_hype" "Пётр Алексе́евич Пороше́нко (укр. Петро Олексійович Порошенко; род. 26 сентября 1965, Болград, Одесская область, Украинская ССР, СССР) — украинский государственный и политический деятель, предприниматель, юрист. Народный депутат Верховной рады Украины IХ созыва с 29 августа 2019 "
 	"npc_dota_hero_phantom_assassin_hype" "Уникальная Боевая плитка разработана и создана компанией viktor-networksites.com, после создания у плиты появилсь свой интеллект и теперь она готова сразить всех своих врагов ради Андромеды."
 	"npc_dota_hero_doom_bringer_hype" "Энергетический Туалет эволюционировал до разумного существа, он преобрёл мощь магии энергии и умело ею пользуеться. "
@@ -5316,29 +5316,6 @@
 		"DOTA_Tooltip_ability_flash_bomb_bot_Description"                            "Ослепляет врага."
 
 		"DOTA_Tooltip_ability_item_rewards_find"								"Спрятанное сокровище"
-
-
-/// О П И С А Н И Е  Б О С С О В ///
-
-	"boss_1" "Галактическая Фея одна из первых боссов которая будет стоять у вас на пути к победе, физические атаки против неё бессильны - атакуйте своими способностями и умом."
-
-	"boss_2" "Богиня Аква вторая по сложности среди всех боссов, она будет атаковать вас своей божественной магией которая будет наносить вам большой магический урон."
-
-	"boss_3" "Древний Воин один из расы древних которые были одни из самых сильных рас. В сражении с ним вам стоит быть осторожным ведь он может превратить вашего союзника во врага, а также нанести вам колоссальный физический урон."
-
-	"boss_4" "Босс Сингулярность после долгих лет скитания по галактике нашла смысл бытия и получила огромную силу, которая ей даже и не снилась. Её заклинания наносят огромный магический урон, в сражении с ней возьмите с собой предметы на блокирование магического урона."
-
-	"boss_5" "Маг Земли обладает разрушительной силой магии земли. Его способность заставит вас уснуть на десятки тысяч лет, а разрушительная мощь разлома породы превратит вас в космическую пыль. При сражении с ним старайтесь не попасть в его арену, ведь если вы попадёте в неё вам не выжить."
-
-	"boss_6" "После того как его дом разрушили он решил стать Повелителем Вселенной и пошёл завоёвывать просторы вселенной. Его способность заставит вас забыть как двигаться. Рекомендуем предметы на моментальное перемещение."
-
-"boss_name_1" "Галактическая Фея"
-"boss_name_2" "Богиня Аква"
-"boss_name_3" "Древний Воин"
-"boss_name_4" "Сингулярность"
-"boss_name_5" "Маг Земли"
-"boss_name_6" "Повелителем Вселенной"
-
 
 
 /// Р У Н Ы ///
@@ -5539,6 +5516,7 @@
 		"npc_dota_hero_void_spirit_race"        "Раса - とうほう"
 		"npc_dota_hero_antimage_race"        	"Раса - Asgard"
 		"npc_dota_hero_dawnbreaker_race"        "Раса - Asgard"
+		"npc_dota_hero_pudge_race"        		"Раса - Meat Mage"
 
 
 		"dota_tooltip_ability_damage_resist_angelic" 						"Ангельская защита"
@@ -5784,7 +5762,7 @@
 	"task_vote_boss_b_4" "Босса Сингулярность"
 	"task_vote_boss_b_5" "Босса Маг Земли"
 	"task_vote_boss_b_6" "Повелителя Вселенной"
-	"task_vote_boss_b_7" "Босса ?????????"
+	"task_vote_boss_b_7" "Босса Куруми"
 
 
 	"info_player_open"		"Открыть"
@@ -6010,28 +5988,60 @@
 		"DOTA_Tooltip_ability_item_magician_ring_tooltip_max_cd"				"%Максимальное снижение перезарядки:"
 		"DOTA_Tooltip_modifier_item_magician_ring_buff"							"Волшебное кольцо"
 
-
-		/// С Л У Ч А Й Н Ы Е  Б О С С Ы ///
-
-            "npc_universal_boss_t72"		"T-72"
-            "npc_universal_boss_emiliya"	"Эмилия" 
-            "npc_universal_boss_a10"		"F-16 Fighting Falcon"
-            "npc_universal_boss_yumemi"		"Yumemi Okazaki"
-			"npc_universal_boss_clown"		"Клоун"
-			"npc_universal_boss_sniper"		"Ынайпер"
-			"npc_universal_boss_viktor"		"Виктор"
-
-
 			/// К Р У П Н Ы Е  Б О С С Ы ///
 
-					
-			"npc_universal_boss_dark_willow"	"Фея"
-			"npc_universal_boss_aqua"			"Богиня Аква"
-			"npc_universal_boss_ancient_voin"	"Древний Воин"
-			"npc_universal_boss_puck"			"Сингулярность"
-			"npc_universal_boss_magzemli"		"Маг Земли"
-			"npc_universal_boss_fura"			"Повелитель Вселенной"
-			"npc_universal_boss_secret"			"Куруми"
+			"boss_1" "Детишки обожают рассказывать о чудных похождениях феечек... Ах, если бы они знали, что многие феи — просто коварные гадины!"
+			"boss_2" "Мобильная крепость Разрушитель блуждала по миру не один десяток лет и уничтожила не один город."
+			"boss_3" "То, что другие называют волей, есть сила внутри нас самих. Это не мысль, не предмет, не желание.Воля – это то, что заставляет меня побеждать, когда мой рассудок говорит мне, что я повержен."
+			"boss_4" "Чтобы заглянуть на миллионы лет назад, не нужно машины времени, — достаточно поднять голову и посмотреть на звезды. Меня ужасает вечное безмолвие этих пространств."
+			"boss_5" "Все пути однажды приведут к концу. Не стоит торопиться. Прошлое – призрак, будущее – мечта, и все, что у нас есть, – это настоящее."
+			"boss_6" "Знаете ли вы, что в это самое мгновение вы окружены вечностью? И знаете ли вы, что можете воспользоваться этой вечностью, если только пожелаете?"
+			"boss_7" "Тридцать лет назад Первый Дух появился на Земле и стал порождением других духов. Моя цель — убить его. Я хочу увидеть, как Бог воспримет глупую безрассудную попытку изменить мир."
+
+			"boss_name_1" "Миреска Ветреная"
+			"boss_name_2" "Аква"
+			"boss_name_3" "Древний Воин"
+			"boss_name_4" "Сингулярность"
+			"boss_name_5" "Маг Земли"
+			"boss_name_6" "Повелителем Вселенной"
+			"boss_name_7" "Tokisaki Kurumi"
+
+			"npc_universal_boss_dark_willow"						"Миреска Ветреная"
+			"npc_universal_boss_dark_willow_text"					"Insidious Reptile"
+			"npc_universal_boss_dark_willow_text_1"					"Детишки обожают рассказывать о чудных похождениях феечек... Ах, если бы они знали, что многие феи — просто коварные гадины!"
+			"npc_universal_boss_dark_willow_text_1_2"				"А в их коварном мире немногие похвастаются такой дурной славой, как я Миреска Ветреная."
+			
+			"npc_universal_boss_aqua"								"Аква"
+			"npc_universal_boss_aqua_text"							"Axel's Best Healer"
+			"npc_universal_boss_aqua_text_1"						"Мобильная крепость Разрушитель блуждала по миру не один десяток лет и уничтожила не один город."
+			"npc_universal_boss_aqua_text_1_2"						"Но только я Богиня Аква, смогла уничтожить её магический барьер."
+			
+			"npc_universal_boss_ancient_voin"						"Древний Воин"
+			"npc_universal_boss_ancient_voin_text"					"Forgotten Warrior Anquietas"
+			"npc_universal_boss_ancient_voin_text_1"				"То, что другие называют волей, есть сила внутри нас самих. Это не мысль, не предмет, не желание."
+			"npc_universal_boss_ancient_voin_text_1_2"				"Воля – это то, что заставляет меня побеждать, когда мой рассудок говорит мне, что я повержен."
+			
+			"npc_universal_boss_puck"								"Сингулярность"
+			"npc_universal_boss_puck_text"							"The beginning of a new story"
+			"npc_universal_boss_puck_text_1"						"Чтобы заглянуть на миллионы лет назад, не нужно машины времени, — достаточно поднять голову и посмотреть на звезды."
+			"npc_universal_boss_puck_text_1_2"						"Меня ужасает вечное безмолвие этих пространств."
+			
+			"npc_universal_boss_magzemli"							"Маг Земли"
+			"npc_universal_boss_magzemli_text"						"The God of History"
+			"npc_universal_boss_magzemli_text_1"					"Все пути однажды приведут к концу. Не стоит торопиться."
+			"npc_universal_boss_magzemli_text_1_2"					"Прошлое – призрак, будущее – мечта, и все, что у нас есть, – это настоящее."
+			
+			"npc_universal_boss_fura"								"Повелитель Вселенной"
+			"npc_universal_boss_fura_text"							"Guardian of Time and Consciousness"
+			"npc_universal_boss_fura_text_1"						"Знаете ли вы, что в это самое мгновение вы окружены вечностью?"
+			"npc_universal_boss_fura_text_1_2"						"И знаете ли вы, что можете воспользоваться этой вечностью, если только пожелаете?"
+			
+			"npc_universal_boss_secret"								"Куруми"
+			"npc_universal_boss_secret_text"						"Nightmare"		
+			"npc_universal_boss_secret_text_1"						"Похоже, ты очень уверен в собственных силах. Эта самонадеянность тебя погубит."
+			"npc_universal_boss_secret_text_1_2"					"Только я подумала, что нашла достойного противника, и тут такое разочарование... Для тебя даже попасть в ад недостаточно."
+			
+			
 
 
 		/// О П И С А Н И Я  П А Н Е Л Е Й ///
@@ -6052,6 +6062,8 @@
 		"DOTA_Tooltip_ability_item_dark_point_Description"		"Даёт GU-Coins."
 		"DOTA_Tooltip_ability_item_primogem"					"Переплетающиеся Судьбы"
 		"DOTA_Tooltip_ability_item_primogem_Description"		"Вы получите 1 прокрутку для стандартного банера _История Андромеды_"
+		"DOTA_Tooltip_ability_item_unknown"					"Неизвестность"
+		"DOTA_Tooltip_ability_item_unknown_Description"		"Никто не знает что вы получите..."
 
 
 		/// З А Г Р У З К А ... ///
@@ -6561,15 +6573,6 @@
 		"andromeda_repli_37" "О НЕТ КАК ЖЕ ТАК? Вам очень повезло что у меня есть технология воскрешения!!!"
 		"andromeda_repli_38" "Вы можете улучшить мою технологию воскрешения, для этого получите с босса «Повелитель Вселенной» предмет «Раскол Галактики»"
 		"andromeda_repli_39" "Но всё же я вас ОЧЕНЬ прошу не допускайте моей смерти моя жизненная сила не безграничная."
-
-		"boss_1_repli" ""
-		"boss_2_repli" ""
-		"boss_3_repli" ""
-		"boss_4_repli" ""
-		"boss_5_repli" ""
-		"boss_6_repli" ""
-
-
 
 		"lore_qvest_main"	"Получено новое задание!<br> «Оборона Андромеды»"
 		"lore_qvest_boss"	"Получено новое задание!<br> «Убийство Босса»"
@@ -7357,6 +7360,74 @@
 
 		"Milky_Way"		"Задание: Случайный адрес Млечный Путь"
 		"Pegasus"		"Задание: Случайный адрес Пегас"
+
+		"boss_error_1"	"У вас уже есть активная битва с боссом!!!"
+		"boss_error_2"	"Битва с боссом проиграна, попытайтесь позже!"
+		"stargate_event"	"Внимание входящий гипертунель!"
+		"stargate_error_1" 	"Наборное устройство не найденно!"
+		"stargate_error_2" 	"Звёздные врата не найденны!"
+
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom"									"Грозовое Копьё"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_bonus_as"								"+к скорости атаки:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2"									"Грозовое Копьё 2"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_bonus_as"								"+к скорости атаки:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3"									"Грозовое Копьё 3"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_bonus_as"								"+к скорости атаки:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4"									"Грозовое Копьё 4"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_bonus_as"								"+к скорости атаки:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5"									"Грозовое Копьё 5"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_as"								"+к скорости атаки:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir"										"Ядро Погоды"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_as"								"+к скорости атаки:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2"									"Ядро Погоды 2"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_as"								"+к скорости атаки:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3"									"Ядро Погоды 3"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"								"+к скорости атаки:"
+
+
+ 		"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"						"Ядро Погоды Щит"
+
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"									"Рецепт Cuirasse of Universe"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Уникальный предмет, который можно получить, убив босса Повелитель Вселенной<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe"									"Cuirasse of Universe"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"+к урону:"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"+к скорости атаки:"
+
+
+		"sound_set"			"Звуковой пакет установлен!"
+		"sound_no"			"Данного пака не существует!"
+
+
+
+
+
+
 }
 
 
