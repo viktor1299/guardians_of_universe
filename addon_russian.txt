@@ -1168,7 +1168,8 @@
         "DOTA_Tooltip_ability_aqua_heal"                                                        "Святое исцеление Аквы"
         "DOTA_Tooltip_ability_aqua_heal_Description"                                            "Запускает исцеление выбранного союзника или себя, изначально восстанавливает здоровья, нанося противникам вокруг равнозначный лечению."
         "DOTA_Tooltip_ability_aqua_heal_heal_radius"                                            "Радиус: "
-        "DOTA_Tooltip_ability_aqua_heal_heal_damage"                                            "Лечение/Урон: "
+        "DOTA_Tooltip_ability_aqua_heal_heal_damage"                                            "Урон: "
+		"DOTA_Tooltip_ability_aqua_heal_heal"                                            		"Лечение: "
         "DOTA_Tooltip_ability_aqua_heal_heal_multi"                                             "Множитель интеллекта: "
 	
 		
@@ -2419,8 +2420,8 @@
 		"DOTA_Tooltip_modifier_avalon_illiya"	"Авалон"
 		"DOTA_Tooltip_modifier_avalon_illiya_Description"	""
 		
-		"DOTA_Tooltip_ability_uninstall"	"Сброс"
-		"DOTA_Tooltip_ability_uninstall_Description"	"Возвращает героя к исходному состоянию для выбора другой формы."
+		"DOTA_Tooltip_ability_uninstall"				"Сброс"
+		"DOTA_Tooltip_ability_uninstall_Description"	"Возвращает героя к исходному состоянию для выбора другой формы. <br><br> <font color='#fc0303'>Не работает в прологе, при битве с боссом(мировым) а также в концовке игры!</font> </h1>"
 		
 		"DOTA_Tooltip_ability_Gae_Bolg"						"Gáe Bulg"
 		"DOTA_Tooltip_ability_Gae_Bolg_Description"			"За каждый удар потребляет %mana% маны и наносит дополнительный урон в размере %damage%, данным ударом невозможно промахнутся."
@@ -4250,7 +4251,7 @@
 
 		///Пока не наносит урон///
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients"              		"Заряженная Магическая Коса"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 				"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев." 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 				"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_spell_amp_pct" 				"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_cast_range_bonus" 			"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_attack_range" 			"+к дальности атаки: "  
@@ -4259,7 +4260,7 @@
 
 		///Пока не наносит урон///
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2"              		"Заряженная Магическая Коса 2"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 			"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев." 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 			"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_spell_amp_pct" 				"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_cast_range_bonus" 			"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_attack_range" 		"+к дальности атаки:" 
@@ -4268,7 +4269,7 @@
 
 		///Пока не наносит урон///
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3"              		"Коса Смерти"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_Description" 			"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев." 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_Description" 			"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_spell_amp_pct" 				"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_cast_range_bonus" 			"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_attack_range" 		"+к дальности атаки: "  
@@ -4276,7 +4277,7 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_strength" 			"+ко всем атрибутам:"   
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4"              		"Проклятая Коса Смерти"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_Description" 			"<h1>Активируемая: Дезинтеграция</h1> Призывает Жнеца на каждого юнита в радиусе 500, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев." 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_Description" 			"<h1>Активируемая: Дезинтеграция</h1> Призывает Жнеца на каждого юнита в радиусе 500, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_spell_amp_pct" 				"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_cast_range_bonus" 			"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_attack_range" 		"+к дальности атаки: "  
@@ -4416,31 +4417,31 @@
 
 		
 		"DOTA_Tooltip_Ability_item_magidesolator"						"Магическая Коса "
-		"DOTA_Tooltip_Ability_item_magidesolator_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности, по всем врагам в радиусе вашей атаки будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%%."
+		"DOTA_Tooltip_Ability_item_magidesolator_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности и если предмет не в перезарядке, по всем врагам в радиусе 1200 будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%% на %dl% сек"
 		"DOTA_Tooltip_Ability_item_magidesolator_bonus_mana"				"+к мане "
 		"DOTA_Tooltip_Ability_item_magidesolator_mana_regen"				"+к восстановлению маны "
 		"DOTA_Tooltip_Ability_item_magidesolator_amp"						"+% к урону от заклинаний: "
 
 		"DOTA_Tooltip_Ability_item_magidesolator2"						"Магическая Коса 2"
-		"DOTA_Tooltip_Ability_item_magidesolator2_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности, по всем врагам в радиусе вашей атаки будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%%."
+		"DOTA_Tooltip_Ability_item_magidesolator2_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности и если предмет не в перезарядке, по всем врагам в радиусе 1200 будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%% на %dl% сек"
 		"DOTA_Tooltip_Ability_item_magidesolator2_bonus_mana"				"+к мане "
 		"DOTA_Tooltip_Ability_item_magidesolator2_mana_regen"				"+к восстановлению маны "
 		"DOTA_Tooltip_Ability_item_magidesolator2_amp"						"+% к урону от заклинаний: "
 
 		"DOTA_Tooltip_Ability_item_magidesolator3"						"Магическая Коса 3"
-		"DOTA_Tooltip_Ability_item_magidesolator3_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности, по всем врагам в радиусе вашей атаки будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%%."
+		"DOTA_Tooltip_Ability_item_magidesolator3_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности и если предмет не в перезарядке, по всем врагам в радиусе 1200 будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%% на %dl% сек"
 		"DOTA_Tooltip_Ability_item_magidesolator3_bonus_mana"				"+к мане "
 		"DOTA_Tooltip_Ability_item_magidesolator3_mana_regen"				"+к восстановлению маны "
 		"DOTA_Tooltip_Ability_item_magidesolator3_amp"						"+% к урону от заклинаний: "
 
 		"DOTA_Tooltip_Ability_item_magidesolator4"						"Магическая Коса 4"
-		"DOTA_Tooltip_Ability_item_magidesolator4_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности, по всем врагам в радиусе вашей атаки будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%%."
+		"DOTA_Tooltip_Ability_item_magidesolator4_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности и если предмет не в перезарядке, по всем врагам в радиусе 1200 будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%% на %dl% сек"
 		"DOTA_Tooltip_Ability_item_magidesolator4_bonus_mana"				"+к мане "
 		"DOTA_Tooltip_Ability_item_magidesolator4_mana_regen"				"+к восстановлению маны "
 		"DOTA_Tooltip_Ability_item_magidesolator4_amp"						"+% к урону от заклинаний: "
 
 		"DOTA_Tooltip_Ability_item_magidesolator5"						"Магическая Коса 5"
-		"DOTA_Tooltip_Ability_item_magidesolator5_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности, по всем врагам в радиусе вашей атаки будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%%."
+		"DOTA_Tooltip_Ability_item_magidesolator5_Description"			"<h1>Пассивная: Высвобождение Энергии</h1> При использовании любой способности и если предмет не в перезарядке, по всем врагам в радиусе 1200 будет выпущем заряд, снижающий магическое сопротивление цели на %corruption_mag%% на %dl% сек"
 		"DOTA_Tooltip_Ability_item_magidesolator5_bonus_mana"				"+к мане "
 		"DOTA_Tooltip_Ability_item_magidesolator5_mana_regen"				"+к восстановлению маны "
 		"DOTA_Tooltip_Ability_item_magidesolator5_amp"						"+% к урону от заклинаний: "
@@ -4481,49 +4482,49 @@
 	
 		
         "DOTA_Tooltip_ability_item_quibbela"              "Камень Опыта"
-        "DOTA_Tooltip_ability_item_quibbela_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela_mana"  				"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela_mana_regen"			"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela2"              "Камень Опыта 2"
-        "DOTA_Tooltip_ability_item_quibbela2_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela2_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela2_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela2_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela2_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela2_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela3"              "Камень Опыта 3"
-        "DOTA_Tooltip_ability_item_quibbela3_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela3_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela3_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela3_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela3_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela3_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela4"              "Камень Опыта 4"
-        "DOTA_Tooltip_ability_item_quibbela4_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela4_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela4_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela4_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela4_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela4_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela5"              "Камень Опыта 5"
-        "DOTA_Tooltip_ability_item_quibbela5_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela5_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela5_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela5_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela5_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela5_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela6"              "Камень Опыта 6"
-        "DOTA_Tooltip_ability_item_quibbela6_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+        "DOTA_Tooltip_ability_item_quibbela6_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
         "DOTA_Tooltip_ability_item_quibbela6_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela6_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela6_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela6_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela7"              "Камень Опыта 7"
-        "DOTA_Tooltip_ability_item_quibbela7_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <br><br><font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+        "DOTA_Tooltip_ability_item_quibbela7_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
         "DOTA_Tooltip_ability_item_quibbela7_Lore"           "Подобный Камень Опыта использовал Повелитель Вселенной в своих эксперементах по перемещению во времени."
         "DOTA_Tooltip_ability_item_quibbela7_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela7_mana"  			"+к мане "
@@ -7148,8 +7149,49 @@
 		"npc_dota_hero_elder_titan_t6"		"Улучшает - третью способность! <br><br>Уменьшает перезарядку до 0.5 сек."
 
 
+		"npc_dota_hero_storm_spirit_t2_name"		"-「Blood-red Cross」_-"
+		"npc_dota_hero_storm_spirit_t2"		"Улучшает - первую способность! <br><br>При попадании по врагу во время полёта креста, оглашает цель на 3 секунды."
+		"npc_dota_hero_storm_spirit_t3_name"		"-「Self-division」_-"
+		"npc_dota_hero_storm_spirit_t3"		"Улучшает - кресты! <br><br>При уничтожении креста, востанавливает Юмеми полное здоровье."
+		"npc_dota_hero_storm_spirit_t4_name"		"-「Grand Unified Theorem」_-"
+		"npc_dota_hero_storm_spirit_t4"		"Улучшает - третью способность! <br><br>Каждый крест будет давать дополнительно 3 стака пассивки!."
+		"npc_dota_hero_storm_spirit_t5_name"		"-「Nuclear warhead」_-"
+		"npc_dota_hero_storm_spirit_t5"		"Улучшает - четвёртую способность! <br><br>Увеличивает наносимый урон в 4 раза а также длительность стана до 10 секунд."
+		"npc_dota_hero_storm_spirit_t6_name"		"-「Space ship」_-"
+		"npc_dota_hero_storm_spirit_t6"		"Добавляет новую способность! <br><br>Вы сможете использовать вторую способность - 「The possibility of space ship」."
 
+		"npc_dota_hero_obsidian_destroyer_t2_name"		"-「Излучатель」_-"
+		"npc_dota_hero_obsidian_destroyer_t2"		"Улучшает - первую способность! <br><br>Уменьшает перезарядку до 8 секунд (предметы на уменьшение перезарядки не работают!)."
+		"npc_dota_hero_obsidian_destroyer_t3_name"		"-「Сдвиг」_-"
+		"npc_dota_hero_obsidian_destroyer_t3"		"Улучшает - вторую способность! <br><br>Уменьшает перезарядку до 3 секунд (предметы на уменьшение перезарядки не работают!)."
+		"npc_dota_hero_obsidian_destroyer_t4_name"		"-「Невмешательство」_-"
+		"npc_dota_hero_obsidian_destroyer_t4"		"Улучшает - третью способность! <br><br>Увеличивает отражаемый урон в 2.5 раза."
+		"npc_dota_hero_obsidian_destroyer_t5_name"		"-「Знания Древних」_-"
+		"npc_dota_hero_obsidian_destroyer_t5"		"Улучшает - четвертую способность! <br><br>Уменьшает перезарядку до 30 секунд а также с шансом в 17% может дать х3 характеристик."
+		"npc_dota_hero_obsidian_destroyer_t6_name"		"-「Познание」_-"
+		"npc_dota_hero_obsidian_destroyer_t6"		"Улучшает - героя! <br><br>Убирает ограничение по урону у первой способности а также по дальности блинка у второй."
+		
+		"npc_dota_hero_furion_t2_name"		"-「Ифрит」_-"
+		"npc_dota_hero_furion_t2"		"Улучшает - первую способность! <br><br>Увеличивает урон в секунду в 2 раза а также длительность горения в 4 раза."
+		"npc_dota_hero_furion_t3_name"		"-「Адское Пламя」_-"
+		"npc_dota_hero_furion_t3"		"Улучшает - вторую способность! <br><br>Увеличивает длительность в 4 раза."
+		"npc_dota_hero_furion_t4_name"		"-「Ярость」_-"
+		"npc_dota_hero_furion_t4"		"Улучшает - третью способность! <br><br>Наносит дополнительный урон который равен запасу вашей маны."
+		"npc_dota_hero_furion_t5_name"		"-「Мегиддо」_-"
+		"npc_dota_hero_furion_t5"		"Улучшает - четвёртую способность! <br><br>Уменьшает перезарядку до 15 секунд а также увеличивает урон в 4 раза."
+		"npc_dota_hero_furion_t6_name"		"-「Орхидея」_-"
+		"npc_dota_hero_furion_t6"		"Улучшает - третью способность! <br><br>Мана за эдиницу урона уменьшена до 0.5"
 
+		"npc_dota_hero_bounty_hunter_t2_name"		"-「Кик!」_-"
+		"npc_dota_hero_bounty_hunter_t2"		"Улучшает - первую способность! <br><br>Увеличивает скорость полёта до 10000"
+		"npc_dota_hero_bounty_hunter_t3_name"		"-「Телепорт」_-"
+		"npc_dota_hero_bounty_hunter_t3"		"Улучшает - вторую способность! <br><br>Теперь в точке прижка все враги будут обездвижены на 5 секунд."
+		"npc_dota_hero_bounty_hunter_t4_name"		"-「Клинок」_-"	
+		"npc_dota_hero_bounty_hunter_t4"		"Улучшает - третью способность! <br><br>Увеличивает дополнительный урон и скорость атаки в 4 раза."
+		"npc_dota_hero_bounty_hunter_t5_name"		"-「Гибрид」_-"	
+		"npc_dota_hero_bounty_hunter_t5"		"Улучшает - шестую способность! <br><br>Увеличивает урон в 4 раза."
+		"npc_dota_hero_bounty_hunter_t6_name"		"-「Познание」_-"	
+		"npc_dota_hero_bounty_hunter_t6"		"Улучшает - шестую способность! <br><br>Интервал равен 0.1."
 
 
 
@@ -7361,11 +7403,16 @@
 		"Milky_Way"		"Задание: Случайный адрес Млечный Путь"
 		"Pegasus"		"Задание: Случайный адрес Пегас"
 
-		"boss_error_1"	"У вас уже есть активная битва с боссом!!!"
-		"boss_error_2"	"Битва с боссом проиграна, попытайтесь позже!"
+		"boss_error_1"		"У вас уже есть активная битва с боссом!!!"
+		"boss_error_2"		"Битва с боссом проиграна, попытайтесь позже!"
+		"boss_error_3"		"Вы исчерпали кол-во доступных попыток!"
 		"stargate_event"	"Внимание входящий гипертунель!"
 		"stargate_error_1" 	"Наборное устройство не найденно!"
 		"stargate_error_2" 	"Звёздные врата не найденны!"
+
+		"boss_help"			"_Правила Босс Арены_<br><br>
+		На убийство босса вам дано 2 попытки каждый раунд, если вы побеждаете, то заново призвать его можно только в следующем раунде, потеря жизни либо любой другой способ поломать систему, отслеживается и в случае злоупотребления игрок будет наказан.<br><br>
+		При успешном старте битвы с боссом текущий раунд будет обнулён, после победы либо поражения вы будете автоматически перемещены на базу и текущий раунд будет перезапущен но с одним изменением - за убитых мобов вы не будете получать золото и опыт."
 
 
 		"DOTA_Tooltip_ability_item_gu_maelstrom"									"Грозовое Копьё"
@@ -7419,11 +7466,46 @@
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"+к урону:"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"+к скорости атаки:"
 
-
 		"sound_set"			"Звуковой пакет установлен!"
 		"sound_no"			"Данного пака не существует!"
+		"round_timer_big"		"Бесконечность"
 
+		"andromeda_gate_event_1" "Внимание! У нас входящий гипертуннель!..."
+		"andromeda_gate_event_2" "Это союзный MQ-9 Predator! Нам прислали его для обеспечения поддержка с воздуха!"
+		"andromeda_gate_event_3" "Теперь вам доступна поддержка беспилотника, для того чтобы использовать её - нажмите на иконку возле миникарты и укажите цель для атаки!"
+		"andromeda_gate_event_4" "Оверлорд прикройте наших ребят!"
 
+		"protagonist_name_3"  		"Оверлорд"
+		"overlord_repli_1"			"Это Оверлорд, вас понял! Удачи, отбой!"
+		"overlord_repli_2"			"Ракета воздух-земля готова!"
+		"overlord_repli_hit_1"			"Больше 5 точных попаданий! Молодец Хантер-два-один"
+		"overlord_repli_hit_2"			"Как ты их! Молодец!"
+		"overlord_repli_hit_3"			"Прямое попадание Хантер-два-один, не сбавляй темп!"
+		"overlord_repli_hit_4"			"Готов!"
+		"overlord_repli_hit_5"			"Так похоже здесь 5... нет 10 убитых! Так держать!" 
+		"overlord_repli_hit_6"			"Ого! Ещё как минимум 10 убитых. Отлично!"
+
+		"overlord_repli_ready_1"			"Ракета воздух-земля готова!"
+		"overlord_repli_ready_2"			"Хантер-два-один, ракета воздух-земля готова!"
+
+		"gu_strike"						"Mq-9 Predator<br><br>
+		Позволяет использовать союзный беспилотник для уничтожения вражеских существ<br>
+		Характеристики:<br>
+		Дальность поражения: неограничена<br>
+		Скорость полёта ракет: 5000<br>
+		Радиус захвата целей: 2000<br>
+		Урон: 100% от здоровья<br>
+		<br>
+		Ограничения:<br>
+		Не работает на мировых боссов.<br>
+		Перезарядка 60 секунд.<br>
+		Может использовать 1 игрок, после чего у всех остальных уйдёт на перезарядку."
+
+		
+		"overlord_random_repli_1"	"Хантер-два-один, 15 бойцов противника направляються к вам с севера, приём!"
+		"overlord_random_repli_2"	"Хантер-два-один, это Оверлорд. 20 бойцов противника, подходят с юго-востока. Приём"
+		"overlord_random_repli_3"	"Хантер-два-один, Голиаф-один засёк патруль на юго-востоке от вас. Приём"
+		"overlord_random_repli_4"	"Хантер-два-один, это Оверлорд. К северу от вас замечено большое скопление сил противника. Приём"
 
 
 
