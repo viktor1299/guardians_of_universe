@@ -3033,12 +3033,12 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_ability_item_diamondos2_pizda" "All stats:"
  
  
-  		 "DOTA_Tooltip_Ability_item_desolatorsbot"						"Bot's desolator"
-		"DOTA_Tooltip_Ability_item_desolatorsbot_Description"			"Passive: your attacks reduce enemy armor for 15 seconds."
-		"DOTA_Tooltip_Ability_item_desolatorsbot_bonus_damage"			"Damage: "
-		"DOTA_Tooltip_Ability_item_desolatorsbot_corruption_armor"		"Armor reduction:"
-		"DOTA_Tooltip_modifier_item_desolatorsbot_armor"						"Annigilation"
-		"DOTA_Tooltip_modifier_item_desolatorsbot_armor_Description"			"Armor is reduced by 40."
+  		 "DOTA_Tooltip_Ability_item_desolators12"						"Desolator of devastation"
+		"DOTA_Tooltip_Ability_item_desolators12_Description"			"Passive: your attacks reduce enemy armor for 15 seconds."
+		"DOTA_Tooltip_Ability_item_desolators12_bonus_damage"			"Damage: "
+		"DOTA_Tooltip_Ability_item_desolators12_corruption_armor"		"Armor reduction:"
+		"DOTA_Tooltip_Ability_item_desolators12_armor"						"Annigilation"
+		"DOTA_Tooltip_Ability_item_desolators12_armor_Description"			"Armor is reduced by 40."
  
  
  "DOTA_Tooltip_modifier_item_desolator_datadriven_corruption2" "Armor is reduced by 5000"
@@ -3089,7 +3089,12 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_ability_item_daedalus4_bonus_damage" "Damage:"
  "DOTA_Tooltip_ability_item_daedalus4_critical_chance"                               "Crit chance: (%)"
  
- 
+ "DOTA_Tooltip_ability_item_daedalus11"                                                               "Lost Daedalus"
+		"DOTA_Tooltip_ability_item_daedalus11_Description"                                           "Deals critical damage."
+		"DOTA_Tooltip_ability_item_daedalus11_Lore"                                                  "It was lost during the first battle for Andromeda 3 years ago."
+		"DOTA_Tooltip_ability_item_daedalus11_critical_bonus"                					"Critical damage: (%)"
+		"DOTA_Tooltip_ability_item_daedalus11_bonus_damage"                                  	"Damage: "
+		"DOTA_Tooltip_ability_item_daedalus11_critical_chance"                               	"Critical chance: (%)"
  
  
  
@@ -5010,7 +5015,7 @@ Active"
 "ad_5" "Easy Forest"
 "ad_6" "Hard Forest"
 "ad_7" "Absurd Forest"
-"ad_8" "Boss Arena"
+"ad_8" "Prologue «R3H-439»
 "ad_9" "Pegasus
 Contract"
 "ad_10" ""
@@ -5920,14 +5925,14 @@ They can use autodialling without energy loss."
 		"andromeda_repli_8" "Let us get down to business!"
 		"andromeda_repli_9" "I found out that they attack in waves of 40 units, 24 of which are melee attack type and 16 are mages."
 		"andromeda_repli_10" "Also the longer we hold defense, the stronger enemy gets, their supply growth and they receive new abilities and items."
-		"andromeda_repli_11" "Until you don't get strong enough, we won't be able to attack their planet and end the war."
+		"andromeda_repli_11" "There many hidden treasures on my and other planets! Buy the «Goa'uld treasure compas» item to find them!"
 		"andromeda_repli_12" "You can use my Stargate to travel across locations which will let you get stronger!"
 		"andromeda_repli_13" "Press on the dialling device which you can find near the Stargate to dial an address."
 		"andromeda_repli_14" "Also you have access to computer powered auto-dialling. It is good that my technologies allow that."
 		"andromeda_repli_15" "Press on buttons «Profile»-«Stargate» to use auto-dialling."
 		"andromeda_repli_16" "I have data that only 10% of players have found profile's button, I hope you are not in other 90% ?"
-		"andromeda_repli_17" "I think it is enough information to think about. I will help you during the game."
-		"andromeda_repli_18" "While you are at it I will examine their planet to find out what will wait us there."
+		"andromeda_repli_17" "I have sent a signal to your planet and soon Overlord will come to provide air support."
+		"andromeda_repli_18" "I will help throught the game with advice. Good luck!"
 		"andromeda_repli_19" "Splendid! You lasted for 7 waves and now you can fight with bosses!"
 		"andromeda_repli_20" "To summon a boss you need to press buttons : «Profile» - «Bosses»"
 		"andromeda_repli_21" "After you kill any boss I will get their power concentrated in an item they defend, I can get only 1 item from one boss!"
@@ -5957,6 +5962,32 @@ They can use autodialling without energy loss."
 		"boss_5_repli" ""
 		"boss_6_repli" ""
 
+		"gu_strike_cobra"						"AH-1Z Super Cobra<br><br>
+		Sends a request for an immediate air support, it there are forces at disposal, then 2 helicopters will fly to your location and help in defending Andromeda<br>
+		Specifications:<br>
+		Arrival delay: 2-5 minutes<br>
+		Armament: 1800 rounds for 20mm cannon, 8 air-to-ground rockets, 4 TOW launchers<br>
+		Effective Range: 1200<br>
+		Damage: 20% of maximal health<br>
+		Duration: 300 сек<br>
+		<br>
+		Limitations:<br>
+		Follows predermined route.<br>
+		Cooldown 600 seconds.<br>
+		If used by a player, it will start cooling down and all players will not be able to use it for the time."
+
+		"gu_uav"						"UAV<br><br>
+		On activation, marks all enemy units on the map, who will be fired at by an MQ-9 Predator after 30 seconds (if there you have one)<br>
+		Specifications:<br>
+		Scan radius: 30.000<br>
+		Bombardment delay: 30<br>
+		Damage: 70% of maximal health<br>
+		<br>
+		Limitations:<br>
+		Does not work without MQ-9 Predator UAV.<br>
+		Does not affect bosses.<br>
+		Cooldown 120 секунд.<br>
+		If used by a player, it will start cooling down and all players will not be able to use it for the time."
 
 
 		"lore_qvest_main"	"New quest!<br> «Andromeda's Defense»"
@@ -6043,7 +6074,7 @@ They can use autodialling without energy loss."
 		"end_game_title_3" "«Solo_Mag» - Russian Localization, head tester."
 		"end_game_title_4" "«Nepgear» - tester, idea generator."
 		"end_game_title_5" "«MarkStringGolf» - tester, project supporter."
-		"end_game_title_6" "«zeexst» - тестировщик, project supporter."
+		"end_game_title_6" "«zeexst» - tester, project supporter."
 		"end_game_title_7" "«TO Inc_» community - aid in development"
 		"end_game_title_8" "«Alexey» - project supporter, designer."
 		"end_game_title_9" "«AENYE//FEARID» - project supporter, coder."
@@ -6905,37 +6936,37 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"Attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_maelstrom_2"									"Thunder spear 2"
-		"DOTA_Tooltip_ability_item_gu_maelstrom_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%%  damage of owner's base damage."
 		"DOTA_Tooltip_ability_item_gu_maelstrom_2_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_maelstrom_2_bonus_as"								"Attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_maelstrom_3"									"Thunder spear 3"
-		"DOTA_Tooltip_ability_item_gu_maelstrom_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%%  damage of owner's base damage."
 		"DOTA_Tooltip_ability_item_gu_maelstrom_3_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_maelstrom_3_bonus_as"								"Attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_maelstrom_4"									"Thunder spear 4"
-		"DOTA_Tooltip_ability_item_gu_maelstrom_4_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%%  damage of owner's base damage."
 		"DOTA_Tooltip_ability_item_gu_maelstrom_4_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_maelstrom_4_bonus_as"								"Attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_maelstrom_5"									"Thunder spear 5"
-		"DOTA_Tooltip_ability_item_gu_maelstrom_5_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%%  damage of owner's base damage."
 		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_as"								"Attack speed:"
 
-		"DOTA_Tooltip_ability_item_gu_mjollnir"										"Ядро Погоды"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir"										"Weather core"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Active: Weather Shield </h1> Applies a thunder shield effect to the target. If affected unit is attacked, each %static_proc_count% successful hit will result in an lightning attack, which will deal %static_damage%%  attacker's base damage and slow them down by %static_slow% for %static_slow_duration% seconds."
 		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_as"								"Attack speed:"
 
-		"DOTA_Tooltip_ability_item_gu_mjollnir_2"									"Ядро Погоды 2"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2"									"Weather core 2"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Active: Weather Shield </h1> Applies a thunder shield effect to the target. If affected unit is attacked, each %static_proc_count% successful hit will result in an lightning attack, which will deal %static_damage%%  attacker's base damage and slow them down by %static_slow% for %static_slow_duration% seconds."
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_as"								"Attack speed:"
 
-		"DOTA_Tooltip_ability_item_gu_mjollnir_3"									"Ядро Погоды 3"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3"									"Weather core 3"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Active: Weather Shield </h1> Applies a thunder shield effect to the target. If affected unit is attacked, each %static_proc_count% successful hit will result in an lightning attack, which will deal %static_damage%%  attacker's base damage and slow them down by %static_slow% for %static_slow_duration% seconds."
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"								"Attack speed:"
 
@@ -6946,7 +6977,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Unique item, which can be abtained by killing the boss Lord of the Universe<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"									"Cuirasse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Active: Weather Shield </h1> Applies a thunder shield effect to the target. If affected unit is attacked, each %static_proc_count% successful hit will result in an lightning attack, which will deal %static_damage%%  attacker's base damage and slow them down by %static_slow% for %static_slow_duration% seconds. \n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Grants immunity to all negative weather effects (cannot be striken by a lightning, etc.) \n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「Wearing a full Universe set will grant a new ability - Destroyer of the world 」"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"Attack speed:"
 
@@ -6957,7 +6988,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"andromeda_gate_event_1" "Warning! Incoming wormhole!..."
 		"andromeda_gate_event_2" "This is ally MQ-9 Predator! We have been ordered to dispatch for air support!"
 		"andromeda_gate_event_3" "Now you have access for UAV support. To use it - press the icon near mini-map and mark targets!"
-		"andromeda_gate_event_4" "Оверлорд прикройте наших ребят!"
+		"andromeda_gate_event_4" "Overlord, cover our guys!"
 
 		"protagonist_name_3"  		"Overlord"
 		"overlord_repli_1"			"This is Overlord, roger! Good luck, out!"
@@ -6983,7 +7014,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		Limits:<br>
 		Cannot affect bosses.<br>
 		Cooldown 60 seconds.<br>
-		If used by player, it will start cooling down and all players will not be able to use it for the time."
+		If used by a player, it will start cooling down and all players will not be able to use it for the time."
 
 
 
@@ -6991,6 +7022,14 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"overlord_random_repli_2"	"Hunter-2-1, this is Overlord. 20 enemy fighters, coming from the south-east. Over."
 		"overlord_random_repli_3"	"Hunter-2-1, Goliath-1 has detected a patrol on the south-east from you. Over."
 		"overlord_random_repli_4"	"Hunter-2-1, this is Overlord. A huge concentration of enemy forces to the north. Over."
+
+		"overlord_show_uav" 		"Overlord, roger. Great. Over."
+		"andromeda_gate_uav" 		"You have successfully upgraded antennas to the maximal level, now you have access to UAV's additional ability, Overlord take command."
+		"npc_gu_crate"				"Treasure chest"
+
+
+		"DOTA_Tooltip_ability_item_gu_crate_search"									"Goa'uld treasure compas"
+		"DOTA_Tooltip_ability_item_gu_crate_search_Description"							"<h1>Active: Area scanner </h1> On activation, marks burrowed treasures within %radius% radius for 10 seconds, if there are no treasures within radius, then it go on cooldown for %cd_no_crate% seconds. If you do not manage to find the treasure within 10 seconds, then it will become invisible again and you will have to go through procedure again."
 
 }
 
