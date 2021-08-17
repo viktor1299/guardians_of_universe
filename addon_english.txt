@@ -448,7 +448,7 @@
 				"DOTA_Tooltip_ability_stargazer_gamma_ray_int_to_radius_pct" "%Intelligence into radius:" 
 				
 				
-				"DOTA_Tooltip_ability_stargazer_warp" "Astral Shift "
+				"DOTA_Tooltip_ability_stargazer_warp" "Astral Shift"
 				"DOTA_Tooltip_ability_stargazer_warp_Description" "Merlin instantly moves through space, ignoring distance, while in the form of Ascended." 
 				"DOTA_Tooltip_ability_stargazer_warp_base_range" "Base range: " 
 				"DOTA_Tooltip_ability_stargazer_warp_agi_to_range_pct" "%Agility into range: " 
@@ -1171,7 +1171,8 @@
  "DOTA_Tooltip_ability_aqua_heal" "Aqua's saint heal"
  "DOTA_Tooltip_ability_aqua_heal_Description" "Heals the selected ally or self, initially restores Health, inflicting equivalent damage to nearby enemies."
  "DOTA_Tooltip_ability_aqua_heal_heal_radius" "Radius:"
- "DOTA_Tooltip_ability_aqua_heal_heal_damage" "Healing/damage:"
+ "DOTA_Tooltip_ability_aqua_heal_heal_damage" "Damage:"
+"DOTA_Tooltip_ability_aqua_heal_heal"                                            		"Heal: "
  "DOTA_Tooltip_ability_aqua_heal_heal_multi"                                             "Intelligence multiplier: " 
  
  
@@ -2232,7 +2233,7 @@
 		"DOTA_Tooltip_modifier_avalon_illiya_Description"	""
 						
 		"DOTA_Tooltip_ability_uninstall"	"Back Up"
-		"DOTA_Tooltip_ability_uninstall_Description"	"Illya returns to magical girl form so she can choose another form."
+		"DOTA_Tooltip_ability_uninstall_Description"	"Illya returns to magical girl form so she can choose another form.<br><br> <font color='#fc0303'>Does not work during prologue, boss fight or ending!</font> </h1>"
 		
 		"DOTA_Tooltip_ability_Gae_Bolg"	"Gae Bolg"
 		"DOTA_Tooltip_ability_Gae_Bolg_Description"	"Each hit consumes %mana% mana and deals additional %damage% damage, such attacks cannot miss."
@@ -3525,7 +3526,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  
  ///Пока не наносит урон///
   "DOTA_Tooltip_ability_item_scythe_of_the_ancients" "Charged magical scythe"
-"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" "<h1>Active: Reaper</h1> Summons a Reaper, unleashing a massive burst of dark energy at an enemy hero, dealing %cast_damage% + %cast_damage_pct%%% damage and stunning it for %stun_duration% seconds. At the end of the stun, the Reaper will strike, dealing %delayed_damage_per_health% damage for each missing health point. \n <h1>Passive: The weapon of darkness</h1> When applying magic damage, also deals bonus pure damage in the amount of %magic_damage_to_pure_pct%%% of it. \n <h1>Passive: Ultimate Upgrade</h1> Improves ultimate abilities, as well as some abilities of some heroes."
+"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" "<h1>Active: Reaper</h1> Summons a Reaper, unleashing a massive burst of dark energy at an enemy hero, dealing %cast_damage% + %cast_damage_pct%%% damage and stunning it for %stun_duration% seconds. At the end of the stun, the Reaper will strike, dealing %delayed_damage_per_health% damage for each missing health point. \n <h1>Passive: The weapon of darkness</h1> When applying magic damage, also deals bonus pure damage in the amount of %magic_damage_to_pure_pct%%% of it. \n <h1>Passive: Ultimate Upgrade</h1> Improves ultimate abilities, as well as some abilities of some heroes. \n <font color='#fc0303'>Does not work during boss fights!</font>"
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_spell_amp_pct" "%Spell amplification:" 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_cast_range_bonus" "Bonus cast range:" 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_attack_range" "Bonus attack range:" 
@@ -3691,31 +3692,31 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
  "DOTA_Tooltip_Ability_item_magidesolator" "Magical scythe"
- "DOTA_Tooltip_Ability_item_magidesolator_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of 1200 will get hit by a charge that will reduce target's magical resistance by %corruption_mag%% if it is not on CD."
  When you cast any ability, you will release a charge that reduces magical resistance of targets
  "DOTA_Tooltip_Ability_item_magidesolator_bonus_mana" "Mana:"
  "DOTA_Tooltip_Ability_item_magidesolator_amp" "Spell amplification:"
  
  "DOTA_Tooltip_Ability_item_magidesolator2" "Magical scythe 2"
- "DOTA_Tooltip_Ability_item_magidesolator2_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator2_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of 1200 will get hit by a charge that will reduce target's magical resistance by %corruption_mag%% if it is not on CD."
  "DOTA_Tooltip_Ability_item_magidesolator2_bonus_mana" "Mana:"
  		"DOTA_Tooltip_Ability_item_magidesolator2_mana_regen"		"Mana regeneration:"
  "DOTA_Tooltip_Ability_item_magidesolator2_amp" "Spell amplification:"
  
  "DOTA_Tooltip_Ability_item_magidesolator3" "Magical scythe 3"
- "DOTA_Tooltip_Ability_item_magidesolator3_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator3_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of 1200 will get hit by a charge that will reduce target's magical resistance by %corruption_mag%% if it is not on CD."
  "DOTA_Tooltip_Ability_item_magidesolator3_bonus_mana" "Mana:"
  		"DOTA_Tooltip_Ability_item_magidesolator3_mana_regen"		"Mana regeneration:"
  "DOTA_Tooltip_Ability_item_magidesolator3_amp" "Spell amplification:"
  
  "DOTA_Tooltip_Ability_item_magidesolator4" "Magical scythe 4"
- "DOTA_Tooltip_Ability_item_magidesolator4_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator4_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of 1200 will get hit by a charge that will reduce target's magical resistance by %corruption_mag%% if it is not on CD."
  "DOTA_Tooltip_Ability_item_magidesolator4_bonus_mana" "Mana:"
  "DOTA_Tooltip_Ability_item_magidesolator4_mana_regen"		"Mana regeneration:"
  "DOTA_Tooltip_Ability_item_magidesolator4_amp" "Spell amplification:"
  
  "DOTA_Tooltip_Ability_item_magidesolator5" "Magical scythe 5"
- "DOTA_Tooltip_Ability_item_magidesolator5_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of your attack will release a charge that will reduce target's magical resistance by %corruption_mag%% "
+ "DOTA_Tooltip_Ability_item_magidesolator5_Description" "<h1>Passive: Release Energy</h1>  When you cast any ability, all enemies within the range of 1200 will get hit by a charge that will reduce target's magical resistance by %corruption_mag%% if it is not on CD."
  "DOTA_Tooltip_Ability_item_magidesolator5_bonus_mana" "Mana:"
  "DOTA_Tooltip_Ability_item_magidesolator5_mana_regen"		"Mana regeneration:"
  "DOTA_Tooltip_Ability_item_magidesolator5_amp" "Spell amplification:"
@@ -3755,49 +3756,49 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
  "DOTA_Tooltip_ability_item_quibbela" "Experience stone"
- "DOTA_Tooltip_ability_item_quibbela_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. Full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown's duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+ "DOTA_Tooltip_ability_item_quibbela_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. Full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown's duration. Works according to the formula exp*CD/100*100%.<font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela2" "Experience stone 2"
- "DOTA_Tooltip_ability_item_quibbela2_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+ "DOTA_Tooltip_ability_item_quibbela2_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela2_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela2_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela2_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela2_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela3" "Experience stone 3"
- "DOTA_Tooltip_ability_item_quibbela3_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. The full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+ "DOTA_Tooltip_ability_item_quibbela3_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. The full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela3_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela3_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela3_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela3_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela4" "Experience stone 4"
- "DOTA_Tooltip_ability_item_quibbela4_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown's duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+ "DOTA_Tooltip_ability_item_quibbela4_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown's duration. Works according to the formula exp*CD/100*100%.<font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela4_Lore" "Without this stone you will be useless."
  "DOTA_Tooltip_ability_item_quibbela4_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela4_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela4_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela5" "Experience stone 5"
- "DOTA_Tooltip_ability_item_quibbela5_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
+ "DOTA_Tooltip_ability_item_quibbela5_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font>"
  "DOTA_Tooltip_ability_item_quibbela5_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela5_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela5_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela5_mana_regen" "Mana regeneration:"
 
  "DOTA_Tooltip_ability_item_quibbela6" "Experience stone 6"
- "DOTA_Tooltip_ability_item_quibbela6_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font><br><br><font color='#7ee340'>Can be shared with an ally!</font>"
+ "DOTA_Tooltip_ability_item_quibbela6_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font><font color='#7ee340'>Can be shared with an ally!</font>"
  "DOTA_Tooltip_ability_item_quibbela6_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela6_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela6_mana" "Mana:"
  "DOTA_Tooltip_ability_item_quibbela6_mana_regen" "Mana regeneration:"
  
  "DOTA_Tooltip_ability_item_quibbela7" "Experience stone 7"
- "DOTA_Tooltip_ability_item_quibbela7_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<br><br><font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font><br><br><font color='#7ee340'>Can be shared with an ally!</font>"
+ "DOTA_Tooltip_ability_item_quibbela7_Description" "<h1>Experience stone</h1> Gives (%exp_per_cast% + %exp_lvl_bonus%) experience for casting abilities. A full bonus is awarded if cooldown more than 100 sec. Otherwise, less experience is given in proportion to the cooldown duration. Works according to the formula exp*CD/100*100%.<font color='#ff1100'>Item does not work during prologue and final quest and at the Boss Arena!</font><font color='#7ee340'>Can be shared with an ally!</font>"
  "DOTA_Tooltip_ability_item_quibbela7_Lore" "Without this stone, you will be useless."
  "DOTA_Tooltip_ability_item_quibbela7_int" "Intelligence:"
  "DOTA_Tooltip_ability_item_quibbela7_mana" "Mana:"
@@ -3813,26 +3814,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
 /// Ф И З И Ч Е С К И Е  П Р Е Д М Е Т Ы ///
-
-
-        "DOTA_Tooltip_ability_item_sun_core"	"Sun core"
-	    "DOTA_Tooltip_ability_item_sun_core_Description"	"<h1>Passive: Burn</h1> At %dps% intervals, deals physical damage to all enemies within %range% according to the formula %damage% + (%damage_str% * your strength).<br>Attention! This item works only for heroes with the main attribute - Strength."
-	    "DOTA_Tooltip_ability_item_sun_core_str"	"Strength:"
-		"DOTA_Tooltip_ability_item_sun_core_hp"	"HP:"
-		"DOTA_Tooltip_ability_item_sun_core_regen"	"HP regeneration:"
-
-		"DOTA_Tooltip_ability_item_sun_core_2"	"Sun core 2"
-	    "DOTA_Tooltip_ability_item_sun_core_2_Description"	"<h1>Passive: Burn</h1> At %dps% intervals, deals physical damage to all enemies within %range% according to the formula %damage% + (%damage_str% * your strength).<br>Attention! This item works only for heroes with the main attribute - Strength."
-	    "DOTA_Tooltip_ability_item_sun_core_2_str"	"Strength:"
-		"DOTA_Tooltip_ability_item_sun_core_2_hp"	"HP:"
-		"DOTA_Tooltip_ability_item_sun_core_2_regen"	"HP regeneration:"
-
-		"DOTA_Tooltip_ability_item_sun_core_3"	"Sun core 3"
-	    "DOTA_Tooltip_ability_item_sun_core_3_Description"	"<h1>Passive: Burn</h1> At %dps% intervals, deals physical damage to all enemies within %range% according to the formula %damage% + (%damage_str% * your strength).<br>Attention! This item works only for heroes with the main attribute - Strength."
-	    "DOTA_Tooltip_ability_item_sun_core_3_str"	"Strength:"
-		"DOTA_Tooltip_ability_item_sun_core_3_hp"	"HP:"
-		"DOTA_Tooltip_ability_item_sun_core_3_regen"	"HP regeneration:"
-
 
 		"DOTA_Tooltip_ability_item_cursed_stone"                                         "Cursed stone"
         "DOTA_Tooltip_ability_item_cursed_stone_Description"                           	 	"<h1>Passive:</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %attack_speed%."
@@ -4354,10 +4335,10 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_ability_item_book_of_stats_immortality" "Book by Yamamoto Tsunetomo - Samurai Codex<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
  "DOTA_Tooltip_ability_item_book_of_stats_immortality_bonus_str" "All stats:"
  
- "DOTA_Tooltip_ability_item_book_str" "Mein Kampf"
+ "DOTA_Tooltip_ability_item_book_str" "My struggle"
  "DOTA_Tooltip_ability_item_book_str_bonus_str" "Strength:"
  
- "DOTA_Tooltip_ability_item_book2_strength" "Mein Kampf"
+ "DOTA_Tooltip_ability_item_book2_strength" "My struggle"
  "DOTA_Tooltip_ability_item_book2_strength_Description" "Provides additional strength."
  "DOTA_Tooltip_ability_item_book2_strength_str_gain" "Strength:"
  
@@ -4370,10 +4351,8 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_ability_item_book_ag" "A book about Luxembourg"
  "DOTA_Tooltip_ability_item_book_ag_bonus_str" "Agility:"
  
- 
- "DOTA_Tooltip_ability_item_book2_agility" "A book about Luxembourg"
- "DOTA_Tooltip_ability_item_book2_agility_Description" "Grants additional agility."
- "DOTA_Tooltip_ability_item_book2_agility_agi_gain" "Agility:"
+  "DOTA_Tooltip_ability_item_book2_agility" "A book about Luxembourg"
+  "DOTA_Tooltip_ability_item_book2_agility_agi_gain" "Agility:"
 
 
 
@@ -5367,6 +5346,56 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "npc_universal_boss_magzemli" "Earth Mage"
 "npc_universal_boss_fura" "Overlord of the Universe"
 "npc_universal_boss_secret" "Kurumi"
+"boss_1" "Kids love telling stories about wonderful fayries' adventures... Ah, if only they knew, that most fairies - just cunning meanies!"
+			"boss_2" "Mobile fortress Destroyer has wondered world for several decade and has destroyed many cities."
+			"boss_3" "What other call will, is force within all of us. It is neither thought, item nor wish. Will - is what makes me triumph, when my sanity tells me, that I am defeated."
+			"boss_4" "You do not need a time machine to look back in time for millions of years, — you simply have to look up at stars. I am terrified by the eternal silence of those spaces."
+			"boss_5" "All roads have ends. There is no need to hurry. Past – ghost, future – dream, and everything you have – is present."
+			"boss_6" "Do you know that at this very moment you are surrounded by eternity? And do you know that you can spend this eternity however you want?"
+			"boss_7" "Thirty years ago First Spirit has appeared on Earth and bred other spirits. My goal - kill it. I want to see, how God will treat this foolish insane attempt to change the world."
+
+			"boss_name_1" "Mireska Sunbreeze"
+			"boss_name_2" "Aqua"
+			"boss_name_3" "Ancient Warrior"
+			"boss_name_4" "Singularity"
+			"boss_name_5" "Earth Mage"
+			"boss_name_6" "Overlord of the Universe"
+			"boss_name_7" "Tokisaki Kurumi"
+
+			"npc_universal_boss_dark_willow"						"Mireska Sunbreeze"
+			"npc_universal_boss_dark_willow_text"					"Insidious Reptile"
+			"npc_universal_boss_dark_willow_text_1"					"Kids love telling stories about wonderful fayries' adventures... Ah, if only they knew, that most fairies - just cunning meanies!"
+			"npc_universal_boss_dark_willow_text_1_2"				"And there are few in their cunning world, who are as infamous as I, Mireska Sunbreeze, am."
+
+			"npc_universal_boss_aqua"								"Aqua"
+			"npc_universal_boss_aqua_text"							"Axel's Best Healer"
+			"npc_universal_boss_aqua_text_1"						"Mobile fortress Destroyer has wondered world for several decade and has destroyed many cities."
+			"npc_universal_boss_aqua_text_1_2"						"But only I, Goddes Aqua, managed to destroy its magical barrier."
+
+			"npc_universal_boss_ancient_voin"						"Ancient Warrior"
+			"npc_universal_boss_ancient_voin_text"					"Forgotten Warrior Anquietas"
+			"npc_universal_boss_ancient_voin_text_1"				"What other call will, is force within all of us. It is neither thought, item nor wish."
+			"npc_universal_boss_ancient_voin_text_1_2"				"Will - is what makes me triumph, when my sanity tells me, that I am defeated."
+
+			"npc_universal_boss_puck"								"Singularity"
+			"npc_universal_boss_puck_text"							"The beginning of a new story"
+			"npc_universal_boss_puck_text_1"						"You do not need a time machine to look back in time for millions of years, — you simply have to look up at stars."
+			"npc_universal_boss_puck_text_1_2"						"I am terrified by the eternal silence of those spaces."
+
+			"npc_universal_boss_magzemli"							"Earth Mage"
+			"npc_universal_boss_magzemli_text"						"The God of History"
+			"npc_universal_boss_magzemli_text_1"					"All roads have ends. There is no need to hurry."
+			"npc_universal_boss_magzemli_text_1_2"					"Past – ghost, future – dream, and everything you have – is present."
+
+			"npc_universal_boss_fura"								"Overlord of the Universe"
+			"npc_universal_boss_fura_text"							"Guardian of Time and Consciousness"
+			"npc_universal_boss_fura_text_1"						"Do you know that at this very moment you are surrounded by eternity?"
+			"npc_universal_boss_fura_text_1_2"						"And do you know that you can spend this eternity however you want?"
+
+			"npc_universal_boss_secret"								"Куруми"
+			"npc_universal_boss_secret_text"						"Nightmare"		
+			"npc_universal_boss_secret_text_1"						"It seems, that you are confident in your powers. This overconfidence will doom you."
+			"npc_universal_boss_secret_text_1_2"					"I just thought that I've found a worthy oponent, only to meet this disappointment... Even going to hell is not enough for you."
 
 
 
@@ -5388,6 +5417,8 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "DOTA_Tooltip_ability_item_dark_point_Description"		"Gives GU-Coins."
 "DOTA_Tooltip_ability_item_primogem"					"Interwoven Fates"
 "DOTA_Tooltip_ability_item_primogem_Description"		"You will recieve one spin for the standard banner _Andromeda's Story_"
+		"DOTA_Tooltip_ability_item_unknown"					"Uncertainty"
+		"DOTA_Tooltip_ability_item_unknown_Description"		"Nobody knows what you will recieve..."
 
 
 /// З А Г Р У З К А ... ///
@@ -6315,6 +6346,97 @@ They can use autodialling without energy loss."
 				"ban_cause_4"	"You are banned! Reason: Attempting to dudos the server!"
 				"ban_cause_5"	"You are banned! Reason: You are an over-blood brat, go fuck yourself out of here to your custom Hiro Chaos and don't come back again!"
 
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1"		"Dead Sword 1"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1_description"		"<h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1_damage"		"Damage:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1_hp_regen"		"Health regenration:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_1_mana_regen"		"Mana regeneration:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2"		"Dead Sword 2"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2_description"		"<h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2_damage"		"Damage:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2_hp_regen"		"Health regenration:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_2_mana_regen"		"Mana regeneration:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3"		"Dead Sword 3"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3_description"		"<h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3_damage"		"Damage:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3_hp_regen"		"Health regenration:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_3_mana_regen"		"Mana regeneration:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4"		"Dead Sword 4"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4_description"		"<h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4_damage"		"Damage:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4_hp_regen"		"Health regenration:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_4_mana_regen"		"Mana regeneration:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5"		"Dead Fury 1"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_description"		"<h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage.\n <h1>Passive: Bash </h1>If this item is not on CD, then there is 10% and 20% chances for ranged and melee characters respectively to stun the target for %bush_duration%."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_damage"		"Damage:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_hp_regen"		"Health regenration:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_mana_regen"		"Mana regeneration:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6"		"Dead Fury 2"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_description"		"<h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage.\n <h1>Passive: Bash </h1>If this item is not on CD, then there is 10% and 20% chances for ranged and melee characters respectively to stun the target for %bush_duration%."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_damage"		"Damage:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_hp_regen"		"Health regenration:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_mana_regen"		"Mana regeneration:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7"		"Dead Fury 3"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_description"		"<h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage.\n <h1>Passive: Bash </h1>If this item is not on CD, then there is 10% and 20% chances for ranged and melee characters respectively to stun the target for %bush_duration%."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_damage"		"Damage:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_hp_regen"		"Health regenration:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"		"Mana regeneration:"
+
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8"		"Unstable Dead Fury"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"		"<h1>Active: Break World  </h1> On activation, stuns all enemy units for 1.8 - 2.2 seconds within radius of 300 \n <h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage.\n <h1>Passive: Bash </h1>If this item is not on CD, then there is 10% and 20% chances for ranged and melee characters respectively to bash the target for %bush_duration%.\n <h1>Passive: Unstable Rift </h1>There is a 17% chance to steal a random ammount of gold (1-4) from the target."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"			"Damage:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"		"Health regenration:"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"		"Mana regeneration:"
+
+
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1"		"Helm of God"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_description"		"<h1>Active: Helm of Universe  </h1> On activation, increases your base attack damage, health and armor by %mult_active%%  for 60 seconds\n  <h1>Passive: Elemental Burn </h1> Deal damage to all enemy units near the hero with 0.5 interval. Damage is based on main attribute and is calculated according to the formula - (Your main attribute * %mult%)."
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_armor"			"Armor:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_str"			"Strength:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_int"			"Intelligence:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_hp"			"Health:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_mana"			"Mana:"
+
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2"		"Helm of Anubis"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_description"		"<h1>Active: Helm of Universe  </h1> On activation, increases your base attack damage, health and armor by %mult_active%%  for 60 seconds\n  <h1>Passive: Elemental Burn </h1> Deal damage to all enemy units near the hero with 0.5 interval. Damage is based on main attribute and is calculated according to the formula - (Your main attribute * %mult%)."
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_armor"			"Armor:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_str"			"Strength:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_int"			"Intelligence:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_hp"			"Health:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_mana"			"Mana:"
+
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3"		"Helm of Universe"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_description"		"<h1>Active: Helm of Universe  </h1> On activation, increases your base attack damage, health and armor by %mult_active%%  for 60 seconds\n  <h1>Passive: Elemental Burn </h1> Deal damage to all enemy units near the hero with 0.5 interval. Damage is based on main attribute and is calculated according to the formula - (Your main attribute * %mult%) \n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「If you have full Universe set, adds a new ability - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_armor"			"Armor:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_str"			"Strength:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_int"			"Intelligence:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_hp"			"Health:"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_mana"			"Mana:"
+
+        "DOTA_Tooltip_modifier_gu_helm_of_universe_active"				"Helm of Universe"
+
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_3_r"				"Recipe Helm of Universe"
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_3_r_Description"		"Piece of the artifact, which helps you craft Helm of Universe.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
+
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_2_r"				"Recipe Helm of Anubis"
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_2_r_Description"		"Piece of the artifact, which helps you craft Helm of Anubis.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
+
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_1_r"				"Recipe Helm of God"
+		"DOTA_Tooltip_Ability_item_gu_helm_of_universe_1_r_Description"		"Piece of the artifact, which helps you craft Helm of God.<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
+
+		"pray_name"		"Universal Prayer"
+		"pray_start"		"Pray"
+
+		"hero_category_1"	"Universe"
+		"hero_category_2"	"Anime"
+		"hero_category_3"	"Armored vehicles"
+		
 		"pray_button"		"Prayer"
 		"hero_const_0"		"<font color='#6ff542'>Ascension - 0</font>"
 		"hero_const_1"		"<font color='#6ff542'>Ascension - 0</font>"
@@ -6512,7 +6634,49 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_elder_titan_t5"		"Improves - second ability! <br><br>Removes activation delay."
 		"npc_dota_hero_elder_titan_t6"		"Improves - third ability! <br><br>Reduces cooldown to 0.5 seconds."
 
+"npc_dota_hero_storm_spirit_t2_name"		"-「Blood-red Cross」_-"
+		"npc_dota_hero_storm_spirit_t2"		"Improves - first ability! <br><br>Crosses now stun enemies for 3 seconds on hits."
+		"npc_dota_hero_storm_spirit_t3_name"		"-「Self-division」_-"
+		"npc_dota_hero_storm_spirit_t3"		"Improves - crosses! <br><br>When a cross is destroyed, Yumemi will replenish all health."
+		"npc_dota_hero_storm_spirit_t4_name"		"-「Grand Unified Theorem」_-"
+		"npc_dota_hero_storm_spirit_t4"		"Improves - third ability! <br><br>Each cross gives 3 stacks of passive ability!."
+		"npc_dota_hero_storm_spirit_t5_name"		"-「Nuclear warhead」_-"
+		"npc_dota_hero_storm_spirit_t5"		"Improves - fourth ability! <br><br>Increases outcoming damage by 4 times and also increases stun's duration to 10 seconds."
+		"npc_dota_hero_storm_spirit_t6_name"		"-「Space ship」_-"
+		"npc_dota_hero_storm_spirit_t6"		"Adds new ability! <br><br>You can use seconds ability - 「The possibility of space ship」."
 
+		"npc_dota_hero_obsidian_destroyer_t2_name"		"-「Emmiter」_-"
+		"npc_dota_hero_obsidian_destroyer_t2"		"Improves - first ability! <br><br>Reduces CD to 8 seconds (CD reduction items do not affect this ability!)."
+		"npc_dota_hero_obsidian_destroyer_t3_name"		"-「Shift」_-"
+		"npc_dota_hero_obsidian_destroyer_t3"		"Improves - second ability! <br><br>Reduces CD to 3 seconds (CD reduction items do not affect this ability!)."
+		"npc_dota_hero_obsidian_destroyer_t4_name"		"-「Non-intervention」_-"
+		"npc_dota_hero_obsidian_destroyer_t4"		"Improves - third ability! <br><br>Increases reflected damage by 2.5 times."
+		"npc_dota_hero_obsidian_destroyer_t5_name"		"-「Ancients' Knowledge_-"
+		"npc_dota_hero_obsidian_destroyer_t5"		"Improves - fourth ability! <br><br>Reduces cooldown to 30 seconds and grants a 17% chance to give x3 stats."
+		"npc_dota_hero_obsidian_destroyer_t6_name"		"-「Acknowledgment」_-"
+		"npc_dota_hero_obsidian_destroyer_t6"		"Improves - hero! <br><br>Removes caps for damage and cast range of first and second abilities respectively."
+
+		"npc_dota_hero_furion_t2_name"		"-「Ifrit」_-"
+		"npc_dota_hero_furion_t2"		"Improves - first ability! <br><br>Increases damage per seconds by 2 times and burn duration by 4 times."
+		"npc_dota_hero_furion_t3_name"		"-「Hellflame」_-"
+		"npc_dota_hero_furion_t3"		"Improves - second ability! <br><br>Increases stun duration by 4 times."
+		"npc_dota_hero_furion_t4_name"		"-「Rage」_-"
+		"npc_dota_hero_furion_t4"		"Improves - third ability! <br><br>Deals additional damage based on your mana pool."
+		"npc_dota_hero_furion_t5_name"		"-「Megiddo」_-"
+		"npc_dota_hero_furion_t5"		"Improves - fourth ability! <br><br>Reduces CD to 15 seconds and also increases damage by 4 times."
+		"npc_dota_hero_furion_t6_name"		"-「Orchid」_-"
+		"npc_dota_hero_furion_t6"		"Improves - third ability! <br><br>Manacost per unit of damage is reduced to 0.5"
+
+		"npc_dota_hero_bounty_hunter_t2_name"		"-「Kick!」_-"
+		"npc_dota_hero_bounty_hunter_t2"		"Improves - first ability! <br><br>Increases flight speed to 10000"
+		"npc_dota_hero_bounty_hunter_t3_name"		"-「Teleport」_-"
+		"npc_dota_hero_bounty_hunter_t3"		"Improves - second ability! <br><br>Now all enemies near the teleportation point will be rooted for 5 seconds."
+		"npc_dota_hero_bounty_hunter_t4_name"		"-「Blade」_-"	
+		"npc_dota_hero_bounty_hunter_t4"		"Improves - third ability! <br><br>Increases additional damage and attack speed 4 fold."
+		"npc_dota_hero_bounty_hunter_t5_name"		"-「Hybrid」_-"	
+		"npc_dota_hero_bounty_hunter_t5"		"Improves - sixth ability! <br><br>Damage is increased 4 fold."
+		"npc_dota_hero_bounty_hunter_t6_name"		"-「Acknowledgment」_-"	
+		"npc_dota_hero_bounty_hunter_t6"		"Improves - sixth ability! <br><br>Interval is reduced to 0.1."
 
 
 
@@ -6725,6 +6889,108 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 
 		"Milky_Way"		"Quest: Random address Milky Way"
 		"Pegasus"		"Quest: Random address Pegasus"
+
+		"boss_error_1"		"You already have an active boss fight
+		"boss_error_2"		"You were defeated try again later!"
+		"boss_error_3"		"You have used all your attempts!"
+		
+		"boss_help"			"_Boss arena rules_<br><br>
+		You have 2 attempts to kill a boss, if you win, then you will be able to engage next round, loosing a life or other means of cracking the system are monitored, and if player is abusing it, they will be punished.<br><br>
+		If a boss fight has succesfully started, then current round will be nullified. If players manage or fail to kill a boss, then current roun will restart. However you will not be awarded with experience or gold for killing mobs."
+
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom"									"Thunder spear"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2"									"Thunder spear 2"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_2_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3"									"Thunder spear 3"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_3_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4"									"Thunder spear 4"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_4_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5"									"Thunder spear 5"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage."
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir"										"Ядро Погоды"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2"									"Ядро Погоды 2"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_as"								"Attack speed:"
+
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3"									"Ядро Погоды 3"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"								"Attack speed:"
+
+
+ 		"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"						"Weather core shield"
+
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"									"Recipe Cuirasse of Universe"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Unique item, which can be abtained by killing the boss Lord of the Universe<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
+
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe"									"Cuirasse of Universe"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"Damage:"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"Attack speed:"
+
+		"sound_set"			"Sound package is set!"
+		"sound_no"			"Such sound pack does not exist!"
+		"round_timer_big"		"Infinity"
+
+		"andromeda_gate_event_1" "Warning! Incoming wormhole!..."
+		"andromeda_gate_event_2" "This is ally MQ-9 Predator! We have been ordered to dispatch for air support!"
+		"andromeda_gate_event_3" "Now you have access for UAV support. To use it - press the icon near mini-map and mark targets!"
+		"andromeda_gate_event_4" "Оверлорд прикройте наших ребят!"
+
+		"protagonist_name_3"  		"Overlord"
+		"overlord_repli_1"			"This is Overlord, roger! Good luck, out!"
+		"overlord_repli_2"			"An air-to-ground rocket is ready!"
+		"overlord_repli_hit_1"			"More than 5 direct hits! Well done Hunter-2-1"
+		"overlord_repli_hit_2"			"Got 'em! Well done!"
+		"overlord_repli_hit_3"			"Direct hit Hunter-2-1, keep them coming!"
+		"overlord_repli_hit_4"			"Finished!"
+		"overlord_repli_hit_5"			"Well 5... no 10 killed! Keep it up!" 
+		"overlord_repli_hit_6"			"Wow! At least 10 more killed. Great!"
+
+		"overlord_repli_ready_1"			"An air-to-ground is ready!"
+		"overlord_repli_ready_2"			"Hunter-2-1, an air-to-ground is ready!"
+
+		"gu_strike"						"Mq-9 Predator<br><br>
+		Allows usage of an ally UAV to eliminate enemy targets<br>
+		Stats:<br>
+		Engage range: unlimited<br>
+		Projectile speed: 5000<br>
+		Mark radius: 2000<br>
+		Damage: 100% of max health<br>
+		<br>
+		Limits:<br>
+		Cannot affect bosses.<br>
+		Cooldown 60 seconds.<br>
+		If used by player, it will start cooling down and all players will not be able to use it for the time."
+
+
+
+		"overlord_random_repli_1"	"Hunter-2-1, 15 enemy targets are approaching from the north, over!"
+		"overlord_random_repli_2"	"Hunter-2-1, this is Overlord. 20 enemy fighters, coming from the south-east. Over."
+		"overlord_random_repli_3"	"Hunter-2-1, Goliath-1 has detected a patrol on the south-east from you. Over."
+		"overlord_random_repli_4"	"Hunter-2-1, this is Overlord. A huge concentration of enemy forces to the north. Over."
 
 }
 
