@@ -16,13 +16,13 @@
 	"s_recruit"				"Сложность: Легко"
 	"s_soldier"				"Сложность: Стандарт"
 	"s_tempered"			"Сложность: Сложно"
-	"s_veteran"				"Сложность: Абсурд"
+	"s_veteran"				"Сложность: Абсурдно"
 
 	"Difficult"				"Сложность"
 	"Recruit"				"Легко"
 	"Soldier"				"Стандарт"
 	"Tempered"				"Сложно"
-	"Veteran"				"Абсурд"
+	"Veteran"				"Абсурдно"
 	"Result"				"Результат"
 
 	"DOTA_GoodGuys"						"Стражи Вселенной"
@@ -73,6 +73,20 @@
 	-zoom x, где х (300 - 1800), устанавливает дальность камеры игрока."
 	
 	"dev_desc"      "Вы состоите в команде разработчиков проекта, ваши преимущества:
+	Команды чата:
+	-w изменяет текужую погоду на рандомную
+	-rune спавнит на всех спотах новые руны
+	-a10 заставляет прилететь союзную авиаподдержку.
+	-пик любого героя посредством отправки его названия в чат
+	пример - npc_dota_hero_abaddon
+	
+	Скорость набора врат равна 300%
+	
+	Возможность пика любого даже заблокированного героя
+	
+	Вы можете воспроизвести любое видео отправив ссылку на него в игровой чат."
+
+	"dvach_dev_desc"      "Вы состоите в команде разработчиков проекта, ваши преимущества:
 	Команды чата:
 	-w изменяет текужую погоду на рандомную
 	-rune спавнит на всех спотах новые руны
@@ -1641,6 +1655,11 @@
 		"DOTA_Tooltip_ability_lich_stealer_Description"									"Пассивная: Меч требует крови смертных. С каждым ударом Король Лич восполняет своё здоровье на процент от текущего здоровья врага и наносит пропорциональный урон."
 		"DOTA_Tooltip_ability_lich_stealer_hp_leech_percent"								"%Урон:"
 
+		"DOTA_Tooltip_ability_gu_lich_stealer"											"FROSTMOURNE'S DRAIN"
+		"DOTA_Tooltip_ability_gu_lich_stealer_Lore"										"Фростморн жаждет крови"
+		"DOTA_Tooltip_ability_gu_lich_stealer_Description"									"Пассивная: Меч требует крови смертных. С каждым ударом Король Лич восполняет своё здоровье на процент от текущего здоровья врага и наносит пропорциональный урон."
+		"DOTA_Tooltip_ability_gu_lich_stealer_hp_leech_percent"								"%Урон:"
+
 
 		"DOTA_Tooltip_ability_lich_king_reincarnation"								"IMMORTALITY"
 		"DOTA_Tooltip_ability_lich_king_reincarnation_Description"						"При следущей смерти Король Лич возродится."
@@ -1653,7 +1672,11 @@
 		"DOTA_Tooltip_ability_lich_king_cold_reaper_damage"                               "Урон:"
 		"DOTA_Tooltip_ability_lich_king_cold_reaper_duration"                             "Длительность заморозки:"
 		
-
+		"DOTA_Tooltip_ability_gu_lich_king_cold_reaper"                                      "Cold Reaper"
+		"DOTA_Tooltip_ability_gu_lich_king_cold_reaper_Description"                          "Король Лич высвобождает всю мощь Фростморна, замораживая ближайших врагов и нанося им урон."
+		"DOTA_Tooltip_ability_gu_lich_king_cold_reaper_range"                                "Дальность:"
+		"DOTA_Tooltip_ability_gu_lich_king_cold_reaper_damage"                               "%Урон:"
+		"DOTA_Tooltip_ability_gu_lich_king_cold_reaper_duration"                             "Длительность заморозки:"
 		
 
 
@@ -4131,8 +4154,8 @@
 	    "DOTA_Tooltip_ability_item_rem_wot_Description"										"Чинит все модули вашей техники"
 
 
-		"DOTA_Tooltip_ability_item_purging_dust"                                        "Космическая пыль с метеора"
-		"DOTA_Tooltip_ability_item_purging_dust_Description"								"<h1>Активация:</h1>Снимает с героя все негативные эффекты."
+		"DOTA_Tooltip_ability_item_purging_dust"                                        "Космическая пыль"
+		"DOTA_Tooltip_ability_item_purging_dust_Description"								"<h1>Активируемая: Очищение</h1>Снимает с героя все негативные эффекты."
 
 
 		"DOTA_Tooltip_ability_item_chronos_shard"										"Пыль времени"
@@ -4194,6 +4217,8 @@
 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_r"						"Рецепт Маленький Карлик 2"
 		"DOTA_Tooltip_ability_item_unstable_quasar2_r_Description"				"Уникальный предмет, который можно получить, убив босса Сингулярность<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_r"						"Рецепт Утерянный Магический Посох 4"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_r_Description"				"Уникальный предмет, который можно получить, убив босса Аква<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 
 
@@ -4644,7 +4669,7 @@
 		"DOTA_Tooltip_ability_item_lifestealtank_bonus_damage"									"+к урону "
 		
 		"DOTA_Tooltip_lifestealtank"													"Аура Кровавого Самоцвета"
-		"DOTA_Tooltip_lifestealtank_Description"											"20% вашего урона восстанавливают здоровье владельца Кровавого Самоцвета."
+		"DOTA_Tooltip_lifestealtank_Description"											"20 процентов вашего урона восстанавливают здоровье владельца Кровавого Самоцвета."
 
 
 
@@ -4657,7 +4682,6 @@
 
 
 		"DOTA_Tooltip_ability_item_blood_booster"                                       "Кровавый усилитель"
-		"DOTA_Tooltip_ability_item_blood_booster_Lore"											"Мощный магический артефакт впитывающий кровь."
 		"DOTA_Tooltip_ability_item_blood_booster_bonus_all"												"+ко всем атрибутам "
 		"DOTA_Tooltip_ability_item_blood_booster_bonus_health"											"+к здоровью"
 		"DOTA_Tooltip_ability_item_blood_booster_health_per_str"                                        "+к увеличению здоровья за единицу силы"
@@ -4666,7 +4690,7 @@
 		"DOTA_Tooltip_ability_item_blood_booster_bonus_health_regen"								"+к восстановлению здоровья"
 		"DOTA_Tooltip_ability_item_blood_booster_bonus_damage"										"+к урону "
 		"DOTA_Tooltip_ability_item_blood_booster_bonus_mana_regen"									"+к восстановлению маны"
-		
+		"DOTA_Tooltip_item_blood_booster_passive"													"Кровавый Усилитель" 
 		
 		///????////
 		"DOTA_Tooltip_lifestealtank_2"															"Аура Кровавого Усилителя"
@@ -4678,23 +4702,23 @@
 		"DOTA_Tooltip_ability_item_midas_2_Description"										"<h1>Пассивная: Золотое Дно</h1> Если предмет не в перезарядке, то за каждую атаку вы получите 1 золота."
 
 		"DOTA_Tooltip_Ability_item_gu_desolator"						"Дезолятор"
-		"DOTA_Tooltip_Ability_item_gu_desolator_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor% на 15 секунд."
+		"DOTA_Tooltip_Ability_item_gu_desolator_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor%% на 15 секунд."
 		"DOTA_Tooltip_Ability_item_gu_desolator_bonus_damage"			"+к урону "
 
 		"DOTA_Tooltip_Ability_item_gu_desolator_2"						"Дезолятор 2"
-		"DOTA_Tooltip_Ability_item_gu_desolator_2_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor% на 15 секунд."
+		"DOTA_Tooltip_Ability_item_gu_desolator_2_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor%% на 15 секунд."
 		"DOTA_Tooltip_Ability_item_gu_desolator_2_bonus_damage"			"+к урону "
 
 		"DOTA_Tooltip_Ability_item_gu_desolator_3"						"Дезолятор 3"
-		"DOTA_Tooltip_Ability_item_gu_desolator_3_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor% на 15 секунд."
+		"DOTA_Tooltip_Ability_item_gu_desolator_3_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor%% на 15 секунд."
 		"DOTA_Tooltip_Ability_item_gu_desolator_3_bonus_damage"			"+к урону "
 
 		"DOTA_Tooltip_Ability_item_gu_desolator_4"						"Дезолятор 4"
-		"DOTA_Tooltip_Ability_item_gu_desolator_4_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor% на 15 секунд."
+		"DOTA_Tooltip_Ability_item_gu_desolator_4_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor%% на 15 секунд."
 		"DOTA_Tooltip_Ability_item_gu_desolator_4_bonus_damage"			"+к урону "
 		
 		"DOTA_Tooltip_item_gu_desolator_passive_debuff"						"Аннигиляция"
-		"DOTA_Tooltip_item_gu_desolator_passive_debuff_Description"			"Броня уменьшена."
+		"DOTA_Tooltip_item_gu_desolator_passive_debuff_Description"			"Броня уменьшена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
          
 
 
@@ -5029,28 +5053,27 @@
 		"DOTA_Tooltip_ability_item_book2_all_agi_gain" 						"+ко всем атрибутам" 
 
 		
-		"DOTA_Tooltip_ability_item_book_of_stats_immortality" 			"Книга Ямамото Цунэтомо - Кодекс самурая<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
-		"DOTA_Tooltip_ability_item_book_of_stats_immortality_bonus_str" 	"+ко всем атрибутам" 
+		"DOTA_Tooltip_ability_item_book_of_stats_immortality" 				"Книга Ямамото Цунэтомо - Кодекс самурая"
+		"DOTA_Tooltip_ability_item_book_of_stats_immortality_Description" "<font color='#7ee340'>Можно передать союзнику!</font>." 
 		
 		"DOTA_Tooltip_ability_item_book_str" 							"Моя Борьба"
-		"DOTA_Tooltip_ability_item_book_str_bonus_str" 						"+к силе"
+		"DOTA_Tooltip_ability_item_book_str_Description" 						"Добавляет силу в зависимости от текущей волны."
 		
 		"DOTA_Tooltip_ability_item_book2_strength" 						"Моя Борьба"
-		"DOTA_Tooltip_ability_item_book2_strength_Description" 				"Даёт дополнительную силу."
-		"DOTA_Tooltip_ability_item_book2_strength_str_gain" 				"+к силе"
+		"DOTA_Tooltip_ability_item_book2_strength_Description" 				"Добавляет силу в зависимости от текущей волны."
 		
 		"DOTA_Tooltip_ability_item_book_int" 							"Манга Komi-san wa Komyushou Desu"
-		"DOTA_Tooltip_ability_item_book_int_bonus_str" 						"+к интеллекту" 
+		"DOTA_Tooltip_ability_item_book_int_bonus_str" 						"Добавляет интеллект в зависимости от текущей волны." 
 		
 		"DOTA_Tooltip_ability_item_book2_inteligence" 					"Манга Komi-san wa Komyushou Desu"
-		"DOTA_Tooltip_ability_item_book2_inteligence_int_gain" 				"+к интеллекту" 
+		"DOTA_Tooltip_ability_item_book2_inteligence_Description" 				"Добавляет интеллект в зависимости от текущей волны." 
 		
 		"DOTA_Tooltip_ability_item_book_ag" 							"Книга о Люксембурге"
-		"DOTA_Tooltip_ability_item_book_ag_bonus_str" 						"+к ловкости"
+		"DOTA_Tooltip_ability_item_book_ag_Description" 						"Добавляет ловкость в зависимости от текущей волны."
 		
 		
 		"DOTA_Tooltip_ability_item_book2_agility" 						"Книга о Люксембурге"
-		"DOTA_Tooltip_ability_item_book2_agility_agi_gain" 					"+к ловкости"
+		"DOTA_Tooltip_ability_item_book2_agility_Description" 					"Добавляет ловкость в зависимости от текущей волны."
 
 		
 
@@ -5115,10 +5138,7 @@
 
 		"DOTA_Tooltip_Ability_item_desolator_2"										"Утерянный Дезолятор"	
 
-        "DOTA_Tooltip_Ability_item_ironwood_tree"									"Деревце"
-		"DOTA_Tooltip_ability_item_ironwood_tree_Description"						"Сажает деревце, даёт атрибуты."
-		"DOTA_Tooltip_ability_item_ironwood_tree_bonus_all_stats"					"Бонусные атрибуты:"
-
+       
 
 
 
@@ -5413,15 +5433,23 @@
 
 					/// П О Г О Д А ///
 
-		"sunny"				"Погода: Солнечно" 
-		"rain"				"Погода: Дождь"  
+		"sunny"				"Погода: Ясно" 
+		"rain"				"Погода: Дождливо"  
 		"storm"				"Погода: Гроза" 
 		"snow"				"Погода: Снег" 
-		"blizzard"			"Погода: Буря" 
-		"swamp"				"Погода: Слякоть" 
+		"blizzard"			"Погода: Снежная Буря" 
+		"swamp"				"Погода: Болотный Дождь" 
 		"sandstorm"			"Погода: Песчаная Буря" 
-		"spacerift"			"Погода: Временной Разлом" 
-		"bloodrain"			"Погода: Кровавый Дождь" 
+		"spacerift"			"Погода: Аномальная" 
+
+		"dvach_sunny"				"Погода: Залупа" 
+		"dvach_rain"				"Погода: Пизда"  
+		"dvach_storm"				"Погода: Хуета" 
+		"dvach_snow"				"Погода: Жопа" 
+		"dvach_blizzard"			"Погода: Член" 
+		"dvach_swamp"				"Погода: Головка" 
+		"dvach_sandstorm"			"Погода: Бесячая хуета" 
+		"dvach_spacerift"			"Погода: Имба" 
 
 
 
@@ -5430,7 +5458,7 @@
 		"sunny_des"			"Увеличивает дальность обзора всех игроков на 1500." 
 		"rain_des"			"Уменьшение радиуса видимости до уровня ночи."  
 		"storm_des"			"Попадание молнией по герою во время грозы оглушает на 5 секунд а также наносит 5% урона от вашего здоровья." 
-		"snow_des"			"Попадание снежным вихрем нанесёт 3% урона а также зарутит на 3 секунды." 
+		"snow_des"			"Попадание снежным вихрем нанесёт 3% урона а также зарутит на 0.5 секунды." 
 		"blizzard_des"		"Попадание ледяным взрывом по герою во время бури обездвиживает его на 5 секунд а также наносит 7% урона от вашего здоровья." 
 		"swamp_des"			"Попадание в болото очень сильно замедляет вас и уменьшает броню" 
 		"sandstorm_des"		"Снижает вашу видимость до минимальной, а также создаёт песчаные бури, которые замедляют вас и увеличивают шанс промаха." 
@@ -5590,11 +5618,12 @@
 
 
 		"npc_cu_neitrall_updated"									"Вселенский Крип Стандартный"
-		"npc_cu_neitrall_updated_hard"								"Вселенский Крип Сложный"
-		"npc_cu_neitrall_updated_range"								"Вселенский Крип Дальник"
-		"npc_cu_neitrall"                                           "Вселенский Крип Простой"
-		"dota_tooltip_modifier_neutral_champion"					"Героический Вселенский Крип"
-		"dota_tooltip_modifier_neutral_champion_description"		"Число эффектов означет уровень юнита."
+		"npc_cu_neitrall_updated_hard"								"Рыба Мутант"
+		"npc_cu_neitrall_updated_range"								"Мутированый Росток"
+		"npc_cu_neitrall"                                           "Мутированный Крокодил"
+		"npc_cu_neitrall_2"                                         "Король Песков"
+		"dota_tooltip_modifier_neutral_champion"					"Усиление Наквадахом"
+		"dota_tooltip_modifier_neutral_champion_description"		"Существо усиленное наквадахом, оно сильнее и даёт больше награды."
 
 
 
@@ -5640,18 +5669,19 @@
 	"sg_1" "Неправильный Адрес"
 	"sg_2" "Гипертуннель открыт"
 	"sg_3" "Врата закрыты"
-	"sg_4" "Шеврон 1 заблокирован"
-	"sg_5" "Шеврон 2 заблокирован"
-	"sg_6" "Шеврон 3 заблокирован"
-	"sg_7" "Шеврон 4 заблокирован"
-	"sg_8" "Шеврон 5 заблокирован"
-	"sg_9" "Шеврон 6 заблокирован"
-	"sg_10" "Шеврон 7 заблокирован"
-	"sg_11" "Шеврон 8 заблокирован"
-	"sg_12" "Шеврон 9 заФИКСИРОВАН"
 	"sg_13" "ВРАТА НЕ НАЙДЕНЫ"
 	"sg_14" "DHD НЕ НАЙДЕНО"
 	"incoming" "Входящий Гипертуннель"
+
+	"chevron_1" "Шеврон 1 заблокирован"
+	"chevron_2" "Шеврон 2 заблокирован"
+	"chevron_3" "Шеврон 3 заблокирован"
+	"chevron_4" "Шеврон 4 заблокирован"
+	"chevron_5" "Шеврон 5 заблокирован"
+	"chevron_6" "Шеврон 6 заблокирован"
+	"chevron_7" "Шеврон 7 заблокирован"
+	"chevron_8" "Шеврон 8 заблокирован"
+	"chevron_9" "Шеврон 9 ЗАФИКСИРОВАН"
 
 
 
@@ -5939,7 +5969,6 @@
 
 	/// С П И С О К  Н Е Й Т Р А Л Ь Н Ы Х  П Р Е Д М Е Т О В ///
 
-        "DOTA_Tooltip_Ability_item_faded_broach"		 	"Магическая Заклёпка"
 		"DOTA_Tooltip_Ability_item_arcane_ring"			    "Кольцо Маны"
 		"DOTA_Tooltip_Ability_item_royal_jelly"			    "Медовые Соты"
 		"DOTA_Tooltip_Ability_item_chipped_vest"			"Бронижелет Будущего(Киберпанк 2077)"
@@ -5956,7 +5985,6 @@
 		"DOTA_Tooltip_Ability_item_quicksilver_amulet"		"Ртутный амулет"
 		"DOTA_Tooltip_Ability_item_swift_blink"			    "Клинок Ветра"
 		"DOTA_Tooltip_Ability_item_arcane_blink"			"Клинок Архимага"
-		"DOTA_Tooltip_Ability_item_orb_of_destruction"		"Сфера Уничтожения"
 		"DOTA_Tooltip_Ability_item_titan_sliver"			"Мангановый Осколок"
 		"DOTA_Tooltip_Ability_item_mind_breaker"			"Обет Молчания"
 		"DOTA_Tooltip_Ability_item_enchanted_quiver"		"Зачарованый Колчан"
@@ -5967,18 +5995,26 @@
 		"DOTA_Tooltip_Ability_item_timeless_relic"			"Вневременная Реликвия"
 		"DOTA_Tooltip_Ability_item_spell_prism"			    "Лунная Призма"
 		"DOTA_Tooltip_Ability_item_ninja_gear"			    "Снаряжение Ниндзя"
-		"DOTA_Tooltip_Ability_item_illusionsts_cape"		"Теневое Клонирование"
-		"DOTA_Tooltip_Ability_item_minotaur_horn"			"Рог Орды"
 		"DOTA_Tooltip_Ability_item_spy_gadget"			    "Оптический Прицел х64"
 		"DOTA_Tooltip_Ability_item_trickster_cloak"			"Плащ Обманщика"
 		"DOTA_Tooltip_Ability_item_stormcrafter"			"Нестабильный кварк"
 		"DOTA_Tooltip_Ability_item_penta_edged_sword"		"Меч Берсерка"
 		"DOTA_Tooltip_Ability_item_mirror_shield"			"Зеркальный Щит"
 		"DOTA_Tooltip_Ability_item_apex"			        "Высшее Мастерство"
-		"DOTA_Tooltip_Ability_item_ballista"			    "Эпирский Лук"
 		"DOTA_Tooltip_Ability_item_fallen_sky"			    "Падение небес"
 		"DOTA_Tooltip_Ability_item_ex_machina"			    "Миелофон"
 		"DOTA_Tooltip_Ability_item_book_of_shadows"			"Дневник Будущего"
+		"DOTA_Tooltip_Ability_item_paintball"				"Фейри-граната"
+		"DOTA_Tooltip_Ability_item_misericorde"				"Клинок разбойника"
+		"DOTA_Tooltip_Ability_item_heavy_blade"				"Посох Орай"
+		"DOTA_Tooltip_Ability_item_force_field"				"Доспехи чародея"
+		"DOTA_Tooltip_Ability_item_witch_blade"				"Клинок ведьмы"
+		"DOTA_Tooltip_Ability_item_wind_waker"				"Посох Ветра"
+		"DOTA_Tooltip_Ability_item_mage_slayer"				"Убийца магов"
+		"DOTA_Tooltip_Ability_item_gungir"					"Глейпнир"
+		"DOTA_Tooltip_Ability_item_aeon_disk"				"Эон Диск"
+
+		"DOTA_Tooltip_modifier_item_force_field_bonus_aura"	"Доспехи чародея"
 				 
 		"DOTA_Tooltip_ability_item_magician_ring"								"Волшебное кольцо"
 		"DOTA_Tooltip_ability_item_magician_ring_Description"					"<h1>Пассивная: Inspiration</h1> Снижает время перезарядки способностей за каждого убитого героя, или за смерть вражеского героя в радиусе."
@@ -5997,12 +6033,22 @@
 			/// К Р У П Н Ы Е  Б О С С Ы ///
 
 			"boss_1" "Детишки обожают рассказывать о чудных похождениях феечек... Ах, если бы они знали, что многие феи — просто коварные гадины!"
-			"boss_2" "Мобильная крепость Разрушитель блуждала по миру не один десяток лет и уничтожила не один город."
+			"boss_2" "Мобильная крепость Разрушитель блуждала по миру не один десяток лет и уничтожила не один город.Но только я Богиня Аква, смогла уничтожить её магический барьер."
 			"boss_3" "То, что другие называют волей, есть сила внутри нас самих. Это не мысль, не предмет, не желание.Воля – это то, что заставляет меня побеждать, когда мой рассудок говорит мне, что я повержен."
 			"boss_4" "Чтобы заглянуть на миллионы лет назад, не нужно машины времени, — достаточно поднять голову и посмотреть на звезды. Меня ужасает вечное безмолвие этих пространств."
 			"boss_5" "Все пути однажды приведут к концу. Не стоит торопиться. Прошлое – призрак, будущее – мечта, и все, что у нас есть, – это настоящее."
 			"boss_6" "Знаете ли вы, что в это самое мгновение вы окружены вечностью? И знаете ли вы, что можете воспользоваться этой вечностью, если только пожелаете?"
 			"boss_7" "Тридцать лет назад Первый Дух появился на Земле и стал порождением других духов. Моя цель — убить его. Я хочу увидеть, как Бог воспримет глупую безрассудную попытку изменить мир."
+
+			"dvach_boss_1" "Когда тебя ебали что на жопе написали?"
+			"dvach_boss_2" "Нахуй ты это читаешь еблан?"
+			"dvach_boss_3" "Я сосу хуй"
+			"dvach_boss_4" "Чтобы пойти нахуй нужно пойти нахуй"
+			"dvach_boss_5" "Ебать что я тут делаю вообще я же из другой игры сука"
+			"dvach_boss_6" "Меня ебали семь негров и пенис"
+			"dvach_boss_7" "Я знаю на кого ты дрочишь сучка"
+
+
 
 			"boss_name_1" "Миреска Ветреная"
 			"boss_name_2" "Аква"
@@ -6011,6 +6057,14 @@
 			"boss_name_5" "Маг Земли"
 			"boss_name_6" "Повелителем Вселенной"
 			"boss_name_7" "Tokisaki Kurumi"
+
+			"dvach_boss_name_1" "Бесячая Хуета"
+			"dvach_boss_name_2" "Помойка"
+			"dvach_boss_name_3" "Воин Дерьма"
+			"dvach_boss_name_4" "Конча"
+			"dvach_boss_name_5" "Маг Мяса"
+			"dvach_boss_name_6" "Некгр"
+			"dvach_boss_name_7" "Вайфай"
 
 			"npc_universal_boss_dark_willow"						"Миреска Ветреная"
 			"npc_universal_boss_dark_willow_text"					"Insidious Reptile"
@@ -6084,6 +6138,13 @@
 
 		"load_cu"        "Загрузка"
 
+		"dvach_load_state_1"   "Пытаемся выебать твою мать..."
+		"dvach_load_state_2"   "Загружаем член тебе в рот..."
+		"dvach_load_state_3"   "Соси хуй хуесос"
+		"dvach_load_state_12"  "Читы вырубае ебланище конченное."
+		"dvach_load_state_13"  "Серверу пизда иди нахуй отсюда."
+		"dvach_load_cu"        "Хуюзка"
+
 
 
 
@@ -6096,6 +6157,15 @@
 	"race_ori_lore" "Орай — агрессивная религиозно настроенная фракция Древних, развившаяся в самостоятельное общество, после бегства Древних из родной галактики. Одна из самых высокоразвитых цивилизаций в четырех известных галактиках. Использовали веру в себя на других, «низших», существ для приумножения своей силы."
 	"race_touhou_lore" "Вселенная Touhou - персонажи этой расы способны за долю секунды уничтожить цель своей могущественной магией."
 	
+	"dvach_race_human_lore" "Раса пидарасов ебаных"
+	"dvach_race_spirits_lore" "Кто любит дрочить идите сюда"
+	"dvach_race_armored_lore" "Ворлд оф сын шалавы нахуй а не игра"
+	"dvach_race_anquietas_lore" "Бесполезное говно"
+	"dvach_race_ori_lore" "Хуже чем это только твой интеллект"
+	"dvach_race_touhou_lore" "Вселенная для пидарасов"
+	"dvach_race_asgard_lore" "Анальные Воины"
+	
+
     "race_human_damage" "Тип урона: <font color='#ff0808'>Физический</font>"
 	"race_spirits_damage" "Тип урона: <font color='#00ff1e'>Ангельский</font>"
 	"race_armored_damage" "Тип урона: <font color='#ff9100'>Энергия Взрыва</font>"
@@ -6103,6 +6173,14 @@
 	"race_asgard_damage" "Тип урона: <font color='#bb00ff'>«Материя Мироздания»</font>"
 	"race_ori_damage" "Тип урона: <font color='#b9ff08'>Энергия</font>"
 	"race_touhou_damage" "Тип урона: <font color='#036bfc'>Магический Дисбаланс</font>"
+
+	"dvach_race_human_damage" "Тип урона: <font color='#ff0808'>Анальный</font>"
+	"dvach_race_spirits_damage" "Тип урона: <font color='#00ff1e'>Уебанский</font>"
+	"dvach_race_armored_damage" "Тип урона: <font color='#ff9100'>Залупный</font>"
+	"dvach_race_anquietas_damage" "Тип урона: <font color='#e5ff00'>Анальная Диарея</font>"
+	"dvach_race_asgard_damage" "Тип урона: <font color='#bb00ff'>«Хуй из жопы»</font>"
+	"dvach_race_ori_damage" "Тип урона: <font color='#b9ff08'>Иди нахуй</font>"
+	"dvach_race_touhou_damage" "Тип урона: <font color='#036bfc'>Дрочка</font>"
 
 	"race_human_bonus" "Пассивный бонус: <font color='#ff0808'>Дополнительный Белый Урон</font><br><br>
 	Пассивная способность: <font color='#ff0808'>«Богатство»</font><br> Даёт дополнительное золото"
@@ -6119,6 +6197,20 @@
 	"race_touhou_bonus" "Пассивный бонус: <br><font color='#036bfc'>Магический Вампиризм</font>.<br> Имеет магический вампиризм<br><br>
 	Пассивный бонус: <br><font color='#036bfc'>Магический Крит</font><br>Вы можете наносить дополнительный критический Урон в 300%"
 
+	"dvach_race_human_bonus" "Пассивный секс: <font color='#ff0808'>Конча на ебале</font><br><br>
+	Пассивная способность: <font color='#ff0808'>Анальный Секс</font><br> Вас ебут"
+	"dvach_race_spirits_bonus" "Пассивный секс: <font color='#00ff1e'>Иди нахуй сам думай что оно делает</font><br><br>
+	Пассивная способность: <br><font color='#00ff1e'> «Сила Земли»</font><br> Позволяет пойти нахуй дважды"
+	"dvach_race_armored_bonus" "Пассивный секс: <font color='#ff9100'>Анальная Кровопотеря.</font><br><br>
+	Пассивный бонус:<br> <font color='#ff9100'>Модель из пизды.</font> Позволяет пойти нахуй трижды<br><br>
+	Пассивный бонус: <br><font color='#ff9100'>Реактор на говне.</font><br> Позволяет не позволять<br>"
+	"dvach_race_anquietas_bonus" "Пассивный бонус: <br><font color='#e5ff00'>Похуй</font><br><br>
+	Пассивная способность: <font color='#e5ff00'>«Создатели Врат»</font><br> Вы можете использовать автоматический набор адреса без потери энергии."
+	"dvach_race_asgard_bonus" "<br>Пассивный бонус: <br><font color='#bb00ff'>«Похуй 2»</font><br>При нанесении Урона по врагу есть шанс что вы нанесёте ваш урон + 140% вашего Урона"
+	"dvach_race_ori_bonus" "Пассивный бонус: <br><font color='#b9ff08'>Похуй 3:</font><br> Усиливает урон наносимый заклинаниями<br><br>
+	Пассивная способность: <font color='#b9ff08'>«Энергетическая защита»</font><br> Усиливает вашу магическую защиту"
+	"dvach_race_touhou_bonus" "Пассивный бонус: <br><font color='#036bfc'>Похуй 4</font>.<br> Имеет магический долбоебизм<br><br>
+	Пассивный бонус: <br><font color='#036bfc'>Магический Крит</font><br>Вы можете наносить дополнительный критический Урон в 300%"
 
 
 
@@ -6379,7 +6471,11 @@
 		"address_type_1" "Тип наборного устройства: «Млечный Путь»"
 		"address_type_2" "Тип наборного устройства: «Атлантида»"
 		"address_type_3" "Тип наборного устройства: «Вселенная»"
+		"dvach_address_type_1" "Тип наборного устройства: «Сперма»"
+		"dvach_address_type_2" "Тип наборного устройства: «Хуй Наберёшь»"
+		"dvach_address_type_3" "Тип наборного устройства: «Пудж Удалён»"
 		"dialer_speed" "Скорость автонабора: "
+		"dvach_dialer_speed" "Скорость дрочки: "
 		"global_race_rang" "Общая Статистика"
         "race_help" "Повышение ранга расы происходит следующим образом:<br><br>
             -Игрок может повышать ранг только выбранной им расы.<br><br>
@@ -6539,6 +6635,7 @@
 		"hammond_prolog_repli_10" "Удачи вам, никто не знает что вас ждёт на другой стороне, но одно мы знаем - кто бы не послал сигнал о помощи, он её получит!"
 		"setting_started_anim" "Отключить вступление?"
 
+		"protagonist_name_1" "General Hammond"
 		"protagonist_name_2" "Andromeda"
 		"andromeda_repli_1" "Кто здесь?... Вы с той планеты на которую я отправляла сигнал о помощи?"
 		"andromeda_repli_2" "Я даже не надеялась получить ответ, а тут целая команда которая поможет мне?"
@@ -6574,8 +6671,8 @@
 		"andromeda_repli_32" "Давайте же убивайте всех кого найдёте и разделите добычу между вашими товарищами, если они у вас есть."
 		"andromeda_repli_33" "Вы попали на планету «P3X-888», развитие существ здесь немного превосходит тех что вы видили на «P3X-797», но всё же они примитивны."
 		"andromeda_repli_34" "Здесь работает те же правила что и на «P3X-797», так что делайте своё дело!"
-		"andromeda_repli_35" "Вы попали на планету «P3X-367», развитие существ на данной планете превосходит многих других, будьте осторожны в борьбе с ними!"
-		"andromeda_repli_36" "Всё остальное вы уже знаете, но будьте осторожны! У некоторых из созданий есть имуннитет к заклинаниям и это может стать проблемой!"
+		"andromeda_repli_35" "Вы попали на планету «P3X-367», эта планета полностью затоплена, если у вас нету защиты то вы погибните здесь!"
+		"andromeda_repli_36" "Чтобы получить возможность здесь находится вам нужно (будет дополнено в некст патчах)"
 		"andromeda_repli_37" "О НЕТ КАК ЖЕ ТАК? Вам очень повезло что у меня есть технология воскрешения!!!"
 		"andromeda_repli_38" "Вы можете улучшить мою технологию воскрешения, для этого получите с босса «Повелитель Вселенной» предмет «Раскол Галактики»"
 		"andromeda_repli_39" "Но всё же я вас ОЧЕНЬ прошу не допускайте моей смерти моя жизненная сила не безграничная."
@@ -6707,7 +6804,7 @@
 		"end_game_vote"	"Задание - «Закончить Войну!»"
 		"end_game_vote_a"	"Голосование за начало!"
 		"end_vote_yes"		"Начать!"
-
+		"end_game_vote_b"	"Задание - «Неизвестность»"
 
  		"DOTA_Tooltip_modifier_black_king_bar_activate" "Магическая Неуязвимость"
 
@@ -6780,12 +6877,13 @@
 
 		"sg_key_name" "Найденно ключей:" 
 		"rain_infinity" " "
+		"snow_infinity" " "
 
 		"DOTA_Tooltip_ability_gu_marisa_aura"                "Звездная аура"
         "DOTA_Tooltip_ability_gu_marisa_aura_Description"    "Данная аура усиливает всех союзников(включая вас) за счет ваших атрибутов, работает по формуле ваш атрибут(сила,ловкость,интелект,*на значения в описаний) статус резист не увеличиваеться от атрибутов. <br> Бонус здоровье от ауры(сила)  %hp% <br> Бонус хп реген от ауры (сила) %hp_regen% <br> Статус резист от ауры  %status_resistance% <br> Бонусный белый урон от ауры(Ловкость) %Bonus_damage% <br> Бонусная мана от ауры(Интелект) %mana% <br> Бонус мана реген от ауры (Интелект) %mana_regen% <br> Бонусное% усиление заклинаний от ауры (Интелект) %spell_amplufy_percentage%"
 
         "DOTA_Tooltip_modifier_gu_marisa_aura_buff" "Звездная аура"
-        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% к максимальному хп,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регену хп,<br> +%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% бонус к урону заклинаний."
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% к максимальному здоровью,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регенерации здоровья,<br> +%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% бонус к урону заклинаний."
 
 		"DOTA_Tooltip_ability_item_ultimate_scepter" 						"Скипитр Вселенной"
 		"DOTA_Tooltip_ability_item_ultimate_scepter_Description" 				"Улучшает некоторые способности у героев.<br><br><font color='#7ee340'>Можно передать союзнику!</font>" 
@@ -6889,25 +6987,25 @@
 		"DOTA_Tooltip_ability_item_gu_dead_sword_4_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_5"		"Dead Fury 1"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_5_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 10%, для других - 20% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_5_damage"		"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_5_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_5_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_6"		"Dead Fury 2"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_6_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 10%, для других - 20% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_6_damage"		"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_6_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_6_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7"		"Dead Fury 3"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_7_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 10%, для других - 20% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_damage"		"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8"		"Unstable Dead Fury"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"		"<h1>Активная: Break World  </h1> При активации выведет из строя всех вражеских юнитов на 1.8 - 2.2 сек в радиусе 300 \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 10%, для других - 20% может забашить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 17% может украсть у врага случайное кол-во золота (1-4)"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"		"<h1>Активная: Break World  </h1> При активации выведет из строя всех вражеских юнитов на 1.8 - 2.2 сек в радиусе 300 \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 10% может украсть у врага случайное кол-во золота (1-4)"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"			"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"		"Регенерация маны:"
@@ -7393,15 +7491,16 @@
 		"gu_weather_4"	"Пусть предсказывает погоду тот, кто ее делает. {weather}"
 		"gu_weather_5"	"Холод - только для погоды. Не впускайте его в свою душу. {weather}"
 
-		"sunny_chat"				"Погода: <font color='#c7de1d'>Солнечно</font>" 
-		"rain_chat"				"Погода: <font color='#084a99'>Дождь</font>"  
+		"sunny_chat"				"Погода: <font color='#c7de1d'>Ясно</font>" 
+		"rain_chat"				"Погода: <font color='#084a99'>Дождливо</font>"  
 		"storm_chat"				"Погода: <font color='#a6caf5'>Гроза</font>" 
 		"snow_chat"				"Погода: <font color='#6ea8eb'>Снег</font>" 
 		"blizzard_chat"			"Погода: <font color='#506b8a'>Снежная Буря</font>" 
-		"swamp_chat"				"Погода: <font color='#74b84f'>Слякоть</font>" 
+		"swamp_chat"				"Погода: <font color='#74b84f'>Болотный Дождь</font>" 
 		"sandstorm_chat"			"Погода: <font color='#dbb235'>Песчаная Буря</font>" 
-		"spacerift_chat"			"Погода: <font color='#d428c0'>Временной Разлом</font>" 
+		"spacerift_chat"			"Погода: <font color='#d428c0'>Аномальная</font>" 
 		"rain_infinity_chat"			"Погода: <font color='#7a7a7a'>Пустота</font>" 
+		"snow_infinity_chat"			"Погода: <font color='#51668a'>Адский Холод</font>"
 
 		"gu_qvest"		"{player_name} Выполнил {qvest}"
 
@@ -7481,17 +7580,15 @@
 		"andromeda_gate_event_4" "Оверлорд прикройте наших ребят!"
 
 		"protagonist_name_3"  		"Оверлорд"
-		"overlord_repli_1"			"Это Оверлорд, вас понял! Удачи, отбой!"
-		"overlord_repli_2"			"Ракета воздух-земля готова!"
-		"overlord_repli_hit_1"			"Больше 5 точных попаданий! Молодец Хантер-два-один"
-		"overlord_repli_hit_2"			"Как ты их! Молодец!"
-		"overlord_repli_hit_3"			"Прямое попадание Хантер-два-один, не сбавляй темп!"
-		"overlord_repli_hit_4"			"Готов!"
-		"overlord_repli_hit_5"			"Так похоже здесь 5... нет 10 убитых! Так держать!" 
-		"overlord_repli_hit_6"			"Ого! Ещё как минимум 10 убитых. Отлично!"
-
-		"overlord_repli_ready_1"			"Ракета воздух-земля готова!"
-		"overlord_repli_ready_2"			"Хантер-два-один, ракета воздух-земля готова!"
+		"overlord_repli_1"			"Принято ноль-один! Всё в порядке. Удачи! Отбой"
+		"overlord_repli_2"			"Беспилотник с ракетами воздух-земля готов! Ожидаю целей!"
+		"overlord_repli_hit_1"			"Подтверждаю поражение более 5 целей.Хорошая работа!"
+		"overlord_repli_hit_2"			"Прекрасная работа! Цели поражены!"
+		"overlord_repli_hit_3"			"Точное попадание!"
+		"overlord_repli_ready_1"			"Ракеты воздух-земля готовы!"
+		"overlord_miss_1"				"Промах."
+		"overlord_miss_2"				"Ноль убитых."
+		
 
 		"gu_strike"						"Mq-9 Predator<br><br>
 		Позволяет использовать союзный беспилотник для уничтожения вражеских существ<br>
@@ -7521,11 +7618,11 @@
 		Может использовать 1 игрок, после чего у всех остальных уйдёт на перезарядку."
 
 		"gu_uav"						"UAV<br><br>
-		При активации помечает всех вражеских юнитов на карте, по которым спустя 30 секунд выстрелит Mq-9 Predator (при условии что он у вас есть)<br>
+		При активации помечает всех вражеских юнитов на карте, по которым спустя 5 секунд выстрелит Mq-9 Predator (при условии что он у вас есть)<br>
 		Характеристики:<br>
 		Радиус сканирования: 30.000<br>
 		Задержка обстрела: 30<br>
-		Урон: 70% от здоровья<br>
+		Урон: 100% от здоровья<br>
 		<br>
 		Ограничения:<br>
 		Работает только при наличии беспилотника Mq-9 Predator.<br>
@@ -7545,6 +7642,297 @@
 
 		"DOTA_Tooltip_ability_item_gu_crate_search"									"Компас Сокровищ Гоа'улдов"
 		"DOTA_Tooltip_ability_item_gu_crate_search_Description"							"<h1>Активная: Сканер Местности </h1> При активации помечает в радиусе %radius% закопанные сокровища на 10 секунд, в случае отсутствия в радиусе сокровища уйдёт на перезарядку в %cd_no_crate% сек. Если вы не успели найти за 10 секунд ящик то он опять станет невидимым и вам нужно будет повторить процедуру заново."
+		"DOTA_Tooltip_ability_item_gu_crate_search_int"									"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_crate_search_mana_regen"							"Регенерация Маны:"
+
+		"DOTA_Tooltip_ability_item_gu_crate_search_2"									"Компас Сокровищ Гоа'улдов 2"
+		"DOTA_Tooltip_ability_item_gu_crate_search_2_Description"							"<h1>Активная: Сканер Местности </h1> При активации помечает в радиусе %radius% закопанные сокровища на 10 секунд, в случае отсутствия в радиусе сокровища уйдёт на перезарядку в %cd_no_crate% сек. Если вы не успели найти за 10 секунд ящик то он опять станет невидимым и вам нужно будет повторить процедуру заново."
+		"DOTA_Tooltip_ability_item_gu_crate_search_2_int"									"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_crate_search_2_mana_regen"							"Регенерация Маны:"
+
+		"DOTA_Tooltip_ability_item_gu_crate_search_3"									"Компас Сокровищ Гоа'улдов 3"
+		"DOTA_Tooltip_ability_item_gu_crate_search_3_Description"							"<h1>Активная: Сканер Местности </h1> При активации помечает в радиусе %radius% закопанные сокровища на 10 секунд, в случае отсутствия в радиусе сокровища уйдёт на перезарядку в %cd_no_crate% сек. Если вы не успели найти за 10 секунд ящик то он опять станет невидимым и вам нужно будет повторить процедуру заново."
+		"DOTA_Tooltip_ability_item_gu_crate_search_3_int"									"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_crate_search_3_mana_regen"							"Регенерация Маны:"
+
+		"DOTA_Tooltip_ability_item_gu_crate_search_4"									"Компас Сокровищ Гоа'улдов 4"
+		"DOTA_Tooltip_ability_item_gu_crate_search_4_Description"							"<h1>Активная: Сканер Местности </h1> При активации помечает в радиусе %radius% закопанные сокровища на 10 секунд, в случае отсутствия в радиусе сокровища уйдёт на перезарядку в %cd_no_crate% сек. Если вы не успели найти за 10 секунд ящик то он опять станет невидимым и вам нужно будет повторить процедуру заново."
+		"DOTA_Tooltip_ability_item_gu_crate_search_4_int"									"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_crate_search_4_mana_regen"							"Регенерация Маны:"
+
+		"DOTA_Tooltip_ability_item_gu_crate_search_5"									"Компас Сокровищ Гоа'улдов 5"
+		"DOTA_Tooltip_ability_item_gu_crate_search_5_Description"							"<h1>Активная: Сканер Местности </h1> При активации помечает в радиусе %radius% закопанные сокровища на 10 секунд, в случае отсутствия в радиусе сокровища уйдёт на перезарядку в %cd_no_crate% сек. Если вы не успели найти за 10 секунд ящик то он опять станет невидимым и вам нужно будет повторить процедуру заново."
+		"DOTA_Tooltip_ability_item_gu_crate_search_5_int"									"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_crate_search_5_mana_regen"							"Регенерация Маны:"
+
+
+		"dota_tooltip_ability_imba_pudge_meat_hook" "Meat Hook"
+		"dota_tooltip_ability_imba_pudge_meat_hook_base_damage" "БАЗОВЫЙ УРОН:"
+		"dota_tooltip_ability_imba_pudge_meat_hook_base_range" "НАЧАЛЬНЫЙ РАДИУС:"
+		"dota_tooltip_ability_imba_pudge_meat_hook_base_speed" "НАЧАЛЬНАЯ СКОРОСТЬ:"
+		"dota_tooltip_ability_imba_pudge_meat_hook_description" "Бросает окровавленный крюк в указанную цель или в выбранном направлении. Крюк зацепится за первое существо, в которое попадёт, притащит его к герою и нанесёт урон, если целью оказался враг.\n "
+		"dota_tooltip_ability_imba_pudge_meat_hook_hook_stacks" "ЗАРЯДОВ POWER/SWIFT:"
+		"dota_tooltip_ability_imba_pudge_meat_hook_hook_width" "ШИРИНА:"
+		"dota_tooltip_ability_imba_pudge_meat_hook_scepter_description" "<font color='#FF7800'>Увеличивает заряды Силы и Скорости.</font>"
+		"dota_tooltip_ability_imba_pudge_meat_hook_scepter_hook_stacks" "БОНУСНЫХ ЗАРЯДОВ Сила/Скорость С АГАНИМОМ:"
+
+
+		"dota_tooltip_ability_imba_pudge_sharp_hook" "Усиление: Сила"
+		"dota_tooltip_ability_imba_pudge_sharp_hook_description" "Активация увеличит урон крюка, но уменьшит его дальность и скорость.\nКаждый раз, когда герой повышает уровень, он получает еще один заряд этой способности."
+		"dota_tooltip_ability_imba_pudge_sharp_hook_stack_damage" "ДОП. УРОН ЗА ЗАРЯД:"
+		"dota_tooltip_ability_imba_pudge_sharp_hook_tooltip_stacks_per_second" "ИЗМЕНЕНИЕ ЗАРЯДОВ В СЕКУНДУ:"
+
+		"dota_tooltip_ability_imba_pudge_light_hook" "Усиление: Скорость"
+		"dota_tooltip_ability_imba_pudge_light_hook_description" "Активация увеличит дальность и скорость крюка, но уменьшит его урон.\nКаждый раз, когда герой повышает уровень, он получает еще один заряд этой способности."
+		"dota_tooltip_ability_imba_pudge_light_hook_stack_range" "ДОП. ДАЛЬНОСТЬ ЗА ЗАРЯД:"
+		"dota_tooltip_ability_imba_pudge_light_hook_stack_speed" "ДОП. СКОРОСТЬ ЗА ЗАРЯД:"
+		"dota_tooltip_ability_imba_pudge_light_hook_tooltip_stacks_per_second" "ИЗМЕНЕНИЕ ЗАРЯДОВ В СЕКУНДУ:"
+
+		"dota_tooltip_modifier_imba_hook_light_stack" "Усиление: Скорость"
+		"dota_tooltip_modifier_imba_hook_light_stack_description" "Дальность крюка увеличена на %dMODIFIER_PROPERTY_TOOLTIP2%. Скорость крюка увеличена на %dMODIFIER_PROPERTY_TOOLTIP%."
+		"dota_tooltip_modifier_imba_hook_sharp_stack" "Усиление: Сила"
+		"dota_tooltip_modifier_imba_hook_sharp_stack_description" "Урон крюка увеличен на %dMODIFIER_PROPERTY_TOOLTIP%."
+
+
+		"profile_tyan"			"Рандом Тян"
+		"profile_promo"			"Промокоды"
+		"promo_text"			"Если у вас есть промокод, вставте его в поле ниже."
+		"promo_label"			"Введите промокод..."
+		"promo_set"				"Промокод установлен!"
+		"promo_no"				"Такого промокода нет!"
+
+		"gu_chat_local"       		"Введите ваше сообщение..."
+		"gu_item_find"				"{player_name} достал из сокровищницы предмет - «{item_name}»"
+		"gu_item_find_neutrall"		"{player_name} достал из сокровищницы нейтральный предмет - <font color='#be46d4'>«{item_name}»</font>"
+		"gu_item_find_bolt"			"{player_name} получил из ящика грозовой разряд!"
+		"gu_item_find_snow"			"{player_name} получил из ящика замораживающий заряд!"
+		"gu_gacha_set"				"{player_name} получил из молитвы героя - «{hero_name}»!"
+		"gu_player_kill"			"{player_name} был убит существом - «{entity_name}» "
+		"andromeda_hurt_1"			"Помогите мне! На меня напали!"
+		"andromeda_hurt_2"			"Меня атакуют!"
+		"andromeda_hurt_3"			"Спасите меня!"
+
+
+		"dota_tooltip_ability_item_gu_aeon_disk" "Aeon Disk"
+		"dota_tooltip_ability_item_gu_aeon_disk_bonus_health" "+$health"
+		"dota_tooltip_ability_item_gu_aeon_disk_bonus_mana" "+$mana"
+		"dota_tooltip_ability_item_gu_aeon_disk_description" "<h1>Пассивная: Combo Breaker</h1> При получении любого урона, в результате которого уровень здоровья становится ниже %health_threshold_pct%%%, накладывает сильное развеивание и усиление на %buff_duration% сек., дающее %status_resistance%%%  сопротивления эффектам и обнуляющее получаемый урон, <font color='#FF7800'>при этом наносимый вами урон уменьшается на %damage_reduction%%%.</font> \n<h1><font color='#FF7800'>Переключаемая: Control Fate</font></h1> Может быть отключен, чтобы предотвратить срабатывание Combo Breaker."
+		"DOTA_Tooltip_modifier_imba_aeon_disk" 			"Aeon Disk"
+
+
+		///СКИЛЛЫ КРИППОВ С ВОЛН
+
+		"DOTA_Tooltip_ability_item_gu_wave_1"									"Снаряд: Регенерация"
+		"DOTA_Tooltip_ability_item_gu_wave_1_Description"						"<h1>Активная: Уничтожение регенерации </h1> Запускает в героя снаряд который при попадании отключает регенерацию здоровья на %duration%, перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_1"									"Снаряд: Регенерация"
+		"DOTA_Tooltip_modifier_item_gu_wave_1_Description"						"Регенерация Отключена"
+
+		"DOTA_Tooltip_ability_item_gu_wave_2"									"Снаряд: Остолбенение"
+		"DOTA_Tooltip_ability_item_gu_wave_2_Description"						"<h1>Активная: Остолбенение </h1> Запускает в героя снаряд который при попадании оглушает противника рандомно от %stun_min% до %stun_max% секунд, перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+
+		"DOTA_Tooltip_ability_item_gu_wave_3"									"Снаряд: Обезоружение"
+		"DOTA_Tooltip_ability_item_gu_wave_3_Description"						"<h1>Активная: Уничтожение вооружения </h1> Запускает в героя снаряд который при попадании отключает все пассивные способности а также обезоруживает цель на %duration%, перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_3"									"Снаряд: Обезоружение"
+		"DOTA_Tooltip_modifier_item_gu_wave_3_Description"						"Пассивные способности отключены, вы не можете атаковать."
+
+		"DOTA_Tooltip_ability_item_gu_wave_4"									"Снаряд: Молчание"
+		"DOTA_Tooltip_ability_item_gu_wave_4_Description"						"<h1>Активная: Молчание </h1> Запускает в героя снаряд который при попадании накладывает сайленс на %duration%, перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_4"									"Снаряд: Молчание"
+		"DOTA_Tooltip_modifier_item_gu_wave_4_Description"						"Замучен."
+
+		"DOTA_Tooltip_ability_item_gu_wave_5"									"Снаряд: Уменьшение Урона"
+		"DOTA_Tooltip_ability_item_gu_wave_5_Description"						"<h1>Активная: Уменьшение Урона </h1> Запускает в героя снаряд который при попадании уменьшает урон цели на %damage%% на %duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_5"									"Снаряд: Уменьшение Урона"
+		"DOTA_Tooltip_modifier_item_gu_wave_5_Description"						"Урон уменьшен на %dMODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE% процентов."
+
+		"DOTA_Tooltip_ability_item_gu_wave_6"									"Снаряд: Уничтожение Брони"
+		"DOTA_Tooltip_ability_item_gu_wave_6_Description"						"<h1>Активная: Уничтожение Брони </h1> Запускает в героя снаряд который при попадании уменьшает броню цели на %armor%% на %duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_6"									"Снаряд: Уничтожение Брони"
+		"DOTA_Tooltip_modifier_item_gu_wave_6_Description"						"Броня уменьшена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% "
+
+		"DOTA_Tooltip_ability_item_gu_wave_7"									"Снаряд: Слизь"
+		"DOTA_Tooltip_ability_item_gu_wave_7_Description"						"<h1>Активная: Слипание </h1> Запускает в героя снаряд который при попадании уменьшет скорость поворота на 1000 на %duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_7"									"Снаряд: Слизь"
+		"DOTA_Tooltip_modifier_item_gu_wave_7_Description"						"Скорость разворота уменьшена на %dMODIFIER_PROPERTY_TURN_RATE_PERCENTAGE% процентов"
+
+		"DOTA_Tooltip_ability_item_gu_wave_8"									"Снаряд: Обездвиживание"
+		"DOTA_Tooltip_ability_item_gu_wave_8_Description"						"<h1>Активная: Обездвиживание </h1> Запускает в героя снаряд который при попадании обездвиживает цель на случайную длительность от %min_duration% до %max_duration% на %duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_8"									"Снаряд: Обездвиживание"
+		"DOTA_Tooltip_modifier_item_gu_wave_8_Description"						"Обездвижен"
+
+		"DOTA_Tooltip_ability_item_gu_wave_9"									"Снаряд: Вор"	
+		"DOTA_Tooltip_ability_item_gu_wave_9_Description"						"<h1>Активная: Вор </h1> Запускает в героя снаряд который при попадании ворует у героя случайное кол-во золота от %min_gold%% до %max_gold%%,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		
+		"DOTA_Tooltip_ability_item_gu_wave_10"									"Снаряд: Искажение"
+		"DOTA_Tooltip_ability_item_gu_wave_10_Description"						"<h1>Активная: Обездвиживание </h1> Запускает в героя снаряд который при попадании заставляет промахиватся в 100% случаях на %min_duration% до %max_duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_10"									"Снаряд: Искажение"
+		"DOTA_Tooltip_modifier_item_gu_wave_10_Description"						"Шанс промаха увеличен до 100%"
+
+		"DOTA_Tooltip_ability_item_gu_wave_11"									"Снаряд: Замедление"
+		"DOTA_Tooltip_ability_item_gu_wave_11_Description"						"<h1>Активная: Обездвиживание </h1> Запускает в героя снаряд который при попадании замедляет героя на 100% на %min_duration% до %max_duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_11"									"Снаряд: Замедление"
+		"DOTA_Tooltip_modifier_item_gu_wave_11_Description"						"Замедляет скорость передвижения на 100%"
+
+		"DOTA_Tooltip_ability_item_gu_wave_12"									"Снаряд: Поражение"
+		"DOTA_Tooltip_ability_item_gu_wave_12_Description"						"<h1>Активная: Обездвиживание </h1> Запускает в героя снаряд который при попадании заставит получать на 500% больше урона от любого сущеста на %min_duration% до %max_duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_12"									"Снаряд: Поражение"
+		"DOTA_Tooltip_modifier_item_gu_wave_12_Description"						"Увеличивает весь входящий урон на 500%"
+
+		"DOTA_Tooltip_ability_item_gu_wave_13"									"Снаряд: Слизь"
+		"DOTA_Tooltip_ability_item_gu_wave_13_Description"						"<h1>Активная: Окутывание Слизью </h1> Запускает в героя снаряд который при попадании уменьшит скорость атаки на 1000% от %min_duration% до %max_duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_13"									"Снаряд: Слизь"
+		"DOTA_Tooltip_modifier_item_gu_wave_13_Description"						"Уменьшает скорость атаки на 1000%"
+
+		"DOTA_Tooltip_ability_item_gu_wave_14"									"Снаряд: Астрал"
+		"DOTA_Tooltip_ability_item_gu_wave_14_Description"						"<h1>Активная: Астрал </h1> Запускает в героя снаряд который при попадании закинет героя в астрал от %min_duration% до %max_duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
+		"DOTA_Tooltip_modifier_item_gu_wave_14"									"Снаряд: Астрал"
+		"DOTA_Tooltip_modifier_item_gu_wave_14_Description"						"Вы в астрале удачи походить."
+
+
+
+	/// АЛЬТЕРНАТИВНАЯ КОНЦОВКА
+
+		"alter_anromeda_1"				"Вы нашли все фрагменты утеряного адреса, теперь вы сможете посетить затерянную планету."
+		"alter_anromeda_2"				"На данной планете может быть утерянная технология которая может нам помочь."
+		"alter_anromeda_3"				"Вы отправляетесь туда немедленно! Я не смогу пойти с вами а так же поддерживать связь."
+		"alter_anromeda_4"				"Я и Оверлорд остаёмся здесь, принесите нам хорошие новости. Удачи!"
+
+
+		"antogonist_name_1"				"Lich King"
+		"lich_king_repli_1"				"Что же, я полагаю, вас стоит поприветствовать. Добро пожаловать, насекомые. Добро пожаловать в мой мир."
+		"lich_king_repli_2"				"Вы пришли в мир мертвых в поисках ответов. Желание помочь твоему союзнику заставило тебя рисковали жизнью , чтобы попасть сюда. Позволь мне помочь тебе."
+		"lich_king_repli_3"				"Но имей в виду."
+		"lich_king_repli_4"				"Ты станешь моим возмездием, и страшен будет удел тех, кто станет у тебя на пути."
+		"lich_king_repli_5"				"Иди же и взгляни в лицо своей судьбе."
+		"lich_king_repli_6"				"Помни герой, я тоже когда-то искал оружие, необычайной силы."
+		"lich_king_repli_7"				"Я вижу, что и ты пожинаешь души ради своих нужд. Так ли мы не схожи, герой?"
+		"lich_king_repli_8"				"Трепещите перед моими ужасными созданиями!"
+		"lich_king_repli_9"				"ВЫЫЫААААААААААА!!!!!"
+		"lich_king_repli_10"			"НЕВОЗМОЖНО!"
+		"lich_king_repli_11"			"Что движет вами? Правидность?"
+		"lich_king_repli_12"			"Сложите оружие и отдайте свои души."
+		"lich_king_repli_13"			"Хахахаха. Бежать не куда, теперь вы мои!"
+		"lich_king_repli_14"			"Ты ответишь за это! Радуйся что твоя смерть будет быстрой..."
+		"lich_king_repli_15"			"ВААААРХ!! ЛЕДЯНАЯ СКОРБЬ, ПОВИНУЙСЯ МНЕ!"
+
+		"alter_anromeda_5"				"С возвращением! Я вижу вы преуспели в поисках. Кристаллы которые берут энергию из водпростанства.... Очень хорошо."
+		"alter_anromeda_6"				"В некоторых точках на карте я синтезировала данные Кристаллы, это должно помочь вам в обороне!"
+		"alter_anromeda_7"				"Данные кристаллы значительно замедляют противников а также увеличивает входящий физический урон по ним."
+		"alter_anromeda_8"				"На этом у меня всё, продолжаем держать оборону. Оверлорд снова в вашем распоряжении."
+
+		"alter_anromeda_9"				"Вы нашли фрагмент неизвестного адреса! Если вы найдёте все 7 символов то вам будет открыт доступ к неизвестной планете!"
+		"alter_anromeda_10"				"Никто не знает что вас там ожидает, но я уверена это того стоит!"
+		"alter_anromeda_11"				"Вы нашли ещё один фрагмент!"
+
+
+ 		"DOTA_Tooltip_modifier_hell_cold_damager"					"Адский Холод"
+		"DOTA_Tooltip_modifier_hell_cold_damager_Description"		"Вы получаете некоторое кол-во урона каждую секунду, также вы не можете востанавливать здоровье. <br><br><font color='#4b96ad'>Чтобы на время снять этот эффект найдите Морозные Кристаллы и постойте возле них.</font>"
+		"npc_gu_lich_crystall"										"Ледяной Кристалл"
+		"DOTA_Tooltip_modifier_hell_cold_deactive"					"Сила Ледяного Кристалла"
+		"DOTA_Tooltip_modifier_hell_cold_deactive_Description"					"Вы в безопасности..."
+ 		"DOTA_Tooltip_modifier_syndragosa_ab_1_damage"				"Ледяная Аура"
+		"DOTA_Tooltip_modifier_syndragosa_ab_1_damage_Description"	"Каждые 3 секунды наносит вражеским героям урон в размере 40 процентов от здоровья"
+		"DOTA_Tooltip_ability_gu_syndragosa_ab_1"									"Ледяное Дыхание"
+		"DOTA_Tooltip_ability_gu_syndragosa_ab_1_Description"						"Наносит урон который равен 20 процентам от здоровья всем врагам попавших в область действия способности."
+		"npc_gu_syndragosa" 										"Syndragosa"
+		"npc_gu_lich_crate"											"Затерянный Кристалл"
+		"npc_gu_skeleton"											"Скелет"
+
+		"DOTA_Tooltip_ability_item_gu_lich_crystall_search"									"Амулет Синдрагосы"
+		"DOTA_Tooltip_ability_item_gu_lich_crystall_search_Description"						"<h1>Активная: Сканер Местности </h1> При активации помечает в радиусе %radius% закопанные сокровища на 10 секунд, в случае отсутствия в радиусе сокровища уйдёт на перезарядку в %cd_no_crate% сек. Если вы не успели найти за 10 секунд сокровище, то оно опять станет невидимымым и вам нужно будет повторить процедуру заново."
+
+		"end_game_qvest_99" "Получено новое задание!<br> «Исследование Планеты»"
+		"end_game_qvest_99_text" "Задание: «Исследование Планеты»"
+		"end_game_qvest_99_text_des"	"Исследуйте данную планету на предмет оружия либо чего то иного."
+
+		"end_game_qvest_100" "Получено новое задание!<br> «Поиск Неизвестного»"
+		"end_game_qvest_100_text" "Задание: «Поиск Неизвестного»"
+		"end_game_qvest_100_text_des"	"При помощи Амулета Синдрагосы найдите 12 спрятанных сокровищ!"
+
+		"end_game_qvest_101" "Получено новое задание!<br> «Убейте Короля Лича»"
+		"end_game_qvest_101_text" "Задание: «Убийство Короля Лича»"
+		"end_game_qvest_101_text_des"	"Найдите и сразитесь с Королём Личём!"
+
+		"crate_qvest_end"	"Поиск неизвестного!"
+
+		"npc_gu_lich_king"	"Король Лич"
+		"DOTA_Tooltip_modifier_lich_king_infection_damage"	"Заражение"
+		"DOTA_Tooltip_modifier_lich_king_infection_damage_Description"	"Каждые 2 секунды, герой получает 1 стак, каждый стак наносит 2 процента урона от максимального здоровья цели, так же каждый тик отбрасывает цель на 300 в случайную сторону. Эффект спадает если герой отойдёт на 1000 от Короля Лича."
+
+		"DOTA_Tooltip_ability_gu_lich_king_spawner"									"Призыв Приспешников"
+		"DOTA_Tooltip_ability_gu_lich_king_spawner_Description"						"Призывает 3 * сложность Вурдалаков которые сражаются на стороне Короля Лича."
+		"DOTA_Tooltip_modifier_andromeda_crystall_aura"								"Синтезированный Кристалл"
+		"DOTA_Tooltip_modifier_andromeda_crystall_aura_Description"					"Замедляет а также увеличивает весь входящий урон по врагам на 300%"
+		"sg1_dial"		"Набор"
+
+		"setting_dificult"		"Выбор Сложности"
+		"setting_dificult_text"		"Обратите внимание!<br><br> Игра настроена под игру на сложности - «Стандарт», если же вы не можете пройти карту то выберите сложность - «Легко», для тех кто понял как играть в данный проект, существуют сложности - «Сложно» и «Абсурдно»: игра на данных сложностях значительно сложнее, но так же вы будете получать больше наград (ММР, Прокрутки банеров а также GU-Coins)"
+
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1"									"Утерянный Магический Посох"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_Description"						"<h1>Активная: Магический Всплеск </h1> При активации на союзную цель, снимаёт с неё все негативные эффекты а также накладывает эффект линки на 10 секунд."
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_range_attack_bonus"				"Бонус к дальности атаки:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_caste_range_bonus"				"Бонус к дальности каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_cast_time"						"Уменьшение времени каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_mana_cost_reduction"					"Уменьшение затрат маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_movespeed"								"Бонус к скорости передвижения:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_magic_amp"								"%Усиление способностей:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_mana_regen"								"Регенерация Маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_int"									"Бонус к интеллекту:"
+
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2"									"Утерянный Магический Посох 2"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_Description"						"<h1>Активная: Магический Всплеск </h1> При активации на союзную цель, снимаёт с неё все негативные эффекты а также накладывает эффект линки на 10 секунд."
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_range_attack_bonus"				"Бонус к дальности атаки:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_caste_range_bonus"				"Бонус к дальности каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_cast_time"						"Уменьшение времени каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_mana_cost_reduction"					"Уменьшение затрат маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_movespeed"								"Бонус к скорости передвижения:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_magic_amp"								"%Усиление способностей:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_mana_regen"								"Регенерация Маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_int"									"Бонус к интеллекту:"
+
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3"									"Утерянный Магический Посох 3"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_Description"						"<h1>Активная: Магический Всплеск </h1> При активации на союзную цель, снимаёт с неё все негативные эффекты а также накладывает эффект линки на 10 секунд."
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_range_attack_bonus"				"Бонус к дальности атаки:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_caste_range_bonus"				"Бонус к дальности каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_cast_time"						"Уменьшение времени каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_mana_cost_reduction"					"Уменьшение затрат маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_movespeed"								"Бонус к скорости передвижения:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_magic_amp"								"%Усиление способностей:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_mana_regen"								"Регенерация Маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_int"									"Бонус к интеллекту:"
+
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4"									"Утерянный Магический Посох 4"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_Description"						"<h1>Активная: Магический Всплеск </h1> При активации на союзную цель, снимаёт с неё все негативные эффекты а также накладывает эффект линки на 10 секунд, также с шансом в 17% может наложить на цель эффект неуязвимости к магии.\n <h1>Пассивная: Другая Реальность </h1> Раз в 10 секунд снимает с владельца все негативные эффекты."
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_range_attack_bonus"				"Бонус к дальности атаки:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_caste_range_bonus"				"Бонус к дальности каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_cast_time"						"Уменьшение времени каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_mana_cost_reduction"					"Уменьшение затрат маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_movespeed"								"Бонус к скорости передвижения:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_magic_amp"								"%Усиление способностей:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_mana_regen"								"Регенерация Маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_int"									"Бонус к интеллекту:"
+
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1"									"Броня Гоа'улдов"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"						"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря - вы потеряете все стаки.</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_armor"								"Броня:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp_regen"							"Восстановление здоровья:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp"									"Бонусное здоровье:"
+
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2"									"Броня Гоа'улдов 2"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"						"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря - вы потеряете все стаки.</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_armor"								"Броня:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp_regen"							"Восстановление здоровья:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp"									"Бонусное здоровье:"
+
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3"									"Броня Гоа'улдов 3"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"						"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря - вы потеряете все стаки.</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_armor"								"Броня:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp_regen"							"Восстановление здоровья:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp"									"Бонусное здоровье:"
+
+
+		"DOTA_Tooltip_modifier_gu_alter_armor_stack"		"Броня Гоа'улдов"
+		"DOTA_Tooltip_modifier_gu_alter_armor_stack_Description"		"+%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% к броне, +%dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% к силе"
 
 }
 
