@@ -70,21 +70,6 @@
 	-kill instantly kills you.
 	-sr start round button's analogue.
 	-zoom x, where х [300 - 1800], sets player's camera distance."
-	"dev_desc"      "You are a member of project's development team. Your priveleges:	
-
-	"dvach_dev_desc"      "You are a part of project's development team, your priveleges:
-	Chat commands:
-	-w changes current weather to a random
-	-rune spawns new runes on all spots
-	-a10 makes ally air support appear.
-	-any hero can be picked by typing it's name in the chat
-	e.g. - npc_dota_hero_abaddon
-
-	Speed of auto-dialling stargate addresses is 300%
-
-	Ability to pick any hero, even a locked one
-
-	You can air any video by sending the link to the in-game chat."
 
 	Chat commands:
 	-«-w» randomly changes current weather;
@@ -134,35 +119,19 @@
 "DVACH_PICK_STATE_SELECT" "Hero pick"
 "DVACH_PICK_STATE_BAN" "Hero ban"
 "DVACH_PICK_STATE_PRE_END" "Preparing for the battle"
-"DVACH_PICK_STATE_END" "The Game Starts!"
-
-
-
-
-
-						/// Г Е Р О И  ///
-
-	"npc_dota_hero_wisp"									"Pick a hero"
-
+"DVACH_PICK_STATE_END" "The Game Begins!"
 
 
  "DOTA_Tooltip_ability_ouroboros_dualcast" "Multicast"
  "DOTA_Tooltip_ability_ouroboros_dualcast_description" "<h1>Toggle: Repeater</h1> When the ability is on, if you use any other ability, it will be cast twice at cost of 50 Energy."
  "DOTA_Tooltip_ability_ouroboros_dualcast_delay" "Delay:"
 
-
-
 "DOTA_Tooltip_modifier_dualcast" "Multicast"
 "DOTA_Tooltip_modifier_dualcast_Description" "The ability will be cast again after use."
-
-
-
-
 
 											/// U N I V E R S E ///
 											
 										/// U N I V E R S E - P O W E R /// ///S T R E N G T H ///											
-
 	 "npc_dota_hero_abaddon" "Ghost Warrior"
 
 
@@ -201,7 +170,6 @@
 		"DOTA_Tooltip_Ability_voin_borrowed_time_duration_scepter"	 "Duration with the scepter:"
 
  "npc_dota_hero_legion_commander" "Legion Legate"
-
 
  "DOTA_Tooltip_ability_legion_commander_overwhelming_odds" "Auxilia sagittarius"
  "DOTA_Tooltip_ability_legion_commander_overwhelming_odds_Description" "Part of support forces follows Legate with the legion. Archers shoot Legate's enemy from the sky."
@@ -243,8 +211,6 @@
 
 "npc_dota_hero_elder_titan" "Morax"
 
-
-
  "DOTA_Tooltip_ability_reus_gaias_fury" "Crystal fate"
  "DOTA_Tooltip_ability_reus_gaias_fury_description" "Charges their strike with the power of the earth and deals massive AoE damage when attacking. Damage depends on strength of Earth Mage and works according to the formula Strength * multiplier. Cooldown cannot be reduced, ability is autocasted<br>Damage type: <font color='#f7a62d'>Energy</font>"
  "DOTA_Tooltip_ability_reus_gaias_fury_radius" "Radius:"
@@ -281,14 +247,6 @@
 
 		"DOTA_Tooltip_modifier_earch_mag_ylti" 											"Morax"
 		"DOTA_Tooltip_modifier_earch_mag_ylti_Description" 											"Bonus damage - %dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% "
-
-///Способность для Разблокировки Героя Маг Земли///
- "DOTA_Tooltip_ability_reus_stoneblast_unlock" "Stone Throw"
- "DOTA_Tooltip_ability_reus_stoneblast_unlock_Description" "The Earth Mage throws a cobblestone at the specified point that stuns and deals damage to all units on its way<br>Damage type: <font color='#f7a62d'>Energy</font>"
- "DOTA_Tooltip_ability_reus_stoneblast_unlock_stun" "Stun:"
- "DOTA_Tooltip_ability_reus_stoneblast_unlock_damage" "Damage:"
-
-
 
 										/// U N I V E R S E - A G I L I T Y ///
 
@@ -336,7 +294,6 @@
 
 
 "npc_dota_hero_sniper" "Sniper"
-
 
 		"DOTA_Tooltip_ability_mjz_sniper_assassinate" "Barret M98 50. BMG"
 		"DOTA_Tooltip_ability_mjz_sniper_assassinate_description" "Sniper fires from a high-caliber rifle."
@@ -453,7 +410,6 @@
 
  "npc_dota_hero_obsidian_destroyer" "Merlin"
  
- 
                 "DOTA_Tooltip_ability_stargazer_gamma_ray" "Emitter"
 				"DOTA_Tooltip_ability_stargazer_gamma_ray_Description" "Merlin uses one of the Ancients' technologies to emit high frequency electromagnetic waves, launching it in the form of a beam at the target." 
 				"DOTA_Tooltip_ability_stargazer_gamma_ray_base_damage" "Base damage:" 
@@ -527,7 +483,6 @@
 
  "npc_dota_hero_axe" "Lalatina Dustiness Ford"
 
-
 "DOTA_Tooltip_ability_darkness_taunt"													"Provocation"
 		"DOTA_Tooltip_ability_darkness_taunt_Description"										"Mocks enemies making them attack her , and increasing their attack speed while also decreasing their attack damage."
 		"DOTA_Tooltip_ability_darkness_taunt_radius"											"Radius:"
@@ -576,7 +531,6 @@
 
 
 "npc_dota_hero_furion"    "Kotori Itsuki"
-
 
 "DOTA_Tooltip_ability_kotori_slam"                                                		"Fire Slam"
 		"DOTA_Tooltip_ability_kotori_slam_Description"                                    		"With a swing slams ground with her axe splitting ground beneath causing void flame to appear from under it.<br>Damage type: <font color='#00ff1e'>Angelic</font>"
@@ -644,12 +598,9 @@
  "DOTA_Tooltip_modifier_kongou_ammo_debuff" "Burnout"
  "DOTA_Tooltip_modifier_kongou_ammo_debuff_Description" "You are being burned out by a high explosive projectile"
  
- // Kongou Bullet
  "DOTA_Tooltip_ability_kongou_bullet" "Artillery Bullet 2A44"
  "DOTA_Tooltip_ability_kongou_bullet_Description" "Launches a 2A44 Artillery Bullet at the target point that deals area damage of High explosive projectile. Decreases enemy units' move speed."
  "DOTA_Tooltip_ability_kongou_bullet_radius" "Radius:"
- // "DOTA_Tooltip_ability_kongou_bullet_speed" "Bullet speed:"
- //"DOTA_Tooltip_ability_kongou_bullet_speed"  "Bullet speed:"
  "DOTA_Tooltip_ability_kongou_bullet_aoe_damage" "Damage:"
  "DOTA_Tooltip_ability_kongou_bullet_dot_damage" "Burn:" // Same 
  "DOTA_Tooltip_ability_kongou_bullet_dot_duration" "Duration:"
@@ -659,7 +610,6 @@
  "DOTA_Tooltip_modifier_kongou_bullet_debuff" "2A44 Artillery Bullet"
  "DOTA_Tooltip_modifier_kongou_bullet_debuff_Description" "- %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%  move speed reduced by %"
  
- // Kongou Reload
  "DOTA_Tooltip_ability_kongou_reload" "Quick Reload"
  "DOTA_Tooltip_ability_kongou_reload_Description" "Grants passive armor and HP regeneration<br><br>When activated, reloads High explosive projectile and 2A44 Artillery Shell"
  "DOTA_Tooltip_ability_kongou_reload_armor" "Armor:"
@@ -670,15 +620,13 @@
  "DOTA_Tooltip_ability_kongou_reload_slow_ms" "% Move speed slow:"
  
  
- // Kongou Radar
  "DOTA_Tooltip_ability_kongou_radar" "R-419L1"
  "DOTA_Tooltip_ability_kongou_radar_Description" "Shows all enemy units on the map."
  // "DOTA_Tooltip_ability_kongou_radar_radius" "Radius:"
  "DOTA_Tooltip_ability_kongou_radar_vision_radius" "Vision range:"
  "DOTA_Tooltip_ability_kongou_radar_vision_duration" "Vision duration:"
  
- 
- // Kongou Salvo
+
  "DOTA_Tooltip_ability_kongou_salvo" "Bombing"
  "DOTA_Tooltip_ability_kongou_salvo_Description" "Shoots multiple projectiles at the target point."
  "DOTA_Tooltip_ability_kongou_salvo_radius" "Radius:"
@@ -693,8 +641,6 @@
 
  "npc_dota_hero_sven" "Neptune"
  
- 
- 
   "DOTA_Tooltip_ability_neptun_cross" "Hit streak"
  "DOTA_Tooltip_ability_neptun_cross_Description" "Neprune performs a fast series of hits against 1 enemy, dealing damage equal to attack damage."
  "DOTA_Tooltip_ability_neptun_cross_cross_jumps" "Number of hits:"
@@ -705,7 +651,6 @@
  "DOTA_Tooltip_modifier_neptun_cross_Description" "Receives a huge number of hits"
  
  
- // Victory Slash
  "DOTA_Tooltip_ability_neptun_slash" "Dash"
  "DOTA_Tooltip_ability_neptun_slash_Description" "Neprune dashes towards the enemy and damages all enemies in her path."
  "DOTA_Tooltip_ability_neptun_slash_slash_speed" "Dash speed:"
@@ -731,17 +676,6 @@
  "DOTA_Tooltip_modifier_neptun_armor_buff_Description" "You are under Neprune's protection"
  
  
- "DOTA_Tooltip_ability_nepsplesh" "Modifier: Splash"
- "DOTA_Tooltip_ability_nepsplesh_Description" "Deal splash damage."
- "DOTA_Tooltip_ability_nepsplesh_splash_damage" "Splash Damage:"
-
-
-"DOTA_Tooltip_ability_nepsplesharcana" "Modifier: Splash"
- "DOTA_Tooltip_ability_nepsplesharcana_Description" "Deal splash damage:"
- "DOTA_Tooltip_ability_nepsplesharcana_splash_damage" "Splash Damage:"
- 
- 
- // HDD MOD
  "DOTA_Tooltip_ability_neptun_hdd" "Purple Heart"
  "DOTA_Tooltip_ability_neptun_hdd_Description" "Neptune activates her HDD Form (Purple Heart), receiving strong strength and damage increases."
  "DOTA_Tooltip_ability_neptun_hdd_note0"														"While in HDD form Neptune is able to phase through units."
@@ -762,8 +696,6 @@
 
 
 "npc_dota_hero_spirit_breaker" "Rem"
-
-
 
 			"DOTA_Tooltip_ability_rembash"	"Flail hit"
 		"DOTA_Tooltip_ability_rembash_chance"	"Chance:"
@@ -801,10 +733,6 @@
 		
 		"DOTA_Tooltip_ability_ghostization"	"Demonic origin"
 		"DOTA_Tooltip_ability_ghostization_Description"	"Rem enters demon form that drains her mana but grants bonuses instead."
-		"DOTA_Tooltip_ability_ghostization_strength"	"Bonus strength"
-		"DOTA_Tooltip_ability_ghostization_regen"	"Regeneration:"
-		"DOTA_Tooltip_ability_ghostization_attack"	"Damage:"
-		"DOTA_Tooltip_ability_ghostization_draw_mana"	"Mana drain:"
 
 		"DOTA_Tooltip_modifier_ghostization"	"Demonic form"
 		
@@ -836,15 +764,6 @@
             "DOTA_Tooltip_ability_war_fight_me_duration"                                     "Duration:"
 			"DOTA_Tooltip_ability_war_fight_me_radius"                                       "Radius:"
 			"DOTA_Tooltip_ability_war_fight_me_base_damage"                                  "Base Damage:"
-
-			"DOTA_Tooltip_ability_axe_culling_blade"                                             "Last hit"
-			"DOTA_Tooltip_ability_axe_culling_blade_description"                                 "When health of the target is below the threshold Chloe instantly kills it, ignoring all resistances. Also if the kill is successful, allies and Chloe gain extra attack and move speed.<br>Damage type: <font color='#bb00ff'>«Matter of the Universe»</font>"
-			"DOTA_Tooltip_ability_axe_culling_blade_kill_threshold"                                      "Threshold: "
-			"DOTA_Tooltip_ability_axe_culling_blade_damage"                                        "Damage : "
-			"DOTA_Tooltip_ability_axe_culling_blade_kill_threshold_scepter"                                    "Threshold with the scepter: "
-			"DOTA_Tooltip_ability_axe_culling_blade_atk_speed_bonus_tooltip"                                        "%Extra speed : "
-
-
 
 
 
@@ -947,8 +866,6 @@
 
 "npc_dota_hero_spectre" "Kanade Tachibana"
  
- 
-
 		"DOTA_Tooltip_ability_hand_sonic"	"Hand sonic"
 		"DOTA_Tooltip_ability_hand_sonic_Description"	"Deals additional damage based on your agility."
 		"DOTA_Tooltip_ability_hand_sonic_agility_damage"	"%Agility into damage:"
@@ -988,7 +905,6 @@
 
 
  "npc_dota_hero_alchemist" "Clown"
-
 
 		"DOTA_Tooltip_ability_ability_thdots_clown01"	"Pulling Sphere"
 		"DOTA_Tooltip_ability_ability_thdots_clown01_Description"	"Clown throws a fire sphere that pulls enemies."	
@@ -1105,19 +1021,16 @@
 
 "npc_dota_hero_nyx_assassin" "Noire"
 
-
-
-// Tornado Sword
  "DOTA_Tooltip_ability_noire_sword" "Hit"
  "DOTA_Tooltip_ability_noire_sword_Description" "Noire strikes in front of her and applies all her orb effects to enemies."
  "DOTA_Tooltip_ability_noire_sword_radius" "Radius:"
- // Fall Slash
+
  "DOTA_Tooltip_ability_noire_slash" "Energy Wave"
  "DOTA_Tooltip_ability_noire_slash_Description" "Noire emmits 3 waves that damage enemies."
  "DOTA_Tooltip_ability_noire_slash_speed" "Speed:"
  "DOTA_Tooltip_ability_noire_slash_width" "Width:"
  "DOTA_Tooltip_ability_noire_slash_damage" "Damage:"
- // Medistation
+
  "DOTA_Tooltip_ability_noire_medistation" "Medistation"
  "DOTA_Tooltip_ability_noire_medistation_Description" "Grants additional damage from each attack, this damage goes through any evasion."
  "DOTA_Tooltip_ability_noire_medistation_duration" "Duration:"
@@ -1129,7 +1042,7 @@
 
  "DOTA_Tooltip_modifier_noire_medistation" "Medistation"
  "DOTA_Tooltip_modifier_noire_medistation_Description" ""
- // Next Form
+
  "DOTA_Tooltip_ability_noire_next" "Western Digital Blue 1TB 7200rpm 64MB WD10EZEX 3.5 SATA III"
  "DOTA_Tooltip_ability_noire_next_Description" "Decreases the cooldown of your spells and also increases your magic resistance."
  "DOTA_Tooltip_ability_noire_next_cooldown_reduce" "%Cooldown reduction:"
@@ -1215,8 +1128,6 @@
 
 "npc_dota_hero_dazzle"	"Lunasa Prismriver"
 
-
-
 		"DOTA_Tooltip_ability_ability_thdots_lunasa01"	"False note"
 		"DOTA_Tooltip_ability_ability_thdots_lunasa01_Description"	"Lunasa plays her violin after that she deals damage to the target."
 		"DOTA_Tooltip_ability_ability_thdots_lunasa01_lunasa01_duration"		"Silence Duration:"
@@ -1242,8 +1153,6 @@
 		"DOTA_Tooltip_ability_ability_thdots_lunasaEx_Description"		"Each 4th attack of Lunasa deals additional magical damage. Also for every killed creep she gains 0.25% magical damage amplification."
 		"DOTA_Tooltip_ability_ability_thdots_lunasaEx_Lore"		"Next attack will deal bonus damage"
 		
-		
-		//modifier
 		"DOTA_Tooltip_modifier_lunasa01"	"Silenced by the music"
 		"DOTA_Tooltip_modifier_lunasa02"	"Ghost violin"
 		"DOTA_Tooltip_modifier_lunasa02_Description"	"target's magical resistance is reduced"
@@ -1306,8 +1215,6 @@
 
 
  		"npc_dota_hero_naga_siren" "Hatsune Miku"
-		
-		
 		
 				//TALENTS
 		//Resonate Wave
@@ -1472,7 +1379,6 @@
 
 "npc_dota_hero_enchantress" "Cirno"
 
-
  "DOTA_Tooltip_ability_ability_thdots_cirno01"                                     "<font color='#0077ff'>「Perfect Freeze」</font>"
 		"DOTA_Tooltip_ability_ability_thdots_cirno01_Description"                        "Cirno frezees everything around herself, decreasing movement and attack speed of enemies around her for 3 seconds. (Ground also freezes.)"
 		"DOTA_Tooltip_ability_ability_thdots_cirno01_damage"							  "Damage: "
@@ -1559,7 +1465,6 @@
 
 "npc_dota_hero_lich" "Emilia"
 
-
  "DOTA_Tooltip_ability_emilia_shoots" "Ice shards"
  "DOTA_Tooltip_ability_emilia_shoots_Description" "Emilia begins to cast ice shards that damage enemies."
  "DOTA_Tooltip_ability_emilia_shoots_speed" "Shard speed:"
@@ -1603,16 +1508,7 @@
  "DOTA_Tooltip_ability_emilia_flower_radius" "Radius:"
  "DOTA_Tooltip_ability_emilia_flower_damage_sec" "Damage per second:"
 
-
-
-
-
-
-
 "npc_dota_hero_storm_spirit" "Yumemi Okazaki"
-
-
-
 
  "DOTA_Tooltip_ability_ability_thdots_yumemiEx" "<font color='#ff8400'> 「Grand Unified Theorem」</font>"
  "DOTA_Tooltip_ability_ability_thdots_yumemiEx_Description" "<font color='#ff8400'>Yumemi is able to transform energy. Each installed cross gives Yumemi additional damage from the hand and also allows you to withstand one hit of any kind.</font><br>Damage type: <font color='#f7a62d'>Energy</font> "
@@ -1641,9 +1537,7 @@
 
 
 
-///ДЕЛАЙ!///
 "npc_dota_hero_skeleton_king" "Lich King"
-
 
 		"DOTA_Tooltip_ability_king_lich_frost_nova"	"Primal cold"
 		"DOTA_Tooltip_ability_king_lich_frost_nova_Description"	"Lich opens a portal to Dark Space, summoning primal cold. It deals damage and stuns enemies in radius of 220."
@@ -1693,8 +1587,7 @@
 
 
 
-"npc_dota_hero_enigma" "Blackhole-Chan"
-
+"npc_dota_hero_enigma" "Andromeda"
 
 "DOTA_Tooltip_ability_gemini_abyssal_vortex" "Uncontrollable black hole"
  "DOTA_Tooltip_ability_gemini_abyssal_vortex_description" "Blackhole-Chan sets up an uncontrollable black hole that sucks in everyone in the range."
@@ -1783,7 +1676,6 @@
 "npc_dota_hero_witch_doctor" "BMP-2"
 "npc_dota_hero_nevermore" "F-35"
 "npc_cu_mq9" "F-16 Falcon"
-"npc_dota_hero_dark_seer" "2C1 «Gvozdika»"
 "npc_dota_hero_bristleback" "AH-64D «Apache»"
 "npc_dota_hero_magnataur" "Bychara"
 "npc_dota_hero_troll_warlord" "Reimu Hakurei"
@@ -1795,7 +1687,6 @@
 "npc_dota_hero_slardar" "Yaya"
 "npc_dota_hero_tiny" "Granite"
 "npc_cu_mi24" "MI-24V Hind"
-"npc_dota_hero_zuus" "M270 MLRS"
 
 "npc_dota_hero_void_spirit" "Marisa Kirisame"
 
@@ -1834,10 +1725,6 @@
  "DOTA_Tooltip_modifier_marisa_starfall" "Starfall"
  "DOTA_Tooltip_modifier_marisa_starfall_Description" "Stars are falling all around you!"
 
-
-///ХУЙ ПАЙМИ КТО///
-
-
 "DOTA_Tooltip_Ability_dark_blade" "Dark Spell Blade"
 "DOTA_Tooltip_Ability_dark_blade_Description" "Unleashes dark lagoon that decreases magical resistance and deals damage. Also bounces of enemies."
 "DOTA_Tooltip_Ability_dark_blade_damage" "Damage per bounce:"
@@ -1845,8 +1732,6 @@
 "DOTA_Tooltip_Ability_dark_blade_magic_armor" "Magical resistance reduction:"
 "DOTA_Tooltip_Ability_dark_blade_curse_duration" "Duration: "
 "DOTA_Tooltip_Ability_dark_blade_fade_scepter" "Count of bounces with Scepter :"
-
-
 
 "DOTA_Tooltip_Ability_light_blade" "Burning Spell Blade"
 "DOTA_Tooltip_Ability_light_blade_Description" "Unleashes dark lagoon that bounces of enemies"
@@ -1877,6 +1762,7 @@
 "DOTA_Tooltip_Ability_ebf_underlord_expulsion_heal_per_sec" "Healing per stack:"
 "DOTA_Tooltip_Ability_ebf_underlord_expulsion_base_duration" "Stack duration :"
 
+"npc_dota_hero_mirana" "Yagokoro Eirin"
 
  	"DOTA_Tooltip_ability_revelater_0"	"MeiYin"
 		"DOTA_Tooltip_ability_revelater_0_Description"   "After getting hit 6 times you can activate the ability to get a shield that will block any damage once."
@@ -1888,8 +1774,11 @@
 		"DOTA_Tooltip_ability_revelater_2_Description"	  "Allows to teleport to the target point or pull enemy to you."
         "DOTA_Tooltip_ability_revelater_3_Description"                  "Knives appear around the hero and damage enemies and decrease their armor %. Also increases attack range and improves base attacks."
 		"DOTA_Tooltip_ability_revelater_4_Description"                  "Surrounds herself with a shield that deals damage to enemies every 0,2 seconds. Also reduces incoming damage for duration time."
+		
+				"npc_dota_hero_monkey_king"											"Spectral Spirit"
 
-
+		"DOTA_Tooltip_Ability_boss_damage_passive"							"Naquadria"
+		"DOTA_Tooltip_Ability_boss_damage_passive_Description"					"This unit is covered with Naquadria alloy which grants almost impenetratable armor, which makes all incoming damage be equal to a certain amount."
 
 "npc_dota_hero_bounty_hunter" "Kizaru"
 
@@ -1928,15 +1817,13 @@
  
  
  
- // ======================================================================================================================
  "DOTA_Tooltip_ability_moonlight_projection" "Energy Mage: Moonlight Projection"
  "DOTA_Tooltip_ability_moonlight_projection_Description" "Transfers you and deals damage to enemies.<br></br>-----------------------------------------------<br></br>Factor damage with attacks: 1 + 0.25 * Ability level<br></br>Maximum distance: 550 + 50 &nbsp; * Ability level<br></br>Radius: 200<br></br>-----------------------------------------------"
  "DOTA_Tooltip_ability_moonlight_projection_Lore" "Feel the moonlight"
  "DOTA_Tooltip_ability_moonlight_projection_damage" "Multiplier:"
  "DOTA_Tooltip_ability_moonlight_projection_base_damage" "Damage:"
  
- 
- // ======================================================================================================================
+
  "DOTA_Tooltip_ability_shadowmoon_wheeldance" "Energy Mage: Moon Dance"
 "DOTA_Tooltip_ability_shadowmoon_wheeldance_Description" "Deals damage around self, reduces speed and attack speed. <font color='#bb00ff'>Сooldown</font> is reduced by 10% for each enemy killed by this ability<br></br>-----------------------------------------------<br></br>Coefficient of additional damage: 1.25 + 0.25 &nbsp; * Level abilities<br></br>Radius: 300<br></br>Duration: 3<br></br>-----------------------------------------------"
  "DOTA_Tooltip_ability_shadowmoon_wheeldance_Lore" "Craftsman ability"
@@ -1944,12 +1831,14 @@
  "DOTA_Tooltip_ability_shadowmoon_wheeldance_base_damage" "Damage:"
  "DOTA_Tooltip_modifier_shadowmoon_wheeldance" "Moon Dance"
  "DOTA_Tooltip_modifier_shadowmoon_wheeldance_Description" "This unit is slowed down."
- // ======================================================================================================================
+
+
  "DOTA_Tooltip_ability_shadow_rift_garrotte" "Energy Mage: Garroth's Twilight Rift"
  "DOTA_Tooltip_ability_shadow_rift_garrotte_Description" "Moves you around the battlefield, dealing devastating damage<br></br>-----------------------------------------------<br></br>Damage ratio from each attack: 1 + 1 &nbsp; * Ability level<br></br>Duration: 3<br></br>Radius: 900<br></br>-----------------------------------------------"
  "DOTA_Tooltip_ability_moonlight_projection_Lore" "Through space"
  "DOTA_Tooltip_ability_shadow_rift_garrotte_damage" "Damage:"
- // ======================================================================================================================
+
+
  "DOTA_Tooltip_ability_abstrusemoon_shadow" "Energy Mage: Blurred Shadow"
  "DOTA_Tooltip_ability_abstrusemoon_shadow_Description" "Each hit increases base attack power by 4%%, targets effectively reduce the cost of life and will be 50%%  upper limit of transformation for their life."
  "DOTA_Tooltip_ability_abstrusemoon_shadow_Lore" "From Shadow to Shadow"
@@ -2044,12 +1933,6 @@
  "DOTA_Tooltip_ability_bounty_hunter_jinada_bonus_damage" "Damage:"
  "DOTA_Tooltip_ability_bounty_hunter_jinada_gold_steal" "Gold stolen (heroes only):"
  
- 
- 
- 
- 
- 
- 
   "DOTA_Tooltip_ability_mifune_genso" "Mystic Samurai: Shadow cloning"
  "DOTA_Tooltip_ability_mifune_genso_description" "Creates a clone near the target unit."
  "DOTA_Tooltip_ability_mifune_genso_illusion_tooltip" "%Incoming Damage:"
@@ -2090,26 +1973,6 @@
 			"DOTA_Tooltip_ability_mifune_zanmato_scepter_bonus_hero_damage"                           "Damage : "
 			"DOTA_Tooltip_ability_mifune_zanmato_scepter_orb_damage"                                  "Damage per orb : "
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  		"DOTA_Tooltip_Ability_mi24_upgrade"								"Mi-24"
 		"DOTA_Tooltip_Ability_mi24_upgrade_Description"					"Improve characteristics of the tank."
 		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_health"					"Durability:"
@@ -2119,7 +1982,6 @@
 		"DOTA_Tooltip_Ability_mi24_upgrade_attack_range_bonus"					"Shooting range:"
 		"DOTA_Tooltip_Ability_mi24_upgrade_passive_speed"					"Move speed:"
 		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_damage_hp_pct"					"% of the enemy HP dealt as damage:"
- 
  
  "npc_dota_hero_shredder" "T-90" 
  
@@ -2198,7 +2060,6 @@
 		
 		
 		"npc_dota_hero_skywrath_mage" "Illya"
-		
 		
 		"DOTA_Tooltip_ability_saber"	"Transformation : Saber"
 		"DOTA_Tooltip_ability_saber_Description"	"Transforms into Saber form, increasing her move speed by %Riding%, also changes main attribute Strength."
@@ -2300,64 +2161,12 @@
 		"DOTA_Tooltip_ability_Zabaniya_Description"	"Teleports to the target area leaving her invisible copy at starting point."
 		"DOTA_Tooltip_ability_Zabaniya_illusion_duration"	"Duration:"
  
- 
- 
-		
-		"DOTA_Tooltip_ability_card_attack"	"Talismans"
-		"DOTA_Tooltip_ability_card_attack_Description"	"Throws talismans in enemies"
-		"DOTA_Tooltip_ability_card_attack_shrapnel_damage"	"Damage:"
-		"DOTA_Tooltip_modifier_card_fly"	"击中次数"
-		"DOTA_Tooltip_modifier_card_fly_Description"	""
-		"DOTA_Tooltip_ability_card_attack_max"	"Stacks"
-		"DOTA_Tooltip_ability_card_attack_duration"	""
-		
-		
-		"DOTA_Tooltip_ability_YinYang_Orbs"	"Orb"
-		"DOTA_Tooltip_ability_YinYang_Orbs_main_damage"	"Damage:"
-		"DOTA_Tooltip_ability_Dimensional_Rift_reduce"	"Cost:"
-		
-		"DOTA_Tooltip_ability_Dimensional_Rift"	"Blink"
-		"DOTA_Tooltip_ability_Dimensional_Rift_blink_range"	"Blink range:"
-		"DOTA_Tooltip_ability_Dimensional_Rift_Description"	"Use Talisman stacks to blink"
-		"DOTA_Tooltip_modifier_flyflame"	""
-		"DOTA_Tooltip_modifier_flyflame_Description"	""
-		
-		"DOTA_Tooltip_ability_YinYang_Orbs_Description"	"Place an orb that damages enemies that pass near it."
-		"DOTA_Tooltip_ability_YinYang_Orbs_radius"	"Radius:"
-		"DOTA_Tooltip_ability_YinYang_Orbs_reduce"	"Cost:"
-		
-		
-		
-		"DOTA_Tooltip_ability_Fantasy_Nature"	"Fantasy"
-		"DOTA_Tooltip_ability_Fantasy_Nature_spirit_duration"	"Duration:"
-		"DOTA_Tooltip_ability_Fantasy_Nature_damage"	"Damage:"
-		"DOTA_Tooltip_ability_Fantasy_Nature_intmath"	""
-		"DOTA_Tooltip_ability_Fantasy_Nature_reduce"	""
-		"DOTA_Tooltip_ability_Fantasy_Nature_Description"	""
-		
-		
-		
-		"DOTA_Tooltip_ability_Fantasy_Seal_reduce"	"Talisman Stacks"
-		"DOTA_Tooltip_ability_Fantasy_Seal_Description"	"Reimu Hakurei gains stacks when casts her 1 skill on enemies. Stacks are used to cast her other abilities."
-		"DOTA_Tooltip_ability_Fantasy_Seal_creep_damage"	"Damage:"
-		"DOTA_Tooltip_ability_Fantasy_Seal_damage_range"	"Damage2:"
-		
-		"DOTA_Tooltip_ability_Fantasy_Seal"	"Fantasy"
-		
-		"DOTA_Tooltip_ability_fantasy_lanch"	"Launch"
- 
- 
- 
- 
  "npc_dota_hero_venomancer" "T-72"
- 
- 
  
   "DOTA_Tooltip_Ability_t72_upgrade" "T-72 (Object 172M)"
  "DOTA_Tooltip_Ability_t72_upgrade_Description" "The most mass produced tank of the second generation. Adopted in the Armed Forces of the USSR since 1973. T-72 was developed and produced by Uralvagonzavod in Nizhny Tagil. Chief designer of the machine - V. N. Venediktov. Ural is in service with the CIS countries , exported to the states of the Warsaw Pact, Finland, India, Iran, Iraq, Syria. Modifications of the T-72 were produced under license in Yugoslavia (M-84), Poland (PT-91), Czechoslovakia and India, which exported them. "
  "DOTA_Tooltip_Ability_t72_upgrade_bonus_health" "Durability:"
  "DOTA_Tooltip_Ability_t72_upgrade_bonus_armor" "Armor:"
- "DOTA_Tooltip_Ability_t72_upgrade_passive_speed" "Speed:"
  
  "DOTA_Tooltip_Ability_t72_2A46" "2A46 (D-81TM)"	
 "DOTA_Tooltip_Ability_t72_2А46_Description" "After the adoption of the 2A26 tank gun as part of the armament of the new T-64A and T-72 main tanks, the operating experience revealed the lack of new 125-mm smooth-bore tank guns. Due to the influence of weather factors, the barrel of the gun was subject to curvature, which negatively affected the accuracy of shooting.An unsuccessful design of the recoil devices was also revealed.As a result of thermal expansion in the recoil devices, a mixture of recoil fluid and compensation air was formed, which led to an uneven rollback of the gun and a significant decrease in accuracy. To eliminate the shortcomings, work began on a modernized version of the 2A26 gun.The new gun was developed at OKB-9 under the leadership of V. A. Golubev, and in 1970 the 2A46 tank gun was put into service.<br>Damage type: <font color='#ff9100'>Explosion Energy</font> "	
@@ -2373,34 +2182,10 @@
  "DOTA_Tooltip_Ability_t72kym_delay" "Guidance:" 
  
  "DOTA_Tooltip_Ability_t72explosion" "T-72 Ammunition"	
- "DOTA_Tooltip_Ability_t72explosion_Description" "On the modern Russian main tank T-72, the ammunition load, for which the tank provides for their placement in combat stowage, includes, for:
-guns - 42 units of 125-mm rounds, separate loading, of four types: with a guided missile, armor-piercing sabot, armor-piercing cumulative and high-explosive fragmentation shells;
-7.62-mm twin-barreled machine gun  - 2000 rounds;
-12.7 mm machine gun ZPU - 300 rounds;
-5.45 mm machine gun AKS74 - 450 rounds;
-flare pistol - 12 flares;
-10 units of hand grenades, type F-1 or defensive hand grenade (RGO);
-12 units of grenades, type ZD17, system 902V of the optical-electronic suppression complex (in the case of BM without the TShU-1 Shtora-1 system, instead of ZD17 grenades, ZD6M grenades are included in the arsenal<br>
-Damage type: <font color='#ff9100'>Explosion Energy</font> "	
- "DOTA_Tooltip_Ability_t72explosion_range" "Radius:"
- "DOTA_Tooltip_Ability_t72explosion_stun" "Incapacitation:"
- 
- 
- 
- 
-  "DOTA_Tooltip_Ability_t72age" "T-72 Main Battle Tank"	
- "DOTA_Tooltip_Ability_t72age_Description" "Development of the T-72 began in 1967. In the course of further work, in 1968-69, comparative tests of T-64A tanks with a B-45 engine with an ejection cooling system (developed by the Kharkov Design Bureau of Mechanical Engineering) and samples were carried out with a V-45 engine with a fan cooling system (developed by a design bureau in Nizhny Tagil) and an automatic gun loader for 22 rounds, the latter showing better results.
-
-In November 1969, the V-46 engines with a capacity of 573 kW (780 hp) and a new chassis began to be installed on these machines. The sample made with the indicated changes was assigned the index object 172M.
-
-On August 7, 1973, the T-72 tank was adopted by the joint resolution of the Central Committee of the CPSU and the Council of Ministers of the USSR No. 554-172. Produced in the USSR and Russia from 1974 to 1992 at Uralvagonzavod and Chelyabinsk Tractor Plant.
-
-In the period from 1974 to 1990, Uralvagonzavod alone produced 20,544 T-72 tanks of various modifications. A total of about 30,000 tanks were produced. "	
- "DOTA_Tooltip_Ability_t72age_min_exp" "Minimum experience:"
- "DOTA_Tooltip_Ability_t72age_max_exp" "Maximum experience:"
+ "DOTA_Tooltip_Ability_t72explosion_Description" "Tank's ammunition load is blown up on its destruction which deals damage equal to hero's health pool to all units within %radius% around the vehicle."
  
  "DOTA_Tooltip_modifier_t72" "Evasion m-1"
- "DOTA_Tooltip_modifier_t72_Description" "Your tank is protected from any type of attack for 1 time."
+ "DOTA_Tooltip_modifier_t72_Description" "Your tank is completely protected from one any attack."
  
  
  "DOTA_Tooltip_Ability_t72_arenam1" "Arena"	
@@ -2410,12 +2195,8 @@ In the period from 1974 to 1990, Uralvagonzavod alone produced 20,544 T-72 tanks
 For the targeted destruction of enemy missiles and grenades, narrowly targeted defensive ammunition is used, which has a very high speed and is located along the perimeter of the tank turret in special installation shafts (the tank carries 26 such ammunition). "	
  "DOTA_Tooltip_Ability_t72_arenam1_delay" "Recovery delay:"
  
-"DOTA_Tooltip_passive_yumemiEx_bonus_attack" "Evasion m-1"
-				"DOTA_Tooltip_passive_yumemiEx_bonus_attack_Description" "Protection cooldowns every 20 seconds."
-				
-				
-				
-"DOTA_Tooltip_modifier_bot" "Ally"
+"DOTA_Tooltip_passive_yumemiEx_bonus_attack" "<font color='#ff8400'> 「Grand Unified Theorem」</font>"
+		"DOTA_Tooltip_passive_yumemiEx_bonus_attack_Description" "Grants bonus damage amplification based on current amount of stacks, also protects from any damage as long as you have stacks."
 
 
  "DOTA_Tooltip_ability_t72_maingun" "3BM-22"
@@ -2430,12 +2211,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_modifier_t72_maingun" "Guidance"
  "DOTA_Tooltip_modifier_t72_maingun_Description" "Shot in 8 seconds!"
  
- 
- 
- 
- 
- 
- 
  "DOTA_Tooltip_Ability_kizaru_beam"								"Fly Kick"	
  "DOTA_Tooltip_Ability_kizaru_beam_Description"								"Kizaru can fly to any and perform a formidable kick that pushes and silences it."	
 		"DOTA_Tooltip_Ability_kizaru_beam_radius"					"Cast radius:"
@@ -2444,18 +2219,15 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_Ability_kizaru_beam_range_knockback"					"Push radius:"
 		"DOTA_Tooltip_Ability_kizaru_beam_speed"					"Kick speed:"
 
-
 		"DOTA_Tooltip_Ability_kizaru_mirror"								"Teleport"	
 		"DOTA_Tooltip_Ability_kizaru_mirror_Description"								"Kizaru can teleport short distances."	
 		"DOTA_Tooltip_Ability_kizaru_mirror_range"					"Blink range:"
-
 
 		"DOTA_Tooltip_Ability_kizaru_sword"								"Molecular Sword"	
         "DOTA_Tooltip_Ability_kizaru_sword_Description"								"Kizaru wield his sword."	
 		"DOTA_Tooltip_Ability_kizaru_sword_duration"					"Duration:"
 		"DOTA_Tooltip_Ability_kizaru_sword_bonus_damage"					"Bonus damage:"
 		"DOTA_Tooltip_Ability_kizaru_sword_bonus_as"					"Bonus attack speed:"
-
 
 		"DOTA_Tooltip_Ability_kizaru_beams"								"Game Molecules"	
         "DOTA_Tooltip_Ability_kizaru_beams_Description"								"Kizaru is a true creator who can transform matter of the game in basics and attack with them any enemies."	
@@ -2464,68 +2236,14 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_Ability_kizaru_beams_hit_radius"					"Hit Radius:"
         "DOTA_Tooltip_Ability_kizaru_beams_damage_beam"					"Damage:"
 
-
 		"DOTA_Tooltip_Ability_kizaru_pika"								"Defense from disaster"	
         "DOTA_Tooltip_Ability_kizaru_pika_Description"								"Defends Kizaru from enemy attacks through evasion, also increases move speed."	
 		"DOTA_Tooltip_Ability_kizaru_pika_evasion"					"Evasion:"
 		"DOTA_Tooltip_Ability_kizaru_pika_ms"					"Move speed:"
- 
- 
-	"DOTA_Tooltip_Ability_stargatessg"								"Consciousness Talisman"	
-        "DOTA_Tooltip_Ability_stargatessg_Description"								"Name of the military-scientific franchise in fictional universe, created by Rolan Emmerikh and Din Devlin and also eponym of technogenic interstellar transport device for instant transition between two different points of Universe, which is one of plot generating elements of all franchise's films. First film of the series is called «Stargate». It was aired on 10/28/1994 by «Metro-Goldwyn-Mayer» and «Carolco» companies, and became a worlwide bestseller, collecting almost $200 million worlwide. Three years later, canadians Bred Rite and Johnathan Glassner create TV series «Stargate : SG-1» as continuation of the film."	
-		"DOTA_Tooltip_Ability_stargatessg_min_exp"					"Minimal experience:"
-		"DOTA_Tooltip_Ability_stargatessg_max_exp"					"Maximal experience:"
- 
-		"DOTA_Tooltip_ability_item_kosaxyeta"											"Death Scythe"
-		"DOTA_Tooltip_ability_item_kosaxyeta_Description"								"Weapon ,owned by the very Death."
- 
- 		"npc_dota_hero_templar_assassin" "Rory" 
-		
-		
-		
-		"DOTA_Tooltip_ability_bvo_rory_skill_0" "Souls"
-		"DOTA_Tooltip_ability_bvo_rory_skill_0_Description" "With each kill Rori takes soul that increase her attack and move speed and also boosts all her abilities."
-		"DOTA_Tooltip_ability_bvo_rory_skill_0_as" "Attack speed per soul:"
-		"DOTA_Tooltip_ability_bvo_rory_skill_0_ms" "Move speed per soul:"
-		"DOTA_Tooltip_bvo_rory_skill_0_buff_modifier" "Souls"
-
-		"DOTA_Tooltip_ability_bvo_rory_skill_1" "Spinning attack"
-		"DOTA_Tooltip_ability_bvo_rory_skill_1_Description" "Rori performs a spinning attack."
-		"DOTA_Tooltip_ability_bvo_rory_skill_1_base_damage" "Damage:"
-		"DOTA_Tooltip_ability_bvo_rory_skill_1_damage_per_stack" "Damage per soul:"
-		"DOTA_Tooltip_ability_bvo_rory_skill_1_max_stack_use" "Maximum souls used:"
-
-		"DOTA_Tooltip_ability_bvo_rory_skill_2" "Self-sacrifice"
-		"DOTA_Tooltip_ability_bvo_rory_skill_2_Description" "Rori sacrifices part oh her life essence to gain souls. After that Rori replenishes some HP."
-		"DOTA_Tooltip_ability_bvo_rory_skill_2_max_stack_get" "Souls:"
-		"DOTA_Tooltip_bvo_rory_skill_2_modifier" "Regeneration:"
-
-		"DOTA_Tooltip_ability_bvo_rory_skill_3" "Death wave"
-		"DOTA_Tooltip_ability_bvo_rory_skill_3_Description" "Rori unleashes a death wave at the target point."
-		"DOTA_Tooltip_ability_bvo_rory_skill_3_base_damage" "Damage:"
-		"DOTA_Tooltip_ability_bvo_rory_skill_3_agi_as_damage_per_stack" "Damage per agility:"
-		"DOTA_Tooltip_ability_bvo_rory_skill_3_raw_damage_per_stack" "Damage per soul:"
-		"DOTA_Tooltip_ability_bvo_rory_skill_3_max_stack_use" "Maximum souls used:"
-
-		"DOTA_Tooltip_ability_bvo_rory_skill_4" "Damage deflection"
-		"DOTA_Tooltip_ability_bvo_rory_skill_4_Description" "Rori deflects part of damage dealt to her to the target."
-		"DOTA_Tooltip_ability_bvo_rory_skill_4_duration" "Duration:"
-		"DOTA_Tooltip_bvo_rory_skill_4_modifier" "Damage deflection"
-		"DOTA_Tooltip_bvo_rory_skill_4_modifier_enemy" "You recieve part of damage dealt to Rori"
-
-		"DOTA_Tooltip_ability_bvo_rory_skill_5" "Axe strike"
-		"DOTA_Tooltip_ability_bvo_rory_skill_5_Description" "Rori hits enemy with her axe dealing colossal damage to all enemies within range of the hit."
-		"DOTA_Tooltip_ability_bvo_rory_skill_5_base_damage" "Damage:"
-		"DOTA_Tooltip_ability_bvo_rory_skill_5_agi_as_damage_per_stack" "Damage per agility:"
-		"DOTA_Tooltip_ability_bvo_rory_skill_5_raw_damage_per_stack" "Damage per soul:"
-		"DOTA_Tooltip_bvo_rory_skill_5_modifier" "You were hit with the axe"
-		"DOTA_Tooltip_bvo_rory_skill_5_stun_modifier" "Soon will recieve colossal damage"
- 
- 
+  
+ 		"npc_dota_hero_templar_assassin" "Biyao" 
  
  		"npc_dota_hero_necrolyte" "Anime Chan"
-
-
 
 		"DOTA_Tooltip_ability_bvo_orihime_skill_0" "Magical Bounce"
 		"DOTA_Tooltip_ability_bvo_orihime_skill_0_Description" "Each attack will bounce from enemies jumping from one enemy to another. Damage will be decreased after each bounce."
@@ -2555,52 +2273,12 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_ability_bvo_orihime_skill_5_duration" "Duration: "
 		"DOTA_Tooltip_ability_bvo_orihime_skill_5_radius" "Radius: "
  
- 
- 
- 		"DOTA_Tooltip_ability_pudge_flesh_heap_datadriven"                                "Growth"
-        "DOTA_Tooltip_ability_pudge_flesh_heap_datadriven_Description"                    "Each hit gives you additional HP"
-        "DOTA_Tooltip_ability_pudge_flesh_heap_datadriven_health_bonus_perstack"               "HP per stack:"
-        "DOTA_Tooltip_ability_pudge_flesh_heap_datadriven_duration"                            "Stack duration :"
-
-		"DOTA_Tooltip_ability_padge_dismember"                                "Fresh Meat"
-        "DOTA_Tooltip_ability_padge_dismember_Description"                    "Always tasty"
-		"DOTA_Tooltip_ability_padge_dismember_dismember_damage"                    "Damage: "	
-		
-		
-
-			
-		"DOTA_Tooltip_Ability_monika_perception" "Admin Teleport"
-		"DOTA_Tooltip_Ability_monika_perception_Description" "Select Target"
-		"DOTA_Tooltip_Ability_monika_perception_cd" "Cooldown:"
-
-		"DOTA_Tooltip_Ability_monika_perception_teleport" "Admin Teleport"
-		"DOTA_Tooltip_Ability_monika_perception_teleport_Description" "Teleports to the target area"
-		
-		"DOTA_Tooltip_modifier_monika_ult_casted" "Admin Teleport"
-		"DOTA_Tooltip_modifier_monika_ult_casted_Description" "Cool, right?"
-				
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 		/// Т Е Х Н И К А ///
  
  
  
  
- "npc_dota_hero_abyssal_underlord" "F-16 Fighting Falcon"
- 
- 
+ "npc_dota_hero_abyssal_underlord" "F-16 Fighting Falcon" 
  
  "DOTA_Tooltip_Ability_a10_upgrade" "F-16 Fighting Falcon"
  "DOTA_Tooltip_Ability_a10_upgrade_Description" "The General Dynamics F-16 Fighting Falcon is a single-engine multirole fighter aircraft originally developed by General Dynamics for the United States Air Force (USAF). Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft."
@@ -2614,9 +2292,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_Ability_a10_gau8_reload_time" "Cooldown:"
  "DOTA_Tooltip_Ability_a10_gau8_attack_range_bonus" "Shot range:"
  "DOTA_Tooltip_Ability_a10_gau8_bonus_damage_hp_pct" "% of the enemy HP dealt as damage:"
- 
- 
- 
+  
  "DOTA_Tooltip_ability_gyrocopter_flak_cannon" "GAU-8 Avenger Coverage"
  "DOTA_Tooltip_ability_gyrocopter_flak_cannon_Description" "The GAU-8 Avenger has a large spread when firing, which allows to cover a large area with deadly fire." 
  "DOTA_Tooltip_ability_gyrocopter_flak_cannon_radius" "Radius:"
@@ -2660,17 +2336,12 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "dota_tooltip_ability_imba_luna_eclipse_hit_count" "Maximum beams per 1 enemy:"
  "dota_tooltip_ability_imba_luna_eclipse_radius" "Radius:"
  
- 
- 
- 
- 
- 
- 
         "DOTA_Tooltip_ability_ah_1_attack"												"Hydra-70"
 		"DOTA_Tooltip_ability_ah_1_attack_Description"									"If this ability is activated, AH-1Z makes circular turns around its axis and fires unguided rockets at all enemy units, consuming mana every second.<br>Consumes 2 <font color='#f7a62d'>Energy</font> per 0.3 seconds."
         "DOTA_Tooltip_ability_ah_1_attack_radius"									"Radius:"
         "DOTA_Tooltip_ability_ah_1_attack_rocket_damage"									"Rocket damage:"
         "DOTA_Tooltip_ability_ah_1_attack_attack_mult"									"Launch speed:"
+	"DOTA_Tooltip_ability_ah_1_attack_damage_multi"									"Damage multiplier(with talent):"
 
         "DOTA_Tooltip_ability_t72_machine_gun_attack"												"12.7 mm NSVT"
 		"DOTA_Tooltip_ability_t72_machine_gun_attack_Description"									"If this ability is activated, then the T-72 fires all enemy units around it from a large-caliber machine gun, consuming mana every second.<br>Consumes 2 <font color='#f7a62d'>Energy</font> per 0.3 seconds."
@@ -2683,6 +2354,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
         "DOTA_Tooltip_ability_mi24v_attack_c5_radius"									"Radius:"
         "DOTA_Tooltip_ability_mi24v_attack_c5_rocket_damage"									"Rocket damage:"
         "DOTA_Tooltip_ability_mi24v_attack_c5_attack_mult"									"Launch speed:"
+	"DOTA_Tooltip_ability_mi24v_attack_c5_damage_multi"									"Damage multiplier(with talent):"
 
         "DOTA_Tooltip_ability_mi24_ykb_12_7"												"YakB 12.7 MM"
 		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"									"MI-24V possesses a four-barreled aircraft machine gun with a rotating block of barrels, which gives it the ability to attack with a maximum attack speed of 0.01, but there is a huge minus behind the rate of fire - <font color = '#ff1100'> you cannot deal more than 20 damage per shot (items for increasing damage do not work) </font>"
@@ -2696,44 +2368,21 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
         "DOTA_Tooltip_ability_ah1z_m197_radius"									"Area of effect:"
         "DOTA_Tooltip_ability_ah1z_m197_splash_damage"									"Splash damage:"
 
-
-
-		"DOTA_Tooltip_Ability_m270_upgrade"								"M-270 MLRS Upgrade"
-		"DOTA_Tooltip_Ability_m270_upgrade_Description"					"M270 MLRS  — American universal launcher used as MLRS and tactical missile launcher. Also in the 1980s, the possibility of launching AGM-137 TSSAM cruise missiles from it was studied. Developed by Lockheed Martin Missiles and Fire Control. It was adopted by the US Army in 1983. "		"DOTA_Tooltip_Ability_m270_upgrade_bonus_health"					"<font color='#00ff00'>Health</font>:"
-		"DOTA_Tooltip_Ability_m270_upgrade_bonus_health"					"Durability:"
-		"DOTA_Tooltip_Ability_m270_upgrade_bonus_armor"					"Armor:"
-		"DOTA_Tooltip_Ability_m270_upgrade_passive_speed"					"Move speed:"
-	
-		"DOTA_Tooltip_Ability_m270explosion"								"M-270 MLRS Ammunition"
-		"DOTA_Tooltip_Ability_m270explosion_Description"					"When destroyed, detonates all ammunition causing damage and stuns the enemy."
-		"DOTA_Tooltip_Ability_m270explosion_radius"					"Radius:"
-		"DOTA_Tooltip_Ability_m270explosion_stun"					"Stun:"
-        "DOTA_Tooltip_Ability_m270explosion_respawn"					"Respawn time:"
-
-		"DOTA_Tooltip_Ability_m270age"								"M-270 MLRS Development"
-		"DOTA_Tooltip_Ability_m270age_Description"					"In the second half of 1960's administration of rocket forces of US Army initialised program to create a Multiple Artillery Rocket System, which recieved a new name in 1970's (General Support Rocket System). At the start of the program five military manufacturing companies showed their projects, five of which were selected by jury at 1976 spring for further development."
-		"DOTA_Tooltip_Ability_m270age_min_exp"					"Minimal experience:"
-		"DOTA_Tooltip_Ability_m270age_max_exp"					"Maximal experience:"
- 
- 
- 
          "DOTA_Tooltip_Ability_mq9_predator"								"MQ-9 Reaper" 
 		"DOTA_Tooltip_Ability_mq9_predator_Description"					"The MQ-9 Reaper is a reconnaissance and strike UAV developed by General Atomics Aeronautical Systems (a division of General Dynamics Corporation) for use by the US Air Force, US Navy and British Air Force. The first flight took place on February 2, 2001.<br>Summons a drone that circles over your hero and attacks all enemy units around the hero"
 		"DOTA_Tooltip_Ability_mq9_predator_damage"					"Damage:"
         "DOTA_Tooltip_Ability_mq9_predator_attack_speed"					"Launch speed:"
         "DOTA_Tooltip_Ability_mq9_predator_life"					"Duration:"
- 
- 
- 
+  
          "DOTA_Tooltip_ability_ah64_rocket"												"Hydra 70"
 		"DOTA_Tooltip_ability_ah64_rocket_Description"									"Hydra 70 — American 70-mm unguided aircraft missile. Manufactured by General Dynamics. NAR "Hydra-70" is designed to destroy enemy equipment and manpower. "       
-		"DOTA_Tooltip_ability_ah64_rocket_damage"									"Radius:"
-
+		"DOTA_Tooltip_ability_ah64_rocket_damage"									"Damage:"
+"DOTA_Tooltip_ability_ah64_rocket_damage_multi"									"Damage multiplier(with talent):"
 
         "DOTA_Tooltip_ability_ah64_upgrade"												"AH-64 «Apache»"
 		"DOTA_Tooltip_ability_ah64_upgrade_Description"									"AH-64 «Apache» the main attack helicopter of the US Army since the mid-1980s. For 2018, it is the most widely used attack helicopter in the world. "      
 		"DOTA_Tooltip_ability_ah64_upgrade_bonus_health"									"Durability:"
-        "DOTA_Tooltip_ability_ah64_upgrade_bonus_armor"									"Armor:"
+        "DOTA_Tooltip_ability_ah64_upgrade_bonus_armor"									"Health:"
         "DOTA_Tooltip_ability_ah64_upgrade_reload_time"									"Reload time:"
         "DOTA_Tooltip_ability_ah64_upgrade_attack_range_bonus"									"Attack range:"
         "DOTA_Tooltip_ability_ah64_upgrade_passive_speed"									"Move speed:"
@@ -2770,6 +2419,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 		"DOTA_Tooltip_Ability_tankvistel_Description"				"Fires a shot at the target with an APCR shell with a high flight speed."
 		"DOTA_Tooltip_Ability_tankvistel_damage"				"Damage:"
 		"DOTA_Tooltip_Ability_tankvistel_stun"				"Stun:"
+		"DOTA_Tooltip_Ability_tankvistel_damage_multi"				"Strength multiplier(with talent):
 		
 		
 	"DOTA_Tooltip_Ability_tankroket"							"ATGM Invar-M"
@@ -2801,18 +2451,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
         "DOTA_Tooltip_ability_strela_attack_burn_interval"									"Burn interval from hitting:"
         "DOTA_Tooltip_ability_strela_attack_burn_damage"									"Burn damage:"
         "DOTA_Tooltip_ability_strela_attack_blob_rings_count"									"Number of charges in cluster bomb:"
-
-		"DOTA_Tooltip_ability_m270_attack"												"GMLRS"
-		"DOTA_Tooltip_ability_m270_attack_Description"									"GMLRS — 240-mm guided (inertial + GPS) reactive projectile with cluster munition (M85 sub-elements) and increased firing distance.<br>Launches 12 rockets GMLRS at target area. Each %mini_blob_counter% rocket will have fragmentation warhead.<br>You can target different points for each projectile."
-        "DOTA_Tooltip_ability_m270_attack_projectile_count"									"Total rockets:"
-        "DOTA_Tooltip_ability_m270_attack_projectile_speed"									"Rocket speed:"
-        "DOTA_Tooltip_ability_m270_attack_impact_radius"									"Shooting distance:"
-        "DOTA_Tooltip_ability_m270_attack_damage_per_impact"									"Damage per rocket:"
-        "DOTA_Tooltip_ability_m270_attack_burn_interval"									"Burn interval from hitting:"
-        "DOTA_Tooltip_ability_m270_attack_burn_damage"									"Burn damage:"
-        "DOTA_Tooltip_ability_m270_attack_blob_rings_count"									"Cluster bomb charges:"
-        "DOTA_Tooltip_ability_m270_attack_rings_distance"									"Fragmentation radius:"
-
 
         "DOTA_Tooltip_Ability_strela_explosion"								"9K31 Strela-1 Ammunition"
 		"DOTA_Tooltip_Ability_strela_explosion_Description"					"On destruction detonates all ammunition stunning enemies and dealing damage to them."
@@ -2850,30 +2488,13 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_ability_tek_mosquito_missiles_interval" "Interval:"
  "DOTA_Tooltip_ability_tek_mosquito_missiles_range" "Radius:"
  "DOTA_Tooltip_ability_tek_mosquito_missiles_damage" "Damage:"
- 
- 
- "DOTA_Tooltip_ability_tek_megaton_blast" "MI-24: 9K113 Shturm-V"
- "DOTA_Tooltip_ability_tek_megaton_blast_Description" "Launches a 9K113 Shturm-V missile at the enemy."
- "DOTA_Tooltip_ability_tek_megaton_blast_damage" "Damage:"
- "DOTA_Tooltip_ability_tek_megaton_blast_stun" "Incapacitation:"
- "DOTA_Tooltip_ability_tek_megaton_blast_delay" "Delay:"
- 
- 
+ "DOTA_Tooltip_ability_tek_mosquito_missiles_damage_multi"								"Strength multiplier(with talent): 
+  
  "DOTA_Tooltip_ability_tek_powered_mosquito_missiles" "MI-24: 9M17 Scorpio"
  "DOTA_Tooltip_ability_tek_powered_mosquito_missiles_description" "MI-24 starts capturing many targets around it, upon the expiration of the aiming it releases missiles at all captured targets"
  "DOTA_Tooltip_ability_tek_powered_mosquito_missiles_interval" "Interval:" 
  "DOTA_Tooltip_ability_tek_powered_mosquito_missiles_range" "Range:" 
- 
- 
- 
-  "DOTA_Tooltip_modifier_detonator_dart" "Nuclear Warhead"
- "DOTA_Tooltip_ability_hawkeye_detonator_dart" "Nuclear Warhead"
- "DOTA_Tooltip_ability_hawkeye_detonator_dart_description" "The 2s1 can fire projectiles with a nuclear warhead.<br><font color='#ff9100'>Explosion Energy</font>"
- "DOTA_Tooltip_ability_hawkeye_detonator_dart_damage" "Damage:"
- "DOTA_Tooltip_ability_hawkeye_detonator_dart_initial_damage" "Initial Damage:"
- "DOTA_Tooltip_ability_hawkeye_detonator_dart_duration" "Explosion delay:"
-
- 
+  
   "DOTA_Tooltip_ability_tankBK" "Ammo rack"
  "DOTA_Tooltip_ability_tankBK_description" "When a vehicle has less than 20% health, it will stun all enemies within the radius every few seconds."
  "DOTA_Tooltip_ability_tankBK_duration" "Duration:"
@@ -2901,27 +2522,9 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_Ability_ah1zcobraylt_interval" "Fire Interval:"
 
 
-
-
- "DOTA_Tooltip_ability_ah1zaim" "AIM-9L"
-"DOTA_Tooltip_ability_ah1zaim_description" "Increases the range of the AIM-9L."
- "DOTA_Tooltip_ability_ah1zaim_bonus_attack_range" "Guidance:"
- 
- 
- 
- 
- 
- 
  ///ХЗ, ЧТО ЭТО ///
  
 
- "dota_tooltip_modifier_friendlykill" "Ally"
- 
-"dota_tooltip_ability_tiny_craggy_exterior_cu" "Craggy exterior"
-"dota_tooltip_ability_tiny_craggy_exterior_cu_description" "With a 25% (100%) chance, the enemy will be stunned when attacked."
-"dota_tooltip_ability_tiny_craggy_exterior_cu_chance" "Chance:"
-"dota_tooltip_ability_tiny_craggy_exterior_cu_damage" "Damage:" 
- 
  "DOTA_Tooltip_modifier_mana_seal_slow" "Mana field"
  "DOTA_Tooltip_modifier_mana_seal_slow_Description" ""
 
@@ -2993,66 +2596,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  
  /// Н E  И С П О Л Ь З У Е Т С Я ///
 
-  "DOTA_Tooltip_ability_item_lens5" "Matter amplifier 5"
- "DOTA_Tooltip_ability_item_lens5_Description" "Increases the cast range of abilities."
- "DOTA_Tooltip_ability_item_lens5_bonus_mana" "Bonus Mana:"
- "DOTA_Tooltip_ability_item_lens5_cast_range_bonus"                            "Cast range:"
- "DOTA_Tooltip_ability_item_lens5_bonus_mana_regen" "Mana regeneration:"
- 
- 
-"dota_tooltip_modifier_manolator" "Magic scythe"
-"dota_tooltip_modifier_manolator_description" "Reduces the magic resistance of this unit"
- 
- 
-  "DOTA_Tooltip_ability_item_midas_3" "Midas molecule"
- "DOTA_Tooltip_ability_item_midas_3_Description" "Passive: Bonanza - if the item is not on CD, then for each attack you will receive 1 gold."
- 
-  "DOTA_Tooltip_ability_item_midas_fury" "Midas fury"
- "DOTA_Tooltip_ability_item_midas_fury_Description" "<h1>Passive: Bonanza</h1> - if the item is not on CD, then for each attack you will receive 1 gold."
- "DOTA_Tooltip_ability_item_midas_fury_base_attack_time" "Base attack time:" 
- "DOTA_Tooltip_ability_item_midas_fury_bonus_damage" "Damage:"
- "DOTA_Tooltip_ability_item_midas_fury_bonus_health_regen" "Health regeneration:"
- "DOTA_Tooltip_ability_item_midas_fury_bonus_mana_regen" "%Mana regeneration:"
- "DOTA_Tooltip_ability_item_midas_fury_range" "Radius:"
- "DOTA_Tooltip_ability_item_midas_fury_splash_damage" "%Splash damage:"
- 
- 
-  "DOTA_Tooltip_ability_item_laguna_blade" "Laguna"
- "DOTA_Tooltip_ability_item_laguna_blade_description" "Shoots lightning at an enemy."
- "DOTA_Tooltip_ability_item_laguna_blade_range" "Range:"
- "DOTA_Tooltip_ability_item_laguna_blade_castDelay" "Delay:"
- 
-  "DOTA_Tooltip_ability_item_aghs_vaporizer" "Ultimate strike"
- "DOTA_Tooltip_ability_item_aghs_vaporizer_description" "Attacks the enemy with lightning and a glowing beam of light."
- "DOTA_Tooltip_ability_item_aghs_vaporizer_bonusMana" "Bonus Mana:"
- "DOTA_Tooltip_ability_item_aghs_vaporizer_range" "Range:"
- "DOTA_Tooltip_ability_item_aghs_vaporizer_castDelay" "Delay:"
-  "DOTA_Tooltip_ability_item_bossdrop" "Red diamond"
- "DOTA_Tooltip_ability_item_bossdrop_Description" "A unique item that can only be obtained by killing the boss."
- 
- "DOTA_Tooltip_ability_item_bossdrop2" "Purple diamond"
- "DOTA_Tooltip_ability_item_bossdrop2_Description" "A unique item that can only be obtained by killing the boss."
- 
- "DOTA_Tooltip_ability_item_bossdrop3" "Orange diamond"
- "DOTA_Tooltip_ability_item_bossdrop3_Description" "A unique item that can only be obtained by killing the boss."
- 
-"DOTA_Tooltip_Ability_item_rofl" "Buy a pack of wards"
-"DOTA_Tooltip_ability_item_rofl_Description" "Use to get wards."
- 
- 				"DOTA_Tooltip_modifier_invis_revealed"          "Sees through invisibility"
-				"DOTA_Tooltip_modifier_invis_revealed_Description"          "Invisibility will not help you"
-				
-				"DOTA_Tooltip_modifier_invis_revealed2"          "You see everything"
-				"DOTA_Tooltip_modifier_invis_revealed2_Description"          "No one will leave"
- 
- 
- 
-  "DOTA_Tooltip_Ability_item_diamodn" "Diamond"
- "DOTA_Tooltip_Ability_item_diamodn_Description" "One of the ultimate items for creating top items."
- "DOTA_Tooltip_Ability_item_diamodn_pizda" "All stats:"
- 		"DOTA_Tooltip_ability_item_diamondos2_Description" "You can create a Diamond out of 9 shards."
-		"DOTA_Tooltip_ability_item_diamondos2_pizda" "All stats:"
- 
  
   		 "DOTA_Tooltip_Ability_item_desolatorsbot"						"Bot's desolator"
 		"DOTA_Tooltip_Ability_item_desolatorsbot_Description"			"Passive: your attacks reduce enemy armor for 15 seconds."
