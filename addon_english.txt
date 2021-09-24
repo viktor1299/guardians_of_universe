@@ -4237,7 +4237,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "armored" "Race: Armored"
 "touhou" "Race: 東方"
 
-
+"npc_dota_hero_templar_assassin_race"	"Race: «Spirits»"
 "npc_dota_hero_warlock_race" "Race: «Spirits»"
 "npc_dota_hero_venomancer_race" "Race: «Armored»"
 "npc_dota_hero_dark_seer_race" "Race: «Armored»"
@@ -4288,7 +4288,10 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "npc_dota_hero_skywrath_mage_race" 		"Race: «Asgard»"
 "npc_dota_hero_mirana_race"             "Race: «とうほう»"
 "npc_dota_hero_void_spirit_race" "Race: «とうほう»"
-"npc_dota_hero_dawnbreaker_race"        "Race: «Asgard»"
+"npc_dota_hero_antimage_race"        	"Race: «Asgard»"
+		"npc_dota_hero_pudge_race"        		"Race: «Meat Mage»"
+		"npc_dota_hero_monkey_king_race"		"Race: «Spirits»"
+		"npc_dota_hero_wisp_race"				"Race: «Ori»"
 
 "dota_tooltip_ability_damage_resist_angelic" "Angelic protection"
 "dota_tooltip_ability_damage_resist_angelic_description" "Reduces all incoming <font color='#00ff1e'>Angelic</font> type damage by a certain amount of %" 
@@ -4309,47 +4312,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "dota_tooltip_ability_damage_resist_energy" "Energetic protection"
 "dota_tooltip_ability_damage_resist_energy_description" "Reduces all incoming <font color='#b9ff08'>Energy</font> type damage by a certain amount of %" 
 "dota_tooltip_ability_damage_resist_energy_resistance" "%Damage reduction:"
-
-
-
-/// Н А Г Р А Д Ы ///
-
-"DOTA_Holdout_Award_MostDeadly_Title" "Deathbringer"
-"DOTA_Holdout_Award_MostDeadly_Desc" ": Most kills"
-"DOTA_Holdout_Award_MostSaves_Title" "Field medic"
-"DOTA_Holdout_Award_MostSaves_Desc" ": Most resurrections"
-"DOTA_Holdout_Award_MostBags_Title" "Diamond eye"
-"DOTA_Holdout_Award_MostBags_Desc" ": Highest amount of gold raised"
-"DOTA_Holdout_Award_LeastDeaths_Title" "Survivalist"
-"DOTA_Holdout_Award_LeastDeaths_Desc" ": Least deaths"
-"DOTA_Holdout_Award_MostPotions_Title" "To the brim"
-"DOTA_Holdout_Award_MostPotions_Desc" ": Most potions drank"
-"DOTA_Holdout_Award_Clutched_Title" "By a thread"
-"DOTA_Holdout_Award_Clutched_Desc" ": Sole survivor at the end of the round"
-"DOTA_Holdout_Award_MostDeaths_Title" "Blind fury"
-"DOTA_Holdout_Award_MostDeaths_Desc" ": Most deaths"
-"DOTA_Holdout_Award_KillingSpree_Title" "Serial killer"
-"DOTA_Holdout_Award_KillingSpree_Desc" "100 kills made without deaths"
-"DOTA_Holdout_Award_Dominating_Title" "Dominator"
-"DOTA_Holdout_Award_Dominating_Desc" ": 200 kills made without death"
-"DOTA_Holdout_Award_MegaKill_Title" "Mega kill"
-"DOTA_Holdout_Award_MegaKill_Desc" ": 300 kills committed without death"
-"DOTA_Holdout_Award_Unstoppable_Title" "Unstoppable assassin"
-"DOTA_Holdout_Award_Unstoppable_Desc" ": 400 kills made without death"
-"DOTA_Holdout_Award_WickedSick_Title" "Mad killer"
-"DOTA_Holdout_Award_WickedSick_Desc" ": Made 500 kills without death"
-"DOTA_Holdout_Award_MonsterKill_Title" "Atrocity"
-"DOTA_Holdout_Award_MonsterKill_Desc" ": 600 kills made without death"
-"DOTA_Holdout_Award_GodLike_Title" "God of death"
-"DOTA_Holdout_Award_GodLike_Desc" ": 700 kills committed without death"
-"DOTA_Holdout_Award_Beyond_GodLike_Title" "Above the gods"
-"DOTA_Holdout_Award_Beyond_GodLike_Desc" "800 kills made without deaths"
-"DOTA_Holdout_Award_UltraKill_Title" "Ultra killer"
-"DOTA_Holdout_Award_UltraKill_Desc" ": Over 25 creeps killed at once"
-"DOTA_Holdout_Award_Rampage_Title" "RAMPAGE"
-"DOTA_Holdout_Award_Rampage_Desc" ": More than 50 creeps killed at once"
-
-
 
 /// Н Е Й Т Р А Л Ь Н Ы Е  К Р И П Ы ///
 
@@ -4400,9 +4362,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 /// С И С Т Е М А  В Р А Т ///
 
-
-"DOTA_Tooltip_Ability_item_dhd"					"DHD"
-"DOTA_Tooltip_Ability_item_dhd_Description"		"Stargate address dialing device."
 
 "sg_1" "Wrong address"
 "sg_2" "Wormhole is opened"
@@ -4552,6 +4511,7 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "task_vote_boss_b_5" "Boss Earth Mage"
 "task_vote_boss_b_6" "Boss Overlord of the Universe"
 "task_vote_boss_b_7" "Boss ?????????"
+"task_vote_boss_b_8" "Boss 年獸"
 
 
 "info_player_open" "Open"
@@ -4571,85 +4531,12 @@ You can increase Energy limit and regeneration by completing quests in random ev
 // С В И Т К И  Т Е Л Е П О Р Т А Ц И И //
 
 "DOTA_Tooltip_Ability_item_address_1"					"Stargate Address"
-"DOTA_Tooltip_Ability_item_address_1_Description"		"Teleports you to the hard jungle."
+"DOTA_Tooltip_Ability_item_address_1_Description"		"<h1>Active: Address dial</h1>On activation, if you are withing radius of 1300 to a Stargate, teleports you to the hard jungle."
 "DOTA_Tooltip_Ability_item_address_2"					"Stargate Address"
-"DOTA_Tooltip_Ability_item_address_2_Description"		"Teleports you to the easy jungle."
+"DOTA_Tooltip_Ability_item_address_2_Description"		"<h1>Active: Address dial</h1>On activation, if you are withing radius of 1300 to a Stargate, teleports you to the easy jungle."
 "DOTA_Tooltip_Ability_item_address_3"					"Scroll with an address"
-"DOTA_Tooltip_Ability_item_address_3_Description"		"<h1>Active: Address dialling</h1>On activation, if you are withing radius of 1300 to a Stargate, teleports you to your base."
+"DOTA_Tooltip_Ability_item_address_3_Description"		"<h1>Active: Address dial</h1>On activation, if you are withing radius of 1300 to a Stargate, teleports you to your base."
 
-
-/// С П И С О К  А Н И М Е  Т Я Н О Ч Е К /// /// А Н И М Е Р У Л Е Т К А ///
-
-
-"tyan_1" "Zero Two"
-"tyan_2" "Akiko Yosano"
-"tyan_3" "Schwi Dola"
-"tyan_4" "Megumin"
-"tyan_5" "Rem"
-"tyan_6" "Kurumi Tokisaki"
-"tyan_7" "Tobiichi Origami"
-"tyan_8" "Tohka Yatogami"
-"tyan_9" "Albedo"
-"tyan_10" "Mai Sakurajima"
-"tyan_11" "Kaguya Shinomiya"
-"tyan_12" "Chika Fujiwara"
-"tyan_13" "Shiro"
-"tyan_14" "Emilia"
-"tyan_15" "Chizuru Ichinose"
-"tyan_16" "Mami Nanami"
-"tyan_17" "Ruka Sarashina"
-"tyan_18" "Sumi Sakurasawa"
-"tyan_19" "Kotori Itsuka"
-"tyan_20" "Miku Izayoi"
-"tyan_21" "Yoshino"
-"tyan_22" "Kaguya Yamai"
-"tyan_23" "Yuzuru Yamai"
-"tyan_24" "Natsumi"
-"tyan_25" "Ram"
-"tyan_26" "Echidna"
-"tyan_27" "Ichigo"
-"tyan_28" "Ikuno"
-"tyan_29" "Kokoro"
-"tyan_30" "Miku"
-"tyan_31" "Princess of Klaxosaurs"
-"tyan_32" "Aqua"
-"tyan_33" "Darkness"
-"tyan_34" "Wiz"
-"tyan_35" "Yunyun"
-"tyan_36" "Nezuko Kamado"
-"tyan_37" "Kaede Azusagawa"
-"tyan_38" "Rio Futaba"
-"tyan_39" "Tomoe Koga"
-"tyan_40" "Asuna"
-"tyan_41" "Silica"
-"tyan_42" "Sinon"
-"tyan_43" "Yui"
-"tyan_44" "Yuuki Konno"
-"tyan_45" "Rias Gremory"
-"tyan_46" "Akeno Himejima"
-"tyan_47" "Koneko Toujou"
-"tyan_48" "Asia Argento"
-"tyan_49" "Kuroka"
-"tyan_50" "Xenovia Quarta"
-"tyan_51" "Irina Shidou"
-"tyan_52" "Kunou"
-"tyan_53" "Yasaka"
-"tyan_54" "Grayfia Lucifuge"
-"tyan_55" "Serafall Leviathan"
-"tyan_56" "Miku Hatsune"
-"tyan_57" "Haku Yowane"
-"tyan_58" "Illyasviel von Einzbern"
-"tyan_59" "Miyu Edelfeld"
-"tyan_60" "Chloe von Einzbern"
-"tyan_61" "Artoria Pendragon"
-"tyan_62" "Rin Tohsaka"
-"tyan_63" "Sakura Matou"
-"tyan_64" "Ai Hayasaka"
-"tyan_65" "Kei Shirogane"
-"tyan_66" "Shalltear Bloodfallen"
-
-
-/// Н А З В А Н И Я  N P C  В О  В Р Е М Я  В О Л Н Ы ///
 
 
 "npc_lines_melee" "Invader"
@@ -4811,13 +4698,7 @@ You can increase Energy limit and regeneration by completing quests in random ev
 			"boss_6" "Do you know that at this very moment you are surrounded by eternity? And do you know that you can spend this eternity however you want?"
 			"boss_7" "Thirty years ago First Spirit has appeared on Earth and bred other spirits. My goal - kill it. I want to see, how God will treat this foolish insane attempt to change the world."
 			
-			"dvach_boss_1" "How were you marked after getting fucked?" //Кто рифмует на глаголы
-			"dvach_boss_2" "Why the fuck are you reading this asshead?"
-			"dvach_boss_3" "I suck dicks"
-			"dvach_boss_4" "To go fuck yourself you need to go fuck yourself"
-			"dvach_boss_5" "Fuck what am I doing here I'm from the onther game damn"
-			"dvach_boss_6" "I was screwed by seven niggers and penis"
-			"dvach_boss_7" "I know whom you use as a fap material bitch"
+"boss_8" "I have no end, nor beginning. Time resembles Uroboros serpent, who is biting own tail. Each moment has eternity within. And eternity forms from moments which create it."
 
 			"boss_name_1" "Mireska Sunbreeze"
 			"boss_name_2" "Aqua"
@@ -5257,7 +5138,7 @@ They can use autodialling without energy loss."
             -One racial rank - 1000 MMR.<br><br>
             -Race MMR - global. This means that all players affect progression."
 
-		"boss_round_kd" "Bosses can be fought against after completing the 6th wave!"
+		"boss_round_kd" "Bosses can be fought against after completing the 7th wave!"
 		
 		
 		
@@ -5351,36 +5232,6 @@ They can use autodialling without energy loss."
 		
 		"no_race" "No race"
 
-		"battle_pass_text" "Guardians of Universe Batlle Pass"
-		"battle_pass_text_des" "Gain MMR to recieve unique effects and bonuses with each level!"
-		"battle_pass_lvl" "Level:"
-		"battle_pass_progress_standart" "Battle Pass Progress"
-		"battle_pass_progress_premium" "Upgraded Battle Pass Progress"
-		"battle_pass_standart" "Battle Pass"
-		"battle_pass_premium" "Upgraded Battle Pass"
-		"battle_pass_lvl_1" "<font color='#b55904'>Level: 1</font> <br> Required rank: 1 <br><br>You will recieve a unique level 1 effect for your hero!!" 
-		"battle_pass_lvl_2" "<font color='#83b504'>Level: 2</font> <br> Required rank: 9 <br><br>Your hero's icon above will recieve a unique level 1 colour outline!"
-		"battle_pass_lvl_3" "<font color='#048cb5'>Level: 3</font> <br> Required rank: 17 <br><br>Your hero will recieve a unique level 1 effect while moving!"
-		"battle_pass_lvl_4" "<font color='#9204b5'>Level: 4</font> <br> Required rank: 25 <br><br>Your hero's icon above will recieve a unique level 2 colour outline!"
-		"battle_pass_lvl_5" "<font color='#57ff52'>Level: 5</font> <br> Required rank: 33 <br><br>Using items - Small and Medium health potions - won't consume them!!"
-		"battle_pass_lvl_6" "<font color='#525efa'>Level: 6</font> <br> Required rank: 41 <br><br>Using items - Small and Medium mana potions - won't consume them!"
-		"battle_pass_lvl_7" "<font color='#ff52a9'>Level: 7</font> <br> Required rank: 49 <br><br>Heal beam's cooldown is reduced by 80%!"
-		"battle_pass_lvl_8" "<font color='#0c8731'>Level: 8</font> <br> Required rank: 57 <br><br>You will recieve a unique level 2 effect for your hero!"
-		"battle_pass_lvl_9" "<font color='#6eba59'>Level: 9</font> <br> Required rank: 65 <br><br>Your hero's icon above will recieve a unique level 3 colour outline!"
-		"battle_pass_lvl_10" "<font color='#b4ba59'>Level: 10</font> <br> Required rank: 73 <br><br>Your hero will recieve a unique level 2 effect while moving!"
-		"battle_pass_lvl_11" "<font color='#ed4c2f'>Level: 11</font> <br> Required rank: 81 <br><br>You recieve 100% more experience from items - Experience stone and Consciousness talisman!"
-		"battle_pass_lvl_12" "<font color='#ed2f94'>Level: 12</font> <br> Required rank: 89 <br><br>All grades of Galaxy core have cooldown reduction values increased by 10!"
-		"battle_pass_lvl_13" "<font color='#11c4fa'>Level: 13</font> <br> Required rank: 97 <br><br>You have built-in Aghanim scepter from the start of a game!"
-		"battle_pass_lvl_14" "<font color='#11c4fa'>Level: 14</font> <br> Required rank: 105 <br><br>All Support role heroes have healing increased by 100%!"
-		"battle_pass_lvl_15" "<font color='#11c4fa'>Level: 15</font> <br> Required rank: 113 <br><br>You have 10000 Energy and 100 its regeneration from the start of a game!"
-		"battle_pass_lvl_16" "<font color='#11c4fa'>Level: 16</font> <br> Required rank: 121 <br><br>Cost of stargate address auto-dialling is reduced by 90%."
-		"battle_pass_lvl_17" "<font color='#11c4fa'>Level: 17</font> <br> Required rank: 129 <br><br>GU-Coins gain is increased by 200%."
-		"battle_pass_lvl_18" "<font color='#11c4fa'>Level: 18</font> <br> Required rank: 137 <br><br>All Support role heroes any healing will apply Magical immunity on the target for 5 seconds!"
-		"battle_pass_lvl_19" "<font color='#11c4fa'>Level: 19</font> <br> Required rank: 145 <br><br>You can dodge any target spell every 3 seconds!"
-		"battle_pass_lvl_20" "<font color='#11c4fa'>Level: 20</font> <br> Required rank: 153 <br><br>You ignore any damage with 40% chance!"
-
-		"battle_pass_premium_lvl_1" "" 
-		"battle_pass_premium_lvl_2" ""
 
 		"DOTA_Tooltip_ability_item_started_key"								"Stargate key"
 		"DOTA_Tooltip_ability_item_started_key_Description"					"Collect 6 Stargate keys to get full address."
@@ -5552,18 +5403,11 @@ They can use autodialling without energy loss."
 		"andromeda_end_game_repli_37" "If you ever need my help you always can count on me!"
 
 		"end_game_title" "Project development:"
-		"end_game_title_1" "«►❤ ₭Ữ℟ỮḾÎ ❤◄» - Main Developer, Plot"
+		"end_game_title_1" "«►❤ ₭Ữ℟ỮḾÎ ❤◄» - Main Developer"
 		"end_game_title_2" "«Nertes» - English Localization"
-		"end_game_title_3" "«Solo_Mag» - Russian Localization, head tester."
-		"end_game_title_4" "«Nepgear» - tester, idea generator."
-		"end_game_title_5" "«MarkStringGolf» - tester, project supporter."
-		"end_game_title_6" "«zeexst» - тестировщик, project supporter."
-		"end_game_title_7" "«TO Inc_» community - aid in development"
-		"end_game_title_8" "«Alexey» - project supporter, designer."
-		"end_game_title_9" "«AENYE//FEARID» - project supporter, coder."
-		"end_game_title_10" "All rights reserved, all character's creators are listed on the project's web-page."
-		"end_game_title_11" "Project is based on Stargate series."
-		"end_game_title_12" "Thank you for playing in Guardians of Universe!"
+		"end_game_title_3" "«Nepgear» - tester, idea generator."
+		"end_game_title_4" "«Jekob» - project support."
+		"end_game_title_5" "«Viber» - tester."
 
 
 		"end_game_qvest_1" "New quest!<br> «End the War!»"
@@ -5977,8 +5821,8 @@ They can use autodialling without energy loss."
 		"hero_const_21"		"<font color='#4248f5'>Ascension level - «XX»</font>"
 
 		"pray_info"	"Details"
-		"pray_info_text_a"	"      Standard Prayer: Andromeda's Story"
-		"pray_info_text"	"More about prayers<br><br>
+		"pray_info_standart_name"	"      Standard Prayer: Andromeda's Story"
+		"pray_info_standart"	"More about prayers<br><br>
 
 <font color='#d63131ef'>No time limit</font><br><br>
 
@@ -6031,7 +5875,8 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 
 <font color='#1368c2'>3★ Heroes</font><br>
 -Rem<br>
--Dawnbreaker<br>
+-Biyao<br>
+-Mote of energy<br>
 -Merlin<br>
 -Kotori Itsuka<br>
 -Izayoi Sakuya<br>
@@ -6040,69 +5885,42 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 -9K31 «Strela-1»<br>
 -F-16 Fighting Falcon<br>
 -Т-72<br>
--2С1 «Gvozdika»<br>
--Illya<br>
--M270 MLRS<br>"
+-Illya<br>"
 
 		"custom_sound_pack_text"	"If you have a unique music pack changing key, insert it in the window below."
 		"custom_sound_pack"			"Insert key..."
-		"new_player_text_a" 		"Welcome to the Guardians of Universe" ///welcum to the club,buddy
+		"new_player_text_a" 		"Welcome to the Guardians of Universe"
 		"new_player_text" 			"Fill in answers to continue. Keep in mind that this will affect your game experience, you won't be able to change later!"
 		"new_player_name" 			"Type in your name."
 		"new_player_anime" 			"Choose your opinion on anime content (this will affect the later game!)"
 		"new_player_anime_false"    "If you choose this option, then you will not be able to get anime category characters from Prayers, in-game music pack will have anime content removed as well as other anime related contentеnt."
 		"new_player_anime_true"    	"If you choose this option, then you will be able to experince all content of the project."
 
-		"setting_game" 		"Game settings"
+		"setting_game" 				"Game settings"
 		"setting_game_text" 		"Host has access to game settings. Notice that all options should be kept untouched to get intended experience!"
-		"setting_prolog" 		"-_Skip prologue?_-"
+		"setting_prolog" 			"-_Skip prologue?_-"
 		"setting_prolog_text" 		"You will instantly start a new game, skipping the introduction. Keep in mind that you can recieve experience and items during the prologue; it will be harder to proceed without them."
-		"setting_yes" 		"Yes"
-		"setting_no" 		"No"
-		"setting_save" 		"Save"
-		"setting_timer" 		"-_Delay between waves_-"
+		"setting_yes" 				"Yes"
+		"setting_no" 				"No"
+		"setting_save" 				"Save"
+		"setting_timer" 			"-_Delay between waves_-"
 		"setting_timer_text" 		"If 0 seconds is choosen, then you will start hard mode, in which wave after wave of enemies will come after you eternally without a break!"
-		"time_300" 		"300 secs"
-		"time_150" 		"150 secs"
-		"time_0" 		"0 secs"
-		"default" 		"Current pack: Standard"
-		"default_no_anime" 		"Current pack: Without anime"
+		"time_300" 					"300 secs"
+		"time_150" 					"150 secs"
+		"time_0" 					"0 secs"
+		"default" 					"Current pack: Standard"
+		"default_no_anime" 			"Current pack: Without anime"
 
 
 
-		"custom_sound"    	"Custom pack!"
+		"custom_sound"    	"Custom pack!" 
 		"Kurumi_GU_talents_name"    	"Constellations"
 
 		"DOTA_Tooltip_ability_gu_talents_ability"					"Ascension"
 		"DOTA_Tooltip_ability_gu_talents_ability_description"		"Shows how far your character has ascended, opens charactes's talents on activating."
 
-		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity"							"Luminosity"
-		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_Lore"							"Diminished in power without access to the Children's replenishing light, Valora can still recharge herself and her allies by creating order from the chaos which resides within each fight."
-		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_Description"				"After %attack_count% attacks, Dawnbreaker powers up, charging her next attack with a critical hit that heals all allied heroes within %heal_radius% around her for %allied_healing_pct%%% of attack damage dealt. Creeps and neutral enemies provide less healing."
-		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_bonus_damage"				"%Crtical damage:"
-		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_heal_pct"					"%Lifesteal:"
-		"DOTA_Tooltip_Ability_gu_dawnbreaker_luminosity_heal_from_creeps"			"%Non-hero lifesteal:"
-
-		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity"								"Luminosity"
-		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_Description"								"Prepares an attack with Luminosity"
-		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_attack_buff"					"Luminosity attack effect"
-		"DOTA_Tooltip_modifier_gu_dawnbreaker_luminosity_attack_buff_Description"					"Next attack will deal additional critical damage and heal ally heroes"
-
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker"								"Starbreaker"
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Lore"								"Across the vast lineage of star progeny, there were multitudes unwilling to align with the aims of the Children of Light. To those who dared organize defiance, the Children would dispatch Valora and her hammer to show a measure of their power--to leave the rebels either shattered or set back to rights."
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Description"							"Dawnbreaker whirls her hammer around 3 times, damaging enemies with her attack plus bonus damage. On the final strike, she smashes her hammer down, stunning and damaging enemies in front of her."
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note0"	 							"During Starbreaker, Dawnbreaker gets moved towards the targeted direction at a speed of %movement_speed% and will be stunned for %self_stun_duration% seconds after the final strike."
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note1"								"During Starbreaker, Dawnbreaker can't cast Celestial Hammer or Solar Guardian."
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note2"								"Cleave isn't applied to attacks of this ability."
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_Note3"								"Can be cast on self to stat moving in direction of gaze."
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_duration"								"Duration:"
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_swipe_radius"							"Swipe radius:"
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_swipe_damage"							"Swipe attack damage bonus:"
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_damage"							"Smash attack damage bonus:"
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_radius"							"Smash radius:"
-		"DOTA_Tooltip_ability_gu_dawnbreaker_starbreaker_smash_stun_duration"					"Stun duration:"
-
 		"DOTA_Tooltip_modifier_godseye_speed_bonus_t3"  "Armor is reduced"
+
 
 		"npc_dota_hero_skeleton_king_t2_name"		"Primal Cold"
 		"npc_dota_hero_skeleton_king_t3_name"		"Immortality"
@@ -6193,163 +6011,261 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_bounty_hunter_t6_name"		"-「Acknowledgment」_-"	
 		"npc_dota_hero_bounty_hunter_t6"		"Improves - sixth ability! <br><br>Interval is reduced to 0.1."
 
+		"npc_dota_hero_venomancer_t2_name"		"-「AP rounds」_-"
+		"npc_dota_hero_venomancer_t3_name"		"-「Sub-caliber rounds」_-"
+		"npc_dota_hero_venomancer_t4_name"		"-「HE rounds」_-"
+		"npc_dota_hero_venomancer_t5_name"		"-「Ammunition detonation」_-"
+		"npc_dota_hero_venomancer_t6_name"		"-「Gun rammer」_-"
+		"npc_dota_hero_venomancer_t2"		"Improves - 12.7 mm NSV MG<br><br> Changes damage formula - base damage + hero's agility"
+		"npc_dota_hero_venomancer_t3"		"Improves - KEP-22<br><br> Multiplies critical damage by 8 times."
+		"npc_dota_hero_venomancer_t4"		"Improves - KEP-22<br><br> Allows to cast KEP-22 at target ared."
+		"npc_dota_hero_venomancer_t5"		"Improves - T-72 Ammunition<br><br> Blows up ammunition after destruction which increases damage and stun duration by 4 times."
+		"npc_dota_hero_venomancer_t6"		"Improves - 12.7 mm NSV MG<br><br> Fire interval is reduced to 0.2."
 
 
+		"npc_dota_hero_monkey_king_t2_name"		"-「Spectral Shiv」_-"
+		"npc_dota_hero_monkey_king_t3_name"		"-「Disaster Contact」_-"
+		"npc_dota_hero_monkey_king_t4_name"		"-「Spectral Essence 」_-"
+		"npc_dota_hero_monkey_king_t5_name"		"-「Death Fiesta」_-"
+		"npc_dota_hero_monkey_king_t6_name"		"-「Deadly Hellish Fiesta」_-"
+		"npc_dota_hero_monkey_king_t2"		"Improves - Spectral path<br><br> Changes damage formula to - base damage * (intelligence + strength + agility)"
+		"npc_dota_hero_monkey_king_t3"		"Improves - Calamitous contact<br><br> Deals Pure damage on activation instead of Magical."
+		"npc_dota_hero_monkey_king_t4"		"Improves - Spectral entity<br><br> Changes damage formula to - base damage * (intelligence + strength)."
+		"npc_dota_hero_monkey_king_t5"		"Improves - Death fiesta<br><br> Changes damage formula to - base damage * (intelligence + strength + ловкость) + отсутствующее здоровье цели."
+		"npc_dota_hero_monkey_king_t6"		"Improves - Death fiesta<br><br> Reduces cooldown to 10 seconds."
+
+
+		"npc_dota_hero_shredder_t2_name"		"-「2A46M-5 Titan」_-"
+		"npc_dota_hero_shredder_t3_name"		"-「2A46M-5 HEAT」_-"
+		"npc_dota_hero_shredder_t4_name"		"-「2A46M-5 HE」_-"
+		"npc_dota_hero_shredder_t5_name"		"-「2A46M-5 All-purpose」_-"
+		"npc_dota_hero_shredder_t6_name"		"-「Gun rammer」_-"
+		"npc_dota_hero_shredder_t2"		"Improves - 2A46M-5 Sub-caliber rounds <br><br> Adds damage multiplier - base damage + (strength * multiplier). Also increases stun duration by 4 times."
+		"npc_dota_hero_shredder_t3"		"Improves - 2A46M-5 Sub-caliber rounds<br><br> Pierces magical immunity and also all kinds of evasion, Linken's included."
+		"npc_dota_hero_shredder_t4"		"Improves - 2A46M-5 Sub-caliber rounds<br><br> Casting will fire a projectile at any enemy unit within radius of 1200."
+		"npc_dota_hero_shredder_t5"		"Improves - 2A46M-5 Sub-caliber rounds<br><br> Successive hits have 95% chance to deal critical damage. Crit damage - base damage * 40"
+		"npc_dota_hero_shredder_t6"		"Improves - 2A46M-5 Sub-caliber rounds<br><br> Reduces cooldown to 1.5 seconds"
+
+
+		"npc_dota_hero_silencer_t2_name"		"-「MQ-9 Predator」_-"
+		"npc_dota_hero_silencer_t3_name"		"-「Overlord's support」_-"
+		"npc_dota_hero_silencer_t4_name"		"-「9M37 AAMS」_-"
+		"npc_dota_hero_silencer_t5_name"		"-「9M37 WP」_-"
+		"npc_dota_hero_silencer_t6_name"		"-「9M37 AAMS Ammunition」_-"
+		"npc_dota_hero_silencer_t2"		"Improves - MQ-9 Reaper<br><br> Increases Reaper's operation time to 90 seconds on all levels."
+		"npc_dota_hero_silencer_t3"		"Improves - MQ-9 Reaper<br><br> After 3rd round casting spell grants ability to call an air strike by Overlord at the target point."
+		"npc_dota_hero_silencer_t4"		"Improves - 9M37 AAMS<br><br> Reduces cooldown to 30 seconds."
+		"npc_dota_hero_silencer_t5"		"Improves - 9M37 AAMS<br><br> Increases burn damage 5 fold + adds strength multiplier, also increases burn duration 4 fold."
+		"npc_dota_hero_silencer_t6"		"Improves - 9M37 AAMS<br><br> Increases total number of rockets to 12."
+
+
+		"npc_dota_hero_bristleback_t2_name"		"-「HYDRA 70」_-"
+		"npc_dota_hero_bristleback_t3_name"		"-「AGM-114」_-"
+		"npc_dota_hero_bristleback_t4_name"		"-「AGM-114 Barrage」_-"
+		"npc_dota_hero_bristleback_t5_name"		"-「HYDRA 5 Generation」_-"
+		"npc_dota_hero_bristleback_t6_name"		"-「AGM-114 5 Generation」_-"
+		"npc_dota_hero_bristleback_t2"		"Improves - HYDRA 70<br><br> Adds damage multiplier - base damage + (strength * multiplier)."
+		"npc_dota_hero_bristleback_t3"		"Improves - AGM-114<br><br> Adds damage multiplier - base damage + (strength * multiplier)"
+		"npc_dota_hero_bristleback_t4"		"Improves - AGM-114<br><br> Reduces launch interval to 0.2"
+		"npc_dota_hero_bristleback_t5"		"Improves - HYDRA 70<br><br> Ability does not consume energy."
+		"npc_dota_hero_bristleback_t6"		"Improves - AGM-114<br><br> Ability does not consume energy."
+
+		"npc_dota_hero_gyrocopter_t2_name"		"-「C5 UAM HEAT」_-"
+		"npc_dota_hero_gyrocopter_t3_name"		"-「ШТУРМ-В HEAT」_-"
+		"npc_dota_hero_gyrocopter_t4_name"		"-「C5 UAM Barrage」_-"
+		"npc_dota_hero_gyrocopter_t5_name"		"-「SHTURM-В Generation」_-"
+		"npc_dota_hero_gyrocopter_t6_name"		"-「C5 UAM 5 Generation」_-"
+		"npc_dota_hero_gyrocopter_t2"		"Improves - C5 UAM<br><br> Adds damage multiplier - base damage + (strength * multiplier)"
+		"npc_dota_hero_gyrocopter_t3"		"Improves - ШТУРМ-В<br><br> Adds damage multiplier - base damage + (strength * multiplier)"
+		"npc_dota_hero_gyrocopter_t4"		"Improves - C5 UAM<br><br> Reduces launch interval to 0.2"
+		"npc_dota_hero_gyrocopter_t5"		"Improves - ШТУРМ-В<br><br> Reduces lock-on and launch intervals to 0.1"
+		"npc_dota_hero_gyrocopter_t6"		"Improves - C5 UAM<br><br> Ability does not consume energy."
+
+		"DOTA_Tooltip_modifier_mi24v_attack_c5"		"C5 UAM"
+
+		"npc_dota_hero_luna_t2_name"		"-「HYDRA 70」_-"
+		"npc_dota_hero_luna_t3_name"		"-「HYDRA 70 HEAT」_-"
+		"npc_dota_hero_luna_t4_name"		"-「HYDRA 70 Barrage」_-"
+		"npc_dota_hero_luna_t5_name"		"-「HYDRA 3rd Generation」_-"
+		"npc_dota_hero_luna_t6_name"		"-「HYDRA 5th Generation」_-"
+		"npc_dota_hero_luna_t2"		"Improves - HYDRA 70<br><br> Fire interval is reduced to 0.2"
+		"npc_dota_hero_luna_t3"		"Improves - HYDRA 70<br><br> Adds damage multiplier - base damage + (strength * multiplier)"
+		"npc_dota_hero_luna_t4"		"Improves - HYDRA 70<br><br> Each rocket roots target for 0.1 seconds"
+		"npc_dota_hero_luna_t5"		"Improves - HYDRA 70<br><br> Adds 45% chance to deal 400% critical damage"
+		"npc_dota_hero_luna_t6"		"Improves - HYDRA 70<br><br> Ability does not consume energy."
+
+		"npc_dota_hero_templar_assassin_t2_name"		"-「Health formula」_-"
+		"npc_dota_hero_templar_assassin_t3_name"		"-「Immunity」_-"
+		"npc_dota_hero_templar_assassin_t4_name"		"-「Nature」_-"
+		"npc_dota_hero_templar_assassin_t5_name"		"-「Global defence」_-"
+		"npc_dota_hero_templar_assassin_t6_name"		"-「Defence enhancement」_-"
+		"npc_dota_hero_templar_assassin_t2"		"Improves - Health elixir<br><br> Effect duration is increased by 2 times on all levels."
+		"npc_dota_hero_templar_assassin_t3"		"Improves - Resurrection magic<br><br> Magical immunity buff trigger chance is 100%"
+		"npc_dota_hero_templar_assassin_t4"		"Improves - Resurrection magic<br><br> Resurrection chance - 100%"
+		"npc_dota_hero_templar_assassin_t5"		"Improves - Natural defence<br><br> Applies effect to all allies on the map"
+		"npc_dota_hero_templar_assassin_t6"		"Improves - Natural defence<br><br> Increases effect duration by 3 times."
+
+		"npc_dota_hero_wisp_t2_name"		"-「Mind control」_-"
+		"npc_dota_hero_wisp_t3_name"		"-「Hidden matter」_-"
+		"npc_dota_hero_wisp_t4_name"		"-「Surge」_-"
+		"npc_dota_hero_wisp_t5_name"		"-「Acknowledgement」_-"
+		"npc_dota_hero_wisp_t6_name"		"-「Defence enhancement」_-"
+		"npc_dota_hero_wisp_t2"		"Improves - Energy instability<br><br> Ability does not deal damage to the hero."
+		"npc_dota_hero_wisp_t3"		"Improves - Sub-space energy<br><br> Reduces cooldown to 5 seconds"
+		"npc_dota_hero_wisp_t4"		"Improves - Energy surge<br><br> Ability does not consume caster's health, now deals additional damage based on hero's strength multiplied by 1.5"
+		"npc_dota_hero_wisp_t5"		"Improves - Energy instability<br><br> Increases duration to 30 seconds and also removes cooldown."
+		"npc_dota_hero_wisp_t6"		"Improves - Sub-space energy<br><br> Increases all multipliers 10 fold."
 
 
 		"t1_name" 	"-_RISE OF A HERO_-"
 		"t1_1" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 500<br>
-		Bonus armor: 20<br>
-		Bonus damage: 40<br>
-		Bonus movement speed: 50<br>
-		Bonus mana regeneration: 150"
+		Bonus health: 100<br>
+		Bonus armor: 2<br>
+		Bonus damage: 10<br>
+		Bonus movement speed: 10<br>
+		Bonus mana regeneration: 10"
 
 		"t1_2" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 500<br>
-		Bonus armor: 20<br>
-		Bonus damage: 40<br>
-		Bonus movement speed: 50<br>
-		Bonus mana regeneration: 150"
+		Bonus health: 100<br>
+		Bonus armor: 2<br>
+		Bonus damage: 10<br>
+		Bonus movement speed: 10<br>
+		Bonus mana regeneration: 10"
 
 		"t1_3" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 100<br>
-		Bonus armor: 30<br>
-		Bonus damage: 80<br>
-		Bonus movement speed: 75<br>
-		Bonus mana regeneration: 175"
+		Bonus health: 200<br>
+		Bonus armor: 4<br>
+		Bonus damage: 20<br>
+		Bonus movement speed: 20<br>
+		Bonus mana regeneration: 20"
 
 		"t1_4" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 1500<br>
-		Bonus armor: 40<br>
-		Bonus damage: 120<br>
-		Bonus movement speed: 100<br>
-		Bonus mana regeneration: 200"
+		Bonus health: 300<br>
+		Bonus armor: 6<br>
+		Bonus damage: 30<br>
+		Bonus movement speed: 30<br>
+		Bonus mana regeneration: 30"
 
 		"t1_5" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 2000<br>
-		Bonus armor: 50<br>
-		Bonus damage: 200<br>
-		Bonus movement speed: 125<br>
-		Bonus mana regeneration: 225"
+		Bonus health: 400<br>
+		Bonus armor: 8<br>
+		Bonus damage: 40<br>
+		Bonus movement speed: 40<br>
+		Bonus mana regeneration: 40"
 
 		"t1_6" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 2500<br>
-		Bonus armor: 60<br>
-		Bonus damage: 300<br>
-		Bonus movement speed: 150<br>
-		Bonus mana regeneration: 250"
+		Bonus health: 500<br>
+		Bonus armor: 12<br>
+		Bonus damage: 50<br>
+		Bonus movement speed: 50<br>
+		Bonus mana regeneration: 50"
 
 		"t1_7" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 3000<br>
-		Bonus armor: 70<br>
-		Bonus damage: 400<br>
-		Bonus movement speed: 175<br>
-		Bonus mana regeneration: 275"
+		Bonus health: 600<br>
+		Bonus armor: 14<br>
+		Bonus damage: 60<br>
+		Bonus movement speed: 60<br>
+		Bonus mana regeneration: 60"
 
 		"t1_8" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 3500<br>
-		Bonus armor: 80<br>
-		Bonus damage: 500<br>
-		Bonus movement speed: 200<br>
-		Bonus mana regeneration: 300"
+		Bonus health: 700<br>
+		Bonus armor: 16<br>
+		Bonus damage: 70<br>
+		Bonus movement speed: 70<br>
+		Bonus mana regeneration: 70"
 
 		"t1_9" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 4000<br>
-		Bonus armor: 90<br>
-		Bonus damage: 600<br>
-		Bonus movement speed: 225<br>
-		Bonus mana regeneration: 325"
+		Bonus health: 800<br>
+		Bonus armor: 18<br>
+		Bonus damage: 80<br>
+		Bonus movement speed: 80<br>
+		Bonus mana regeneration: 80"
 
 		"t1_10" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 4500<br>
-		Bonus armor: 100<br>
-		Bonus damage: 700<br>
-		Bonus movement speed: 250<br>
-		Bonus mana regeneration: 350"
+		Bonus health: 900<br>
+		Bonus armor: 20<br>
+		Bonus damage: 90<br>
+		Bonus movement speed: 90<br>
+		Bonus mana regeneration: 90"
 
 		"t1_11" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 5000<br>
-		Bonus armor: 110<br>
-		Bonus damage: 800<br>
-		Bonus movement speed: 275<br>
-		Bonus mana regeneration: 375"
+		Bonus health: 1000<br>
+		Bonus armor: 22<br>
+		Bonus damage: 100<br>
+		Bonus movement speed: 100<br>
+		Bonus mana regeneration: 100"
 
 		"t1_12" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 5500<br>
-		Bonus armor: 120<br>
-		Bonus damage: 900<br>
-		Bonus movement speed: 300<br>
-		Bonus mana regeneration: 400"
+		Bonus health: 1100<br>
+		Bonus armor: 24<br>
+		Bonus damage: 110<br>
+		Bonus movement speed: 110<br>
+		Bonus mana regeneration: 110"
 
 		"t1_13" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 6000<br>
-		Bonus armor: 130<br>
-		Bonus damage: 1000<br>
-		Bonus movement speed: 325<br>
-		Bonus mana regeneration: 425"
+		Bonus health: 1200<br>
+		Bonus armor: 26<br>
+		Bonus damage: 120<br>
+		Bonus movement speed: 120<br>
+		Bonus mana regeneration: 120"
 
 		"t1_14" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 6500<br>
-		Bonus armor: 140<br>
-		Bonus damage: 1100<br>
-		Bonus movement speed: 350<br>
-		Bonus mana regeneration: 450"
+		Bonus health: 1300<br>
+		Bonus armor: 28<br>
+		Bonus damage: 130<br>
+		Bonus movement speed: 130<br>
+		Bonus mana regeneration: 130"
 
 		"t1_15" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 7000<br>
-		Bonus armor: 150<br>
-		Bonus damage: 1200<br>
-		Bonus movement speed: 375<br>
-		Bonus mana regeneration: 475"
+		Bonus health: 1400<br>
+		Bonus armor: 30<br>
+		Bonus damage: 140<br>
+		Bonus movement speed: 140<br>
+		Bonus mana regeneration: 140"
 
 		"t1_16" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 7500<br>
-		Bonus armor: 160<br>
-		Bonus damage: 1300<br>
-		Bonus movement speed: 400<br>
-		Bonus mana regeneration: 500"
+		Bonus health: 1500<br>
+		Bonus armor: 32<br>
+		Bonus damage: 150<br>
+		Bonus movement speed: 150<br>
+		Bonus mana regeneration: 150"
 
 		"t1_17" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 8000<br>
-		Bonus armor: 170<br>
-		Bonus damage: 1400<br>
-		Bonus movement speed: 425<br>
-		Bonus mana regeneration: 600"
+		Bonus health: 1600<br>
+		Bonus armor: 34<br>
+		Bonus damage: 170<br>
+		Bonus movement speed: 170<br>
+		Bonus mana regeneration: 170"
 
 		"t1_18" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 8500<br>
-		Bonus armor: 180<br>
-		Bonus damage: 1500<br>
-		Bonus movement speed: 450<br>
-		Bonus mana regeneration: 700"
+		Bonus health: 1700<br>
+		Bonus armor: 36<br>
+		Bonus damage: 170<br>
+		Bonus movement speed: 170<br>
+		Bonus mana regeneration: 170"
 
 		"t1_19" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 9000<br>
-		Bonus armor: 190<br>
-		Bonus damage: 1600<br>
-		Bonus movement speed: 475<br>
-		Bonus mana regeneration: 800"
+		Bonus health: 1800<br>
+		Bonus armor: 38<br>
+		Bonus damage: 180<br>
+		Bonus movement speed: 180<br>
+		Bonus mana regeneration: 180"
 
 		"t1_20" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 9500<br>
-		Bonus armor: 250<br>
-		Bonus damage: 1700<br>
-		Bonus movement speed: 500<br>
-		Bonus mana regeneration: 900"
+		Bonus health: 1900<br>
+		Bonus armor: 40<br>
+		Bonus damage: 190<br>
+		Bonus movement speed: 190<br>
+		Bonus mana regeneration: 190"
 
 		"t1_21" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
-		Bonus health: 10000<br>
-		Bonus armor: 250<br>
-		Bonus damage: 1800<br>
-		Bonus movement speed: 600<br> 
-		Bonus mana regeneration: 1000"
+		Bonus health: 2000<br>
+		Bonus armor: 45<br>
+		Bonus damage: 200<br>
+		Bonus movement speed: 200<br> 
+		Bonus mana regeneration: 200"
 
 
-	"task_random_item"			"Find an item in a random spot on the map within 2 minutes. Aproximate location is shown on the mini-map with a red circle."
-	"task_name_item"			"Treasure hunt"
-	"task_random_mi24"			"You have to defent ally MI-24V Hind, which has appeared in right lower corner of the map, for 5 minutes. You will fail this quest if it is destroyed. If you manage to escort the helicopter, then all team will complete the quest 'Escort' and all players will have access to pick combat vehicles during the pick phase."
-	"task_name_mi24"			"Convoy escort"
 
 
 
@@ -6510,12 +6426,11 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_gu_crate"				"Treasure chest"
 
 		"DOTA_Tooltip_modifier_gu_alter_armor_stack"		"Goa'uld armor"
-		"DOTA_Tooltip_modifier_gu_alter_armor_stack_Description"		"+%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% armor, +%dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength
+		"DOTA_Tooltip_modifier_gu_alter_armor_stack_Description"		"+%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% armor, +%dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength "
 
 
 		"npc_dota_hero_warlock_dificult" 			"Character's difficulty: «Normal»"
-		"npc_dota_hero_venomancer_dificult" 		"Character's difficulty: «Normal»"
-		"npc_dota_hero_dark_seer_dificult" 			"Character's difficulty: «Normal»"
+		"npc_dota_hero_venomancer_dificult" 		"Character's difficulty: «Hard»"
 		"npc_dota_hero_bristleback_dificult" 		"Character's difficulty: «Normal»"
 		"npc_dota_hero_abaddon_dificult" 			"Character's difficulty: «Easy»"
 		"npc_dota_hero_earth_spirit_dificult" 		"Character's difficulty: «Easy»"
@@ -6546,7 +6461,6 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_alchemist_dificult" 			"Character's difficulty: «Easy»"
 		"npc_dota_hero_clinkz_dificult" 			"Character's difficulty: «Easy»"
 		"npc_dota_hero_nyx_assassin_dificult" 		"Character's difficulty: «Easy»"
-		"npc_dota_hero_zuus_dificult" 				"Character's difficulty: «Normal»"
 		"npc_dota_hero_gyrocopter_dificult" 		"Character's difficulty: «Normal»"
 		"npc_dota_hero_shredder_dificult" 			"Character's difficulty: «Normal»"
 		"npc_dota_hero_axe_dificult" 				"Character's difficulty: «Normal»"
@@ -6562,6 +6476,10 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_antimage_dificult"        	"Character's difficulty: «Easy»"
 		"npc_dota_hero_dawnbreaker_dificult"        "Character's difficulty: «Normal»"
 		"npc_dota_hero_pudge_dificult"        		"Character's difficulty: «Hard»"
+		"npc_dota_hero_monkey_king_dificult"        "Character's difficulty: «Normal»"
+		"npc_dota_hero_templar_assassin_dificult"   "Character's difficulty: «Easy»"
+		"npc_dota_hero_wisp_dificult"				"Character's difficulty: «Easy»"
+
 
 		"npc_dota_hero_warlock_type" 			"Role: «Mag. DD»"
 		"npc_dota_hero_venomancer_type" 		"Role: «Tank»"
@@ -6614,6 +6532,9 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_antimage_type"        	"Role: «Main DD»"
 		"npc_dota_hero_dawnbreaker_type"        "Role: «Main DD»"
 		"npc_dota_hero_pudge_type"        		"Role: «Main DD»"
+		"npc_dota_hero_monkey_king_type"        "Role: «Main, Mag. DD»"
+		"npc_dota_hero_templar_assassin_type"   "Role: «Support»"
+		"npc_dota_hero_wisp_type"				"Role: «Mag. DD»"
 
 		"npc_dota_hero_warlock_rare" 			"Baner: «Andromeda's story»"
 		"npc_dota_hero_venomancer_rare" 		"Baner: «Andromeda's story»"
@@ -6668,6 +6589,10 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_antimage_rare"        	"Baner: «Andromeda's story»"
 		"npc_dota_hero_dawnbreaker_rare"        "Baner: «Andromeda's story»"
 		"npc_dota_hero_pudge_rare"        		"Unlock: «Deforestation»"
+		"npc_dota_hero_monkey_king_rare"        "Baner: «Consciousness Rift»"
+		"npc_dota_hero_templar_assassin_rare"   "Baner: «Andromeda's story»"
+		"npc_dota_hero_wisp_rare"				"Baner: «Andromeda's story»"
+		
 
 		"npc_dota_hero_warlock_damage" 				"Damage type: <font color='#00ff1e'>«Angelic»</font>"
 		"npc_dota_hero_venomancer_damage" 			"Damage type: <font color='#ff9100'>«Explosion energy»</font>"
@@ -6720,11 +6645,180 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_antimage_damage"        		"Damage type: <font color='#bb00ff'>«Matter of the Universe»</font>"
 		"npc_dota_hero_dawnbreaker_damage"        	"Damage type: <font color='#bb00ff'>«Matter of the Universe»</font>"
 		"npc_dota_hero_pudge_damage"        		"Damage type: <font color='#8fd995'>«Sausage Matter»</font>"
-		
-		
+		"npc_dota_hero_monkey_king_damage"        	"Тип damageа: <font color='#00ff1e'>«Angelic»</font>"
+		"npc_dota_hero_templar_assassin_damage"     "Тип damageа: <font color='#00ff1e'>«Angelic»</font>"
+		"npc_dota_hero_wisp_damage"					"Тип damageа: <font color='#e5ff00'>«Pure matter»</font>"
+
+		"DOTA_Tooltip_ability_spectre_1"				"Spectral path"
+		"DOTA_Tooltip_ability_spectre_1_Description"	"Hero opens a shadow path to the target point. Enemy units who have been affected by the path will be rooted. Rooted enemies recieve periodic damage. Hero can move to the target point at any time for the duration. <br><br>Deals damage following the formula  %damage% * intelligence"
+		"DOTA_Tooltip_ability_spectre_1_movespeed"		"%Slow:"
+		"DOTA_Tooltip_ability_spectre_1_root_duration"	"Root duration:"
+
+		"DOTA_Tooltip_ability_spectre_1_0"				"Spectral path"
+		"DOTA_Tooltip_ability_spectre_1_0_Description"	"Teleports to the end of the path."
+
+		"DOTA_Tooltip_ability_spectre_2"	"Calamitous contact"
+		"DOTA_Tooltip_ability_spectre_2_Description"	"Each attack consumes %health_cost%%%  health and deals proportional damage to the target unit. Activation of the ability consumes 30% of health and deals some damage to all targets around, also confuses them (makes them move on place in different directions). <br></br>-----------------------------------------------<br><br> Damage is calculated following the formula %damage% * intelligence <br>Maximal damage is calculated according to the formula %damage_limit% * intelligence"
+		"DOTA_Tooltip_ability_spectre_2_shock_duration"	"Confusion duration:"
+
+		"DOTA_Tooltip_ability_spectre_3"	"Spectral entity"
+		"DOTA_Tooltip_ability_spectre_3_Description"	"Reflects damage to all attackers based on hero's maximal health, damage radius - %max_radius%. The lower hero's health, the lower is the damage <br></br>-----------------------------------------------<br><br> Damage is calculated according to the formula  %damage% * intelligence, also replenishes health according to formula %healamount% * intelligence * current health"
+
+		"DOTA_Tooltip_ability_spectre_4"	"Death fiesta"
+		"DOTA_Tooltip_ability_spectre_4_Description"	"Immobilises target for %stun_duration% seconds and also reduces armor and magical resistance to 0.<br> Deals damage according to the formula %damage% * intelligence + missing health of the target. Also mutes the target for 5 seconds."
+		"DOTA_Tooltip_ability_spectre_4_stun_duration"	"Duration:"
+
+		"npc_gu_t72_base"			"T-72 Base"
+		"npc_gu_t90_base"			"T-90 Base"
+
+		"sg1_point_of_origin"		"Point Of Origin"
+		"sg1_andromeda"				"Andromeda"
+		"sg1_aquarius"				"Aquarius"
+		"sg1_aquila"				"Aquila"
+		"sg1_aries"					"Aries"
+		"sg1_auriga"				"Auriga"
+		"sg1_bootes"				"Bootes"
+		"sg1_cancer"				"Cancer"
+		"sg1_canis_minor"			"Canis Minor"
+		"sg1_capricornus"			"Capricornus"
+		"sg1_centaurus"				"Centaurus"
+		"sg1_cetus"					"Cetus"
+		"sg1_corona_australis"		"Corona Australis"
+		"sg1_crater"				"Crater"
+		"sg1_equuleus"				"Equuleus"
+		"sg1_eridanus"				"Eridanus"
+		"sg1_gemini"				"Gemini"
+		"sg1_hydra"					"Hydra"
+		"sg1_leo"					"Leo"
+		"sg1_leo_minor"				"Leo Minor"
+		"sg1_libra"					"Libra"
+		"sg1_lynx"					"Lynx"
+		"sg1_microscopium"			"Microscopium"
+		"sg1_monoceros"				"Monoceros"
+		"sg1_norma"					"Norma"
+		"sg1_orion"					"Orion"
+		"ebanytaya_baganaya_xyeta"	"Pegasus "
+		"sg1_perseus"				"Perseus"
+		"sg1_pisces"				"Pisces"
+		"sg1_piscis_austrinus"		"Piscis Austrinus"
+		"sg1_sagittarius"			"Sagittarius"
+		"sg1_scorpius"				"Scorpius"
+		"sg1_sculptor"				"Sculptor"
+		"sg1_scutum"				"Scutum"
+		"sg1_serpens_caput"			"Serpens Caput"
+		"sg1_sextans"				"Sextans"
+		"sg1_taurus"				"Taurus"
+		"sg1_triangulum"			"Triangulum"
+		"sg1_virgo"					"Virgo"
+		"sg1_abydos"				"Abydos"
+		"pick_dhd"					"_Select type of dialling device_"
+		"dhd_sg1"					"Milky way (SG1)"
+		"dhd_pegasus"				"Pegasus (Atlantis)"
+		"andromeda_name"			"Andromeda"
+		"sound_player_g"			"Current track:"
+		"unit_wave_dif_1"			"Wave difficulty: <font color='#89eb49'>«Easy»</font>"
+		"unit_wave_dif_2"			"Wave difficulty: <font color='#cc9f3d'>«Normal»</font>"
+		"unit_wave_dif_3"			"Wave difficulty: <font color='#cc553d'>«Hard»</font>"
+		"unit_wave_dif_4"			"Wave difficulty: <font color='#cf1919'>«Absurd»</font>"
+
+		"order_distance"			"You can't cast at this area!"
+		"selected_race_g"			"Race choice!"
+
+		"DOTA_Tooltip_modifier_race_human"						"«Tau'ri»"
+		"DOTA_Tooltip_modifier_race_human_Description"			"You periodically gain bonus gold(Learn more about the bonus in «Profile» - «Race»), also you are granted +%dMODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE%%%  bonus base damge"
+
+		"DOTA_Tooltip_modifier_race_spirits"					"«Spirits»"
+		"DOTA_Tooltip_modifier_race_spirits_Description"		"Reduces cooldowns of abilities and items by +%dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%%, also reduces magical resistance of all enemies within radius of 1500 by the amount of race's rank. Reduces cast time by +%dMODIFIER_PROPERTY_CASTTIME_PERCENTAGE%%%"
+
+		"DOTA_Tooltip_modifier_mag_damage_red_race_spirits" 	"«Spirits»" 
+		"DOTA_Tooltip_modifier_mag_damage_red_race_spirits_Description" "Magical resistance is reduced by -%dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%"
+
+		"DOTA_Tooltip_modifier_race_armored" 	"«Armored»" 
+		"DOTA_Tooltip_modifier_race_armored_Description" "Increases your armor by +%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%, reduces all incoming %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
+
+		"DOTA_Tooltip_modifier_race_anquietas" 	"«Anquietas»" 
+		"DOTA_Tooltip_modifier_race_anquietas_Description" "Each 30 seconds grants you +1 intelligence, you also gain bonus experience each minute in the amount based on race's rank.<br><br> <font color='#cf1919'>Buff does not work - during Prologue, Boss battle, Ending and other world quests.</font>"
+
+		"DOTA_Tooltip_modifier_race_ori" 	"«Ori»" 
+		"DOTA_Tooltip_modifier_race_ori_Description" "Amplifies spell damage by +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%%, reduces manacost by  %dMODIFIER_PROPERTY_MANACOST_PERCENTAGE%%%"
+		"DOTA_Tooltip_modifier_magires_race_ori" 	"«Ori»" 
+		"DOTA_Tooltip_modifier_magires_race_ori_Description" "Increases magical resistance by +%dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%, also increases status resistance by %dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%"
+
+		"DOTA_Tooltip_modifier_race_touhou" 	"«とうほう»" 
+		"DOTA_Tooltip_modifier_race_touhou_Description" "You will replenish your health based on spell damage done to enemy with a certain chance, also grants ability to deal critical spell damage."
+
+		"DOTA_Tooltip_modifier_race_asgard" 	"«Asgard»" 
+		"DOTA_Tooltip_modifier_race_asgard_Description" "Grants universal evasion of %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%%"
+
+		"DOTA_Tooltip_ability_nian_1" 				"Claws"
+		"DOTA_Tooltip_ability_nian_1_Description" 	"Year beast deals damage in a small area before it, also auxillary targets recieve 5% of target's current health as damage."
+
+		"DOTA_Tooltip_ability_nian_2" 				"Charge"
+		"DOTA_Tooltip_ability_nian_2_Description" 	"Year beast charges forward, dragging all enemy units with it and dealing damage of 50% of target's current health."
+
+		"DOTA_Tooltip_ability_nian_3" 				"Clap"
+		"DOTA_Tooltip_ability_nian_3_Description" 	"Year beast throws all enemy units in the air, dealing damage of 20% of target's health, finishing with a clap which deals 80% of target's health as damage."
+
+		"DOTA_Tooltip_ability_nian_4" 				"Leap"
+		"DOTA_Tooltip_ability_nian_4_Description" 	"Jumps to the target point, dealing 40% of target's current health as damage and also pushes enemies away from the landing spot."
+
+		"DOTA_Tooltip_ability_nian_5" 				"Fury"
+		"DOTA_Tooltip_ability_nian_5_Description" 	"Hops, then strikes, dealing 50% of target's current health as damage, if an enemy unit is near beast's head after the jump, it will devour the enemy, dealing huge damage."
+
+		"DOTA_Tooltip_ability_nian_6" 				"Energy burst"
+		"DOTA_Tooltip_ability_nian_6_Description" 	"Deals huge damage, and also stuns all units within the effect area."
+
+		"DOTA_Tooltip_ability_nian_7" 				"Last breath"
+		"DOTA_Tooltip_ability_nian_7_Description" 	"Year beast is an ancient creature, no one knows its true power."
+
+		"DOTA_Tooltip_modifier_nian_7"					"Last breath"
+		"DOTA_Tooltip_modifier_nian_7_knockdown_rage"	 "Last breath"
+
+		"DOTA_Tooltip_modifier_nian_4_debuff"		"يسلث"
+
+		"nian_boss"									"Nian"
+
+		"DOTA_Tooltip_ability_biyao_1" 				"Health elixir"
+		"DOTA_Tooltip_ability_biyao_1_Description" 	"Replenishes health and mana to the target ally unit for %duration% seconds. Replenisment follows these formulae for health - %hp_regen% + (hero's intelligence * %multiplayer_int%), for mana - %mana_regen% + (intelligence героя * %multiplayer_int%). Replenishment tick rate - 1, if target dies under the effect, the ability will go on cooldown of 60 seconds."
+
+		"DOTA_Tooltip_ability_biyao_2" 				"Natural defence"
+		"DOTA_Tooltip_ability_biyao_2_Description" 	"Applies a shield to the target which reduces all incoming damage by 80%, duration %duration%. This defence also deals damage to all enemies around the affected unit. Damage is based on caster's intelligence and follows formula %base_damage% + intelligence."
+		"DOTA_Tooltip_modifier_biyao_2" 			"Natural defence"
+
+		"DOTA_Tooltip_ability_biyao_4" 				"Natural aura"
+		"DOTA_Tooltip_ability_biyao_4_Description" 	"Passively grants +%hp_regen% to health regeneration and +%mana_regen% mana regeneration to all ally units. Aura is global."
+		"DOTA_Tooltip_modifier_biyao_4_aura_buff"					"Natural aura"
+		"DOTA_Tooltip_modifier_biyao_4_aura_buff_Description"		"Constantly replenishes +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health and +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana"
+
+		"DOTA_Tooltip_ability_biyao_5" 				"Resurrection magic"
+		"DOTA_Tooltip_ability_biyao_5_Description" 	"On activation can bring any ally from the dead with 50% chance, and also apply magical immunity for %duration_buff% seconds with a %chanse_bkb%%% chance. Cooldown - %cd%, and static. If resurrection did not trigger, ability goes on cooldown of 20 seconds. Works globally"
+
+		"npc_dota_hero_dawnbreaker"					"Pick a hero"
+		"npc_dota_hero_wisp"						"Mote of Energy"
+
+		"DOTA_Tooltip_ability_alroth_energy_burst" 				"Energy surge"
+		"DOTA_Tooltip_ability_alroth_energy_burst_Description" 	"Unleashes inner energy, dealing damage to all enemies around the hero. Hero recieves 50% of damage."
+		"DOTA_Tooltip_ability_alroth_energy_burst_damage" 	"Damage:"
+		"DOTA_Tooltip_ability_alroth_energy_burst_radius" 	"Radius:"
+
+		"DOTA_Tooltip_ability_alroth_raze" 						"Unstable energy surge"
+		"DOTA_Tooltip_ability_alroth_raze_Description" 			"Unleashes energy surge in the target area, which deals periodic damage + 1% of target's maximal health to all enemies within the affected ared."
+		"DOTA_Tooltip_ability_alroth_raze_damage_per_second" 	"Damage:"
+		"DOTA_Tooltip_ability_alroth_raze_duration" 			"Duration:"
+		"DOTA_Tooltip_ability_alroth_raze_radius" 				"Radius:"
+
+		"DOTA_Tooltip_ability_alroth_shatter" 						"Sub-space energy"
+		"DOTA_Tooltip_ability_alroth_shatter_Description" 			"Hero deals %damage_mult% times more attack damage each %cd% seconds, slowing donw the target and burning some amount of mana, which is based on hero's base damage * %mana_burn%. Target has its magical resistance reduced by %mres_reduction%%%  for %duration% seconds."
+		"DOTA_Tooltip_ability_alroth_shatter_slow" 					"%Slow:"
+		"DOTA_Tooltip_modifier_shatter"								"Sub-space energy"
+		"DOTA_Tooltip_modifier_shatter_slow" 						"Sub-space energy"
+
+		"DOTA_Tooltip_ability_alroth_solwave" 						"Energy instability"
+		"DOTA_Tooltip_ability_alroth_solwave_Description" 			"Hero's energy is very unstable. Casting unleashes accamulated energy, dealing %damage_per_second% damage to all enemies within radius of %radius% each 0.1 seconds, but also deals 50% of damage to self. Duration of the ability - %duration%"
+		"DOTA_Tooltip_ability_alroth_solwave_slow" 					"%Slow:"
 		
 
-"gu_uav"						"UAV<br><br>
+"gu_uav" "UAV<br><br>
 		On activation, globally marks all enemy units, who will be striken with MQ-9 Predator rocket's after 5 seconds delay (if you have one)<br>
 		Stats:<br>
 		Scan radius: 30.000<br>
@@ -6732,7 +6826,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		Damage: 100% of health<br>
 		<br>
 		Limitations:<br>
-		Activates only with a MQ-9 Predator UV.<br>
+		Activates only with a MQ-9 Predator UV.<br>"
 
 		"DOTA_Tooltip_ability_item_gu_crate_search"									"Goa'uld Treasure Compas"
 		"DOTA_Tooltip_ability_item_gu_crate_search_Description"							"<h1>Active: Area scanner </h1> On activation, marks hidden treasures within %radius% for 10 seconds, if there are no tresures, it will start cooling down for %cd_no_crate% secs. Treasures become hidden after 10 seconds."
@@ -6813,78 +6907,6 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"dota_tooltip_ability_item_gu_aeon_disk_description" "<h1>Passive: Combo Breaker</h1> Recieving any damage, which brings owner's health lower than %health_threshold_pct%%%, will apply strong dispel and buff for %buff_duration% secs., granting %status_resistance%%%  status resistance and nullifying incoming damage, <font color='#FF7800'>while outcoming damage is reduced by %damage_reduction%%%.</font> \n<h1><font color='#FF7800'>Toggleable: Control Fate</font></h1> Can be activated to prevent Combo Breaker's trigger."
 		"DOTA_Tooltip_modifier_imba_aeon_disk" 			"Aeon Disk"
 
-
-		///СКИЛЛЫ КРИППОВ С ВОЛН
-
-		"DOTA_Tooltip_ability_item_gu_wave_1"									"Projectile: Regeneration"
-		"DOTA_Tooltip_ability_item_gu_wave_1_Description"						"<h1>Active: Regeneration destruction </h1> Launches a projectile in the target hero, which blocks target's regeneration for %duration%, cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_1"									"Projectile: Regeneration"
-		"DOTA_Tooltip_modifier_item_gu_wave_1_Description"						"Regeneration is blocked"
-
-		"DOTA_Tooltip_ability_item_gu_wave_2"									"Projectile: Disorientation"
-		"DOTA_Tooltip_ability_item_gu_wave_2_Description"						"<h1>Active: Disorientation</h1> Launches a projectile in the target hero, which stuns them for a random period of time ranging from %stun_min% to %stun_max% seconds, cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-
-		"DOTA_Tooltip_ability_item_gu_wave_3"									"Projectile: Disarm"
-		"DOTA_Tooltip_ability_item_gu_wave_3_Description"						"<h1>Active: Weaponry destruction </h1> Launches a projectile in the target hero, which blocks all passive abilities and also disarms target for %duration%, cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_3"									"Projectile: Disarm"
-		"DOTA_Tooltip_modifier_item_gu_wave_3_Description"						"Passive abilities are disactivated, you can't attack."
-
-		"DOTA_Tooltip_ability_item_gu_wave_4"									"Projectile: Silence"
-		"DOTA_Tooltip_ability_item_gu_wave_4_Description"						"<h1>Active: Silence </h1> Launches a projectile in the target hero, which applies silence for %duration%, cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_4"									"Projectile: Silence"
-		"DOTA_Tooltip_modifier_item_gu_wave_4_Description"						"Silenced."
-
-		"DOTA_Tooltip_ability_item_gu_wave_5"									"Projectile: Damage reduction"
-		"DOTA_Tooltip_ability_item_gu_wave_5_Description"						"<h1>Active: Damage reduction </h1> Launches a projectile in the target hero, which decreases target's attack damage by %damage%%  for %duration%, cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_5"									"Projectile: Damage reduction"
-		"DOTA_Tooltip_modifier_item_gu_wave_5_Description"						"Attack damage is decreased by %dMODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE% percents."
-
-		"DOTA_Tooltip_ability_item_gu_wave_6"									"Projectile: Armor destruction"
-		"DOTA_Tooltip_ability_item_gu_wave_6_Description"						"<h1>Active: Armor destruction </h1> Launches a projectile in the target hero, which decreases target's armor by %armor%%  for %duration% seconds,  cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_6"									"Projectile: Armor destruction"
-		"DOTA_Tooltip_modifier_item_gu_wave_6_Description"						"Armor is decreased by %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% "
-
-		"DOTA_Tooltip_ability_item_gu_wave_7"									"Projectile: Goo"
-		"DOTA_Tooltip_ability_item_gu_wave_7_Description"						"<h1>Active: Stickness</h1> Launches a projectile in the target hero, which decreases turn speed by 1000 for %duration% seconds,  cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_7"									"Projectile: Goo"
-		"DOTA_Tooltip_modifier_item_gu_wave_7_Description"						"Turn speed is reduced by %dMODIFIER_PROPERTY_TURN_RATE_PERCENTAGE% percents"
-
-		"DOTA_Tooltip_ability_item_gu_wave_8"									"Projectile: Immobilisation"
-		"DOTA_Tooltip_ability_item_gu_wave_8_Description"						"<h1>Active: Immobilisation </h1> Launches a projectile in the target hero, which immobilizes them or a random period of time ranging from %min_duration% to %max_duration%,  cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_8"									"Projectile: Immobilisation"
-		"DOTA_Tooltip_modifier_item_gu_wave_8_Description"						"Immobilized"
-
-		"DOTA_Tooltip_ability_item_gu_wave_9"									"Projectile: Thief"	
-		"DOTA_Tooltip_ability_item_gu_wave_9_Description"						"<h1>Active: Theft </h1> Launches a projectile in the target hero, which steals a random amount of gold ranging from %min_gold%% to %max_gold%%,  cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-
-		"DOTA_Tooltip_ability_item_gu_wave_10"									"Projectile: Warp"
-		"DOTA_Tooltip_ability_item_gu_wave_10_Description"						"<h1>Active: Obscure </h1> Launches a projectile in the target hero, which makes target always miss for a random period of time ranging from %min_duration% to %max_duration% seconds, cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_10"									"Projectile: Warp"
-		"DOTA_Tooltip_modifier_item_gu_wave_10_Description"						"Miss chance is increased to 100%"
-
-		"DOTA_Tooltip_ability_item_gu_wave_11"									"Projectile: Slow"
-		"DOTA_Tooltip_ability_item_gu_wave_11_Description"						"<h1>Active: Immobilisation </h1> Launches a projectile in the target hero, which замедляет героя на 100% на %min_duration% до %max_duration% seconds,  cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_11"									"Projectile: Slow"
-		"DOTA_Tooltip_modifier_item_gu_wave_11_Description"						"Slows down move speed by 100%"
-
-		"DOTA_Tooltip_ability_item_gu_wave_12"									"Projectile: Vanquish"
-		"DOTA_Tooltip_ability_item_gu_wave_12_Description"						"<h1>Active: Immobilisation </h1> Launches a projectile in the target hero, which amplifies all target's incoming damage 5 fold for a random period of time ranging from %min_duration% to %max_duration% seconds,  cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_12"									"Projectile: Vabquish"
-		"DOTA_Tooltip_modifier_item_gu_wave_12_Description"						"Increases all incoming damage by 500%"
-
-		"DOTA_Tooltip_ability_item_gu_wave_13"									"Projectile: Goo"
-		"DOTA_Tooltip_ability_item_gu_wave_13_Description"						"<h1>Active: Sticky goo</h1> Launches a projectile in the target hero, which slows donw attack speed by 1000% for a random period of time ranging from %min_duration% to %max_duration% seconds,  cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_13"									"Projectile: Goo"
-		"DOTA_Tooltip_modifier_item_gu_wave_13_Description"						"Attack speed is reduced by 1000%"
-
-		"DOTA_Tooltip_ability_item_gu_wave_14"									"Projectile: Astral"
-		"DOTA_Tooltip_ability_item_gu_wave_14_Description"						"<h1>Active: Astral </h1> Launches a projectile in the target hero, which banishes them to astral for a random period of time ranging from %min_duration% to %max_duration% seconds,  cooldown %cd%\n <h1><font color='#ff1778'>Invaders' ability </font></h1> Stats are based on current difficulty level"
-		"DOTA_Tooltip_modifier_item_gu_wave_14"									"Projectile: Astral"
-		"DOTA_Tooltip_modifier_item_gu_wave_14_Description"						"You are in astral. Mobility is lowered"
-
-
-
-	/// АЛЬТЕРНАТИВНАЯ КОНЦОВКА
 
 		"alter_anromeda_1"				"You have found all fragments of the lost address, now you can visit the lost planet."
 		"alter_anromeda_2"				"You can find lost technologies there. They may help us in this war."
@@ -7009,19 +7031,19 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1"									"Goa'uld armor"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"						"<h1>Passive: Symbiont's rule </h1> When owner recieves any damage, armor stacks will increase. Each stack grants + 2 strength and + 1 armor, cooldown is static and lasts for %cd%, buff's duration %duration%.\n <font color='#fc0335'>Changing item's position in your inventory will lead to loss of all stacks.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_armor"								"Armor:"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp_regen"							"Health regeneration:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp_regen"							"%Health regeneration:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp"									"Bonus health:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2"									"Goa'uld armor 2"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"						"<h1>Passive: Symbiont's rule </h1> When owner recieves any damage, armor stacks will increase. Each stack grants + 2 strength and + 1 armor, cooldown is static and lasts for %cd%, buff's duration %duration%.\n <font color='#fc0335'>Changing item's position in your inventory will lead to loss of all stacks.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_armor"								"Armor:"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp_regen"							"Health regeneration:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp_regen"							"%Health regeneration:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp"									"Bonus health:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3"									"Goa'uld armor 3"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"						"<h1>Passive: Symbiont's rule </h1> When owner recieves any damage, armor stacks will increase. Each stack grants + 2 strength and + 1 armor, cooldown is static and lasts for %cd%, buff's duration %duration%.\n <font color='#fc0335'>Changing item's position in your inventory will lead to loss of all stacks.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_armor"								"Armor:"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp_regen"							"Health regeneration:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp_regen"							"%Health regeneration:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp"									"Bonus health:"
 
 
@@ -7095,8 +7117,6 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_modifier_item_gu_wave_14_Description"						"You are in astral. Mobility is lowered"
 
 
-
-	/// АЛЬТЕРНАТИВНАЯ КОНЦОВКА
 
 		"alter_anromeda_1"				"You have found all fragments of the lost address, now you can visit the lost planet."
 		"alter_anromeda_2"				"You can find lost technologies there. They may help us in this war."
