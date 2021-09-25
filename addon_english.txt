@@ -7259,6 +7259,179 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 
 		"DOTA_Tooltip_modifier_gu_alter_armor_stack"		"Goa'uld armor"
 		"DOTA_Tooltip_modifier_gu_alter_armor_stack_Description"		"+%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% armor, +%dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength"
+
+			"npc_dota_hero_skeleton_king_prew_text"                "You will become my retribution, and the lot of those who stand in your way will be terrible. Go and face your fate, my death knight."
+            "profile_damage_max"            "Maximum damage dealt during the match: "
+            "profile_round_record"            "Maximum achieved wave: "
+            "profile_total_game"            "Total played games: "
+            "profile_wish_5_stars"            "Prays until guaranteed 5 star character: "
+            "profile_wish_4_stars"            "Prays until guaranteed 4 star character: "
+            "profile_role"                    "Player role: "
+            "dynamic_profile_all"            "Overall statistics"
+            "player_unheroes"                "«Player characters»"
+
+            "game_helper_main"                       "Game helper"
+            "game_helper_state_1_frase_1"            "Welcome to the Guardians Of Universe! I will help you until you are comfortable with the game!"
+            "game_helper_state_1_frase_2"            "In this game, the main mechanic to acquire characters is the praying system. To open the Prayer menu, click on the button in the upper left corner of the screen!"
+
+            "game_helper_state_2_frase_1"            "You have opened Prayer menu! There are 2 types of Prays - Event Pray and Standard Pray. You can read more about each of them by clicking on the «Details» button"
+            "game_helper_state_2_frase_2"            "New players get 10 free prays. Later you can get more by completing quests and for many other actions!"
+            "game_helper_state_2_frase_3"            "Помолитесь 10 раз для того чтобы открыть первых героев за которых вы будете играть!"
+
+            "game_helper_state_3_frase_1"            "You have successfully made your first steps! Now you are in the intro of the game, here you can get your first items, as well as raise your level for an easier start of the main company!"
+            "game_helper_state_3_frase_2"            "In all story missions, your camera will be assigned to you, this is done for a more successful immersion in the mission itself and prevents you from doing the wrong thing."
+            "game_helper_state_3_frase_3"            "In order to understand what you need to do, carefully read the dialogues. You can also hover over the task in the upper right corner of the screen and read the description of the task!"
+
+            "game_helper_state_4_frase_1"            "Congratulations! You have completed the intro! Now you are not tied to the current location and can perform various tasks on other planets!"
+            "game_helper_state_4_frase_2"            "In order to find out what tasks you have and what is required from you, move the cursor to the upper right corner of any of the lines!"
+            "game_helper_state_4_frase_3"            "The main mechanic of this project is the Stargate System. In order to open the dialing device, click on the «Profile» - «Stargate» button (the «Profile» button is in the upper left corner (IT FLASHES))"
+
+            "game_helper_state_5_frase_1"            "You got on the planet «P3X-797» it is a light forest. Here you can get experience and gold. All experience and gold rewards for killing monsters is divided evenly in between all players!"
+            "game_helper_state_5_frase_2"            "Creatures on this and other planets become stronger every minute, but the reward for them also grows."
+            "game_helper_state_5_frase_3"            "After passing 3rd wave, the creatures will begin to get various items and abilities, the higher the wave, the stronger the items! You can see the current difficulty of creatures in the upper left corner in the line - «Wave Difficulty»"
+
+            "gu_chat"                                    "Chat"
+            "DOTA_Tooltip_modifier_spectre_2_debuff"    "Catastrophic Contact"
+            "DOTA_Tooltip_modifier_gu_replicator"        "Replicator"
+ 
+            "npc_dota_hero_queenofpain"                "Mona"
+
+			"pray_info_event_name"    "      «Event Pray: Consciousness Rift» "
+        "pray_info_event"    "More about Prays<br><br>
+<font color='#d63131ef'>Time limited event</font><br><br>
+
+«Event pray: Consciousness Rift» already available! During this event, the chances of getting the following characters will highly increase. Exclusive event character 5★ «Rift King» Spectral Spirit<br><br>
+For every 10 Prays, you are guaranteed to get at least one 4★ character.<br><br>
+※ Under normal circumstances, the base drop rate of all characters is evenly distributed. If any enhancements or guarantees apply, please read the applicable rules.<br><br>
+〓 Rules 〓<br>
+Base probability of getting a 5★ hero= 1,600%. Guaranteed 5★ character at least once in 90 prays.<br><br>
+Base probability of getting a 4★ hero = 13,100%. Guaranteed 4★ character at least once in 10 prays.<br><br>
+Base probability of getting a 3★ hero = 85,300%.<br><br>
+
+<font color='#c2133f'>Important!</font><br>
+If during the registration you indicated a negative attitude towards anime, then you will not get characters of this category!<br>
+The guarantee for dropping 5 ★ characters is common between the standard and event banner, when dropping 5 ★ you are guaranteed to receive the character "Spectral Spirit"<br>
+When dropping 4 ★ character, your chance of getting the characters depicted on the banner is increased by 50%! <br><br>
+
+<br>〓 Duplicates 〓<br><br>
+If you have duplicate characters (opened in game, bought in shop or got through pray), then starting from 2nd and up to 20 you will get unique talents for this character
+<br><br>〓 Character list 〓<br><br>
+<font color='#c27913'>5★ characters</font><br>
+«Spectral Spirit»<br><br>
+
+<font color='#8e13c2'>4★ characters</font><br>
+«Legate of the Legion»<br>
+«Ghost Warrior»<br>
+«Earth Mage»<br>
+«Interdimensional Parrot»<br>
+«Lalatina Dustiness Ford»<br>
+«Marisa Kirisame»<br>
+«Neptune»<br>
+«Kaname Madoka»<br>
+«Kongou»<br>
+«Noire»<br>
+«Yumemi Okazaki»<br>
+«Megumin»<br>
+«AH-64D «Apache»»<br>
+«MI-24V»<br>
+«AH-1Z Super Cobra»<br><br>
+
+<font color='#1368c2'>3★ characters</font><br>
+«Rem»<br>
+«Biyao»<br>
+«Mote of Energy»<br>
+«Merlin»<br>
+«Kotori Itsuka»<br>
+«Izayoi Sakuya»<br>
+«Kizaru»<br>
+«Cirno»<br>
+«9K31 Strela-1»<br>
+«Т-72»<br>
+«Illia»<br>"
+
+
+		"hammond_prolog_repli_1" "Wait. You're on the incorrect planet. It happens due to strong sun flares. Let's look around."
+		"hammond_prolog_repli_2" "Our ally - Andromeda sent a signal for help, you need to find 6 keys and a dialing device to continue the task."
+		"hammond_prolog_repli_3" "We got the data that the keys can be obtained by breaking ancient crystals, and the typesetting device is guarded by a certain keeper."
+		"hammond_prolog_repli_4" "You have found the typesetter guard! Defeat him!"
+		"hammond_prolog_repli_5" "Great job! The dialer has been repaired, find another Stargate and proceed to the address you received!"
+		"hammond_prolog_repli_6" "Great job! The dialer is restored, but you have not collected all the keys, find them to find out the destination address!"
+		"hammond_prolog_repli_7" "All keys are collected! Now you know the address you need! Go to other gates to dial the address."
+		"hammond_prolog_repli_8" "All keys are collected! Now you know the address you need! But the dialer was not found, find a way to restore it!"
+		"hammond_prolog_repli_9" "Great job! You are ready to go to the home planet of Andromeda, I will not be able to keep in touch with you due to the large distance between the planets."
+		"hammond_prolog_repli_10" "Good luck! Help Andromeda as she once helped us!"
+		"hammond_prolog_repli_11" "Start dialing an address!"
+
+		
+		"andromeda_repli_1" "Welcome to planet «P3X-234», my name is Andromeda and I need your help."
+		"andromeda_repli_2" "Our enemy is the aggressive, religiously minded faction of the Ancients «Ori»"
+		"andromeda_repli_3" "After the Priors (Messengers of Ori) came from the planet Celestis to our world, they began to propagate the «Origin»"
+		"andromeda_repli_4" "If the planet abandoned their religion, it was destroyed or enslaved."
+		"andromeda_repli_5" "They came here too, but I rejected their offer, and now from all the worlds they enslaved, their army began to attack."
+		"andromeda_repli_6" "They were able to activate my local Stargate for their own purposes, you will not be able to use them!"
+		"andromeda_repli_7" "My army was completely destroyed and now I need your help in this war!"
+		"andromeda_repli_8" "They're attacking again! Careful!"
+		"andromeda_repli_9" "I found out that they attack in waves of 40 units, of which 24 are melee and 16 mages."
+		"andromeda_repli_10" "Also, the longer we defend, the stronger they become, their supply increases, and they get new abilities and items."
+		"andromeda_repli_11" "According to my information, there are many hidden treasures in this galaxy! You can buy the Goa'uld Treasure Compass to find them!"
+		"andromeda_repli_12" "You can use my Stargate to travel to other planets in this galaxy!"
+		"andromeda_repli_13" "To dial the address, click on the dialer that you can find near the Stargate."
+		"andromeda_repli_14" "I was able to study the system of auto-dialing the address of the Ancients, in order to use it go to «Profile» - «Stargate»"
+		"andromeda_repli_15" "In this galaxy, the weather is very unstable, keep an eye on the current weather. The effect of the weather can be found by hovering over its icon!"
+		"andromeda_repli_16" "You can read more about the other mechanics and instructions by going to your «Profile», I hope you could find how to open it?"
+		"andromeda_repli_17" "I contacted General Hammond and asked for air support. The Overlord will be arriving shortly."
+		"andromeda_repli_18" "You will learn the rest as the game progresses, I will help you with advice. Let the battle begin!"
+		"andromeda_repli_19" "Fine! We withstood 7 waves of attackers! According to my information, there are creatures in this galaxy from which we can get ancient artifacts!"
+		"andromeda_repli_20" "In order to start a battle with them, go to the tab: «Profile» - «Bosses»"
+		"andromeda_repli_21" "In case of victory, we will receive a choice of 3 rewards, you can also transfer ancient parts to your allies if you need it!"
+		"andromeda_repli_22" "Fine! You have repulsed the attack of the first wave of Invaders!"
+		"andromeda_repli_23" "You can improve my parameters by going to: «Profile» - «GU-SHOP»"
+		"andromeda_repli_24" "Gu-Coins can be earned by passing waves and completing various random tasks! The number of Gu-Coins depends on the chosen difficulty!"
+		"andromeda_repli_25" "Good job! You have defeated one of the Guardians! I received a particle of his power in the form of a unique artifact!"
+		"andromeda_repli_26" "Please note that the longer we defend, the stronger all creatures become, as well as Guardians (Bosses)!"
+		"andromeda_repli_27" "Defeat any 4 Guardians so that I can synthesize the device to end the war!"
+		"andromeda_repli_28" "You were able to improve my parameters! The stronger I am, the easier it is for you to defend me! Upgrade your antennas to be able to call Mass Air Support!"
+		"andromeda_repli_29" "You are on the planet - «P3X-797», according to my information it is a desert planet where the lower forms of life live."
+		"andromeda_repli_30" "By killing them, you will receive gold and experience, which is evenly divided among the whole team."
+		"andromeda_repli_31" "On these planets, creatures become stronger every minute and do not depend on the current wave of Invaders."
+		"andromeda_repli_32" "After a certain moment, they will have various items and abilities, be careful!"
+		"andromeda_repli_33" "You are on the planet «P3X-888», according to my data, the intelligence level of creatures on this planet is higher than on «P3X-797»"
+		"andromeda_repli_34" "The same rules apply here as on the «P3X-797», so do your thing!"
+		"andromeda_repli_35" "You are on the planet «P3X-367», this planet is completely submerged, but I synthesized the technology and now you can breathe underwater!"
+		"andromeda_repli_36" "Be very careful, the inhabitants of this planet have developed their technologies and now they are not susceptible to any spell!"
+		"andromeda_repli_37" "I'll never be just a memory ..."
+		"andromeda_repli_38" "You failed to protect me from the Invaders! But I have the technology of resurrection, in order to improve it, use the artifact «Galaxy Shatter»"
+		"andromeda_repli_39" "But all the same, I ask you VERY MUCH do not allow my death, my life force is not unlimited."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

@@ -3305,49 +3305,49 @@
 	
 		
         "DOTA_Tooltip_ability_item_quibbela"              "Камень Опыта"
-        "DOTA_Tooltip_ability_item_quibbela_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela_mana"  				"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela_mana_regen"			"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela2"              "Камень Опыта 2"
-        "DOTA_Tooltip_ability_item_quibbela2_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela2_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela2_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela2_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela2_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela2_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela3"              "Камень Опыта 3"
-        "DOTA_Tooltip_ability_item_quibbela3_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela3_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela3_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela3_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela3_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela3_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela4"              "Камень Опыта 4"
-        "DOTA_Tooltip_ability_item_quibbela4_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela4_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela4_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela4_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela4_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela4_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela5"              "Камень Опыта 5"
-        "DOTA_Tooltip_ability_item_quibbela5_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela5_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela5_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela5_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela5_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela5_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela6"              "Камень Опыта 6"
-        "DOTA_Tooltip_ability_item_quibbela6_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+        "DOTA_Tooltip_ability_item_quibbela6_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela6_Lore"           "Каждый ученик школы магов получает такой при зачислении."
         "DOTA_Tooltip_ability_item_quibbela6_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela6_mana"  			"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela6_mana_regen"		"+к восстановлению маны"
 
         "DOTA_Tooltip_ability_item_quibbela7"              "Камень Опыта 7"
-        "DOTA_Tooltip_ability_item_quibbela7_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + %exp_lvl_bonus%) опыта за применение способностей. Полный бонус начисляется если перезарядка способности больше 100 сек. Иначе вы получаете меньше опыта, пропорционально длительности перезарядки. Работает по формуле % от 100 сек. <br>Пример: Если ваш способность перезаряжается 10 сек, то вы получите 10% от максимального кол-во опыта.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font><br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+        "DOTA_Tooltip_ability_item_quibbela7_Description"    "<h1>Камень Опыта</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, на Босс Арене и в финальном задании!</font>"
         "DOTA_Tooltip_ability_item_quibbela7_Lore"           "Подобный Камень Опыта использовал Повелитель Вселенной в своих эксперементах по перемещению во времени."
         "DOTA_Tooltip_ability_item_quibbela7_int"  				"+к интеллекту"
 		"DOTA_Tooltip_ability_item_quibbela7_mana"  			"+к мане "
@@ -3819,7 +3819,7 @@
 
 		
 		"DOTA_Tooltip_ability_item_book_of_stats_immortality" 				"Книга о Бездне"
-		"DOTA_Tooltip_ability_item_book_of_stats_immortality_Description" "Добавляет +30 ко всем характеристикам, <font color='#7ee340'>Можно передать союзнику!</font>." 
+		"DOTA_Tooltip_ability_item_book_of_stats_immortality_Description" "Добавляет +200 ко всем характеристикам, <font color='#7ee340'>Можно передать союзнику!</font>." 
 		
 		"DOTA_Tooltip_ability_item_book_str" 							"Книга о Силе"
 		"DOTA_Tooltip_ability_item_book_str_Description" 				"Добавляет силу в зависимости от текущей волны."
@@ -4354,7 +4354,7 @@
 		"DOTA_Tooltip_modifier_item_force_field_bonus_aura"	"Доспехи чародея"
 				 
 		"DOTA_Tooltip_ability_item_magician_ring"								"Волшебное кольцо"
-		"DOTA_Tooltip_ability_item_magician_ring_Description"					"<h1>Пассивная: Inspiration</h1> Снижает время перезарядки способностей за каждого убитого героя, или за смерть вражеского героя в радиусе."
+		"DOTA_Tooltip_ability_item_magician_ring_Description"					"<h1>Пассивная: Inspiration</h1> Снижает время перезарядки способностей за каждого убитого юнита, или за смерть вражеского юнита в радиусе."
 		"DOTA_Tooltip_ability_item_magician_ring_bonus_manaregen"				"+$mana_regen"
 		"DOTA_Tooltip_ability_item_magician_ring_bonus_armor"					"+$armor"
 		"DOTA_Tooltip_ability_item_magician_ring_bonus_hp_regen"				"+$hp_regen"
