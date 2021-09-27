@@ -28,6 +28,12 @@
 	"DOTA_GoodGuys"						"Стражи Вселенной"
 	"DOTA_BadGuys"						"Воины Орай"
 
+	"boss_dif_1"			"Сложность босса: <font color='#89eb49'>«Лёгкая»</font>"
+	"boss_dif_2"			"Сложность босса: <font color='#cc9f3d'>«Средняя»</font>"
+	"boss_dif_3"			"Сложность босса: <font color='#31AECB'>«Нормальная»</font>"
+	"boss_dif_4"			"Сложность босса: <font color='#cc553d'>«Сложная»</font>"
+	"boss_dif_5"			"Сложность босса: <font color='#cf1919'>«Абсурдная»</font>"
+
 
 	/// H U D  В О Л Н Ы ///
 
@@ -715,7 +721,7 @@
 
 		
 		"DOTA_Tooltip_ability_ghostization"							"Демоническое Происхождение"
-		"DOTA_Tooltip_ability_ghostization_Description"				"При активации начинает получать урон в размере 10% от максимального здоровья, но даёт ощутимые прибавки к урону в размере %attack% а также к силе в размере %strength%. Герой может погибнуть от данной способности!"
+		"DOTA_Tooltip_ability_ghostization_Description"				"При активации начинает потреблять 3% + 50 от текущей маны, но даёт ощутимые прибавки к урону в размере %attack% а также к силе в размере %strength%."
 	
 		"DOTA_Tooltip_modifier_ghostization"						"Демоническая форма"
 
@@ -1772,15 +1778,12 @@
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_buff_duration"		   					"Длительность:"
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_health_regen"		   					"Регенерация здоровья"
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_damage"                        		"Урон: "
-		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX"                            			"Дополнительный Урон от интеллекта"
-		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   					"Дополнительный Урон для заклинаний и базовой атаки в зависимости от Интеллекта"		
-
 
         "DOTA_Tooltip_modifier_ability_thdots_eirin03_effect"						"Стрела Арбейнеха"
 		"DOTA_Tooltip_modifier_ability_thdots_eirin03_effect_Description"				""
 
 		"DOTA_Tooltip_passive_eirinex_int" 											"Магический Наконечник"
-		"DOTA_Tooltip_passive_eirinex_int_Description" 									"Получаешь бонус к Урону, интеллекту и магическому сопротивлению."
+		"DOTA_Tooltip_passive_eirinex_int_Description" 									"Получаешь бонус к интеллекту"
 
 		"DOTA_Tooltip_modifier_ability_thdots_eirin04_effect"						"Регенерация"
 		"DOTA_Tooltip_modifier_ability_thdots_eirin04_effect_Description"				"Регенерирует здоровье"
@@ -4491,10 +4494,10 @@
 
 	"DOTA_Item_Build_Luxury"				"Поздняя Игра"		
 
-	"dif1" "Вы будете получать от 5 до 8 ММР за пройденный раунд после 6 волны."
-	"dif2" "Вы будете получать от 8 до 15 ММР за пройденный раунд после 6 волны."
-	"dif3" "Вы будете получать от 15 до 25 ММР за пройденный раунд после 6 волны."
-	"dif4" "Вы будете получать от 25 до 40 ММР за пройденный раунд после 6 волны."
+	"dif1" "Вы будете получать от 2 до 5 ММР за каждый пройденный раунд."
+	"dif2" "Вы будете получать от 5 до 10 ММР за каждый пройденный раунд."
+	"dif3" "Вы будете получать от 12 до 20 ММР за каждый пройденный раунд."
+	"dif4" "Вы будете получать от 25 до 40 ММР за каждый пройденный раунд."
 
 
 		"DOTA_Tooltip_modifier_player_reward_stats" "Бонус за прохождение раунда"
@@ -4526,7 +4529,7 @@
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_health_regen"		   			"Лечение： "
 		
 		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX"                            	"<font color='#649dfa'>Brain of the Moon</font>"
-		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   			"Эйрин получает регенерацию здоровья, равную 100% регенерации маны. \n Каждые %think_interval% секунд Эйрин получает +1 к интеллекту. \n Эйрин наносит %int_scale%% от Интеллекта в виде магического урона при базовой атаке."		
+		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   			"Каждые %think_interval% секунд Эйрин получает +1 к интеллекту. \n Эйрин наносит %int_scale%% от Интеллекта в виде магического урона при базовой атаке."		
 
 
 		"vote_wave" "Начать волну?"
@@ -5128,6 +5131,7 @@
 -Megumin<br>
 -AH-64D «Apache»<br>
 -MI-24V<br>
+-Иллия<br>
 -AH-1Z Super Cobra<br><br>
 
 <font color='#1368c2'>Герои 3★</font><br>
@@ -5140,8 +5144,7 @@
 -Kizaru<br>
 -Cirno<br>
 -9K31 «Strela-1»<br>
--Т-72<br>
--Иллия<br>"
+-Т-72<br>"
  
 		"custom_sound_pack_text"	"Если у вас есть уникальный ключ смены пакета музыки, введите его ниже."
 		"custom_sound_pack"			"Введите ключь..."
@@ -5371,7 +5374,7 @@
 		"npc_dota_hero_wisp_t3"		"Улучшает - Подпространственная Энергия<br><br> Уменьшает перезарядку способности до 5 секунд"
 		"npc_dota_hero_wisp_t4"		"Улучшает - Энергетический Всплеск<br><br> Теперь способность не тратит здоровье владельца, теперь имеет дополнительный урон в зависимости от силы героя * 1.5"
 		"npc_dota_hero_wisp_t5"		"Улучшает - Энергетическая Несбильность<br><br> Увеличивает длительность способности до 30 секунд а также убирает перезарядку."
-		"npc_dota_hero_wisp_t6"		"Улучшает - Подпространственная Энергия<br><br> Увеличивает все показатели множителей в 10 раз."
+		"npc_dota_hero_wisp_t6"		"Улучшает - Энергетическая Несбильность<br><br> Во время действия способности, вы можете с шансом в 80% игнорировать любой урон,атаку и тд."
 
 		"npc_dota_hero_oracle_t2_name"		"-「Время - Вечность」_-"
 		"npc_dota_hero_oracle_t3_name"		"-「Искажение」_-"
@@ -5399,14 +5402,14 @@
 
 		"npc_dota_hero_spirit_breaker_t2_name"		"-「Силовой Удар」_-"
 		"npc_dota_hero_spirit_breaker_t3_name"		"-「Адская Рана」_-"
-		"npc_dota_hero_spirit_breaker_t4_name"		"-「Вирус」_-"
+		"npc_dota_hero_spirit_breaker_t4_name"		"-「Демон」_-"
 		"npc_dota_hero_spirit_breaker_t5_name"		"-「Обморожение」_-"
 		"npc_dota_hero_spirit_breaker_t6_name"		"-「Иммунитет」_-"
 		"npc_dota_hero_spirit_breaker_t2"		"Улучшает - Удар в Прыжке<br><br> Добавляет дополнительный урон по формуле = базовый урон + сила * 4."
 		"npc_dota_hero_spirit_breaker_t3"		"Улучшает - Аль Хьюма<br><br> Изменяет тип урона на чистый а также теперь при попадании в основную цель, копьё нанесёт ей урон который равен 20% от текущего здоровья"
-		"npc_dota_hero_spirit_breaker_t4"		"Улучшает - Демоническое Происхождение<br><br> Меняет тип получаемого урона на магический а также уменьшает его кол-во до 5% от макимального здоровья."
+		"npc_dota_hero_spirit_breaker_t4"		"Улучшает - Демоническое Происхождение<br><br> Уменьшает потребляемой маны до 1%."
 		"npc_dota_hero_spirit_breaker_t5"		"Улучшает - Аль Хьюма<br><br> Теперь способность будет наносить дополнительный урон от максимального здоровья цели по области в размере 800 вокруг цели."
-		"npc_dota_hero_spirit_breaker_t6"		"Улучшает - Демоническое Происхождение<br><br> Способность больше не наносит урон герою."
+		"npc_dota_hero_spirit_breaker_t6"		"Улучшает - Демоническое Происхождение<br><br> Способность больше не потребляет ману."
 
 		"npc_dota_hero_vengefulspirit_t2_name"		"-「Заточенный Нож」_-"
 		"npc_dota_hero_vengefulspirit_t3_name"		"-「Запас」_-"
