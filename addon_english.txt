@@ -49,7 +49,11 @@
 	"dota_game_end_victory_title_radiant" "Andromeda is Saved!"
 	"dota_game_end_victory_title_dire" "You were defeated!"
 
-
+	"boss_dif_1"			"Difficulty level: <font color='#89eb49'>«Easy»</font>"
+	"boss_dif_2"			"Difficulty level: <font color='#cc9f3d'>«Middle»</font>"
+	"boss_dif_3"			"Difficulty level: <font color='#31AECB'>«Normal»</font>"
+	"boss_dif_4"			"Difficulty level: <font color='#cc553d'>«Hard»</font>"
+	"boss_dif_5"			"Difficulty level: <font color='#cf1919'>«Absurd»</font>"
 
 	/// В Ы Б О Р  Г Е Р О Я ///
 
@@ -732,7 +736,7 @@
 		
 		
 		"DOTA_Tooltip_ability_ghostization"	"Demonic origin"
-		"DOTA_Tooltip_ability_ghostization_Description"	"Rem enters demon form that drains her mana but grants bonuses instead."
+		"DOTA_Tooltip_ability_ghostization_Description"	"Activating grants additional %attack% and %strength% strength for the duration at cost of 50 + 3% of current mana."
 
 		"DOTA_Tooltip_modifier_ghostization"	"Demonic form"
 		
@@ -4940,10 +4944,10 @@ They can use autodialling without energy loss."
 
 /// П О Д С К А З К А  О  В О Л Н А Х ///
 
-"dif1" "You will gain 5-8 MMR for every completed round after the 6th one."
-"dif2" "You will gain 8-15 MMR for every completed round after the 6th one."
-"dif3" "You will gain 15-25 MMR for every completed round after the 6th one."
-"dif4" "You will gain 25-40 MMR for every completed round after the 6th one."
+	"dif1" "You will gain 2-5 MMR for every completed round."
+	"dif2" "You will gain 5-10 MMR for every completed round."
+	"dif3" "You will gain 12-20 MMR for every completed round."
+	"dif4" "You will gain 25-40 MMR for every completed round."
 
 
 
@@ -5110,7 +5114,7 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_health_regen"		   			"Heal："
 		
 		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX"                            	"<font color='#649dfa'>Brain of the Moon</font>"
-		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   			"Eirin has bonus health regeneration equivalent to 100% of her mana regeneration. \n Each %think_interval% seconds Eirin gains 1 intelligence. \n Eirin's attacks deal additional magical damage equal to %int_scale%%  of her intelligence."	
+		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   			"Each %think_interval% seconds Eirin gains 1 intelligence. \n Eirin's attacks deal additional magical damage equal to %int_scale%%  of her intelligence."	
 
 
 		"vote_wave" "Start wave?"
@@ -6120,8 +6124,11 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_wisp_t3"		"Improves - Sub-space energy<br><br> Reduces cooldown to 5 seconds"
 		"npc_dota_hero_wisp_t4"		"Improves - Energy surge<br><br> Ability does not consume caster's health, now deals additional damage based on hero's strength multiplied by 1.5"
 		"npc_dota_hero_wisp_t5"		"Improves - Energy instability<br><br> Increases duration to 30 seconds and also removes cooldown."
-		"npc_dota_hero_wisp_t6"		"Improves - Sub-space energy<br><br> Increases all multipliers 10 fold."
+		"npc_dota_hero_wisp_t6"		"Improves - Sub-space energy<br><br> You have 80% chance to ignore any damage, attack and such while ability is active."
 
+		"npc_dota_hero_spirit_breaker_t4_name"		"-「Demon」_-"
+		"npc_dota_hero_spirit_breaker_t4"		"Improves - Demonic origin<br><br> Reduces mana drain to 1%."
+		"npc_dota_hero_spirit_breaker_t6"		"Improves - Demonic origin<br><br> Ability doesn't drain mana."
 
 		"t1_name" 	"-_RISE OF A HERO_-"
 		"t1_1" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
