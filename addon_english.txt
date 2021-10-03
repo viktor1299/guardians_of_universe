@@ -1010,7 +1010,7 @@
 		"DOTA_Tooltip_ability_madokaruler_tick_rate"	"Interval:"
 		
 		DOTA_Tooltip_ability_madokalunhui"	"Manifestation"	
-		"DOTA_Tooltip_ability_madokalunhui_Description"	"Evolution of Madoka's magical girl form. Grants additional mana regeneration for every enemy killed. Grants additional attack range and regeneration. Stacks are lost on death."
+		"DOTA_Tooltip_ability_madokalunhui_Description"	"Evolution of Madoka's magical girl form. One stack is given for each casted spell, which costs 150 or more mana to cast. Grants additional attack range and health regeneration. Stacks are lost on death."
 		"DOTA_Tooltip_ability_madokalunhui_Lore"											""
 		"DOTA_Tooltip_ability_madokalunhui_radius"	"Gain radius:"
         "DOTA_Tooltip_ability_madokalunhui_mana"	"Mana regeneration:"
@@ -2025,6 +2025,9 @@
 		
 		"DOTA_Tooltip_Ability_armor95"							"Dark Mantle"
 		"DOTA_Tooltip_Ability_armor95_Description"				"Defends its user, reducing any incoming damage by 95%"
+		
+				"DOTA_Tooltip_Ability_gu_forestarmor"							"Sangomia"
+		"DOTA_Tooltip_Ability_gu_forestarmor_Description"				"Reduces all incoming damage by %absorb%%%  and also increases status resistance by %absorb_spell%%% , based on selected difficulty level."
  
  
  		"DOTA_Tooltip_ability_howlling_clone"	"Tear"
@@ -2348,7 +2351,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 	"DOTA_Tooltip_ability_ah_1_attack_damage_multi"									"Damage multiplier(with talent):"
 
         "DOTA_Tooltip_ability_t72_machine_gun_attack"												"12.7 mm NSVT"
-		"DOTA_Tooltip_ability_t72_machine_gun_attack_Description"									"If this ability is activated, then the T-72 fires all enemy units around it from a large-caliber machine gun, consuming mana every second.<br>Consumes 2 <font color='#f7a62d'>Energy</font> per 0.3 seconds."
+		"DOTA_Tooltip_ability_t72_machine_gun_attack_Description"									"If this ability is activated, then the T-72 fires all enemy units around it from a large-caliber machine gun, consuming mana every second.<br>Consumes 2 <font color='#f7a62d'>Energy</font> per each shot."
         "DOTA_Tooltip_ability_t72_machine_gun_attack_radius"									"Radius:"
         "DOTA_Tooltip_ability_t72_machine_gun_attack_rocket_damage"									"Bullet damage:"
         "DOTA_Tooltip_ability_t72_machine_gun_attack_attack_mult"									"Launch speed:"
@@ -4769,9 +4772,9 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "boss_drop_boss_1" "Items you will be able to recive if you win:"
 
 "DOTA_Tooltip_ability_item_gold" "Gold"
-"DOTA_Tooltip_ability_item_gold_Description" "Gives in-game gold."
+"DOTA_Tooltip_ability_item_gold_Description" "Gives in-game gold according to formula: current round number * 200."
 "DOTA_Tooltip_ability_item_xp" "Experience"
-"DOTA_Tooltip_ability_item_xp_Description" "Gives experience."
+"DOTA_Tooltip_ability_item_xp_Description" "Gives experience according to formula: current round number * 1000."
 "DOTA_Tooltip_ability_item_dark_point"					"Gu-Coins"
 "DOTA_Tooltip_ability_item_dark_point_Description"		"Gives GU-Coins."
 "DOTA_Tooltip_ability_item_primogem"					"Interwoven Fates"
@@ -5206,6 +5209,12 @@ They can use autodialling without energy loss."
 
 		"DOTA_Tooltip_ability_item_rune_boss" 						"Ori Relic"
 "DOTA_Tooltip_ability_item_rune_boss_Description" 				"Gives random rune's effect for 5 minutes<br><br><font color='#7ee340'>Can be shared with an ally!</font>" 		
+
+		"gu_chat_help"	"Global chat is updated every 30 seconds. <br><br> You can find mate for co-op games!<br><br> Rules:<br> Propaganda or agitation, which provokes social, racial, national or religious hate or conflict, are prohibited. Propaganda of social, racial, national, religious or linguistic supremacy is also prohibited. 
+Any personal attacks(direct or indirect) towards administration and other players are also prohibited.<br> Any kind of advertisement is prohibited too!<br><br> Breaking these rules will lead to block in the chat! <br><br> Purpose of the chat:<br> You can send a link to any image or video  to chat and it will be able to be played by all users."
+		"gu_chat"       "Type in your message.. Max 300 symbols!"
+		"gu_chat_send"  "Message is sent!"
+		"open_chat"		"Chat"	
 		
 		"DOTA_Tooltip_ability_item_ancient_technology"								"Ancients' technologies"
 		"DOTA_Tooltip_ability_item_ancient_technology_Description"					"<h1>Active: Ascension</h1> Resurrects all allies globally and goes on cooldown of 120 seconds."	
@@ -5237,6 +5246,37 @@ They can use autodialling without energy loss."
 		
 		"no_race" "No race"
 
+		"battle_pass_text" "Guardians of Universe Batlle Pass"
+		"battle_pass_text_des" "Gain MMR to recieve unique effects and bonuses with each level!"
+		"battle_pass_lvl" "Level:"
+		"battle_pass_progress_standart" "Battle Pass Progress"
+		"battle_pass_progress_premium" "Upgraded Battle Pass Progress"
+		"battle_pass_standart" "Battle Pass"
+		"battle_pass_premium" "Upgraded Battle Pass"
+		"battle_pass_lvl_1" "<font color='#b55904'>Level: 1</font> <br> Required rank: 1 <br><br>You will recieve a unique level 1 effect for your hero!!" 
+		"battle_pass_lvl_2" "<font color='#83b504'>Level: 2</font> <br> Required rank: 9 <br><br>Your hero's icon above will recieve a unique level 1 colour outline!"
+		"battle_pass_lvl_3" "<font color='#048cb5'>Level: 3</font> <br> Required rank: 17 <br><br>Your hero will recieve a unique level 1 effect while moving!"
+		"battle_pass_lvl_4" "<font color='#9204b5'>Level: 4</font> <br> Required rank: 25 <br><br>Your hero's icon above will recieve a unique level 2 colour outline!"
+		"battle_pass_lvl_5" "<font color='#57ff52'>Level: 5</font> <br> Required rank: 33 <br><br>Using items - Small and Medium health potions - won't consume them!!"
+		"battle_pass_lvl_6" "<font color='#525efa'>Level: 6</font> <br> Required rank: 41 <br><br>Using items - Small and Medium mana potions - won't consume them!"
+		"battle_pass_lvl_7" "<font color='#ff52a9'>Level: 7</font> <br> Required rank: 49 <br><br>Heal beam's cooldown is reduced by 80%!"
+		"battle_pass_lvl_8" "<font color='#0c8731'>Level: 8</font> <br> Required rank: 57 <br><br>You will recieve a unique level 2 effect for your hero!"
+		"battle_pass_lvl_9" "<font color='#6eba59'>Level: 9</font> <br> Required rank: 65 <br><br>Your hero's icon above will recieve a unique level 3 colour outline!"
+		"battle_pass_lvl_10" "<font color='#b4ba59'>Level: 10</font> <br> Required rank: 73 <br><br>Your hero will recieve a unique level 2 effect while moving!"
+		"battle_pass_lvl_11" "<font color='#ed4c2f'>Level: 11</font> <br> Required rank: 81 <br><br>You recieve 100% more experience from items - Experience stone and Consciousness talisman!"
+		"battle_pass_lvl_12" "<font color='#ed2f94'>Level: 12</font> <br> Required rank: 89 <br><br>All grades of Galaxy core have cooldown reduction values increased by 10!"
+		"battle_pass_lvl_13" "<font color='#11c4fa'>Level: 13</font> <br> Required rank: 97 <br><br>You have built-in Aghanim scepter from the start of a game!"
+		"battle_pass_lvl_14" "<font color='#11c4fa'>Level: 14</font> <br> Required rank: 105 <br><br>All Support role heroes have healing increased by 100%!"
+		"battle_pass_lvl_15" "<font color='#11c4fa'>Level: 15</font> <br> Required rank: 113 <br><br>You have 10000 Energy and 100 its regeneration from the start of a game!"
+		"battle_pass_lvl_16" "<font color='#11c4fa'>Level: 16</font> <br> Required rank: 121 <br><br>Cost of stargate address auto-dialling is reduced by 90%."
+		"battle_pass_lvl_17" "<font color='#11c4fa'>Level: 17</font> <br> Required rank: 129 <br><br>GU-Coins gain is increased by 200%."
+		"battle_pass_lvl_18" "<font color='#11c4fa'>Level: 18</font> <br> Required rank: 137 <br><br>All Support role heroes any healing will apply Magical immunity on the target for 5 seconds!"
+		"battle_pass_lvl_19" "<font color='#11c4fa'>Level: 19</font> <br> Required rank: 145 <br><br>You can dodge any target spell every 3 seconds!"
+		"battle_pass_lvl_20" "<font color='#11c4fa'>Level: 20</font> <br> Required rank: 153 <br><br>You ignore any damage with 40% chance!"
+
+		"battle_pass_premium_lvl_1" "" 
+		"battle_pass_premium_lvl_2" ""
+		
 
 		"DOTA_Tooltip_ability_item_started_key"								"Stargate key"
 		"DOTA_Tooltip_ability_item_started_key_Description"					"Collect 6 Stargate keys to get full address."
@@ -5278,46 +5318,56 @@ They can use autodialling without energy loss."
 		
 		"setting_started_anim" "Skip introduction?"
 
-		"protagonist_name_1" "General Hammond"
-		"protagonist_name_2" "Andromeda"
-		"andromeda_repli_1" "Who is here?... Are you from the planet I sent distress signal to?"
-		"andromeda_repli_2" "I did not even hope to get but there is whole team which will help me?"
-		"andromeda_repli_3" "Great, I will put you in the picture and tell about everything that is going on here."
-		"andromeda_repli_4" "After Priors (Ori heralds) came from Celestis to our world they began to preach «Origin»"
+		"hammond_prolog_repli_1" "Wait. You have been teleported to the wrong planet, such incidents happen during powerful solar flares, let's settle in!"
+		"hammond_prolog_repli_2" "Our ally - Andromeda - has sent a distess signal. You have to find 6 keys and a DHD(Dialling home device) to continue the mission."
+		"hammond_prolog_repli_3" "We have data that keys can be collected by destroying ancient crystals, and DHD is guarded by a misterious keeper."
+		"hammond_prolog_repli_4" "You have found the keeper which guides DHD (Dialling home device)! Defeat it!"
+		"hammond_prolog_repli_5" "Good job! DHD is retrieved, find another Stargate and teleport to the collected address!"
+		"hammond_prolog_repli_6" "Good job! DHD is retrieved, but you have yet to find all keys. Find them to learn the destination point!"
+		"hammond_prolog_repli_7" "You have collected all keys! Now that you have learnt the address go to another Stargate to dial it."
+		"hammond_prolog_repli_8" "You have collected all keys! Now you know the address, but you still need a DHD to dial it. Find a way to retrieve it!"
+		"hammond_prolog_repli_9" "Excellent! You are ready to teleport to Andromeda's home world. Maintaing contact will be impossible due to the extreme distance between planets."
+		"hammond_prolog_repli_10" "Good luck, team! Assist Andromeda like she helped us once!"
+		"hammond_prolog_repli_11" "Innitiate address dial!"
+
+
+		"andromeda_repli_1" "Welcome to the «R3H-234» planet, I'm Andromeda, and I need your help."
+		"andromeda_repli_2" "Our enemy is aggressive religious faction of Ancient called «Ori»"
+		"andromeda_repli_3" "After Priors (Ori heralds) came to our world from Celestis, they started propagandizing «Origin»"
 		"andromeda_repli_5" "If a planet denied their religion it would be destroyed or enslaved."
-		"andromeda_repli_6" "They came here too, but I refused their offer and now their army from all world enslaved by Ori started attack us."
-		"andromeda_repli_7" "I need you help to amass power and win in this war!"
-		"andromeda_repli_8" "Let us get down to business!"
+		"andromeda_repli_6" "They managed to activate my local Stargates for their purposes, so you can't use them!"
+		"andromeda_repli_7" "My army was completely destroyed and now I need your assistance!"
+		"andromeda_repli_8" "Another charge! Alert!"
 		"andromeda_repli_9" "I found out that they attack in waves of 40 units, 24 of which are melee attack type and 16 are mages."
 		"andromeda_repli_10" "Also the longer we hold defense, the stronger enemy gets, their supply growth and they receive new abilities and items."
-		"andromeda_repli_11" "Until you don't get strong enough, we won't be able to attack their planet and end the war."
-		"andromeda_repli_12" "You can use my Stargate to travel across locations which will let you get stronger!"
+		"andromeda_repli_11" "According to data I have, this galaxy has lots of hidden treasures! Buy a «Goa'uld Treasure Compas» item to find them!"
+		"andromeda_repli_12" "You can use my Stargate to travel across worlds of this galaxy to become stronger!"
 		"andromeda_repli_13" "Press on the dialling device which you can find near the Stargate to dial an address."
-		"andromeda_repli_14" "Also you have access to computer powered auto-dialling. It is good that my technologies allow that."
-		"andromeda_repli_15" "Press on buttons «Profile»-«Stargate» to use auto-dialling."
-		"andromeda_repli_16" "I have data that only 10% of players have found profile's button, I hope you are not in other 90% ?"
-		"andromeda_repli_17" "I think it is enough information to think about. I will help you during the game."
-		"andromeda_repli_18" "While you are at it I will examine their planet to find out what will wait us there."
-		"andromeda_repli_19" "Splendid! You lasted for 7 waves and now you can fight with bosses!"
-		"andromeda_repli_20" "To summon a boss you need to press buttons : «Profile» - «Bosses»"
-		"andromeda_repli_21" "After you kill any boss I will get their power concentrated in an item they defend, I can get only 1 item from one boss!"
-		"andromeda_repli_22" "You've managed do defend me from the first wave of invaders! It means you indeed want to help me."
-		"andromeda_repli_23" "You can improve my stats by pressing: «Profile» - «GU-SHOP»"
-		"andromeda_repli_24" "To gain Gu-Coins you need to clean waves of invaders, amount of the coins depends on the selected difficulty level!"
-		"andromeda_repli_25" "Great! You've managed to kill one of the Bosses, I've got possession of their unique item which will help me in future!"
-		"andromeda_repli_26" "Take into account that the more waves you clear, the stronger Bosses will get!"
-		"andromeda_repli_27" "Kill all Bosses so we have chance to end this war!"
-		"andromeda_repli_28" "Thank you for improving me! Remember - the more you upgrade me, the more chances we have to win!"
-		"andromeda_repli_29" "You have teleported to the «R3H-797» planet, the most primitive creatures which couldn't evolute into something else dwell here."
-		"andromeda_repli_30" "Here you can gain gold, experience and also unique items for your team!"
-		"andromeda_repli_31" "I have developed technologythat allows you to share exeperience and gold for killing enemies with each other."
-		"andromeda_repli_32" "Go on, kill everyone you see and divide your loot with mates if you have them."
-		"andromeda_repli_33" "You have teleported to the «R3H-888» planet, creatures here have developed better than those of «R3H-797», but they are still primitive."
+			"andromeda_repli_14" "I have learnt automated address dial of Ancient, to use it go to «Profile» - «Stargates»"
+		"andromeda_repli_15" "Weather conditions on this galaxy's planets are quite unstable, follow current weather closely. You can see weather condition's effects by hovering over its icon!"
+		"andromeda_repli_16" "All other mechanics and insctructions can be found in your «Profile». I hope you've managed to open it, didn't you?"
+		"andromeda_repli_17" "I have contacted General Hammond and requested air support. Soon Overlord will come here."
+		"andromeda_repli_18" "You will learn by progressing the game, I will help you with advice. Let the battle begin!"
+		"andromeda_repli_19" "Great! We've beaten 7 waves of invaders! According to my data there are creatures in this galaxy, who have ancient artifacts which we can take by force!"
+		"andromeda_repli_20" "To start a fight with them, open «Profile» - «Bosses»."
+		"andromeda_repli_21" "If you win any of them, you will be able to choose one of 3 artifacts. You can share and artifact with an ally, if required!"
+		"andromeda_repli_22" "Great! You have beaten one wave of Invaders!"
+		"andromeda_repli_23" "You can improve my stats by opening: «Profile» - «GU-SHOP»"
+		"andromeda_repli_24" "You can gain Gu-Coins by completing rounds and different random quests! Ammount of Gu-Coins is based on the selected difficulty level!"
+		"andromeda_repli_25" "Good job! You have defeated one of the guardians! Now I have a fraction of their power embodied in a unique artefact!"
+		"andromeda_repli_26" "Note that the longer we hold defence, the stronger all enemies, as well as Guardians (Bosses)!"
+		"andromeda_repli_27" "Defeat any 4 Guardians so I can create a mechanism to end the war!"
+		"andromeda_repli_28" "You've manage to improve my stats! The stronger I am, the easier it's for you to defend me! Upgrade antennas to unlock ability to request mass air support!"
+		"andromeda_repli_29" "You're on the «R3H-797» planet, according to my data this is a desolate planet inhabited by lower life forms."
+		"andromeda_repli_30" "You will gain gold and experience by killing them. Your rewards will be split among whole team."
+		"andromeda_repli_31" "Creatures on such planets become stronger each minute and aren't affected by current Invaders' wave number."
+		"andromeda_repli_32" "After a certain moment they will start gettin different items and abilities. Be careful!"
+		"andromeda_repli_33" "You're on the «R3H-888» planet, accordin to my data creatures on this planet are smarter then those on «R3H-797»"
 		"andromeda_repli_34" "Same rules as on «R3H-797» work here, so do your trade!"
-		"andromeda_repli_35" "You have teleported to the «R3H-367» planet, this planet is aquatic, so you will die without protection!"
-		"andromeda_repli_36" "To get protection (will be added in next patches)"
-		"andromeda_repli_37" "OH NO HOW COULD THAT HAPPEN? You're very lucky I have resurrection technology!!!"
-		"andromeda_repli_38" "You can improve my resurrection technology, get «Galaxy Split» item from «Overlord of the Universe» boss."
+		"andromeda_repli_35" "You're on the «R3H-367» planet, this planet is completely covered in water, but I have developed a technology and now you can breathe under water!"
+		"andromeda_repli_36" "Excercise increased caution, inhabitants of this planet have reached a point in their technological progress, past which they are immune to any spell!"
+		"andromeda_repli_37" "I will never be reduced to a memory...."
+		"andromeda_repli_38" "You didn't manage to protect me from Invaders! But I have resurrection technology, to upgrade it use artifact «Galaxy Split»"
 		"andromeda_repli_39" "However I BEG you to prevent me from dying since my life essence is limited."
 
 		"boss_1_repli" ""
@@ -5369,12 +5419,12 @@ They can use autodialling without energy loss."
 		"npc_gu_crystal" "Energy Crystal"
 		"npc_replicators" "Replicator"
 
-		"andromeda_end_game_repli_1" "Attention! I have enough information on the Celestis planet! We are ready to end the war!"
-		"andromeda_end_game_repli_2" "According to the recieved data we can destroy Ori world only by using neutrino warhead amplified by naquadah!"
-		"andromeda_end_game_repli_3" "I have created a prototype warhead with my technology that allows creation of objects from matter, but it requires Naquadah for strengthening!"
-		"andromeda_end_game_repli_4" "We are heading to Replicator's home world - «Reese»"
-		"andromeda_end_game_repli_5" "Give a signal when you're ready and I will begin dialling."
-		"andromeda_end_game_repli_6" "Remember, once we pass through the stargate we won't be able to come back. We have to complete the mission at any cost!"
+		"andromeda_end_game_repli_1" "Great! I've managed to create a weapon to destroy Ori home world!"
+		"andromeda_end_game_repli_2" "This weapon is neutrino warhead amplified by naquadah! Now we will teleport to Replicators' home world - «Reese»"
+		"andromeda_end_game_repli_3" "I have created a prototype warhead, but it requires Naquadah for strengthening! We have to find it on that planet!"
+		"andromeda_end_game_repli_4" "Give a signal when you're ready and I will begin dialling."
+		"andromeda_end_game_repli_5" "Remember, once we pass through the stargate we won't be able to come back. We have to complete the mission at any cost!"
+		"andromeda_end_game_repli_6" "Overlord can't move with us, so we'll have to count on ourselves."
 		"andromeda_end_game_repli_7" "Got it! I recieved the signal to dial the address!"
 		"andromeda_end_game_repli_8" "Initiating dialling!"
 		"andromeda_end_game_repli_9" "Let's start! We are on the «Reese» planet - homewrold of Replicators. Our goal is to collect 100 Naquadah fragments, kill any replicator you find to get them!"
@@ -5403,7 +5453,7 @@ They can use autodialling without energy loss."
 		"andromeda_end_game_repli_32" "Chevron 9 ENGAGED!"
 		"andromeda_end_game_repli_33" "WORMHOLE IS ACTIVATED!"
 		"andromeda_end_game_repli_34" "SENDING WARHEAD!"
-		"andromeda_end_game_repli_35" "HOORAY! WE DID IT!"
+		"andromeda_end_game_repli_35" "Planet «R3H-4287» is completely destroyed, this will end Ori conquest once and for all!"
 		"andromeda_end_game_repli_36" "Thank you for helping me in this uneasy task!"
 		"andromeda_end_game_repli_37" "If you ever need my help you always can count on me!"
 
@@ -5444,16 +5494,7 @@ They can use autodialling without energy loss."
 		"end_game_qvest_7_text" "Quest: «Preparation»"
 		"end_game_qvest_7_text_des"	"Return to the stargate!"
 		"sg_naqvadah_name" "Naquadah Collected:"
-		"sg_crystall_name" "Crystals Destroyed:"
-
-		"end_game_help_1" "Congratulations! You gave Andromeda enough time for research and now can complete the game!"
-		"end_game_help_2" "You can continue clearing waves but take in mind that: <br>-enemy waves are infinite. <br> -If you lose Andromeda then you will lose the game and all gained MMR points."
-		"end_game_help_3" "If you successfully complete the final quest then you will recieve 2 times the amount of your gained MMR and also receive access to unlock «Andromeda» hero."
-		"end_game_help_4" "After all players vote to start the quest you won't be able to turn back. All who dies on «Reese» planet won't be able to resurrect! Only allies with «Ancients' technologies» item can resurrect them."
-		"end_game_help_5" "If Andromeda dies during the final quest then you lose. Greatly upgrade Andromeda to successfully complete the game!"
-		"end_game_help_6" "Congratulations, you have completed one of plotlines of the Guardians of Universe project! Follow updates as plotline will be enlarged in near future!"
-		"end_game_help_7" "You can always come back and repeat your deed, there is so much you have yet to discover!"
-		"end_game_help_8" "Thank you for playing in the project! Good luck!"	
+		"sg_crystall_name" "Crystals Destroyed:"	
 		
 		"end_game_vote"	"Quest - «End the War!»"
 		"end_game_vote_a"	"Vote for start!"
@@ -5568,7 +5609,7 @@ They can use autodialling without energy loss."
         "DOTA_Tooltip_ability_gu_marisa_aura_Description"    "This aura powers up all your allies(including you) based on your attributes, works according to the formula : your attribute(strength,agility,intellect * the value in the description). Attributes do not increase status resist value. <br> Bonus health from the aura(strength) %hp% <br> Bonus HP regen from the aura (strength) %hp_regen% <br> Status resist from the aura %status_resistance% <br> Bonus white damage from the aura (agility) %Bonus_damage% <br> Bonus mana from the aura (inelligence) %mana% <br> Bonus MP regen from the aura (inelligence) Bonus MP regen from the aura (inelligence) %mana_regen% <br> %Bonus spell amplification from the aura (inelligence) %spell_amplufy_percentage%"
 
         "DOTA_Tooltip_modifier_gu_marisa_aura_buff" "Star aura"
-        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% maximal health,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health regeneration,<br> +%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% bonus base damage <br> +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% bonus MP,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% bonus MP regeneration <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% bonus spell amplification."
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_HEALTH_BONUS% maximal health,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health regeneration,<br> +%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% bonus base damage <br> +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% bonus MP,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% bonus MP regeneration <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% bonus spell amplification."
 
 		"DOTA_Tooltip_ability_item_ultimate_scepter" 						"Scepter of the Universe"
 		"DOTA_Tooltip_ability_item_ultimate_scepter_Description" 				"Improves some heroes' abilities.<br><br><font color='#7ee340'>Can be shared with an ally!</font>" 
@@ -5589,7 +5630,7 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_ability_item_gu_energy_booster_3_bonus_energy_regen" 				"Energy regeneration:" 
 
 		"DOTA_Tooltip_ability_gu_boss_jump"                "Time Leap"
-        "DOTA_Tooltip_ability_gu_boss_jump_Description"    "Jumps at the target with the least health. Deals 30% of targer's maximum health as damage, also stuns for 2 seconds."
+        "DOTA_Tooltip_ability_gu_boss_jump_Description"    "Jumps at the target with the least health. Deals 50% of targer's maximum health as damage, also knocks all enemies back in the landing zone."
 
 		"DOTA_Tooltip_ability_gu_boss_threshold"                "Naquadah Emprowerment"
         "DOTA_Tooltip_ability_gu_boss_threshold_Description"    "Reflects back damage according to the formula (5 + (difficulty * 5 )) % of received damage, if damage value is greater than (50 - (difficulty * 5))% of maximal unit's health then it will replenish heakth in 30% amount of received damage with a 17% chance"
@@ -5715,7 +5756,7 @@ They can use autodialling without energy loss."
 				"ban_cause_2"	"You are banned! Reason: Excessive killing of allies!"
 				"ban_cause_3"	"You are banned! Reason: Obstacle to normal play!"
 				"ban_cause_4"	"You are banned! Reason: Attempting to dudos the server!"
-				"ban_cause_5"	"You are banned! Reason: You are an over-blood brat, go fuck yourself out of here to your custom Hiro Chaos and don't come back again!"
+				"ban_cause_5"	"You are banned! Reason: Toxic brat, don't come back ever again! Go fuck yourself!"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_1"		"Dead Sword 1"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_1_description"		"<h1>Passive: Dead Strike </h1> Attacking any target will result in dealing additional %bonus_dmg_target%%  damage based on your base attack damage."
@@ -5764,6 +5805,42 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"			"Damage:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"		"Health regenration:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"		"Mana regeneration:"
+		
+				"npc_dota_hero_skywrath_mage_t5"		"Improves - Five Gun<br><br> Removes cooldown."
+		"npc_dota_hero_skywrath_mage_t6"		"Improves - Rho Aias<br><br> Increases damage absorbtion 4 fold."
+		
+				"npc_dota_hero_sven_t2_name"		"-「Kick」_-"
+		"npc_dota_hero_sven_t3_name"		"-「Hit」_-"
+		"npc_dota_hero_sven_t4_name"		"-「Omega slash」_-"
+		"npc_dota_hero_sven_t5_name"		"-「SSD」_-"
+		"npc_dota_hero_sven_t6_name"		"-「NVME SSD」_-"
+		"npc_dota_hero_sven_t2"		"Improves - Hit streak<br><br> Adds bonus damage according to formula - strength * 2."
+		"npc_dota_hero_sven_t3"		"Improves - Dash<br><br> Adds bonus damage according to formula - strength * 2."
+		"npc_dota_hero_sven_t4"		"Improves - Dash<br><br> Removes cooldown."
+		"npc_dota_hero_sven_t5"		"Improves - Purple Heart<br><br> Increases bonus damage 4 fold."
+		"npc_dota_hero_sven_t6"		"Improves - Purple Heart<br><br> Ultimate ability can be active indefinitely."
+
+		"npc_dota_hero_nyx_assassin_t2_name"		"-「Hit strike」_-"
+		"npc_dota_hero_nyx_assassin_t3_name"		"-「Wisdom」_-"
+		"npc_dota_hero_nyx_assassin_t4_name"		"-「Motivation」_-"
+		"npc_dota_hero_nyx_assassin_t5_name"		"-「Procrastination」_-"
+		"npc_dota_hero_nyx_assassin_t6_name"		"-「~ فونبغبى」_-"
+		"npc_dota_hero_nyx_assassin_t2"		"Improves - Hit<br><br> Strikes each target 4 more times."
+		"npc_dota_hero_nyx_assassin_t3"		"Improves - Energy wave<br><br> Adds bonus damage according to formula - agility * 2."
+		"npc_dota_hero_nyx_assassin_t4"		"Improves - Medistation<br><br> Changes damage type to purem adds damage  multiplier according to formula - base damage + agility * 2"
+		"npc_dota_hero_nyx_assassin_t5"		"Improves - Medistation<br><br> Increases duration to 30 seconds."
+		"npc_dota_hero_nyx_assassin_t6"		"Improves - Hit<br><br> Removes cooldown."
+
+		"npc_dota_hero_void_spirit_t2_name"		"-「للامبابؤ」_-"
+		"npc_dota_hero_void_spirit_t3_name"		"-「ئ فبن ؤ توبق」_-"
+		"npc_dota_hero_void_spirit_t4_name"		"-「برفان قبغ صلاه للانبا بؤس」_-"
+		"npc_dota_hero_void_spirit_t5_name"		"-「لاملا غقثض لفغلا」_-"
+		"npc_dota_hero_void_spirit_t6_name"		"-「بغلارف منئ للامباتي」_-"
+		"npc_dota_hero_void_spirit_t2"		"Improves - Star hex<br><br> Increases duration to 12."
+		"npc_dota_hero_void_spirit_t3"		"Improves - Rainbow beam<br><br> Imcreases heal 5 fold."
+		"npc_dota_hero_void_spirit_t4"		"Improves - Starfall<br><br> Adds bonus damage according to formula - intelligence * 1.5. "
+		"npc_dota_hero_void_spirit_t5"		"Improves - Starfall<br><br> Increases heal 5 fold."
+		"npc_dota_hero_void_spirit_t6"		"Improves - Starfall<br><br> Now item, which increase spell amplification, affect this ability."
 
 
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1"		"Helm of God"
@@ -5888,16 +5965,16 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 
 <font color='#1368c2'>3★ Heroes</font><br>
 -Rem<br>
--Biyao<br>
--Mote of energy<br>
+-Dawnbreaker<br>
 -Merlin<br>
 -Kotori Itsuka<br>
 -Izayoi Sakuya<br>
 -Kizaru<br>
 -Cirno<br>
 -9K31 «Strela-1»<br>
--F-16 Fighting Falcon<br>
--Т-72<br>"
+-2С1 «Gvozdika»<br>
+-Т-72<br>
+-M270 MLRS<br>"
 
 		"custom_sound_pack_text"	"If you have a unique music pack changing key, insert it in the window below."
 		"custom_sound_pack"			"Insert key..."
@@ -6028,7 +6105,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_venomancer_t4_name"		"-「HE rounds」_-"
 		"npc_dota_hero_venomancer_t5_name"		"-「Ammunition detonation」_-"
 		"npc_dota_hero_venomancer_t6_name"		"-「Gun rammer」_-"
-		"npc_dota_hero_venomancer_t2"		"Improves - 12.7 mm NSV MG<br><br> Changes damage formula - base damage + hero's agility"
+		"npc_dota_hero_venomancer_t2"		"Improves - 12.7 mm NSVT<br><br> Changes damage formula - base damage + strength"
 		"npc_dota_hero_venomancer_t3"		"Improves - KEP-22<br><br> Multiplies critical damage by 8 times."
 		"npc_dota_hero_venomancer_t4"		"Improves - KEP-22<br><br> Allows to cast KEP-22 at target ared."
 		"npc_dota_hero_venomancer_t5"		"Improves - T-72 Ammunition<br><br> Blows up ammunition after destruction which increases damage and stun duration by 4 times."
@@ -6067,10 +6144,11 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_silencer_t2"		"Improves - MQ-9 Reaper<br><br> Increases Reaper's operation time to 90 seconds on all levels."
 		"npc_dota_hero_silencer_t3"		"Improves - MQ-9 Reaper<br><br> After 3rd round casting spell grants ability to call an air strike by Overlord at the target point."
 		"npc_dota_hero_silencer_t4"		"Improves - 9M37 AAMS<br><br> Reduces cooldown to 30 seconds."
-		"npc_dota_hero_silencer_t5"		"Improves - 9M37 AAMS<br><br> Increases burn damage 5 fold + adds strength multiplier, also increases burn duration 4 fold."
+		"npc_dota_hero_silencer_t5"		"Improves - 9M37 AAMS<br><br> Improves - 9M37 AAMS<br><br> Increases burn damage by 5 times + adds intelligence multiplier, also increases burn duration by 4 times."
 		"npc_dota_hero_silencer_t6"		"Improves - 9M37 AAMS<br><br> Increases total number of rockets to 12."
 
-
+		"npc_dota_hero_bristleback_t2_name"		"-「HYDRA 70」_-"
+		"npc_dota_hero_bristleback_t3_name"		"-「AGM-114」_-"
 		"npc_dota_hero_bristleback_t4_name"		"-「AGM-114 volley」_-"
 		"npc_dota_hero_bristleback_t5_name"		"-「HYDRA 5th Generation」_-"
 		"npc_dota_hero_bristleback_t6_name"		"-「AGM-114 5th Generation」_-"
@@ -6129,6 +6207,93 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_spirit_breaker_t4_name"		"-「Demon」_-"
 		"npc_dota_hero_spirit_breaker_t4"		"Improves - Demonic origin<br><br> Reduces mana drain to 1%."
 		"npc_dota_hero_spirit_breaker_t6"		"Improves - Demonic origin<br><br> Ability doesn't drain mana."
+		
+				"npc_dota_hero_bristleback_t4_name"		"-「AGM-114 volley」_-"
+		"npc_dota_hero_bristleback_t5_name"		"-「HYDRA 5th Generation」_-"
+		"npc_dota_hero_bristleback_t6_name"		"-「AGM-114 5th Generation」_-"
+		"npc_dota_hero_bristleback_t2"		"Improves - HYDRA 70<br><br> Adds damage multiplier - base damage + (agility * multiplier)."
+		"npc_dota_hero_bristleback_t3"		"Improves - AGM-114<br><br> Adds damage multiplier - base damage + (agility * multiplier)"
+		"npc_dota_hero_bristleback_t4"		"Improves - AGM-114<br><br> Reduces интервал запуска ракет до 0.2"
+		"npc_dota_hero_bristleback_t5"		"Improves - HYDRA 70<br><br> Ability doesn't consume energy."
+		"npc_dota_hero_bristleback_t6"		"Improves - AGM-114<br><br> Ability doesn't consume energy."
+		"npc_dota_hero_gyrocopter_t4_name"		"-「C5 Air-launched rockets volley」_-"
+		"npc_dota_hero_gyrocopter_t5_name"		"-「SHTURM-V generation」_-"
+		"npc_dota_hero_gyrocopter_t6_name"		"-「C5 Air-launched rockets 5th generation」_-"
+		"npc_dota_hero_gyrocopter_t2"		"Improves - C5 Air-launched rockets<br><br> Adds damage multiplier - base damage + (agility * multiplier)"
+		"npc_dota_hero_gyrocopter_t3"		"Improves - SHTURM-V<br><br> Adds damage multiplier - base damage + (agility * multiplier)"
+		"npc_dota_hero_gyrocopter_t4"		"Improves - C5 Air-launched rockets<br><br> Reduces launch interval to 0.2"
+		"npc_dota_hero_gyrocopter_t5"		"Improves - SHTURM-V<br><br> Reduces lock-on and launch intervals to 0.1"
+		"npc_dota_hero_gyrocopter_t6"		"Improves - C5 Air-launched rockets<br><br> Ability doesn't consume energy."
+		"npc_dota_hero_wisp_t5"		"Improves - Energy instability<br><br> Increases duration of the ability to 30 seconds and also removes cooldown."
+		"npc_dota_hero_wisp_t6"		"Improves - Subspace energy<br><br> Increases all multipliers 10 fold."
+
+		"npc_dota_hero_oracle_t2_name"		"-「Time - eternity」_-"
+		"npc_dota_hero_oracle_t3_name"		"-「Warp」_-"
+		"npc_dota_hero_oracle_t4_name"		"-「Gravity」_-"
+		"npc_dota_hero_oracle_t5_name"		"-「Projection」_-"
+		"npc_dota_hero_oracle_t6_name"		"-「Cognition」_-"
+		"npc_dota_hero_oracle_t2"		"Improves - Space magic<br><br> Increases pull duration by 7 times and also greatly increases radius."
+		"npc_dota_hero_oracle_t3"		"Improves - Displacement Matrix<br><br> Removes teleportation delay and also increases damage radius by 2 times."
+		"npc_dota_hero_oracle_t4"		"Improves - Cosmic barrier<br><br> Reduces damage interval to 0.1 and also increases duration by 4 times."
+		"npc_dota_hero_oracle_t5"		"Improves - World Projection<br><br> Increases number of tics by 4 times, increases duration by 2 times."
+		"npc_dota_hero_oracle_t6"		"Improves - World Projection<br><br> Changes damage formula to base damage * intelligence / 2."
+
+
+		"npc_dota_hero_lina_t2_name"		"-「Discharge」_-"
+		"npc_dota_hero_lina_t3_name"		"-「Mind」_-"
+		"npc_dota_hero_lina_t4_name"		"-「Acknowledgement」_-"
+		"npc_dota_hero_lina_t5_name"		"-「Stability」_-"
+		"npc_dota_hero_lina_t6_name"		"-「Enslavement」_-"
+		"npc_dota_hero_lina_t2"		"Improves - Laguna<br><br> Each stack grants 4 times more damage."
+		"npc_dota_hero_lina_t3"		"Improves - Laguna<br><br> Adds bonus damage based on intelligenceа - base damage + intelligence * 1.5"
+		"npc_dota_hero_lina_t4"		"Improves - Laguna<br><br> Has Scepter of the Universe from the start of the game."
+		"npc_dota_hero_lina_t5"		"Improves - Unstable laguna<br><br> Reduces cooldown reduction to 60 seconds."
+		"npc_dota_hero_lina_t6"		"Improves - Unstable laguna<br><br> Damage is increased by 3 times, radius - 3000, discharge interval is always 0.3, numer of targets is increased to 40."
+
+
+		"npc_dota_hero_spirit_breaker_t2_name"		"-「Power strike」_-"
+		"npc_dota_hero_spirit_breaker_t3_name"		"-「Hellish wound」_-"
+		"npc_dota_hero_spirit_breaker_t4_name"		"-「Virus」_-"
+		"npc_dota_hero_spirit_breaker_t5_name"		"-「Frostbite」_-"
+		"npc_dota_hero_spirit_breaker_t6_name"		"-「Immunity」_-"
+		"npc_dota_hero_spirit_breaker_t2"		"Improves - Jump strikeе<br><br> Adds bonus damage according to formula = base damage + strength * 4."
+		"npc_dota_hero_spirit_breaker_t3"		"Improves - Al hyuuma<br><br> Changes damage type to pure and also deals bonus damage equal to 20% of current health to the main target"
+		"npc_dota_hero_spirit_breaker_t4"		"Improves - Demonic origin<br><br> Changes damage to pure and also reduces it to 5% of the maximal health."
+		"npc_dota_hero_spirit_breaker_t5"		"Improves - Al hyuuma<br><br> Ability deals bonus damage based on target's maximal health within 800 radius of it."
+		"npc_dota_hero_spirit_breaker_t6"		"Improves - Demonic origin<br><br> Ability no longer drains health."
+
+		"npc_dota_hero_vengefulspirit_t2_name"		"-「Sharpened knife」_-"
+		"npc_dota_hero_vengefulspirit_t3_name"		"-「Suply」_-"
+		"npc_dota_hero_vengefulspirit_t4_name"		"-「Time」_-"
+		"npc_dota_hero_vengefulspirit_t5_name"		"-「Rift」_-"
+		"npc_dota_hero_vengefulspirit_t6_name"		"-「Возврат」_-"
+		"npc_dota_hero_vengefulspirit_t2"		"Improves - Eternal Knife<br><br> Adds bonus damage according to formula = base damage + agility * 4."
+		"npc_dota_hero_vengefulspirit_t3"		"Improves - Killer Doll<br><br> Changes number of daggers to 100."
+		"npc_dota_hero_vengefulspirit_t4"		"Improves - Time Sign<br><br> Ability now recharges ultimate abilities. Reduces cooldown to 60 seconds."
+		"npc_dota_hero_vengefulspirit_t5"		"Improves - Time stop<br><br> Now ability deals damage to all enemy units in the area of effect, damage is based on Sakuya's agility."
+		"npc_dota_hero_vengefulspirit_t6"		"Improves - Eternal Knife<br><br> Hitting an enemy will instantly recharge the ability."
+
+		"npc_dota_hero_enchantress_t2_name"		"-「Deep frostbite」_-"
+		"npc_dota_hero_enchantress_t3_name"		"-「Popsicle」_-"
+		"npc_dota_hero_enchantress_t4_name"		"-「Frostbite」_-"
+		"npc_dota_hero_enchantress_t5_name"		"-「Blizzard」_-"
+		"npc_dota_hero_enchantress_t6_name"		"-「Cognition」_-"
+		"npc_dota_hero_enchantress_t2"		"Improves - Perfect Freeze<br><br> Now ability deals bonus damage of 30% of target's maximal health."
+		"npc_dota_hero_enchantress_t3"		"Improves - Ice Crusher<br><br> Increases stun duration by 2 times."
+		"npc_dota_hero_enchantress_t4"		"Improves - Icicle Fall<br><br> Adds bonus damage of 20% of target's maximal health."
+		"npc_dota_hero_enchantress_t5"		"Improves - Diamond Blizzard<br><br> Adds bonus damage equal to 5% of target's maximal health."
+		"npc_dota_hero_enchantress_t6"		"Improves - Ice Crusher<br><br> Removes cooldown."
+
+		"npc_dota_hero_skywrath_mage_t2_name"		"-「Back Up」_-"
+		"npc_dota_hero_skywrath_mage_t3_name"		"-「Excalibur」_-"
+		"npc_dota_hero_skywrath_mage_t4_name"		"-「Saving」_-"
+		"npc_dota_hero_skywrath_mage_t5_name"		"-「Upgrade Gun」_-"
+		"npc_dota_hero_skywrath_mage_t6_name"		"-「Invulnerability」_-"
+		"npc_dota_hero_skywrath_mage_t2"		"Improves - Back up<br><br> Removes cooldown."
+		"npc_dota_hero_skywrath_mage_t3"		"Improves - Excalibur<br><br> Removes cooldown."
+		"npc_dota_hero_skywrath_mage_t4"		"Improves - Gae Bulg<br><br> Removes mana cost."
+		"npc_dota_hero_skywrath_mage_t5"		"Improves - Five Gun<br><br> Removes cooldown."
+		"npc_dota_hero_skywrath_mage_t6"		"Improves - Rho Aias<br><br> Increases damage absorbtion by 4 times."
 
 		"t1_name" 	"-_RISE OF A HERO_-"
 		"t1_1" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
@@ -6278,6 +6443,10 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		Bonus movement speed: 200<br> 
 		Bonus mana regeneration: 200"
 
+	"task_random_item"			"Find an item in a random spot on the map within 2 minutes. Aproximate location is shown on the mini-map with a red circle."
+	"task_name_item"			"Treasure hunt"
+	"task_random_mi24"			"You have to defent ally MI-24V Hind, which has appeared in right lower corner of the map, for 5 minutes. You will fail this quest if it is destroyed. If you manage to escort the helicopter, then all team will complete the quest 'Escort' and all players will have access to pick combat vehicles during the pick phase."
+	"task_name_mi24"			"Convoy escort"
 
 
 
@@ -6296,6 +6465,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 	"mmr"				"Rating"
 	"gu_coins"				"Gu-coins"
 	"pray_coin"				"Prayers"
+	"stellar_shine"			"Free star gleam"
 
 		"gu_ActivatedRune" "{player_name} has picked up {rune_name}"
 		"item_custom_universe_rune_lvlup" "Enlighenment"
@@ -6370,17 +6540,17 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_as"								"Attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir"										"Weather core"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Applies thunder shield effect to the target. Each %static_proc_count% succesfull attack on them will  be punished with a lightning bolt, which deals %static_damage%%  of enemy's attack damage and also slows them down by %static_slow% for %static_slow_duration% seconds"		
+		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Active: Weather Shield </h1> Applies thunder shield effect to the target. Each %static_proc_count% succesfull attack on them will  be punished with a lightning bolt, which deals %static_damage%%  of enemy's attack damage and also slows them down by %static_slow% for %static_slow_duration% secondsю \n <h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. /n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Grants immunity to all negative weather effects (owner can't be hit by lightning and such)."		
 		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_as"								"Attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2"									"Weather core 2"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Applies thunder shield effect to the target. Each %static_proc_count% succesfull attack on them will  be punished with a lightning bolt, which deals %static_damage%%  of enemy's attack damage and also slows them down by %static_slow% for %static_slow_duration% seconds"	
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Active: Weather Shield </h1> Applies thunder shield effect to the target. Each %static_proc_count% succesfull attack on them will  be punished with a lightning bolt, which deals %static_damage%%  of enemy's attack damage and also slows them down by %static_slow% for %static_slow_duration% seconds. \n <h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage  /n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Grants immunity to all negative weather effects (owner can't be hit by lightning and such)."	
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_as"								"Attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3"									"Weather core 3"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Applies thunder shield effect to the target. Each %static_proc_count% succesfull attack on them will  be punished with a lightning bolt, which deals %static_damage%%  of enemy's attack damage and also slows them down by %static_slow% for %static_slow_duration% seconds"	
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Active: Weather Shield </h1> Applies thunder shield effect to the target. Each %static_proc_count% succesfull attack on them will  be punished with a lightning bolt, which deals %static_damage%%  of enemy's attack damage and also slows them down by %static_slow% for %static_slow_duration% seconds. \n <h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage /n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Grants immunity to all negative weather effects (owner can't be hit by lightning and such)."	
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"								"Attack speed:"
 
@@ -6388,10 +6558,10 @@ If you have several same characters (unlocked in-game, bought in the shop or won
  		"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"						"Weather core shield"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"									"Recipe Cuirasse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Unique item, which can be obtained by killing the boss Lord of the Universe<br><br><font color='#7ee340'>Can be shared with an ally!</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Unique item, which can be obtained by killing the boss Lord of the Universe<br><br><font color='#7ee340'>Can be shared with an ally!</font> /n <font color='#fc0303'>Doesn't work during prolugue, boss fight and ending!</font>"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"									"Cuirasse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Active: Weather Shield </h1> Applies thunder shield effect to the target. Each %static_proc_count% succesfull attack on them will  be punished with a lightning bolt, which deals %static_damage%%  of enemy's attack damage and also slows them down by %static_slow% for %static_slow_duration% seconds. <h1>Passive: Energy burst </h1> There is a %proc_chance%% chance that it will emmit a chain lightning which will jump accross all enemy units within %bounce_radius% radius and deal %bounce_damage%% damage of owner's base damage. \n  <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Grants immunity to all negative weather effects (owner can't be hit by lightning and such) \n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"Damage:"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"Attack speed:"
 
@@ -6439,12 +6609,13 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_gu_crate"				"Treasure chest"
 
 		"DOTA_Tooltip_modifier_gu_alter_armor_stack"		"Goa'uld armor"
-		"DOTA_Tooltip_modifier_gu_alter_armor_stack_Description"		"+%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% armor, +%dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength "
+		"DOTA_Tooltip_modifier_gu_alter_armor_stack_Description"		"+%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% armor, +%dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength"
 
 
 		"npc_dota_hero_warlock_dificult" 			"Character's difficulty: «Normal»"
 		"npc_dota_hero_venomancer_dificult" 		"Character's difficulty: «Hard»"
 		"npc_dota_hero_bristleback_dificult" 		"Character's difficulty: «Normal»"
+		"npc_dota_hero_dark_seer_dificult" 			"Character's difficulty: «Normal»"
 		"npc_dota_hero_abaddon_dificult" 			"Character's difficulty: «Easy»"
 		"npc_dota_hero_earth_spirit_dificult" 		"Character's difficulty: «Easy»"
 		"npc_dota_hero_sven_dificult" 				"Character's difficulty: «Easy»"
@@ -6472,6 +6643,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_lich_dificult" 				"Character's difficulty: «Easy»"
 		"npc_dota_hero_tinker_dificult" 			"Character's difficulty: «Easy»"
 		"npc_dota_hero_alchemist_dificult" 			"Character's difficulty: «Easy»"
+		"npc_dota_hero_zuus_dificult" 				"Character's difficulty: «Normal»"
 		"npc_dota_hero_clinkz_dificult" 			"Character's difficulty: «Easy»"
 		"npc_dota_hero_nyx_assassin_dificult" 		"Character's difficulty: «Easy»"
 		"npc_dota_hero_gyrocopter_dificult" 		"Character's difficulty: «Normal»"
@@ -6494,7 +6666,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_wisp_dificult"				"Character's difficulty: «Easy»"
 
 
-		"npc_dota_hero_queenofpain_type" 		"Роль: <font color='#a822ba'>«Mag. DD»</font>"
+		"npc_dota_hero_queenofpain_type" 		"Role: <font color='#a822ba'>«Mag. DD»</font>"
 		"npc_dota_hero_warlock_type" 			"Role: <font color='#a822ba'>«Mag. DD»</font>"
 		"npc_dota_hero_venomancer_type" 		"Role: <font color='#ba1111'>«Tank»</font>"
 		"npc_dota_hero_bristleback_type" 		"Role: <font color='#119e09'>«Main DD»</font>"
@@ -6668,7 +6840,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_ability_spectre_2_shock_duration"	"Confusion duration:"
 
 		"DOTA_Tooltip_ability_spectre_3"	"Spectral entity"
-		"DOTA_Tooltip_ability_spectre_3_Description"	"Reflects damage to all attackers based on hero's maximal health, damage radius - %max_radius%. The lower hero's health, the lower is the damage <br></br>-----------------------------------------------<br><br> Damage is calculated according to the formula  %damage% * intelligence, also replenishes health according to formula %healamount% * intelligence * current health"
+		"Reflects damage back at attackers which is based on hero's maximal health, damage radius - %max_radius%. The less health hero has, the less is the damage <br></br>-----------------------------------------------<br><br> Damage is calculated according to the formula %damage% * intelligence, also replenishes health according to the formula %healamount% * intelligence * current health of the caster
 
 		"DOTA_Tooltip_ability_gu_spectral_spirit_4"	"Death fiesta"
 		"DOTA_Tooltip_ability_gu_spectral_spirit_4_Description"	"Summons the reaper who stuns target for 2 seconds and then deals damage to the target and all enemies within radius of %radius_damage%, damage is calculated according to the formula (%base_damage% + (intelligence * %int_damage%)) + %damage_hp%%%  of current health of the target. <br><br><font color='#cf1919'>Attention! Damage of this ability cannot be increased with spell amplification! Does not work on world bosses!</font>"
@@ -6791,7 +6963,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_modifier_biyao_4_aura_buff_Description"		"Constantly replenishes +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health and +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana"
 
 		"DOTA_Tooltip_ability_biyao_5" 				"Resurrection magic"
-		"DOTA_Tooltip_ability_biyao_5_Description" 	"On activation can bring any ally from the dead with 50% chance, and also apply magical immunity for %duration_buff% seconds with a %chanse_bkb%%% chance. Cooldown - %cd%, and static. If resurrection did not trigger, ability goes on cooldown of 20 seconds. Works globally"
+		"DOTA_Tooltip_ability_biyao_5_Description" 	"On activation can bring any ally from the dead with 50% chance, and also apply magical immunity for %duration_buff% seconds with a %chanse_bkb%%% chance. Cooldown - %cd%, and static. If resurrection did not trigger, ability goes on cooldown of 20 seconds. Works globally <br><br><font color='#fc0303'>Resurrecting allies during boss fight won't affect deaths-to-loss counter!</font>"
 
 		"npc_dota_hero_dawnbreaker"					"Pick a hero"
 		"npc_dota_hero_wisp"						"Mote of Energy"
@@ -7241,19 +7413,19 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1"									"Goa'uld armor"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"						"<h1>Passive: Symbiont's rule </h1> When owner recieves any damage, armor stacks will increase. Each stack grants + 2 strength and + 1 armor, cooldown is static and lasts for %cd%, buff's duration %duration%.\n <font color='#fc0335'>Changing item's position in your inventory will lead to loss of all stacks.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_armor"								"Armor:"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp_regen"							"Health regeneration:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp_regen"							"%Health regeneration:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp"									"Bonus health:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2"									"Goa'uld armor 2"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"						"<h1>Passive: Symbiont's rule </h1> When owner recieves any damage, armor stacks will increase. Each stack grants + 2 strength and + 1 armor, cooldown is static and lasts for %cd%, buff's duration %duration%.\n <font color='#fc0335'>Changing item's position in your inventory will lead to loss of all stacks.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_armor"								"Armor:"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp_regen"							"Health regeneration:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp_regen"							"%Health regeneration:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp"									"Bonus health:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3"									"Goa'uld armor 3"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"						"<h1>Passive: Symbiont's rule </h1> When owner recieves any damage, armor stacks will increase. Each stack grants + 2 strength and + 1 armor, cooldown is static and lasts for %cd%, buff's duration %duration%.\n <font color='#fc0335'>Changing item's position in your inventory will lead to loss of all stacks.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_armor"								"Armor:"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp_regen"							"Health regeneration:"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp_regen"							"%Health regeneration:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp"									"Bonus health:"
 
 
@@ -7286,7 +7458,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
             "game_helper_state_4_frase_2"            "In order to find out what tasks you have and what is required from you, move the cursor to the upper right corner of any of the lines!"
             "game_helper_state_4_frase_3"            "The main mechanic of this project is the Stargate System. In order to open the dialing device, click on the «Profile» - «Stargate» button (the «Profile» button is in the upper left corner (IT FLASHES))"
 
-            "game_helper_state_5_frase_1"            "You got on the planet «P3X-797» it is a light forest. Here you can get experience and gold. All experience and gold rewards for killing monsters is divided evenly in between all players!"
+            "game_helper_state_5_frase_1"            "You got on the planet «R3H-797» it is a light forest. Here you can get experience and gold. All experience and gold rewards for killing monsters is divided evenly in between all players!"
             "game_helper_state_5_frase_2"            "Creatures on this and other planets become stronger every minute, but the reward for them also grows."
             "game_helper_state_5_frase_3"            "After passing 3rd wave, the creatures will begin to get various items and abilities, the higher the wave, the stronger the items! You can see the current difficulty of creatures in the upper left corner in the line - «Wave Difficulty»"
 
@@ -7363,7 +7535,7 @@ If you have duplicate characters (opened in game, bought in shop or got through 
 		"hammond_prolog_repli_11" "Start dialing an address!"
 
 		
-		"andromeda_repli_1" "Welcome to planet «P3X-234», my name is Andromeda and I need your help."
+		"andromeda_repli_1" "Welcome to planet «R3H-234», my name is Andromeda and I need your help."
 		"andromeda_repli_2" "Our enemy is the aggressive, religiously minded faction of the Ancients «Ori»"
 		"andromeda_repli_3" "After the Priors (Messengers of Ori) came from the planet Celestis to our world, they began to propagate the «Origin»"
 		"andromeda_repli_4" "If the planet abandoned their religion, it was destroyed or enslaved."
@@ -7391,13 +7563,13 @@ If you have duplicate characters (opened in game, bought in shop or got through 
 		"andromeda_repli_26" "Please note that the longer we defend, the stronger all creatures become, as well as Guardians (Bosses)!"
 		"andromeda_repli_27" "Defeat any 4 Guardians so that I can synthesize the device to end the war!"
 		"andromeda_repli_28" "You were able to improve my parameters! The stronger I am, the easier it is for you to defend me! Upgrade your antennas to be able to call Mass Air Support!"
-		"andromeda_repli_29" "You are on the planet - «P3X-797», according to my information it is a desert planet where the lower forms of life live."
+		"andromeda_repli_29" "You are on the planet - «R3H-797», according to my information it is a desert planet where the lower forms of life live."
 		"andromeda_repli_30" "By killing them, you will receive gold and experience, which is evenly divided among the whole team."
 		"andromeda_repli_31" "On these planets, creatures become stronger every minute and do not depend on the current wave of Invaders."
 		"andromeda_repli_32" "After a certain moment, they will have various items and abilities, be careful!"
-		"andromeda_repli_33" "You are on the planet «P3X-888», according to my data, the intelligence level of creatures on this planet is higher than on «P3X-797»"
-		"andromeda_repli_34" "The same rules apply here as on the «P3X-797», so do your thing!"
-		"andromeda_repli_35" "You are on the planet «P3X-367», this planet is completely submerged, but I synthesized the technology and now you can breathe underwater!"
+		"andromeda_repli_33" "You are on the planet «R3H-888», according to my data, the intelligence level of creatures on this planet is higher than on «R3H-797»"
+		"andromeda_repli_34" "The same rules apply here as on the «R3H-797», so do your thing!"
+		"andromeda_repli_35" "You are on the planet «R3H-367», this planet is completely submerged, but I synthesized the technology and now you can breathe underwater!"
 		"andromeda_repli_36" "Be very careful, the inhabitants of this planet have developed their technologies and now they are not susceptible to any spell!"
 		"andromeda_repli_37" "I'll never be just a memory ..."
 		"andromeda_repli_38" "You failed to protect me from the Invaders! But I have the technology of resurrection, in order to improve it, use the artifact «Galaxy Shatter»"
@@ -7445,7 +7617,7 @@ If you have duplicate characters (opened in game, bought in shop or got through 
 			"DOTA_Tooltip_rune_fire_on_hit"								"You are on fire!"
 
 
-
+"DOTA_Tooltip_modifier_manolator" 				"Magical scythe"
 
 
 
