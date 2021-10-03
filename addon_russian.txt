@@ -1005,7 +1005,7 @@
 		"DOTA_Tooltip_ability_madokaruler_tick_rate"											"Интервал:"
 		
 		"DOTA_Tooltip_ability_madokalunhui"												"Манифестация"
-		"DOTA_Tooltip_ability_madokalunhui_Description"										"Эволюция формы волшебницы Мадоки. За каждое второе использование способностей даёт дополнительную дальность атаки, дальность атаки и регенерацию здоровья. Стаки пропадают при смерти."
+		"DOTA_Tooltip_ability_madokalunhui_Description"										"Эволюция формы волшебницы Мадоки. За каждое использование способностей которые тратят более 150 маны, даёт дополнительную дальность атаки, дальность атаки и регенерацию здоровья. Стаки пропадают при смерти."
 		"DOTA_Tooltip_ability_madokalunhui_Lore"											""
 		"DOTA_Tooltip_ability_madokalunhui_radius"											"Радиус получения:"
         "DOTA_Tooltip_ability_madokalunhui_mana"											"Восстановление здоровья:"
@@ -1586,7 +1586,7 @@
 		"DOTA_Tooltip_ability_gemini_abyssal_vortex_pull_speed"										"Скорость притяжения:"
 		
 
-		"DOTA_Tooltip_ability_gemini_dimensionquake"									"Исканиеже Пространства"
+		"DOTA_Tooltip_ability_gemini_dimensionquake"									"Искажение Пространства"
 		"DOTA_Tooltip_ability_gemini_dimensionquake_description"								"Блэкхолл-Тян искажает часть мира возле себя."
 		"DOTA_Tooltip_ability_gemini_dimensionquake_stun"											"Длительность оглушения: "
 		"DOTA_Tooltip_ability_gemini_dimensionquake_damage"											"Урон: "
@@ -2025,6 +2025,9 @@
 		
 		"DOTA_Tooltip_Ability_armor95"							"Тёмная Мантия"
 		"DOTA_Tooltip_Ability_armor95_Description"				"защишает владельца способности от любого входящего Урона уменьшая его на 95% "
+
+		"DOTA_Tooltip_Ability_gu_forestarmor"							"Сангономия"
+		"DOTA_Tooltip_Ability_gu_forestarmor_Description"				"Уменьшает весь входящий урон на %absorb%%% а также увеличивает сопротивление эффектам на %absorb_spell%%% , в зависомости от выбранной сложности."
 		
 		
 		"DOTA_Tooltip_ability_howlling_clone"					"Разрыв"
@@ -2384,7 +2387,7 @@
 		"DOTA_Tooltip_ability_ah_1_attack_damage_multi"									"Множитель урона(с талантом):"
 
         "DOTA_Tooltip_ability_t72_machine_gun_attack"												"12.7 mm НСВТ"
-		"DOTA_Tooltip_ability_t72_machine_gun_attack_Description"									"Если данная способность активирована то T-72 обстреливает всех вражеских юнитов вокруг себя из крупнокалиберного пулемёта потребляя ману каждую секунду.<br>Потреляет 2 <font color='#f7a62d'>Энергии раз в 0.3 секунды."
+		"DOTA_Tooltip_ability_t72_machine_gun_attack_Description"									"Если данная способность активирована то T-72 обстреливает всех вражеских юнитов вокруг себя из крупнокалиберного пулемёта потребляя ману каждую секунду.<br>Потреляет 2 <font color='#f7a62d'>Энергии раз за каждый выстрел."
         "DOTA_Tooltip_ability_t72_machine_gun_attack_radius"									"Радиус:"
         "DOTA_Tooltip_ability_t72_machine_gun_attack_rocket_damage"									"Урон пули:"
         "DOTA_Tooltip_ability_t72_machine_gun_attack_attack_mult"									"Скорость обстрела:"
@@ -4435,9 +4438,9 @@
 		"boss_drop_boss_1"								"Предметы которые вы сможете получить в случае победы:"
 
 		"DOTA_Tooltip_ability_item_gold"				"Золото"
-		"DOTA_Tooltip_ability_item_gold_Description"	"Даёт игровое золото."
+		"DOTA_Tooltip_ability_item_gold_Description"	"Даёт игровое золото, по формуле - 200 * текущий раунд"
 		"DOTA_Tooltip_ability_item_xp"					"Опыт"
-		"DOTA_Tooltip_ability_item_xp_Description"		"Даёт опыт."
+		"DOTA_Tooltip_ability_item_xp_Description"		"Даёт опыт, по формуле - 1000 * текущий раунд"
 		"DOTA_Tooltip_ability_item_dark_point"					"Gu-Coins"
 		"DOTA_Tooltip_ability_item_dark_point_Description"		"Даёт GU-Coins."
 		"DOTA_Tooltip_ability_item_primogem"					"Переплетающиеся Судьбы"
@@ -4788,9 +4791,9 @@
 		"end_game_qvest_4" "Получено новое задание!<br> «Врата Орлина»"
 		"end_game_qvest_4_text" "Задание: «Врата Орлина»"
 		"end_game_qvest_4_text_des"	"Уничтожте Врата Орлина!"
-		"end_game_qvest_5" "Получено новое задание!<br> «Неизвестная Сущьность»"
-		"end_game_qvest_5_text" "Задание: «Неизвестная Сущьность»"
-		"end_game_qvest_5_text_des"	"Найдите неизвестную сущьность, которую обнаружила Андромедаа!"
+		"end_game_qvest_5" "Получено новое задание!<br> «Неизвестная Сущность»"
+		"end_game_qvest_5_text" "Задание: «Неизвестная Сущность»"
+		"end_game_qvest_5_text_des"	"Найдите неизвестную сущность, которую обнаружила Андромедаа!"
 		"end_game_qvest_6" "Получено новое задание!<br> «Королева Репликаторов»"
 		"end_game_qvest_6_text" "Задание: «Королева Репликаторов»"
 		"end_game_qvest_6_text_des"	"Уничтожте Королеву Репликаторов!"
@@ -4885,7 +4888,7 @@
         "DOTA_Tooltip_ability_gu_marisa_aura_Description"    "Данная аура усиливает всех союзников(включая вас) за счет ваших атрибутов, работает по формуле ваш атрибут(сила,ловкость,интелект,*на значения в описаний) статус резист не увеличиваеться от атрибутов. <br> Бонус здоровье от ауры(сила)  %hp% <br> Бонус хп реген от ауры (сила) %hp_regen% <br> Статус резист от ауры  %status_resistance% <br> Бонусный белый урон от ауры(Ловкость) %Bonus_damage% <br> Бонусная мана от ауры(Интелект) %mana% <br> Бонус мана реген от ауры (Интелект) %mana_regen% <br> Бонусное% усиление заклинаний от ауры (Интелект) %spell_amplufy_percentage%"
 
         "DOTA_Tooltip_modifier_gu_marisa_aura_buff" "Звездная аура"
-        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_EXTRA_HEALTH_BONUS% к максимальному здоровью,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регенерации здоровья,<br> +%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_EXTRA_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% бонус к урону заклинаний."
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_HEALTH_BONUS% к максимальному здоровью,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регенерации здоровья,<br> +%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% бонус к урону заклинаний."
 
 		"DOTA_Tooltip_ability_item_ultimate_scepter" 						"Скипитр Вселенной"
 		"DOTA_Tooltip_ability_item_ultimate_scepter_Description" 				"Улучшает некоторые способности у героев.<br><br><font color='#7ee340'>Можно передать союзнику!</font>" 
@@ -4962,7 +4965,7 @@
 		"ban_cause_2"	"Вы забанены! Причина: Чрезмерное убийство союзников!"
 		"ban_cause_3"	"Вы забанены! Причина: Препятствие нормальной игре!"
 		"ban_cause_4"	"Вы забанены! Причина: Попытка дудоса сервера!"
-		"ban_cause_5"	"Вы забанены! Причина: Ты овертровный выблядок иди нахуй отсюда в свой кастом хиро чаос и больше не возвращайся!"
+		"ban_cause_5"	"Вы забанены! Причина: Токсичный выблядок, тебе не место здесь. Иди нахуй!"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_1"		"Dead Sword 1"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_1_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки."
@@ -5444,6 +5447,40 @@
 		"npc_dota_hero_skywrath_mage_t5"		"Улучшает - Five Gun<br><br> Убирает перезарядку."
 		"npc_dota_hero_skywrath_mage_t6"		"Улучшает - Rho Aias<br><br> Увеличивает кол-во впитываемого урона в 4 раза."
 
+		"npc_dota_hero_sven_t2_name"		"-「Кик」_-"
+		"npc_dota_hero_sven_t3_name"		"-「Попадание」_-"
+		"npc_dota_hero_sven_t4_name"		"-「Омега слеш」_-"
+		"npc_dota_hero_sven_t5_name"		"-「SSD」_-"
+		"npc_dota_hero_sven_t6_name"		"-「NVME SSD」_-"
+		"npc_dota_hero_sven_t2"		"Улучшает - Серия Ударов<br><br> Добавляет дополнительный урон по формуле - сила * 2."
+		"npc_dota_hero_sven_t3"		"Улучшает - Рывок<br><br> Добавляет дополнительный урон по формуле - сила * 2."
+		"npc_dota_hero_sven_t4"		"Улучшает - Рывок<br><br> Убирает перезарядку."
+		"npc_dota_hero_sven_t5"		"Улучшает - Purple Heart<br><br> Увеличивает бонусный урон в 4 раза."
+		"npc_dota_hero_sven_t6"		"Улучшает - Purple Heart<br><br> Делает ультимейт бесконечным."
+
+		"npc_dota_hero_nyx_assassin_t2_name"		"-「Серия Ударов」_-"
+		"npc_dota_hero_nyx_assassin_t3_name"		"-「Мудрость」_-"
+		"npc_dota_hero_nyx_assassin_t4_name"		"-「Мотивация」_-"
+		"npc_dota_hero_nyx_assassin_t5_name"		"-「Прокрастинация」_-"
+		"npc_dota_hero_nyx_assassin_t6_name"		"-「~ فونبغبى」_-"
+		"npc_dota_hero_nyx_assassin_t2"		"Улучшает - Удар<br><br> Добавляет 4 дополнительных удара по всем целям."
+		"npc_dota_hero_nyx_assassin_t3"		"Улучшает - Энергетическая Волна<br><br> Добавляет дополнительный урон по формуле - ловкость * 2."
+		"npc_dota_hero_nyx_assassin_t4"		"Улучшает - Медистация<br><br> Изменяет тип наносимого урона на Чистый, добавляет множитель урона по формуле - базовый урон + ловкость * 2"
+		"npc_dota_hero_nyx_assassin_t5"		"Улучшает - Медистация<br><br> Увеличивает длительность способности до 30 секунд."
+		"npc_dota_hero_nyx_assassin_t6"		"Улучшает - Удар<br><br> Убирает перезарядку."
+
+		"npc_dota_hero_void_spirit_t2_name"		"-「للامبابؤ」_-"
+		"npc_dota_hero_void_spirit_t3_name"		"-「ئ فبن ؤ توبق」_-"
+		"npc_dota_hero_void_spirit_t4_name"		"-「برفان قبغ صلاه للانبا بؤس」_-"
+		"npc_dota_hero_void_spirit_t5_name"		"-「لاملا غقثض لفغلا」_-"
+		"npc_dota_hero_void_spirit_t6_name"		"-「بغلارف منئ للامباتي」_-"
+		"npc_dota_hero_void_spirit_t2"		"Улучшает - Звёздный Хекс<br><br> Увеличивает длительность способности до 12."
+		"npc_dota_hero_void_spirit_t3"		"Улучшает - Рауджный Луч<br><br> Увеличивает отхил в 5 раз."
+		"npc_dota_hero_void_spirit_t4"		"Улучшает - Звездопад<br><br> Добавляет дополнительный урон по формуле - интеллект * 1.5. "
+		"npc_dota_hero_void_spirit_t5"		"Улучшает - Звездопад<br><br> Увеличивает отхил в 5 раз."
+		"npc_dota_hero_void_spirit_t6"		"Улучшает - Звездопад<br><br> Теперь предметы на увеличение урона от заклинаний будут работать на данную способность."
+
+
 
 
 		"t1_name" 	"-_RISE OF A HERO_-"
@@ -5608,6 +5645,7 @@
 	"mmr"				"Рейтинг"
 	"gu_coins"				"Gu-coins"
 	"pray_coin"				"Молитвы"
+	"stellar_shine"			"Свободный Звёздный Блеск"
 
 		"gu_ActivatedRune" "{player_name} подобрал руну {rune_name}"
 		"item_custom_universe_rune_lvlup" "Прозрение"
@@ -5685,28 +5723,28 @@
 		"DOTA_Tooltip_ability_item_gu_maelstrom_5_bonus_as"								"+к скорости атаки:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir"										"Ядро Погоды"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_Description"							"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
 		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_damage"							"+к урону:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_as"								"+к скорости атаки:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2"									"Ядро Погоды 2"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"							"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_damage"							"+к урону:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_as"								"+к скорости атаки:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3"									"Ядро Погоды 3"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек"
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"							"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"							"+к урону:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"								"+к скорости атаки:"
 
 
  		"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"						"Ядро Погоды Щит"
 
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"									"Рецепт Cuirasse of Universe"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"									"Рецепт <font color='#fc0303'>Не работает в прологе, при битве с боссом(мировым) а также в концовке игры!</font>asse of Universe"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Уникальный предмет, который можно получить, убив босса Повелитель Вселенной<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"									"Cuirasse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n <h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n  <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"+к урону:"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"+к скорости атаки:"
 
@@ -6424,7 +6462,7 @@
 		"DOTA_Tooltip_modifier_biyao_4_aura_buff_Description"		"Востанавливает +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% здоровья а также +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% маны"
 
 		"DOTA_Tooltip_ability_biyao_5" 				"Магия Воскрешения"
-		"DOTA_Tooltip_ability_biyao_5_Description" 	"При активации с шансом в 50% может воскресить любого союзника в любой точке карты, а так-же с шансом в %chanse_bkb%%% наложить на него эффект неуязвимости к магии на %duration_buff% секунд. Перезарядка способности фиксирована и составляет - 90 секунд. Если шанс на воскрешение не сработал то способность уйдёт на перезарядку в 20 секунд."
+		"DOTA_Tooltip_ability_biyao_5_Description" 	"При активации с шансом в 50% может воскресить любого союзника в любой точке карты, а так-же с шансом в %chanse_bkb%%% наложить на него эффект неуязвимости к магии на %duration_buff% секунд. Перезарядка способности фиксирована и составляет - 90 секунд. Если шанс на воскрешение не сработал то способность уйдёт на перезарядку в 20 секунд. <br><br><font color='#fc0303'>При воскрешении союзников в битве с боссом, не изменит кол-во смертей до поражения!</font>"
 
 		"npc_dota_hero_dawnbreaker"					"Выбери Героя"
 		"npc_dota_hero_wisp"						"Mote of Energy"
@@ -6622,6 +6660,10 @@
 			"DOTA_Tooltip_ability_gu_ascension_ability"					"Вознесение"
 			"DOTA_Tooltip_ability_gu_ascension_ability_description"		"Открывает меню вознесения персонажа."
 			"DOTA_Tooltip_rune_fire_on_hit"								"Вы горите!"
+
+			"DOTA_Tooltip_modifier_manolator" 				"Магическая Коса"
+
+
 
 }	
 

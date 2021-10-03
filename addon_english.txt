@@ -3400,7 +3400,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
 		"DOTA_Tooltip_ability_item_butterfly_cu_4"                                       "Cursed phantom blade"
-        "DOTA_Tooltip_ability_item_butterfly_cu_4_Description"                           	"<h1>Teleport</h1>Allows to teleport on short distances.\n<h1>Passive: Cursed stone</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %bonus_attack_speed%."
+        "DOTA_Tooltip_ability_item_butterfly_cu_4_Description"                           	"<h1>Teleport</h1>Allows to teleport on short distances.\n<h1>Passive: Cursed stone</h1>Decreases base attack time to %base_attack_time% and increases attack speed by %bonus_attack_speed%. \n <font color='#c2133f'>Warning! If item doesn't reduce attack time, drop and pick it up several times!</font>"
         "DOTA_Tooltip_ability_item_butterfly_cu_4_bonus_damage"                             	"Damage:"
         "DOTA_Tooltip_ability_item_butterfly_cu_4_bonus_agility"                            	"Agility:"
         "DOTA_Tooltip_ability_item_butterfly_cu_4_bonus_evasion"                            	"Evasion:"
@@ -3895,34 +3895,34 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 /// К Н И Г И ///
 
 
-  "DOTA_Tooltip_ability_item_book_of_stats" "Cosmic book"
- "DOTA_Tooltip_ability_item_book_of_stats_Description" "Improves heroes' stats based on the current round. Grants strength, intelligence and agility." 
+"DOTA_Tooltip_ability_item_book_of_stats" "Cosmic book"
+"DOTA_Tooltip_ability_item_book_of_stats_Description" "Improves heroes' stats based on the current round. Grants strength, intelligence and agility." 
  
  
  "DOTA_Tooltip_ability_item_book2_all" "Cosmic book"
- "DOTA_Tooltip_ability_item_book2_all_agi_gain" "Improves heroes' stats based on the current round. Grants strength, intelligence and agility."
+ "DOTA_Tooltip_ability_item_book2_all_Description" "Improves heroes' stats based on the current round. Grants strength, intelligence and agility."
  
  
  "DOTA_Tooltip_ability_item_book_of_stats_immortality" "Book of the abyss"
- "DOTA_Tooltip_ability_item_book_of_stats_immortality_Description" "Grants 30 stats. <font color='#7ee340'>Can be shared with an ally!</font>." 
+ "DOTA_Tooltip_ability_item_book_of_stats_immortality_Description" "Grants 100 stats. <font color='#7ee340'>Can be shared with an ally!</font>." 
   
  "DOTA_Tooltip_ability_item_book_str" "Book of the might"
- "DOTA_Tooltip_ability_item_book_str_bonus_str" "Grants strength based on the current wave."
+ "DOTA_Tooltip_ability_item_book_str_Description" "Grants strength based on the current wave."
  
  "DOTA_Tooltip_ability_item_book2_strength" "Book of the might"
  "DOTA_Tooltip_ability_item_book2_strength_Description" "Grants strength based on the current wave."
  
  "DOTA_Tooltip_ability_item_book_int" "Book of the wisdom"
- "DOTA_Tooltip_ability_item_book_int_bonus_str" "Grants intelligence based on the current wave."
+ "DOTA_Tooltip_ability_item_book_int_Description" "Grants intelligence based on the current wave."
  
  "DOTA_Tooltip_ability_item_book2_inteligence" "Book of the wisdom"
- "DOTA_Tooltip_ability_item_book2_inteligence_int_gain" "Grants intelligence based on the current wave."
+ "DOTA_Tooltip_ability_item_book2_inteligence_Description" "Grants intelligence based on the current wave."
  
  "DOTA_Tooltip_ability_item_book_ag" "Book of the alacrity"
- "DOTA_Tooltip_ability_item_book_ag_bonus_str" "Grants agility based on the current wave."
+ "DOTA_Tooltip_ability_item_book_ag_Description" "Grants agility based on the current wave."
  
   "DOTA_Tooltip_ability_item_book2_agility" "Book of the alacrity"
-  "DOTA_Tooltip_ability_item_book2_agility_agi_gain" "Grants agility based on the current wave."
+  "DOTA_Tooltip_ability_item_book2_agility_Description" "Grants agility based on the current wave."
 
 
 
@@ -7403,7 +7403,46 @@ If you have duplicate characters (opened in game, bought in shop or got through 
 		"andromeda_repli_38" "You failed to protect me from the Invaders! But I have the technology of resurrection, in order to improve it, use the artifact «Galaxy Shatter»"
 		"andromeda_repli_39" "But all the same, I ask you VERY MUCH do not allow my death, my life force is not unlimited."
 
+		"DOTA_Tooltip_modifier_solwave" 				"Energy instability"
 
+
+			"ascension_text"					"Ascension"
+			"ascension_text_des"				"Choose your path! Each time you complete the game there is a chance to get FREE Star Gleam! You can use to upgrade characters' different stats, these upgrades are saved inbetween games and is induvidual for each hero! You have chance to get a duplicate of current after reaching maximal ascension level. Only 5 duplicates for each character can be obtained this way. 31st level of any ascension is required for 4★ characters, for 5★ - 61, 3★ characters don't get duplicates for clear reasons."
+
+			"ascension_coin"					"Free Star Gleam"
+			"rune_magic"						"Path: Magic"
+			"rune_vampire"						"Path: Madness"
+			"rune_earch"						"Path: Nature"
+			"rune_fire"							"Path: Fire"
+			"rune_mystic"						"Path: Mysticism"
+
+			"rune_magic_des"						"This path is chosen by those who can truly give their all to understanding Magic of this world. <br> After the first upgrade character learns knowledge of Asuran race, ancient Archmages, and much more. <br><br> First upgrade bonus:<br> Grants a new passive ability, which can instantly recharge any ability with a certain chance.<br> Grants ability to replenish mana based on dealt damage."
+			"rune_vampire_des"						"You will learn to control an ancient curse to your benefit. <br> After the first upgrade character learns Tok'ra race forbidden knowledge. <br> Grants a new passive ability - the lower hero's health, the higher its attack damage and speed. <br> Grants a new passive ability - when health drops below 10%, character can fall into rage and get magical immunity for some time and bonus attack damage based on hero's maximal health."
+			"rune_earch_des"						"You thoroughly study natural properties of your body and learn to control them. <br> After the first upgrade character learns medical knowledge of Nox race.<br> Grants a new passive ability - can rise from the dead with a certain chance. <br> Grants a new passive ability - can move move back in time and avoid any attack or ability during receiving damage."
+			"rune_fire_des"							"You study recently found weapon and learn to use it. <br> After the first upgrade character learns Ursini race weaponry knowledge. <br> Grants a new passive ability - allows to ignite any target with attacks, burn damage is % dependant on your attack damage.<br> Grants a new passive ability - Fire Guard, there is a certaon chance that attacker will be ignited."
+			"rune_mystic_des"						"Long forgotten secret knowledge of different races, who knows what they hide? <br> After the first upgrade character learns knowldge of different races which allow spotting weak points.<br> Grants a new passive ability - deal critical damage with a 17% chance<br> Grants a new passive ability - there is a certain chance that you will replenish your health based on dealt critical damage."
+
+			"pick_ascension_button"					"Upgrade!"
+			"pick_ascension_button_back"			"< Back"
+
+			"rune_magic_bonus_1"					"Instant refresh chance: "
+			"rune_magic_bonus_2"					"Mana replenishment from damage: "
+
+			"rune_vampire_bonus_1"					"Damage from missing health: "
+			"rune_vampire_bonus_2"					"Rage duration: "
+
+			"rune_earch_bonus_1"					"Resurrection chance: "
+			"rune_earch_bonus_2"					"Dodge chance: "
+
+			"rune_fire_bonus_1"						"Damage correlation: "
+			"rune_fire_bonus_2"						"Ignition chance: "
+
+			"rune_mystic_bonus_1"					"Critical damage: "
+			"rune_mystic_bonus_2"					"Replenishment chance: "
+
+			"DOTA_Tooltip_ability_gu_ascension_ability"					"Ascension"
+			"DOTA_Tooltip_ability_gu_ascension_ability_description"		"Opens character's ascension menu."
+			"DOTA_Tooltip_rune_fire_on_hit"								"You are on fire!"
 
 
 
