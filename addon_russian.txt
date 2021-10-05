@@ -82,15 +82,12 @@
 	Команды чата:
 	-w изменяет текужую погоду на рандомную
 	-rune спавнит на всех спотах новые руны
-	-a10 заставляет прилететь союзную авиаподдержку.
 	-пик любого героя посредством отправки его названия в чат
 	пример - npc_dota_hero_abaddon
 	
 	Скорость набора врат равна 300%
 	
-	Возможность пика любого даже заблокированного героя
-	
-	Вы можете воспроизвести любое видео отправив ссылку на него в игровой чат."
+	Возможность пика любого даже заблокированного героя "
 
 	"P:Ori" "<font color='#E6DA1A'>Ori</font>"
 	"P:Asgard" "<font color='#9F1AE6'>Asgard</font>"
@@ -98,28 +95,24 @@
 	"P:Wraith" "<font color='#0678F1'>Wraith</font>"
 	"P:Goauld" "<font color='#F1068D'>Goa'uld</font>"
 	"P:Tauri" "<font color='#41DC88'>Tau'ri</font>"
+	"P:Jaffa" "<font color='#29AFF7'>Jaffa</font>"
 	
 
-	"jaffa_desc"      "Вы проявили активность в дискорде проекта, ваши преимущества:
-
+	"P:Jaffa_desc"      "Вы проявили активность в дискорде проекта, ваши преимущества:
+	Вы получаете в 1.2 раза больше ММР за каждую волну
 	Команды чата:
-	-w изменяет текужую погоду на рандомную
+	-kill моментально убивает вас.
+	-sr аналог кнопки начать волну.
+	-zoom x, где х (300 - 1800), устанавливает дальность камеры игрока"
 
-	Вы можете воспроизвести любое видео отправив ссылку на него в игровой чат."
-
-	"tau_desc"      "Вы проявили активность в дискорде проекта, ваши преимущества:
-
+	"P:Ori"      		"Вы поддержали проект на самую большую сумму, ваши преимущества:
+	Вы получаете в 3 раза больше ММР за каждую волну,
+	Каждый  сяц вы получаете 90 бесплатных Молитв.
 	Команды чата:
-	-w изменяет текужую погоду на рандомную
-	
-	Вы можете воспроизвести любое видео отправив ссылку на него в игровой чат."
-
-	"tester_desc"      "Вы тестер проекта проекта, ваши преимущества:
-
-	Команды чата:
-	-w изменяет текужую погоду на рандомную
-	
-	Вы можете воспроизвести любое видео отправив ссылку на него в игровой чат."
+	-kill моментально убивает вас.
+	-sr аналог кнопки начать волну.
+	-w сменить погоду на случайную.
+	-zoom x, где х (300 - 1800), устанавливает дальность камеры игрока"
 
 
 	/// Ф А З А  П И К А ///
@@ -1005,11 +998,8 @@
 		"DOTA_Tooltip_ability_madokaruler_tick_rate"											"Интервал:"
 		
 		"DOTA_Tooltip_ability_madokalunhui"												"Манифестация"
-		"DOTA_Tooltip_ability_madokalunhui_Description"										"Эволюция формы волшебницы Мадоки. За каждое использование способностей которые тратят более 150 маны, даёт дополнительную дальность атаки, дальность атаки и регенерацию здоровья. Стаки пропадают при смерти."
-		"DOTA_Tooltip_ability_madokalunhui_Lore"											""
-		"DOTA_Tooltip_ability_madokalunhui_radius"											"Радиус получения:"
-        "DOTA_Tooltip_ability_madokalunhui_mana"											"Восстановление здоровья:"
-		"DOTA_Tooltip_ability_madokalunhui_rage"											"Рейдж:"
+		"DOTA_Tooltip_ability_madokalunhui_Description"										"Эволюция формы волшебницы Мадоки. За каждое использование способностей которые тратят более 150 маны, даёт дополнительную дальность атаки, дальность каста способностей и регенерацию здоровья. Стаки пропадают при смерти."
+        "DOTA_Tooltip_ability_madokalunhui_hp"												"Восстановление здоровья:"
 		"DOTA_Tooltip_ability_madokalunhui_attack"											"Дополнительная дальность атаки:"
 		"DOTA_Tooltip_ability_madokalunhui_madokamax"										"Максимум стаков:"
 
@@ -1396,67 +1386,7 @@
 
 		"DOTA_Tooltip_ability_ability_thdots_cirno04"                                     	"<font color='#0077ff'>Snow breaks「Diamond Blizzard」</font>"
 		"DOTA_Tooltip_ability_ability_thdots_cirno04_Description"                        	"Сырно быстро кружится, вызывая великий шторм с радиусом 300 и длительностью 7 секунд. Шторм наносит Урон каждую секунду снижая скорость передвижения противников. Когда противник получает Урон от шторма 5 раз, он будет заморожен, пока шторм не закончится (замороженые противники неуязвимы). Если замороженный противник находится в зоне ледяной земли, противник получит Урон, после освобождения от льда."
-		
- 
- 
-
-		"npc_dota_hero_warlock"						"Origami Tobiichi"
-
-		"DOTA_Tooltip_ability_origami_sun"									"Шемеш: Солнце"
-		"DOTA_Tooltip_ability_origami_sun_Description"							"Cоздание огромного количества частиц света, которые мощной лавиной обрушиваются на противника, уничтожая и стирая целые улицы, дома и кварталы.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origami_sun_launcher_damage"							"Урон:"
-
-		"DOTA_Tooltip_ability_origami_sun_sword"							"Кадур: Меч света"
-		"DOTA_Tooltip_ability_origami_sun_sword_Description"					"Атака множеством энергетических лучей по противнику.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origami_sun_sword_damage"								"Урон:"
-		"DOTA_Tooltip_ability_origami_sun_sword_hero_attack_damage_reduction"		"Уничтожение вооружения врага:"
-		"DOTA_Tooltip_ability_origami_sun_sword_radius"								"Радиус поражения:"
-
-		"DOTA_Tooltip_ability_origami_wings" 								"Малакх: Небесные крылья"
-		"DOTA_Tooltip_ability_origami_wings_Description" 						"Создание подобия крыльев, благодаря чему можно летать намного быстрее, чем обычные духи.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origami_wings_fixed_duration" 						"Длительность:"
-
-		"DOTA_Tooltip_ability_origami_spirit" 								"Форма Духа"
-		"DOTA_Tooltip_ability_origami_spirit_Description" 						"Находясь в форме духа Оригами обладает полем, наносящим Урон всех врагам в радиусе 500, после каждого использования заклинаний.<br>Тип арона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origami_spirit_damage" 								"базовый урон:"
-		"DOTA_Tooltip_ability_origami_spirit_radius" 								"Радиус:"
-
-		"DOTA_Tooltip_ability_origami_ylti" 								"Артелиф: Коронная пушка"
-		"DOTA_Tooltip_ability_origami_ylti_Description" 						"Сильнейшая атака, создающая энергетическую воронку, генерирующую сверхмощную энергию света.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origami_ylti_damage" 									"Урон:"
-
-		"DOTA_Tooltip_ability_origami_block" 								"Безымянное оборонительное формирование"
-		"DOTA_Tooltip_ability_origami_block_Description" 						"Объединив столбы, Оригами может использовать свой мерцающий свет, чтобы создать барьер, который блокирует входящие атаки."
-		"DOTA_Tooltip_ability_origami_block_damage_block"							"Блокированный Урон:"
-		
-		"DOTA_Tooltip_modifier_origami_wings" 								"Малакх: Небесные крылья"
-
-		"DOTA_Tooltip_ability_origami_inverse" 								"Форма Инверсии"
-		"DOTA_Tooltip_ability_origami_inverse_Description" 					"Оригами, узнав, что это она убила родителей, вошла в инверсию, которая, по словам Уэсткотта, является истинной формой духов в их измерении. Она получает «Сатану», более темную и зловещую версию «Метатрона». Ее Астральное Одеяние становится мрачным и более откровенным. На голове у нее темная вуаль.<br>Тип Урона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origami_inverse_str" 								"Интеллект:" 
-		"DOTA_Tooltip_ability_origami_inverse_duration" 						"Длительность:"
-		"DOTA_Tooltip_ability_origami_inverse_damage" 							"Урон:"
-
-
-		"DOTA_Tooltip_ability_origamiinverse_aura" 							"Разрушительная аура"
-		"DOTA_Tooltip_ability_origamiinverse_aura_Description" 					"Оригами испускает вокруг себя мощную тёмную ауру, которая подавляет волю противников, а также создаёт поле мощной гравитации вокруг себя и всё разрушает.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origamiinverse_aura_radius" 							"Радиус:"
-
-		"DOTA_Tooltip_ability_origamiinverse_hit" 							"Энергетические атаки"
-		"DOTA_Tooltip_ability_origamiinverse_hit_Description" 					"Формирует энергетические атаки произвольной формы, состоящие из концентрированной тёмной энергии.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origamiinverse_hit_damage" 						"Урон:"
-
-		"DOTA_Tooltip_ability_origamiinvese_rain" 							"Тёмный дождь"
-		"DOTA_Tooltip_ability_origamiinvese_rain_Description" 					"Создание подобия дождя из темного света, закрывающего собой все небо, способного стирать с лица земли целые города.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
-		"DOTA_Tooltip_ability_origamiinvese_rain_radius" 							"Радиус:"
-		"DOTA_Tooltip_ability_origamiinvese_rain_duration" 							"Длительность:"
-		"DOTA_Tooltip_ability_origamiinvese_rain_damage" 							"Урон:"
-		"DOTA_Tooltip_ability_origamiinvese_rain_strike_interval" 					"Интервал ударов:"
-
-
-
-
- 
+	
 		"npc_dota_hero_lich"											"Emilia"
 
 		"DOTA_Tooltip_ability_emilia_shoots"													"Ледяные стрелы"
@@ -2350,7 +2280,6 @@
 		"DOTA_Tooltip_ability_bvo_orihime_skill_2" "Щит"
 		"DOTA_Tooltip_ability_bvo_orihime_skill_2_Description" "Дает щит союзинку  который блокирует Урон от базового значения+ значение интеллекта."
 		"DOTA_Tooltip_ability_bvo_orihime_skill_2_damage_block" "Блок Урона: 1x Инты +"
-		"DOTA_Tooltip_bvo_orihime_skill_2_modifier" "щит"
 
 		"DOTA_Tooltip_ability_bvo_orihime_skill_3" "Лечение"
 		"DOTA_Tooltip_ability_bvo_orihime_skill_3_Description" "Ониме тянка начинает востанавливать здоровье и ману выбранному союзнику в зависимости от своего интеллекта ."
@@ -3487,6 +3416,10 @@
 		"DOTA_Tooltip_Ability_item_gu_desolator_4"						"Дезолятор 4"
 		"DOTA_Tooltip_Ability_item_gu_desolator_4_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor%% на 15 секунд."
 		"DOTA_Tooltip_Ability_item_gu_desolator_4_bonus_damage"			"+к урону "
+
+		"DOTA_Tooltip_Ability_item_gu_desolator_5"						"Дезолятор 5"
+		"DOTA_Tooltip_Ability_item_gu_desolator_5_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor%% на 15 секунд."
+		"DOTA_Tooltip_Ability_item_gu_desolator_5_bonus_damage"			"+к урону "
 		
 		"DOTA_Tooltip_item_gu_desolator_passive_debuff"						"Аннигиляция"
 		"DOTA_Tooltip_item_gu_desolator_passive_debuff_Description"			"Броня уменьшена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
@@ -4549,8 +4482,12 @@
 		"global_race_rang" "Общая Статистика"
         "race_help" "Повышение ранга расы происходит следующим образом:<br><br>
             -Игрок может повышать ранг только выбранной им расы.<br><br>
-            -Начисление рейтинга работает по формуле (номер волны * сложность / 2) но не более 100 ММР за раунд.<br><br>
-            -Один уровень расы - 1000 ММР.<br><br>
+            -Базовые значения прибавки рейтинга расе:<br>
+Сложность: Легко - 1% от всего накопленного рейтинга<br>
+Сложность: Стандарт - 3% от всего накопленного рейтинга<br>
+Сложность: Сложно - 12% от всего накопленного рейтинга<br>
+Сложность: Абсурдно - 25% от всего накопленного рейтинга.<br><br>
+            -Один уровень расы - 10000 ММР.<br><br>
             -Расовый ММР - глобальный. То есть, на повышение ранга расы влияют все игроки."
 
 		"boss_round_kd" "Боссы станут доступны после прохождения 7 волны!"
@@ -5467,7 +5404,7 @@
 		"npc_dota_hero_nyx_assassin_t3"		"Улучшает - Энергетическая Волна<br><br> Добавляет дополнительный урон по формуле - ловкость * 2."
 		"npc_dota_hero_nyx_assassin_t4"		"Улучшает - Медистация<br><br> Изменяет тип наносимого урона на Чистый, добавляет множитель урона по формуле - базовый урон + ловкость * 2"
 		"npc_dota_hero_nyx_assassin_t5"		"Улучшает - Медистация<br><br> Увеличивает длительность способности до 30 секунд."
-		"npc_dota_hero_nyx_assassin_t6"		"Улучшает - Удар<br><br> Убирает перезарядку."
+		"npc_dota_hero_nyx_assassin_t6"		"Улучшает - Удар<br><br> Уменьшает перезарядку до 1.5 секунд."
 
 		"npc_dota_hero_void_spirit_t2_name"		"-「للامبابؤ」_-"
 		"npc_dota_hero_void_spirit_t3_name"		"-「ئ فبن ؤ توبق」_-"
@@ -5479,6 +5416,17 @@
 		"npc_dota_hero_void_spirit_t4"		"Улучшает - Звездопад<br><br> Добавляет дополнительный урон по формуле - интеллект * 1.5. "
 		"npc_dota_hero_void_spirit_t5"		"Улучшает - Звездопад<br><br> Увеличивает отхил в 5 раз."
 		"npc_dota_hero_void_spirit_t6"		"Улучшает - Звездопад<br><br> Теперь предметы на увеличение урона от заклинаний будут работать на данную способность."
+
+		"npc_dota_hero_warlock_t2_name"		"-「Кадур: Меч света」_-"
+		"npc_dota_hero_warlock_t3_name"		"-「Шемеш: Солнце」_-"
+		"npc_dota_hero_warlock_t4_name"		"-「Малакх: Небесные крылья」_-"
+		"npc_dota_hero_warlock_t5_name"		"-「Ангельская Защита」_-"
+		"npc_dota_hero_warlock_t6_name"		"-「Kyuusei Maou」_-"
+		"npc_dota_hero_warlock_t2"		"Улучшает - <font color='#E5C91D'>「光剣」</font><br><br> Добавляет дополнительный урон по формуле - интеллект * 1.5."
+		"npc_dota_hero_warlock_t3"		"Улучшает - <font color='#E5C91D'>「Shemesh: Sun」</font><br><br> Добавляет дополнительный урон по формуле - интеллект * 1.5."
+		"npc_dota_hero_warlock_t4"		"Улучшает - <font color='#E5C91D'>「Malach: Heavenly Wings」</font><br><br> Убирает перезарядку."
+		"npc_dota_hero_warlock_t5"		"Улучшает - <font color='#E5C91D'>「Nameless Defensive Formation」</font><br><br> Добавляет дополнительный заблокированный урон по формуле - базовый блок + интеллект * 2."
+		"npc_dota_hero_warlock_t6"		"Улучшает - Персонажа<br><br> Добавляет новую способность - <font color='#9629F7'>「Demon King: Satan 」</font>"
 
 
 
@@ -5954,7 +5902,7 @@
 		"DOTA_Tooltip_ability_item_gu_wave_12"									"Снаряд: Поражение"
 		"DOTA_Tooltip_ability_item_gu_wave_12_Description"						"<h1>Активная: Обездвиживание </h1> Запускает в героя снаряд который при попадании заставит получать на 100% больше урона от любого сущеста на %min_duration% до %max_duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
 		"DOTA_Tooltip_modifier_item_gu_wave_12"									"Снаряд: Поражение"
-		"DOTA_Tooltip_modifier_item_gu_wave_12_Description"						"Увеличивает весь входящий урон на 500%"
+		"DOTA_Tooltip_modifier_item_gu_wave_12_Description"						"Увеличивает весь входящий урон на 100%"
 
 		"DOTA_Tooltip_ability_item_gu_wave_13"									"Снаряд: Слизь"
 		"DOTA_Tooltip_ability_item_gu_wave_13_Description"						"<h1>Активная: Окутывание Слизью </h1> Запускает в героя снаряд который при попадании уменьшит скорость атаки на 1000% от %min_duration% до %max_duration% сек,  перезарядка %cd%\n <h1><font color='#ff1778'>Способность захватчика </font></h1> Значение зависят от сложности."
@@ -6634,7 +6582,7 @@
 			"rune_mystic"						"Путь: Мистика"
 
 			"rune_magic_des"						"Данный путь предназначен для тех кто действительно готов отдать себя познанию Магии этого мира. <br> При первой прокачке наделяет персонажа знаниями расы Асуран, вы учитесь у древних Архимагов и узнаёте много нового. <br><br> Бонус при первой прокачке:<br> Наделяет персонажа пассивной способность - возможность моментально перезарядить любую способность с некоторым шансом.<br> Добавляет возможность восстанавливать часть маны в зависимости от нанесённого урона."
-			"rune_vampire_des"						"Древнее проклятие которое вы научитесь контролировать. <br> При первой прокачке наделяет персонажа знаниями Ток'ра в запретной области. <br> Наделяет персонажа пассивной способностью - чем ниже здоровье персонажа, тем выше его урон и скорость атаки. <br> Наделяет персонажа пассивной способностью - при достижении менее 10% здоровья, может впасть в ярость и получить неуязвимость к магии на некоторое время а так-же бонусный урон который зависит от текущего максимального здоровья персонажа."
+			"rune_vampire_des"						"Древнее проклятие которое вы научитесь контролировать. <br> При первой прокачке наделяет персонажа знаниями Ток'ра в запретной области. <br> Наделяет персонажа пассивной способностью - чем ниже здоровье персонажа, тем выше его урон и скорость атаки. <br> Наделяет персонажа пассивной способностью - при достижении менее 10% здоровья, может впасть в ярость и получить неуязвимость к магии на некоторое время."
 			"rune_earch_des"						"Вы углублённо изучаете природные свойства своего тела, и учитесь ими управлять. <br> При первой прокачке наделяет персонажа знаниями расы Нокс в области лечения.<br> Наделяет персонажа пассивной способностью - может воскреснуть с некоторым с некоторым шансом. <br> Наделяет персонажа пассивной способностью - при получении урона, может вернутся во времени назад и уклонится от любой атаки либо способности."
 			"rune_fire_des"							"Вы изучаете найденное оружие и учитесь им пользоваться. <br> При первой прокачке наделяет персонажа знаниями расы Урсини в области вооружения. <br> Наделяет персонажа пассивной способностью - поджигать любую цель авто атаками, горение будет наносить урон в % от вашей атаки.<br> Наделяет персонажа пассивной способностью - Огненная Защита, с некоторым шансом может поджечь врага который вас атакует."
 			"rune_mystic_des"						"Давно забытые тайные знания различных рас, кто же знает что они скрывают? <br> При первой прокачке наделяет персонажа знаниями различных рас в области нахождения слабых мест.<br> Наделяет персонажа пассивной способностью - наносить пассивные критические удары с шансом в 17%<br> Наделяет персонажа пассивной способностью - с некоторым шансом может востановить здоровье в зависимости от нанесённого критического урона."
@@ -6662,6 +6610,113 @@
 			"DOTA_Tooltip_rune_fire_on_hit"								"Вы горите!"
 
 			"DOTA_Tooltip_modifier_manolator" 				"Магическая Коса"
+
+			"DOTA_Tooltip_modifier_t72_machine_gun_attack"  "12.7 ММ НСВТ"
+			"DOTA_Tooltip_modifier_t72_machine_gun_attack_description"		"Потребляет энергию, но наносит урон."
+
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_1"                     	"Пожиратель Душ"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_1_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_1_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_1_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_2"                     	"Пожиратель Душ 2"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_2_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_2_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_2_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_3"                     	"Пожиратель Душ 3"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_3_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_3_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_3_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_4"                     	"Пожиратель Душ 4"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_4_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_4_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_4_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_5"                     	"Пожиратель Душ 5"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_5_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_5_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_5_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6"                     	"Бессмертная Душа"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_7"                     	"Бессмертная Душа 2"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_7_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_7_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_7_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8"                     	"Бессмертная Душа 3"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8_status_res"			"Сопротивление Эффектам:"
+			
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_r"							"Рецепт Бессмертной Души"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_r_Description"				"Уникальный предмет, который можно получить, убив босса Фея<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+
+
+		"npc_dota_hero_warlock"												"Origami Tobiichi"
+
+		"DOTA_Tooltip_ability_origami_spirit" 								"<font color='#E5C91D'>「Zetsumetsu Tenshi」</font>"
+		"DOTA_Tooltip_ability_origami_spirit_Description" 					"Создаёт выбросы энергии в центре способности <font color='#E5C91D'>«「Artelif: Crown Cannon 」»</font>, с каждой секундой выбросы будут происходить всё чаще, наносит урон который зависит от вашего интеллекта * %damage%<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
+
+		"DOTA_Tooltip_ability_origami_sun_sword"							"<font color='#E5C91D'>「光剣」</font>"
+		"DOTA_Tooltip_ability_origami_sun_sword_Description"				"Выпускает энергетический луч, который отскакивает от врага к врагу в радиусе %radius%, наносит урон в размере %damage% а так же уменьшает наносимый урон врагов на %hero_attack_damage_reduction%. Интервал скачков - %jump_delay% <br> Тип урона: <font color='#00ff1e'>Ангельский</font>"
+
+		"DOTA_Tooltip_ability_origami_sun"									"<font color='#E5C91D'>「Shemesh: Sun」</font>"
+		"DOTA_Tooltip_ability_origami_sun_Description"						"Заряжает мощнейшую атаку, которая наносит урон в зависимости от времени заряда, дальность выстрела - %range%, урон завист от длительности применения, максимальный урон равен - %launcher_damage%   <br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_origami_sun_launcher_damage"					"Урон:"
+
+		"DOTA_Tooltip_ability_origami_wings" 								"<font color='#E5C91D'>「Malach: Heavenly Wings」</font>"
+		"DOTA_Tooltip_ability_origami_wings_Description" 					"Увеличивает скорость передвижения на %speed% а так же магической сопротивление на %mag_res%, при активации снимает все негативные эффекты, длительность %duration%."
+		"DOTA_Tooltip_modifier_origami_wings" 								"<font color='#E5C91D'>「Malach: Heavenly Wings」</font>"
+
+		"DOTA_Tooltip_ability_origami_block" 								"<font color='#E5C91D'>「Nameless Defensive Formation」</font>"
+		"DOTA_Tooltip_ability_origami_block_Description" 					"Создаёт защитное поле, вокруг выбранного существа, которое позволяет блокировать %damage_block% урона."
+		"DOTA_Tooltip_bvo_orihime_skill_2_modifier" 						"<font color='#E5C91D'>「Nameless Defensive Formation」</font>"
+		
+		"DOTA_Tooltip_ability_origami_ylti" 								"<font color='#E5C91D'>「Artelif: Crown Cannon」</font>"
+		"DOTA_Tooltip_ability_origami_ylti_Description" 						"Создаёт сферу искажения времени, в которой происходят разломы от способности <font color='#E5C91D'>「Zetsumetsu Tenshi」</font>, с каждой секундой разломы будут появлятся всё чаще и чаще, урон расчитывается по формуле - %damage% + 20% от интеллекта Оригами.<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
+
+		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「Demon King: Satan 」</font>"
+		"DOTA_Tooltip_ability_origami_inverse_Description" 					"Оригами получает Сатану — более темную и зловещую версию Метатрона, переходит в форму инверсии, получает дополнительный интеллект в размере %int%, а так же увеличивает весь магический урон на %spell_amp%%%"
+
+		"DOTA_Tooltip_modifier_origami_inverse_basic" 						"<font color='#9629F7'>「Demon King: Satan 」</font>"
+
+		"DOTA_Tooltip_ability_origamiinverse_aura" 							"<font color='#9629F7'>「Destructive aura」</font>"
+		"DOTA_Tooltip_ability_origamiinverse_aura_Description" 				"Создаёт огромную область тёмной материи, по истечению 5 секунд будет выбранна случайная цель в радиусе сферы, которая потеряет 80% своего здоровья.<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
+		"DOTA_Tooltip_ability_origamiinverse_aura_radius" 					"Радиус:"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1010,7 +1010,7 @@
 		"DOTA_Tooltip_ability_madokaruler_tick_rate"	"Interval:"
 		
 		DOTA_Tooltip_ability_madokalunhui"	"Manifestation"	
-		"DOTA_Tooltip_ability_madokalunhui_Description"	"Evolution of Madoka's magical girl form. Grants additional mana regeneration for every enemy killed. Grants additional attack range and regeneration. Stacks are lost on death."
+		"DOTA_Tooltip_ability_madokalunhui_Description"	"Evolution of Madoka's magical girl form. One stack is given for each casted spell, which costs 150 or more mana to cast. Grants additional attack range and health regeneration. Stacks are lost on death."
 		"DOTA_Tooltip_ability_madokalunhui_Lore"											""
 		"DOTA_Tooltip_ability_madokalunhui_radius"	"Gain radius:"
         "DOTA_Tooltip_ability_madokalunhui_mana"	"Mana regeneration:"
@@ -1410,61 +1410,6 @@
 
 
 "npc_dota_hero_warlock" "Tobiichi Origami"
-
-
-"DOTA_Tooltip_ability_origami_sun" "Shemesh: Sun"
-"DOTA_Tooltip_ability_origami_sun_Description" "Creates a huge amount of light particles that hit the enemy with a powerful avalanche, destroying and erasing entire streets, houses and neighborhoods.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origami_sun_launcher_damage" "Damage:"
-
-"DOTA_Tooltip_ability_origami_sun_sword" "Kadur: Sword of light"
-"DOTA_Tooltip_ability_origami_sun_sword_Description" "Attack an enemy with a huge amount of energy beams.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origami_sun_sword_damage" "Damage:"
-"DOTA_Tooltip_ability_origami_sun_sword_hero_attack_damage_reduction" "Destroying enemy weapons:"
-"DOTA_Tooltip_ability_origami_sun_sword_range" "Hit radius:"
-
-"DOTA_Tooltip_ability_origami_wings" "Malach: Heavenly wings"
-"DOTA_Tooltip_ability_origami_wings_Description" "Creates some kind of wings so that you can fly much faster than regular spirits.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origami_wings_fixed_duration" "Duration:"
-
-"DOTA_Tooltip_ability_origami_spirit" "Spirit shape"
-"DOTA_Tooltip_ability_origami_spirit_Description" "While in spirit form, Origami has a field that deals damage to all enemies within a 500 radius each time she uses her spells.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origami_spirit_damage" "Base damage:"
-"DOTA_Tooltip_ability_origami_spirit_radius" "Radius:"
-
-"DOTA_Tooltip_ability_origami_ylti" "Artelif: Crown cannon"
-"DOTA_Tooltip_ability_origami_ylti_Description" "A powerful attack that creates an energy vortex that generates super-powerful light energy.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origami_ylti_base_damage" "Damage:"
-
-"DOTA_Tooltip_ability_origami_block" "Nameless defensive formation"
-"DOTA_Tooltip_ability_origami_block_Description" "By combining the pillars, Origami can use her flickering light to create a barrier that can block incoming attacks."
-"DOTA_Tooltip_ability_origami_block_damage_block" "Damage blocked:"
-
-"DOTA_Tooltip_modifier_origami_wings" "Malach: Heavenly Wings"
-
-"DOTA_Tooltip_ability_origami_inverse" "Inversion Form"
-"DOTA_Tooltip_ability_origami_inverse_Description" "Origami, upon learning that it was she who killed her parents, entered an inversion, which Westcott says is the true form of spirits in their dimension.She receives Satan, a darker and more sinister version of Metatron. Her Astral Robe becomes darker and more revealing. She has a dark veil on her head.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origami_inverse_str" "Intelligence:"
-"DOTA_Tooltip_ability_origami_inverse_duration" "Duration:"
-"DOTA_Tooltip_ability_origami_inverse_damage" "Damage:"
-
-
-"DOTA_Tooltip_ability_origamiinverse_aura" "Destructive aura"
-"DOTA_Tooltip_ability_origamiinverse_aura_Description" "Origami emits a powerful dark aura around itself that suppresses opponents, creates a field of powerful gravity around itself and simply destroys everything around.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origamiinverse_aura_radius" "Radius:"
-
-"DOTA_Tooltip_ability_origamiinverse_hit" "Energy attacks"
-"DOTA_Tooltip_ability_origamiinverse_hit_Description" "The ability to generate freeform energy attacks consisting of concentrated dark energy.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origamiinverse_hit_damage" "Damage:"
-
-"DOTA_Tooltip_ability_origamiinvese_rain" "Dark rain"
-"DOTA_Tooltip_ability_origamiinvese_rain_Description" "Creates a kind of rain from dark light that covers the entire sky and can wipe entire cities of the face of the Earth.<br>Damage type: <font color='#00ff1e'>Angelic</font> "
-"DOTA_Tooltip_ability_origamiinvese_rain_range" "Radius:"
-"DOTA_Tooltip_ability_origamiinvese_rain_duration" "Duration:"
-"DOTA_Tooltip_ability_origamiinvese_rain_damage" "Damage:"
-"DOTA_Tooltip_ability_origamiinvese_rain_strike_interval" "Strike Interval:"
-
-
-
 
 
 "npc_dota_hero_lich" "Emilia"
@@ -2025,6 +1970,9 @@
 		
 		"DOTA_Tooltip_Ability_armor95"							"Dark Mantle"
 		"DOTA_Tooltip_Ability_armor95_Description"				"Defends its user, reducing any incoming damage by 95%"
+
+		"DOTA_Tooltip_Ability_gu_forestarmor"							"Sangomia"
+		"DOTA_Tooltip_Ability_gu_forestarmor_Description"				"Reduces all incoming damage by %absorb%%%  and also increases status resistance by %absorb_spell%%% , based on selected difficulty level."
  
  
  		"DOTA_Tooltip_ability_howlling_clone"	"Tear"
@@ -2348,7 +2296,7 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 	"DOTA_Tooltip_ability_ah_1_attack_damage_multi"									"Damage multiplier(with talent):"
 
         "DOTA_Tooltip_ability_t72_machine_gun_attack"												"12.7 mm NSVT"
-		"DOTA_Tooltip_ability_t72_machine_gun_attack_Description"									"If this ability is activated, then the T-72 fires all enemy units around it from a large-caliber machine gun, consuming mana every second.<br>Consumes 2 <font color='#f7a62d'>Energy</font> per 0.3 seconds."
+		"DOTA_Tooltip_ability_t72_machine_gun_attack_Description"									"If this ability is activated, then the T-72 fires all enemy units around it from a large-caliber machine gun, consuming mana every second.<br>Consumes 2 <font color='#f7a62d'>Energy</font> per each shot seconds."
         "DOTA_Tooltip_ability_t72_machine_gun_attack_radius"									"Radius:"
         "DOTA_Tooltip_ability_t72_machine_gun_attack_rocket_damage"									"Bullet damage:"
         "DOTA_Tooltip_ability_t72_machine_gun_attack_attack_mult"									"Launch speed:"
@@ -3487,7 +3435,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
  "DOTA_Tooltip_ability_item_blood_booster_bonus_health_regen" "Health regeneration:"
  "DOTA_Tooltip_ability_item_blood_booster_bonus_damage" "Damage:"
  "DOTA_Tooltip_ability_item_blood_booster_bonus_mana_regen" "Mana regeneration:"
- "DOTA_Tooltip_ability_item_blood_booster_lifesteal" "Lifesteal aura:"
  
  "DOTA_Tooltip_item_blood_booster_passive"													"Blood booster" 
  
@@ -4769,9 +4716,9 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "boss_drop_boss_1" "Items you will be able to recive if you win:"
 
 "DOTA_Tooltip_ability_item_gold" "Gold"
-"DOTA_Tooltip_ability_item_gold_Description" "Gives in-game gold."
+"DOTA_Tooltip_ability_item_gold_Description" "Gives in-game gold according to formula: current round number * 200."
 "DOTA_Tooltip_ability_item_xp" "Experience"
-"DOTA_Tooltip_ability_item_xp_Description" "Gives experience."
+"DOTA_Tooltip_ability_item_xp_Description" "Gives experience according to formula: current round number * 1000."
 "DOTA_Tooltip_ability_item_dark_point"					"Gu-Coins"
 "DOTA_Tooltip_ability_item_dark_point_Description"		"Gives GU-Coins."
 "DOTA_Tooltip_ability_item_primogem"					"Interwoven Fates"
@@ -6067,7 +6014,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_silencer_t2"		"Improves - MQ-9 Reaper<br><br> Increases Reaper's operation time to 90 seconds on all levels."
 		"npc_dota_hero_silencer_t3"		"Improves - MQ-9 Reaper<br><br> After 3rd round casting spell grants ability to call an air strike by Overlord at the target point."
 		"npc_dota_hero_silencer_t4"		"Improves - 9M37 AAMS<br><br> Reduces cooldown to 30 seconds."
-		"npc_dota_hero_silencer_t5"		"Improves - 9M37 AAMS<br><br> Increases burn damage 5 fold + adds strength multiplier, also increases burn duration 4 fold."
+		"npc_dota_hero_silencer_t5"		"Improves - 9M37 AAMS<br><br> Improves - 9M37 AAMS<br><br> Increases burn damage by 5 times + adds intelligence multiplier, also increases burn duration by 4 times."
 		"npc_dota_hero_silencer_t6"		"Improves - 9M37 AAMS<br><br> Increases total number of rockets to 12."
 
 
@@ -6126,9 +6073,61 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"npc_dota_hero_wisp_t5"		"Improves - Energy instability<br><br> Increases duration to 30 seconds and also removes cooldown."
 		"npc_dota_hero_wisp_t6"		"Improves - Sub-space energy<br><br> You have 80% chance to ignore any damage, attack and such while ability is active."
 
-		"npc_dota_hero_spirit_breaker_t4_name"		"-「Demon」_-"
-		"npc_dota_hero_spirit_breaker_t4"		"Improves - Demonic origin<br><br> Reduces mana drain to 1%."
-		"npc_dota_hero_spirit_breaker_t6"		"Improves - Demonic origin<br><br> Ability doesn't drain mana."
+		"npc_dota_hero_lina_t2_name"		"-「Discharge」_-"
+		"npc_dota_hero_lina_t3_name"		"-「Mind」_-"
+		"npc_dota_hero_lina_t4_name"		"-「Acknowledgement」_-"
+		"npc_dota_hero_lina_t5_name"		"-「Stability」_-"
+		"npc_dota_hero_lina_t6_name"		"-「Enslavement」_-"
+		"npc_dota_hero_lina_t2"		"Improves - Laguna<br><br> Each stack grants 4 times more damage."
+		"npc_dota_hero_lina_t3"		"Improves - Laguna<br><br> Adds bonus damage based on intelligenceа - base damage + intelligence * 1.5"
+		"npc_dota_hero_lina_t4"		"Improves - Laguna<br><br> Has Scepter of the Universe from the start of the game."
+		"npc_dota_hero_lina_t5"		"Improves - Unstable laguna<br><br> Reduces cooldown reduction to 60 seconds."
+		"npc_dota_hero_lina_t6"		"Improves - Unstable laguna<br><br> Damage is increased by 3 times, radius - 3000, discharge interval is always 0.3, numer of targets is increased to 40."
+
+		"npc_dota_hero_spirit_breaker_t2_name"		"-「Power strike」_-"
+		"npc_dota_hero_spirit_breaker_t3_name"		"-「Hellish wound」_-"
+		"npc_dota_hero_spirit_breaker_t4_name"		"-「Virus」_-"
+		"npc_dota_hero_spirit_breaker_t5_name"		"-「Frostbite」_-"
+		"npc_dota_hero_spirit_breaker_t6_name"		"-「Immunity」_-"
+		"npc_dota_hero_spirit_breaker_t2"		"Improves - Jump strikeе<br><br> Adds bonus damage according to formula = base damage + strength * 4."
+		"npc_dota_hero_spirit_breaker_t3"		"Improves - Al hyuuma<br><br> Changes damage type to pure and also deals bonus damage equal to 20% of current health to the main target"
+		"npc_dota_hero_spirit_breaker_t4"		"Improves - Demonic origin<br><br> Changes damage to pure and also reduces it to 5% of the maximal health."
+		"npc_dota_hero_spirit_breaker_t5"		"Improves - Al hyuuma<br><br> Ability deals bonus damage based on target's maximal health within 800 radius of it."
+		"npc_dota_hero_spirit_breaker_t6"		"Improves - Demonic origin<br><br> Ability no longer drains health."
+
+		"npc_dota_hero_vengefulspirit_t2_name"		"-「Sharpened knife」_-"
+		"npc_dota_hero_vengefulspirit_t3_name"		"-「Suply」_-"
+		"npc_dota_hero_vengefulspirit_t4_name"		"-「Time」_-"
+		"npc_dota_hero_vengefulspirit_t5_name"		"-「Rift」_-"
+		"npc_dota_hero_vengefulspirit_t6_name"		"-「Возврат」_-"
+		"npc_dota_hero_vengefulspirit_t2"		"Improves - Eternal Knife<br><br> Adds bonus damage according to formula = base damage + agility * 4."
+		"npc_dota_hero_vengefulspirit_t3"		"Improves - Killer Doll<br><br> Changes number of daggers to 100."
+		"npc_dota_hero_vengefulspirit_t4"		"Improves - Time Sign<br><br> Ability now recharges ultimate abilities. Reduces cooldown to 60 seconds."
+		"npc_dota_hero_vengefulspirit_t5"		"Improves - Time stop<br><br> Now ability deals damage to all enemy units in the area of effect, damage is based on Sakuya's agility."
+		"npc_dota_hero_vengefulspirit_t6"		"Improves - Eternal Knife<br><br> Hitting an enemy will instantly recharge the ability."
+
+
+		"npc_dota_hero_enchantress_t2_name"		"-「Deep frostbite」_-"
+		"npc_dota_hero_enchantress_t3_name"		"-「Popsicle」_-"
+		"npc_dota_hero_enchantress_t4_name"		"-「Frostbite」_-"
+		"npc_dota_hero_enchantress_t5_name"		"-「Blizzard」_-"
+		"npc_dota_hero_enchantress_t6_name"		"-「Cognition」_-"
+		"npc_dota_hero_enchantress_t2"		"Improves - Perfect Freeze<br><br> Now ability deals bonus damage of 30% of target's maximal health."
+		"npc_dota_hero_enchantress_t3"		"Improves - Ice Crusher<br><br> Increases stun duration by 2 times."
+		"npc_dota_hero_enchantress_t4"		"Improves - Icicle Fall<br><br> Adds bonus damage of 20% of target's maximal health."
+		"npc_dota_hero_enchantress_t5"		"Improves - Diamond Blizzard<br><br> Adds bonus damage equal to 5% of target's maximal health."
+		"npc_dota_hero_enchantress_t6"		"Improves - Ice Crusher<br><br> Removes cooldown."
+
+		"npc_dota_hero_skywrath_mage_t2_name"		"-「Back Up」_-"
+		"npc_dota_hero_skywrath_mage_t3_name"		"-「Excalibur」_-"
+		"npc_dota_hero_skywrath_mage_t4_name"		"-「Saving」_-"
+		"npc_dota_hero_skywrath_mage_t5_name"		"-「Upgrade Gun」_-"
+		"npc_dota_hero_skywrath_mage_t6_name"		"-「Invulnerability」_-"
+		"npc_dota_hero_skywrath_mage_t2"		"Improves - Back up<br><br> Removes cooldown."
+		"npc_dota_hero_skywrath_mage_t3"		"Improves - Excalibur<br><br> Removes cooldown."
+		"npc_dota_hero_skywrath_mage_t4"		"Improves - Gae Bulg<br><br> Removes mana cost."
+		"npc_dota_hero_skywrath_mage_t5"		"Improves - Five Gun<br><br> Removes cooldown."
+		"npc_dota_hero_skywrath_mage_t6"		"Improves - Rho Aias<br><br> Increases damage absorbtion by 4 times."
 
 		"t1_name" 	"-_RISE OF A HERO_-"
 		"t1_1" 	"Hero recieves bonuses to different stats, there are total of 20 levels. Current talent's level is based on the amount of dublicates of this hero.<br>
@@ -6296,6 +6295,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 	"mmr"				"Rating"
 	"gu_coins"				"Gu-coins"
 	"pray_coin"				"Prayers"
+	"stellar_shine"			"Free star gleam"
 
 		"gu_ActivatedRune" "{player_name} has picked up {rune_name}"
 		"item_custom_universe_rune_lvlup" "Enlighenment"
@@ -6791,7 +6791,7 @@ If you have several same characters (unlocked in-game, bought in the shop or won
 		"DOTA_Tooltip_modifier_biyao_4_aura_buff_Description"		"Constantly replenishes +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health and +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana"
 
 		"DOTA_Tooltip_ability_biyao_5" 				"Resurrection magic"
-		"DOTA_Tooltip_ability_biyao_5_Description" 	"On activation can bring any ally from the dead with 50% chance, and also apply magical immunity for %duration_buff% seconds with a %chanse_bkb%%% chance. Cooldown - %cd%, and static. If resurrection did not trigger, ability goes on cooldown of 20 seconds. Works globally"
+		"DOTA_Tooltip_ability_biyao_5_Description" 	"On activation can bring any ally from the dead with 50% chance, and also apply magical immunity for %duration_buff% seconds with a %chanse_bkb%%% chance. Cooldown - %cd%, and static. If resurrection did not trigger, ability goes on cooldown of 20 seconds. Works globally <br><br><font color='#fc0303'>Resurrecting allies during boss fight won't affect deaths-to-loss counter!</font>"
 
 		"npc_dota_hero_dawnbreaker"					"Pick a hero"
 		"npc_dota_hero_wisp"						"Mote of Energy"
@@ -7445,14 +7445,91 @@ If you have duplicate characters (opened in game, bought in shop or got through 
 			"DOTA_Tooltip_rune_fire_on_hit"								"You are on fire!"
 
 
+			"gu_chat_help"	"Global chat is updated every 30 seconds. <br><br> You can find mate for co-op games!<br><br> Rules:<br> Propaganda or agitation, which provokes social, racial, national or religious hate or conflict, are prohibited. Propaganda of social, racial, national, religious or linguistic supremacy is also prohibited. 
+			Any personal attacks(direct or indirect) towards administration and other players are also prohibited.<br> Any kind of advertisement is prohibited too!<br><br> Breaking these rules will lead to block in the chat! <br><br> Purpose of the chat:<br> You can send a link to any image or video  to chat and it will be able to be played by all users."
+					"gu_chat"       "Type in your message.. Max 300 symbols!"
+					"gu_chat_send"  "Message is sent!"
+					"open_chat"		"Chat"	
+
+			"DOTA_Tooltip_modifier_manolator" 				"Magical scythe"
+
+
+	"DOTA_Tooltip_ability_item_gu_lifesteal_1"                     	"Пожиратель Душ"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_1_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_1_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_1_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_2"                     	"Пожиратель Душ 2"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_2_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_2_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_2_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_3"                     	"Пожиратель Душ 3"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_3_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_3_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_3_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_4"                     	"Пожиратель Душ 4"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_4_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_4_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_4_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_5"                     	"Пожиратель Душ 5"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_5_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_5_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_5_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6"                     	"Бессмертная Душа"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_7"                     	"Бессмертная Душа 2"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_7_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_7_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_7_status_res"			"Сопротивление Эффектам:"
+
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8"                     	"Бессмертная Душа 3"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8_Description"			"<h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8_damage"				"Урон:"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8_status_res"			"Сопротивление Эффектам:"
+			
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_r"							"Рецепт Бессмертной Души"
+			"DOTA_Tooltip_ability_item_gu_lifesteal_6_r_Description"				"Уникальный предмет, который можно получить, убив босса Фея<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 
 
 
+		"npc_dota_hero_warlock"												"Origami Tobiichi"
 
+		"DOTA_Tooltip_ability_origami_spirit" 								"<font color='#E5C91D'>「Zetsumetsu Tenshi」</font>"
+		"DOTA_Tooltip_ability_origami_spirit_Description" 					"Создаёт выбросы энергии в центре способности <font color='#E5C91D'>«「Artelif: Crown Cannon 」»</font>, с каждой секундой выбросы будут происходить всё чаще, наносит урон который зависит от вашего интеллекта * %damage%<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
 
+		"DOTA_Tooltip_ability_origami_sun_sword"							"<font color='#E5C91D'>「光剣」</font>"
+		"DOTA_Tooltip_ability_origami_sun_sword_Description"				"Выпускает энергетический луч, который отскакивает от врага к врагу в радиусе %radius%, наносит урон в размере %damage% а так же уменьшает наносимый урон врагов на %hero_attack_damage_reduction%. Интервал скачков - %jump_delay% <br> Тип урона: <font color='#00ff1e'>Ангельский</font>"
 
+		"DOTA_Tooltip_ability_origami_sun"									"<font color='#E5C91D'>「Shemesh: Sun」</font>"
+		"DOTA_Tooltip_ability_origami_sun_Description"						"Заряжает мощнейшую атаку, которая наносит урон в зависимости от времени заряда, дальность выстрела - %range%, урон завист от длительности применения, максимальный урон равен - %launcher_damage%   <br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_origami_sun_launcher_damage"					"Урон:"
 
+		"DOTA_Tooltip_ability_origami_wings" 								"<font color='#E5C91D'>「Malach: Heavenly Wings」</font>"
+		"DOTA_Tooltip_ability_origami_wings_Description" 					"Увеличивает скорость передвижения на %speed% а так же магической сопротивление на %mag_res%, при активации снимает все негативные эффекты, длительность %duration%."
+		"DOTA_Tooltip_modifier_origami_wings" 								"<font color='#E5C91D'>「Malach: Heavenly Wings」</font>"
 
+		"DOTA_Tooltip_ability_origami_block" 								"<font color='#E5C91D'>「Nameless Defensive Formation」</font>"
+		"DOTA_Tooltip_ability_origami_block_Description" 					"Создаёт защитное поле, вокруг выбранного существа, которое позволяет блокировать %damage_block% урона."
+		"DOTA_Tooltip_bvo_orihime_skill_2_modifier" 						"<font color='#E5C91D'>「Nameless Defensive Formation」</font>"
+		
+		"DOTA_Tooltip_ability_origami_ylti" 								"<font color='#E5C91D'>「Artelif: Crown Cannon」</font>"
+		"DOTA_Tooltip_ability_origami_ylti_Description" 						"Создаёт сферу искажения времени, в которой происходят разломы от способности <font color='#E5C91D'>「Zetsumetsu Tenshi」</font>, с каждой секундой разломы будут появлятся всё чаще и чаще, урон расчитывается по формуле - %damage% + 20% от интеллекта Оригами.<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
+
+		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「Demon King: Satan 」</font>"
+		"DOTA_Tooltip_ability_origami_inverse_Description" 					"Оригами получает Сатану — более темную и зловещую версию Метатрона, переходит в форму инверсии, получает дополнительный интеллект в размере %int%, а так же увеличивает весь магический урон на %spell_amp%%%"
+
+		"DOTA_Tooltip_modifier_origami_inverse_basic" 						"<font color='#9629F7'>「Demon King: Satan 」</font>"
+
+		"DOTA_Tooltip_ability_origamiinverse_aura" 							"<font color='#9629F7'>「Destructive aura」</font>"
+		"DOTA_Tooltip_ability_origamiinverse_aura_Description" 				"Создаёт огромную область тёмной материи, по истечению 5 секунд будет выбранна случайная цель в радиусе сферы, которая потеряет 80% своего здоровья.<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
+		"DOTA_Tooltip_ability_origamiinverse_aura_radius" 					"Радиус:"
 
 
 
