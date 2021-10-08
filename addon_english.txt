@@ -7532,11 +7532,23 @@ If you have duplicate characters (opened in game, bought in shop or got through 
 		"DOTA_Tooltip_ability_origamiinverse_aura_radius" 					"Радиус:"
 
 
+		"DOTA_Tooltip_Ability_item_desolators12"						"Дезолятор Упадка"
+		"DOTA_Tooltip_Ability_item_desolators12_Description"			"Пассивная: ваши атаки уменьшают броню цели на 15 секунд."
+		"DOTA_Tooltip_Ability_item_desolators12_bonus_damage"			"+к урону "
+		"DOTA_Tooltip_Ability_item_desolators12_corruption_armor"		"Снижение брони:"
+		"DOTA_Tooltip_modifier_item_desolators12_armor"						"Annigilation"
+		"DOTA_Tooltip_modifier_item_desolators12_armor_Description"			"Броня уменьшена на 40."
 
+		"DOTA_Tooltip_ability_item_daedalus11"                                                               "Затеряный Дедал"
+		"DOTA_Tooltip_ability_item_daedalus11_Description"                                           "Наносит критический Урон."
+		"DOTA_Tooltip_ability_item_daedalus11_critical_bonus"                					"КРИТИЧЕСКИЙ Урон: (%)"
+		"DOTA_Tooltip_ability_item_daedalus11_bonus_damage"                                  	"+к урону  "
+		"DOTA_Tooltip_ability_item_daedalus11_critical_chance"                               	"шанс КРИТА: (%)"
 
-
-
-
+		"DOTA_Tooltip_Ability_item_gu_desolator_5"						"Дезолятор 5"
+		"DOTA_Tooltip_Ability_item_gu_desolator_5_Description"			"<h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на %cr_armor%% на 15 секунд."
+		"DOTA_Tooltip_Ability_item_gu_desolator_5_bonus_damage"			"+к урону "
+		
 
 
 

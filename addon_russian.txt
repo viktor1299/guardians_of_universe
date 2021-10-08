@@ -254,10 +254,9 @@
 
 
 		"DOTA_Tooltip_ability_multiple_shoot"															"Пятикратный выстрел"
-		"DOTA_Tooltip_ability_multiple_shoot_Description"													"Выпускает 5 стрел, наносящих урон в области перед героем. Выстрел повторится если есть дополнительный эффект.<br></br>-----------------------------------------------<br></br>Урон: 2 * Атака * Уровень способности<br></br>базовый урон: 30 * Уровень способности<br></br>Дистанция: 1200<br></br>-----------------------------------------------"
-		"DOTA_Tooltip_ability_multiple_shoot_Lore"															"Число выпущенных стрел доказывает твою силу."
-		"DOTA_Tooltip_ability_multiple_shoot_basedamage"														"Урон:"
-		"DOTA_Tooltip_ability_multiple_shoot_damage"															"Множитель:"
+		"DOTA_Tooltip_ability_multiple_shoot_Description"												"Выпускает 5 стрел, наносящих урон в области перед героем. Выстрел повторится если есть дополнительный эффект. Наносит урон по формуле - %basedamage% + (Ловкость * 1.5)"
+		"DOTA_Tooltip_ability_multiple_shoot_basedamage"												"Урон:"
+		"DOTA_Tooltip_ability_multiple_shoot_damage"													"Множитель:"
 
 
 		"DOTA_Tooltip_ability_gust"																		"Порыв Ветра"
@@ -281,8 +280,8 @@
 
 
 		"DOTA_Tooltip_ability_arrow_strom"																"Буря из стрел"
-		"DOTA_Tooltip_ability_arrow_strom_Description"														"Стреляет копной стрел в небо, создавая дождь из стрел. Усиление дает дополнительный урон магией.<br></br>-----------------------------------------------<br></br>Урон: 2 * Атака * Уровень способности<br></br> Радиус урона от стрелы: 200<br></br> Длительность:  15<br></br>Радиус: 1200<br></br>------------------------------------------------"
-		"DOTA_Tooltip_ability_arrow_strom_damage"																"Урон:"
+		"DOTA_Tooltip_ability_arrow_strom_Description"													"Стреляет копной стрел в небо, создавая дождь из стрел. Наносит урон по формуле - %damage% + Ловкость * 1.5"
+		"DOTA_Tooltip_ability_arrow_strom_damage"														"Урон:"
 	
 		"DOTA_Tooltip_modifier_star_buff"																"Попадание"
 		
@@ -337,8 +336,7 @@
 		"DOTA_Tooltip_ability_lina_light_strike_array_Description"					"Призывает столб пламени оглушающий врагов.<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
 		
 		"DOTA_Tooltip_ability_lina_laguna_cu"									"Нестабильная Молния"
-	    "DOTA_Tooltip_ability_lina_laguna_cu_Description"							"При использовании будет выбран случайный интервал между лагунами, музыка, а также эффект, после чего в радиусе %aoe% вокруг героя вражеские мобы будут получать огромный урон, зависящий от вашего интеллекта и работающий по формуле %damage% * интеллект."
-		"DOTA_Tooltip_ability_lina_laguna_cu_lore"									"Когда то давно, у Лины было 4 типа лагун которые наносили разные типы урона, но всё изменилось, когда на вселенную стала надвигаться маcштабная угроза."
+	    "DOTA_Tooltip_ability_lina_laguna_cu_Description"							"При использовании будет выбран случайный интервал между лагунами, музыка, а также эффект, после чего в радиусе %aoe% вокруг героя вражеские мобы будут получать урон, зависящий от вашего интеллекта и работающий по формуле %damage% + интеллект * 1.5."
 		"DOTA_Tooltip_ability_lina_laguna_cu_target_count"								"Количество целей:"
 		"DOTA_Tooltip_ability_lina_laguna_cu_duration"									"Длительность:"
 
@@ -1536,13 +1534,6 @@
 		"DOTA_Tooltip_ability_nu_gravity_pulse_slow"												"Замедление "
 		"DOTA_Tooltip_ability_nu_gravity_pulse_slow_duration"										"Длительность замедления: "
 		"DOTA_Tooltip_ability_nu_gravity_pulse_damage"												"Урон: "
-
-		"DOTA_Tooltip_ability_nu_micronebula"                                           "Молекула Разрушения"
-		"DOTA_Tooltip_ability_nu_micronebula_Description"										"Блэкхолл-Тян накладывает на любого юнита молекулу разрушения, которая наносит урон в зависимости от нанесённого урона по врагу."
-		"DOTA_Tooltip_ability_nu_micronebula_duration"												"Длительность: "
-		"DOTA_Tooltip_ability_nu_micronebula_damage"												 "Урон: "
-		"DOTA_Tooltip_ability_nu_micronebula_aoe"													 "Область урона: "
-
 
 		"DOTA_Tooltip_ability_nu_warpstar"												"Путешествие по Галактике"
 		"DOTA_Tooltip_ability_nu_warpstar_Description"											"Блэкхолл-Тян создаёт временной разлом, телепортирует к себе юнитов."
@@ -4474,9 +4465,6 @@
 		"address_type_1" "Тип наборного устройства: «Млечный Путь»"
 		"address_type_2" "Тип наборного устройства: «Атлантида»"
 		"address_type_3" "Тип наборного устройства: «Вселенная»"
-		"dvach_address_type_1" "Тип наборного устройства: «Сперма»"
-		"dvach_address_type_2" "Тип наборного устройства: «Хуй Наберёшь»"
-		"dvach_address_type_3" "Тип наборного устройства: «Пудж Удалён»"
 		"dialer_speed" "Скорость автонабора: "
 		"dvach_dialer_speed" "Скорость дрочки: "
 		"global_race_rang" "Общая Статистика"
@@ -4947,7 +4935,7 @@
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8"		"Unstable Dead Fury"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"		"<h1>Активная: Break World  </h1> При активации выведет из строя всех вражеских юнитов на 1.8 - 2.2 сек в радиусе 300 \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 10% может украсть у врага случайное кол-во золота (1-4)"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"		"<h1>Активная: Break World  </h1> При активации выведет из строя всех вражеских юнитов на 2.5 - 4 сек в радиусе 300 \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 10% может украсть у врага случайное кол-во золота (1-4)"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"			"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"		"Регенерация маны:"
@@ -5140,7 +5128,7 @@
 		"npc_dota_hero_abaddon_t2"		"Улучшает - Доспех Абстракции<br><br> За каждый стак уменьшает броню атакующего на 5."
 		"npc_dota_hero_abaddon_t3"		"Улучшает - Поле Хаоса<br><br> Отключает регенерацию здоровья всем врагам в радиусе поля."
 		"npc_dota_hero_abaddon_t4"		"Улучшает - Форма Призрака<br><br> Убирает перезарядку"
-		"npc_dota_hero_abaddon_t5"		"Улучшает - Поле хаоса<br><br> Уменьшает броню врагам на 1000."
+		"npc_dota_hero_abaddon_t5"		"Улучшает - Поле хаоса<br><br> Уменьшает броню врагам на 300."
 		"npc_dota_hero_abaddon_t6"		"Улучшает - Доспех Абстракции<br><br> За каждый удар по вам враг будет получать по 3 стака пассивки."
 
 
@@ -5314,7 +5302,7 @@
 		"npc_dota_hero_wisp_t3"		"Улучшает - Подпространственная Энергия<br><br> Уменьшает перезарядку способности до 5 секунд"
 		"npc_dota_hero_wisp_t4"		"Улучшает - Энергетический Всплеск<br><br> Теперь способность не тратит здоровье владельца, теперь имеет дополнительный урон в зависимости от силы героя * 1.5"
 		"npc_dota_hero_wisp_t5"		"Улучшает - Энергетическая Несбильность<br><br> Увеличивает длительность способности до 30 секунд а также убирает перезарядку."
-		"npc_dota_hero_wisp_t6"		"Улучшает - Энергетическая Несбильность<br><br> Во время действия способности, вы можете с шансом в 80% игнорировать любой урон,атаку и тд."
+		"npc_dota_hero_wisp_t6"		"Улучшает - Энергетическая Несбильность<br><br> Во время действия способности, вы можете с шансом в 20% игнорировать любой урон,атаку и тд."
 
 		"npc_dota_hero_oracle_t2_name"		"-「Время - Вечность」_-"
 		"npc_dota_hero_oracle_t3_name"		"-「Искажение」_-"
@@ -5337,7 +5325,7 @@
 		"npc_dota_hero_lina_t3"		"Улучшает - Молния<br><br> Добавляет дополнительный урон от интеллекта - базовый урон + интеллект * 1.5"
 		"npc_dota_hero_lina_t4"		"Улучшает - Молния<br><br> Со старта игры имеет встроенный Скипитр Вселенной."
 		"npc_dota_hero_lina_t5"		"Улучшает - Нестабильная Молния<br><br> Уменьшает перезарядку способности до 60 секунд."
-		"npc_dota_hero_lina_t6"		"Улучшает - Нестабильная Молния<br><br> Урон способности увеличен в 3 раза, радиус - 3000, интервал разрядов всегда равен 0.3, кол-во целей увеличено до 40."
+		"npc_dota_hero_lina_t6"		"Улучшает - Нестабильная Молния<br><br> Урон способности увеличен в 3 раза,интервал разрядов всегда равен 0.3"
 
 
 		"npc_dota_hero_spirit_breaker_t2_name"		"-「Силовой Удар」_-"
@@ -5367,10 +5355,10 @@
 		"npc_dota_hero_enchantress_t4_name"		"-「Обморожение」_-"
 		"npc_dota_hero_enchantress_t5_name"		"-「Метель」_-"
 		"npc_dota_hero_enchantress_t6_name"		"-「Познание」_-"
-		"npc_dota_hero_enchantress_t2"		"Улучшает - Perfect Freeze<br><br> Теперь способность наносит дополнительный урон в размере 30% от максимального здоровья цели."
+		"npc_dota_hero_enchantress_t2"		"Улучшает - Perfect Freeze<br><br> Добавляет множитель урона - базовый урон + интеллект * 3."
 		"npc_dota_hero_enchantress_t3"		"Улучшает - Ice Crusher<br><br> Увеличивает длительность стана в 2 раза."
-		"npc_dota_hero_enchantress_t4"		"Улучшает - Icicle Fall<br><br> Добавляет дополнительный урон в размере 20% от максимального здоровья врага."
-		"npc_dota_hero_enchantress_t5"		"Улучшает - Diamond Blizzard<br><br> Добавляет дополнительный урон в размере 5% от максимального здоровья врага."
+		"npc_dota_hero_enchantress_t4"		"Улучшает - Icicle Fall<br><br> Добавляет множитель урона - базовый урон + интеллект * 3."
+		"npc_dota_hero_enchantress_t5"		"Улучшает - Diamond Blizzard<br><br> Добавляет множитель урона - базовый урон + интеллект * 3."
 		"npc_dota_hero_enchantress_t6"		"Улучшает - Ice Crusher<br><br> Убирает перезарядку."
 
 		"npc_dota_hero_skywrath_mage_t2_name"		"-「Сброс」_-"
@@ -5422,13 +5410,22 @@
 		"npc_dota_hero_warlock_t4_name"		"-「Малакх: Небесные крылья」_-"
 		"npc_dota_hero_warlock_t5_name"		"-「Ангельская Защита」_-"
 		"npc_dota_hero_warlock_t6_name"		"-「Kyuusei Maou」_-"
-		"npc_dota_hero_warlock_t2"		"Улучшает - <font color='#E5C91D'>「光剣」</font><br><br> Добавляет дополнительный урон по формуле - интеллект * 1.5."
+		"npc_dota_hero_warlock_t2"		"Улучшает - <font color='#E5C91D'>「光剣」</font><br><br> Увеличивает множитель интеллекта с 1.1 до 2.0."
 		"npc_dota_hero_warlock_t3"		"Улучшает - <font color='#E5C91D'>「Shemesh: Sun」</font><br><br> Добавляет дополнительный урон по формуле - интеллект * 1.5."
 		"npc_dota_hero_warlock_t4"		"Улучшает - <font color='#E5C91D'>「Malach: Heavenly Wings」</font><br><br> Убирает перезарядку."
 		"npc_dota_hero_warlock_t5"		"Улучшает - <font color='#E5C91D'>「Nameless Defensive Formation」</font><br><br> Добавляет дополнительный заблокированный урон по формуле - базовый блок + интеллект * 2."
 		"npc_dota_hero_warlock_t6"		"Улучшает - Персонажа<br><br> Добавляет новую способность - <font color='#9629F7'>「Demon King: Satan 」</font>"
 
-
+		"npc_dota_hero_dazzle_t2_name"		"-「Pseudo Stradivarius」_-"
+		"npc_dota_hero_dazzle_t3_name"		"-「Solo Concert」_-"
+		"npc_dota_hero_dazzle_t4_name"		"-「Phantasmal Music」_-"
+		"npc_dota_hero_dazzle_t5_name"		"-「First Movement」_-"
+		"npc_dota_hero_dazzle_t6_name"		"-「Global Movement」_-"
+		"npc_dota_hero_dazzle_t2"		"Улучшает - 「Pseudo Stradivarius」<br><br> Увеличивает критический урон с 200% до 400%."
+		"npc_dota_hero_dazzle_t3"		"Улучшает - 「Solo Concert」<br><br> Уменьшает требуемое кол-во ударов с 10 до 2."
+		"npc_dota_hero_dazzle_t4"		"Улучшает - 「Sorrowful Phantasmal Music」<br><br> Увеличивает множитель интеллекта с 1.1 до 2.2"
+		"npc_dota_hero_dazzle_t5"		"Улучшает - 「Poltergeist Violinist」<br><br> Увеличивает множитель переодического урона с 1.5 до 3"
+		"npc_dota_hero_dazzle_t6"		"Улучшает - 「Poltergeist Violinist」<br><br> Позволяет применять споосбность по области в радиусе 400."
 
 
 		"t1_name" 	"-_RISE OF A HERO_-"
@@ -5688,8 +5685,8 @@
 
  		"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"						"Ядро Погоды Щит"
 
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"									"Рецепт <font color='#fc0303'>Не работает в прологе, при битве с боссом(мировым) а также в концовке игры!</font>asse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Уникальный предмет, который можно получить, убив босса Повелитель Вселенной<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"									"Рецепт asse of Universe"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Уникальный предмет, который можно получить, убив босса Повелитель Вселенной<br><br><font color='#7ee340'>Можно передать союзнику! <br><br><</font> <font color='#fc0303'>Не работает в прологе, при битве с боссом(мировым) а также в концовке игры!</font>"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"									"Cuirasse of Universe"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n  <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
@@ -6136,7 +6133,7 @@
 		"npc_dota_hero_naga_siren_type" 		"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_slark_type" 				"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_dark_willow_type" 		"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
-		"npc_dota_hero_dazzle_type" 			"Роль: <font color='#119e09'>«Основной ДПС»</font>"
+		"npc_dota_hero_dazzle_type" 			"Роль: <font color='#119e09'>«ДПС</font>, <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_crystal_maiden_type" 	"Роль: <font color='#0f8fa8'>«Поддержка»</font>"
 		"npc_dota_hero_lich_type" 				"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_tinker_type" 			"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
@@ -6244,7 +6241,7 @@
 		"npc_dota_hero_naga_siren_damage" 			"Источник: «Anime»"
 		"npc_dota_hero_slark_damage" 				"Источник: «Anime»"
 		"npc_dota_hero_dark_willow_damage" 			"Источник: «Anime»"
-		"npc_dota_hero_dazzle_damage" 				""
+		"npc_dota_hero_dazzle_damage" 				"Источник: «Touhou»"
 		"npc_dota_hero_crystal_maiden_damage" 		"Источник: «Anime»"
 		"npc_dota_hero_lich_damage" 				"Источник: «Anime»"
 		"npc_dota_hero_tinker_damage" 				"Источник: «Anime»"
@@ -6694,14 +6691,31 @@
 
 
 
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa01"	 		 		"Fake Strings 「Pseudo Stradivarius」"																												
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa01_Description"		"Запускает звуковую волну в точку, нанося магический урон любому противнику на своем пути и заставляя его замолчать. \n Наносит %base_damage% , накладывает молчание на %silence_duration% секунд."
+
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa02"	 		 		"Violinist 「Melancholic Strings」"																												
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa02_Description"		"Добавляет магический урон к атакам Лунасы и заставляет ее цель получать дополнительный урон от магических атак в течение %duration% секунд.  \n  Добавляет %base_damage% + %int_scale% * интеллект магического урона."
 
 
+		"DOTA_Tooltip_modifier_ability_thdotsr_lunasa03_passive_lua"                             "「Sorrowful Phantasmal Music」"	
+		"DOTA_Tooltip_modifier_ability_thdotsr_lunasa03_passive_lua_Description"                 "Лунаса имеет (%dMODIFIER_PROPERTY_TOOLTIP%%%) шанса, нанести критический урон со своих заклинаний."			
+		
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa03"	 		 		"「Sorrowful Phantasmal Music」"																												
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa03_Description"		"При потере здоровья, Лунаса увеличивает свой шанс на нанесение критического урона со способностей. Базовый шанс - 0%. \n За каждые %hp_trigger%% потерянного здоровья, шанс увеличивается на %crit_chance%%."
 
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04"	 		 		"Poltergeist Violinist 「Melancholic Violin Piece - First Movement」"																												
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_Description"		"Лунаса начинает играть на скрипке мелодию цели, при этом цель не может передвигатся, каждую секунду наносит урон равный интеллекту Лунасы * 1.5. Длительность %duration% секунд. При старте музыки и окончании наносит урон в количестве -  %base_damage% + [ %int_scale% * Интеллект ]. Пассивно уменьшает базовое время атаки до %base_attak_rate% "
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_tooltip_castrange" "CAST RANGE: "
 
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa05"	 		 		"Solo Concert「Prismriver Concerto - Violin Solo」"																												
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa05_Description"		"Каждую 10 атаку, Лунаса наносит дополнительный урон по формуле [ %base_damage% + %damage_per_level% * уровень ] магического урона за каждую атаку. \n Каждый вражеский юнит который был убит Лунасой, добавляет +%amplify_percent%%  к усилению способностей."
 
+		"DOTA_Tooltip_modifier_lunasa05_spell_amp"						"Solo Concert「Prismriver Concerto - Violin Solo」"
+		"DOTA_Tooltip_modifier_lunasa05_spell_amp_Description"			"Добавляет +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%% к усилению заклинаний."
 
-
-
+		"DOTA_Tooltip_modifier_lunasa05_innate_passive" 				"Solo Concert「Prismriver Concerto - Violin Solo」"
+		"DOTA_Tooltip_modifier_lunasa05_innate_passive_Description" 	"Каждую 10 атаку, наносит дополнительный магический урон."
 
 
 
