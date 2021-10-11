@@ -1286,7 +1286,7 @@
 		"DOTA_Tooltip_ability_sakuya_knives_stop_Description"										"Останавливает метание ножей."
 		//REFRESH 
 		"DOTA_Tooltip_ability_sakuya_refresh"													"Time Sign 「Sakuya's Special Stopwatch」"
-		"DOTA_Tooltip_ability_sakuya_refresh_Description"										"Сакуя перезаряжает все способности и предметы. Данная способность не может быть перезаряжена предметами."
+		"DOTA_Tooltip_ability_sakuya_refresh_Description"										"Сакуя перезаряжает все способности и предметы(Предметы перезаряжает только с арканой). Данная способность не может быть перезаряжена предметами."
 		"DOTA_Tooltip_ability_sakuya_refresh_abilities"											"Способности:"
 		"DOTA_Tooltip_ability_sakuya_refresh_ultimates"											"Ультимейты:"
 		"DOTA_Tooltip_ability_sakuya_refresh_items"												"Предметы:"
@@ -2224,7 +2224,7 @@
 		"DOTA_Tooltip_modifier_t72_maingun_Description"	"залп через 8 секунд!"
 
 		"DOTA_Tooltip_Ability_kizaru_beam"								"Полёт"	
-		"DOTA_Tooltip_Ability_kizaru_beam_Description"								"Виктор может прилететь к любому юниту и нанести ему грозный удар ногой который оттолкнёт врага и заставит его замолкнуть."	
+		"DOTA_Tooltip_Ability_kizaru_beam_Description"								"Кизару может прилететь к любому юниту и нанести ему грозный удар ногой который оттолкнёт врага и заставит его замолкнуть."	
 		"DOTA_Tooltip_Ability_kizaru_beam_radius"					"Радиус каста удара"
 		"DOTA_Tooltip_Ability_kizaru_beam_damage"					"Урон удара"
 		"DOTA_Tooltip_Ability_kizaru_beam_range"					"Радиус удара:"
@@ -2232,25 +2232,25 @@
 		"DOTA_Tooltip_Ability_kizaru_beam_speed"					"Скорость удара  "
 
 		"DOTA_Tooltip_Ability_kizaru_mirror"								"Телепорт"	
-		"DOTA_Tooltip_Ability_kizaru_mirror_Description"								"Виктор может телепортироватся на короткие расстояния "	
+		"DOTA_Tooltip_Ability_kizaru_mirror_Description"								"Кизару может телепортироватся на короткие расстояния "	
 		"DOTA_Tooltip_Ability_kizaru_mirror_range"					"Дальность блинка"
 
 
 		"DOTA_Tooltip_Ability_kizaru_sword"								"Молекулярный меч"	
-        "DOTA_Tooltip_Ability_kizaru_sword_Description"								"Виктор достаёт свой меч"	
+        "DOTA_Tooltip_Ability_kizaru_sword_Description"								"Кизару достаёт свой меч"	
 		"DOTA_Tooltip_Ability_kizaru_sword_duration"					"Длительность"
 		"DOTA_Tooltip_Ability_kizaru_sword_bonus_damage"					"Дополнительная Урон"
 		"DOTA_Tooltip_Ability_kizaru_sword_bonus_as"					"Дополнительная скорость атаки "
 
 		"DOTA_Tooltip_Ability_kizaru_beams"								"Молекулы Игры"	
-        "DOTA_Tooltip_Ability_kizaru_beams_Description"								"Виктор есть истинный создатель который способен преобразовать материю игры в составляющие и атаковать ими любых врагов."	
+        "DOTA_Tooltip_Ability_kizaru_beams_Description"								"Кизару есть истинный создатель который способен преобразовать материю игры в составляющие и атаковать ими любых врагов."	
 		"DOTA_Tooltip_Ability_kizaru_beams_radius"					    "Радиус:"
 		"DOTA_Tooltip_Ability_kizaru_beams_interval_beam"					"Интервал:"
 		"DOTA_Tooltip_Ability_kizaru_beams_hit_radius"					"Радиус удара:"
         "DOTA_Tooltip_Ability_kizaru_beams_damage_beam"					"Урон:"
 
 		"DOTA_Tooltip_Ability_kizaru_pika"								"защита от Напасти"	
-        "DOTA_Tooltip_Ability_kizaru_pika_Description"								"защищает Виктора от атак врагов путём уклонения, увеличивает скорость передвижения."	
+        "DOTA_Tooltip_Ability_kizaru_pika_Description"								"Защищает Кизару от атак врагов путём уклонения, увеличивает скорость передвижения."	
 		"DOTA_Tooltip_Ability_kizaru_pika_evasion"					"Уклонение:"
 		"DOTA_Tooltip_Ability_kizaru_pika_ms"					"Скорость:"
 		
@@ -4810,10 +4810,11 @@
 		"snow_infinity" " "
 
 		"DOTA_Tooltip_ability_gu_marisa_aura"                "Звездная аура"
-        "DOTA_Tooltip_ability_gu_marisa_aura_Description"    "Данная аура усиливает всех союзников(включая вас) за счет ваших атрибутов, работает по формуле ваш атрибут(сила,ловкость,интелект,*на значения в описаний) статус резист не увеличиваеться от атрибутов. <br> Бонус здоровье от ауры(сила)  %hp% <br> Бонус хп реген от ауры (сила) %hp_regen% <br> Статус резист от ауры  %status_resistance% <br> Бонусный белый урон от ауры(Ловкость) %Bonus_damage% <br> Бонусная мана от ауры(Интелект) %mana% <br> Бонус мана реген от ауры (Интелект) %mana_regen% <br> Бонусное% усиление заклинаний от ауры (Интелект) %spell_amplufy_percentage%"
+        "DOTA_Tooltip_ability_gu_marisa_aura_Description"    "Увеличивает многие параметры союзных персонажей а так же самой Марисы, для подробной информации зажмите альт."
+		"DOTA_Tooltip_ability_gu_marisa_aura_Note0"    "Увеличивает здоровье всех союзников в ауре по формуле - %hp% + (сила * 10) <br> Увеличивает регенерацию здоровья всех союзников в ауре по формуле - %hp_regen% + 10% от силы. <br> Увеличивает урон всех союзников в ауре по формуле - %Bonus_damage% * ловкость. <br> Увеличивает ману всех союзников в ауре по формуле - %mana% * 25% от интеллекта. <br> Увеличивает регенерацию ману всех союзников в ауре по формуле - %mana_regen% * 10% от интеллекта"
 
         "DOTA_Tooltip_modifier_gu_marisa_aura_buff" "Звездная аура"
-        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_HEALTH_BONUS% к максимальному здоровью,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регенерации здоровья,<br> +%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны <br> +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE% бонус к урону заклинаний."
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" " +%dMODIFIER_PROPERTY_HEALTH_BONUS% к максимальному здоровью,<br>  +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регенерации здоровья,<br> +%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны "
 
 		"DOTA_Tooltip_ability_item_ultimate_scepter" 						"Скипитр Вселенной"
 		"DOTA_Tooltip_ability_item_ultimate_scepter_Description" 				"Улучшает некоторые способности у героев.<br><br><font color='#7ee340'>Можно передать союзнику!</font>" 
@@ -4917,25 +4918,25 @@
 		"DOTA_Tooltip_ability_item_gu_dead_sword_4_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_5"		"Dead Fury 1"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_5_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_5_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для ближнего - 5% может забашить цель на %bush_duration% "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_5_damage"		"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_5_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_5_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_6"		"Dead Fury 2"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_6_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_6_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для ближнего - 5% может забашить цель на %bush_duration% "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_6_damage"		"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_6_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_6_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7"		"Dead Fury 3"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_7_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_7_description"		"<h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для ближнего - 5% может забашить цель на %bush_duration% "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_damage"		"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"		"Регенерация маны:"
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8"		"Unstable Dead Fury"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"		"<h1>Активная: Break World  </h1> При активации выведет из строя всех вражеских юнитов на 2.5 - 4 сек в радиусе 300 \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для других - 5% может забашить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 10% может украсть у врага случайное кол-во золота (1-4)"
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"		"<h1>Активная: Break World  </h1> При активации выведет из строя всех вражеских юнитов на 2.5 - 4 сек в радиусе 300 \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для ближнего - 5% может забашить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 10% может украсть у врага случайное кол-во золота (1-4)"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"			"Урон:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"		"Регенерация здоровья:"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"		"Регенерация маны:"
@@ -6719,11 +6720,29 @@
 
 
 
+		"npc_lines_juggernaut" 		"Джаффа"
+		"DOTA_Tooltip_ability_gu_juggernaut_ability_1"	 		 		"Энергетический щит"																												
+		"DOTA_Tooltip_ability_gu_juggernaut_ability_1_Description"		"Увеличивает сопротивление к эффектам на %status_res%, увеличивает воссттановление здоровья на %hp_regen%%%"
+
+		"DOTA_Tooltip_ability_gu_juggernaut_ability_2"	 		 		"Аура Искажения"																												
+		"DOTA_Tooltip_ability_gu_juggernaut_ability_2_Description"		"Действует на всех союзников в радиусе 900 вокруг носителя, позволяет с шансом в %chance% уклонится от любого урона."
+		"DOTA_Tooltip_modifier_gu_juggernaut_ability_2_team"			"Аура Искажения"
+
+		"DOTA_Tooltip_ability_gu_juggernaut_ability_3"	 		 		"Поклонение"																												
+		"DOTA_Tooltip_ability_gu_juggernaut_ability_3_Description"		"Заставляет вражеское существо встать на колено и принять ислам, действует 0.5 секунд с интервалом в %interval%. Не работает сквозь Магический Имунитет."
+
+		"DOTA_Tooltip_ability_gu_regenerator_ability_1"	 		 		"Аура Подавления"																													
+		"DOTA_Tooltip_ability_gu_regenerator_ability_1_Description"		"При попадании в данную ауру у вас начинает развиваться рак мозга, и вы получаете %damage%%% урона от максимального здоровья каждую 0.1 секунду"
 
 
+		"DOTA_Tooltip_modifier_gu_regenerator_ability_1_enemy" "Аура Подавления"
 
+		"npc_lines_assassin"		"Страготина"
+		"npc_lines_regenerator" 	"Приор Орай"
 
+		"lich_king_start"			"Задание начнётся после прохождения раунда автоматически!"	
 
+		"DOTA_Tooltip_modifier_kizaru_sword"		"Молекулярный Меч"
 
 
 
