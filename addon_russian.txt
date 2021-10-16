@@ -145,7 +145,7 @@
 
 
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil"                                      "Форма Призрака"
-		"DOTA_Tooltip_ability_odin_sleipnirs_veil_description"								"Входит в призрачную форму, в которой способен проходить сквозь противников, нанося им урон. Увеличивает скорость передвижения на 45. Наносит урон за каждое прохождение через противника.<br>Тип урона: <font color='#e5ff00'>Чистая Материя</font>"
+		"DOTA_Tooltip_ability_odin_sleipnirs_veil_description"								"Входит в призрачную форму, в которой способен проходить сквозь противников, нанося им урон. Увеличивает скорость передвижения на 45. Наносит урон за каждое прохождение через противника."
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_duration"										"Длительность: "
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_slow"											"%Замедление:"
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_damage"										"Урон:"
@@ -161,7 +161,7 @@
 
 	
 		"DOTA_Tooltip_Ability_voin_aphotic_shield"										"Щит Бессмертия"
-		"DOTA_Tooltip_Ability_voin_aphotic_shield_Description"								"Накладывает на союзника призрачную защиту, развеивающую большинство негативных эффектов и поглощающую урон от атак.<br><br><font color='#e5ff00'>Тип урона: Чистая Материя</font>" 
+		"DOTA_Tooltip_Ability_voin_aphotic_shield_Description"								"Накладывает на союзника призрачную защиту, развеивающую большинство негативных эффектов и поглощающую урон от атак." 
 		"DOTA_Tooltip_Ability_voin_aphotic_shield_duration"										"Длительность:" 
 		"DOTA_Tooltip_Ability_voin_aphotic_shield_damage_absorb"								"Поглощение урона:" 
 		
@@ -206,7 +206,7 @@
 		"npc_dota_hero_elder_titan"									"Morax"
 
 		"DOTA_Tooltip_ability_reus_gaias_fury"											"Кристальная судьба"
-		"DOTA_Tooltip_ability_reus_gaias_fury_description"									"Заряжает свой удар силой земли, нанося огромный урон по площади. Урон расчитывается по формуле сила * множитель. Перезарядку способности нельзя уменьшить, способность автоприменяемая.<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
+		"DOTA_Tooltip_ability_reus_gaias_fury_description"									"Заряжает свой удар силой земли, нанося огромный урон по площади. Урон расчитывается по формуле сила * множитель. Перезарядку способности нельзя уменьшить, способность автоприменяемая."
 		"DOTA_Tooltip_ability_reus_gaias_fury_radius"											"Радиус: "
 		"DOTA_Tooltip_ability_reus_gaias_fury_duration"											"Длительность: "
 		"DOTA_Tooltip_ability_reus_gaias_fury_damage"											"Множитель: "
@@ -219,7 +219,7 @@
 		"DOTA_Tooltip_modifier_gaias_fury_description"											"Заряжен"
 			
 		"DOTA_Tooltip_ability_reus_magnitude"                                           "Господство земли"
-		"DOTA_Tooltip_ability_reus_magnitude_Description"									"После задержки в 10 секунд раскалывает почву под собой, замедляя врагов. Урон высчитывается по формуле базовый урон * сила.<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
+		"DOTA_Tooltip_ability_reus_magnitude_Description"									"После задержки в 10 секунд раскалывает почву под собой, замедляя врагов. Урон высчитывается по формуле базовый урон * сила."
 		"DOTA_Tooltip_ability_reus_magnitude_radius"											 "Радиус: "
 		"DOTA_Tooltip_ability_reus_magnitude_quake_interval"									 "Интервал раскола: "
 		"DOTA_Tooltip_ability_reus_magnitude_root_time"											 "Время замедления: "
@@ -231,7 +231,7 @@
 
 
 		"DOTA_Tooltip_ability_reus_stoneblast"                                          "Власть над камнем"
-		"DOTA_Tooltip_ability_reus_stoneblast_Description"									"Маг Земли бросает в указанную точку булыжник, оглушающий всех на своём пути<br><br>Тип урона: <font color='#b9ff08'>Энергия</font>"
+		"DOTA_Tooltip_ability_reus_stoneblast_Description"									"Маг Земли бросает в указанную точку булыжник, оглушающий всех на своём пути"
 		"DOTA_Tooltip_ability_reus_stoneblast_stun"												 "Оглушение: "
 		"DOTA_Tooltip_ability_reus_stoneblast_damage"											 "Урон: "
 			
@@ -330,10 +330,10 @@
 	
 	
 		"DOTA_Tooltip_ability_lina_dragon_slave"								"Огненное Дыхание"
-		"DOTA_Tooltip_ability_lina_dragon_slave_Description"						"Лина высвобождает дыхание дракона, который убивает всё вокруг.<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
+		"DOTA_Tooltip_ability_lina_dragon_slave_Description"						"Лина высвобождает дыхание дракона, который убивает всё вокруг."
 		
 		"DOTA_Tooltip_ability_lina_light_strike_array"							"Столб Пламени"
-		"DOTA_Tooltip_ability_lina_light_strike_array_Description"					"Призывает столб пламени оглушающий врагов.<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
+		"DOTA_Tooltip_ability_lina_light_strike_array_Description"					"Призывает столб пламени оглушающий врагов."
 		
 		"DOTA_Tooltip_ability_lina_laguna_cu"									"Нестабильная Молния"
 	    "DOTA_Tooltip_ability_lina_laguna_cu_Description"							"При использовании будет выбран случайный интервал между лагунами, музыка, а также эффект, после чего в радиусе %aoe% вокруг героя вражеские мобы будут получать урон, зависящий от вашего интеллекта и работающий по формуле %damage% + интеллект * 1.5."
@@ -341,7 +341,7 @@
 		"DOTA_Tooltip_ability_lina_laguna_cu_duration"									"Длительность:"
 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade" 							"Молния"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" 					"Выпускает разряд молнии во врага .<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
+		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" 					"Выпускает разряд молнии во врага."
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage" 							"Урон:" 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_scepter" 					"Урон с скипетром:" 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill" 					"Дополнительная Урон за убийство:" 
@@ -351,7 +351,7 @@
 		
 		
 		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus" 					"Увеличивает урон лагуны за каждого убитого крипа/героя."
-		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" 			"ваш урон с лагуны увеличен<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
+		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" 			"ваш урон с лагуны увеличен"
 	
 
 		"DOTA_Tooltip_ability_ashes"											"Сила Огня"
@@ -416,9 +416,8 @@
 	
 		
 		"DOTA_Tooltip_ability_stargazer_cosmic_countdown" 						"Знания Древних"
-		"DOTA_Tooltip_ability_stargazer_cosmic_countdown_Description" 				"Существуя многие миллионы лет, Древние накапливают опыт не только своей расы, но и других." 
-		"DOTA_Tooltip_ability_stargazer_cosmic_countdown_Note0"						"Перезарядка не может быть ускорена"
-        "DOTA_Tooltip_ability_stargazer_cosmic_countdown_stats_per_cycle" 				"Статов за цикл:"
+		"DOTA_Tooltip_ability_stargazer_cosmic_countdown_Description" 			"Существуя многие миллионы лет, Древние накапливают опыт не только своей расы, но и других. <br><br><font color='#F32929'>На данную способность не работают предметы на уменьшение перезарядки!</font>" 
+        "DOTA_Tooltip_ability_stargazer_cosmic_countdown_stats_per_cycle" 		"Статов за цикл:"
 
 
 		
@@ -426,35 +425,35 @@
 		"npc_dota_hero_oracle"									"Interdimensional Parrot"	
 	
 		"DOTA_Tooltip_ability_space_rift"					"Космический разлом"
-		"DOTA_Tooltip_ability_space_rift_Description"			"Каждое заклинание вызывает колебания в окружающем пространстве, в зависимости от заклинания меняется интенсивность разломов. Наносит урон в Радиусе 200 единиц. Если цель находится в центре разлома, то будет нанесен дополнительный урон в размере 5 %% от максимального запаса здоровья<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_space_rift_Description"			"Каждое заклинание вызывает колебания в окружающем пространстве, в зависимости от заклинания меняется интенсивность разломов. Наносит урон в Радиусе 200 единиц. Если цель находится в центре разлома, то будет нанесен дополнительный урон в размере 5 %% от максимального запаса здоровья"
 		"DOTA_Tooltip_ability_space_rift_Lore"					"Никто не сможет блокировать повреждение времени и пространства."
 		"DOTA_Tooltip_ability_space_rift_damage"					"Множитель:"
 		"DOTA_Tooltip_modifier_space_rift_buff"						"Космический разлом"
 
 		
 		"DOTA_Tooltip_ability_chronos_magic"				"Магия пространства"
-		"DOTA_Tooltip_ability_chronos_magic_Description"		"Эта способность притягивает к себе близжайших юнитов и отправляет их на указанную точку. Каждый юнит добавляет к урону 1%%<br></br>-----------------------------------------------<br></br>Урон от притяжения: Интеллект * Уровень способности<br></br>Урон от отправления: 2 * Интеллект * Уровень способности<br></br>Радиус: 500<br></br>Радиус: 1400<br></br>-----------------------------------------------<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_chronos_magic_Description"		"Эта способность притягивает к себе близжайших юнитов и отправляет их на указанную точку. Каждый юнит добавляет к урону 1%%<br></br>-----------------------------------------------<br></br>Урон от притяжения: Интеллект * Уровень способности<br></br>Урон от отправления: 2 * Интеллект * Уровень способности<br></br>Радиус: 500<br></br>Радиус: 1400<br></br>-----------------------------------------------<br>"
 		"DOTA_Tooltip_ability_chronos_magic_Lore"				"Только самый сильный пространственный маг способен использовать этот навык по своему желанию."
 		"DOTA_Tooltip_ability_chronos_magic_pull_damage"			"Начальный Урон:"
 		"DOTA_Tooltip_ability_chronos_magic_open_damage"			"Урон Открытия:"
 
 
 		"DOTA_Tooltip_ability_teleport_phase"				"Матрица перемещения"
-		"DOTA_Tooltip_ability_teleport_phase_Description"		"Искажает расстояние между точками, для телепортации, враги рядом с искажённым пространством получат урон.<br></br>-----------------------------------------------<br></br>базовый урон * уровень скилла<br></br>Урон от перемещения: Интеллект * Уровень способности<br></br>Задержка: 1<br></br>Radius: 300<br></br>Дальность:2000 + 50 * Уровень способности<br></br>-----------------------------------------------<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_teleport_phase_Description"		"Искажает расстояние между точками, для телепортации, враги рядом с искажённым пространством получат урон.<br></br>-----------------------------------------------<br></br>базовый урон * уровень скилла<br></br>Урон от перемещения: Интеллект * Уровень способности<br></br>Задержка: 1<br></br>Radius: 300<br></br>Дальность:2000 + 50 * Уровень способности<br></br>-----------------------------------------------<br>"
 		"DOTA_Tooltip_ability_teleport_phase_Lore"				"Нет такого места где мастер не смог бы побывать."
 		"DOTA_Tooltip_ability_teleport_phase_damage"				"Множитель:"
 		"DOTA_Tooltip_ability_teleport_phase_base_damage"			"базовый урон:"
 
 
 		"DOTA_Tooltip_ability_space_barrier"				"Космический барьер"
-		"DOTA_Tooltip_ability_space_barrier_Description"		"Искажает пространство, притягивая врагов в центр. Наносит периодический урон.<br></br>-----------------------------------------------<br></br>Урон за эффект:  Интеллект * Уровень способности<br></br>Задержка: 1<br></br>длительность:  5<br></br>Радиус: 400<br></br>Дальность:1400<br></br>-----------------------------------------------<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_space_barrier_Description"		"Искажает пространство, притягивая врагов в центр. Наносит периодический урон.<br></br>-----------------------------------------------<br></br>Урон за эффект:  Интеллект * Уровень способности<br></br>Задержка: 1<br></br>длительность:  5<br></br>Радиус: 400<br></br>Дальность:1400<br></br>-----------------------------------------------<br>"
 		"DOTA_Tooltip_ability_space_barrier_Lore"				"Никто не сбежит."
 		"DOTA_Tooltip_ability_space_barrier_damage"					"Множитель:"
 		"DOTA_Tooltip_ability_space_barrier_base_damage"			"базовый урон:"
 
 
 		"DOTA_Tooltip_ability_fluctuation"					"Мировая проекция"
-		"DOTA_Tooltip_ability_fluctuation_Description"			"Создаёт проекцию в указанной точке, со временем создавая всё больше разломов. Снижает скорость передвижения и атаки на 400%%<br></br>-----------------------------------------------<br></br>Урон:  Интеллект * Уровень способности<br></br>длительность:  12<br></br>Радиус: 600<br></br>Дальность: 1000<br></br>-----------------------------------------------<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_fluctuation_Description"			"Создаёт проекцию в указанной точке, со временем создавая всё больше разломов. Снижает скорость передвижения и атаки на 400%%<br></br>-----------------------------------------------<br></br>Урон:  Интеллект * Уровень способности<br></br>длительность:  12<br></br>Радиус: 600<br></br>Дальность: 1000<br></br>-----------------------------------------------<br>"
 		"DOTA_Tooltip_ability_fluctuation_Lore"					"Сила способная уничтожить этот мир."
 		"DOTA_Tooltip_ability_fluctuation_damage"					"Множитель:"
 		"DOTA_Tooltip_ability_fluctuation_base_damage"				"базовый урон:"
@@ -518,7 +517,7 @@
 		"npc_dota_hero_furion"											"Kotori Itsuka"
 
 		"DOTA_Tooltip_ability_kotori_slam"                                                		"Огненный Удар"
-		"DOTA_Tooltip_ability_kotori_slam_Description"                                    			"С размаху бьёт своим топором по земле, раскалывая землю, из которой вырывается пламя бездны.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_kotori_slam_Description"                                    			"С размаху бьёт своим топором по земле, раскалывая землю, из которой вырывается пламя бездны."
 		"DOTA_Tooltip_ability_kotori_slam_slam_radius"                                    				"Радиус: "
 		"DOTA_Tooltip_ability_kotori_slam_slam_dot_duration"                              				"Длительность: "
 		"DOTA_Tooltip_ability_kotori_slam_slam_damage"                                    				"Урон топора: "
@@ -528,7 +527,7 @@
 		"DOTA_Tooltip_modifier_kotori_slam_Description" 											"Вызывает пламя"
 
 		"DOTA_Tooltip_ability_kotori_ring"                                                		"Огенное кольцо"
-		"DOTA_Tooltip_ability_kotori_ring_Description"                                    			"Создаёт огненное кольцо которое выжигает всех врагов в области.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_kotori_ring_Description"                                    			"Создаёт огненное кольцо которое выжигает всех врагов в области."
 		"DOTA_Tooltip_ability_kotori_ring_ring_radius"                                    				"Радиус: "
 		"DOTA_Tooltip_ability_kotori_ring_ring_duration"                                  				"Длительность: "
 		"DOTA_Tooltip_ability_kotori_ring_ring_dot_duration"                              				"Длительность 2: "
@@ -538,7 +537,7 @@
 		"DOTA_Tooltip_modifier_kotori_ring_buff_Description" 										"Выжигает врагов в радиусе."
 
 		"DOTA_Tooltip_ability_kotori_rage"                                                		"Ярость"
-		"DOTA_Tooltip_ability_kotori_rage_Description"                                    			"Котори имеет щит маны, который срабатывает каждый раз, когда она получает смертельный Урон. При потере 40% маны менее, чем за 1 секунду, впадает в ярость, увеличивая Урон, скорость атаки и передвижения. Активирует ауру огня наносящую Урон врагам в радиусе 300.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_kotori_rage_Description"                                    			"Котори имеет щит маны, который срабатывает каждый раз, когда она получает смертельный Урон. При потере 40% маны менее, чем за 1 секунду, впадает в ярость, увеличивая Урон, скорость атаки и передвижения. Активирует ауру огня наносящую Урон врагам в радиусе 300."
 		"DOTA_Tooltip_ability_kotori_rage_rage_hp_regen"                                  				"Регенерация здоровья: "
 		"DOTA_Tooltip_ability_kotori_rage_rage_mana_per_damage"                           				"Потребление маны за единицу Урона: "
 		"DOTA_Tooltip_ability_kotori_rage_rage_duration"                                  				"Длительность: "
@@ -555,7 +554,7 @@
 		"DOTA_Tooltip_modifier_kotori_rage_aura_debuff_Description" 								"Огненный Урон каждую секунду."
 
 		"DOTA_Tooltip_ability_kotori_launcher"                                            		"Режим пушки: Мегиддо "
-		"DOTA_Tooltip_ability_kotori_launcher_Description"                                			"Силы Котори основаны на манипулировании пламенем, исходящим из ее тела, и могут использоваться как в ближнем, так и в дальнем бою. Ее Ангел Камаэль представляет собой красную боевую алебарду, которая может трансформироваться в пушку Мегиддо, получая энергию от пламени Котори. Мегиддо стреляет мощными энергетическими огненными лучами, которые способны пробить даже защиту духов.<br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_kotori_launcher_Description"                                			"Силы Котори основаны на манипулировании пламенем, исходящим из ее тела, и могут использоваться как в ближнем, так и в дальнем бою. Ее Ангел Камаэль представляет собой красную боевую алебарду, которая может трансформироваться в пушку Мегиддо, получая энергию от пламени Котори. Мегиддо стреляет мощными энергетическими огненными лучами, которые способны пробить даже защиту духов."
 		"DOTA_Tooltip_ability_kotori_launcher_launcher_damage"                            				"Урон:"
 		"DOTA_Tooltip_ability_kotori_launcher_launcher_width"                             				"Ширина снаряда:"
 
@@ -725,7 +724,7 @@
 		"npc_dota_hero_earth_spirit"								"Chloe von Einzbern"
 		
 		"DOTA_Tooltip_ability_reflect_jopi"												"Отражение Урона"
-		"DOTA_Tooltip_ability_reflect_jopi_Description"										"Отражает часть любого полученого Урона умножая его по формуле - Урон * множитель.<br>Тип урона: «Материя Мироздания»"
+		"DOTA_Tooltip_ability_reflect_jopi_Description"										"Отражает часть любого полученого Урона умножая его по формуле - Урон * множитель."
 		"DOTA_Tooltip_ability_reflect_jopi_uvelechenie"											"Множитель: "
 
 		"DOTA_Tooltip_ability_war_berserker_aura"                                       "Аура Мощи"
@@ -1433,11 +1432,11 @@
 		"npc_dota_hero_storm_spirit"										"Yumemi Okazaki"
  
 		"DOTA_Tooltip_ability_ability_thdots_yumemiEx"                                  "<font color='#ff8400'> 「Grand Unified Theorem」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_yumemiEx_Description"                       	"Юмеми умеет преобразовывать энергию. Каждый установленый крест даёт Юмеми дополнительный магический урон, а также позволяет противостоять одному удару любого вида.<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
+		"DOTA_Tooltip_ability_ability_thdots_yumemiEx_Description"                       	"Юмеми умеет преобразовывать энергию. Каждый установленый крест даёт Юмеми дополнительный магический урон, а также позволяет противостоять одному удару любого вида."
 		"DOTA_Tooltip_ability_ability_thdots_yumemiEx_attack_bonus"  							"Усиление магического урона:"   
 
 		"DOTA_Tooltip_ability_ability_thdots_yumemi01"                                    "<font color='#ff5100'>Faith 「Blood-red Cross」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_yumemi01_Description"                        "Юмеми бросает крест, который наносит Урон врагу при про. Когда крест достигает максимального растояния полёта он возводится.<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
+		"DOTA_Tooltip_ability_ability_thdots_yumemi01_Description"                        "Юмеми бросает крест, который наносит Урон врагу при про. Когда крест достигает максимального растояния полёта он возводится."
 
 		"DOTA_Tooltip_ability_ability_thdots_yumemi02"                                    "「The possibility of space ship」"
 		"DOTA_Tooltip_ability_ability_thdots_yumemi02_Description"                        "Юмеми летит на космическом корабле к месту назначения, полёт потребляет ману в %.Юмеми во время полёта неуязвима."
@@ -1446,10 +1445,10 @@
 		"DOTA_Tooltip_ability_ability_thdots_yumemi02_mana_cost_percent"				  "%Потребление маны："
 
 		"DOTA_Tooltip_ability_ability_thdots_yumemi03"                                    "<font color='#ff0059'>Bug 「Self-division」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_yumemi03_Description"                        "Юмеми распадается. Через одну секунду клон взорвется, нанеся урон окружающим противникам и уменьшив скорость их передвижения. После того, как клон взорвется, будет установлен крест.<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
+		"DOTA_Tooltip_ability_ability_thdots_yumemi03_Description"                        "Юмеми распадается. Через одну секунду клон взорвется, нанеся урон окружающим противникам и уменьшив скорость их передвижения. После того, как клон взорвется, будет установлен крест."
 
 		"DOTA_Tooltip_ability_ability_thdots_yumemi04"                                    "<font color='#fbff00'>Destroy 「Four yuan nuclear warhead」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_yumemi04_Description"                        "Юмеми использует свое последнее оружие. В течение четырех секунд Юмеми выпустит ядерную боеголовку, она прекращает все действия и игнорирует любой управляющий эффект. После освобождения ядерной боеголовки враги в радиусе 1000 получат огромный урон и будут оглушены на длительное время.<br><br><font color='#f7a62d'>Тип урона: Энергия</font>"
+		"DOTA_Tooltip_ability_ability_thdots_yumemi04_Description"                        "Юмеми использует свое последнее оружие. В течение четырех секунд Юмеми выпустит ядерную боеголовку, она прекращает все действия и игнорирует любой управляющий эффект. После освобождения ядерной боеголовки враги в радиусе 1000 получат огромный урон и будут оглушены на длительное время."
         "DOTA_Tooltip_ability_ability_thdots_yumemi04_stun_duration"                        "Оглушение:"
 
 		"DOTA_Tooltip_passive_yumemiEx_bonus_attack" 										"<font color='#ff8400'> 「Grand Unified Theorem」</font>"
@@ -1948,7 +1947,7 @@
 		"DOTA_Tooltip_Ability_armor95_Description"				"защишает владельца способности от любого входящего Урона уменьшая его на 95% "
 
 		"DOTA_Tooltip_Ability_gu_forestarmor"							"Сангономия"
-		"DOTA_Tooltip_Ability_gu_forestarmor_Description"				"Уменьшает весь входящий урон на %absorb%%% а также увеличивает сопротивление эффектам на %absorb_spell%%% , в зависомости от выбранной сложности."
+		"DOTA_Tooltip_Ability_gu_forestarmor_Description"				"Уменьшает весь входящий урон на %absorb%%% а также увеличивает сопротивление эффектам на %absorb_spell%%% , в зависимости от выбранной сложности."
 		
 		
 		"DOTA_Tooltip_ability_howlling_clone"					"Разрыв"
@@ -2181,14 +2180,14 @@
 		"DOTA_Tooltip_Ability_t72_upgrade_bonus_armor"					"Броня:"
 		
 		"DOTA_Tooltip_Ability_t72_2А46"									"2А46 (Д-81ТМ)"	
-		"DOTA_Tooltip_Ability_t72_2А46_Description"						"После принятия на вооружение танковой пушки 2А26 в составе вооружения новых основных танков Т-64А и Т-72, опыт эксплуатации выявил недостаток новых 125-мм гладкоствольных танковых пушек. Из-за более тонких стенок стволов по сравнению со стволами нарезных пушек, ствол орудия вследствие влияния погодных факторов был подвержен искривлению, что негативно сказывалось на точности стрельбы. Также выявлена неудачная конструкция противооткатных устройств. В результате теплового расширения в противооткатных устройствах образовывалась смесь из противооткатной жидкости и компенсационного воздуха, что приводило к неравномерному откату орудия и существенному снижению точности стрельбы. Для устранения недостатков начаты работы над модернизированной версией орудия 2А26. Новая пушка разрабатывалась в ОКБ-9 под руководством Голубева В. А. и в 1970 году танковая пушка 2А46 принята на вооружение.<br>Тип урона: Энергия Взрыва"	
+		"DOTA_Tooltip_Ability_t72_2А46_Description"						"После принятия на вооружение танковой пушки 2А26 в составе вооружения новых основных танков Т-64А и Т-72, опыт эксплуатации выявил недостаток новых 125-мм гладкоствольных танковых пушек. Из-за более тонких стенок стволов по сравнению со стволами нарезных пушек, ствол орудия вследствие влияния погодных факторов был подвержен искривлению, что негативно сказывалось на точности стрельбы. Также выявлена неудачная конструкция противооткатных устройств. В результате теплового расширения в противооткатных устройствах образовывалась смесь из противооткатной жидкости и компенсационного воздуха, что приводило к неравномерному откату орудия и существенному снижению точности стрельбы. Для устранения недостатков начаты работы над модернизированной версией орудия 2А26. Новая пушка разрабатывалась в ОКБ-9 под руководством Голубева В. А. и в 1970 году танковая пушка 2А46 принята на вооружение."	
 		"DOTA_Tooltip_Ability_t72_2А46_bonus_damage"					"Урон:"
 		"DOTA_Tooltip_Ability_t72_2А46_reload_time"						"Перезарядка:"
 		"DOTA_Tooltip_Ability_t72_2А46_attack_range_bonus"				"Дальность выстрела:"
 		
 		
 		"DOTA_Tooltip_Ability_t72kym"									"9К120 «Свирь»"	
-		"DOTA_Tooltip_Ability_t72kym_Description"						"Комплекс 9К120 «Свирь» разработан тульским Конструкторским Бюро Приборостроения (КБП). Он устанавливался на танках Т-72БМ, Т-72Б. Принципиальным отличием «Свири» от «Кобры» была помехозащищённая полуавтоматическая система управления ракетой по лучу лазера. Комплекс управляемого вооружения 9К120 «Свирь» обеспечивает ведение стрельбы управляемой ракетой днём с места и с коротких остановок на дальностях от 100 до 4000 м. Почти одновременно на вооружение танка Т-80У поступает комплекс 9К119 «Рефлекс», имеющий ту же, что и «Свирь», ракету 9М119. Различаются комплексы «Свирь» и «Рефлекс» системой управления. В дальнейшем все вновь выпускаемые танки семейства Т-80 оснащались этими комплексами.<br>Тип урона: Энергия Взрыва"	
+		"DOTA_Tooltip_Ability_t72kym_Description"						"Комплекс 9К120 «Свирь» разработан тульским Конструкторским Бюро Приборостроения (КБП). Он устанавливался на танках Т-72БМ, Т-72Б. Принципиальным отличием «Свири» от «Кобры» была помехозащищённая полуавтоматическая система управления ракетой по лучу лазера. Комплекс управляемого вооружения 9К120 «Свирь» обеспечивает ведение стрельбы управляемой ракетой днём с места и с коротких остановок на дальностях от 100 до 4000 м. Почти одновременно на вооружение танка Т-80У поступает комплекс 9К119 «Рефлекс», имеющий ту же, что и «Свирь», ракету 9М119. Различаются комплексы «Свирь» и «Рефлекс» системой управления. В дальнейшем все вновь выпускаемые танки семейства Т-80 оснащались этими комплексами."	
 		"DOTA_Tooltip_Ability_t72kym_damage"							"Урон:"
 		"DOTA_Tooltip_Ability_t72kym_stun"								"Вывод из строя:"
 		"DOTA_Tooltip_Ability_t72kym_delay"								"Наводка:"		
@@ -2212,7 +2211,7 @@
 
 
 		"DOTA_Tooltip_ability_t72_maingun" "3БМ-22"
-		"DOTA_Tooltip_ability_t72_maingun_description" "Тема НИР заколка. Длина а.ч. практически идентична а.ч. БМ-15, однако используется гораздо более массивный бронебойный демпфер. В результате снаряд заметно тяжелее чем БМ-15, что привело к некоторому снижению начальной скорости. Данный снаряд являлся наиболее распространенным в Советской Армии в конце 70-х - начале 80-х гг, и хотя более не производится, накоплен в больших количествах и по-прежнему разрешен к применению.<br>Тип урона: Энергия Взрыва"
+		"DOTA_Tooltip_ability_t72_maingun_description" "Тема НИР заколка. Длина а.ч. практически идентична а.ч. БМ-15, однако используется гораздо более массивный бронебойный демпфер. В результате снаряд заметно тяжелее чем БМ-15, что привело к некоторому снижению начальной скорости. Данный снаряд являлся наиболее распространенным в Советской Армии в конце 70-х - начале 80-х гг, и хотя более не производится, накоплен в больших количествах и по-прежнему разрешен к применению."
 		"DOTA_Tooltip_ability_t72_maingun_aghanim_description"	"Добавляет шрапнель. "
 		"DOTA_Tooltip_ability_t72_maingun_cast_range"			"Радиус:"
 		"DOTA_Tooltip_ability_t72_maingun_total_cast_time_tooltip"	"Подготовка: выстрела:"
@@ -2320,8 +2319,7 @@
 		"DOTA_Tooltip_ability_mi24v_attack_c5_damage_multi"									"Множитель урона(с талантом):"
 
         "DOTA_Tooltip_ability_mi24_ykb_12_7"												"ЯКБ 12.7 ММ"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"									"MI-24V обладает четырёхствольным авиационным пулемётом с вращающимся блоком стволов, что даёт ему возможность атаковать с максимальной скоростью атаки в 0.01, но за скорострельностью скрываеться огромный минус -вы не сможете нанести более 20 единиц Урона за выстрел(предметы на увеличение Урона не работают) "
-        "DOTA_Tooltip_ability_mi24_ykb_12_7_bonus_damage"									"Урон:"
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"									"MI-24V обладает четырёхствольным авиационным пулемётом с вращающимся блоком стволов, что даёт ему возможность атаковать с максимальной скоростью атаки в 0.1"
         "DOTA_Tooltip_ability_mi24_ykb_12_7_attack_range_bonus"									"Дополнительная дальность атаки:"
         "DOTA_Tooltip_ability_mi24_ykb_12_7_reload_time"									"Перезарядка:" 
 
@@ -2407,7 +2405,7 @@
 
 		
 		"DOTA_Tooltip_ability_strela_attack"												"9М37 ЗРК «Стрела-10»"
-		"DOTA_Tooltip_ability_strela_attack_Description"									"Зенитная управляемая ракета (ЗУР) 9М37 предназначена для уничтожения самолетов, вертолетов, крылатых ракет и прочих воздушных целей.Поражение целей обеспечивается при стрельбе по визуально видимым целям днем на встречных и догонных курсах, а ночью – только на догонных курсах.Ракета представляет собой беспилотный летательный аппарат, на борту которого установлены аппаратура управления, реактивный двигатель и боевая часть.<br>Каждая ракета имеет осколочную боевую часть которая при попадании разлетаеться на 30 осколков<br>Радиус разлёта осколков рандомный от 300 до 1500 <br>Вы можете указывать отдельные точки для каждой из ракет."
+		"DOTA_Tooltip_ability_strela_attack_Description"									"Зенитная управляемая ракета (ЗУР) 9М37 предназначена для уничтожения самолетов, вертолетов, крылатых ракет и прочих воздушных целей.Поражение целей обеспечивается при стрельбе по визуально видимым целям днем на встречных и догонных курсах, а ночью – только на догонных курсах.Ракета представляет собой беспилотный летательный аппарат, на борту которого установлены аппаратура управления, реактивный двигатель и боевая часть.<br>Каждая ракета имеет осколочную боевую часть которая при попадании разлетаеться на 30 осколков<br>Радиус разлёта осколков рандомный от 300 до 1500 <br>Вы можете указывать отдельные точки для каждой из ракет. <br><br><font color='#F32929'>На данную способность не работают предметы на уменьшение перезарядки!</font>"
         "DOTA_Tooltip_ability_strela_attack_projectile_count"									"Всего Ракет:"
         "DOTA_Tooltip_ability_strela_attack_projectile_speed"									"Скорость ракеты:"
         "DOTA_Tooltip_ability_strela_attack_impact_radius"									"Радиус Поражения:"
@@ -2469,7 +2467,7 @@
 
 
 		"DOTA_Tooltip_Ability_ah1zcobraylt"								"AGM-114 Hellfire"
-		"DOTA_Tooltip_Ability_ah1zcobraylt_Description"					"Вертушка начинает обстел из блоков управляемых ракет AGM-114 Hellfire.<br>Тип урона: Энергия Взрыва"
+		"DOTA_Tooltip_Ability_ah1zcobraylt_Description"					"Вертушка начинает обстел из блоков управляемых ракет AGM-114 Hellfire."
 		"DOTA_Tooltip_Ability_ah1zcobraylt_damage"					"Урон:"
         "DOTA_Tooltip_Ability_ah1zcobraylt_radius"					"Радиус: "
 		"DOTA_Tooltip_Ability_ah1zcobraylt_duration"					"Длительность: "
@@ -2691,28 +2689,20 @@
 		"DOTA_Tooltip_ability_item_energy_count_up_Description"			"<h1>Активная: Поглощение</h1>Поглощает ядро и добавляет вам максимальную <font color='#f7a62d'>энергию</font> по формуле 20 * номер раунда."
 		
 		
-			"DOTA_Tooltip_ability_item_bashercustom"												"Удар Материей Разрушения"
-		"DOTA_Tooltip_ability_item_bashercustom_Description"									"<h1>Пассивная: Оглушение</h1>Шанс оглушить противника на %bash_duration% сек. при ударе.\n<br>Для героев ближнего боя: %bash_chance_melee%% <br>Для героев дальнего боя: %bash_chance_ranged%% "
-		"DOTA_Tooltip_ability_item_bashercustom_bonus_damage"									"+к урону"
-		"DOTA_Tooltip_ability_item_bashercustom_bonus_strength"									"+к здоровью"
-		"DOTA_Tooltip_ability_item_bashercustom_bash_cooldown"									"Перезарядка:"
 		
 		"DOTA_Tooltip_ability_item_bashercustom2"												"Удар Материей Разрушения"
-		"DOTA_Tooltip_ability_item_bashercustom2_Description"									"<h1>Пассивная: Оглушение</h1>Шанс оглушить противника на %bash_duration% сек. при ударе.\n<br>Для героев ближнего боя: %bash_chance_melee%% <br>Для героев дальнего боя: %bash_chance_ranged%% "
+		"DOTA_Tooltip_ability_item_bashercustom2_Description"									"<h1>Пассивная: Оглушение</h1>Шанс оглушить противника на %bash_duration% сек. при ударе.Для героев ближнего боя: %bash_chance_melee%% <br>Для героев дальнего боя: %bash_chance_ranged%% \n"
 		"DOTA_Tooltip_ability_item_bashercustom2_bonus_damage"									"+к урону"
-		"DOTA_Tooltip_ability_item_bashercustom2_bonus_strength"									"+к здоровью"
 		"DOTA_Tooltip_ability_item_bashercustom2_bash_cooldown"									"Перезарядка:"	
 		
 		"DOTA_Tooltip_ability_item_bashercustom3"												"Удар Материей Разрушения 2"
-		"DOTA_Tooltip_ability_item_bashercustom3_Description"									"<h1>Пассивная: Оглушение</h1>Шанс оглушить противника на %bash_duration% сек. при ударе.\n<br>Для героев ближнего боя: %bash_chance_melee%% <br>Для героев дальнего боя: %bash_chance_ranged%% "
+		"DOTA_Tooltip_ability_item_bashercustom3_Description"									"<h1>Пассивная: Оглушение</h1>Шанс оглушить противника на %bash_duration% сек. при ударе.Для героев ближнего боя: %bash_chance_melee%% <br>Для героев дальнего боя: %bash_chance_ranged%% \n"
 		"DOTA_Tooltip_ability_item_bashercustom3_bonus_damage"									"+к урону"
-		"DOTA_Tooltip_ability_item_bashercustom3_bonus_strength"									"+к здоровью"
 		"DOTA_Tooltip_ability_item_bashercustom3_bash_cooldown"									"Перезарядка:"
 		
 		"DOTA_Tooltip_ability_item_bashercustom4"												"Удар Материей Разрушения 3"
-		"DOTA_Tooltip_ability_item_bashercustom4_Description"									"<h1>Пассивная: Оглушение</h1>Шанс оглушить противника на %bash_duration% сек. при ударе.\n<br>Для героев ближнего боя: %bash_chance_melee%% <br>Для героев дальнего боя: %bash_chance_ranged%% "
+		"DOTA_Tooltip_ability_item_bashercustom4_Description"									"<h1>Пассивная: Оглушение</h1>Шанс оглушить противника на %bash_duration% сек. при ударе.Для героев ближнего боя: %bash_chance_melee%% <br>Для героев дальнего боя: %bash_chance_ranged%% \n"
 		"DOTA_Tooltip_ability_item_bashercustom4_bonus_damage"									"+к урону"
-		"DOTA_Tooltip_ability_item_bashercustom4_bonus_strength"									"+к здоровью"
 		"DOTA_Tooltip_ability_item_bashercustom4_bash_cooldown"									"Перезарядка:"
 			
 		
@@ -2721,10 +2711,6 @@
 
 		"dota_tooltip_ability_item_ultimate_amulet"						"Амулет Аганима"
 		"dota_tooltip_ability_item_ultimate_amulet_description"			"Позволяет вам поглотить аганим."
-
-		"DOTA_Tooltip_ability_item_healtrone"                                         "Луч Отхила"
-		"DOTA_Tooltip_ability_item_healtrone_Description"								"<h1>Активация: Heal</h1> Лечит выбранного юнита на %damage% хп."
-		
 		
 		"DOTA_Tooltip_ability_item_balanse_orb"											"Сфера Баланса"
 		"DOTA_Tooltip_ability_item_balanse_orb_Description"								""
@@ -2738,37 +2724,19 @@
 		"DOTA_Tooltip_ability_item_drink_ent_2"											"Живица Энта 2"
 		"DOTA_Tooltip_ability_item_drink_ent_2_Description"								""
 		"DOTA_Tooltip_ability_item_drink_ent_2_bonus_hp_regen"								"+к регенерации здоровья"
-
-		"DOTA_Tooltip_ability_item_drink_ent_3"											"Живица Энта 3"
-		"DOTA_Tooltip_ability_item_drink_ent_3_Description"								""
-		"DOTA_Tooltip_ability_item_drink_ent_3_bonus_hp_regen"								"+к регенерации здоровья"
-
-		"DOTA_Tooltip_ability_item_drink_ent_4"											"Живица Энта 4"
-		"DOTA_Tooltip_ability_item_drink_ent_4_Description"								""
-		"DOTA_Tooltip_ability_item_drink_ent_4_bonus_hp_regen"								"+к регенерации здоровья"
-
-		"DOTA_Tooltip_ability_item_drink_ent_5"											"Живица Энта 5"
-		"DOTA_Tooltip_ability_item_drink_ent_5_Description"								""
-		"DOTA_Tooltip_ability_item_drink_ent_5_bonus_hp_regen"								"+к регенерации здоровья"
 		
 		"DOTA_Tooltip_ability_item_stellar_base"										"Осколок Солнца"
 	    "DOTA_Tooltip_ability_item_stellar_base_Description"								"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит %damage% урона всем врагам в радиусе %range%\n"
 
 		"DOTA_Tooltip_ability_item_sharpness"											"Когти"
-		"DOTA_Tooltip_ability_item_sharpness_Description"								""
 		"DOTA_Tooltip_ability_item_sharpness_bonus_damage"									"+к урону"
 
 		"DOTA_Tooltip_ability_item_sharpness_2"											"Когти 2"
-		"DOTA_Tooltip_ability_item_sharpness_2_Description"								""
 		"DOTA_Tooltip_ability_item_sharpness_2_bonus_damage"								"+к урону"
 
 		"DOTA_Tooltip_ability_item_sharpness_3"											"Когти 3"
-		"DOTA_Tooltip_ability_item_sharpness_3_Description"								""
 		"DOTA_Tooltip_ability_item_sharpness_3_bonus_damage"								"+к урону"
 
-		"DOTA_Tooltip_ability_item_sharpness_4"											"Когти 4"
-		"DOTA_Tooltip_ability_item_sharpness_4_Description"								""
-		"DOTA_Tooltip_ability_item_sharpness_4_bonus_damage"								"+к урону"
 
 		"DOTA_Tooltip_ability_item_double_attack"										"Разлом Сознания"
 		"DOTA_Tooltip_ability_item_double_attack_Description"								"<h1>Пассивная: Разлом сознания</h1>Ломает сознание вашего героя, позволяя моментально совершить вторую атаку после попадания снаряда по цели.<br>(Работает только на героях дальнего боя)."
@@ -2781,18 +2749,6 @@
 		"DOTA_Tooltip_ability_item_double_attack_3"										"Разлом Сознания 3"
 		"DOTA_Tooltip_ability_item_double_attack_3_Description"								"<h1>Пассивная: Разлом сознания</h1>Ломает сознание вашего героя позволяя моментально совершить вторую атаку после попадания снаряда по цели.<br> (Работает только на героях дальнего боя)."
 		"DOTA_Tooltip_ability_item_double_attack_3_bonus_damage"								"+к урону"
-
-		"DOTA_Tooltip_ability_item_speed_gloves"										"Тактические Перчатки"
-		"DOTA_Tooltip_ability_item_speed_gloves_Description"								""
-		"DOTA_Tooltip_ability_item_speed_gloves_bonus_attack_speed"								"+к скорости атаки:"
-
-		"DOTA_Tooltip_ability_item_speed_gloves_2"										"Тактические Перчатки 2"
-		"DOTA_Tooltip_ability_item_speed_gloves_2_Description"								""
-		"DOTA_Tooltip_ability_item_speed_gloves_2_bonus_attack_speed"							"+к скорости атаки:"
-
-		"DOTA_Tooltip_ability_item_speed_gloves_3"										"Тактические Перчатки 3"
-		"DOTA_Tooltip_ability_item_speed_gloves_3_Description"								""
-		"DOTA_Tooltip_ability_item_speed_gloves_3_bonus_attack_speed"							"+к скорости атаки:"
 
 		"DOTA_Tooltip_ability_item_hand_of_hunter"										"Перчатка Охотника"
 		"DOTA_Tooltip_ability_item_hand_of_hunter_Description"								""
@@ -2846,18 +2802,8 @@
 		"DOTA_Tooltip_ability_item_energy_crystall_3_lore"									"Этот кристалл пульсирует в руке владельца, передавая свою силу."
 		"DOTA_Tooltip_ability_item_energy_crystall_3_spell_amp"									"+% к урону от заклинаний"
 
-
 		"DOTA_Tooltip_ability_item_rune_magic"											"Магическая Руна"
 		"DOTA_Tooltip_ability_item_rune_magic_Description"									"<h1>Пассивная:</h1> Уменьшает перезарядку ваших способностей на %spell_reduction%% "
-
-
-		"DOTA_Tooltip_ability_item_rune_magic_2"										"Магическая Руна 2"
-		"DOTA_Tooltip_ability_item_rune_magic_2_Description"								"<h1>Пассивная:</h1> Уменьшает перезарядку ваших способностей на %spell_reduction%% "
-
-
-		"DOTA_Tooltip_ability_item_rune_magic_3"										"Магическая Руна 3"
-		"DOTA_Tooltip_ability_item_rune_magic_3_Description"								"<h1>Пассивная:</h1> Уменьшает перезарядку ваших способностей на %spell_reduction%% "
-
 
 		"DOTA_Tooltip_ability_item_rune_health"											"Руна Здоровья"
 		"DOTA_Tooltip_ability_item_rune_health_Description"									""
@@ -2874,21 +2820,9 @@
 		"DOTA_Tooltip_ability_item_rune_health_4"										"Руна Здоровья 4"
 		"DOTA_Tooltip_ability_item_rune_health_4_Description"								""
 		"DOTA_Tooltip_ability_item_rune_health_4_bonus_health"									"+к здоровью"
-
-		"DOTA_Tooltip_ability_item_rune_health_5"										"Руна Здоровья 5"
-		"DOTA_Tooltip_ability_item_rune_health_5_Description"								""
-		"DOTA_Tooltip_ability_item_rune_health_5_bonus_health"									"+к здоровью"
-		
 		
 		"DOTA_Tooltip_ability_item_amulet_astral"											"Астральный Амулет"
 		"DOTA_Tooltip_ability_item_amulet_astral_Description"									"Увеличивает дальность направленных способностей на %cast_range_bonus%."
-
-		"DOTA_Tooltip_ability_item_amulet_astral_2"											"Астральный Амулет 2"
-		"DOTA_Tooltip_ability_item_amulet_astral_2_Description"									"Увеличивает дальность направленных способностей на %cast_range_bonus%."
-
-		"DOTA_Tooltip_ability_item_amulet_astral_3"											"Астральный Амулет 3"
-		"DOTA_Tooltip_ability_item_amulet_astral_3_Description"									"Увеличивает дальность направленных способностей на %cast_range_bonus%."
-
 
 		"DOTA_Tooltip_ability_item_armor_start"												"Потрёпанные Латы"
 		"DOTA_Tooltip_ability_item_armor_start_Description"										""
@@ -2897,17 +2831,6 @@
 		"DOTA_Tooltip_ability_item_armor_start_2"											"Потрёпанные Латы 2"
 		"DOTA_Tooltip_ability_item_armor_start_2_Description"									""
 		"DOTA_Tooltip_ability_item_armor_start_2_bonus_armor"										"+к броне"
-
-		"DOTA_Tooltip_ability_item_armor_start_3"											"Потрёпанные Латы 3"
-		"DOTA_Tooltip_ability_item_armor_start_3_Description"									""
-		"DOTA_Tooltip_ability_item_armor_start_3_bonus_armor"										"+к броне"
-
-		"DOTA_Tooltip_ability_item_armor_start_4"											"Потрёпанные Латы 4"
-		"DOTA_Tooltip_ability_item_armor_start_4_Description"									""
-		"DOTA_Tooltip_ability_item_armor_start_4_bonus_armor"										"+к броне"
-
-
-
 
 			/// Р А С Х О Д Н И К И ///
 		"DOTA_Tooltip_ability_item_purging_dust"                                        "Космическая пыль"
@@ -3047,22 +2970,6 @@
 		"DOTA_Tooltip_ability_item_stellar_flare_note0"							"Урон предмета не зависит от магического усиления"
 	    "DOTA_Tooltip_ability_item_stellar_flare_int"									"+к интеллекту:" 
 		"DOTA_Tooltip_ability_item_stellar_flare_mana"									"+к мане"
-		
-
-        "DOTA_Tooltip_ability_item_stellar_flare_2"								"Звёздная вспышка 2"
-	    "DOTA_Tooltip_ability_item_stellar_flare_2_Description"						"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). <br>Внимание! Данный предмет работает только у героев с основным атрибутом - Интеллект"
-		"DOTA_Tooltip_ability_item_stellar_flare_2_note0"							"Урон предмета не зависит от магического усиления"
-		"DOTA_Tooltip_ability_item_stellar_flare_2_int"									"+к интеллекту:" 
-		"DOTA_Tooltip_ability_item_stellar_flare_2_mana"								 "+к мане"
-		
-
-		"DOTA_Tooltip_ability_item_stellar_flare_3"								"Звёздная вспышка 3"
-	    "DOTA_Tooltip_ability_item_stellar_flare_3_Description"						"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). <br>Внимание! Данный предмет работает только у героев с основным атрибутом - Интеллект"
-		"DOTA_Tooltip_ability_item_stellar_flare_3_note0"							"Урон предмета не зависит от магического усиления"	
-		"DOTA_Tooltip_ability_item_stellar_flare_3_int"								"+к интеллекту:" 
-		"DOTA_Tooltip_ability_item_stellar_flare_3_mana"							"+к мане"
-
-
 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil"					"Нестабильная Звёздная вспышка"
 	    "DOTA_Tooltip_ability_item_stellar_flare_veil_Description"				"<h1>Активная: Нестабильность</h1> При активации на точку уменьшает магическое сопротивление всех вражеских юнитов на 30%. <br>Внимание! Данный предмет работает только у героев с основным атрибутом - Интеллект.\n<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект)."
@@ -3301,7 +3208,6 @@
 		"DOTA_Tooltip_ability_item_butterfly_cu_4_bonus_move_speed"               				"+к скорости передвижения "	
 
 
-
 		"DOTA_Tooltip_ability_item_soulcutter" 											"Разрушитель Материи"
 		"DOTA_Tooltip_ability_item_soulcutter_Description" 									"<h1>Пассивная: Разрушение</h1>Уменьшает броню врагов на 150. Длительность снижения эффекта %duration% сек. \n <h1>Пассивная: Пронзание Души</h1> %attack_damage_to_pure_pct%%% физического урона ваших атак преобразуется в чистый урон.\n <h1>Пассивная: Аура Разрушения</h1> Снижает броню на %aura_armor_reduction% всем противников в радиусе %aura_radius%." 
 		"DOTA_Tooltip_ability_item_soulcutter_bonus_damage" 								"+к урону"
@@ -3315,30 +3221,30 @@
 
 		"DOTA_Tooltip_Ability_item_mars_sword_1"							"Меч Марса"
 		"DOTA_Tooltip_Ability_item_mars_sword_1_Description"					"<h1>Активируемая: Имунитет к магии</h1> Вы получаете магический имунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели."
+		"DOTA_Tooltip_Ability_item_mars_sword_1_bonus_armor"						"+к броне "
 		"DOTA_Tooltip_Ability_item_mars_sword_1_bonus_damage"						"+к урону "
-		"DOTA_Tooltip_Ability_item_mars_sword_1_bonus_aspeed"						"+к скорости атаки"
 		
 		"DOTA_Tooltip_modifier_kings_bar_magic_immune_active"						"Имунитет к магии"
 
 		"DOTA_Tooltip_Ability_item_mars_sword_2"							"Меч Марса 2"
 		"DOTA_Tooltip_Ability_item_mars_sword_2_Description"					"<h1>Активируемая: Spell Immune</h1> Вы получаете магический имунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели."
+		"DOTA_Tooltip_Ability_item_mars_sword_2_bonus_armor"						"+к броне "
 		"DOTA_Tooltip_Ability_item_mars_sword_2_bonus_damage"						"+к урону "
-		"DOTA_Tooltip_Ability_item_mars_sword_2_bonus_aspeed"						"+к скорости атаки"
 
 		"DOTA_Tooltip_Ability_item_mars_sword_3"							"Меч Марса 3"
 		"DOTA_Tooltip_Ability_item_mars_sword_3_Description"					"<h1>Активируемая: Spell Immune</h1> Вы получаете магический имунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели."
+		"DOTA_Tooltip_Ability_item_mars_sword_3_bonus_armor"						"+к броне "
 		"DOTA_Tooltip_Ability_item_mars_sword_3_bonus_damage"						"+к урону "
-		"DOTA_Tooltip_Ability_item_mars_sword_3_bonus_aspeed"						"+к скорости атаки"
 
 		"DOTA_Tooltip_Ability_item_mars_sword_4"							"Меч Марса 4"
 		"DOTA_Tooltip_Ability_item_mars_sword_4_Description"				"<h1>Активируемая: Spell Immune</h1> Вы получаете магический имунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели."
+		"DOTA_Tooltip_Ability_item_mars_sword_4_bonus_armor"						"+к броне "
 		"DOTA_Tooltip_Ability_item_mars_sword_4_bonus_damage"						"+к урону "
-		"DOTA_Tooltip_Ability_item_mars_sword_4_bonus_aspeed"						"+к скорости атаки"
 
 		"DOTA_Tooltip_Ability_item_mars_sword_5"							"Меч Марса 5"
 		"DOTA_Tooltip_Ability_item_mars_sword_5_Description"					"<h1>Активируемая: Spell Immune</h1> Вы получаете магический имунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели."
+		"DOTA_Tooltip_Ability_item_mars_sword_5_bonus_armor"						"+к броне "
 		"DOTA_Tooltip_Ability_item_mars_sword_5_bonus_damage"						"+к урону "
-		"DOTA_Tooltip_Ability_item_mars_sword_5_bonus_aspeed"						"+к скорости атаки"
 
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword"						"Нестабильный Меч Марса"
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_Description"				"<h1>Активируемая: Spell Immune</h1> Вы получаете магический имунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели.\n <h1>Пассивная: Временной Парадокс</h1> Каждая атака героя дальнего боя будет выполнена дважды.\n <h1>Пассивная: Критический Урон</h1> У вас есть шанс нанести критический урон %crit_bonus%% с шансом %crit_chance%%  "
@@ -3347,6 +3253,7 @@
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_bonus_agility"				"+к ловкости"
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_bonus_evasion"				"+%к улонению"
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_bonus_move_speed"			"+к скорости передвижения "
+		"DOTA_Tooltip_Ability_item_unstable_mars_sword_bonus_armor"					"+к броне "
 
 
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_r"							"Нестабильный Меч Марса Рецепт"
@@ -3354,7 +3261,6 @@
 
 
 		"DOTA_Tooltip_ability_item_lifestealtank"										"Кровавый самоцвет"
-		"DOTA_Tooltip_ability_item_lifestealtank_Description"								"<h1>Пассивная: Кровь союзника </h1>20% всего уронa, нанесённого союзниками в радиусе %radius%, восстанавливает ваше здоровье."
 		"DOTA_Tooltip_ability_item_lifestealtank_bonus_armor"									"+к броне "
 		"DOTA_Tooltip_ability_item_lifestealtank_tooltip_allstats"								"+ко всем атрибутам "
 		"DOTA_Tooltip_ability_item_lifestealtank_bonus_damage"									"+к урону "
@@ -3417,14 +3323,16 @@
          
 
 
-	
-		"DOTA_Tooltip_ability_item_daedalus2"                                 "Дедал 2"
-		"DOTA_Tooltip_ability_item_daedalus2_Description"                    	"Каждая атака имеет шанс в %critical_chance%%  нанести %critical_bonus%%  урона."
-		"DOTA_Tooltip_ability_item_daedalus2_bonus_damage"                          "+к урону "
+		"DOTA_Tooltip_ability_item_greater_crit"                                "Экскалибур"
+		"DOTA_Tooltip_ability_item_greater_crit_Description"                    "Каждая атака имеет шанс в %crit_chance%%  нанести %crit_multiplier%%  урона."
 
-		"DOTA_Tooltip_ability_item_daedalus3"                                 "Дедал 3"
+		"DOTA_Tooltip_ability_item_daedalus2"                                 	"Экскалибур 2"
+		"DOTA_Tooltip_ability_item_daedalus2_Description"                    	"Каждая атака имеет шанс в %critical_chance%%  нанести %critical_bonus%%  урона."
+		"DOTA_Tooltip_ability_item_daedalus2_bonus_damage"                      "+к урону "
+
+		"DOTA_Tooltip_ability_item_daedalus3"                                 	"Экскалибур 3"
 		"DOTA_Tooltip_ability_item_daedalus3_Description"                    	"Каждая атака имеет шанс в %critical_chance%%  нанести %critical_bonus%%  урона."
-		"DOTA_Tooltip_ability_item_daedalus3_bonus_damage"                          "+к урону "
+		"DOTA_Tooltip_ability_item_daedalus3_bonus_damage"                      "+к урону "
   
 	   
 	  
@@ -4394,13 +4302,13 @@
 	
 	
 
-    "race_human_damage" "Тип урона: <font color='#ff0808'>Физический</font>"
-	"race_spirits_damage" "Тип урона: <font color='#00ff1e'>Ангельский</font>"
-	"race_armored_damage" "Тип урона: <font color='#ff9100'>Энергия Взрыва</font>"
-	"race_anquietas_damage" "Тип урона: <font color='#e5ff00'>Чистая Материя</font>"
-	"race_asgard_damage" "Тип урона: <font color='#bb00ff'>«Материя Мироздания»</font>"
-	"race_ori_damage" "Тип урона: <font color='#b9ff08'>Энергия</font>"
-	"race_touhou_damage" "Тип урона: <font color='#036bfc'>Магический Дисбаланс</font>"
+    "race_human_damage" "Тип урона: Физический"
+	"race_spirits_damage" "Тип урона: Чистый"
+	"race_armored_damage" "Тип урона: Физический"
+	"race_anquietas_damage" "Тип урона: Чистый"
+	"race_asgard_damage" "Тип урона: Магический"
+	"race_ori_damage" "Тип урона: Чистый"
+	"race_touhou_damage" "Тип урона: Магический"
 
 	"race_human_bonus" "Пассивный бонус: <font color='#ff0808'>Дополнительный Белый Урон</font><br><br>
 	Пассивная способность: <font color='#ff0808'>«Богатство»</font><br> Даёт дополнительное золото"
@@ -4509,13 +4417,10 @@
         "qvest_global_give" "Забрать Награду"
 
 		"DOTA_Tooltip_ability_item_desolator_anubis"								"Дезолятор Анубиса"
-		"DOTA_Tooltip_ability_item_desolator_anubis_Description"					"<h1>Пассивная: Last Stand</h1> Каждая ваша атака будет игнорировать всю броню противника.\n"
+		"DOTA_Tooltip_ability_item_desolator_anubis_Description"					"<h1>Пассивная: Last Stand</h1> С шансом в 5% ваша атака будет игнорировать всю броню противника.\n <h1>Пассивная: Аннигиляция</h1> Ваши атаки снижают броню цели на 80%.\n"
 		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_damage"					"Урон:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_agi"				"Ловкость:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_str"				"Сила:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_int"				"Интеллект:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_resistance"				"%Сопротивление магии:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_as"						"Скорость атаки:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_agi"						"Ловкость:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_resistance"						"%Сопротивление магии:"
 
 		"DOTA_Tooltip_ability_item_desolator_anubis_r"								"Дезолятор Анубиса"
 		"DOTA_Tooltip_ability_item_desolator_anubis_r_Description"					"Можно получить выполнив квест за Физического ДД"
@@ -4581,7 +4486,7 @@
 		"andromeda_repli_6" "Они смогли активировать мои локальные Звёздные Врата для своих целей, вы не сможете ими воспользоватся!"
 		"andromeda_repli_7" "Моя армия была полностью уничтожена и теперь мне нужна ваша помощь в этой войне!"
 		"andromeda_repli_8" "Они снова нападают! Внимание!"
-		"andromeda_repli_9" "Я выяснила что они нападают волнами по 40 юнитов, из которых 24 это юниты с ближним типом атаки и 16 юнитов магов."
+		"andromeda_repli_9" "Я выяснила что с каждой волной количество врагов растёт, так же могут появится Чемпионы с уникальными способностями."
 		"andromeda_repli_10" "Также чем дольше мы обороняемся, тем сильнее они становятся, их снабжение возрастает, и у них появляются новые способности и предметы."
 		"andromeda_repli_11" "По моим данным, в этой галактике есть много спрятанных сокровищ! Купите предмет «Компас Сокровищ Гоа'улдов» чтобы их найти!"
 		"andromeda_repli_12" "Вы можете использовать мои Звёздные Врата для путешествия по другим планетам в этой галактике!"
@@ -4776,35 +4681,6 @@
 
 		"prolog_off" "Пропустить пролог?"
 
-		"npc_dota_hero_drow_ranger"		"Miku سلالقسنقل قس "
-
-		"DOTA_Tooltip_ability_jekob_1" 						"АБИЛИТИ ДЖЕЙКОБ АДИН"
-		"DOTA_Tooltip_ability_jekob_1_Description" 			"Хуй паймы шо реальна тупа" 
-		"DOTA_Tooltip_ability_jekob_1_attack_range" 		"Дальность камшота:" 
-		"DOTA_Tooltip_ability_jekob_1_base_attack_time" 	"Скорость дрочки:"
-		
-		"DOTA_Tooltip_ability_jekob_2" 						"Оздоровчі"
-		"DOTA_Tooltip_ability_jekob_2_Description" 			"Дає додаткові кошти для вирішення соціально побутових завдань" 
-
-		"DOTA_Tooltip_ability_jekob_3" 						"Панимаю"
-		"DOTA_Tooltip_ability_jekob_3_Description" 			"Ты начинаешь панимать" 
-		"DOTA_Tooltip_ability_jekob_3_armor_reduction" 		"Панимание:" 
-
-		"DOTA_Tooltip_ability_jekob_4" 						"Двойное проникновение"
-		"DOTA_Tooltip_ability_jekob_4_Description" 			"Даёт шанс пойти нахуй дважды"
-		"DOTA_Tooltip_ability_jekob_4_crit" 				"Гей Димас:"
-		"DOTA_Tooltip_ability_jekob_4_wanson" 				"Два хуя в одну жопу:" 
-
-		"DOTA_Tooltip_ability_jekob_5" 						"Подросток из неблагополучного района Дэвид Райс всегда считал себя обычным парнем, пока однажды он не узнал, что он может телепортироваться с места на место, когда провалился под лёд. Новые способности открыли перед ним весь мир. Он может побывать в Нью-Йорке и Токио, посетить античные развалины в Риме, увидеть «крышу мира» с горы Эверест, увидеть 20 рассветов и 20 закатов. И все — в один день. Теперь ему не нужны деньги — он может взять сколько хочет. Однако в один момент он обнаруживает, что стал мишенью. На него, как и на других подобных ему, объявлена охота. На протяжении тысячи лет тайное общество стремится уничтожить их. Вскоре Дэвид узнает истинную ценность своих новых способностей."
-		"DOTA_Tooltip_ability_jekob_5_Description" 			"" 
-		
-		"DOTA_Tooltip_ability_jekob_5_release" 				".йетсонбосопс хывон хиовс ьтсоннец юуннитси теанзу дивэД ероксВ .хи ьтижотчину ястимертс овтсещбо еонйат тел ичясыт иинежяторп аН .атохо анелвяъбо ,уме хынбодоп хигурд ан и как ,оген аН .юьнешим латс отч ,теавижуранбо но тнемом нидо в окандО .течох окьлокс ьтязв тежом но — игьнед ынжун ен уме ьрепеТ .ьнед нидо в — есв И .вотаказ 02 и вотевссар 02 ьтедиву ,тсеревЭ ырог с »арим ушырк« ьтедиву ,емиР в ынилавзар еынчитна ьтитесоп ,оикоТ и екроЙ-юьН в ьтавыбоп тежом нО .рим ьсев мин дереп илыркто итсонбосопс еывоН .дёл доп яслилаворп адгок ,отсем ан атсем с ясьтаворитропелет тежом но отч ,ланзу ен но ыджандо акоп ,менрап мынчыбо ябес латичс адгесв сйаР дивэД анойар огончулопогалбен зи котсордоП"
-		"DOTA_Tooltip_ability_jekob_5_release_Description" 	"" 
-
-        "DOTA_Tooltip_modifier_jekob_5_casted"				"Ана́льный секс (от лат. anus — анус), также анали́зм, ана́льный ко́итус, ана́льная пенетра́ция, ана́льное сноше́ние, заднепроходно́е сноше́ние — половые сношения, совершаемые путём введения полового члена, фаллопротеза или страпона одного партнёра в анальное отверстие другого. Анальные сношения практикуются как между разнополыми, так и между однополыми партнёрами. При этом такой вид полового акта в отличие от вагинального сношения требует от партнёров некоторой предварительной подготовки"
-		"DOTA_Tooltip_modifier_jekob_5_casted_Description"				""
-
-
 		"sg_key_name" "Найденно ключей:" 
 		"rain_infinity" " "
 		"snow_infinity" " "
@@ -4867,22 +4743,6 @@
 		"DOTA_Tooltip_ability_kongou_ammo_scepter_description"		"Атакует врагов вокруг героя с интервалом в 0.8 секунд, на атаки работают все эффекты атаки."
 		"DOTA_Tooltip_ability_noire_next_scepter_description"		"Позволяет проходить сквозь юнитов."
 		"DOTA_Tooltip_ability_enterprise_lucky_scepter_description"		"Добавляет новую способность - Эскадрилия: Истребитель."
-		"DOTA_Tooltip_ability_skywrath_mage_shard_description"		""
-
-		"DOTA_Tooltip_ability_jekob_1_shard_description"		"Дрочит на пол стоя"
-		"DOTA_Tooltip_ability_jekob_1_scepter_description"		"Перестаёт дрочить стоя и присаживается"
-
-		"DOTA_Tooltip_ability_jekob_2_shard_description"		"Дае 10 гривень"
-		"DOTA_Tooltip_ability_jekob_2_scepter_description"		"Пізда від начальніка - 3000 гривень"
-		
-		"DOTA_Tooltip_ability_jekob_3_shard_description"		"Ты начинаешь понимать"
-		"DOTA_Tooltip_ability_jekob_3_scepter_description"		"Ты перестаешь понимать"
-
-		"DOTA_Tooltip_ability_jekob_4_shard_description"		"Позволяет пойти нахуй трижды"
-		"DOTA_Tooltip_ability_jekob_4_scepter_description"		"Добавляет трусы на 2 хуя"
-
-		"DOTA_Tooltip_ability_drow_ranger_shard_description"		"Стоимость внесения героя в систему рас 10$"
-		"DOTA_Tooltip_ability_drow_ranger_scepter_description"		"Плата за просмотр, думал халява ?"
 
 		"DOTA_Tooltip_ability_storm_spirit_overload"                "<font color='#ff8400'> 「Overload」</font>"
         "DOTA_Tooltip_ability_storm_spirit_overload_Description"    "При активации любой способности, заряжает следующую атаку энергетическим зарядом который при попадании по врагу нанесёт урон по области а также замедлит цель на %overload_move_slow%"
@@ -5720,7 +5580,7 @@
 		Дальность поражения: неограничена<br>
 		Скорость полёта ракет: 5000<br>
 		Радиус захвата целей: 2000<br>
-		Урон: 100% от здоровья<br>
+		Урон: 80% от здоровья<br>
 		<br>
 		Ограничения:<br>
 		Не работает на мировых боссов.<br>
@@ -5746,7 +5606,7 @@
 		Характеристики:<br>
 		Радиус сканирования: 30.000<br>
 		Задержка обстрела: 30<br>
-		Урон: 100% от здоровья<br>
+		Урон: 30% от здоровья<br>
 		<br>
 		Ограничения:<br>
 		Работает только при наличии беспилотника Mq-9 Predator.<br>
@@ -6661,13 +6521,13 @@
 		"npc_dota_hero_warlock"												"Origami Tobiichi"
 
 		"DOTA_Tooltip_ability_origami_spirit" 								"<font color='#E5C91D'>「Zetsumetsu Tenshi」</font>"
-		"DOTA_Tooltip_ability_origami_spirit_Description" 					"Создаёт выбросы энергии в центре способности <font color='#E5C91D'>«「Artelif: Crown Cannon 」»</font>, с каждой секундой выбросы будут происходить всё чаще, наносит урон который зависит от вашего интеллекта * %damage%<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
+		"DOTA_Tooltip_ability_origami_spirit_Description" 					"Создаёт выбросы энергии в центре способности <font color='#E5C91D'>«「Artelif: Crown Cannon 」»</font>, с каждой секундой выбросы будут происходить всё чаще, наносит урон который зависит от вашего интеллекта * %damage%<br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
 
 		"DOTA_Tooltip_ability_origami_sun_sword"							"<font color='#E5C91D'>「光剣」</font>"
-		"DOTA_Tooltip_ability_origami_sun_sword_Description"				"Выпускает энергетический луч, который отскакивает от врага к врагу в радиусе %radius%, наносит урон в размере %damage% а так же уменьшает наносимый урон врагов на %hero_attack_damage_reduction%. Интервал скачков - %jump_delay% <br> Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_origami_sun_sword_Description"				"Выпускает энергетический луч, который отскакивает от врага к врагу в радиусе %radius%, наносит урон в размере %damage% а так же уменьшает наносимый урон врагов на %hero_attack_damage_reduction%. Интервал скачков - %jump_delay% "
 
 		"DOTA_Tooltip_ability_origami_sun"									"<font color='#E5C91D'>「Shemesh: Sun」</font>"
-		"DOTA_Tooltip_ability_origami_sun_Description"						"Заряжает мощнейшую атаку, которая наносит урон в зависимости от времени заряда, дальность выстрела - %range%, урон завист от длительности применения, максимальный урон равен - %launcher_damage%   <br>Тип урона: <font color='#00ff1e'>Ангельский</font>"
+		"DOTA_Tooltip_ability_origami_sun_Description"						"Заряжает мощнейшую атаку, которая наносит урон в зависимости от времени заряда, дальность выстрела - %range%, урон завист от длительности применения, максимальный урон равен - %launcher_damage% "
 		"DOTA_Tooltip_ability_origami_sun_launcher_damage"					"Урон:"
 
 		"DOTA_Tooltip_ability_origami_wings" 								"<font color='#E5C91D'>「Malach: Heavenly Wings」</font>"
@@ -6679,7 +6539,7 @@
 		"DOTA_Tooltip_bvo_orihime_skill_2_modifier" 						"<font color='#E5C91D'>「Nameless Defensive Formation」</font>"
 		
 		"DOTA_Tooltip_ability_origami_ylti" 								"<font color='#E5C91D'>「Artelif: Crown Cannon」</font>"
-		"DOTA_Tooltip_ability_origami_ylti_Description" 						"Создаёт сферу искажения времени, в которой происходят разломы от способности <font color='#E5C91D'>「Zetsumetsu Tenshi」</font>, с каждой секундой разломы будут появлятся всё чаще и чаще, урон расчитывается по формуле - %damage% + 20% от интеллекта Оригами.<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
+		"DOTA_Tooltip_ability_origami_ylti_Description" 						"Создаёт сферу искажения времени, в которой происходят разломы от способности <font color='#E5C91D'>「Zetsumetsu Tenshi」</font>, с каждой секундой разломы будут появлятся всё чаще и чаще, урон расчитывается по формуле - %damage% + 20% от интеллекта Оригами.<br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
 
 		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「Demon King: Satan 」</font>"
 		"DOTA_Tooltip_ability_origami_inverse_Description" 					"Оригами получает Сатану — более темную и зловещую версию Метатрона, переходит в форму инверсии, получает дополнительный интеллект в размере %int%, а так же увеличивает весь магический урон на %spell_amp%%%"
@@ -6687,7 +6547,7 @@
 		"DOTA_Tooltip_modifier_origami_inverse_basic" 						"<font color='#9629F7'>「Demon King: Satan 」</font>"
 
 		"DOTA_Tooltip_ability_origamiinverse_aura" 							"<font color='#9629F7'>「Destructive aura」</font>"
-		"DOTA_Tooltip_ability_origamiinverse_aura_Description" 				"Создаёт огромную область тёмной материи, по истечению 5 секунд будет выбранна случайная цель в радиусе сферы, которая потеряет 80% своего здоровья.<br>Тип урона: <font color='#00ff1e'>Ангельский</font><br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
+		"DOTA_Tooltip_ability_origamiinverse_aura_Description" 				"Создаёт огромную область тёмной материи, по истечению 5 секунд будет выбранна случайная цель в радиусе сферы, которая потеряет 80% своего здоровья.<br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
 		"DOTA_Tooltip_ability_origamiinverse_aura_radius" 					"Радиус:"
 
 
@@ -6743,13 +6603,12 @@
 		"lich_king_start"			"Задание начнётся после прохождения раунда автоматически!"	
 
 		"DOTA_Tooltip_modifier_kizaru_sword"		"Молекулярный Меч"
+		"DOTA_Tooltip_modifier_charon"				"Скипетр Воды"
+  
+		"DOTA_Tooltip_ability_skywrath_mage_shard_description"		"При каждом применении способности даёт +5 к интеллекту и +1 к броне на 35 секунд. Эффекты складываются, но их время действия не зависит друг от друга."
 
-
-
-
-
-
-
+		"DOTA_Tooltip_modifier_item_desolator_anubis_armor"						"Дезолятор Анубиса"
+		"DOTA_Tooltip_modifier_item_desolator_anubis_armor_description"			"Броня уменьшена на 80%"
 
 
 

@@ -2769,20 +2769,13 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 	    "DOTA_Tooltip_ability_item_stellar_base_Description"	"<h1>Passive: Radiate</h1> At %dps% intervals, deals %damage% damage to all enemies within %range%\n"
  
 "DOTA_Tooltip_ability_item_sharpness" "Claws"
-"DOTA_Tooltip_ability_item_sharpness_Description" "Increases your attack damage."
 "DOTA_Tooltip_ability_item_sharpness_bonus_damage" "Damage:"
 
 "DOTA_Tooltip_ability_item_sharpness_2" "Claws 2"
-"DOTA_Tooltip_ability_item_sharpness_2_Description" "Increases your attack damage."
 "DOTA_Tooltip_ability_item_sharpness_2_bonus_damage" "Damage:"
 
 "DOTA_Tooltip_ability_item_sharpness_3" "Claws 3"
-"DOTA_Tooltip_ability_item_sharpness_3_Description" "Increases your attack damage."
 "DOTA_Tooltip_ability_item_sharpness_3_bonus_damage" "Damage:"
-
-"DOTA_Tooltip_ability_item_sharpness_4" "Claws 4"
-"DOTA_Tooltip_ability_item_sharpness_4_Description" "Increases your attack damage."
-"DOTA_Tooltip_ability_item_sharpness_4_bonus_damage" "Damage:"
 
 "DOTA_Tooltip_ability_item_double_attack" "Consciousness rift"
 "DOTA_Tooltip_ability_item_double_attack_Description" "Breaks mind of your hero allowing you to instantly make a second attack after the projectile hits the target<br> Works only on ranged heroes."
@@ -2795,18 +2788,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 "DOTA_Tooltip_ability_item_double_attack_3" "Consciousness rift 3"
 "DOTA_Tooltip_ability_item_double_attack_3_Description" "Breaks mind of your hero, allowing you to instantly make a second attack after the projectile hits the target<br> Works only on ranged heroes."
 "DOTA_Tooltip_ability_item_double_attack_3_bonus_damage" "Damage:"
-
-"DOTA_Tooltip_ability_item_speed_gloves" "Tactical gloves"
-"DOTA_Tooltip_ability_item_speed_gloves_Description" ""
-"DOTA_Tooltip_ability_item_speed_gloves_bonus_attack_speed" "Bonus attack speed:"
-
-"DOTA_Tooltip_ability_item_speed_gloves_2" "Tactical gloves 2"
-"DOTA_Tooltip_ability_item_speed_gloves_2_Description" ""
-"DOTA_Tooltip_ability_item_speed_gloves_2_bonus_attack_speed" "Bonus attack speed:"
-
-"DOTA_Tooltip_ability_item_speed_gloves_3" "Tactical gloves 3"
-"DOTA_Tooltip_ability_item_speed_gloves_3_Description" ""
-"DOTA_Tooltip_ability_item_speed_gloves_3_bonus_attack_speed" "Bonus attack speed:"
 
 "DOTA_Tooltip_ability_item_hand_of_hunter" "Hunter's glove"
 "DOTA_Tooltip_ability_item_hand_of_hunter_Description" ""
@@ -3408,7 +3389,6 @@ For the targeted destruction of enemy missiles and grenades, narrowly targeted d
 
 
  "DOTA_Tooltip_ability_item_lifestealtank" "Blood gem"
- "DOTA_Tooltip_ability_item_lifestealtank_Description" "<h1>Passive: Ally blood</h1> 20% of all damage dealt by allies within %radius% radius will replenish your health.\n<h1>Passive: Vampirism</h1> Each attack replenishes %lifesteal%%  owner's health based on damage."
  "DOTA_Tooltip_ability_item_lifestealtank_bonus_armor" "Armor:"
  "DOTA_Tooltip_ability_item_lifestealtank_tooltip_allstats" "All stats:"
  "DOTA_Tooltip_ability_item_lifestealtank_bonus_damage" "Damage:"
@@ -5132,11 +5112,8 @@ They can use autodialling without energy loss."
 		"DOTA_Tooltip_ability_item_desolator_anubis"								"Anubis' desolator"
 		"DOTA_Tooltip_ability_item_desolator_anubis_Description"					"<h1>Passive: Last Stand</h1> Each your attack completely ignores target's armor.\n"
 		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_damage"					"Damage:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_agi"				"Agility:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_str"				"Strength:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_int"				"Intelligence:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_resistance"				"%Magical resistance:"
-		"DOTA_Tooltip_ability_item_desolator_anubis_as"						"Attack speed:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_bonus_agi"						"Agility:"
+		"DOTA_Tooltip_ability_item_desolator_anubis_resistance"						"%Magical resistance:"
 		
 		"DOTA_Tooltip_ability_item_desolator_anubis_r"								"Anubis' desolator"
 		"DOTA_Tooltip_ability_item_desolator_anubis_r_Description"					"Item is obtained by completing DD's quest."
