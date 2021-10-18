@@ -2319,9 +2319,8 @@
 		"DOTA_Tooltip_ability_mi24v_attack_c5_damage_multi"									"Множитель урона(с талантом):"
 
         "DOTA_Tooltip_ability_mi24_ykb_12_7"												"ЯКБ 12.7 ММ"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"									"MI-24V обладает четырёхствольным авиационным пулемётом с вращающимся блоком стволов, что даёт ему возможность атаковать с максимальной скоростью атаки в 0.1"
-        "DOTA_Tooltip_ability_mi24_ykb_12_7_attack_range_bonus"									"Дополнительная дальность атаки:"
-        "DOTA_Tooltip_ability_mi24_ykb_12_7_reload_time"									"Перезарядка:" 
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"									"MI-24V обладает четырёхствольным авиационным пулемётом с вращающимся блоком стволов, что даёт ему возможность атаковать с максимальной скоростью"
+        "DOTA_Tooltip_ability_mi24_ykb_12_7_attack_range_bonus"								"Дополнительная дальность атаки:"
 
         "DOTA_Tooltip_ability_ah1z_m197"												"M197"
 		"DOTA_Tooltip_ability_ah1z_m197_Description"									"M197 — электрическая автоматическая 20-мм трёхствольная пушка Гатлинга, которая устанавливается преимущественно на вертолёты серии AH-1. M197 по сути является облегченной версией пушки General Electric M61 «Vulcan» с трёмя стволами вместо шести. Максимальная скорострельность орудия составляет половину скорострельности Вулкана — 1500 выстрелов в минуту. В основном, это сделано для того чтобы ограничить его отдачу на легких самолётах и вертолётах. Пушка стреляет разрывными боеприпасами которые наносят Урон по области."
@@ -2875,7 +2874,7 @@
 
 
 			/// Д Р О П Ы  С  Б О С С О В ///
-			
+		
 
 		"DOTA_Tooltip_Ability_item_scythe_of_the_ancients_3_r"				"Рецепт Косы Смерти"
 		"DOTA_Tooltip_Ability_item_scythe_of_the_ancients_3_r_Description"		"Осколок артефакта Повелителя Вселенной, позволяющий собрать Косу Смерти.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
@@ -2926,7 +2925,6 @@
 		
 		
 
-		///Пока не наносит урон///
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients"              		"Заряженная Магическая Коса"
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 				"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_spell_amp_pct" 				"+% к урону от заклинаний:" 
@@ -2935,7 +2933,6 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_all_damage_bonus_pct" 		"+% к всему исходящему урону: " 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_strength" 				"+ко всем атрибутам: "  
 
-		///Пока не наносит урон///
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2"              		"Заряженная Магическая Коса 2"
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 			"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_spell_amp_pct" 				"+% к урону от заклинаний:" 
@@ -3113,11 +3110,11 @@
 		
 		"DOTA_Tooltip_ability_item_unstable_quasar" 					"Маленький Карлик"
 		"DOTA_Tooltip_ability_item_unstable_quasar_Description" 			"<h1>Пассивная: Магическая Нестабильность</h1> Дает возможность видеть невидимых юнитов и варды, а также снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br> <br>Радиус: %aura_radius%" 
-		"DOTA_Tooltip_ability_item_unstable_quasar_Note0" 					"Эффекты от нескольких Карликов не складываются." 
 		"DOTA_Tooltip_ability_item_unstable_quasar_bonus_day_vision" 		"+к радиусу обзора днем" 
 		"DOTA_Tooltip_ability_item_unstable_quasar_bonus_night_vision" 		"+к радиусу обзора ночью" 
 		"DOTA_Tooltip_ability_item_unstable_quasar_spell_amp_pct" 			"+% к урону от способностей"
 		"DOTA_Tooltip_ability_item_unstable_quasar_mana_regen" 				"+к восстановлению маны:"
+		"DOTA_Tooltip_ability_item_unstable_quasar_bonus_intellect" 		"+к интеллекту:"
 		
 		
 		"DOTA_Tooltip_modifier_item_unstable_quasar2_slow"				"Маленький Карлик"
@@ -3128,11 +3125,11 @@
 		
 		"DOTA_Tooltip_ability_item_unstable_quasar2" 					"Нестабильный Карлик"
 		"DOTA_Tooltip_ability_item_unstable_quasar2_Description" 			"<h1>Пассивная: Магическая Нестабильность</h1> Дает возможность видеть невидимых юнитов и варды, а также снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br> <br>Радиус: %aura_radius%"
-		"DOTA_Tooltip_ability_item_unstable_quasar2_Note0" 						"Эффекты от нескольких Карликов не складываются." 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_day_vision" 			"+к радиусу обзора днем" 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_night_vision" 		"+к радиусу обзора ночью" 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_spell_amp_pct" 				"+% к урону от способностей"
 		"DOTA_Tooltip_ability_item_unstable_quasar2_mana_regen" 				"+к восстановлению маны:"
+		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_intellect" 		"+к интеллекту:"
 		
 		
 	
@@ -4221,7 +4218,7 @@
 			"boss_name_3" "Древний Воин"
 			"boss_name_4" "Сингулярность"
 			"boss_name_5" "Маг Земли"
-			"boss_name_6" "Повелителем Вселенной"
+			"boss_name_6" "Повелитель Вселенной"
 			"boss_name_7" "Tokisaki Kurumi"
 			"boss_name_8" "年獸"
 
@@ -4270,9 +4267,9 @@
 		"boss_drop_boss_1"								"Предметы которые вы сможете получить в случае победы:"
 
 		"DOTA_Tooltip_ability_item_gold"				"Золото"
-		"DOTA_Tooltip_ability_item_gold_Description"	"Даёт игровое золото, по формуле - 200 * текущий раунд"
+		"DOTA_Tooltip_ability_item_gold_Description"	"Даёт игровое золото"
 		"DOTA_Tooltip_ability_item_xp"					"Опыт"
-		"DOTA_Tooltip_ability_item_xp_Description"		"Даёт опыт, по формуле - 1000 * текущий раунд"
+		"DOTA_Tooltip_ability_item_xp_Description"		"Даёт опыт"
 		"DOTA_Tooltip_ability_item_dark_point"					"Gu-Coins"
 		"DOTA_Tooltip_ability_item_dark_point_Description"		"Даёт GU-Coins."
 		"DOTA_Tooltip_ability_item_primogem"					"Переплетающиеся Судьбы"
@@ -4819,7 +4816,7 @@
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_mana"			"Мана:"
 
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3"		"Helm of Universe"
-		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_description"		"<h1>Активная: Helm of Universe  </h1> При активации на 60 сек увеличит ваш урон и здоровье на %mult_active%% \n  <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле - (Ваш основной атрибут * %mult%) \n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_description"		"<h1>Активная: Helm of Universe  </h1> При активации на 60 сек увеличит ваш урон и здоровье на %mult_active%% \n  <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле - (Ваш основной атрибут * %mult%) \n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」<font color='#FF0000'>В разработке</font>"
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_armor"			"Броня:"
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_str"			"Сила:"
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_3_int"			"Интеллект:"
@@ -5550,7 +5547,7 @@
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"							"Уникальный предмет, который можно получить, убив босса Повелитель Вселенной<br><br><font color='#7ee340'>Можно передать союзнику! <br><br><</font> <font color='#fc0303'>Не работает в прологе, при битве с боссом(мировым) а также в концовке игры!</font>"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"									"Cuirasse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n  <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"							"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита, при атаке юнита который находиться под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: <font color='#0384fc'>Weather God</font> </h1> Даёт имунитет ко всем негативным погодным эффектам (вас не может ударить молния и тд) \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию которая сделает скачёк по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета. \n  <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」<font color='#FF0000'>В разработке</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"							"+к урону:"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"								"+к скорости атаки:"
 
@@ -5853,8 +5850,8 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_Description"						"<h1>Активная: Магический Всплеск </h1> При активации на союзную цель, снимаёт с неё все негативные эффекты а также накладывает эффект линки на 10 секунд."
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_range_attack_bonus"				"Бонус к дальности атаки:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_caste_range_bonus"				"Бонус к дальности каста:"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_1_cast_time"						"Уменьшение времени каста:"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_1_mana_cost_reduction"					"Уменьшение затрат маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_cast_time"						"%Уменьшение времени каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_mana_cost_reduction"					"%Уменьшение затрат маны:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_movespeed"								"Бонус к скорости передвижения:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_magic_amp"								"%Усиление способностей:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_mana_regen"								"Регенерация Маны:"
@@ -5864,8 +5861,8 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_Description"						"<h1>Активная: Магический Всплеск </h1> При активации на союзную цель, снимаёт с неё все негативные эффекты а также накладывает эффект линки на 10 секунд."
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_range_attack_bonus"				"Бонус к дальности атаки:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_caste_range_bonus"				"Бонус к дальности каста:"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_2_cast_time"						"Уменьшение времени каста:"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_2_mana_cost_reduction"					"Уменьшение затрат маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_cast_time"						"%Уменьшение времени каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_2_mana_cost_reduction"					"%Уменьшение затрат маны:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_movespeed"								"Бонус к скорости передвижения:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_magic_amp"								"%Усиление способностей:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_mana_regen"								"Регенерация Маны:"
@@ -5875,8 +5872,8 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_Description"						"<h1>Активная: Магический Всплеск </h1> При активации на союзную цель, снимаёт с неё все негативные эффекты а также накладывает эффект линки на 10 секунд."
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_range_attack_bonus"				"Бонус к дальности атаки:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_caste_range_bonus"				"Бонус к дальности каста:"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_3_cast_time"						"Уменьшение времени каста:"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_3_mana_cost_reduction"					"Уменьшение затрат маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_cast_time"						"%Уменьшение времени каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_mana_cost_reduction"					"%Уменьшение затрат маны:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_movespeed"								"Бонус к скорости передвижения:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_magic_amp"								"%Усиление способностей:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_mana_regen"								"Регенерация Маны:"
@@ -5886,8 +5883,8 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_Description"						"<h1>Активная: Магический Всплеск </h1> При активации на союзную цель, снимаёт с неё все негативные эффекты а также накладывает эффект линки на 10 секунд, также с шансом в 17% может наложить на цель эффект неуязвимости к магии.\n <h1>Пассивная: Другая Реальность </h1> Раз в 10 секунд снимает с владельца все негативные эффекты."
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_range_attack_bonus"				"Бонус к дальности атаки:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_caste_range_bonus"				"Бонус к дальности каста:"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_4_cast_time"						"Уменьшение времени каста:"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_4_mana_cost_reduction"					"Уменьшение затрат маны:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_cast_time"						"%Уменьшение времени каста:"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_4_mana_cost_reduction"					"%Уменьшение затрат маны:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_movespeed"								"Бонус к скорости передвижения:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_magic_amp"								"%Усиление способностей:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_mana_regen"								"Регенерация Маны:"
@@ -6610,7 +6607,39 @@
 		"DOTA_Tooltip_modifier_item_desolator_anubis_armor"						"Дезолятор Анубиса"
 		"DOTA_Tooltip_modifier_item_desolator_anubis_armor_description"			"Броня уменьшена на 80%"
 
+ 
+		"DOTA_Tooltip_ability_item_gu_dust_of_berserk"						"Пыль Гнева"
+		"DOTA_Tooltip_ability_item_gu_dust_of_berserk_description"			"<h1>Активная: Гнев</h1> Заставляет всех врагов в радиусе %radius% вокруг героя атаковать его."
+		"DOTA_Tooltip_modifier_item_gu_dust_of_berserk"						"Пыль Гнева"
+		"DOTA_Tooltip_modifier_item_gu_dust_of_berserk_description"			"Вас атакуют!"
+		"DOTA_Tooltip_modifier_item_gu_dust_of_berserk_debuff"				"Пыль Гнева"
+		"DOTA_Tooltip_modifier_item_gu_dust_of_berserk_debuff_description"	"Вы атакуете!"
 
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe"						"Sword Of The Universe"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_description"			"<h1>Активная: Break World  </h1> При активации выведет из строя всех вражеских юнитов на 5 - 10 сек в радиусе 300 \n <h1>Пассивная: Sword Of The Universe </h1> При каждой атаке, накладывает на противника стаки, за каждый стак наносит дополнительно 500 физического урона, максимальное кол-во стаков 100, длительность 15. \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%%  урона который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается то с шансом для героев дальнего боя - 3%, для ближнего - 5% может забашить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 10% может украсть у врага случайное кол-во золота (1-4) \n <h1>Пассивная: Soul Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу.\n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」<font color='#FF0000'>В разработке</font>"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_damage"					"Урон:"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_hp_regen"				"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_mana_regen"				"Регенерация маны:"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_status_res"				"Сопротивление эффектам:"
+
+
+		"DOTA_Tooltip_modifier_gu_sword_of_the_universe_debuff"			"Sword Of The Universe"
+		"DOTA_Tooltip_modifier_gu_sword_of_the_universe_debuff_description"			"За каждый стак, наносит дополнительно 500 урона"
+
+		"DOTA_Tooltip_Ability_item_gu_sword_of_the_universe_r"				"Рецепт Sword Of The Universe"
+		"DOTA_Tooltip_Ability_item_gu_sword_of_the_universe_r_Description"		"Осколок артефакта Повелителя Вселенной, позволяющий собрать Sword Of The Universe.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+		"DOTA_Tooltip_Ability_item_gu_energy_dagon3_r"				"Рецепт Лучевое Оружие Азгардов 2.1 final"
+		"DOTA_Tooltip_Ability_item_gu_energy_dagon3_r_Description"		"Осколок артефакта Сингулярности, позволяющий собрать Лучевое Оружие Азгардов 2.1 final.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+		"DOTA_Tooltip_ability_item_gu_energy_dagon"						"Лучевое Оружие Азгардов"
+		"DOTA_Tooltip_ability_item_gu_energy_dagon_description"			"<h1>Активная: Beam Weapon </h1> Выстреливает сгустком энергии в противника, нанося при этом урон по формуле - текущее (количество энергии * регенерацию) * %damage_mult%. После использования у вас будет потрачена вся энергия."
+
+		"DOTA_Tooltip_ability_item_gu_energy_dagon2"						"Лучевое Оружие Азгардов 2"
+		"DOTA_Tooltip_ability_item_gu_energy_dagon2_description"			"<h1>Активная: Beam Weapon </h1> Выстреливает сгустком энергии в противника, нанося при этом урон по формуле - текущее (количество энергии * регенерацию) * %damage_mult%. После использования у вас будет потрачена вся энергия."
+
+		"DOTA_Tooltip_ability_item_gu_energy_dagon3"						"Лучевое Оружие Азгардов 2.1 final"
+		"DOTA_Tooltip_ability_item_gu_energy_dagon3_description"			"<h1>Активная: Beam Weapon </h1> Выстреливает сгустком энергии в противника, нанося при этом урон по формуле - текущее (количество энергии * регенерацию) * %damage_mult%. После использования у вас будет потрачена вся энергия."
 
 }	
 
