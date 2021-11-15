@@ -585,8 +585,6 @@
  "DOTA_Tooltip_ability_kongou_ammo_duration" "Duration:"
  "DOTA_Tooltip_ability_kongou_ammo_radius" "Damage radius:"
  "DOTA_Tooltip_ability_kongou_ammo_aoe_damage" "Damage:"
- "DOTA_Tooltip_ability_kongou_ammo_dot_damage" "Damage per second:" // Is Full damage not per sec
- "DOTA_Tooltip_ability_kongou_ammo_dot_duration" "Damage duration:"
  "DOTA_Tooltip_ability_kongou_ammo_attack_range" "Bonus attack range:"
  "DOTA_Tooltip_ability_kongou_ammo_scepter_interval" "Aghanim interval:"
 
@@ -1789,18 +1787,11 @@
 
  "DOTA_Tooltip_ability_demon_hunter" "Demon Hunter"
  "DOTA_Tooltip_ability_demon_hunter_Description" "The hunter captures the souls of opponents, each soul gives +1 to all attributes. The maximum limit is 50. When activated, it releases souls to enhance other skills. Every 100 souls grant you +10 to attributes. The effect lasts 10 seconds. Chance to receive a stack - 17.1%"
- "DOTA_Tooltip_ability_demon_hunter_Lore" "Take the source of the devil's power"
- "DOTA_Tooltip_ability_demon_hunter_stats" "Stats:"
- "DOTA_Tooltip_modifier_demon_hunter_buff" "Demon Hunter"
- "DOTA_Tooltip_modifier_demon_hunter_buff_Description" "Soul adds +1 to all attributes"
- "DOTA_Tooltip_modifier_demon_hunter_spell" "Victim"
- "DOTA_Tooltip_modifier_demon_hunter_spell_Description" "Spirit of the victim"
+
  // ======================================================================================================================
  "DOTA_Tooltip_ability_soulblade" "Beyond the Soul"
 "DOTA_Tooltip_ability_soulblade_Description" "Deals damage in front of itself. During the sacrifice, each soul deals an additional damage of 1%%  of Health.<br></br>-----------------------------------------------<br></br>Base damage: 50 * Ability level<br></br>damage of agility: 2 * Ability level<br></br>Range : 350<br></br>-----------------------------------------------"
- "DOTA_Tooltip_ability_soulblade_Lore" "Attacking the soul is the best way to deal with the devil."
- "DOTA_Tooltip_ability_soulblade_damage" "Multiplier:"
- "DOTA_Tooltip_ability_soulblade_base_damage" "Base damage:"
+
  // ================================================ ======================================================================
  "DOTA_Tooltip_ability_soulring" "Soul Field" 
 "DOTA_Tooltip_ability_soulring_Description" "Creates a field which absorbs enemies' life. Deals damage based on agility to all nearby enemies and also replenishes caster's health."
@@ -4396,10 +4387,6 @@ You can increase Energy limit and regeneration by completing quests in random ev
 "DOTA_Tooltip_Ability_item_address_1_Description"		"<h1>Active: Address dial</h1>On activation, if you are withing radius of 1300 to a DHD, teleports you to the hard jungle."
 "DOTA_Tooltip_Ability_item_address_2"					"R3H-797 address scroll"
 "DOTA_Tooltip_Ability_item_address_2_Description"		"<h1>Active: Address dial</h1>On activation, if you are withing radius of 1300 to a DHD, teleports you to the easy jungle."
-"DOTA_Tooltip_Ability_item_address_3"					"Base address scroll"
-"DOTA_Tooltip_Ability_item_address_3_Description"		"<h1>Active: Address dial</h1>On activation, if you are withing radius of 1300 to a DHD, teleports you to your base."
-
-
 
 "npc_lines_melee" "Invader"
 "npc_lines_range" "Invader"
@@ -5607,8 +5594,6 @@ Difficulty: Absurd - 25% of total MMR.<br><br>
 		"DOTA_Tooltip_modifier_kizaru_sword"		"Molecular sword"
 
 		"DOTA_Tooltip_modifier_charon"				"Scepter of the water"
-
-		"DOTA_Tooltip_ability_skywrath_mage_shard_description"		"Each cast gives +5 intelligence and +1 armor for 35 seconds. Effects stack, but last independently."
 		
 				"DOTA_Tooltip_modifier_item_desolator_anubis_armor"						"Anubis' desolator"
 		"DOTA_Tooltip_modifier_item_desolator_anubis_armor_description"			"Armor is reduced by 80%"
@@ -7511,7 +7496,176 @@ If you have duplicate characters (opened in game, bought in shop or got through 
 		"DOTA_Tooltip_modifier_lunasa05_innate_passive" 				"Solo Concert「Prismriver Concerto - Violin Solo」"
 		"DOTA_Tooltip_modifier_lunasa05_innate_passive_Description" 	"Each 10th attack deals additional magical damage."
 
+		"npc_lines_assassin"		"Пеликан"
+		"npc_lines_regenerator" 	"Приор Орай"
 
+		"lich_king_start"			"Задание начнётся после прохождения раунда автоматически!"	
+
+		"DOTA_Tooltip_modifier_kizaru_sword"		"「Ama no Murakumo」"
+		"DOTA_Tooltip_modifier_charon"				"Скипетр Воды"
+  
+		"DOTA_Tooltip_modifier_item_desolator_anubis_armor"						"Дезолятор Анубиса"
+		"DOTA_Tooltip_modifier_item_desolator_anubis_armor_description"			"Броня уменьшена на 80%."
+
+ 
+		"DOTA_Tooltip_ability_item_gu_dust_of_berserk"						"Пыль Гнева"
+		"DOTA_Tooltip_ability_item_gu_dust_of_berserk_description"			"<h1>Активная: Гнев</h1> Заставляет всех врагов в радиусе %radius% вокруг героя атаковать его. Уменьшает весь входящий по вам урон на 15%."
+		"DOTA_Tooltip_modifier_item_gu_dust_of_berserk"						"Пыль Гнева"
+		"DOTA_Tooltip_modifier_item_gu_dust_of_berserk_description"			"Вас атакуют!"
+		"DOTA_Tooltip_modifier_item_gu_dust_of_berserk_debuff"				"Пыль Гнева"
+		"DOTA_Tooltip_modifier_item_gu_dust_of_berserk_debuff_description"	"Вы атакуете!"
+
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe"						"Sword Of The Universe"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_description"			"<h1>Активная: Break World</h1> При активации выведет из строя всех вражеских юнитов в радиусе 300 на 5-10 сек. \n <h1>Пассивная: Sword Of The Universe </h1> При каждой атаке, накладывает на противника стаки, за каждый стак наносит дополнительно 500 физического урона, максимальное количество стаков 100, длительность 15. \n <h1>Пассивная: Dead Strike </h1> При атаке любого существа, наносит ему дополнительно %bonus_dmg_target%% урона, который зависит от вашего общего урона с руки.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% \n <h1>Пассивная: Unstable Rift </h1>С шансом в 10% может получить 1-4 золота при атаке с руки. \n <h1>Пассивная: Eternal Drain</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу.\n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world」"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_damage"					"Урон:"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_hp_regen"				"Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_mana_regen"				"Регенерация маны:"
+		"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_status_res"				"Сопротивление эффектам:"
+
+
+		"DOTA_Tooltip_modifier_gu_sword_of_the_universe_debuff"			"Sword Of The Universe"
+		"DOTA_Tooltip_modifier_gu_sword_of_the_universe_debuff_description"			"За каждый стак, наносит дополнительно 500 урона"
+
+		"DOTA_Tooltip_Ability_item_gu_sword_of_the_universe_r"				"Рецепт Sword Of The Universe"
+		"DOTA_Tooltip_Ability_item_gu_sword_of_the_universe_r_Description"		"Осколок артефакта Повелителя Вселенной, позволяющий собрать Sword Of The Universe.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+		"DOTA_Tooltip_Ability_item_gu_energy_dagon3_r"                "Рецепт Лучевое Оружие Азгардов 2.1 final"
+        "DOTA_Tooltip_Ability_item_gu_energy_dagon3_r_Description"        "Осколок артефакта Аквы, позволяющий собрать Лучевое Оружие Азгардов 2.1 final.<br><br><font color='#7ee340'>Можно передать союзнику!</font>"
+
+        "DOTA_Tooltip_ability_item_gu_energy_dagon"                        "Лучевое Оружие Азгардов"
+        "DOTA_Tooltip_ability_item_gu_energy_dagon_description"            "<h1>Активная: Beam Weapon </h1> Выстреливает сгустком энергии в противника, нанося при этом урон по формуле - текущее (количество энергии * регенерацию) * %damage_mult%. После использования у вас будет потрачена вся энергия.<br><br><font color='#F92B2B'>Внимание: Можно применять на союзников!</font><br><br><font color='#F92B2B'>За 10 намеренных убийств союзников, вы будете забанены в текущей игре!</font>"
+
+        "DOTA_Tooltip_ability_item_gu_energy_dagon2"                        "Лучевое Оружие Азгардов 2"
+        "DOTA_Tooltip_ability_item_gu_energy_dagon2_description"            "<h1>Активная: Beam Weapon </h1> Выстреливает сгустком энергии в противника, нанося при этом урон по формуле - текущее (количество энергии * регенерацию) * %damage_mult%. После использования у вас будет потрачена вся энергия.<br><br><font color='#F92B2B'>Внимание: Можно применять на союзников!</font><br><br><font color='#F92B2B'>За 10 намеренных убийств союзников, вы будете забанены в текущей игре!</font>"
+
+        "DOTA_Tooltip_ability_item_gu_energy_dagon3"                        "Лучевое Оружие Азгардов 2.1 final"
+        "DOTA_Tooltip_ability_item_gu_energy_dagon3_description"            "<h1>Активная: Beam Weapon </h1> Выстреливает сгустком энергии в противника, нанося при этом урон по формуле - текущее (количество энергии * регенерацию) * %damage_mult%. После использования у вас будет потрачена вся энергия.<br><br><font color='#F92B2B'>Внимание: Можно применять на союзников!</font><br><br><font color='#F92B2B'>За 10 намеренных убийств союзников, вы будете забанены в текущей игре!</font>"
+		
+        "DOTA_Tooltip_ability_item_gu_mystic_crystal"                        "Загадочный Кристалл"
+        "DOTA_Tooltip_ability_item_gu_mystic_crystal_description"            "Никто не знает откуда появились эти кристаллы, но их мощь невероятна. Никто не знает, что произойдёт при использовании данного артефакта, но есть информация что он может уничтожить мир."
+
+		"gu_crystall_str"                "{player_name} Использовал Загадочный Кристалл и получил - +{str} к Силе!"
+        "gu_crystall_int"                "{player_name} Использовал Загадочный Кристалл и получил - +{int} к Интеллекту!"
+        "gu_crystall_agi"                "{player_name} Использовал Загадочный Кристалл и получил - +{agi} к Ловкости!"
+
+		"pray_anim_disable"				"Отключить анимацию?"
+
+		"DOTA_Tooltip_ability_item_gu_bottle"                        	"Вселенская Бутылка"
+        "DOTA_Tooltip_ability_item_gu_bottle_description"            	"<h1>Активное: Regenerate</h1>Тратит один заряд, чтобы постепенно восстановить цели %health_restore% здоровья и %mana_restore% маны за %restore_time% сек.<br><br>Заряды можно восполнять возле Андромеды!\n<h1>Пассивное: Store Rune</h1>В бутыль можно поместить одну руну, чтобы воспользоваться ей позже.<br><br>Руны полностью наполняют бутыль."
+
+		"DOTA_Tooltip_modifier_item_gu_bottle_heal"							"Вселенская Бутылка"
+		"DOTA_Tooltip_modifier_item_gu_bottle_heal_description"				"Восстанавливает %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% здоровья и %dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% маны в секунду."
+
+
+		"DOTA_Tooltip_ability_item_boots_of_universe"										"Boots Of Universe"
+		"DOTA_Tooltip_ability_item_boots_of_universe_Description"								"<h1>Активная: Лечение</h1>Мгновенно восстанавливает %replenish_health% здоровья и %replenish_mana% маны, затем восстанавливает 18%% от их общего количества за 6 секунд, всем ближайшим союзникам. Снимает большинство отрицательных эффектов с заклинателя.\n  <h1>Пассивная: Ядро Галактики</h1> Уменьшает время перезарядки ваших способностей на %bonus_cooldown%%. \n <h1>Пассивно: Аура Аквы</h1> Увеличивает регенерацию здоровья на %base_regen% + %regen_per_pct_tooltip%%% от здоровья юнита, броню на %base_armor% + %armor_per_pct_tooltip%%% ближайших союзников в радиусе %aura_radius%. Чем ниже здоровья у цели, тем больший эффект она получает. \n<h1>Пассивно: Бесполезногиня</h1> Применяет Лечение, если HP владельца ниже %heal_threshold_pct%%%. \n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world」"
+		"DOTA_Tooltip_ability_item_boots_of_universe_bonus_movement"								"%+$move_speed"
+		"DOTA_Tooltip_ability_item_boots_of_universe_bonus_all_stats"							"+$all"	
+		"DOTA_Tooltip_ability_item_boots_of_universe_bonus_mana"									"+$mana"		
+		"DOTA_Tooltip_ability_item_boots_of_universe_bonus_armor"								"+$armor"
+        "DOTA_Tooltip_modifier_item_boots_of_universe_creep_aura"								"Boots Of Universe"
+		"DOTA_Tooltip_modifier_item_boots_of_universe_creep_aura_Description"					"Увеличивает регенерацию здоровья и броню."
+		"DOTA_Tooltip_modifier_item_boots_of_universe_hero_aura"									"Boots Of Universe"
+		"DOTA_Tooltip_modifier_item_boots_of_universe_hero_aura_Description"						"Увеличивает регенерацию здоровья и броню."
+		"DOTA_Tooltip_modifier_item_boots_of_universe_hot"										"Лечение"
+		"DOTA_Tooltip_modifier_item_boots_of_universe_hot_Description"							"Востанавливает здоровье и ману с течением времени."
+
+		"DOTA_Tooltip_modifier_weather_rain" 									"Погода: <font color='#084a99'>Дождливо</font>"
+		"DOTA_Tooltip_modifier_weather_rain_Description" 							"Значительно уменьшает обзор."
+
+		"DOTA_Tooltip_modifier_weather_sand_storm" 								"Погода: <font color='#dbb235'>Песчаная Буря</font>"
+		"DOTA_Tooltip_modifier_weather_sand_storm_Description" 						"Значительно уменьшает обзор, уменьшает скорость передвижения, а также накладывает 90% шанс промаха."
+
+		"DOTA_Tooltip_modifier_weather_swamp" 									"Погода: <font color='#74b84f'>Болотный Дождь</font>"
+		"DOTA_Tooltip_modifier_weather_swamp_Description" 							"Уменьшает броню на 50 и скорость передвижения на 50%"
+
+		"weather_timer"				": До смены - "
+		"DOTA_Tooltip_modifier_oppression" 										"<font color='#B56213'>「Armor of Abstraction」</font> "
+		"DOTA_Tooltip_modifier_oppression_effect" 										"<font color='#B56213'>「Armor of Abstraction」</font> "
+		"DOTA_Tooltip_modifier_oppression_effect_t2" 										"<font color='#B56213'>「Armor of Abstraction」</font> "
+ 
+		"npc_gu_qvest_crystall"													"Таинственный Кристалл"
+		"npc_gu_crystall_guardians"												"Хранитель Кристалла"
+		"task_item_find"														"Загадочный Кристалл"
+		"task_item_text"  "Во Вселенной происходят странные вещи! В этой галактике стали появлятся некие кристаллы, которые обладают таинственной силой. Ваше задание состоит в нахождении этих кристаллов! Будьте осторожны, данные кристаллы могут охраняться! Для того чтобы найти кристалл, был создан компасс который укажет растояние до объекта. Для того чтобы вывести информацию о растоянии и примерном месте расположения, нажмите на кнопку ниже! Указанное значение может иметь погрешность до 3000 метров!"
+		"task_item_rewards_chance"  "Шансы на награды - 100%, 100%, 30%, 5%"
+		"find_random_item"		"Найти"
+		"task_item_distance"	"Расстояние до Кристалла: "
+		"task_item_not_found"	"Кристалл не найден!"
+		"task_item_timer_not"	"<font color='#F92B2B'>Система не обнаружила кристалл!</font>"
+		"crystall_qvest_start" 	"Получено новое задание: Загадочный Кристалл!" 
+		"DOTA_Tooltip_modifier_gu_crystall_qvest"	"Загадочный Кристалл"
+		"DOTA_Tooltip_modifier_gu_crystall_qvest_Description"	"Чтобы кристалл стал уязвим к атакам, убей его хранителя!"
+		"gu_qvest_crystall"		"{player_name} Выполнил задание - {qvest}"
+		"gu_qvest_crystall_end_str"	"{player_name} сдал неизвестные фрагменты Андромеде и получил {str} к силе!"
+		"gu_qvest_crystall_end_int"	"{player_name} сдал неизвестные фрагменты Андромеде и получил {int} к интеллекту!"
+		"gu_qvest_crystall_end_agi"	"{player_name} сдал неизвестные фрагменты Андромеде и получил {agi} к ловкости!"
+		"gu_qvest_crystall_end_gold"	"{player_name} сдал неизвестные фрагменты Андромеде и получил {gold} золота!"
+		"gu_qvest_crystall_end_exp"	"{player_name} сдал неизвестные фрагменты Андромеде и получил {exp} опыта!"
+
+		"DOTA_Tooltip_ability_item_crystall_shard"											"Фрагмент Загадочного Кристалла"
+		"DOTA_Tooltip_ability_item_crystall_shard_Description"									"Внеземной материал, который обладает неизвестными свойствами. Попробуйте передать его Андромеде и возможно она сможет что-либо синтезировать с него!"
+
+		"DOTA_Tooltip_ability_item_crystall_epic_shard"                                        "Эпический фрагмент Загадочного Кристалла"
+        "DOTA_Tooltip_ability_item_crystall_epic_shard_Description"                                "Редкий внеземной материал, который обладает уникальными свойствами. Он может значительно улучшить некоторые предметы! Для улучшения вам нужно иметь в нейтральном слоте улучшаемый предмет из списка ниже. После набора нужного количества фрагментов, подойдите к Андромеде и отдайте ей ваши фрагменты.<br><br>Стоимость: 50 фрагментов:<br><font color='#2B8CF9'>「Маска Одержимости >= Укус Вампира」</font><br><br><font color='#2B8CF9'>「Игрушка Фей >= Ключ к Миру Фей」</font><br><br> Стоимость: 150 фрагментов: <br><font color='#5AF92B'>「Философский Камень >= Душа Алхимика」</font><br><br><font color='#5AF92B'>「Кольцо Жизни >= Кольцо Душ」</font><br><br>Стоимость: 300 фрагментов: <br><font color='#862BF9'>「Инфернальный Плащ >= Выжигатель Мозгов」</font><br><br><font color='#862BF9'>「Церемониальная Роба >= Сила Властителя」</font><br><br>Стоимость: 500 фрагментов: <br><font color='#F97C2B'>「Мангановый Осколок >= Вселенский Камень」</font><br><br><font color='#F97C2B'>「Зеркальный Щит >= Щит Бессмертных」</font><br><br>Стоимость: 750 фрагментов: <br><font color='#F9E62B'>「Высшее Мастерство >= Сфера Всемогущества」</font><br><br><font color='#F9E62B'>「Убийца магов >= Инквизитор」</font>"
+		
+		"DOTA_Tooltip_Ability_item_possessed_mask2"              "Укус Вампира"
+		"DOTA_Tooltip_Ability_item_possessed_mask2_primary_attribute" "+ к основному атрибуту: "
+		"DOTA_Tooltip_Ability_item_possessed_mask2_Description"		"<h1>Пассивное: Lifesteal</h1>Каждая атака восстанавливает владельцу %lifesteal% здоровья."
+
+		"DOTA_Tooltip_Ability_item_mysterious_hat2"              "Ключ к Миру Фей"
+		"DOTA_Tooltip_Ability_item_mysterious_hat2_bonus_health"    "+ к здоровью: "
+		"DOTA_Tooltip_Ability_item_mysterious_hat2_spell_amp"    "%+ к усилению способностей: "
+		"DOTA_Tooltip_Ability_item_mysterious_hat2_manacost_reduction"    "%Снижение потребления маны: "
+
+		"DOTA_Tooltip_Ability_item_apex2"                        "Сфера Всемогущества"
+		"DOTA_Tooltip_Ability_item_apex2_primary_stat"              "+ к основному атрибуту: "
+
+		"DOTA_Tooltip_Ability_item_mirror_shield2"               "Щит Бессмертных" 
+		"DOTA_Tooltip_Ability_item_mirror_shield2_all_stats"        "+ ко всем атрибутам: "
+		"DOTA_Tooltip_ability_item_mirror_shield2_Description"		"<h1>Пассивное: Shield of Immortal</h1> Блокирует и отражает большинство направленных заклинаний обратно во врага раз в %block_cooldown% сек."
+
+
+		"DOTA_Tooltip_Ability_item_essence_ring2"                "Кольцо Душ"
+		"DOTA_Tooltip_Ability_item_essence_ring2_bonus_int"             "Бонусный интеллект: "
+		"DOTA_Tooltip_Ability_item_essence_ring2_mp_regen"             "Восстановление маны: "
+		"DOTA_Tooltip_Ability_item_essence_ring2_Description"		"<h1>Активное: Soul Essence</h1> Увеличивает текущее и максимальное здоровье на %health_gain%. Действует %health_gain_duration% сек."
+		"DOTA_Tooltip_modifier_item_essence_ring2_active"		"Soul Essence"
+		"DOTA_Tooltip_modifier_item_essence_ring2_active_Description"		"Максимальное здоровье увеличено."
+
+		"DOTA_Tooltip_Ability_item_philosophers_stone2"          "Душа Алхимика"
+		"DOTA_Tooltip_Ability_item_philosophers_stone2_bonus_gpm"            "Золота в минуту: "
+		"DOTA_Tooltip_Ability_item_philosophers_stone2_bonus_mana"            "+ к мане: "
+		"DOTA_Tooltip_Ability_item_philosophers_stone2_bonus_damage"            "+ к урону: "
+
+		"DOTA_Tooltip_Ability_item_ceremonial_robe2"             "Сила Властителя"
+		"DOTA_Tooltip_ability_item_ceremonial_robe2_Description"						"<h1>Пассивное: Ruler's Aura</h1> Снижает сопротивление эффектам на %status_resistance%%% и сопротивление магии на %magic_resistance%%% у врагов в радиусе %aura_radius%."
+		"DOTA_Tooltip_Ability_item_ceremonial_robe2_bonus_mana"               "+ к мане: "
+		"DOTA_Tooltip_modifier_item_ceremonial_robe2_aura"						"Ruler's Aura"
+				"DOTA_Tooltip_modifier_item_ceremonial_robe2_aura_Description"			"Сопротивление эффектам уменьшено на %dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%. Сопротивление магии уменьшено на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%."
+
+
+		"DOTA_Tooltip_Ability_item_cloak_of_flames2"              "Выжигатель Мозгов"
+		"DOTA_Tooltip_Ability_item_cloak_of_flames2_Description"		"<h1>Пассивное: Brainwashing</h1>Атакует врагов мощным пси-излучением, каждую секунду нанося им %damage% урона. У иллюзий наносит %damage_illusions% урона в секунду.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_Ability_item_cloak_of_flames2_armor"   "+ к броне: "
+		"DOTA_Tooltip_Ability_item_cloak_of_flames2_magic_resistance"   "Сопротивление магии: "
+		"DOTA_Tooltip_modifier_item_cloak_of_flames2_debuff"		            "Выжигатель Мозгов"
+		"DOTA_Tooltip_modifier_item_cloak_of_flames2_debuff_Description"		"Получает 2000 урона в секунду."
+
+		"DOTA_Tooltip_Ability_item_titan_sliver2"                 "Вселенский Камень"
+		"DOTA_Tooltip_Ability_item_titan_sliver2_base_attack_damage"  "%+ к базовому урону: "
+		"DOTA_Tooltip_Ability_item_titan_sliver2_magic_resistance"  "Сопротивление магии: "
+		"DOTA_Tooltip_Ability_item_titan_sliver2_status_resistance"  "Сопротивление эффектам: "
+
+		"DOTA_Tooltip_Ability_item_mage_slayer2"                  "Инквизитор"
+		"DOTA_Tooltip_ability_item_mage_slayer2_Description"				"<h1>Пассивное: Ordo Hereticus</h1>Атакуемые враги наносят на %spell_amp_debuff%%% меньше урона заклинаниями. Действует %duration% сек."
+		"DOTA_Tooltip_Ability_item_mage_slayer2_bonus_magical_armor"   "%Сопротивление магии: "
+		"DOTA_Tooltip_Ability_item_mage_slayer2_bonus_attack_speed"   "Скорость атаки: "
+		"DOTA_Tooltip_Ability_item_mage_slayer2_bonus_damage"   "+ к урону: "
+		"DOTA_Tooltip_Ability_item_mage_slayer2_bonus_mana_regen"   "Восстановление маны: "
+		"DOTA_Tooltip_Ability_item_mage_slayer2_bonus_intellect"   "+ к интеллекту: "
+
+		"damage_boss"												" нанес по боссу: "
 
 
 
