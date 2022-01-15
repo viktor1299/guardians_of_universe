@@ -9,8 +9,6 @@
 	"princess_of_the_universe" "Andromeda"
 	"npc_dota_holdout_goodguys_fort" "Andromeda"
 
-"op_help" "FAQ"
-
 	/// З А Г Р У З К А  И Г Р Ы ///
 
 	"s_recruit"	"Difficulty: Easy"
@@ -1622,6 +1620,74 @@
 
 "npc_dota_hero_void_spirit" "Marisa Kirisame"
 
+
+		"npc_dota_hero_puck"									"Ran Yakumo「★★★」"
+
+		"DOTA_Tooltip_ability_ability_thdots_ran01"									"<font color='#fbff00'>Peace Sign「Meditation Flag」</font>"	
+		"DOTA_Tooltip_ability_ability_thdots_ran01_Description"							"Размещает на земле флаг великой нации, который усиляет союзников и снижает скорость атаки врагов. Ран может поменяться местами с флагом, нацеливаясь на флаг этой способностью."
+		"DOTA_Tooltip_ability_ability_thdots_ran01_bonus_attackspeed"					"Скорость атаки: "
+		"DOTA_Tooltip_ability_ability_thdots_ran01_slow_attackspeed"					"Снижение скорости атаки противникаов: "
+		"DOTA_Tooltip_ability_ability_thdots_ran01_blink_select_range"					"Радиус обмена: "
+		
+		"DOTA_Tooltip_ability_ability_thdots_ran02"									"<font color='#e8e52c'>Shikigami's Shot 「Ultimate Buddhist」</font>"
+		"DOTA_Tooltip_ability_ability_thdots_ran02_Description"							"Присутствие Ран воодушевляет союзников."
+		"DOTA_Tooltip_ability_ability_thdots_ran02_Note0"								"<font color='#ff0000'>Deutschland ist eine großartige Nation, die diese Schlacht gewinnen wird!</font>"
+		"DOTA_Tooltip_ability_ability_thdots_ran02_radius"								"Радиус: "
+		"DOTA_Tooltip_ability_ability_thdots_ran02_duration"							"Длительность: "
+		"DOTA_Tooltip_ability_ability_thdots_ran02_slow_movement_pct"					"Замедление передвижения: "
+		"DOTA_Tooltip_ability_ability_thdots_ran01_aura_radius"							"Радиус ауры: "
+			"DOTA_Tooltip_aura_thdots_ran02_debuff"											"<font color='#e8e52c'>Shikigami's Shot 「Ultimate Buddhist」</font>"
+		
+		"DOTA_Tooltip_ability_ability_thdots_Ran03"									"<font color='#fffb00'>Shikigami's Radiance 「Fox-Tanuki Youkai Laser」</font>"
+		"DOTA_Tooltip_ability_ability_thdots_ran03_Description"							"Выстреливает в цель лазером Fox-Tanuki Youkai. Лазер будет прыгать между ближайшими врагами и наносить урон с каждым отскоком. Он может отскочить несколько раз между теми же юнитами. При применении на собзников восстанавливает им здоровье."
+		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_radius"							"Радиус прыжка: "
+		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_count"							"Максимум прыжков: "
+		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_interval"						"Интервал: "
+		"DOTA_Tooltip_ability_ability_thdots_ran03_scepter_Description"				"Даёт возможность игнорировать защитные эффекты на противниках."
+		
+		"DOTA_Tooltip_ability_ability_thdots_RanEx"									"<font color='#fffb00'>Buddhist Sign「Karma」</font>"
+		"DOTA_Tooltip_ability_ability_thdots_RanEx_Description"							"Делает вас полностью неуязвимым на короткое время."
+		"DOTA_Tooltip_ability_ability_thdots_RanEx_duration"							"Длительность: "
+		
+		"DOTA_Tooltip_ability_ability_thdots_ran04"									"<font color='#fffb00'>Shikigami's Radiance「Divine Blessing」</font>"
+		"DOTA_Tooltip_ability_ability_thdots_ran04_Description"							"Все дружественные юниты вокруг Ран будут благословлены богами и получат бонусную регенерацию здоровья и броню."
+		"DOTA_Tooltip_ability_ability_thdots_ran04_radius"								"Радиус: "
+		"DOTA_Tooltip_ability_ability_thdots_ran04_duration"							"Длительность: "
+		"DOTA_Tooltip_ability_ability_thdots_ran04_bonus_physical_armor"				"Броня: "
+		"DOTA_Tooltip_ability_ability_thdots_ran04_bonus_health_regen"					"Восстановление здоровья: "
+ 		"DOTA_Tooltip_modifier_thdots_ran04_buff" 									"<font color='#fffb00'>Shikigami's Radiance「Divine Blessing」</font>"
+		"DOTA_Tooltip_ability_ability_thdots_ran04_shard_Description"				"Очищает Ран от всех негативных эффектов, с шансом в 39% может наложить на героя эффект неуязвимости к магии на 10 секунд."
+
+
+		"npc_dota_hero_marci"														"Eternity「★★★」"
+
+		"DOTA_Tooltip_ability_fate_realign"                                          "<font color='#662BF9'>「Realign」</font>"
+        "DOTA_Tooltip_ability_fate_realign_description"                                   "Наносит урон противникам и восстанавливая здоровье союзникам."
+        "DOTA_Tooltip_ability_fate_realign_shock_radius"                                  "Радиус: "
+        "DOTA_Tooltip_ability_fate_realign_damage"                                        "Урон/Лечение: "
+
+		"DOTA_Tooltip_ability_fate_chains_of_fate"                                   "<font color='#662BF9'>「Chains Of Fate」</font>"
+        "DOTA_Tooltip_ability_fate_chains_of_fate_description"                            "Eternity связывает цель цепями судьбы. Любой юнит, связанный цепью, будет получать часть урона, наносимого всеми другими юнитами в области. Урон расчитывается по формуле %damage_multi% * на нанесённый урон."
+        "DOTA_Tooltip_ability_fate_chains_of_fate_duration"                               "Длительность: "
+        "DOTA_Tooltip_ability_fate_chains_of_fate_radius"                                 "Радиус: "
+			"DOTA_Tooltip_ability_fate_chains_of_fate_scepter_description"					"Увеличивает весь входящий урон по цели на 25%"
+
+		"DOTA_Tooltip_ability_fate_displace"                                         "<font color='#662BF9'>「Displace」</font>"
+        "DOTA_Tooltip_ability_fate_displace_description"                                 "Временно изменяет судьбу союзника, делая его неуязвимым к атакам, запрещая направлять на него атаки и способности, пряча его с миникарты, и позволяет ему двгалься сквозь юнитов. Очищает цель от негативных эффектов и сбивает с цели все летящие снаряды. Моментально восстанавливает %heal% здоровья, а также увеличивает регенерацию по формуле %heal% / 3."
+        "DOTA_Tooltip_ability_fate_displace_duration"                                    "Длительность:"
+		"DOTA_Tooltip_modifier_displace"											 "<font color='#662BF9'>「Displace」</font>"
+		"DOTA_Tooltip_modifier_displace_heal"										 "Неуязвим."
+
+        "DOTA_Tooltip_ability_fate_ancestral_recall"                                 "<font color='#662BF9'>「Ancestral Recall」</font>"
+        "DOTA_Tooltip_ability_fate_ancestral_recall_description"                        "Eternity кастует способность на союзника. После завершения каста, цель временно получает знание о своем прошлом и будущем. Даёт бонусные характеристики в зависимости от приростов характеристик цели, и восстанавливает здоровье и ману в процентах от максимального значения."
+        "DOTA_Tooltip_ability_fate_ancestral_recall_duration"                              "Длительность:"
+        "DOTA_Tooltip_ability_fate_ancestral_recall_level_bonus"                           "Бонус уровней в характеристики:"
+        "DOTA_Tooltip_ability_fate_ancestral_recall_heal_percent"                          "%Восстановление здоровья от макс.: "
+        "DOTA_Tooltip_ability_fate_ancestral_recall_mana_percent"                          "%Восстановление маны от макс.: "
+		"DOTA_Tooltip_modifier_ancestral_recall_display"							"<font color='#662BF9'>「Ancestral Recall」</font>"
+		"DOTA_Tooltip_ability_fate_ancestral_recall_shard_description"				"Увеличивает восстановление маны до 60%"
+
+        
 
 "DOTA_Tooltip_ability_marisa_starhex" "Star Hex" 
  "DOTA_Tooltip_ability_marisa_starhex_Description" "Transforms the unit into a useless creature that will dutifully wait for its fate until."
@@ -5466,10 +5532,6 @@ Difficulty: Absurd - 25% of total MMR.<br><br>
 
                 "DOTA_Tooltip_ability_invoker_combine"                                     "<font color='#f74307'>Com</font><font color='#5ce9ff'>bi</font><font color='#d974f7'>na</font><font color='#00d6a4'>ti</font><font color='#9cf7ff'>on</font>"
                 "DOTA_Tooltip_ability_invoker_combine_Description"        "Ram combines elements to create a new spell. Spell is selected based on the major part."
-                "DOTA_Tooltip_ability_invoker_combine_Lore"                  "Additional sphere is available each 10 levels : lvl 1 : 1 sphere , lvl 10 : 2 spheres , lvl 20 : 3 spheres , lvl 30 : 4 spheres : lvl 40 : 5 spheres , lvl 50 : 6 spheres"
-                "DOTA_Tooltip_ability_invoker_combine_Note0"                "<font color='#72fc4c'>Source : you replenish some health. <font color='#de3576'>1-2.5 of all element powers are required. \n\n<font color='#fcd144'>Arcana laser : you unleash a ray of magical energy. <font color='#de3576'>More than 2,5 power units of all elements are required."
-                "DOTA_Tooltip_ability_invoker_combine_Note1"                "Experiment with combinations, you might find something new and unique."
-                 "DOTA_Tooltip_ability_invoker_combine_Note2"                "Items that grant additional cast range do not affect spells."
  
                 "DOTA_Tooltip_ability_invoker_reset"                                     "Reset"
                 "DOTA_Tooltip_ability_invoker_reset_Description"                    "Removes all orbs."
@@ -7667,8 +7729,7 @@ If you have duplicate characters (opened in game, bought in shop or got through 
 
 		"damage_boss"												" нанес по боссу: "
 
-
-
+	
 
 
 

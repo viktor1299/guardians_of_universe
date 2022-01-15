@@ -445,30 +445,26 @@
 		    "DOTA_Tooltip_modifier_space_rift_buff"						                        "<font color='#9A75FE'>「Cosmic Rift」</font>"
 		
 		"DOTA_Tooltip_ability_chronos_magic"				                            "<font color='#9A75FE'>「Space Magic」</font> "
-		"DOTA_Tooltip_ability_chronos_magic_Description"		                            "Эта способность притягивает к себе ближайших юнитов и отправляет их в указанную точку."
-		"DOTA_Tooltip_ability_chronos_magic_Note0"                                          "Урон от притяжения: Интеллект * Уровень способности<br></br>Урон от отправления: 2 * Интеллект * Уровень способности<br></br>Радиус: 500<br></br>Радиус: 1400<br></br>Каждый юнит добавляет к урону 1%%"
+		"DOTA_Tooltip_ability_chronos_magic_Description"		                            "Эта способность притягивает к себе ближайших юнитов и отправляет их в указанную точку. <br><br><font color='#F81717'>Перезарядку данной способности нельзя уменьшить.</font> "
         "DOTA_Tooltip_ability_chronos_magic_pull_damage"			                        "Начальный урон:"
 		"DOTA_Tooltip_ability_chronos_magic_open_damage"			                        "Урон:"
-		"DOTA_Tooltip_ability_chronos_magic_shard_Description"		                        "Уменьшает перезарядку до 12 секунд"
+		"DOTA_Tooltip_ability_chronos_magic_shard_Description"		                        "Уменьшает перезарядку до 10 секунд"
 
 		"DOTA_Tooltip_ability_teleport_phase"				                            "<font color='#9A75FE'>「Displacement Matrix」</font>"
 		"DOTA_Tooltip_ability_teleport_phase_Description"		                            "Искажает расстояние между точками для телепортации, враги рядом с искажением получат урон."
-		"DOTA_Tooltip_ability_teleport_phase_Note0"                                         "Урон: Базовый урон * уровень способности<br></br>Урон от перемещения: Интеллект * Уровень способности<br></br>Задержка телепорта: 1<br></br>Радиус: 300<br></br>Дальность: 2000 + 50 * Уровень способности"
         "DOTA_Tooltip_ability_teleport_phase_damage"				                        "Множитель: "
 		"DOTA_Tooltip_ability_teleport_phase_base_damage"			                        "Базовый урон: "
 
 		"DOTA_Tooltip_ability_space_barrier"				                            "<font color='#9A75FE'>「Space Barrier」</font> "
 		"DOTA_Tooltip_ability_space_barrier_Description"		                            "Искажает пространство, притягивая врагов в центр. Наносит периодический урон."
-		"DOTA_Tooltip_ability_space_barrier_Note0"                                          "Урон за эффект: Интеллект * Уровень способности<br></br>Задержка: 1<br></br>Длительность: 5<br></br>Радиус: 400<br></br>Дальность: 1400"
         "DOTA_Tooltip_ability_space_barrier_damage"					                        "Множитель: "
 		"DOTA_Tooltip_ability_space_barrier_base_damage"			                        "Базовый урон: "
 
 		"DOTA_Tooltip_ability_fluctuation"					                            "<font color='#9A75FE'>「World Projection」</font>"
-		"DOTA_Tooltip_ability_fluctuation_Description"			                            "Создаёт проекцию в указанной точке, со временем создавая всё больше разломов. Снижает скорость передвижения и атаки на 400%%"
-		"DOTA_Tooltip_ability_fluctuation_Note0"                                            "Урон: Интеллект * Уровень способности<br></br>Длительность: 12<br></br>Радиус: 600<br></br>Дальность: 1000"
+		"DOTA_Tooltip_ability_fluctuation_Description"			                            "Создаёт проекцию в указанной точке, со временем создавая всё больше разломов. Снижает скорость передвижения и атаки на 400%% "
         "DOTA_Tooltip_ability_fluctuation_damage"					                        "Множитель: "
 		"DOTA_Tooltip_ability_fluctuation_base_damage"				                        "Базовый урон: "
-		"DOTA_Tooltip_ability_fluctuation_scepter_Description"			                    "Увеличивает радиус до 750"
+		"DOTA_Tooltip_ability_fluctuation_scepter_Description"			                    "Увеличивает радиус до 750. <br><br><font color='#F81717'>Будет наносить урон в радиусе 150 вокруг сферы.</font> "
 
 
 		    "npc_dota_hero_axe"											    "Lalatina Dustiness Ford「★★★★」"
@@ -670,7 +666,7 @@
 		    "npc_dota_hero_earth_spirit"								     "Chloe von Einzbern「★★★★★」"
 		
 		"DOTA_Tooltip_ability_reflect_jopi"												"<font color='#A78B4A'>「Reflect Damage」</font>"
-		"DOTA_Tooltip_ability_reflect_jopi_Description"										"Отражает часть любого полученого урона, умножая его по формуле - полученный урон * %uvelechenie% * %недостающего здоровья / 3."
+		"DOTA_Tooltip_ability_reflect_jopi_Description"										"Отражает часть любого полученого урона, умножая его по формуле - полученный урон * %uvelechenie% * %недостающего здоровья / 3. <br><br><font color='#E51D1D'>Не работает на Мировых Боссов!</font>"
         "DOTA_Tooltip_ability_reflect_jopi_Note0"	                                        "Урон рассчитывается после снижения его броней."
 
 		"DOTA_Tooltip_ability_war_berserker_aura"                                       "<font color='#A78B4A'>「Aura of Power 」</font>"
@@ -1083,6 +1079,12 @@
 		"DOTA_Tooltip_modifier_sakuya_time_buff"											"「Time Dilation」"
 		"DOTA_Tooltip_modifier_sakuya_time_buff_Description"								"Время остановлено"
 
+		"npc_dota_hero_dragon_knight"											"Mash Kyrielight「★★★★★」"
+		"npc_dota_hero_hoodwink"												"Nero Claudius「★★★★★」"
+
+
+
+
 
 			"npc_dota_hero_slark"											"Enterprise「★★★★★」"
 
@@ -1251,7 +1253,7 @@
 			"DOTA_Tooltip_modifier_lich_king_winter_curse"										"<font color='#175BF7'>「Winter's Curse」</font> "
 
 		"DOTA_Tooltip_ability_lich_stealer"												"<font color='#175BF7'>「Frostmourne's Drain」</font> "
-		"DOTA_Tooltip_ability_lich_stealer_Description"										"Пассивная: Меч требует крови смертных. С каждым ударом Король Лич наносит урон в %hp_leech_percent%%% от текущего здоровья врага."
+		"DOTA_Tooltip_ability_lich_stealer_Description"										"Пассивная: Меч требует крови смертных. С шансом в 17% Король Лич наносит урон в %hp_leech_percent%%% от текущего здоровья врага, если враг Босс(Хранитель) то наносит дополнительно 1% от максимального здоровья цели."
 
 		"DOTA_Tooltip_ability_gu_lich_stealer"											"<font color='#175BF7'>「Frostmourne's Drain」</font> "
 		"DOTA_Tooltip_ability_gu_lich_stealer_Description"									"Пассивная: Меч требует крови смертных. С каждым ударом Король Лич наносит урон в %hp_leech_percent%%% от текущего здоровья врага."
@@ -1362,29 +1364,28 @@
 
 		"npc_dota_hero_invoker"														"Ram「★★★★★」"
 
-		"DOTA_Tooltip_ability_invoker_fire_ellement"                                     "<font color='#f74307'>Элемент : Огонь</font>"
-        "DOTA_Tooltip_ability_invoker_fire_ellement_Description"                    "Увеличивает ваш <font color=''>урон</font> с руки и позволяет использовать магию <font color='#f74307'>Огня</font> в комбинациях.\n\n<font color='#f74307'>Аура огня</font> : вы наполняетесь силой огня, увеличивая <font color=''>урод</font> своей атаки. <font color='#f74307'>Необходимо от 1 единицы силы</font>.\n\n<font color='#fa2e00'>Огненный шар</font> : вы выпускаете огненный шар. <font color='#f74307'>Необходимо от 2,2 единиц силы</font> сфер.\n\n<font color='#fa2e00'>Веер огненных шаров</font> : вы выпускаете множество огненных шаров веером.<font color='#f74307'>Необходимо от 6 единиц силы</font>.\n\n<font color='#fa1900'>Бомба</font> : вы выпускаете огненный снаряд,наносящий чистый урон и образующий большой взрыв, поджигающий врагов. <font color='#f74307'>Необходимо более 10,2 силы</font>."
+		"DOTA_Tooltip_ability_invoker_fire_ellement"                                     "<font color='#f74307'>Element: Fire</font>"
+        "DOTA_Tooltip_ability_invoker_fire_ellement_Description"                    "Увеличивает ваш <font color=''>урон</font> с руки и позволяет использовать магию <font color='#f74307'>Огня</font> в комбинациях.\n\n<font color='#f74307'>Аура огня</font> : вы наполняетесь силой огня, увеличивая <font color=''>урон</font> своей атаки. <font color='#f74307'>Необходимо от 1 единицы силы</font>.\n\n<font color='#fa2e00'>Огненный шар</font> : вы выпускаете огненный шар. <font color='#f74307'>Необходимо от 2,2 единиц силы</font> сфер.\n\n<font color='#fa2e00'>Веер огненных шаров</font> : вы выпускаете множество огненных шаров веером.<font color='#f74307'>Необходимо от 6 единиц силы</font>.\n\n<font color='#fa1900'>Бомба</font> : вы выпускаете огненный снаряд,наносящий чистый урон и образующий большой взрыв. <font color='#f74307'>Необходимо более 10,2 силы</font>."
         "DOTA_Tooltip_ability_invoker_fire_ellement_Note0"                    "Смешанные комбинации : \n\n<font color='#5ce9ff'>Лёд</font> : \n\n<font color='#00deb9'>Водяной вихрь</font> : вы создаете <font color='#f74307'>вихрь</font> из <font color='#5ce9ff'>воды</font>. <font color='#f74307'>Необходимо небольшое количество</font> <font color='#5ce9ff'>обеих сил</font>.\n\n<font color='#00d6a4'>Веер водяных вихрей</font> : вы пускаете множество <font color='#5ce9ff'>водяных</font> <font color='#f74307'>вихрей веером</font>. <font color='#f74307'>Необходимо большое количество</font> <font color='#5ce9ff'>обеих сил</font>.\n\n<font color='#d974f7'>Ветер</font> : \n\n<font color='#c75300'>Огненный смерч</font> : вы создаёте <font color='#f74307'>огненный</font> <font color='#d974f7'>смерч</font>. <font color='#f74307'>Необходимо от небольшое количество</font> <font color='#d974f7'>обеих сил</font>.\n\n<font color='#bf400a'>Веер огненных смерчей</font> : вы выпускаете <font color='#f74307'>огненные</font> <font color='#d974f7'>смерчи веером</font>. <font color='#f74307'>Необходимо большое количество</font> <font color='#d974f7'>обеих сил</font>."
         "DOTA_Tooltip_ability_invoker_fire_ellement_bonus_damage_per_instance"                    "<font color=''>Урон от сферы</font>: "
         "DOTA_Tooltip_ability_invoker_fire_ellement_ellement_power"                    "<font color='#f74307'>Сила элемента</font> : "
 
-        "DOTA_Tooltip_ability_invoker_ice_ellement"                                     "<font color='#5ce9ff'>Элемент : Лёд</font>"
+        "DOTA_Tooltip_ability_invoker_ice_ellement"                                     "<font color='#5ce9ff'>Element: Ice</font>"
         "DOTA_Tooltip_ability_invoker_ice_ellement_Description"                    "Увеличивает вашу <font color='#3280e6'>регенерацию маны</font> и позволяет использовать магию <font color='#5ce9ff'>Воды</font> в комбинациях.\n\n<font color='#5ce9ff'>Аура льда</font> : вы наполняетесь силой льда, замедляя противников вокруг. <font color='#5ce9ff'>Необходимо от 1 единицы силы</font>.\n\n<font color='#30e3ff'>Взрыв льда</font> : вы образуете поле острых осколков льда перед собой. <font color='#5ce9ff'>Необходимо от 2,2 единиц силы</font>.\n\n<font color='#0fdfff'>Поле льда</font> : вы образуете вокруг себя множество осколков льда. <font color='#5ce9ff'>Необходимо от 6 единиц силы</font>."
         "DOTA_Tooltip_ability_invoker_ice_ellement_Note0"                    "Смешанные комбинации : \n\n<font color='#f74307'>Огонь</font> : \n\n<font color='#00deb9'>Водяной вихрь</font> : вы создаете <font color='#f74307'>вихрь</font> из <font color='#5ce9ff'>воды</font>. <font color='#5ce9ff'>Необходимо небольшое количество </font> <font color='#f74307'>обеих сил</font>.\n\n<font color='#00d6a4'>Веер водяных вихрей</font> : вы пускаете множество <font color='#5ce9ff'>водяных</font> <font color='#f74307'>вихрей веером</font>. <font color='#5ce9ff'>Необходимо большое количество</font> <font color='#f74307'>обеих сил</font>.\n\n<font color='#d974f7'>Ветер</font> : \n\n<font color='#24dff0'>Шар льда</font> : Вы выпускаете <font color='#d974f7'>вращающийся</font> <font color='#5ce9ff'>ледяной шар</font>. <font color='#5ce9ff'>Необходимо небольшое количество</font> <font color='#d974f7'>обеих сил</font>.\n\n<font color='#9cf7ff'>Ледяная звезда</font> : Вы выпускаете <font color='#5ce9ff'>ледяной шар</font>, <font color='#d974f7'>который периодически выпускает несколько ледяных снарядов</font>. <font color='#5ce9ff'>Необходимо большое количество</font> <font color='#d974f7'>обеих сил</font>."
         "DOTA_Tooltip_ability_invoker_ice_ellement_bonus_mana_regen_per_instance"                    "<font color='#3280e6'>Регенерация маны</font> : "
         "DOTA_Tooltip_ability_invoker_ice_ellement_ellement_power"                    "<font color='#5ce9ff'>Сила элемента</font> : "
 
-        "DOTA_Tooltip_ability_invoker_wind_ellement"                                     "<font color='#d974f7'>Элемент : Воздух</font>"
+        "DOTA_Tooltip_ability_invoker_wind_ellement"                                     "<font color='#d974f7'>Element: Air</font>"
         "DOTA_Tooltip_ability_invoker_wind_ellement_Description"                    "Увеличивает вашу скорость и позволяет использовать магию <font color='#d974f7'>Воздуха</font> в комбинациях.\n\n<font color='#d974f7'>Аура воздуха</font> : вы наполняетесь силой ветра, увеличивая скорость своего тела. <font color='#d974f7'>Необходимо от 1 единицы силы</font>.\n\n<font color='#d455fa'>Толчок</font> : вы поражаете врага мощным порывом ветра. <font color='#d974f7'>Необходимо от 2,2 единиц силы</font>.\n\n<font color='#d455fa'>Торнадо</font> : вы выпускаете электризованное торнадо. <font color='#d974f7'>Необходимо от 6 единиц силы</font>.\n\n<font color='#b20dff'>Веер электрических торнадо</font> : вы пускаете веером множество эликтризованных торнадо. <font color='#d974f7'>Необходимо более 10,2 единиц силы</font>."
         "DOTA_Tooltip_ability_invoker_wind_ellement_Note0"                    "Смешнанные комбинации : \n\n<font color='#f74307'>Огонь</font> : \n\n<font color='#c75300'>Огненный смерч</font> : вы создаёте <font color='#f74307'>огненный</font> <font color='#d974f7'>смерч</font>. <font color='#d974f7'>Необходимо небольшое количество</font> <font color='#f74307'>обеих сил</font>.\n\n<font color='#bf400a'>Веер огненных смерчей</font> : вы выпускаете <font color='#f74307'>огненные</font> <font color='#d974f7'>смерчи веером</font>. <font color='#d974f7'>Необходимо большое количество</font> <font color='#f74307'>обеих сил</font>.\n\n<font color='#5ce9ff'>Лёд</font> : \n\n<font color='#24dff0'>Шар льда</font> : Вы выпускаете <font color='#d974f7'>вращающийся</font> <font color='#5ce9ff'>ледяной шар</font>. <font color='#d974f7'>Необходимо небольшое количество </font> <font color='#5ce9ff'>обеих сил</font>.\n\n<font color='#9cf7ff'>Ледяная звезда</font> : Вы выпускаете <font color='#5ce9ff'>ледяной шар</font>, <font color='#d974f7'>который периодически выпускает несколько ледяных снарядов</font>.<font color='#d974f7'>Необходимо большое количество </font> <font color='#5ce9ff'>обеих сил</font>."
-        "DOTA_Tooltip_ability_invoker_wind_ellement_bonus_speed_per_instance"                    "Спид: "
+        "DOTA_Tooltip_ability_invoker_wind_ellement_bonus_speed_per_instance"                    "Скорость: "
         "DOTA_Tooltip_ability_invoker_wind_ellement_bonus_attack_speed_per_instance"                    "%<font color='#ffffff'>Скорость атаки</font> : "
         "DOTA_Tooltip_ability_invoker_wind_ellement_ellement_power"                    "<font color='#d974f7'>Сила элемента</font> : "
 
         "DOTA_Tooltip_ability_invoker_combine"                                     	"<font color='#f74307'>Ком</font><font color='#5ce9ff'>би</font><font color='#d974f7'>на</font><font color='#00d6a4'>ци</font><font color='#9cf7ff'>я</font>"
         "DOTA_Tooltip_ability_invoker_combine_Description"       					 	"Рам объединяет элементы для сотворения нового заклинания. Это заклинание выбирается на основе той части,которой больше"
-        "DOTA_Tooltip_ability_invoker_combine_Lore"                  					"Дополнительная сфера доступна каждые 10 уровней : ур. 1 : 1 сфера , ур. 10 : 2 сферы , ур. 20 : 3 сферы , ур. 30 : 4 сферы : ур. 40 : 5 сфер , ур. 50 : 6 сфер"
-        "DOTA_Tooltip_ability_invoker_combine_Note0"                					"<font color='#72fc4c'>Источник : вы восстанавливание <font color=''>фердинанда. <font color='#de3576'>Необходимо от 1 до 2,5 единиц всех сил \n\n<font color='#fcd144'>Аркана лазер : вы извергаете луч магической энергии. <font color='#de3576'>Необходимо более 2,5 единиц всех сил."
+        "DOTA_Tooltip_ability_invoker_combine_Note0"                					"<font color='#fcd144'>Аркана лазер : вы извергаете луч магической энергии. <font color='#de3576'>Необходимо более 2,5 единиц всех сил."
         "DOTA_Tooltip_ability_invoker_combine_Note1"                					"Экспериментируйте с комбинациями, возможно вы откроете <font color='#662801'>что-нибудь новое и необычное</font>"
 		"DOTA_Tooltip_ability_invoker_combine_scepter_Description"					"При активации,наложит на Рем эффект неуязвимости к магии на 3 секунды."
 
@@ -1394,6 +1395,32 @@
         "DOTA_Tooltip_ability_invoker_reset_Note0"                    				"Чувак, ты думал здесь что-то будет ? О-о нет, от тебя ошибкой пахнет, даже отсюда чувствую. Закрывай, закрывай описание и не пытайся понять что этот герой делает."
 		"DOTA_Tooltip_ability_invoker_reset_shard_Description"		 				"Убирает перезарядку"
 
+		
+                
+        "DOTA_Tooltip_ellement_wind_modifiers"                                      "<font color='#d974f7'>Воздух</font>"
+        "DOTA_Tooltip_ellement_wind_modifiers_Description"                   		"<font color='#d974f7'>You have summoned an orb of wind element</font>"
+        "DOTA_Tooltip_ellement_ice_modifiers"                                       "<font color='#5ce9ff'>Лёд</font>"
+        "DOTA_Tooltip_ellement_ice_modifiers_Description"                   		"<font color='#5ce9ff'>You have summoned an orb of ice element</font>"
+        "DOTA_Tooltip_ellement_fire_modifiers"                                      "<font color='#f74307'>Огонь</font>"
+        "DOTA_Tooltip_ellement_fire_modifiers_Description"                   		"<font color='#f74307'>You have summoned an orb of fire element</font>"
+        "DOTA_Tooltip_speed_aura_display"                                      		"<font color='#d974f7'>Воздух</font>"
+        "DOTA_Tooltip_speed_aura_display_Description"                   			"Attack and move speed are increased."
+        "DOTA_Tooltip_power_aura_display"                                      		"<font color='#f74307'>Огонь</font>"
+        "DOTA_Tooltip_power_aura_display_Description"                   			"Bonus attack damage
+        "DOTA_Tooltip_slow_modifier_caster"                                      	"<font color='#5ce9ff'>Лёд</font>"
+        "DOTA_Tooltip_slow_modifier_caster_Description"                   			"Enemies around you are slowd down."
+        "DOTA_Tooltip_modifier_arcana_laser_charge"                              	"<font color='#fcd144'>Arcana laser</font>"
+        "DOTA_Tooltip_modifier_arcana_laser_charge_Description"           			"You unleash a ray of magical energy."
+        "DOTA_Tooltip_health_regen_display"                                      	"<font color='#72fc4c'>Source</font>"
+        "DOTA_Tooltip_health_regen_display_Description"                  			"You replenish health."
+        "DOTA_Tooltip_fire_dot_display"                                      		"Ignite"
+        "DOTA_Tooltip_fire_dot_display_Description"                   				""
+        "DOTA_Tooltip_iceflame_display"                                      		"Freeze"
+        "DOTA_Tooltip_iceflame_display_Description"                   				"You are frozen"
+        "DOTA_Tooltip_ice_freeze_display"                                      		"Frozen"
+        "DOTA_Tooltip_ice_freeze_display_Description"                  				""
+        "DOTA_Tooltip_slow_modifier_display"                                      	"Slow"
+        "DOTA_Tooltip_slow_modifier_display_Description"                   			""
 
 		"npc_dota_hero_drow_ranger"														"2D Jekob「★」"
 
@@ -1474,7 +1501,7 @@
 		"DOTA_Tooltip_ability_ability_thdots_eirin03_shard_Description"					"Очищает цель от всех негативных эффектов."			
 
 		"DOTA_Tooltip_ability_ability_thdots_eirin04"                            		"<font color='#649dfa'>Forbidden Arcanum 「Hourai Elixir」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_eirin04_Description"		   					"Эйрин вводит разбавленную дозу легендарного эликсира выбранному союзнику. Он мгновенно исцеляет его и делает бессмертными на некоторое время."
+		"DOTA_Tooltip_ability_ability_thdots_eirin04_Description"		   					"Эйрин вводит разбавленную дозу легендарного эликсира выбранному союзнику. Он мгновенно исцеляет выбранную цель."
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_buff_duration"		   					"Длительность： "
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_health_regen"		   					"Лечение： "
 		
@@ -1582,7 +1609,7 @@
 
 			"npc_dota_hero_shredder" 										 "Т-90М «Breakthrough»「★★★★★」"
 
-		"DOTA_Tooltip_Ability_t90_upgrade"												"Т-90М «Прорыв»"
+		"DOTA_Tooltip_Ability_t90_upgrade"												"Т-90М «Breakthrough»"
 		"DOTA_Tooltip_Ability_t90_upgrade_Description"										"Улучшает характеристики танка.<br><font color='#fc0303'>Скорость атаки и базовое время атаки нельзя изменить!</font>"
 		"DOTA_Tooltip_Ability_t90_upgrade_bonus_health"										"К здоровью: "
 		"DOTA_Tooltip_Ability_t90_upgrade_bonus_armor"										"Броня: "
@@ -1620,7 +1647,7 @@
 			"npc_dota_hero_monkey_king"										"Spectral Spirit「★★★★★」"
 
 		"DOTA_Tooltip_ability_spectre_1"												"<font color='#3E3E3E'>「Spectral Path」</font>"
-		"DOTA_Tooltip_ability_spectre_1_Description"										"Герой открывает теневой путь к целевой точке. Вражеские юниты, которые попали под действие пути будут обездвижены и получат урон; герой может переместится на целевую точку в любой момент. <br><br>Наносит урон по формуле %damage% * интеллект."
+		"DOTA_Tooltip_ability_spectre_1_Description"										"Герой открывает теневой путь к целевой точке. Вражеские юниты, которые попали под действие пути будут обездвижены и получат урон. <br><br>Наносит урон по формуле %damage% * интеллект."
 		"DOTA_Tooltip_ability_spectre_1_movespeed"											"%Замедление скорости: "
 		"DOTA_Tooltip_ability_spectre_1_root_duration"										"Длительность обездвиживания: "
 		"DOTA_Tooltip_ability_spectre_1_shard_Description"									"При попадании оглушит цель на 2 секунды."
@@ -1840,7 +1867,7 @@
 		"DOTA_Tooltip_Ability_kizaru_mirror_range"											"Дальность телепорта: "
 
 		"DOTA_Tooltip_Ability_kizaru_sword"												"<font color='#E0F817'>「Ama no Murakumo」</font>"	
-        "DOTA_Tooltip_Ability_kizaru_sword_Description"										"Кизару достаёт свой меч и атакует нападающих на него врагов."	
+        "DOTA_Tooltip_Ability_kizaru_sword_Description"										"Кизару достаёт свой меч и атакует нападающих на него врагов. <br><br><font color='#FF0000'>Урон от данной способности невозможно увеличить с помощью предметов на усиление магии!</font>"	
 		"DOTA_Tooltip_Ability_kizaru_sword_duration"										"Длительность: "
 		"DOTA_Tooltip_Ability_kizaru_sword_bonus_damage"									"Дополнительная урон: "
 		"DOTA_Tooltip_Ability_kizaru_sword_bonus_as"										"Дополнительная скорость атаки: "
@@ -2067,7 +2094,7 @@
 			"DOTA_Tooltip_aura_thdots_ran02_debuff"											"<font color='#e8e52c'>Shikigami's Shot 「Ultimate Buddhist」</font>"
 		
 		"DOTA_Tooltip_ability_ability_thdots_Ran03"									"<font color='#fffb00'>Shikigami's Radiance 「Fox-Tanuki Youkai Laser」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_ran03_Description"							"Выстреливает в цель лазером Fox-Tanuki Youkai. Лазер будет прыгать между ближайшими врагами и наносить урон с каждым отскоком. Он может отскочить несколько раз между теми же юнитами. При применении на собзников восстанавливает им здоровье."
+		"DOTA_Tooltip_ability_ability_thdots_ran03_Description"							"Выстреливает в цель лазером Fox-Tanuki Youkai. Лазер будет прыгать между ближайшими врагами и наносить урон с каждым отскоком. Он может отскочить несколько раз между теми же юнитами. При применении на союзников восстанавливает им здоровье."
 		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_radius"							"Радиус прыжка: "
 		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_count"							"Максимум прыжков: "
 		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_interval"						"Интервал: "
@@ -2250,7 +2277,7 @@
 		"DOTA_Tooltip_ability_boss_armor" 												"Модульные блоки" 
 		"DOTA_Tooltip_ability_boss_armor_Description" 										"Поглощает любые технологии и уменьшает влияние оружия на владельца." 
 		"DOTA_Tooltip_modifier_boss_armor_no_invisibility" 									"Модульные блоки" 
-		"DOTA_Tooltip_modifier_boss_armor_no_invisibility_Description" 						"Сознание сломано."
+		"DOTA_Tooltip_modifier_boss_armor_no_invisibility_Description" 						"Ваша дальность атаки уменьшена до 1200."
 
 		"dota_tooltip_ability_imba_luna_lucent_beam" 									"Звезда Каптейна"
 		"dota_tooltip_ability_imba_luna_lucent_beam_description" 							"Атакует врага энергетическим лучом звезды."
@@ -2546,7 +2573,7 @@
 		"DOTA_Tooltip_ability_item_lens4_bonus_mana_regen"                          		"Восстановление маны: "
 		
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients"              				"Заряженная Магическая Коса"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 						"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 						"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает некоторые способности героев." 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_spell_amp_pct" 					"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_cast_range_bonus" 				"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_attack_range" 				"+к дальности атаки: "  
@@ -2554,7 +2581,7 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_strength" 					"+ко всем атрибутам: "  
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2"              				"Заряженная Магическая Коса 2"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 					"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 					"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает некоторые способности героев." 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_spell_amp_pct" 					"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_cast_range_bonus" 				"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_attack_range" 			"+к дальности атаки:" 
@@ -2562,7 +2589,7 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_strength" 				"+ко всем атрибутам:"  
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3"              				"Коса Смерти"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_Description" 					"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_Description" 					"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает некоторые способности героев. " 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_spell_amp_pct" 					"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_cast_range_bonus" 				"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_attack_range" 			"+к дальности атаки: "  
@@ -2570,7 +2597,7 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_strength" 				"+ко всем атрибутам:"   
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4"              				"Проклятая Коса Смерти"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_Description" 					"<h1>Активируемая: Дезинтеграция</h1> Призывает Жнеца к каждому юниту в радиусе 500, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев. \n <font color='#fc0303'>Не работает на Мировых Боссов!</font>" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_Description" 					"<h1>Активируемая: Дезинтеграция</h1> Призывает Жнеца к каждому юниту в радиусе 500, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев." 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_spell_amp_pct" 					"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_cast_range_bonus" 				"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_attack_range" 			"+к дальности атаки: "  
@@ -2815,7 +2842,7 @@
 		"DOTA_Tooltip_Ability_item_mars_sword_5_bonus_damage"								"+к урону "
 
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword"									"Нестабильный Меч Марса"
-		"DOTA_Tooltip_Ability_item_unstable_mars_sword_Description"							"<h1>Активируемая: Spell Immune</h1> Вы получаете магический иммунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели.\n <h1>Пассивная: Временной Парадокс</h1> Каждая атака героя дальнего боя будет выполнена дважды.\n <h1>Пассивная: Критический Урон</h1> У вас есть шанс нанести критический урон %crit_bonus%% с шансом %crit_chance%%."
+		"DOTA_Tooltip_Ability_item_unstable_mars_sword_Description"							"<h1>Активируемая: Spell Immune</h1> Вы получаете магический иммунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели.\n <h1>Пассивная: Временной Парадокс</h1> С шансом в 17% атака героя дальнего боя будет выполнена дважды.\n <h1>Пассивная: Критический Урон</h1> У вас есть шанс нанести критический урон %crit_bonus%% с шансом %crit_chance%%."
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_bonus_damage"						"+к урону "
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_bonus_aspeed"						"+к скорости атаки"
 		"DOTA_Tooltip_Ability_item_unstable_mars_sword_bonus_agility"						"+к ловкости"
@@ -3202,16 +3229,15 @@
 			"dota_tooltip_modifier_custom_universe_haste_rune_aura_description" 				"Увеличивает вашу скорость на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. И скорость атаки на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%. Эффект в ауре в два раза слабее."
 			"dota_tooltip_modifier_custom_universe_haste_rune_description" 						"Увеличивает вашу скорость на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. И скорость атаки на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
 
-		"dota_tooltip_ability_item_custom_universe_rune_illusion" 						"Вселенская Руна: Иллюзии"
+		"dota_tooltip_ability_item_custom_universe_rune_illusion" 						"Вселенская Руна: Силовое Поле"
 		"dota_tooltip_ability_item_custom_universe_rune_illusion_description" 				"С шансом в 90% вы можете избежать любого урона."
-			"dota_tooltip_modifier_custom_universe_illusion_rune"							 	"Вселенская Руна: Иллюзии"
+			"dota_tooltip_modifier_custom_universe_illusion_rune"							 	"Вселенская Руна: Силовое Поле"
 			"dota_tooltip_modifier_custom_universe_illusion_rune_description" 					"Повышает шанс уклонения на 90%."
 
-		"dota_tooltip_ability_item_custom_universe_rune_invis" 							"Вселенская Руна: Невидимость"
-		"dota_tooltip_ability_item_custom_universe_rune_invis_description" 					"Вы становитесь невидимым на 45 секунд. Невидимость исчезает в случае атаки, при ударе из невидимости вы нанесёте 5000% урона."
-			"dota_tooltip_modifier_custom_universe_invisibility_rune" 							"Вселенская Руна: Невидимость"
-			"dota_tooltip_modifier_custom_universe_invisibility_rune_description" 				"Невидим. Скорость передвижения увеличена на +20%%. Атака прервет невидимость и нанесет дополнительно 5000%% Урона."
-			"dota_tooltip_modifier_custom_universe_invisibility_rune_handler" 					"Задержка у твоей тян"
+		"dota_tooltip_ability_item_custom_universe_rune_invis" 							"Вселенская Руна: Темная жатва"
+		"dota_tooltip_ability_item_custom_universe_rune_invis_description" 					"Позволяет наносить критические удары в размере 2000% урона."
+			"dota_tooltip_modifier_custom_universe_invisibility_rune" 							"Вселенская Руна: Темная жатва"
+			"dota_tooltip_modifier_custom_universe_invisibility_rune_description" 				"Атаки наносят критические атаки в размере 2000%% Урона."
 		
 		"dota_tooltip_ability_item_custom_universe_rune_regen" 							"Вселенская Руна: Регенерация"
 		"dota_tooltip_ability_item_custom_universe_rune_regen_description" 					"Постоянно восстанавливает здоровье и ману на 50 + 10%/20 + 20% соответственно.\nЭффект исчезнет, если вы потеряете все заряды."
@@ -3225,6 +3251,9 @@
 		            
 		"dota_tooltip_ability_item_custom_universe_rune_energy"							"Вселенская Руна: Энергия"
         "dota_tooltip_ability_item_custom_universe_rune_energy_description"					"Даёт вам дополнительную энергию, а также её регенерацию."
+
+		"dota_tooltip_ability_item_custom_universe_rune_weather" 							"Вселенская Руна: Погодная Нестабильность"
+		"dota_tooltip_ability_item_custom_universe_rune_weather_description" 					"Изменяет погоду на случайную."
 
 			"DOTA_Tooltip_modifier_weather_blizzard_debuff"										"Буря" 
 			"DOTA_Tooltip_modifier_weather_blizzard_debuff_Description"							"Не может передвигаться %fMODIFIER_PROPERTY_TOOLTIP%s." 
@@ -3310,6 +3339,8 @@
 		"npc_dota_hero_juggernaut_race"			"Раса: «Tau'ri»"
 		"npc_dota_hero_invoker_race"			"Раса: «Tau'ri»"
 		"npc_dota_hero_marci_race"				"Раса: «Tau'ri»"
+		"npc_dota_hero_dragon_knight_race" 		"Раса: «Armored»"
+		"npc_dota_hero_hoodwink_race"			"Раса: «Tau'ri»"
 		
 
 		"npc_cu_neitrall_updated"									"Вселенский Крип Стандартный"
@@ -3540,6 +3571,7 @@
 			"boss_name_8" "Tokisaki Kurumi"
 
 
+
 			"npc_universal_boss_dark_willow"						"Миреска Ветреная"
 			"npc_universal_boss_dark_willow_text"					"Insidious Reptile"
 			"npc_universal_boss_dark_willow_text_1"					"Детишки обожают рассказывать о чудных похождениях феечек... Ах, если бы они знали, что многие феи — просто коварные гадины!"
@@ -3592,11 +3624,13 @@
 		"primogem"													"Камень Истока"
 		"DOTA_Tooltip_ability_item_primogem_Description"			"Игровая валюта."
 		"DOTA_Tooltip_ability_item_pray_standart"					"Судьбоносные Встречи"
+		"DOTA_Tooltip_ability_item_stellar"							"Свободный Звёздный Блеск"
+		"DOTA_Tooltip_ability_item_stellar_Description"				"Вы сможете прокачать своего персонажа."
 		"standart_pray_coin"										"Судьбоносные Встречи"
 		"DOTA_Tooltip_ability_item_pray_standart_Description"		"Вы сможете помолиться в стандартном баннере «История Андромеды»."
 		"DOTA_Tooltip_ability_item_pray_event"						"Переплетающиеся Судьбы"
 		"event_pray_coin"											"Переплетающиеся Судьбы"
-		"DOTA_Tooltip_ability_item_pray_event_Description"			"Вы сможете помолиться в ивентовом баннере «Foreteller of the Future»."
+		"DOTA_Tooltip_ability_item_pray_event_Description"			"Вы сможете помолиться в ивентовом баннере." 
 		"DOTA_Tooltip_ability_item_unknown"							"Неизвестность"
 		"DOTA_Tooltip_ability_item_unknown_Description"				"Никто не знает, что вы получите..."
 
@@ -3733,7 +3767,8 @@
 		"npc_starter_boss" 		"Хранитель"
 		"npc_starter_mob_1" 	"Заблудший Воин"
 		"npc_starter_mob_2" 	"Пещерный Воин"
-		"npc_replicator_boss"	"Королева Репликаторов"
+		"npc_replicator_boss"	"Queen of Replicators"
+		"npc_replicator_boss_text"					"Mistress of the World Cloth "
 
 		"prolog_qvest_end" "Задание выполнено!" 
 		"prolog_qvest_start" "Получено новое задание!" 
@@ -3963,7 +3998,7 @@
 		"DOTA_Tooltip_ability_sniper_concussive_grenade_debuff_duration"    				"Длительность: "
 
 		"DOTA_Tooltip_ability_item_aghanims_shard"                						"Модуль Нулевой Точки"
-        "DOTA_Tooltip_ability_item_aghanims_shard_Description"    							"Добавляет новые или улучшает некоторые существующие способности персонажей."
+        "DOTA_Tooltip_ability_item_aghanims_shard_Description"    							"Добавляет новые или улучшает некоторые существующие способности персонажей. <br><br><font color='#7ee340'>Можно передать союзнику!</font>"
 		
 		"DOTA_AbilityTooltip_ScepterUpgrade_Header" 									"Улучшение от Скипетра Вселенной"
 		"DOTA_AbilityTooltip_No_Aghs_Upgrade_Found" 										"В процессе материализации"
@@ -4080,28 +4115,7 @@
 		"hero_category_4"	"Созданное Игроками"
 
 		"pray_button"		"Молитва"
-		"hero_const_0"		"Уровень Возвышения: <font color='#6ff542'>«0»</font>"
-		"hero_const_1"		"Уровень Возвышения: <font color='#6ff542'>«0»</font>"
-		"hero_const_2"		"Уровень Возвышения: <font color='#87f542'>«I»</font>"
-		"hero_const_3"		"Уровень Возвышения: <font color='#a4f542'>«II»</font>"
-		"hero_const_4"		"Уровень Возвышения: <font color='#bcf542'>«III»</font>"
-		"hero_const_5"		"Уровень Возвышения: <font color='#d7f542'>«IV»</font>"
-		"hero_const_6"		"Уровень Возвышения: <font color='#f2f542'>«V»</font>"
-		"hero_const_7"		"Уровень Возвышения: <font color='#f5d742'>«VI»</font>"
-		"hero_const_8"		"Уровень Возвышения: <font color='#f5ad42'>«VII»</font>"
-		"hero_const_9"		"Уровень Возвышения: <font color='#f58d42'>«VIII»</font>"
-		"hero_const_10"		"Уровень Возвышения: <font color='#f55d42'>«IX»</font>"
-		"hero_const_11"		"Уровень Возвышения: <font color='#f54242'>«X»</font>"
-		"hero_const_12"		"Уровень Возвышения: <font color='#f5424e'>«XI»</font>"
-		"hero_const_13"		"Уровень Возвышения: <font color='#f54266'>«XII»</font>"
-		"hero_const_14"		"Уровень Возвышения: <font color='#f54287'>«XIII»</font>"
-		"hero_const_15"		"Уровень Возвышения: <font color='#f542ad'>«XIV»</font>"
-		"hero_const_16"		"Уровень Возвышения: <font color='#f542ce'>«XV»</font>"
-		"hero_const_17"		"Уровень Возвышения: <font color='#ef42f5'>«XVI»</font>"
-		"hero_const_18"		"Уровень Возвышения: <font color='#bc42f5'>«XVII»</font>"
-		"hero_const_19"		"Уровень Возвышения: <font color='#9042f5'>«XVIII»</font>"
-		"hero_const_20"		"Уровень Возвышения: <font color='#6642f5'>«XIX»</font>"
-		"hero_const_21"		"Уровень Возвышения: <font color='#4248f5'>«XX»</font>"
+		"hero_const"		"Уровень Возвышения: "
 
 		"pray_info"	"Детали"
 		"pray_info_standart_name"	"      Стандартная Молитва: История Андромеды"
@@ -4217,7 +4231,7 @@
 		"npc_dota_hero_skeleton_king_t3"		"Улучшает - 「Eternity 」<br><br> С шансом в 17% может моментально перезарядить способности при активации."
 		"npc_dota_hero_skeleton_king_t4"		"Улучшает - 「Winter's Curse」<br><br> Больше не тратит энергию." 
 		"npc_dota_hero_skeleton_king_t5"		"Улучшает - 「Cold Reaper」<br><br> Урон увеличен в 4 раза, длительность заморозки - 8 сек, радиус - 1200."
-		"npc_dota_hero_skeleton_king_t6"		"Улучшает - 「Frostmourne Drain」<br><br> Востанавливает здоровье Личу в размере 100% от нанесённого урона." 
+		"npc_dota_hero_skeleton_king_t6"		"Улучшает - 「Frostmourne Drain」<br><br> Востанавливает здоровье Личу в размере 100% от нанесённого урона, добавляет + 10% к урону на всех уровнях." 
 
 		"npc_dota_hero_abaddon_t2_name"		"-「Armor of Abstraction」_-"
 		"npc_dota_hero_abaddon_t3_name"		"-「Chaos Field」_-"
@@ -4290,9 +4304,9 @@
 		"npc_dota_hero_bounty_hunter_t3_name"		"-「Телепорт」_-"
 		"npc_dota_hero_bounty_hunter_t3"		"Улучшает - 「Yata no Kagami」! <br><br>Теперь в точке прыжка все враги будут обездвижены на 5 секунд."
 		"npc_dota_hero_bounty_hunter_t4_name"		"-「Клинок」_-"	
-		"npc_dota_hero_bounty_hunter_t4"		"Улучшает - 「Ama no Murakumo」! <br><br>Увеличивает дополнительный урон и скорость атаки в 4 раза."
+		"npc_dota_hero_bounty_hunter_t4"		"Улучшает - 「Ama no Murakumo」! <br><br>Увеличивает дополнительный урон в 4 раза."
 		"npc_dota_hero_bounty_hunter_t5_name"		"-「Гибрид」_-"	
-		"npc_dota_hero_bounty_hunter_t5"		"Улучшает - 「Ama no Murakumo」! <br><br>Увеличивает урон в 4 раза."
+		"npc_dota_hero_bounty_hunter_t5"		"Улучшает - 「Yasakani no Magatama」! <br><br>Увеличивает урон в 4 раза."
 		"npc_dota_hero_bounty_hunter_t6_name"		"-「Познание」_-"	
 		"npc_dota_hero_bounty_hunter_t6"		"Улучшает - 「Yasakani no Magatama」! <br><br>Интервал равен 0.1."
 
@@ -4473,7 +4487,7 @@
 		"npc_dota_hero_sven_t2"		"Улучшает - 「Cross combination」<br><br> Добавляет дополнительный урон - сила * 2."
 		"npc_dota_hero_sven_t3"		"Улучшает - 「Victory Slash」<br><br> Добавляет дополнительный урон - сила * 2."
 		"npc_dota_hero_sven_t4"		"Улучшает - 「Victory Slash」<br><br> Убирает перезарядку."
-		"npc_dota_hero_sven_t5"		"Улучшает - 「HDD: Purple Heart」<br><br> Увеличивает бонусный урон в 4 раза."
+		"npc_dota_hero_sven_t5"		"Улучшает - 「HDD: Purple Heart」<br><br> Увеличивает бонусный урон в 2 раза."
 		"npc_dota_hero_sven_t6"		"Улучшает - 「HDD: Purple Heart」<br><br> Делает способность бесконечной."
 
 		"npc_dota_hero_nyx_assassin_t2_name"		"-「Серия Ударов」_-"
@@ -4769,7 +4783,7 @@
 		"npc_dota_hero_invoker_t4_name"		"-「<font color='#5ce9ff'>Элемент : Лёд</font>」_-"
 		"npc_dota_hero_invoker_t5_name"		"-「<font color='#d974f7'>Элемент : Воздух</font>」_-"
 		"npc_dota_hero_invoker_t6_name"		"-「<font color='#f74307'>Ком</font><font color='#5ce9ff'>би</font><font color='#d974f7'>на</font><font color='#00d6a4'>ци</font><font color='#9cf7ff'>я</font>」_-"
-		"npc_dota_hero_invoker_t2"		"Улучшает   <br><font color='#f74307'>Ком</font><font color='#5ce9ff'>би</font><font color='#d974f7'>на</font><font color='#00d6a4'>ци</font><font color='#9cf7ff'>я</font><br><br> Уменьшает перезарядку до 15 секунд."
+		"npc_dota_hero_invoker_t2"		"Улучшает   <br><font color='#f74307'>Ком</font><font color='#5ce9ff'>би</font><font color='#d974f7'>на</font><font color='#00d6a4'>ци</font><font color='#9cf7ff'>я</font><br><br> Уменьшает перезарядку до 5 секунд."
 		"npc_dota_hero_invoker_t3"		"Улучшает   <br><font color='#f74307'>Элемент : Огонь</font><br><br> Увеличивает силу магии Огня на 0.2 на всех уровнях."
 		"npc_dota_hero_invoker_t4"		"Улучшает   <br><font color='#5ce9ff'>Элемент : Лёд</font><br><br> Увеличивает силу магии Льда на 0.2 на всех уровнях."
 		"npc_dota_hero_invoker_t5"		"Улучшает   <br><font color='#d974f7'>Элемент : Воздух</font><br><br> Увеличивает силу магии Воздуха на 0.2 на всех уровнях."
@@ -4786,157 +4800,16 @@
 		"npc_dota_hero_marci_t5"		"Улучшает   <br><font color='#662BF9'>「Ancestral Recall」</font><br><br> Увеличивает бонусные характеристики в 10 раз."
 		"npc_dota_hero_marci_t6"		"Улучшает   <br><font color='#662BF9'>「Ancestral Recall」</font><br><br> Увеличивает длительность в 2 раза на всех уровнях."
 
-
-
-
-
-		"t1_name" 	"-_RISE OF A HERO_-"
-		"t1_1" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 0<br>
-		Бонус к броне: 0<br>
-		Бонус к урону: 0<br>
-		Бонус к востановлению маны: 0<br>
-		Бонус к усилению способностей: 0%"
-
-		"t1_2" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 100<br>
-		Бонус к броне: 1<br>
-		Бонус к урону: 10<br>
-		Бонус к востановлению маны: 1<br>
-		Бонус к усилению способностей: 3%"
-
-		"t1_3" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 200<br>
-		Бонус к броне: 2<br>
-		Бонус к урону: 20<br>
-		Бонус к востановлению маны: 2<br>
-		Бонус к усилению способностей: 6%"
-
-		"t1_4" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 300<br>
-		Бонус к броне: 3<br>
-		Бонус к урону: 30<br>
-		Бонус к востановлению маны: 3<br>
-		Бонус к усилению способностей: 9%"
-
-		"t1_5" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 400<br>
-		Бонус к броне: 4<br>
-		Бонус к урону: 40<br>
-		Бонус к востановлению маны: 4<br>
-		Бонус к усилению способностей: 12%"
-
-		"t1_6" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 500<br>
-		Бонус к броне: 5<br>
-		Бонус к урону: 50<br>
-		Бонус к востановлению маны: 5<br>
-		Бонус к усилению способностей: 16%"
-
-		"t1_7" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 600<br>
-		Бонус к броне: 6<br>
-		Бонус к урону: 60<br>
-		Бонус к востановлению маны: 7<br>
-		Бонус к усилению способностей: 20%"
-
-		"t1_8" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 700<br>
-		Бонус к броне: 7<br>
-		Бонус к урону: 70<br>
-		Бонус к востановлению маны: 9<br>
-		Бонус к усилению способностей: 24%"
-
-		"t1_9" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 800<br>
-		Бонус к броне: 8<br>
-		Бонус к урону: 80<br>
-		Бонус к востановлению маны: 11<br>
-		Бонус к усилению способностей: 28%"
-
-		"t1_10" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 900<br>
-		Бонус к броне: 9<br>
-		Бонус к урону: 90<br>
-		Бонус к востановлению маны: 13<br>
-		Бонус к усилению способностей: 32%"
-
-		"t1_11" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1000<br>
-		Бонус к броне: 10<br>
-		Бонус к урону: 100<br>
-		Бонус к востановлению маны: 15<br>
-		Бонус к усилению способностей: 37%"
-
-		"t1_12" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1100<br>
-		Бонус к броне: 12<br>
-		Бонус к урону: 110<br>
-		Бонус к востановлению маны: 18<br>
-		Бонус к усилению способностей: 42%"
-
-		"t1_13" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1200<br>
-		Бонус к броне: 14<br>
-		Бонус к урону: 120<br>
-		Бонус к востановлению маны: 21<br>
-		Бонус к усилению способностей: 48%"
-
-		"t1_14" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1300<br>
-		Бонус к броне: 16<br>
-		Бонус к урону: 130<br>
-		Бонус к востановлению маны: 24<br>
-		Бонус к усилению способностей: 54%"
-
-		"t1_15" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1400<br>
-		Бонус к броне: 18<br>
-		Бонус к урону: 140<br>
-		Бонус к востановлению маны: 27<br>
-		Бонус к усилению способностей: 60%"
-
-		"t1_16" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1500<br>
-		Бонус к броне: 20<br>
-		Бонус к урону: 150<br>
-		Бонус к востановлению маны: 30<br>
-		Бонус к усилению способностей: 67%"
-
-		"t1_17" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1600<br>
-		Бонус к броне: 22<br>
-		Бонус к урону: 160<br>
-		Бонус к востановлению маны: 34<br>
-		Бонус к усилению способностей: 75%"
-
-		"t1_18" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1700<br>
-		Бонус к броне: 24<br>
-		Бонус к урону: 170<br>
-		Бонус к востановлению маны: 38<br>
-		Бонус к усилению способностей: 85%"
-
-		"t1_19" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1800<br>
-		Бонус к броне: 26<br>
-		Бонус к урону: 180<br>
-		Бонус к востановлению маны: 42<br>
-		Бонус к усилению способностей: 95%"
-
-		"t1_20" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 1900<br>
-		Бонус к броне: 38<br>
-		Бонус к урону: 190<br>
-		Бонус к востановлению маны: 46<br>
-		Бонус к усилению способностей: 105%"
-
-		"t1_21" 	"Герой получает бонусы к разным характеристикам, всего есть 20 уровней таланта, уровень таланта зависит от количества выбитых дубликатов героя.<br>
-		Бонус к здоровью: 2000<br>
-		Бонус к броне: 30<br>
-		Бонус к урону: 200<br>
-		Бонус к востановлению маны: 50<br>
-		Бонус к усилению способностей: 120%"
+		"npc_dota_hero_hoodwink_t2_name"		"「Très Fontaine Ardent」"
+		"npc_dota_hero_hoodwink_t3_name"		"「Très Fontaine Ardent」"
+		"npc_dota_hero_hoodwink_t4_name"		"「Gladiusanus Blauserum」"
+		"npc_dota_hero_hoodwink_t5_name"		"「Gladiusanus Blauserum」"
+		"npc_dota_hero_hoodwink_t6_name"		"「Aestus Domus Aurea」"
+		"npc_dota_hero_hoodwink_t2"		"Улучшает   <br><font color='#FFE56E'>「Très Fontaine Ardent」</font><br><br> Добавляет бонусный урон - ловкость * 2."
+		"npc_dota_hero_hoodwink_t3"		"Улучшает   <br><font color='#FFE56E'>「Très Fontaine Ardent」</font><br><br> При активной способности <font color='#FFE56E'>「Aestus Domus Aurea」</font>, наносит дополнительный чистый урон в размере базовый * 2"
+		"npc_dota_hero_hoodwink_t4"		"Улучшает   <br><font color='#FFE56E'>「Gladiusanus Blauserum」</font><br><br> При активации способности, вокруг Неро всем врагам будет нанесён урон в размере базовый + (ловкость * 10) <br><br> Улучшает   <br><font color='#FFE56E'>「Rosa Ichthys」</font><br><br> При активации способности, вокруг Неро, всем врагам будет нанесён урон * 10"
+		"npc_dota_hero_hoodwink_t5"		"Улучшает   <br><font color='#FFE56E'>「Gladiusanus Blauserum」</font><br><br> Добавляет бонусный урон - ловкость * 2"
+		"npc_dota_hero_hoodwink_t6"		"Улучшает   <br><font color='#FFE56E'>「Aestus Domus Aurea」</font><br><br> Все находящиеся в арене союзники, получат 90% от брони Неро, +100% к Сопротивлению Магии и 50% к скорости передвижению. <br><br>Улучшает   <br><font color='#FFE56E'>「Laus Saint Claudius」</font><br><br> Добавляет бонусный урон - ловкость * 2."
 
 	"task_random_address"        "Для вас сгенерирован случайный адресс для системы врат Milky Way, Pegasus либо Вселенная. Наберите его на устройстве набора за отведённое время и получите награду!"
 	"task_name_address"			"Случайный Адрес"
@@ -4965,8 +4838,7 @@
 		"item_custom_universe_rune_frost" "Карающий Взор"
 		"item_custom_universe_rune_haste" "Кошмарная тень"
 		"item_custom_universe_rune_illusion" "Силовое Поле"
-		"item_custom_universe_rune_invis" "Подпространство"
-		"item_custom_universe_rune_regen" "Регенерация"
+		"item_custom_universe_rune_invis" "Темная жатва"
 		"item_custom_universe_rune_regen" "Регенерация"
 		"item_custom_universe_rune_energy" "МНТ"
 
@@ -4993,7 +4865,7 @@
 
 		"Milky_Way"      "Задание: Случайный адрес Млечный Путь"
         "Pegasus"        "Задание: Случайный адрес Пегас"
-        "destiny"        "Задание: Случайный адрес Вселенная
+        "destiny"        "Задание: Случайный адрес Вселенная"
 
 		"boss_error_1"		"У вас уже есть активная битва с боссом!!!"
 		"boss_error_2"		"Битва с боссом проиграна, попытайтесь позже!"
@@ -5188,7 +5060,9 @@
 
 		"gu_chat_local"       		"Введите ваше сообщение..."
 		"gu_item_find"				"{player_name} достал из ящика - «{item_name}» и заработал {gold} золота!"
+		"gu_item_find_a"			"{player_name} достал из ящика - «{item_name}»!"
 		"gu_item_find_neutrall"		"{player_name} достал из ящика - <font color='#be46d4'>«{item_name}»</font>!"
+		"gu_rune_find"				"{player_name} достал из ящика - <font color='#B3FF36'>«{item_name}»</font>!"
 		"gu_item_find_bolt"			"{player_name} получил из ящика грозовой разряд!"
 		"gu_item_find_snow"			"{player_name} получил из ящика замораживающий заряд!"
 		"gu_gacha_set"				"{player_name} получил из молитвы героя - {hero_name}!"
@@ -5393,19 +5267,19 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_int"									"Бонус к интеллекту:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1"									"Броня Гоа'улдов"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки.</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_armor"									"Броня:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp_regen"								"%Восстановление здоровья:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp"										"Бонусное здоровье:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2"									"Броня Гоа'улдов 2"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки.</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_armor"									"Броня:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp_regen"								"%Восстановление здоровья:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp"										"Бонусное здоровье:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3"									"Броня Гоа'улдов 3"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки.</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_armor"									"Броня:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp_regen"								"%Восстановление здоровья:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp"										"Бонусное здоровье:"
@@ -5467,6 +5341,8 @@
 		"npc_dota_hero_juggernaut_dificult"			"Сложность героя: «Легко»"
 		"npc_dota_hero_invoker_dificult"			"Сложность героя: «Невозможно»"
 		"npc_dota_hero_marci_dificult"				"Сложность героя: «Легко»"	
+		"npc_dota_hero_dragon_knight_dificult"		"Сложность героя: «Легко»"	
+		"npc_dota_hero_hoodwink_dificult"			"Сложность героя: «Нормально»"
 
 		"npc_dota_hero_queenofpain_type" 		"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_warlock_type" 			"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
@@ -5524,6 +5400,8 @@
 		"npc_dota_hero_juggernaut_type"			"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"npc_dota_hero_invoker_type"			"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_marci_type"				"Роль: <font color='#a822ba'>«Маг. ДПС»</font>, <font color='#0f8fa8'>Поддержка»</font>"
+		"npc_dota_hero_dragon_knight_type" 		"Роль: <font color='#ba1111'>Танк»</font>"
+		"npc_dota_hero_hoodwink_type"			"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 
 		"npc_dota_hero_warlock_rare" 			"Баннер: «История Андромеды»"
 		"npc_dota_hero_venomancer_rare" 		"Баннер: «История Андромеды»"
@@ -5581,8 +5459,10 @@
 		"npc_dota_hero_puck_rare" 				"Баннер: «История Андромеды»"
 		"npc_dota_hero_bloodseeker_rare"		"Персонаж игрока: 9'ι"
 		"npc_dota_hero_juggernaut_rare"			"Баннер: «История Андромеды»"
-		"npc_dota_hero_invoker_rare"			"Баннер: «Power of the Elements»"
+		"npc_dota_hero_invoker_rare"			"Баннер: «Guardian of the Elements»"
 		"npc_dota_hero_marci_rare"				"Баннер: «История Андромеды»"
+		"npc_dota_hero_dragon_knight_rare"		"Баннер: «История Андромеды»"
+		"npc_dota_hero_hoodwink_rare"			"Баннер: «Emperor of the Roses»"
 
 		"npc_dota_hero_queenofpain_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_warlock_damage" 				"Источник: «Guardians of Universe»"
@@ -5640,6 +5520,8 @@
 		"npc_dota_hero_juggernaut_damage"			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_invoker_damage"				"Источник: «Epic Boss Fite»"
 		"npc_dota_hero_marci_damage"				"Источник: «Dusk»"
+		"npc_dota_hero_dragon_knight_damage"		"Источник: «Fate»"
+		"npc_dota_hero_hoodwink_damage"				"Источник: «Fate»"
 
 		"npc_gu_t72_base"			"Т-72 База"
 		"npc_gu_t90_base"			"Т-90 База"
@@ -5832,11 +5714,11 @@
 
 
 
-	"pray_info_event_name"	"      «Молитва События: Foreteller of the Future» "
+	"pray_info_event_name"	"«Молитва События: Emperor of the Roses» "
 		"pray_info_event"	"Подробнее о Молитвах<br><br>
 <font color='#d63131ef'>Временное событие</font><br><br>
 
-«Молитва события: Foreteller of the Future» уже доступна! Во время этого события вероятность получения следующих персонажей резко увеличится. Эксклюзивный для события персонаж 5★ «Enigmatic Astrologer» Mona Megistus<br><br>
+«Молитва события: Emperor of the Roses» уже доступна! Во время этого события вероятность получения следующих персонажей резко увеличится. Эксклюзивный для события персонаж 5★ «Emperor of the Roses» Nero Claudius<br><br>
 За каждые 10 Молитв вы гарантированно получите как минимум одного персонажа 4★.<br><br>
 ※ При обычных условиях базовая вероятность выпадения всех персонажей распределяется равномерно. Если действуют какие-либо усиления или гарантии, пожалуйста, прочтите соответствующие правила.<br><br>
 〓 Правила 〓<br>
@@ -5846,14 +5728,14 @@
 
 <font color='#c2133f'>Важно!</font><br>
 Если при опросе вы указали негативное отношение к аниме тематике, то вам не будут выпадать персонажи данной категории!<br>
-Гарант на выпадение 5★ персонажа общий между стандартным и этим Баннером, при выпадении 5★ вы гарантировано получите персонажа 5★ «Enigmatic Astrologer» Mona Megistus <br>
+Гарант на выпадение 5★ персонажа общий между стандартным и этим Баннером, при выпадении 5★ вы гарантировано получите персонажа 5★ «Emperor of the Roses» Nero Claudius<br>
 При выпадении 4★ ваш шанс получить персонажей которые изображены на Баннере увеличен на 50%! <br><br>
 
 <br>〓 Дубликаты 〓<br><br>
 Если у вас есть повторяющиеся персонажи (открытые в игре, купленные в магазине или выигранные в Молитве), то начиная с 2 по 20 вы будете прокачивать уникальные таланты каждому персонажу
 <br><br>〓 Список героев 〓<br><br>
 <font color='#c27913'>Герои 5★</font><br>
-«Mona Megistus»<br><br>
+«Nero Claudius»<br><br>
 
 <font color='#8e13c2'>Герои 4★</font><br>
 -Legate of the Legion<br>
@@ -5898,8 +5780,8 @@
 			"profile_total_game"			"Всего сыгранных игр: "
 			"profile_wish_5_stars"			"Молитв до гарантированного персонажа 5★ <font color='#B76DFC'>«История Андромеды»</font>: "
 			"profile_wish_4_stars"			"Молитв до гарантированного персонажа 4★ <font color='#B76DFC'>«История Андромеды»</font>: "
-			"profile_wish_event_5_stars"	"Молитв до гарантированного персонажа 5★ <font color='#3AF7AF'>«Foreteller of the Future»</font>: "
-			"profile_wish_event_4_stars"	"Молитв до гарантированного персонажа 4★ <font color='#3AF7AF'>«Foreteller of the Future»</font>: "
+			"profile_wish_event_5_stars"	"Молитв до гарантированного персонажа 5★ <font color='#3AF7AF'>«Emperor of the Roses»</font>: "
+			"profile_wish_event_4_stars"	"Молитв до гарантированного персонажа 4★ <font color='#3AF7AF'>«Emperor of the Roses»</font>: "
 			"profile_role"					"Игровая роль: "
 			"dynamic_profile_all"			"Общая Статистика"
 			"player_unheroes"				"«Персонажи игрока»"
@@ -6153,7 +6035,7 @@
 		"DOTA_Tooltip_modifier_weather_sand_storm_Description" 						"Значительно уменьшает обзор, уменьшает скорость передвижения, а также накладывает 90% шанс промаха."
 
 		"DOTA_Tooltip_modifier_weather_swamp" 									"Погода: <font color='#74b84f'>Болотный Дождь</font>"
-		"DOTA_Tooltip_modifier_weather_swamp_Description" 							"Уменьшает броню на 50 и скорость передвижения на 50%"
+		"DOTA_Tooltip_modifier_weather_swamp_Description" 							"Уменьшает броню на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% и скорость передвижения на 50%"
 
 		"weather_timer"				": До смены - "
 		"DOTA_Tooltip_modifier_oppression" 										"<font color='#B56213'>「Armor of Abstraction」</font> "
@@ -6242,6 +6124,270 @@
 		"DOTA_Tooltip_Ability_item_mage_slayer2_bonus_intellect"   "+ к интеллекту: "
 
 		"damage_boss"												" нанес по боссу: "
+
+		"DOTA_Tooltip_modifier_class_magdd"							"Класс: Магический ДД"
+		"DOTA_Tooltip_modifier_class_magdd_Description"				"За каждый дубликат персонажа, добавляет + 1% к усилинию урона от заклинаний."
+
+		"DOTA_Tooltip_modifier_class_dd"							"Класс: ДД"
+		"DOTA_Tooltip_modifier_class_dd_Description"				"За каждый дубликат персонажа, добавляет + 5 к базовому урону персонажа."
+
+		"DOTA_Tooltip_modifier_class_armored"							"Класс: Танк"
+		"DOTA_Tooltip_modifier_class_armored_Description"			"За каждый дубликат персонажа, добавляет + 1 к броне."
+
+		"DOTA_Tooltip_modifier_class_heal"							"Класс: Поддержка"
+		"DOTA_Tooltip_modifier_class_heal_Description"				"За каждый дубликат персонажа, добавляет + 1% к усилинию лечения."
+
+
+		"DOTA_Tooltip_Ability_item_gu_weather_control"                  "Стабилизатор Погоды"
+		"DOTA_Tooltip_ability_item_gu_weather_control_Description"		"<h1>Активная: Стабилизация</h1>Изменяет текущую погоду на Солнечную."
+
+
+
+        "DOTA_Tooltip_Ability_nero_tres_fontaine_ardent"     			"<font color='#FFE56E'>「Très Fontaine Ardent」</font>"
+        "DOTA_Tooltip_ability_nero_tres_fontaine_ardent_Description" 		"Неро помечает все вражеские цели в радиусе %radius%, затем начинает атаковать их с интервалом в %interval_slash% сек. <br><br>Наносит урон от базовой атаки + дополнительный урон в размере %damage%, дополнительный урон игнорирует броню цели."
+        "DOTA_Tooltip_ability_nero_tres_fontaine_ardent_damage"				"Урон:"
+ 
+  		"DOTA_Tooltip_Ability_nero_gladiusanus_blauserum"     			"<font color='#FFE56E'>「Gladiusanus Blauserum」</font>"
+        "DOTA_Tooltip_ability_nero_gladiusanus_blauserum_Description" 		"После активации, каждый 3 удар по цели, Неро будет наносить урон по области вокруг атакуемого в радиусе 300, накладывает 100% замедление на цель в течении %slow_duration% секунды, так-же дополнительно получает +100 к скорости атаки после активации."
+        "DOTA_Tooltip_ability_nero_gladiusanus_blauserum_duration"			"Длительность:"
+		"DOTA_Tooltip_ability_nero_gladiusanus_blauserum_base_damage"  		"Базовый урон:"
+		"DOTA_Tooltip_ability_nero_gladiusanus_blauserum_bonus_damage" 		"Бонусный урон за каждое срабатывание:"
+
+		"DOTA_Tooltip_modifier_gladiusanus"								"<font color='#FFE56E'>「Gladiusanus Blauserum」</font>"
+		"DOTA_Tooltip_modifier_gladiusanus_Description"						"Каждую 3 атаку, наносит урон по области. Получает +100 к скорости атаки."
+
+        "DOTA_Tooltip_Ability_nero_rosa_ichthys"     					"<font color='#FFE56E'>「Rosa Ichthys」</font>"
+        "DOTA_Tooltip_ability_nero_rosa_ichthys_Description" 				"Неро совершает рывок к цели и наносит ей и всем позади %damage% урона, гланая цель будет обездвижена на %stun_duration%. При активной способности <font color='#FFE56E'>Aestus Domus Aurea</font> , дальность применения увеличеваеться в 2 раза."
+        "DOTA_Tooltip_ability_nero_rosa_ichthys_range"						"Дальность:"
+        
+        "DOTA_Tooltip_Ability_nero_laus_saint_claudius"     			"<font color='#FFE56E'>「Laus Saint Claudius」</font>"
+        "DOTA_Tooltip_ability_nero_laus_saint_claudius_Description"			"Можно использовать только при активной способности: <font color='#FFE56E'>Aestus Domus Aurea</font>. <br><br>Совершает комбо из прыжка + удара нанося %damage% урона, при этом цель атаки будет подожжена на %duration% секунд, урон от горения равен - %burn_damage%."
+        "DOTA_Tooltip_Ability_nero_laus_saint_claudius_stun_duration"		"Длительность оглушения:"
+        "DOTA_Tooltip_ability_nero_laus_saint_claudius_range"				"Дальность:"
+		"DOTA_Tooltip_ability_nero_laus_saint_claudius_scepter_Description"	"Позволяет использовать способность вне Арены"
+		"DOTA_Tooltip_modifier_laus_saint_claudius_cooldown"			"<font color='#FFE56E'>「Laus Saint Claudius」</font>"
+
+        "DOTA_Tooltip_Ability_nero_aestus_domus_aurea"     				"<font color='#FFE56E'>「Aestus Domus Aurea」</font>"
+        "DOTA_Tooltip_ability_nero_aestus_domus_aurea_Description" 			"Неро матерелизует Golden Theatre of her age. <br><br>Все враги которые попали в радиус арены теряют 50% от вашей текущей брони, 50% скорости передвижения и 50% магического сопротивления. Позволяет применить способность <font color='#FFE56E'>Laus Saint Claudius</font>"
+        "DOTA_Tooltip_ability_nero_aestus_domus_aurea_cast_delay"			"Задержка:"
+        "DOTA_Tooltip_ability_nero_aestus_domus_aurea_form_delay"			"Задержка перед материализацией:"
+        "DOTA_Tooltip_ability_nero_aestus_domus_aurea_radius"				"Радиус:"
+        "DOTA_Tooltip_ability_nero_aestus_domus_aurea_duration"				"Длительность:"
+		"DOTA_Tooltip_ability_nero_aestus_domus_aurea_shard_Description"	"Уменьшает перезарядку до 60 секунд."
+
+		"Target_Not_In_Theatre"			"Можно использовать только при активной арене!"
+		"Aestus_Domus_is_Active"		"Арена уже активна"
+		"DOTA_Tooltip_modifier_gu_boss_damage_stack"					"<font color='#FF0000'>「Abiens abi!」</font>"
+		"DOTA_Tooltip_modifier_gu_boss_damage_stack_Description"			"За каждый стак, Хранитель по вам будет наносить дополнительно 0.05% физического урона от вашего максимального здоровья. Данный эффект можно снять. Работает сквозь имуннитет к магии."
+
+		"DOTA_Tooltip_Ability_gu_boss_damage"     						"<font color='#FF0000'>「Abiens abi!」</font>"
+        "DOTA_Tooltip_ability_gu_boss_damage_Description" 					"За каждый стак, Хранитель по вам будет наносить дополнительно 0.05% физического урона от вашего максимального здоровья. Данный эффект можно снять. Работает сквозь имуннитет к магии."
+
+		"abuse_pray"						"Замечено использование запрещённого софта, это может привести к бану"
+
+		"gladiator"							"Конец Гладиатора"
+		"gladiator_1"						"Ностальгия гладиатора"
+		"gladiator_2"						"Судьба гладиатора"
+		"gladiator_3"						"Стремление гладиатора"
+		"gladiator_4"						"Пьянство гладиатора"
+		"gladiator_5"						"Триумф гладиатора"
+		"gladiator_effect_des" 				"2 предмета: Увеличивает силу атаки на 18% <br><br> 5 предметов: Увеличивает силу атаки на 100%, если персонаж ближнего боя. <br>"
+		
+		"cocoon"							"Кокон сладких грёз"
+		"cocoon_1"							"Пора расцвета"
+		"cocoon_2"							"Перо чертога"
+		"cocoon_3"							"Песнь жизни"
+		"cocoon_4"							"Тыква пробуждения"
+		"cocoon_5"							"Шляпа телесности"
+		"cocoon_effect_des" 				"2 предмета: Увеличивает защиту на 30%. <br><br> 5 предметов: Уменьшает весь входящий урон на 18% а так-же увеличивает защиту на 20%. <br>"
+		
+		"ensemble"							"Странствующий ансамбль"
+		"ensemble_1"						"Рассвет ансамбля"
+		"ensemble_2"						"Оперение стрелы барда"
+		"ensemble_3"						"Окончание концерта"
+		"ensemble_4"						"Фляжка странника"
+		"ensemble_5"						"Цилиндр дирижёра"
+		"ensemble_effect_des" 				"2 предмета: Увеличивает урон от заклинаний на 80%. <br><br> 5 предметов: Если герой дальнего боя, то он получит 200% усиления заклинаний и 300 дальности использования заклинаний. <br>"
+		
+		"blood_knight"						"Рыцарь крови"
+		"blood_knight_1"					"Железное сердце рыцаря крови"
+		"blood_knight_2"					"Перо рыцаря крови"
+		"blood_knight_3"					"Час долга рыцаря крови"
+		"blood_knight_4"					"Кубок рыцаря крови"
+		"blood_knight_5"					"Железная маска рыцаря крови"
+		"blood_knight_effect_des" 			"2 предмета: Увеличивает физ. урон на 18%. <br><br> 5 предметов: Увеличивает ловкость на 80%. <br>"
+		
+		"millelit"							"Стойкость Миллелита"
+		"millelit_1"						"Цветок почестей"
+		"millelit_2"						"Боевое перо командира"
+		"millelit_3"						"Золотые часы"
+		"millelit_4"						"Золотой кубок клятвы"
+		"millelit_5"						"Древний шлем генерала"
+		"millelit_effect_des" 				"2 предмета: Увеличивает HP на 20%. <br><br> 5 предметов: За каждую эдиницу силы, даёт 20 дополнительного HP, а так-же увеличивает HP на 20% <br>"
+		
+		"gambling"							"Азартный игрок"
+		"gambling_1"						"Брошь азартного игрока"
+		"gambling_2"						"Перо азартного игрока"
+		"gambling_3"						"Карманные часы азартного игрока"
+		"gambling_4"						"Стакан для костей азартного игрока"
+		"gambling_5"						"Серёжки азартного игрока"
+		"gambling_effect_des" 				"2 предмета: Увеличивает урон элементальных навыков на 40%. <br><br> 5 предметов: Каждую минуту даёт 200 золота. <br>"
+		
+
+		"adventures"						"Искатель приключений"
+		"adventures_1"						"Цветок искателя приключений"
+		"adventures_2"						"Перо искателя приключений"
+		"adventures_3"						"Часы искателя приключений"
+		"adventures_4"						"Кубок искателя приключений"
+		"adventures_5"						"Повязка искателя приключений"
+		"adventures_effect_des" 			"2 предмета: Увеличивает макс. HP на 2500 ед. <br><br> 5 предметов: Уменьшает перезарядку серии предметов Компас Сокровищ Гоа'улдов до 1 секунды. <br>"
+		
+		"lucky"								"Везунчик"
+		"lucky_1"							"Клевер везунчика"
+		"lucky_2"							"Орлиное перо везунчика"
+		"lucky_3"							"Песочные часы везунчика"
+		"lucky_4"							"Кубок везунчика"
+		"lucky_5"							"Серебряная корона везунчика"
+		"lucky_effect_des" 					"2 предмета: Увеличивает скорость передвижения на 100%. <br><br> 5 предметов: Увеличивает получаемое золото с ящиков на 100%. <br>"
+		
+		"pocket_grimoire"					"Карманный гримуар"
+		"pocket_grimoire_lore"				"Тетрадь с конспектами по магическим дисциплинам, написанная аккуратным почерком. <br>"
+
+		"student_notes"						"Записи ученика"
+		"student_notes_lore"				"Конспекты, оставленные лучшим учеником класса, содержит много полезных заклинаний. Написано прекрасным почерком. <br>"
+
+		"emerald_ball"						"Изумрудный Шар"
+		"emerald_ball_lore"					"Катализатор, вырезанный из твёрдого нефрита, добываемого в Заоблачном пределе на севере Ли Юэ. Он маленький, лёгкий и прочный. <br>"
+
+		"wanderers_song"					"Песнь странника"
+		"wanderers_song_lore"				"Эта тяжёлая книга содержит огромное количество песен. Рукописный текст внушает уважение, хоть книга и была поедена молью. <br>"
+
+		"prayer_to_the_holy_winds"			"Молитва святым ветрам"
+		"prayer_to_the_holy_winds_text"		"Каждые 30 секунд даёт вам 50% усиления урона от заклинаний, может складываться до 6 раз, при смерти персонажа, теряет все стаки."
+		"prayer_to_the_holy_winds_lore"		"Сборник молитв, написанный коренными жителями континента, которые поклонялись ветру. В течение тысячелетий эта книга, наделённая благословением ветров, накопила необычайную магическую силу. <br>"
+
+		"gun_type_1"						"76 ММ ЗИС-5"
+		"gun_type_1_lore"					"Директива НКВ №164 от 14 июня 1940 года предусматривала создание новой танковой пушки с баллистикой зенитного орудия образца 1931 года (с начальной скоростью бронебойного снаряда 813 м/с), предназначенной для вооружения серийных экземпляров КВ-1. Начало разработки задержалось до осени 1940 года в связи с работами по устранению недостатков пушек Ф-32 и Ф-34. В основу проекта была положена незавершённая разработка танковой пушки Ф-27. <br>"
+
+		"gun_type_2"						"85 мм ЗиС-С-53"
+		"gun_type_2_lore"					"Пушка ЗИС-С-53, явилась усовершенствованным вариантом пушки С-53, которая, в свою очередь, стала развитием зенитной пушки 52-К 1939 года. Согласно советским наставлениям пушка ЗИС-С53 имеет тот же ствол, что и 85-мм зенитная пушка обр. 1939 г., но без дульного тормоза. Баллистика этих пушек одинакова. <br>"
+
+		"gun_type_3"						"100 ММ Д-10Т"
+		"gun_type_3_lore"					"Д-10 — советская нарезная танковая пушка, созданная в период Второй мировой войны. Была создана в 1944 году и в ходе войны устанавливалась на серийную самоходную артиллерийскую установку СУ-100 и ряд опытных танков и САУ. После войны устанавливалась на танке Т-54/55 и ряде его вариантов, а также в различных других машинах по меньшей мере до 1978 года, что сделало её одним из наиболее массовых танковых орудий в истории. <br>"
+
+		"gun_type_4"						"122 MM Д2-5Т"
+		"gun_type_4_lore"					"Советская тяжёлая дальнобойная пушка периода Второй мировой войны. В основе этой пушки была модернизированная 122-мм пушка образца 1931 года, при этом ствол предыдущей модели 122-мм пушки налагался на лафет 152-мм гаубицы-пушки МЛ-20. Орудие серийно выпускалось с 1939 по 1946 год, активно и успешно использовалось в Великой Отечественной войне, составляя вместе с МЛ-20 основу мощной ствольной артиллерии РВГК. После окончания войны эта артиллерийская система долго состояла на вооружении Советской армии и ряда других стран, в нескольких странах они используются и в настоящее время. На базе орудия были созданы самые мощные серийные танковые пушки Второй мировой войны. <br>"
+
+		"gun_type_5"						"152-мм 2А64"
+		"gun_type_5_text"					"При попадании по противнику, наносит дополнительный урон в размере 3% от максимального здоровья цели. Работает только на наземной технике."
+		"gun_type_5_lore"					"152-мм гаубица «Мста-Б» (Индекс ГРАУ — 2А65, по классификации NATO — M1987) — российская/советская буксируемая 152-мм гаубица предназначена для уничтожения тактических средств ядерного нападения, артиллерийских и миномётных батарей, танков и других броневых средств, разрушения полевых фортификационных и других оборонительных сооружений, подавления живой силы и огневых средств, пунктов управления, средств противовоздушной и противоракетной обороны. <br>"
+
+		"gun_type_6"						"M197 (20-мм)"
+		"gun_type_6_text"					"Позволяет наносить урон в радиусе 250 от атакуемой цели.Работает только на воздушной технике."
+		"gun_type_6_lore"					"M197 — электрическая автоматическая 20-мм трёхствольная пушка Гатлинга, которая устанавливается преимущественно на вертолёты серии AH-1. M197 по сути является облегченной версией пушки General Electric M61 «Vulcan» с трёмя стволами вместо шести. Максимальная скорострельность орудия составляет половину скорострельности Вулкана — 1500 выстрелов в минуту. В основном, это сделано для того чтобы ограничить его отдачу на легких самолётах и вертолётах. <br>"
+
+		"two_handed_sword"					"Двуручный меч богатыря"
+		"two_handed_sword_lore"				"Человек, обладающий достаточной силой воли, сможет расколоть горы этим куском металла, отдалённо напоминающим меч."
+
+		"mercenary_friend"					"Лучший друг наёмника"
+		"mercenary_friend_lore"				"Этот меч, испытанный битвой, видал лучшие дни... и худшие тоже."
+
+		"cudgel_of_negotiations"			"Дубина переговоров"
+		"cudgel_of_negotiations_lore"		"Удобная дубина, сделанная из качественной стали. Фундамент «Рационального убеждения»"
+
+		"lord_of_waters"					"Благодатный владыка вод"
+		"lord_of_waters_lore"				"Великий владыка океана. После просушки становится отличным оружием или аварийным пайком."
+
+		"wolf_death"						"Волчья погибель"
+		"wolf_death_text"					"Увеличивает уровень Пути Вознесения: Бешенство на 15, а так-же усиливает эффект дополнительного урона на 20%."
+		"wolf_death_lore"					"Двуручный меч рыцаря Ордо Бореалис. Изначально это был просто лист металла из лавки кузнеца. Однако, он был наделён легендарной силой в знак дружбы между кузнецом и волками."
+
+
+		"hunters_bow"						"Лук охотника"
+		"hunters_bow_lore"					"Музыка охотника состоит всего лишь из двух нот: натягивание тетивы и свиста спущенной стрелы."
+
+		"bow_2"								"Лук опытного охотника"
+		"bow_2_lore"						"Ухоженный лук, полированный временем. Продолжение руки лучника."
+
+		"bow_3"								"Рогатка"
+		"bow_3_lore"						"На самом деле это лук. Его создатель хотел сделать рогатку, но после кучи доработок и поправок у него получился лук."
+
+		"bow_4"								"Ржавый лук"
+		"bow_4_lore"						"Полностью проржавевший железный лук. У многих даже не получится поднять его, не говоря уж о стрельбе"
+
+		"bow_5"								"Громовой пульс"
+		"bow_5_text"						"С шансом в 5% может ударить противником молнией, которая нанесёт ему 5% урона от текущего здоровья а так-же оглушит цель на 3 секунды, может возникнуть раз в 5 секунд."
+		"bow_5_lore"						"Лук, дарованный сёгуном. Его окружают непрестанно потрескивающие молнии."
+
+		"low_sword_1"						"Тупой меч"
+		"low_sword_1_lore"					"Юношеские мечты и жажда приключений, приправленные отвагой."
+
+		"low_sword_2"						"Серебряный меч"
+		"low_sword_2_lore"					"Говорят, что этот меч может изгонять демонов, но всем известно, что он сделан не из настоящего серебра."
+
+		"low_sword_3"						"Меч небесного всадника"
+		"low_sword_3_lore"					"Надёжный стальной меч. Однажды некто пытался заставить его летать."
+
+		"low_sword_4"						"Киноварное веретено"
+		"low_sword_4_lore"					"Материалы, из которых сделан этот меч, явно ведут происхождение не из этого мира. Он выдержит даже сильнейший яд, способный разъесть могучего дракона."
+
+		"low_sword_5"						"Драгоценный омут"
+		"low_sword_5_text"					"Увеличивает HP на 10000. Также даёт бонус атаки, равный 5% от макс. HP экипированного этим оружием персонажа."
+		"low_sword_5_lore"					"Ритуальный меч, искусно вырезанный из чистейшего нефрита и покрытый изящными гравировками. Иногда кажется, что при взмахе им можно услышать тихий вздох ветра."
+
+		"weapon_type_1"						"Меч"
+		"weapon_type_2"						"Лук"
+		"weapon_type_3"						"Копье"
+		"weapon_type_4"						"Двуручный меч"
+		"weapon_type_5"						"Катализатор"
+		"weapon_type_6"						"Пушка"
+
+		"weapon_rank"						"Ранг пробуждения 1"
+
+		"CRIT_CHANCE"						"Шанс крит. попадания
+		"PHYDMG"							"Бонус Физ. Урона"
+		"ARMOR"								"Защита"
+		"MANA_REGEN"						"Восст. маны"
+		"MAGDMG"							"Бонус Маг. Урона"
+		"CRIT_DAMAGE"						"Крит. урон"
+		"HEAL"								"Бонус Лечения" 
+		"ATK"								"Сила Атаки" 
+		"HP"								"Здоровье" 
+		"HP_REGEN"							"Восст. здоровья"
+		"MAG_ARMOR"							"Сопр. Магии"
+		"STATUS_RES"						"Сопр. Эффектам"
+		"MANA"								"Мана"
+
+
+		"artifact_give" 					"Взять"
+		"artifact_destroy"					"Удалить"
+		"artifact_replace"					"При подтверждении, артефакт который находится слева, заменит ваш справа."
+		"artifact_send"						"У меня есть {atr_name} - {stats_name}:{stats_count}"
+
+		"gu_button_tooltip_active"  		"Статус: <font color='#00FF0C'>「Активно」</font>"
+		"gu_button_tooltip_deactive"  		"Статус: <font color='#FF0000'>「Неактивно」</font>"
+ 
+		"pray_button_main"					"Молитва"
+		"pray_button_text"					"Открывает меню молитв где вы сможете получить новых персонажей."
+		"pray_button_help"					"Молитва - основной метод получения персонажей и талантов для них, более подробно как работает данная система можно узнать нажав на кнопку «Детали» в окне Молитв."
+		
+ 		"talents_button_main"				"Возвышение"
+		"talents_button_text"				"Открывает меню Возвышений персонажа (таланты)."
+		"talents_button_help"				"Чтобы разблокировать таланты вам нужно выбивать копии на своих персонажей, каждые 2, 5, 10, 15, 20 копий, будет разблокирован уникальный талант на каждого персонажа."
+		
+		"ascension_button_main"				"Вознесение"
+		"ascension_button_text"				"Открывает меню Вознесения персонажа (улучшение)."
+		"ascension_button_help"				"Выберите свой путь! За прохождение игры у вас есть шанс получить Свободный Звёздный Блеск! Имея его вы можете прокачивать различные параметры персонажа; прогресс данной прокачки сохраняется между играми, а также для каждого персонажа прогресс уникальный! При достижении максимального уровня прокачки, с неким шансом вы можете получить дубликат персонажа. Можно получить максимум 5 дубликатов на каждого персонажа. Для персонажа 4★ нужен 31 уровень Вознесения любого типа, для персонажа 5★ нужен 61 уровень Вознесения любого типа, для персонажей 3★ данная механика недоступна по понятным причинам."
+		
+		"boss_button_main"					"Битва с Хранителем"
+		"boss_button_text"					"Быстрый доступ к меню выбора Хранителя для сражения."
+		"boss_button_help"					"Битва с хранителем доступна после прохождения 7 волны, вы сможете выбрать нужного вам Хранителя и сразится с ним. <br>Битва с Хранителем начнётся только после того как за его убийство проголосует более 50% игроков. На убийство Хранителя вам дано 2 попытки каждый раунд, если вы побеждаете, то заново призвать его можно только в следующем раунде. При успешном старте битвы с боссом текущий раунд будет обнулён, после победы либо поражения вы будете автоматически перемещены на базу и текущий раунд будет перезапущен, но с одним изменением - за убитых мобов вы не будете получать золото и опыт."
+		
+		"gate_button_main"					"Звёздные Врата"
+		"gate_button_text"					"Быстрый доступ к меню автонабора системы Звёздных Врат."
+		"gate_button_help"					"Система Звёздных Врат - главная механика проекта которая позволяет перемещатся между планетами. Для автонабора врат вам нужно иметь определённое кол-во энергии (жёлтая полоска под маной). Подробная информация о количестве требуемой энергии а так-же остальные настройки автонабора, вы можете посмотреть открыв данное меню."
+
+		"need_const"						"Вы не получали дубликат на данного персонажа!"
 
 }	
 
