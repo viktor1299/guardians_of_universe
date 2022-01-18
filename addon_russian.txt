@@ -231,10 +231,10 @@
 
         
 		"DOTA_Tooltip_ability_gu_duel"													"<font color='#F86708'>「Inspiration 」</font> "
-		"DOTA_Tooltip_ability_gu_duel_Description"											"За каждого убитого врага с шансом 17% добавляет %damage% к урону и %str% к силе. Эффект не пропадает после смерти."
+		"DOTA_Tooltip_ability_gu_duel_Description"											"За каждого убитого врага с шансом 17% добавляет %damage% к урону. Эффект не пропадает после смерти."
 		"DOTA_Tooltip_ability_gu_duel_cd"													"Перезарядка: "		
         	"DOTA_Tooltip_modifier_gu_duel_buff" 												"<font color='#F86708'>「Inspiration 」</font> "
-			"DOTA_Tooltip_modifier_gu_duel_buff_Description" 									"Получает %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% к силе и %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% к урону."
+			"DOTA_Tooltip_modifier_gu_duel_buff_Description" 									"Получает %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% к урону."
 
         
             "npc_dota_hero_elder_titan"									    "Morax「★★★★」"
@@ -263,7 +263,7 @@
 		"DOTA_Tooltip_ability_reus_magnitude_attack_slow"									"Замедление атаки: "
 		"DOTA_Tooltip_ability_reus_magnitude_duration"										"Длительность: "
  		"DOTA_Tooltip_modifier_magnitude_slow_ally"     								    "Замедление"
-		"DOTA_Tooltip_ability_reus_magnitude_shard_Description"								"Добавляет неуязвимость к магии на всё время задержки применения способности.(не работает с талантом!)"
+		"DOTA_Tooltip_ability_reus_magnitude_shard_Description"								"После активации добавляет неуязвимость к магии на 7 секунд."
 
 		"DOTA_Tooltip_ability_reus_stoneblast"                                          "<font color='#93735E'>「Power of the stone」</font> "
 		"DOTA_Tooltip_ability_reus_stoneblast_Description"									"Маг Земли бросает в указанную точку камень, оглушающий всех на своём пути"
@@ -282,7 +282,7 @@
 		    "npc_dota_hero_windrunner"										"Warrior of the Wind「★★★★★」"
 		
 		"DOTA_Tooltip_ability_chase_moon_and_star"                                        "<font color='#32CA0D'>「Chasing the stars」</font> "
-        "DOTA_Tooltip_ability_chase_moon_and_star_Description"                                "При автоатаке выполняет дополнительную атаку, которая наносит базовый урон и снижает броню цели на 10 секунд. Дополнительные атаки могут вызвать еще одну дополнительную атаку. Атаки наносят дополнительный урон."
+        "DOTA_Tooltip_ability_chase_moon_and_star_Description"                                "При автоатаке выполняет дополнительную атаку, которая наносит базовый урон и снижает броню цели на %armor%. Дополнительные атаки могут вызвать еще одну дополнительную атаку. Атаки наносят дополнительный урон."
         "DOTA_Tooltip_ability_chase_moon_and_star_rate"                                        "%Шанс: "
         "DOTA_Tooltip_ability_chase_moon_and_star_damage"                                    "Доп. Урон: "
 
@@ -349,7 +349,7 @@
 		"DOTA_Tooltip_ability_sentinel_rockets2_chanse"									    "%Шанс срабатывания:"	
 
 		"DOTA_Tooltip_ability_gu_sniper_ap_bullet"									    "<font color='#A7561E'>「Armor Piercing Incendiary MK 211 .50」</font>"
-		"DOTA_Tooltip_ability_gu_sniper_ap_bullet_description"						        "При попадании наносит дополнительный чистый урон в размере %pure_damage%%% от нанесённого урона. С последним талантом, имеет шанс проигнорировать броню любого противника с шансом в 8%."		
+		"DOTA_Tooltip_ability_gu_sniper_ap_bullet_description"						        "При попадании наносит дополнительный чистый урон в размере %pure_damage%%% от нанесённого урона. С последним талантом, имеет шанс проигнорировать броню любого противника с шансом в 8%. Добавляет %crit_damage%%% Критического Урона. <br><br><font color='#ff0000'>「Внимание!」</font> Данная способность является частью системы Оружия, для того чтобы Крит.Урон работал, вам нужно набрать себе Шанс.Крит Попадания."		
 		"DOTA_Tooltip_ability_gu_sniper_ap_bullet_damage"						        	"Бонусный урон:"		
 		
 
@@ -968,6 +968,8 @@
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04"	 		 						"<font color='#C02EF7'>「Melancholic Violin Piece - First Movement」</font> "																												
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_Description"							"Лунаса начинает играть на скрипке мелодию цели, при этом цель не может передвигаться. Каждую секунду наносит урон равный интеллекту Лунасы * 1.5. Длительность %duration% секунд. При старте музыки и окончании наносит урон в количестве %base_damage% + [%int_scale% * Интеллект]. Пассивно уменьшает базовое время атаки до %base_attak_rate%."
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_tooltip_castrange" 					"Дальность применения: "
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_scepter_Description"					"Накладывает эффект неуязвимости к магии на 3 секунды."
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_shard_Description"					"Изменяет тип урона на чистый"
 
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa05"	 		 						"<font color='#C02EF7'>「Prismriver Concerto - Violin Solo」</font>"																												
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa05_Description"							"Каждую 10 атаку, Лунаса наносит дополнительный урон по формуле [%base_damage% + %damage_per_level% * уровень] магического урона за каждую атаку. \n Каждый вражеский юнит, который был убит Лунасой, добавляет ей +%amplify_percent%% к усилению способностей."
@@ -1594,9 +1596,9 @@
 
 
 		"DOTA_Tooltip_ability_biyao_2" 													"<font color='#8EF33F'>「Natural Protection」</font> "
-		"DOTA_Tooltip_ability_biyao_2_Description" 											"Накладывает на цель щит, который уменьшает весь входящий урон на 65% на %duration% секунд. Данная защита также имеет ауру, которая наносит урон всем врагам вокруг героя с защитой. Урон зависит от интеллекта владельца способности и работает по формуле %base_damage% + интеллект."
+		"DOTA_Tooltip_ability_biyao_2_Description" 											"Накладывает на цель щит, который уменьшает весь входящий урон на 40% на %duration% секунд. Данная защита также имеет ауру, которая наносит урон всем врагам вокруг героя с защитой. Урон зависит от интеллекта владельца способности и работает по формуле %base_damage% + интеллект."
 			"DOTA_Tooltip_modifier_biyao_2" 													"<font color='#8EF33F'>「Natural Protection」</font>"
-		"DOTA_Tooltip_ability_biyao_2_scepter_Description" 									"Накладывает на цель щит, который уменьшает весь входящий урон на 80%"
+		"DOTA_Tooltip_ability_biyao_2_scepter_Description" 									"Накладывает на цель щит, который уменьшает весь входящий урон на 55%"
 
 		"DOTA_Tooltip_ability_biyao_4" 													"<font color='#8EF33F'>「Natural Aura」</font> "
 		"DOTA_Tooltip_ability_biyao_4_Description" 											"Пассивно добавляет всем союзникам на карте +%hp_regen% к регенерации здоровья и +%mana_regen% к регенерации маны."
@@ -2854,11 +2856,6 @@
 		"DOTA_Tooltip_ability_item_lifestealtank_tooltip_allstats"							"+ко всем атрибутам "
 		"DOTA_Tooltip_ability_item_lifestealtank_bonus_damage"								"+к урону "
 
-		"DOTA_Tooltip_ability_item_tank_booster"                                        "Усилитель здоровья"
-		"DOTA_Tooltip_ability_item_tank_booster_bonus_all"									"+ко всем атрибутам "
-		"DOTA_Tooltip_ability_item_tank_booster_bonus_health"								"+к здоровью"
-		"DOTA_Tooltip_ability_item_tank_booster_health_per_str"								"+к увеличению здоровья за единицу силы"
-
 		"DOTA_Tooltip_ability_item_blood_booster"                                       "Кровавый усилитель"
 		"DOTA_Tooltip_ability_item_blood_booster_bonus_all"									"+ко всем атрибутам "
 		"DOTA_Tooltip_ability_item_blood_booster_bonus_health"								"+к здоровью"
@@ -3338,7 +3335,10 @@
 		"npc_dota_hero_marci_race"				"Раса: «Tau'ri»"
 		"npc_dota_hero_dragon_knight_race" 		"Раса: «Armored»"
 		"npc_dota_hero_hoodwink_race"			"Раса: «Tau'ri»"
-		
+		"npc_dota_hero_phantom_assassin_race"	"Раса: «Spirits»"
+		"npc_dota_hero_earthshaker_race"		"Раса: «Armored»"
+		"npc_dota_hero_tiny_race"				"Раса: «Anquietas»"
+		"npc_dota_hero_pugna_race"				"Раса: «Ori»"
 
 		"npc_cu_neitrall_updated"									"Вселенский Крип Стандартный"
 		"npc_cu_neitrall_updated_hard"								"Рыба Мутант"
@@ -3424,12 +3424,15 @@
 	"npc_dota_cu_stargate_universal"						"Stargate Universe"
 	"npc_dota_cu_dhd"										"DHD"
 
-	"DOTA_Tooltip_Ability_item_address_1"					"Свиток с Адресом P3X-888"
+	"DOTA_Tooltip_Ability_item_address_1"					"Свиток с Адресом P3X-888 (Лес - сложный)"
 	"DOTA_Tooltip_Ability_item_address_1_Description"		"<h1>Активная: Набор Адреса</h1>Если при активации возле вас в радиусе 1300 будут врата с наборной панелью, то вас телепортирует в сложный лес."
-	"DOTA_Tooltip_Ability_item_address_2"					"Свиток с Адресом P3X-797"
+	"DOTA_Tooltip_Ability_item_address_2"					"Свиток с Адресом P3X-797 (Лес - лёгкий)" 
 	"DOTA_Tooltip_Ability_item_address_2_Description"		"<h1>Активная: Набор Адреса</h1>Если при активации возле вас в радиусе 1300 будут врата с наборной панелью, то вас телепортирует в лёгкий лес."
-	"DOTA_Tooltip_Ability_item_tpscroll"					"Свиток с Адресом"
+	"DOTA_Tooltip_Ability_item_tpscroll"					"Свиток с Адресом (Домой)"
 	"DOTA_Tooltip_Ability_item_tpscroll_Description"		"<h1>Активная: Набор Адреса</h1>Если при активации возле вас в радиусе 1300 будут врата с наборной панелью, то вас телепортирует на вашу базу."
+	"DOTA_Tooltip_Ability_item_address_3"					"Свиток с Адресом P3X-367 (Лес - абсурдный)"
+	"DOTA_Tooltip_Ability_item_address_3_Description"		"<h1>Активная: Набор Адреса</h1>Если при активации возле вас в радиусе 1300 будут врата с наборной панелью, то вас телепортирует в абсурдный лес."
+	
 
 	"npc_lines_melee" "Захватчик"
 	"npc_lines_range" "Захватчик"
@@ -4418,7 +4421,7 @@
 		"npc_dota_hero_oracle_t4_name"		"-「Гравитация」_-"
 		"npc_dota_hero_oracle_t5_name"		"-「Проекция」_-"
 		"npc_dota_hero_oracle_t6_name"		"-「Познание」_-"
-		"npc_dota_hero_oracle_t2"		"Улучшает - 「The Space Magic」<br><br> Увеличивает длительность притягивания в 7 раз, а также увеличивает радиус."
+		"npc_dota_hero_oracle_t2"		"Улучшает - 「The Space Magic」<br><br> Увеличивает радиус притягивания в 3 раза."
 		"npc_dota_hero_oracle_t3"		"Улучшает - 「Displacement Matrix」<br><br> Убирает задержку перед телепортом и увеличивает радиус нанесения урона в 2 раза."
 		"npc_dota_hero_oracle_t4"		"Улучшает - 「Space Barrier」<br><br> Уменьшает интервал нанесения урона до 0.1, увеличивает длительность в 4 раза."
 		"npc_dota_hero_oracle_t5"		"Улучшает - 「World Projection」<br><br> Увеличивает кол-во тиков разломов в 4 раза, увеличивает длительность в 2 раза."
@@ -4812,6 +4815,51 @@
 		"npc_dota_hero_hoodwink_t4"		"Улучшает   <br><font color='#FFE56E'>「Gladiusanus Blauserum」</font><br><br> При активации способности, вокруг Неро всем врагам будет нанесён урон в размере базовый + (ловкость * 10) <br><br> Улучшает   <br><font color='#FFE56E'>「Rosa Ichthys」</font><br><br> При активации способности, вокруг Неро, всем врагам будет нанесён урон * 10"
 		"npc_dota_hero_hoodwink_t5"		"Улучшает   <br><font color='#FFE56E'>「Gladiusanus Blauserum」</font><br><br> Добавляет бонусный урон - ловкость * 2"
 		"npc_dota_hero_hoodwink_t6"		"Улучшает   <br><font color='#FFE56E'>「Aestus Domus Aurea」</font><br><br> Все находящиеся в арене союзники, получат 90% от брони Неро, +100% к Сопротивлению Магии и 50% к скорости передвижению. <br><br>Улучшает   <br><font color='#FFE56E'>「Laus Saint Claudius」</font><br><br> Добавляет бонусный урон - ловкость * 2."
+
+		"npc_dota_hero_phantom_assassin_t2_name"		"「Sandalphon」"
+		"npc_dota_hero_phantom_assassin_t3_name"		"「Adonai Melek」"
+		"npc_dota_hero_phantom_assassin_t4_name"		"「Halvanhelen」"
+		"npc_dota_hero_phantom_assassin_t5_name"		"「Halvanhelen」"
+		"npc_dota_hero_phantom_assassin_t6_name"		"「Demon King Nahemah」"
+		"npc_dota_hero_phantom_assassin_t2"		"Улучшает   <br><font color='#df26b8'>「Sandalphon」</font><br><br> Добавляет бонусный урон - сила * 2"
+		"npc_dota_hero_phantom_assassin_t3"		"Улучшает   <br><font color='#df26b8'>「Adonai Melek」</font><br><br> Уменьшает перезарядку между атаками до 0.1 секунды"
+		"npc_dota_hero_phantom_assassin_t4"		"Улучшает   <br><font color='#df26b8'>「Halvanhelen」</font><br><br> Изменяет тип урона на чистый."
+		"npc_dota_hero_phantom_assassin_t5"		"Улучшает   <br><font color='#df26b8'>「Halvanhelen」</font><br><br> Добавляет бонусный урон - сила * 2"
+		"npc_dota_hero_phantom_assassin_t6"		"Улучшает   <br><font color='#df26b8'>Tohka Yatogami「★★★★★★」</font><br><br>Активирует способности - <font color='#df26b8'>「Inversion:Demon King Nahemah」 「Final Sword: Paverschlev」</font>"
+
+		"npc_dota_hero_earthshaker_t2_name"		"「ИСУ-152」"
+		"npc_dota_hero_earthshaker_t3_name"		"「Объект 241」"
+		"npc_dota_hero_earthshaker_t4_name"		"「МЛ-20C ОФ」"
+		"npc_dota_hero_earthshaker_t5_name"		"「Объект 241」"
+		"npc_dota_hero_earthshaker_t6_name"		"「МЛ-20C ОФ」"
+		"npc_dota_hero_earthshaker_t2"		"Улучшает   <br><font color='#ff8815'>「ИСУ-152 (Объект 241)」</font><br><br> Добавляет дополнительный урон от максимального здоровья цели в размере 2%"
+		"npc_dota_hero_earthshaker_t3"		"Улучшает   <br><font color='#ff8815'>「ИСУ-152 (Объект 241)」</font><br><br> Изменяет тип бонусного урона на чистый."
+		"npc_dota_hero_earthshaker_t4"		"Улучшает   <br><font color='#ff8815'>「МЛ-20C ОФ」</font><br><br> Увеличивает урон по области на 20% на всех уровнях"
+		"npc_dota_hero_earthshaker_t5"		"Улучшает   <br><font color='#ff8815'>「ИСУ-152 (Объект 241)」</font><br><br> Увеличивает дополнительный наносимый урон до 5%"
+		"npc_dota_hero_earthshaker_t6"		"Улучшает   <br><font color='#ff8815'>「МЛ-20C ОФ」</font><br><br> Изменяет тип урона по области на чистый"
+
+		"npc_dota_hero_tiny_t2_name"		"「Moai」"
+		"npc_dota_hero_tiny_t3_name"		"「Moai」"
+		"npc_dota_hero_tiny_t4_name"		"「Moai」"
+		"npc_dota_hero_tiny_t5_name"		"「Moai」"
+		"npc_dota_hero_tiny_t6_name"		"「Moai」"
+		"npc_dota_hero_tiny_t2"				"Данный персонаж улучшение не подлежит!"
+		"npc_dota_hero_tiny_t3"				"Данный персонаж улучшение не подлежит!"
+		"npc_dota_hero_tiny_t4"				"Данный персонаж улучшение не подлежит!"
+		"npc_dota_hero_tiny_t5"				"Данный персонаж улучшение не подлежит!"
+		"npc_dota_hero_tiny_t6"				"Данный персонаж улучшение не подлежит!"
+
+		"npc_dota_hero_pugna_t2_name"			"「Black Energy」"
+		"npc_dota_hero_pugna_t3_name"			"「Flugel」"
+		"npc_dota_hero_pugna_t4_name"			"「Black Energy Rocket」"
+		"npc_dota_hero_pugna_t5_name"			"「Black Energy Rocket」"
+		"npc_dota_hero_pugna_t6_name"			"「Assasination Mode」"
+		"npc_dota_hero_pugna_t2"				"Улучшает   <br><font color='#ff00eb'>「Black Energy」</font><br><br> Добавляет бонусный урон - ловкость * 2"
+		"npc_dota_hero_pugna_t3"				"Улучшает   <br><font color='#ff00eb'>「Flugel」</font><br><br>Уменьшает количество атак для срабатывания до 2"
+		"npc_dota_hero_pugna_t4"				"Улучшает   <br><font color='#ff00eb'>「Black Energy Rocket」</font><br><br> Добавляет бонусный урон - ловкость * 2"
+		"npc_dota_hero_pugna_t5"				"Улучшает   <br><font color='#ff00eb'>「Black Energy Rocket」</font><br><br> Уменьшает перезарядку до 8 секунд"
+		"npc_dota_hero_pugna_t6"				"Улучшает   <br><font color='#ff00eb'>「Assasination Mode」</font><br><br>После окончания способности, не получает негативный эффект который уменьшает урон."
+
 
 	"task_random_address"        "Для вас сгенерирован случайный адресс для системы врат Milky Way, Pegasus либо Вселенная. Наберите его на устройстве набора за отведённое время и получите награду!"
 	"task_name_address"			"Случайный Адрес"
@@ -5345,6 +5393,10 @@
 		"npc_dota_hero_marci_dificult"				"Сложность героя: «Легко»"	
 		"npc_dota_hero_dragon_knight_dificult"		"Сложность героя: «Легко»"	
 		"npc_dota_hero_hoodwink_dificult"			"Сложность героя: «Нормально»"
+		"npc_dota_hero_phantom_assassin_dificult"	"Сложность героя: «Легко»"
+		"npc_dota_hero_earthshaker_dificult"		"Сложность героя: «Легко»"
+		"npc_dota_hero_tiny_dificult"				"Сложность героя: «Абсурдно»"
+		"npc_dota_hero_pugna_dificult"				"Сложность героя: «Легко»"
 
 		"npc_dota_hero_queenofpain_type" 		"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_warlock_type" 			"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
@@ -5373,7 +5425,7 @@
 		"npc_dota_hero_naga_siren_type" 		"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_slark_type" 				"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_dark_willow_type" 		"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
-		"npc_dota_hero_dazzle_type" 			"Роль: <font color='#119e09'>«ДПС</font>, <font color='#a822ba'>«Маг. ДПС»</font>"
+		"npc_dota_hero_dazzle_type" 			"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"npc_dota_hero_crystal_maiden_type" 	"Роль: <font color='#0f8fa8'>«Поддержка»</font>"
 		"npc_dota_hero_lich_type" 				"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_tinker_type" 			"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
@@ -5404,6 +5456,10 @@
 		"npc_dota_hero_marci_type"				"Роль: <font color='#a822ba'>«Маг. ДПС»</font>, <font color='#0f8fa8'>Поддержка»</font>"
 		"npc_dota_hero_dragon_knight_type" 		"Роль: <font color='#ba1111'>Танк»</font>"
 		"npc_dota_hero_hoodwink_type"			"Роль: <font color='#119e09'>«Основной ДПС»</font>"
+		"npc_dota_hero_phantom_assassin_type"	"Роль: <font color='#119e09'>«Основной ДПС»</font>"
+		"npc_dota_hero_earthshaker_type"		"Роль: <font color='#119e09'>«Основной ДПС»</font>"
+		"npc_dota_hero_tiny_type"				"Роль: <font color='#ba1111'>Танк»</font>"
+		"npc_dota_hero_pugna_type"   			"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 
 		"npc_dota_hero_warlock_rare" 			"Баннер: «История Андромеды»"
 		"npc_dota_hero_venomancer_rare" 		"Баннер: «История Андромеды»"
@@ -5465,6 +5521,10 @@
 		"npc_dota_hero_marci_rare"				"Баннер: «История Андромеды»"
 		"npc_dota_hero_dragon_knight_rare"		"Баннер: «История Андромеды»"
 		"npc_dota_hero_hoodwink_rare"			"Баннер: «Emperor of the Roses»"
+		"npc_dota_hero_phantom_assassin_rare"   "Получение: «Прохождение Абсурда»"
+		"npc_dota_hero_earthshaker_rare"		"Получение: «Прохождение Стандарта»"
+		"npc_dota_hero_tiny_rare"				"Получение: «Прохождение Лёгкого»"
+		"npc_dota_hero_pugna_rare"				"Получение: «Прохождение Сложного»"
 
 		"npc_dota_hero_queenofpain_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_warlock_damage" 				"Источник: «Guardians of Universe»"
@@ -5524,6 +5584,10 @@
 		"npc_dota_hero_marci_damage"				"Источник: «Dusk»"
 		"npc_dota_hero_dragon_knight_damage"		"Источник: «Fate»"
 		"npc_dota_hero_hoodwink_damage"				"Источник: «Fate»"
+		"npc_dota_hero_phantom_assassin_damage"		"Источник: «Guardians of Universe»"
+		"npc_dota_hero_earthshaker_damage"			"Источник: «2CH Defender»"
+		"npc_dota_hero_tiny_damage"					"Источник: «2CH Defender»"
+		"npc_dota_hero_pugna_damage"				"Источник: «»"
 
 		"npc_gu_t72_base"			"Т-72 База"
 		"npc_gu_t90_base"			"Т-90 База"
@@ -5928,11 +5992,11 @@
 		"DOTA_Tooltip_ability_origami_ylti" 								"<font color='#E5C91D'>「Artelif: Crown Cannon」</font>"
 		"DOTA_Tooltip_ability_origami_ylti_Description" 						"Создаёт сферу искажения времени, в которой происходят разломы от способности <font color='#E5C91D'>「Zetsumetsu Tenshi」</font>, с каждой секундой разломы будут появляться всё чаще, урон расчитывается по формуле - %damage% + 20% от интеллекта Оригами.<br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
 
-		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「Demon King: Satan 」</font>"
+		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「Demon King: Satan」</font>"
 		"DOTA_Tooltip_ability_origami_inverse_Description" 					"Оригами получает Сатану — более темную и зловещую версию Метатрона, переходит в форму инверсии, получает дополнительный интеллект в размере %int%, а так же увеличивает весь магический урон на %spell_amp%%%. <br><font color='#E5C91D'>Доступна на 20 возвышении.</font>"
 		"DOTA_Tooltip_ability_origami_inverse_scepter_Description"			"Во время действия способности сопротивление магии увеличено до 100%"
 
-		"DOTA_Tooltip_modifier_origami_inverse_basic" 						"<font color='#9629F7'>「Demon King: Satan 」</font>"
+		"DOTA_Tooltip_modifier_origami_inverse_basic" 						"<font color='#9629F7'>「Demon King: Satan」</font>"
 
 		"DOTA_Tooltip_ability_origamiinverse_aura" 							"<font color='#9629F7'>「Destructive aura」</font>"
 		"DOTA_Tooltip_ability_origamiinverse_aura_Description" 				"Создаёт огромную область тёмной материи, по истечению 5 секунд будет выбрана случайная цель в радиусе сферы, которая потеряет 80% своего здоровья.<br><br><font color='#E51D1D'>Вы не можете увеличить урон данной способности при помощи предметов на усиление урона от заклинаний!</font>"
@@ -6385,11 +6449,18 @@
 		"gu_const_stats_help"				"Дополнительные характеристики за полученные копии на вашего персонажа, каждая копия даже после 21, добавляет бонусы которые зависят от главной роли вашего персонажа, дополнительный бонус отображаеться после знака +"
 		"gu_round_stats_help"				"Дополнительные характеристики за прохождение волн."
 
+		"mmr_Description"								"Показывает сколько примерно вы заработаете ММР"
+		"npc_dota_hero_tiny_Description"				"Какая сложность, такой и персонаж. Вы получите 1 копию данного уникального персонажа (можно получить только за прохождение)"
+		"npc_dota_hero_earthshaker_Description"			"Советская самоходка ИСУ-152 наносит колосальный урон по вражеским целям, но не является решением всех ваших проблем. Вы получите 1 копию данного персонажа (можно получить только за прохождение)"
+		"npc_dota_hero_pugna_Description"				"Божественная поддержка вашей команде! Вы получите 1 копию данного персонажа (можно получить только за прохождение)"
+		"npc_dota_hero_phantom_assassin_Description"	"Уникальный 6★ персонаж Tohka Yatogami, она украсит любой отряд! Вы получите 1 копию данного персонажа (можно получить только за прохождение)"
+		"standart_pray_coin_Description"				"Судьбоносные Встречи"
+		"stellar_shine_Description"						"Свободный Звёздный Блеск"
 
 		"DOTA_Tooltip_ability_item_chill_tiara"								"Тиара холода"
 		"DOTA_Tooltip_ability_item_chill_tiara_Description"					"После выбора вам будет предложен артефакт на случайное значение Шанса Крит. Попадания."
 
-		"DOTA_Tooltip_Ability_item_chipped_vest2"							"Щипастый Щит"
+		"DOTA_Tooltip_Ability_item_chipped_vest2"							"Шипастый Щит"
 		"DOTA_Tooltip_Ability_item_chipped_vest_Description"					"<h1>Пассивная</h1>Когда владельца атакуют, предмет наносит нападающему урон: %damage_return_hero% герою или %damage_return_creep% крипу.\n <h1>Улучшаемое</h1> <font color='#F9E62B'>Данный предмет можно улучшить в => Щипастый Щит. Стоимость 50 Эпических фрагментов Загадочного Кристалла</font>"
 		"DOTA_Tooltip_Ability_item_chipped_vest2_Description"					"<h1>Пассивная</h1>Когда владельца атакуют, предмет наносит нападающему урон: %damage_return_hero% герою или %damage_return_creep% крипу."
 		"DOTA_Tooltip_Ability_item_chipped_vest2_Lore"							"Щит великого героя из расы Antares который был утерян после войны с драконами в далеком прошлом."
@@ -6446,7 +6517,139 @@
 		"DOTA_Tooltip_ability_item_psychic_headband2_Lore"						"Шлем бесконечной мудрости, владелец этого мистического артефакта всегда будет вдали от опасности, потому что он видет все."
 		"DOTA_Tooltip_ability_item_psychic_headband2_intelligence_pct"			"%+к интеллекту"
 		"DOTA_Tooltip_ability_item_psychic_headband2_cast_range"				"+$cast_range"
-}	
- 
 
+		"npc_dota_hero_phantom_assassin"									"Tohka Yatogami「★★★★★★」"
+		"npc_dota_hero_pugna"												"Jibril「★★★★」"
+		"npc_dota_hero_earthshaker"											"ISU-152「★★」"
+		"npc_dota_hero_tiny"												"Moai「★」"
+
+		"DOTA_Tooltip_Ability_gu_isu152"								"<font color='#ff8815'>「ИСУ-152 (Объект 241)」</font>"
+		"DOTA_Tooltip_Ability_gu_isu152_Description"						"Прокачивает основные характеристики ПТ-САУ. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела и + %damage% к урону. Перезярядка машины может быть уменьшена максимум до 4.87 секунд. Получает на 20% меньше любого урона по себе."
+		"DOTA_Tooltip_Ability_gu_isu152_scepter_Description"				"Увеличивает дополнительный урон на 150%"
+		"DOTA_Tooltip_Ability_gu_isu152_shard_Description"					"При попадании, оглушает основную цель на 1 секунду."
+
+		"DOTA_Tooltip_Ability_gu_isu152_splash"							"<font color='#ff8815'>「МЛ-20С ОФ」</font>"
+		"DOTA_Tooltip_Ability_gu_isu152_splash_Description"					"Производит выстрел фугасным снарядом который наносит урон по площади в радиусе %cleave_distance% возле атакуемой цели, наносит %cleave_damage%%% урона от основной атаки."
+
+		"DOTA_Tooltip_ability_tohka_ability_1" 						"<font color='#df26b8'>「Sandalphon」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_1_Description" 				"Призывает ножны духовного меча Сандальфона в виде трона. Наносит урон вокруг себя а так=же оглушает всех противников вокруг себя в радиусе %radius% на %duration% секунд"
+		"DOTA_Tooltip_ability_tohka_ability_1_damage" 					"Урон:"
+
+		"DOTA_Tooltip_ability_tohka_ability_2" 						"<font color='#df26b8'>「Adonai Melek」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_2_Description" 				"Духовная броня Токи. После активации, увеличивает урон в зависимости от вашей брони (броня * %armor_to_attack%)."
+		"DOTA_Tooltip_ability_tohka_ability_2_bonus_armor" 				"Дополнительная броня:"
+		"DOTA_Tooltip_ability_tohka_ability_2_duration" 				"Длительность:"
+		"DOTA_Tooltip_ability_tohka_ability_2_scepter_description"					"Увеличивает множитель брони в 2 раза на всех уровнях"
+		"DOTA_Tooltip_modifier_tohka_ability_2"						"<font color='#df26b8'>「Adonai Melek」</font>"
+
+		"DOTA_Tooltip_ability_tohka_ability_3" 						"<font color='#df26b8'>「Rage Combo」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_3_Description" 				"<h1>Можно использовать несколько раз!:</h1>При использовании с каждым последующим нажатием данной способности прорубает всех противников перед собой, делает атаку которая накладывает все эффекты атаки а так-же наносит дополнительно %bonus_damage% урона."
+		"DOTA_Tooltip_ability_tohka_ability_3_duration" 				"Длительность:"
+
+		"DOTA_Tooltip_ability_tohka_ability_4" 						"<font color='#df26b8'>「Halvanhelen」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_4_Description" 				"Используя духовный меч, создаёт шоковую волну наносящую урон всем противникам на пути.Волна замедляет всех на своём пути на 100% в течении 3х секунд."
+		"DOTA_Tooltip_ability_tohka_ability_4_damage" 					"Урон:"
+
+		"DOTA_Tooltip_ability_tohka_ability_5" 						"<font color='#df26b8'>「Final Blow」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_5_Description" 				"Не может быть использован вне <font color='#df26b8'>「Adonai Melek」</font>.Мгновенно прерывает комбинацию нанося дополнительный урон в размере %damage% а так-же накладывает оглушение на врагов в радиусе 300."
+		"DOTA_Tooltip_ability_tohka_ability_5_stun" 					"Оглушение:"
+
+		"DOTA_Tooltip_ability_tohka_ability_6" 						"<font color='#df26b8'>「Inversion:Demon King Nahemah」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_6_Description" 				"Впадая в глубочайшие пучины отчаяния, духи могут преобрести форму,многократно увеличивающую их боевой потенциал,ценой своего рассудка. Увеличивает урон на %damage% и силу на %str%"
+		"DOTA_Tooltip_ability_tohka_ability_6_fixed_duration" 			"Длительность:"
+		"DOTA_Tooltip_modifier_tohka_ability_6"							"<font color='#df26b8'>「Inversion:Demon King Nahemah」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_7" 						"<font color='#df26b8'>「Final Sword: Paverschlev」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_7_Description" 				"Используя проклятый духовный меч разрубает само пространство, наносит урон по формуле - %damage% + (броня врага * 5)."
+		"DOTA_Tooltip_ability_tohka_ability_7_shard_description"		"Добавляет дополнительный урон по формуле базовый урон + сила * 2"
+
+		"DOTA_Tooltip_ability_item_subconscious_core"					"Subconscious Core"
+		"DOTA_Tooltip_ability_item_subconscious_core_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_bonus_damage" 		"Урон: "
+
+		"DOTA_Tooltip_ability_item_subconscious_core_2"					"Subconscious Core 2"
+		"DOTA_Tooltip_ability_item_subconscious_core_2_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_2_bonus_damage" 		"Урон: "
+
+		"DOTA_Tooltip_ability_item_subconscious_core_3"					"Subconscious Core 3"
+		"DOTA_Tooltip_ability_item_subconscious_core_3_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_3_bonus_damage" 		"Урон: "
+
+		"DOTA_Tooltip_ability_item_gu_cleave"							"Rift Fury"
+		"DOTA_Tooltip_ability_item_gu_cleave_Description" 					"<h1>Пассивное: Rift</h1> Наносит %cleave_damage%%% урона от вашей атаки по всем вражеским юнитам перед владельцем в радиусе %cleave_distance%. <br><br><font color='#ff0000'>Работает только на героях с ближним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_gu_cleave_damage" 						"Урон: "
+
+		"DOTA_Tooltip_ability_item_gu_cleave2"							"Rift Fury 2"
+		"DOTA_Tooltip_ability_item_gu_cleave2_Description" 					"<h1>Пассивное: Rift</h1> Наносит %cleave_damage%%% урона от вашей атаки по всем вражеским юнитам перед владельцем в радиусе %cleave_distance%. <br><br><font color='#ff0000'>Работает только на героях с ближним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_gu_cleave2_damage" 						"Урон: "
+
+		"DOTA_Tooltip_ability_item_gu_cleave3"							"Rift Fury 3"
+		"DOTA_Tooltip_ability_item_gu_cleave3_Description" 					"<h1>Пассивное: Rift</h1> Наносит %cleave_damage%%% урона от вашей атаки по всем вражеским юнитам перед владельцем в радиусе %cleave_distance%. <br><br><font color='#ff0000'>Работает только на героях с ближним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_gu_cleave3_damage" 						"Урон: "
+
+		"DOTA_Tooltip_Ability_moai_1"							"<font color='#3fff05'>「Moai」</font>"
+		"DOTA_Tooltip_Ability_moai_1_Description"					"Легенды острова говорят о вожде клана Хоту Мату’а, который покинул дом в поисках нового и нашёл остров Пасхи. Когда он умер, остров был поделён между шестерыми его сыновьями, а затем — между внуками и правнуками. Жители острова верят, что в статуях заключена сверхъестественная сила предков этого клана (мана). Концентрация маны приведёт к хорошим урожаям, дождям и процветанию. Эти легенды постоянно меняются и передаются по фрагментам, отчего точную историю восстановить трудно. Среди исследователей наиболее широко была распространена теория, по которой моаи воздвигли поселенцы из островов Полинезии в XI веке. Моаи могли представлять умерших предков или придавать силу живущим вождям, а также быть символами кланов. Является глобальной аурой!"
+		"DOTA_Tooltip_Ability_moai_1_hp"							"Дополнительное здоровье:"
+		"DOTA_Tooltip_Ability_moai_1_bonus_armor"					"Дополнительная блоня:"
+		"DOTA_Tooltip_Ability_moai_1_hp_regen"						"%Регенрация здоровья:"
+		"DOTA_Tooltip_Ability_moai_1_dmg_res"						"%Уменьшение всего входящего урона:"
+
+		"DOTA_Tooltip_Ability_moai_2"							"<font color='#3fff05'>「Moai Rift」</font>"
+		"DOTA_Tooltip_Ability_moai_2_Description"					"Так как Moai является камнем, то он не может передвигаться, но он может совершить прижок в указанную точку (Никто не знает каким образом это происходит)"
+		"DOTA_Tooltip_Ability_moai_2_damage"					"Урон:"
+		"moai_2_error"											"Нельзя использовать под себя!"
+
+		"DOTA_Tooltip_Ability_moai_3"							"<font color='#3fff05'>「Moai Eternity」</font>"
+		"DOTA_Tooltip_Ability_moai_3_Description"					"За всё время своего существования Moai повидал многое, при активации принимает облики из прошлого."
+	
+
+		"DOTA_Tooltip_ability_jibril_energy_blast" 						"<font color='#ff00eb'>「Black Energy」</font>"
+		"DOTA_Tooltip_ability_jibril_energy_blast_Description" 				"Создаёт заряд чёрной энергии в руке, выпуская его в указанную область.При попадании наносит всем противникам в области урон."
+		"DOTA_Tooltip_ability_jibril_energy_blast_damage" 					"Урон:"
+
+		"DOTA_Tooltip_ability_jibril_flugel" 							"<font color='#ff00eb'>「Flugel」</font>"
+		"DOTA_Tooltip_ability_jibril_flugel_Description" 					"Каждая 5 атака по цели наносит дополнительный магический урон,а также замедляет противника."
+		"DOTA_Tooltip_ability_jibril_flugel_damage" 						"Урон:"
+		"DOTA_Tooltip_modifier_jibril_flugel"							"<font color='#ff00eb'>「Flugel」</font>"
+
+		"DOTA_Tooltip_ability_jibril_black_rockets" 					"<font color='#ff00eb'>「Black Energy Rockets」</font>"
+		"DOTA_Tooltip_ability_jibril_black_rockets_Description" 			"Запускает энергетическую ракету по всем целям в области применения, при попадании оглушает цель и делает дополнительную атаку которая накладывает все модификаторы атаки.Находясь в режиме Assasination мгновенно разрезает всех противников в обаласти, нанося им урон, а также оглушая их."
+		"DOTA_Tooltip_ability_jibril_black_rockets_damage" 					"Урон:"
+		"DOTA_Tooltip_ability_jibril_black_rockets_duration" 				"Длительность оглушения:"
+
+		"DOTA_Tooltip_ability_jibril_space_warp" 						"<font color='#ff00eb'>「Space Control」</font>"
+		"DOTA_Tooltip_ability_jibril_space_warp_Description" 				"При активации телепортирует указанного противника к себе,нанося ему урон."
+		"DOTA_Tooltip_ability_jibril_space_warp_damage" 					"Урон:"
+
+		"DOTA_Tooltip_ability_jibril_assasination_mode" 				"<font color='#ff00eb'>「Assasination Mode」</font>"
+		"DOTA_Tooltip_ability_jibril_assasination_mode_Description" 		"Создаёт косу из тёмной материи,меняя тип атаки на ближний.После окончания становиться лолькой на 10 секунд, теряя некоторые характеристики."
+		"DOTA_Tooltip_ability_jibril_assasination_mode_damage" 				"Урон:"
+		"DOTA_Tooltip_ability_jibril_assasination_mode_agi" 				"Ловкость:"
+		"DOTA_Tooltip_ability_jibril_assasination_mode_fixed_duration" 		"Длительность:"
+
+		"DOTA_Tooltip_ability_jibril_air_strike" 						"<font color='#ff00eb'>「Air Strike」</font>"
+		"DOTA_Tooltip_ability_jibril_air_strike_Description" 				"Создаёт огромную энергетическую сферу в воздухе,которая через некоторое время падает на землю,вызывая взрыв чудовищной силы,нанося всем противникам в области %damage% урона,оглушая их"
+		"DOTA_Tooltip_ability_jibril_air_strike_delay" 						"Задержка:"
+		"DOTA_Tooltip_ability_jibril_air_strike_duration" 					"Оглушение:"
+		"DOTA_Tooltip_ability_jibril_air_strike_shard_Description"			"Добавляет дополнительный урон - ловкость * 2"
+	
+		"DOTA_Tooltip_ability_jibril_kurianse" 							"<font color='#ff00eb'>「Kurianse」</font>"
+		"DOTA_Tooltip_ability_jibril_kurianse_Description" 					"Создаёт энергетический барьер в указанной области,защищающий всех союзников,увеличивая их сопротивление любому урону на 25% .Каждую секунду, при наличии противника в защитной области, выбрасывает его из неё."
+		"DOTA_Tooltip_ability_jibril_kurianse_resist" 						"Уменьшение урона:"
+		"DOTA_Tooltip_ability_jibril_kurianse_duration" 					"Длительность:"
+		"DOTA_Tooltip_ability_jibril_kurianse_scepter_Description" 			"Уменьшает весь получаемый урон на 50%"
+
+
+		
+
+		
+
+		
+
+		
+
+		
+	
+	
+	
+	}	
 }
