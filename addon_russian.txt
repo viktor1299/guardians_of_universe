@@ -98,7 +98,17 @@
 	"P:Goauld" "<font color='#F1068D'>Goa'uld</font>"
 	"P:Tauri" "<font color='#41DC88'>Tau'ri</font>"
 	"P:Jaffa" "<font color='#29AFF7'>Jaffa</font>"
-	
+
+	"P:Ori_game" "Ori"
+	"P:Asgard_game" "Asgard"
+	"P:Alteran_game" "Alteran"
+	"P:Wraith_game" "Wraith"
+	"P:Goauld_game" "Goa'uld"
+	"P:Tauri_game" "Tau'ri"
+	"P:Jaffa_game" "Jaffa"
+	"dev_game" "Разработчик"
+	"admin_game" "Администратор"
+	"player_game" "Игрок"
 
 	"P:Jaffa_desc"      "Вы проявили активность в дискорде проекта, ваши преимущества:
 	Вы получаете в 1.2 раза больше ММР за каждую волну.
@@ -3229,9 +3239,9 @@
 			"dota_tooltip_modifier_custom_universe_illusion_rune_description" 					"Повышает шанс уклонения на 90%."
 
 		"dota_tooltip_ability_item_custom_universe_rune_invis" 							"Вселенская Руна: Темная жатва"
-		"dota_tooltip_ability_item_custom_universe_rune_invis_description" 					"Позволяет наносить критические удары в размере 2000% урона."
+		"dota_tooltip_ability_item_custom_universe_rune_invis_description" 					"Добавляет 2000% Критического Урона. <br><br><font color='#ff0000'>「Внимание!」</font> Данная руна является частью системы Артефактов, для того чтобы Крит.Урон работал, вам нужно набрать себе Шанс.Крит Попадания."
 			"dota_tooltip_modifier_custom_universe_invisibility_rune" 							"Вселенская Руна: Темная жатва"
-			"dota_tooltip_modifier_custom_universe_invisibility_rune_description" 				"Атаки наносят критические атаки в размере 2000%% Урона."
+			"dota_tooltip_modifier_custom_universe_invisibility_rune_description" 				"Добавляет 2000% Критического Урона."
 		
 		"dota_tooltip_ability_item_custom_universe_rune_regen" 							"Вселенская Руна: Регенерация"
 		"dota_tooltip_ability_item_custom_universe_rune_regen_description" 					"Постоянно восстанавливает здоровье и ману на 50 + 10%/20 + 20% соответственно.\nЭффект исчезнет, если вы потеряете все заряды."
@@ -5888,12 +5898,12 @@
 			"rune_earch"						"Путь: Природа"
 			"rune_fire"							"Путь: Огонь"
 			"rune_mystic"						"Путь: Мистика"
-
+ 
 			"rune_magic_des"						"Данный путь предназначен для тех, кто действительно готов отдать себя познанию Магии этого мира. <br> При первой прокачке наделяет персонажа знаниями расы Асуран, вы учитесь у древних Архимагов и узнаёте много нового. <br><br> Бонус при первой прокачке:<br> Наделяет персонажа пассивной способность - возможность моментально перезарядить любую способность с некоторым шансом.<br> Добавляет возможность восстанавливать часть маны в зависимости от нанесённого урона."
 			"rune_vampire_des"						"Древнее проклятие, которое вы научитесь контролировать. <br> При первой прокачке наделяет персонажа запретными знаниями Ток'ра. <br> Наделяет персонажа пассивной способностью - чем ниже здоровье персонажа, тем выше его урон и скорость атаки. <br> Наделяет персонажа пассивной способностью - при достижении менее 10% здоровья, может впасть в ярость и получить неуязвимость к магии на некоторое время."
 			"rune_earch_des"						"Вы углублённо изучаете природные свойства своего тела, и учитесь ими управлять. <br> При первой прокачке наделяет персонажа знаниями расы Нокс в области лечения.<br> Наделяет персонажа пассивной способностью - может воскреснуть с некоторым с некоторым шансом. <br> Наделяет персонажа пассивной способностью - при получении урона, может вернуться во времени назад и уклониться от любой атаки или способности."
-			"rune_fire_des"							"Вы изучаете найденное оружие и учитесь им пользоваться. <br> При первой прокачке наделяет персонажа знаниями расы Урсини в области вооружения. <br> Наделяет персонажа пассивной способностью - поджигать любую цель авто атаками, горение будет наносить урон в % от вашей атаки.<br> Наделяет персонажа пассивной способностью - Огненная Защита, с некоторым шансом может поджечь врага, который вас атакует."
-			"rune_mystic_des"						"Давно забытые тайные знания различных рас, кто же знает что они скрывают? <br> При первой прокачке наделяет персонажа знаниями различных рас в области нахождения слабых мест.<br> Наделяет персонажа пассивной способностью - наносить пассивные критические удары с шансом в 17%<br> Наделяет персонажа пассивной способностью - с некоторым шансом может востановить здоровье в зависимости от нанесённого критического урона."
+			"rune_fire_des"							"Вы изучаете найденное оружие и учитесь им пользоваться. <br> При первой прокачке наделяет персонажа знаниями расы Урсини в области вооружения. <br> Наделяет персонажа пассивной способностью - с щансом в 10% поджигать любую цель авто атаками, горение будет наносить урон в % от вашей атаки.<br> Наделяет персонажа пассивной способностью - Огненная Защита, с некоторым шансом может поджечь врага, который вас атакует."
+			"rune_mystic_des"						"Давно забытые тайные знания различных рас, кто же знает что они скрывают? <br> При первой прокачке наделяет персонажа знаниями различных рас в области нахождения слабых мест.<br> Дрбавляет в систему артефактов большое количество Критического Урона<br> Наделяет персонажа пассивной способностью - с некоторым шансом может востановить здоровье в зависимости от нанесённого критического урона."
 
 			"pick_ascension_button"					"Прокачать!"
 			"pick_ascension_button_back"			"< Назад"
@@ -6020,7 +6030,7 @@
 
 		"DOTA_Tooltip_modifier_gu_regenerator_ability_1_enemy" "Аура Подавления"
 
-		"npc_lines_assassin"		"Drow Ranger"
+		"npc_lines_assassin"		"Смертельная Тень"
 		"npc_lines_regenerator" 	"Приор Орай"
 
 		"lich_king_start"			"Задание начнётся после прохождения раунда автоматически!"	
@@ -6524,7 +6534,7 @@
 		"npc_dota_hero_tiny"												"Moai「★」"
 
 		"DOTA_Tooltip_Ability_gu_isu152"								"<font color='#ff8815'>「ИСУ-152 (Объект 241)」</font>"
-		"DOTA_Tooltip_Ability_gu_isu152_Description"						"Прокачивает основные характеристики ПТ-САУ. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела и + %damage% к урону. Перезярядка машины может быть уменьшена максимум до 4.87 секунд. Получает на 20% меньше любого урона по себе."
+		"DOTA_Tooltip_Ability_gu_isu152_Description"						"Прокачивает основные характеристики ПТ-САУ. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела и + %damage% к урону. Предметы на уменьшение базового времени атаки не работают. Получает на 20% меньше любого урона по себе."
 		"DOTA_Tooltip_Ability_gu_isu152_scepter_Description"				"Увеличивает дополнительный урон на 150%"
 		"DOTA_Tooltip_Ability_gu_isu152_shard_Description"					"При попадании, оглушает основную цель на 1 секунду."
 
@@ -6558,20 +6568,21 @@
 		"DOTA_Tooltip_ability_tohka_ability_6_Description" 				"Впадая в глубочайшие пучины отчаяния, духи могут преобрести форму,многократно увеличивающую их боевой потенциал,ценой своего рассудка. Увеличивает урон на %damage% и силу на %str%"
 		"DOTA_Tooltip_ability_tohka_ability_6_fixed_duration" 			"Длительность:"
 		"DOTA_Tooltip_modifier_tohka_ability_6"							"<font color='#df26b8'>「Inversion:Demon King Nahemah」</font>"
+		
 		"DOTA_Tooltip_ability_tohka_ability_7" 						"<font color='#df26b8'>「Final Sword: Paverschlev」</font>"
-		"DOTA_Tooltip_ability_tohka_ability_7_Description" 				"Используя проклятый духовный меч разрубает само пространство, наносит урон по формуле - %damage% + (броня врага * 5)."
-		"DOTA_Tooltip_ability_tohka_ability_7_shard_description"		"Добавляет дополнительный урон по формуле базовый урон + сила * 2"
+		"DOTA_Tooltip_ability_tohka_ability_7_Description" 				"Используя проклятый духовный меч разрубает само пространство, наносит урон по формуле - %damage% * на %Текущей брони Токи."
+		"DOTA_Tooltip_ability_tohka_ability_7_shard_description"		"Увеличивает дополнительный урон по формуле базовый урон + сила * 10"
 
 		"DOTA_Tooltip_ability_item_subconscious_core"					"Subconscious Core"
-		"DOTA_Tooltip_ability_item_subconscious_core_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакуемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
 		"DOTA_Tooltip_ability_item_subconscious_core_bonus_damage" 		"Урон: "
 
 		"DOTA_Tooltip_ability_item_subconscious_core_2"					"Subconscious Core 2"
-		"DOTA_Tooltip_ability_item_subconscious_core_2_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_2_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакуемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
 		"DOTA_Tooltip_ability_item_subconscious_core_2_bonus_damage" 		"Урон: "
 
 		"DOTA_Tooltip_ability_item_subconscious_core_3"					"Subconscious Core 3"
-		"DOTA_Tooltip_ability_item_subconscious_core_3_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_3_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакуемой цели, наносит урон в размере 100% от базовой атаки и накладывает всее модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
 		"DOTA_Tooltip_ability_item_subconscious_core_3_bonus_damage" 		"Урон: "
 
 		"DOTA_Tooltip_ability_item_gu_cleave"							"Rift Fury"
@@ -6638,8 +6649,8 @@
 		"DOTA_Tooltip_ability_jibril_kurianse_duration" 					"Длительность:"
 		"DOTA_Tooltip_ability_jibril_kurianse_scepter_Description" 			"Уменьшает весь получаемый урон на 50%"
 
-
-		
+		"DOTA_Tooltip_modifier_wave_abuse"								"Wave Killer"
+		"DOTA_Tooltip_modifier_wave_abuse_Description"						"Вы не смогли уничтожить волну за 10 минут (ну или не захотели), теперь каждую секунду все оставшиеся враги будут получать по 0.05% дополнительного чистого урона от максимального здоровья атакуемой цели раз в 1 секунду."
 
 		
 
