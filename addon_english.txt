@@ -1571,14 +1571,6 @@
  "DOTA_Tooltip_Ability_aghs_elemental_vortex_duration" "Duration:"
  "DOTA_Tooltip_Ability_aghs_elemental_vortex_far_radius" "Radius:"
  
- 
- "DOTA_Tooltip_Ability_holeepic2" "Goddess of the World: Black Hole"
- "DOTA_Tooltip_Ability_holeepic2_Description" "Blackhole-Chan creates a black hole that sucks in all enemy units and deals damage."
- "DOTA_Tooltip_Ability_holeepic2_damage" "Damage:"
- "DOTA_Tooltip_Ability_holeepic2_int_in_damage" "Intelligence into damage:"
- "DOTA_Tooltip_Ability_holeepic2_duration" "Duration:"
- "DOTA_Tooltip_Ability_holeepic2_far_radius" "Radius:" 
-
 
 
 
