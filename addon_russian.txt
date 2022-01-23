@@ -4452,7 +4452,7 @@
 		"npc_dota_hero_vengefulspirit_t5_name"		"-「Разлом」_-"
 		"npc_dota_hero_vengefulspirit_t6_name"		"-「Возврат」_-"
 		"npc_dota_hero_vengefulspirit_t2"		"Улучшает - 「Eternal Knife」<br><br> Добавляет дополнительный урон по формуле - базовый урон + ловкость * 4."
-		"npc_dota_hero_vengefulspirit_t3"		"Улучшает - 「Killer Doll」<br><br> Изменяет количество кинжалов до 100."
+		"npc_dota_hero_vengefulspirit_t3"		"Улучшает - 「Killer Doll」<br><br> Изменяет количество кинжалов до 60."
 		"npc_dota_hero_vengefulspirit_t4"		"Улучшает - 「Sakuya's Special Stopwatch」<br><br> Уменьшает перезарядку до 60 секунд."
 		"npc_dota_hero_vengefulspirit_t5"		"Улучшает - 「Time Dilation」<br><br> Теперь способность наносит урон всех вражеским юнитам в области действия, урон зависит от ловкости Сакуи."
 		"npc_dota_hero_vengefulspirit_t6"		"Улучшает - 「Eternal Knife」<br><br> При попадании по врагу, моментально перезарядит способность."
@@ -6709,6 +6709,7 @@
 		"DOTA_Tooltip_ability_jibril_assasination_mode_damage" 				"Урон:"
 		"DOTA_Tooltip_ability_jibril_assasination_mode_agi" 				"Ловкость:"
 		"DOTA_Tooltip_ability_jibril_assasination_mode_fixed_duration" 		"Длительность:"
+		"DOTA_Tooltip_modifier_jibril_assasination_mode"					"<font color='#ff00eb'>「Assasination Mode」</font>"
 
 		"DOTA_Tooltip_ability_jibril_air_strike" 						"<font color='#ff00eb'>「Air Strike」</font>"
 		"DOTA_Tooltip_ability_jibril_air_strike_Description" 				"Создаёт огромную энергетическую сферу в воздухе, которая через некоторое время падает на землю, вызывая взрыв чудовищной силы и нанося всем противникам в области %damage% урона, оглушая их."
