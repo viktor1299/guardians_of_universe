@@ -4723,7 +4723,7 @@ You are given 2 attempts to kill the Guardian every round, if you win, then you 
  "DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description" "A unique item that can be obtained by killing Guardian Master of the Universe.<br><br><font color='#7ee340'>Tradable to an ally! <br><br><</font> <font color= '#fc0303'>Does not work in the prologue, during the battle with the Guardian and also in the end of the game!</font>"
 
 "DOTA_Tooltip_ability_item_gu_armor_of_universe" "Cuirasse of Universe"
-"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description" "<h1>Active: Weather Shield </h1> Applies a lightning shield effect to the target. When attacking a unit that is under the shield's protection, every %static_proc_count% hit on the owner will unleash lightning at the enemy, dealing % static_damage% of the attacker's damage and slows them down by %static_slow% for %static_slow_duration% seconds\n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Grants immunity to all \n <h1>Passive: Energy burst </h1> Has a %proc_chance%% chance to create a chain lightning that will jump all enemy units within a %bounce_radius % and deals %bounce_damage%% Attack Damage to the owner of the item.\n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「When the Universe set is full, it will add a new ability - Destroyer of the world 」"
+"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description" "<h1>Active: Weather Shield </h1> Applies a lightning shield effect to the target. When attacking a unit that is under the shield's protection, every %static_proc_count% hit on the owner will unleash lightning at the enemy, dealing %static_damage% of the attacker's damage and slows them down by %static_slow% for %static_slow_duration% seconds\n <h1>Passive: <font color='#0384fc'>Weather God</font> </h1> Grants immunity to all \n <h1>Passive: Energy burst </h1> Has a %proc_chance%% chance to create a chain lightning that will jump all enemy units within a %bounce_radius % and deals %bounce_damage%% Attack Damage to the owner of the item.\n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「When the Universe set is full, it will add a new ability - Destroyer of the world 」"
  "DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage" "+damage:"
  "DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as" "+Attack Speed:"
 
@@ -5698,7 +5698,7 @@ Nero Claudius<br><br>
  "rune_mystic" "Path: Mystic"
  
  "rune_magic_des" "This path is for those who are really ready to give themselves to the knowledge of the Magic of this world. <br> At the first leveling, it gives the character the knowledge of the Asuran race, you learn from the ancient Archmages and learn a lot of new things. <br><br> Bonus when first leveling:<br> Gives the character a passive ability - the ability to instantly recharge any ability with a certain chance.<br> Adds the ability to restore part of mana depending on the damage dealt."
- "rune_vampire_des" "An ancient curse that you will learn to control. <br> At the first level, grants the character the Tok'ra Forbidden Knowledge. <br> Grants the character a passive ability - the lower the character's health, the higher their damage and attack speed. <br> Gives the character a passive ability - upon reaching less than 10% health, they can become enraged and gain immunity to magic for a while.
+ "rune_vampire_des" "An ancient curse that you will learn to control. <br> At the first level, grants the character the Tok'ra Forbidden Knowledge. <br> Grants the character a passive ability - the lower the character's health, the higher their damage and attack speed. <br> Gives the character a passive ability - upon reaching less than 10% health, they can become enraged and gain immunity to magic for a while."
  "rune_earch_des" "You study in depth the natural properties of your body, and learn to control them. <br> At the first leveling, grants the character knowledge of the Nox race in the field of healing.<br> Endows the character with a passive ability - can be resurrected with some with some chance. <br> > Gives the character a passive ability - upon taking damage, can go back in time and dodge any attack or ability."
  "rune_fire_des" "You study the found weapons and learn how to use them. <br> At the first leveling, it gives the character the knowledge of the Ursini race in the field of weapons. <br> Gives the character a passive ability - with a 10% chance to set fire to any target with auto attacks, burning will inflict damage in % of your attack.<br> Gives the character a passive ability - Fire Protection, with some chance can set fire to the enemy that attacks you."
  "rune_mystic_des" "Long-forgotten secret knowledge of various races, who knows what they hide? <br> At the first leveling, grants the character knowledge of various races in the field of finding weak points.<br> Adds a large amount of Critical Damage to the artifact system<br> Bestows character with a passive ability - with some chance it can restore health depending on the critical damage dealt."
@@ -6481,9 +6481,86 @@ Nero Claudius<br><br>
  "DOTA_Tooltip_modifier_generic_lua_stun" "Stunned"
 
 
+"npc_dota_hero_troll_warlord"									"Archer 「★」"
+	//Caladbolg II
+		"DOTA_Tooltip_ability_archer_arrow"														"Caladbolg II"
+		"DOTA_Tooltip_ability_archer_arrow_Description"											"Shoots a global range arrow that explodes over a given area, damaging enemies and providing vision for %duration% seconds."
+		"DOTA_Tooltip_ability_archer_arrow_Lore"												"The version that Archer projects has been altered to improve its function as an arrow."
+		"DOTA_Tooltip_ability_archer_arrow_radius"												"RADIUS:"
+		"DOTA_Tooltip_ability_archer_arrow_damage"												"DAMAGE:"
+		"DOTA_Tooltip_ability_archer_arrow_shard_Description"									"Add bonus damage - agility * 10"
 
+		//Sword Barrage
+		"DOTA_Tooltip_ability_archer_blades"													"Sword Barrage"
+		"DOTA_Tooltip_ability_archer_blades_Description"										"Archer throws projection of %blades_count% swords in a cone shape over %blades_range% range, slowing and damaging enemy units. This slow can stack with itself."
+		"DOTA_Tooltip_ability_archer_blades_Note0"												"Each sword deals one instance of damage."
+		//"DOTA_Tooltip_ability_archer_blades_blades_range"										"CAST RANGE:" //removed
+		"DOTA_Tooltip_ability_archer_blades_blades_damage"										"SWORD DAMAGE:"
+		"DOTA_Tooltip_ability_archer_blades_duration"											"SLOW DURATION:"
+		"DOTA_Tooltip_ability_archer_blades_ms_reduce"											"%MOVEMENT SLOW:"
+		//"DOTA_Tooltip_ability_archer_blades_blades_count"										"SWORDS:" //removed
 
+		"DOTA_Tooltip_modifier_archer_blades"													"Sword Barrage Slow"
+		"DOTA_Tooltip_modifier_archer_blades_Description"										"Slowed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
 
+		//Mind's Eye (True)
+		"DOTA_Tooltip_ability_archer_evasion"													"Mind's Eye (True)"
+		"DOTA_Tooltip_ability_archer_evasion_Description"										"Increases attack speed and adds evasion from all physical attacks."
+		"DOTA_Tooltip_ability_archer_evasion_duration"											"DURATION:"
+		"DOTA_Tooltip_ability_archer_evasion_as"												"BONUS ATTACK SPEED:"
+		"DOTA_Tooltip_ability_archer_evasion_evasion"											"%EVASION:"
+
+		"DOTA_Tooltip_modifier_archer_evasion"													"Mind's Eye (True)"
+		"DOTA_Tooltip_modifier_archer_evasion_Description"										"Gaining %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% attack speed and %dMODIFIER_PROPERTY_EVASION_CONSTANT%%% evasion."
+
+		//Kanshou and Bakuya
+		"DOTA_Tooltip_ability_archer_kab"														"Kanshou and Bakuya"
+		"DOTA_Tooltip_ability_archer_kab_Description"											"Archer throws his signature weapons with deadly precision, damaging each enemy unit it strikes.<br><br>Kanshou <font color='#FF0000'>RED</font> deals pure damage.<br>Bakuya <font color='#0033FF'>BLUE</font> deals magical damage."
+		"DOTA_Tooltip_ability_archer_kab_scepter_description"									"Grants %scepter_charges% charges to Kanshou and Bakuya."
+		"DOTA_Tooltip_ability_archer_kab_Note0"													"Each blade can hit the same enemy once."
+		"DOTA_Tooltip_ability_archer_kab_Lore"													"The Yin-Yang paired swords which Archer favoured."
+		//"DOTA_Tooltip_ability_archer_kab_hit_radius"											"HIT RADIUS:" //removed
+		//"DOTA_Tooltip_ability_archer_kab_spread"												"SPREAD:" //removed
+		"DOTA_Tooltip_ability_archer_kab_castrange"												"CAST RANGE:"
+		//"DOTA_Tooltip_ability_archer_kab_speed"												"FLY SPEED:" //removed
+		"DOTA_Tooltip_ability_archer_kab_damage"												"DAMAGE PER BLADE:"
+		"DOTA_Tooltip_ability_archer_kab_scepter_charges"										"SCEPTER CHARGES:"
+		//ONE LINE SPACE
+		"DOTA_Tooltip_modifier_archer_kab_ability_charges"										"Mind's Eye (True) CHARGES"
+		"DOTA_Tooltip_modifier_archer_kab_ability_charges_Description"							"ADD LINE LIKE THAT"
+		//Clairvoyance
+		"DOTA_Tooltip_ability_archer_vision"													"Clairvoyance"
+		"DOTA_Tooltip_ability_archer_vision_Description"										"Grants unobstructed vision of a targeted area for %duration% seconds."
+		"DOTA_Tooltip_ability_archer_vision_Lore"												"Archer acquires this by applying Reinforcement to his eyes."
+		//"DOTA_Tooltip_ability_archer_vision_duration"											"DURATION:" //removed
+		"DOTA_Tooltip_ability_archer_vision_radius"												"RADIUS:"
+
+		//Weapon Exchange
+		"DOTA_Tooltip_ability_archer_weapons"													"Weapon Exchange"
+		"DOTA_Tooltip_ability_archer_weapons_Description"										"While active, Archer swaps from using ranged to melee attacks. Melee attacks have bonus damage, ranged attacks have bonus attack range."
+		"DOTA_Tooltip_ability_archer_weapons_meele_damage"										"MELEE BONUS DAMAGE:"
+		"DOTA_Tooltip_ability_archer_weapons_range_attack"										"RANGED BONUS RANGE:"
+
+		//Chants
+		"DOTA_Tooltip_ability_archer_ubw_charge"												"Chant"
+		"DOTA_Tooltip_ability_archer_ubw_charge_Description"									"CHANNELED - Archer recites a part of his incantations, gaining one charge for this ability. Replaces with the Unlimited Blade Works ability after the entire chants completed."
+		"DOTA_Tooltip_ability_archer_ubw_charge_charge_count"									"REQUIRED CHARGES:"
+		"DOTA_Tooltip_ability_archer_ubw_charge_charge_time"									"CHANNEL TIME:"
+
+		"DOTA_Tooltip_modifier_archer_ubw_charge_channeling"									"Chant - Channeling"
+		"DOTA_Tooltip_modifier_archer_ubw_charge_channeling_Description"						"Channeling Unlimited Blade Works"
+
+		"DOTA_Tooltip_modifier_archer_ubw_charge_buff"											"Chant"
+		"DOTA_Tooltip_modifier_archer_ubw_charge_buff_Description"								"Chanting Unlimited Blade Works."
+
+		//Unlimited Blade Works
+		"DOTA_Tooltip_ability_archer_ubw"														"Unlimited Blade Works"
+		"DOTA_Tooltip_ability_archer_ubw_Description"											"Brings everyone around Archer into a Reality Marble for %duration% seconds with swords raining down in it, dealing magical damage. Mind’s Eye (True) is automatically casted whenever Archer starts the Reality Marble, regardless of its cooldown.<br><br>Everyone in range will become briefly invulnerable and disabled while this ability is activated."
+		"DOTA_Tooltip_ability_archer_ubw_Note0"													"Units inside the Reality Marble cannot deal or receive damage from outside."
+		"DOTA_Tooltip_ability_archer_ubw_Note1"													"Flying units, and units affected by spell immunity can enter and leave the Reality Marble at any time."
+		"DOTA_Tooltip_ability_archer_ubw_radius"												"RADIUS:"
+		"DOTA_Tooltip_ability_archer_ubw_sword_damage"											"DAMAGE PER SECOND:"
+		"DOTA_Tooltip_ability_archer_ubw_scepter_Description"									"Add bonus damage - agility * 10"
 
 
 
