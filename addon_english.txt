@@ -162,7 +162,7 @@
  "DOTA_Tooltip_ability_odin_gods_eye_bonus_movespeed" "Attack Speed ​​Slow: "
 
  "DOTA_Tooltip_ability_odin_sleipnirs_veil" "<font color='#B56213'>「Ghost Form」</font>"
- "DOTA_Tooltip_ability_odin_sleipnirs_veil_description" "Vay into ethereal form, capable of passing through enemies, dealing damage. Increases movement speed by 45%. Deals damage each time it passes through."
+ "DOTA_Tooltip_ability_odin_sleipnirs_veil_description" "Vay into ethereal form, capable of passing through enemies, dealing damage. Increases movement speed to 1000. Deals damage each time it passes through."
  "DOTA_Tooltip_ability_odin_sleipnirs_veil_duration" "Duration: "
  "DOTA_Tooltip_ability_odin_sleipnirs_veil_slow" "%Slow: "
  "DOTA_Tooltip_ability_odin_sleipnirs_veil_damage" "Damage: "
@@ -336,8 +336,10 @@
  "DOTA_Tooltip_ability_sniper_shrapnel_description" "Covers an area in a rain of shot."	
 
  "DOTA_Tooltip_ability_gu_sniper_ap_bullet" "<font color='#A7561E'>「Armor Piercing Incendiary MK 211 .50」</font>"
- "DOTA_Tooltip_ability_gu_sniper_ap_bullet_description" "Deals additional pure damage equal to %pure_damage%%% of damage dealt on hit. With the ultimate talent, has a 8% chance to ignore the armor of any enemy. Adds %crit_damage%%% critical damage. <br><br><br> br><font color='#ff0000'>「Warning!」</font> This ability is part of the Weapons system, you need to get your crit chance in order for the crit damage to work." 
+ "DOTA_Tooltip_ability_gu_sniper_ap_bullet_description" "Deals additional pure damage equal to %pure_damage%%% of damage dealt on hit. With the ultimate talent, has a 8% chance to ignore the armor of any enemy. Adds %crit_damage%%% critical damage. With each attack to Invader gives you +1 bonus permanent damage. <br><br><br> br><font color='#ff0000'>「Warning!」</font> This ability is part of the Weapons system, you need to get your crit chance in order for the crit damage to work." 
  "DOTA_Tooltip_ability_gu_sniper_ap_bullet_damage" "Bonus Damage:" 
+ "DOTA_Tooltip_modifier_gu_sniper_ap_bullet"										"<font color='#A7561E'>「Armor Piercing Incendiary MK 211 .50」</font>"
+		"DOTA_Tooltip_modifier_gu_sniper_ap_bullet_description"								"Each charge gives you +1 damage."
 
 
 "npc_dota_hero_lina" "Lina「★★★★★」"
@@ -747,7 +749,7 @@
  "DOTA_Tooltip_ability_gu_kanade_3_Description" "Has a %chance%%% chance to dodge any type of damage."
  
  "DOTA_Tooltip_ability_gu_kanade_4" "<font color='#B9B9B9'>「Harmonic」</font>"	
- "DOTA_Tooltip_ability_gu_kanade_4_Description" "Summons 2 copies of Kanade, the copies deal %bonus_damage%%% more damage.<br> Duration is %duration% seconds. <br><br><font color='#F81717'>This ability's cooldown cannot be reduced. </font>"
+ "DOTA_Tooltip_ability_gu_kanade_4_Description" "Summons 2 copies of Kanade, the copies deal %bonus_damage%%% damage.<br> Duration is %duration% seconds. <br><br><font color='#F81717'>This ability's cooldown cannot be reduced. </font>"
  "DOTA_Tooltip_ability_gu_kanade_4_shard_Description" "Adds 10 seconds to the duration at all levels." 
 
 
@@ -1614,7 +1616,7 @@
 "DOTA_Tooltip_ability_uninstall_Description" "Returns the hero to its original state to select a different form. <br><br> <font color='#fc0303'>Does not work in the prologue, during the battle with the Guardian and also in the end of the game!</font> </ h1>"
  
  "DOTA_Tooltip_ability_Gae_Bolg" "<font color='#F717F7'>「Gáe Bulg」</font> "
- "DOTA_Tooltip_ability_Gae_Bolg_Description" "Each hit consumes %mana% mana and deals %damage% additional damage and cannot be missed."
+ "DOTA_Tooltip_ability_Gae_Bolg_Description" "Each hit consumes %mana%%% mana and deals %damage% additional damage and cannot be missed."
  
  "DOTA_Tooltip_ability_Rho_Aias" "<font color='#F717F7'>「Rho Aias」</font> "
  "DOTA_Tooltip_ability_Rho_Aias_Description" "Creates a shield that blocks %damage_absorb% damage."
@@ -2345,13 +2347,13 @@
 
 
 "DOTA_Tooltip_ability_item_stellar_flare" "Star Flare"
- "DOTA_Tooltip_ability_item_stellar_flare_Description" "<h1>Passive: Radiation</h1> Deals %damage% + (%damage_int% * your intelligence) magic damage to all enemies within %range% in %dps% intervals. <br>Warning! This item only works on heroes with the primary attribute Intelligence.
+ "DOTA_Tooltip_ability_item_stellar_flare_Description" "<h1>Passive: Radiation</h1> Deals %damage% + (%damage_int% * your intelligence) magic damage to all enemies within %range% in %dps% intervals. <br>Warning! This item only works on heroes with the primary attribute Intelligence.\n <h1>Passive: Stellar Flare</h1> Each INT point gives additional 3 mana."
  "DOTA_Tooltip_ability_item_stellar_flare_Note0" "Item damage does not scale with magic amplification"
  "DOTA_Tooltip_ability_item_stellar_flare_int" "+Intelligence:" 
  "DOTA_Tooltip_ability_item_stellar_flare_mana" "+ mana"
 
  "DOTA_Tooltip_ability_item_stellar_flare_veil" "Unstable Star Flare"
- "DOTA_Tooltip_ability_item_stellar_flare_veil_Description" "<h1>Active: Instability</h1> When activated per point, reduces the magic resistance of all enemy units by 30%. <br>Warning! This item only works on heroes with the primary attribute - Intelligence.\n<h1> Passive: Radiation</h1> Deals %damage% + (%damage_int% * your intelligence) magic damage to all enemies within %range% in %dps% intervals."
+ "DOTA_Tooltip_ability_item_stellar_flare_veil_Description" "<h1>Active: Instability</h1> When activated per point, reduces the magic resistance of all enemy units by 30%. <br>Warning! This item only works on heroes with the primary attribute - Intelligence.\n<h1> Passive: Radiation</h1> Deals %damage% + (%damage_int% * your intelligence) magic damage to all enemies within %range% in %dps% intervals.\n <h1>Passive: Stellar Flare</h1> Each INT point gives additional 3 mana."
  "DOTA_Tooltip_ability_item_stellar_flare_veil_Note0" "Item damage does not scale with magic amplification"
  "DOTA_Tooltip_ability_item_stellar_flare_veil_int" "+Int:" 
  "DOTA_Tooltip_ability_item_stellar_flare_veil_mana" "+ mana"
@@ -2815,7 +2817,7 @@
 
  "DOTA_Tooltip_ability_item_aqua_greaves" "Aqua Goddess Leggings"
  "DOTA_Tooltip_ability_item_aqua_greaves_Description" "<h1>Active: Heal</h1> Instantly restores %replenish_health% health and %replenish_mana% mana, then restores 18%% of their total over 6 seconds to all nearby allies. Removes most debuffs from the caster. \n<h1>Passive: Aqua Aura</h1> Increases health regen from %base_regen% to %regen_per_pct_tooltip% and armor from %base_armor% to %armor_per_pct_tooltip% of nearby allies within %aura_radius. \n<h1>Passive: Useless Leg</h1> Applies Heal if the wearer's HP is below %heal_threshold_pct%%%."
- "DOTA_Tooltip_ability_item_aqua_greaves_bonus_movement" "%+$move_speed"
+ "DOTA_Tooltip_ability_item_aqua_greaves_bonus_movement" "+$move_speed"
  "DOTA_Tooltip_ability_item_aqua_greaves_bonus_all_stats" "+all stats"	
  "DOTA_Tooltip_ability_item_aqua_greaves_bonus_mana" "+Mana" 
  "DOTA_Tooltip_ability_item_aqua_greaves_bonus_armor" "+armor"
@@ -3069,11 +3071,13 @@
 "npc_dota_hero_invoker_race"                    "Race: Tau'ri"
 "npc_dota_hero_marci_race"                      "Race: Tau'ri"
 "npc_dota_hero_dragon_knight_race"              "Race: Armored"   
- "npc_dota_hero_hoodwink_race"                  "Race: Tau'ri"
- "npc_dota_hero_phantom_assassin_race"          "Race: Spirits"
- "npc_dota_hero_earthshaker_race"               "Race: Armored"
- "npc_dota_hero_tiny_race"                      "Race: Anquietas"
- "npc_dota_hero_pugna_race"                     "Race: Ori"
+"npc_dota_hero_hoodwink_race"                  "Race: Tau'ri"
+"npc_dota_hero_phantom_assassin_race"          "Race: Spirits"
+"npc_dota_hero_earthshaker_race"               "Race: Armored"
+"npc_dota_hero_tiny_race"                      "Race: Anquietas"
+"npc_dota_hero_pugna_race"                     "Race: Ori"
+"npc_dota_hero_brewmaster_race"					"Race: «Armored»"
+"npc_dota_hero_troll_warlord_race"				"Race: «Tau'ri»"
 
  
  
@@ -3108,8 +3112,8 @@
  "ad_3" "???? «P3X-421»"
  "ad_4" "???? «P3X-298»"
  "ad_5" "Forest (L) «P3X-797»"
- "ad_6" "Forest (C) «P3X-888» after 20 min."
- "ad_7" "Forest (A) «P3X-367» after 40 min."
+ "ad_6" "Forest (C) «P3X-888» after 10 min."
+ "ad_7" "Forest (A) «P3X-367» after 20 min."
  "ad_8" "P3X-439 Prologue"
  "ad_9" "Keeper Arena «KS7-535»"
  "ad_10" "Gaia «P3X-774»"
@@ -3705,7 +3709,10 @@ Difficulty: Absurd - 100% of the total accumulated rating.<br><br>
  "gu_hud_profile" "Profile"
  "stats_privilege" "Privileges"
  "stats_all" "Statistics"
- "stats_top" "TOP 30"
+ "party_top"				"TOP by time (Party)"
+"solo_top"				"TOP by time (Solo)"
+"stats_top" 			"ТОP by MMR"
+"profile_time"			"Time - "
  "stats_reports" "Reports"
  "setting_name" "Profile settings"
  "setting_bg" "Background settings:"
@@ -3714,6 +3721,10 @@ Difficulty: Absurd - 100% of the total accumulated rating.<br><br>
  "custom_bg_url" "Insert link here..."
  "boss_fite_text" "Keeper's Choice"
  "boss_fite_time" "The next Guardian can be killed in: "
+ "color_time" 			"<font color='violet'>●</font> - Less than 60 min. <br> <font color='turquoise'>●</font> - Less than 80 min. <br> <font color='green'>●</font> - Less than 100 min. <br> <font color='yellow'>●</font> - Less than 120 min. <br> <font color='orange'>●</font> - Less than 140 min. <br> <font color='red'>●</font> - More than 140 min."
+		"party_top_des"             "The Top 50 teams that cleared Hard level the fastest."
+        "solo_top_des"              "The Top 50 players that cleared Hard level the fastest."
+        "stats_top_des"             "Топ-30 players with highest MMR."
 
  "prolog_off" "Skip the prologue?"
 
@@ -4341,7 +4352,7 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "npc_dota_hero_axe_t2" "Upgrades <br><font color='#FFB900'>「Impulsive attack」</font><br><br> Increases counter attack chance by up to 25%."
  "npc_dota_hero_axe_t3" "Upgrades <br><font color='#FFB900'>「Allurements」</font><br><br> Increases duration to 14 seconds."
  "npc_dota_hero_axe_t4" "Upgrades <br><font color='#FFB900'>「High protection」</font><br><br> Reduces cooldown to 20 seconds."
- "npc_dota_hero_axe_t5" "Upgrades <br><font color='#FFB900'>「Impulsive attack」<br><br> Adds extra damage - strength * 1.5."
+ "npc_dota_hero_axe_t5" "Upgrades <br><font color='#FFB900'>「Impulsive attack」</font><br><br> Adds extra damage - strength * 1.5."
  "npc_dota_hero_axe_t6" "Upgrades <br><font color='#FFB900'>「Embarrassment」</font><br><br> Allows you to not miss your attacks."
 
  "npc_dota_hero_spectre_t2_name" "-「Distortion」_-"
@@ -4410,7 +4421,7 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "npc_dota_hero_enigma_t3" "Upgrades <br><font color='#8D7062'>「Collapsar」</font><br><br> Adds bonus damage - intelligence * 1.5"
  "npc_dota_hero_enigma_t4" "Upgrades <br><font color='#8D7062'>「Galaxy Journey」</font><br><br> Adds bonus damage - intelligence * 2, inflicts a stun for 5 seconds."
  "npc_dota_hero_enigma_t5" "Upgrade <br><font color='#8D7062'>「Space Distortion」</font><br><br> Add bonus damage - intelligence * 4, change damage type to pure."
- "npc_dota_hero_enigma_t6" "Upgrade <br><font color='#8D7062'>「Collapsar」</font><br><br> Reduce cooldown to 100 seconds."
+ "npc_dota_hero_enigma_t6" "Upgrade <br><font color='#8D7062'>「Collapsar」</font><br><br> Reduce cooldown to 30 seconds."
 
  "npc_dota_hero_slark_t2_name" "-「Fighter」_-"
  "npc_dota_hero_slark_t3_name" "-「Fighter」_-"
@@ -4609,6 +4620,29 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "npc_dota_hero_pugna_t4" "Upgrade <br><font color='#ff00eb'>「Black Energy Rocket」</font><br><br> Add bonus damage - Agility * 2"
  "npc_dota_hero_pugna_t5" "Upgrades <br><font color='#ff00eb'>「Black Energy Rocket」</font><br><br> Reduces cooldown to 8 seconds"
  "npc_dota_hero_pugna_t6" "Upgrades <br><font color='#ff00eb'>「Assasination Mode」</font><br><br>After the ability ends, does not get a damage reduction debuff."
+
+ 
+		"npc_dota_hero_troll_warlord_t2_name"		"「Archer」"
+		"npc_dota_hero_troll_warlord_t3_name"		"「Archer」"
+		"npc_dota_hero_troll_warlord_t4_name"		"「Archer」"
+		"npc_dota_hero_troll_warlord_t5_name"		"「Archer」"
+		"npc_dota_hero_troll_warlord_t6_name"		"「Archer」"
+		"npc_dota_hero_troll_warlord_t2"				"This character cannot be upgraded!"
+		"npc_dota_hero_troll_warlord_t3"				"This character cannot be upgraded!"
+		"npc_dota_hero_troll_warlord_t4"				"This character cannot be upgraded!"
+		"npc_dota_hero_troll_warlord_t5"				"This character cannot be upgraded!"
+		"npc_dota_hero_troll_warlord_t6"				"This character cannot be upgraded!"
+
+		"npc_dota_hero_brewmaster_t2_name"		"「PzGr 46」"
+		"npc_dota_hero_brewmaster_t3_name"		"「Gr 46 H1A」"
+		"npc_dota_hero_brewmaster_t4_name"		"「SprgG 46」"
+		"npc_dota_hero_brewmaster_t5_name"		"「SprgG 46」"
+		"npc_dota_hero_brewmaster_t6_name"		"「Gr 46 H1A」"
+		"npc_dota_hero_brewmaster_t2"				"Улучшает   <br><font color='#fd2727'>「PzGr 46」</font><br><br> Adds bonus damage - agility * 5"
+		"npc_dota_hero_brewmaster_t3"				"Улучшает   <br><font color='#f9fd27'>「Gr 46 H1A」</font><br><br> Adds bonus damage - agility * 5"
+		"npc_dota_hero_brewmaster_t4"				"Улучшает   <br><font color='#fd7427'>「SprgG 46」</font><br><br> Adds bonus damage - agility * 5"
+		"npc_dota_hero_brewmaster_t5"				"Улучшает   <br><font color='#fd7427'>「SprgG 46」</font><br><font color='#f9fd27'>「Gr 46 H1A」</font><br><font color='#fd2727'>「PzGr 46」</font><br><br> Removes cooldown for changing shell type, works even if cancelled."
+		"npc_dota_hero_brewmaster_t6"				"Улучшает   <br><font color='#f9fd27'>「Gr 46 H1A」</font><br><font color='#fd7427'>「SprgG 46」</font><br><br> Shot do not spond gold."
 
  "task_random_address" "A random address has been generated for you for either the Milky Way, Pegasus or Universe gate system. Type it on the dialer within the allotted time and you'll be rewarded!"
  "task_name_address" "Random Address"
@@ -4977,6 +5011,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "alter_anromeda_9" "You have found a fragment of an unknown address! If you find all 7 symbols, you will be granted access to an unknown planet!"
  "alter_anromeda_10" "No one knows what awaits you there, but I'm sure it's worth it!"
  "alter_anromeda_11" "You found another fragment!"
+ "alter_anromeda_12"	"You have failed... Well, maybe you will be more careful next time."
 
 
 "DOTA_Tooltip_modifier_hell_cold_damager" "Hell Cold"
@@ -5148,6 +5183,8 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_earthshaker_dificult" "Hero Difficulty: Easy"
 "npc_dota_hero_tiny_dificult" "Hero Difficulty: Absurd"
 "npc_dota_hero_pugna_dificult" "Hero Difficulty: Easy"
+"npc_dota_hero_brewmaster_dificult"			"Hero Difficulty: Normal"
+		"npc_dota_hero_troll_warlord_dificult"		"Hero Difficulty: Normal"
  
 "npc_dota_hero_queenofpain_type"        "Role: <font color='#a822ba'>Mage DPS</font>"
 "npc_dota_hero_warlock_type"            "Role: <font color='#a822ba'>Mage DPS</font>"
@@ -5211,6 +5248,8 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_earthshaker_type" "Role: <font color='#119e09'>Main DPS</font>"
  "npc_dota_hero_tiny_type" "Role: <font color='#ba1111'>Tank</font>"
  "npc_dota_hero_pugna_type" "Role: <font color='#a822ba'>Mage DPS</font>"
+ "npc_dota_hero_brewmaster_type"			"Роль: <font color='#119e09'>«Main DPS»</font>"
+		"npc_dota_hero_troll_warlord_type"		"Роль: <font color='#119e09'>«Main DPS»</font>"
 
  "npc_dota_hero_warlock_rare" "Banner: Andromeda's Tale"
  "npc_dota_hero_venomancer_rare" "Banner: Andromeda's Tale"
@@ -5276,6 +5315,8 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_earthshaker_rare" "Acquisition: Standard Pass"
  "npc_dota_hero_tiny_rare" "Acquisition: Easy Walkthrough"
  "npc_dota_hero_pugna_rare" "Acquisition: Hard Pass"
+ "npc_dota_hero_brewmaster_rare"			"Acquisition: «Kto»"
+		"npc_dota_hero_troll_warlord_rare"		"Player Character: Emiya"
 
  "npc_dota_hero_queenofpain_damage" "Source: Guardians of Universe"
  "npc_dota_hero_warlock_damage" "Source: Guardians of Universe"
@@ -5339,6 +5380,8 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_earthshaker_damage" "Source: 2CH Defender"
  "npc_dota_hero_tiny_damage" "Source: 2CH Defender"
  "npc_dota_hero_pugna_damage" "Source: ASB"
+ "npc_dota_hero_brewmaster_damage"			"Source: «Guardians of Universe»"
+		"npc_dota_hero_troll_warlord_damage"		"Source: «Anime»"
 
  "npc_dota_hero_warlock_weapon" "Weapon: <font color='#ff38f0'>Catalyst</font>"
  "npc_dota_hero_venomancer_weapon" "Weapon: <font color='#ff565d'>Gun</font>"
@@ -5400,6 +5443,8 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_earthshaker_weapon" "Weapon: <font color='#ff565d'>Gun</font>"
  "npc_dota_hero_tiny_weapon" "Weapon: <font color='#ff38f0'>Catalyst</font>"
  "npc_dota_hero_pugna_weapon" "Weapon: <font color='#ff38f0'>Catalyst</font>"
+ "npc_dota_hero_troll_warlord_weapon" 				"Вооружение: <font color='#76ff56'>Bow</font>"
+		"npc_dota_hero_brewmaster_weapon"			"Вооружение: <font color='#ff565d'>Gun</font>"
  
 "npc_gu_t72_base" "T-72 Base"
  "npc_gu_t90_base" "T-90 Base"
@@ -5590,11 +5635,11 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "load_string" "Enter code...."
 
 
-  "pray_info_event_name" "Event Prayer: Emperor of the Roses "
+"pray_info_event_name"	"Event Prayer: Mysterious Guardians "
  "pray_info_event" "More about Prayers<br><br>
 <font color='#d63131ef'>Temporary event</font><br><br>
 
-Event Prayer: Emperor of the Roses is now available! During this event, the probability of obtaining the following characters will increase dramatically. Event Exclusive 5★ Emperor of the Roses Nero Claudius<br><br>
+Event Prayer:  Mysterious Guardians is now available! During this event, the probability of obtaining the following characters will increase dramatically. Event Exclusive 5★ «Emperor of the Roses» Nero Claudius, 5★ «Kingdom of Lugnica» Ram и «Enigmatic Astrologer» Mona Megistus<br><br>
 For every 10 Prayers, you are guaranteed to receive at least one 4★ character.<br><br>
 ※ Under normal conditions, the base drop rate of all characters is evenly distributed. If any enhancements or guarantees apply, please read the relevant rules.<br><br>
 〓 Rules 〓<br>
@@ -5603,15 +5648,17 @@ The base chance of getting a hero is 4★ = 13.100%. Guaranteed to get a 4★ he
 Base chance of obtaining a hero 3★ = 85,300%.<br><br>
 
 <font color='#c2133f'>Important!</font><br>
-If during the survey you indicated a negative attitude towards anime, then you will not get characters in this category!<br>
-A 5★ character drop guarantee is common between the standard one and this Banner, with a 5★ drop you are guaranteed to get a 5★ character Emperor of the Roses Nero Claudius<br>
+If during the survey you indicated a negative attitude towards anime, then you will not get characters in this category! (This rule does not concern 5★ characters!). <br>
+A 5★ character drop guarantee is common between the standard one and this Banner, with a 5★ drop you are guaranteed to get one of the following characters: 5★ «Emperor of the Roses» Nero Claudius, 5★ «Kingdom of Lugnica» Ram or «Enigmatic Astrologer» Mona Megistus<br>
 On a roll of 4★, your chance to get the characters shown on the Banner is increased by 50%! <br><br>
 
 <br>〓 Duplicate 〓<br><br>
 If you have duplicate characters (opened in the game, bought in the store or won in Prayer), then from 2 to 20 you will pump unique talents for each character
 <br><br>〓 List of heroes 〓<br><br>
 <font color='#c27913'>Heroes 5★</font><br>
-Nero Claudius<br><br>
+Nero Claudius<br>
+Mona Megistus<br>
+Ram<br><br>
 
 <font color='#8e13c2'>Heroes 4★</font><br>
 -Legate of the Legion<br>
@@ -5849,7 +5896,7 @@ Nero Claudius<br><br>
  "DOTA_Tooltip_modifier_item_gu_dust_of_berserk_debuff_description" "You're attacking!"
  
  "DOTA_Tooltip_ability_item_gu_sword_of_the_universe" "Sword Of The Universe"
-"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_description" "<h1>Active: Break World</h1> When activated, will incapacitate all enemy units within a 300 radius for 5-10 seconds. \n <h1>Passive: Sword Of The Universe </h1> On each attack , stacks on the enemy, deals an additional 500 physical damage per stack, max stacks 100, duration 15. \n <h1>Passive: Dead Strike </h1> Increases all your attack power by %bonus_dmg_target%%.\n < h1>Passive: Bush </h1>If the item is not on cooldown, it has a 3% chance for ranged heroes, and a 5% chance for melee heroes to stun the target for %bush_duration% \n <h1>Passive: Unstable Rift </h1> Has a 10% chance to gain 1-4 gold when attacking from your hand.\n <h1>Passive: Eternal Drain</h1>Restores %lifesteal% health to the owner for each hit.\n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「When the Universe set is full, it will add a new ability - Destroyer of the world」"
+"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_description" "<h1>Active: Break World</h1> When activated, will incapacitate all enemy units within a 300 radius for 5-10 seconds. \n <h1>Passive: Sword Of The Universe </h1> On each attack , stacks on the enemy, deals an additional 500 physical damage per stack, max stacks 100, duration 15. \n <h1>Passive: Dead Strike </h1> Increases your white attack by %bonus_dmg_target%%.\n < h1>Passive: Bush </h1>If the item is not on cooldown, it has a 3% chance for ranged heroes, and a 5% chance for melee heroes to stun the target for %bush_duration% \n <h1>Passive: Unstable Rift </h1> Has a 10% chance to gain 1-4 gold when attacking from your hand.\n <h1>Passive: Eternal Drain</h1>Restores %lifesteal% health to the owner for each hit.\n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「When the Universe set is full, it will add a new ability - Destroyer of the world」"
  "DOTA_Tooltip_ability_item_gu_sword_of_the_universe_damage" "Damage:"
  "DOTA_Tooltip_ability_item_gu_sword_of_the_universe_hp_regen" "Health regen:"
  "DOTA_Tooltip_ability_item_gu_sword_of_the_universe_mana_regen" "Mana regen:"
@@ -6035,6 +6082,7 @@ Nero Claudius<br><br>
  "DOTA_Tooltip_ability_nero_aestus_domus_aurea_radius" "Radius:"
 "DOTA_Tooltip_ability_nero_aestus_domus_aurea_duration" "Duration:"
 "DOTA_Tooltip_ability_nero_aestus_domus_aurea_shard_Description" "Reduces cooldown to 60 seconds."
+"DOTA_Tooltip_modifier_aestus_domus_aurea_enemy"				"<font color='#FFE56E'>「Aestus Domus Aurea」</font>"
 
 "Target_Not_In_Theatre" "Only usable when the arena is active!"
 "Aestus_Domus_is_Active" "The arena is already active"
@@ -6053,7 +6101,7 @@ Nero Claudius<br><br>
  "gladiator_3"          "Gladiator's Aspiration"
  "gladiator_4"          "Gladiator's Drunkenness"
  "gladiator_5"          "Gladiator's Triumph"
- "gladiator_effect_des" "2 items: Increases attack power by 18% <br><br> 5 items: Increases attack power by 100% if a melee character. <br>"
+ "gladiator_effect_des" "2 items: Increases attack power by 18% if your character is melee.<br><br> 5 items: Increases attack power by 100% if a melee character. <br>"
  
  "cocoon" "Cocoon of sweet dreams"
  "cocoon_1" "Flourishing time"
@@ -6564,7 +6612,75 @@ Nero Claudius<br><br>
 
 
 
+		"DOTA_Tooltip_modifier_gu_jpz_e100_ammo_armor_reduction"				"Penetration"
+		"DOTA_Tooltip_modifier_gu_jpz_e100_ammo_armor_reduction_Description"	"Armor penetrated!"
 
+		"armor_1"														"Penetration!"
+		"armor_2"														"Hit!"
+		"armor_3"														"You hit the enemy!"
+		"armor_4"														"You penetratred enemy armor!"
+
+		"DOTA_Tooltip_ability_gu_bulwark" 								"<font color='#00ff09'>「Bulwark」</font>"
+		"DOTA_Tooltip_ability_gu_bulwark_Description" 						"Decreases front damage by %physical_damage_reduction%%%, side damage by %physical_damage_reduction_side%%%"
+
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass"					"Ancient Cuirass"
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_Description"			"<h1>Passive: Ancient Cuirass</h1>Decreasses armor by %armor_reduction% and damage by %dmg_reduction%%% for all enemies in 800 range."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_armor"				"Armor: "
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_hp"					"Health: "
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_hp_regen"				"%Health regen: "
+
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2"					"Ancient Cuirass 2"
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_Description"			"<h1>Passive: Ancient Cuirass</h1>Decreasses armor by %armor_reduction% and damage by %dmg_reduction%%% for all enemies in 800 range."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_armor"				"Armor: "
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_hp"					"Health: "
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_hp_regen"				"%Health regen: "
+
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3"					"Ancient Cuirass 3"
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_Description"			"<h1>Passive: Ancient Cuirass</h1>Decreasses armor by %armor_reduction% and damage by %dmg_reduction%%% for all enemies in 800 range."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_armor"					"Armor: "
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_hp"						"Health: "
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_hp_regen"				"%Health regen: "
+
+		"DOTA_Tooltip_ability_item_gu_bounded_field"					"Bounded Field"
+		"DOTA_Tooltip_ability_item_gu_bounded_field_Description"			"<h1>Passive: Bounded Field</h1>Creates energy field that absorbs percentage of incoming damage by using mana. Blocks %block_damage_rate%%% damage, %block_damage_per_mana% damage per 1 mana point. Ignores magic damage if user is immune to magic."
+		"DOTA_Tooltip_ability_item_gu_bounded_field_mana"					"Mana: "
+		"DOTA_Tooltip_ability_item_gu_bounded_field_mana_regen"				"Mana regen: "
+		"DOTA_Tooltip_ability_item_gu_bounded_field_int"					"Intelligence: "
+
+		"DOTA_Tooltip_ability_item_gu_bounded_field_2"					"Bounded Field 2"
+		"DOTA_Tooltip_ability_item_gu_bounded_field_2_Description"			"<h1>Passive: Bounded Field</h1>Creates energy field that absorbs percentage of incoming damage by using mana. Blocks %block_damage_rate%%% damage, %block_damage_per_mana% damage per 1 mana point. Ignores magic damage if user is immune to magic."
+		"DOTA_Tooltip_ability_item_gu_bounded_field_2_mana"					"Mana: "
+		"DOTA_Tooltip_ability_item_gu_bounded_field_2_mana_regen"			"Mana regen: "
+		"DOTA_Tooltip_ability_item_gu_bounded_field_2_int"					"Intelligence: "
+
+		"DOTA_Tooltip_ability_item_gu_bounded_field_3"					"Bounded Field 3"
+		"DOTA_Tooltip_ability_item_gu_bounded_field_3_Description"			"<h1>Passive: Bounded Field</h1>Creates energy field that absorbs percentage of incoming damage by using mana. Blocks %block_damage_rate%%% damage, %block_damage_per_mana% damage per 1 mana point. Ignores magic damage if user is immune to magic."
+		"DOTA_Tooltip_ability_item_gu_bounded_field_3_mana"					"Mana: "
+		"DOTA_Tooltip_ability_item_gu_bounded_field_3_mana_regen"			"Mana regen: "
+		"DOTA_Tooltip_ability_item_gu_bounded_field_3_int"					"Intelligence: "
+
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange"					"Equivalent Exchange"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_Description"			"<h1>Passive: Equivalent Exchange</h1>Decreases your current health to 25% of max and prevents exceeding of this limit, limits max incoming damage to %dmg_per_hit%%% dmg by hit from your max HP."
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_miss"					"Dodge Rate: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_armor"				"Armor: "
+
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2"					"Equivalent Exchange 2"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_Description"			"<h1>Passive: Equivalent Exchange</h1>Decreases your current health to 25% of max and prevents exceeding of this limit, limits max incoming damage to %dmg_per_hit%%% dmg by hit from your max HP."
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_miss"					"Dodge Rate: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_armor"					"Armor: "
+
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3"					"Equivalent Exchange 3"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_Description"			"<h1>Passive: Equivalent Exchange</h1>Decreases your current health to 25% of max and prevents exceeding of this limit, limits max incoming damage to %dmg_per_hit%%% dmg by hit from your max HP."
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_miss"					"Dodge Rate: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_armor"					"Armor: "
+
+		"ori_commander"							"Adria"
+		"ori_commander_text_1"					"Attention! Turning artillery for attacking enemies!"
+		"ori_commander_text_1_2"				"Andromeda, nothing will help you now. ARTILLERY - FIRE!"
+		"npc_lines_art"							"VCA 155 Palmaria"
+		"andromeda_help_arti"					"OH NO! Their fire support has arrived, to see positions to be attacked - upgrade Antennaes to the 50 lvl!"
+
+		"lich_error_1"							"You have lost against Lich King!"
 
 
 
