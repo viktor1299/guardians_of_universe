@@ -3988,15 +3988,12 @@
         "DOTA_Tooltip_ability_item_ultimate_scepter_2_Description"                			"Улучшает некоторые способности у героев, можно поглотить."
 
 		"DOTA_Tooltip_ability_item_gu_energy_booster_1" 								"Энергетический Камень"
-		"DOTA_Tooltip_ability_item_gu_energy_booster_1_Description" 						"<h1>Пассивная: Энергетический Вампиризм </h1> Восстанавливает энергию за каждый удар по формуле %energy_life_steal%% от нанесённого урона." 
 		"DOTA_Tooltip_ability_item_gu_energy_booster_1_bonus_energy_regen" 					"Регенерация Энергии:" 
 		
 		"DOTA_Tooltip_ability_item_gu_energy_booster_2" 								"Энергетический Камень 2"
-		"DOTA_Tooltip_ability_item_gu_energy_booster_2_Description" 						"<h1>Пассивная: Энергетический Вампиризм </h1> Восстанавливает энергию за каждый удар по формуле %energy_life_steal%% от нанесённого урона." 
 		"DOTA_Tooltip_ability_item_gu_energy_booster_2_bonus_energy_regen" 					"Регенерация Энергии:" 
 		
 		"DOTA_Tooltip_ability_item_gu_energy_booster_3" 								"Энергетический Камень 3"
-		"DOTA_Tooltip_ability_item_gu_energy_booster_3_Description" 						"<h1>Пассивная: Энергетический Вампиризм </h1> Восстанавливает энергию за каждый удар по формуле %energy_life_steal%% от нанесённого урона." 
 		"DOTA_Tooltip_ability_item_gu_energy_booster_3_bonus_energy_regen" 					"Регенерация Энергии:" 
 
 		"DOTA_Tooltip_ability_gu_boss_jump"                								"Временной Прыжок"
@@ -5949,8 +5946,8 @@
 			"profile_total_game"			"Всего сыгранных игр: "
 			"profile_wish_5_stars"			"Молитв до гарантированного персонажа 5★ <font color='#B76DFC'>«История Андромеды»</font>: "
 			"profile_wish_4_stars"			"Молитв до гарантированного персонажа 4★ <font color='#B76DFC'>«История Андромеды»</font>: "
-			"profile_wish_event_5_stars"	"Молитв до гарантированного персонажа 5★ <font color='#3AF7AF'>«Emperor of the Roses»</font>: "
-			"profile_wish_event_4_stars"	"Молитв до гарантированного персонажа 4★ <font color='#3AF7AF'>«Emperor of the Roses»</font>: "
+			"profile_wish_event_5_stars"	"Молитв до гарантированного персонажа 5★ <font color='#3AF7AF'>«Mysterious Guardians»</font>: "
+			"profile_wish_event_4_stars"	"Молитв до гарантированного персонажа 4★ <font color='#3AF7AF'>«Mysterious Guardians»</font>: "
 			"profile_role"					"Игровая роль: "
 			"dynamic_profile_all"			"Общая Статистика"
 			"player_unheroes"				"«Персонажи игрока»"
@@ -6841,35 +6838,35 @@
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_hp_regen"				"%Регенерация Здоровья: "
 
 		"DOTA_Tooltip_ability_item_gu_bounded_field"					"Bounded Field"
-		"DOTA_Tooltip_ability_item_gu_bounded_field_Description"			"<h1>Пассивная: Bounded Field</h1>Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит ману. Блокирует %block_damage_rate%%% урона и в замен тратит %block_damage_per_mana% маны за единиуц урона. Игнорирует магический урон если владелец предмета находиться под эффектом неуязвимости к магии."
+		"DOTA_Tooltip_ability_item_gu_bounded_field_Description"			"<h1>Пассивная: Bounded Field</h1>Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит ману. Блокирует %block_damage_rate%%% урона и в замен тратит 1 эденицу маны за %block_damage_per_mana% урона. Игнорирует магический урон если владелец предмета находиться под эффектом неуязвимости к магии."
 		"DOTA_Tooltip_ability_item_gu_bounded_field_mana"					"Мана: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_mana_regen"				"Восстановление Маны: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_int"					"Интеллект: "
 
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2"					"Bounded Field 2"
-		"DOTA_Tooltip_ability_item_gu_bounded_field_2_Description"			"<h1>Пассивная: Bounded Field</h1>Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит ману. Блокирует %block_damage_rate%%% урона и в замен тратит %block_damage_per_mana% маны за единиуц урона. Игнорирует магический урон если владелец предмета находиться под эффектом неуязвимости к магии."
+		"DOTA_Tooltip_ability_item_gu_bounded_field_2_Description"			"<h1>Пассивная: Bounded Field</h1>Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит ману. Блокирует %block_damage_rate%%% урона и в замен тратит 1 эденицу маны за %block_damage_per_mana% урона. Игнорирует магический урон если владелец предмета находиться под эффектом неуязвимости к магии."
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_mana"					"Мана: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_mana_regen"			"Восстановление Маны: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_int"					"Интеллект: "
 
 		"DOTA_Tooltip_ability_item_gu_bounded_field_3"					"Bounded Field 3"
-		"DOTA_Tooltip_ability_item_gu_bounded_field_3_Description"			"<h1>Пассивная: Bounded Field</h1>Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит ману. Блокирует %block_damage_rate%%% урона и в замен тратит %block_damage_per_mana% маны за единиуц урона. Игнорирует магический урон если владелец предмета находиться под эффектом неуязвимости к магии."
+		"DOTA_Tooltip_ability_item_gu_bounded_field_3_Description"			"<h1>Пассивная: Bounded Field</h1>Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит ману. Блокирует %block_damage_rate%%% урона и в замен тратит 1 эденицу маны за %block_damage_per_mana% урона. Игнорирует магический урон если владелец предмета находиться под эффектом неуязвимости к магии."
 		"DOTA_Tooltip_ability_item_gu_bounded_field_3_mana"					"Мана: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_3_mana_regen"			"Восстановление Маны: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_3_int"					"Интеллект: "
 
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange"					"Equivalent Exchange"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья."
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья. \n <h1>Пассивная: World Domination </h1> Пока предмет перезаряжаеться, вы не будете получать никакого урона при условии что он выше %dmg_per_hit%%% от вашего максимального здоровья."
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_miss"					"Уклонение: "
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_armor"				"Броня: "
 
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2"					"Equivalent Exchange 2"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья."
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья. \n <h1>Пассивная: World Domination </h1> Пока предмет перезаряжаеться, вы не будете получать никакого урона при условии что он выше %dmg_per_hit%%% от вашего максимального здоровья."
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_miss"					"Уклонение: "
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_armor"					"Броня: "
 
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3"					"Equivalent Exchange 3"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья."
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья. \n <h1>Пассивная: World Domination </h1> Пока предмет перезаряжаеться, вы не будете получать никакого урона при условии что он выше %dmg_per_hit%%% от вашего максимального здоровья."
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_miss"					"Уклонение: "
 		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_armor"					"Броня: "
 
@@ -6880,6 +6877,55 @@
 		"andromeda_help_arti"					"О НЕТ! Они смогли перебросить свою технику, для того чтобы увидеть куда упадут снаряды артилерии - прокачайте Антенны до 50 уровня!"
 
 		"lich_error_1"							"Вы потерпели поражение в битве с Королём Личём!"
+
+
+		"DOTA_Tooltip_ability_item_gu_nova" 									"Nova"
+		"DOTA_Tooltip_ability_item_gu_nova_Description" 							"<h1>Пассивная: Nova</h1> Снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br><br>Радиус: %aura_radius% \n <h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %aura_radius% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). Внимание! Урон от данного предмета работает только у героев с основным атрибутом - Интеллект. \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 5 единиц маны." 
+		"DOTA_Tooltip_ability_item_gu_nova_Note0"									"Можем повторить"
+		"DOTA_Tooltip_ability_item_gu_nova_bonus_day_vision" 						"К радиусу обзора днем: " 
+		"DOTA_Tooltip_ability_item_gu_nova_bonus_night_vision" 						"К радиусу обзора ночью: " 
+		"DOTA_Tooltip_ability_item_gu_nova_spell_amp_pct" 							"+% к урону от способностей "
+		"DOTA_Tooltip_ability_item_gu_nova_mana_regen" 								"+к восстановлению маны: "
+		"DOTA_Tooltip_ability_item_gu_nova_bonus_intellect" 						"+к интеллекту: "
+		"DOTA_Tooltip_ability_item_gu_nova_bonus_mana" 								"+к мане: "
+
+		"DOTA_Tooltip_modifier_item_gu_nova_passive_aura"						"Nova"
+		"DOTA_Tooltip_modifier_item_gu_nova_passive_aura_Description"				"Магическое сопротивление уменьшено на 100%, существо получает переодический урон."
+
+		"DOTA_Tooltip_ability_item_gu_energy_shield" 							"Energy Shield"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_Description" 					"<h1>Пассивная: Energy Shield</h1> Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит энергию. Блокирует %block_damage_rate%%% урона и в замен тратит 1 единицу энергии за %block_damage_per_energy% урона."
+		"DOTA_Tooltip_ability_item_gu_energy_shield_energy"							"Бонусная энергия:"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_energy_regen"					"Бонусная регенерация энергия:"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_str"							"Сила:"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_hp_regen"						"%Восстановление здоровья:"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_hp"								"Здоровье:"
+
+		"DOTA_Tooltip_ability_item_gu_lifeforce" 								"Life Force"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_Description" 						"<h1>Пассивная: Life Force</h1> За каждого убитого врага, добавляет вам + %hp_regen_per_stack% к восстановлению здоровья и + %mana_regen_per_stack% регенерации маны. \n <h1>Камень Опыта</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Бонусный опыт не работает в прологе, при битве с Хранителем и в финальном задании! При перекладывании предмета из основного инвентаря вы потеряете все стаки!</font>"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_hp"									"Здоровье:"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_mana"								"Мана:"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_int"								"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_mana_regen"							"Восстановление маны:"
+
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence"					"Cuirass Of Malevolence"
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_Description"			"<h1>Пассивная: Ancient Cuirass</h1>В радиусе 800 у всех врагов, уменьшает их броню на %armor_reduction% и урон на %dmg_reduction%%%."
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_armor"					"-Броня: "
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_hp"					"+Здоровье: "
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_hp_regen"				"+%Регенерации Здоровья: "
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_str"					"+Силе: "
+
+		"DOTA_Tooltip_modifier_gu_cuirass_of_malevolence_enemy"					"Cuirass Of Malevolence"
+
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman"						"Ice Dragons Talisman"
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_Description"				"<h1>Пассивная: Ice Dragons Talisman</h1>В радиусе 800 у всех врагов, уменьшает их скорость атаки на %ats_reduction%, скорость передвижения %ms_reduction%%% и регенерацию здоровья на %hp_regen_reduction%%%.\n <h1>Пассивная: О-Сознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Бонусный опыт не работает в прологе, при битве с Хранителем и в финальном задании!</font>"
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_damage"					"+Урону: "
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_str"						"+к силе: "
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_int"						"+к интеллекту: "
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_hp_regen"				"+Регенерации Здоровья: "
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_armor"					"+Броне: "
+
+		"DOTA_Tooltip_modifier_gu_ice_dragons_talisman_enemy"					"Ice Dragons Talisman"
+
 
 
 

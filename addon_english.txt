@@ -3740,15 +3740,12 @@ Difficulty: Absurd - 100% of the total accumulated rating.<br><br>
  "DOTA_Tooltip_ability_item_ultimate_scepter_2_Description" "Improves certain abilities on heroes that can be consumed."
 
  "DOTA_Tooltip_ability_item_gu_energy_booster_1" "Energy Stone"
- "DOTA_Tooltip_ability_item_gu_energy_booster_1_Description" "<h1>Passive: Energy Lifesteal</h1> Restores energy per hit for %energy_life_steal%% of damage dealt." 
  "DOTA_Tooltip_ability_item_gu_energy_booster_1_bonus_energy_regen" "Energy Regeneration:" 
  
  "DOTA_Tooltip_ability_item_gu_energy_booster_2" "Energy Stone 2"
- "DOTA_Tooltip_ability_item_gu_energy_booster_2_Description" "<h1>Passive: Energy Lifesteal</h1> Recovers energy for each hit equal to %energy_life_steal%% of damage dealt." 
  "DOTA_Tooltip_ability_item_gu_energy_booster_2_bonus_energy_regen" "Energy Regeneration:" 
  
  "DOTA_Tooltip_ability_item_gu_energy_booster_3" "Energy Stone 3"
- "DOTA_Tooltip_ability_item_gu_energy_booster_3_Description" "<h1>Passive: Energy Lifesteal</h1> Restores energy per hit for %energy_life_steal%% of damage dealt." 
  "DOTA_Tooltip_ability_item_gu_energy_booster_3_bonus_energy_regen" "Energy Regeneration:" 
 
 "DOTA_Tooltip_ability_gu_boss_jump" "Time Jump"
@@ -6682,7 +6679,52 @@ Ram<br><br>
 
 		"lich_error_1"							"You have lost against Lich King!"
 
+		"DOTA_Tooltip_ability_item_gu_nova" "Nova"
+		"DOTA_Tooltip_ability_item_gu_nova_Description" "<h1>Passive: Nova</h1> Reduces the magic resistance of enemies by %aura_resist_debuff_pct%%. <br><br>Radius: %aura_radius% \n <h1>Passive: Radiation</h1> Intermittently at %dps% deals magic damage to all enemies within %aura_radius% as %damage% + (%damage_int% * your intellect). Passive: Starburst</h1> Grants an additional 5 mana for each point of intelligence."
+		"DOTA_Tooltip_ability_item_gu_nova_Note0" "We Can Repeat"
+		"DOTA_Tooltip_ability_item_gu_nova_bonus_day_vision" "To Day Vision AoE: "
+		"DOTA_Tooltip_ability_item_gu_nova_bonus_night_vision" "To Night Vision AoE: "
+		"DOTA_Tooltip_ability_item_gu_nova_spell_amp_pct" "+% Spell Damage"
+		"DOTA_Tooltip_ability_item_gu_nova_mana_regen" "+ mana regen: "
+		"DOTA_Tooltip_ability_item_gu_nova_bonus_intellect" "+Intelligence: "
+		"DOTA_Tooltip_ability_item_gu_nova_bonus_mana" "+ mana: "
 
+		"DOTA_Tooltip_modifier_item_gu_nova_passive_aura" "Nova"
+		"DOTA_Tooltip_modifier_item_gu_nova_passive_aura_Description" "Magic resistance reduced by 100%, creature takes periodic damage."
+
+		"DOTA_Tooltip_ability_item_gu_energy_shield" "Energy Shield"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_Description" "<h1>Passive: Energy Shield</h1> Creates an energy field that absorbs all damage taken but costs energy in return. Blocks %block_damage_rate%%% of damage and in return costs 1 energy per %block_damage_per_energy% damage."
+		"DOTA_Tooltip_ability_item_gu_energy_shield_energy" "Bonus Energy:"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_energy_regen" "Bonus energy regen:"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_str" "Strength:"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_hp_regen" "%Health Regen:"
+		"DOTA_Tooltip_ability_item_gu_energy_shield_hp" "Health:"
+
+		"DOTA_Tooltip_ability_item_gu_lifeforce" "Life Force"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_Description" "<h1>Passive: Life Force</h1> For each enemy killed, gives you +%hp_regen_per_stack% health regen and +%mana_regen_per_stack% mana regen. \n <h1>Experience Stone</h1> Provides ( %exp_per_cast% + (%exp_lvl_bonus% * current player level)) experience for using abilities.\n <font color='#ff1100'>The bonus experience does not work in the prologue, during the battle with the Guardian and in the final task! main inventory you will lose all stacks!</font>"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_hp" "Health:"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_mana" "Mana:"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_int" "Intelligence:"
+		"DOTA_Tooltip_ability_item_gu_lifeforce_mana_regen" "Mana Regen:"
+
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence" "Cuirass Of Malevolence"
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_Description" "<h1>Passive: Ancient Cuirass</h1>In a 800 radius of all enemies, reduces their armor by %armor_reduction% and their damage by %dmg_reduction%%%."
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_armor" "-Armor: "
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_hp" "+Health: "
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_hp_regen" "+%Health Regen: "
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_str" "+Strength: "
+
+		"DOTA_Tooltip_modifier_gu_cuirass_of_malevolence_enemy" "Cuirass Of Malevolence"
+
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman" "Ice Dragons Talisman"
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_Description" "<h1>Passive: Ice Dragons Talisman</h1>Within 800 radius of all enemies, reduces their attack speed by %ats_reduction%, movement speed by %ms_reduction%%% and health regen by %hp_regen_reduction%%%.\n <h1>Passive: O-Consciousness</h1>Each attack gains %min_exp% to %max_exp% bonus experience, %damage_to_exp%% of damage is converted into experience.<br><br><font color='# ff1100'>Bonus experience does not work in the prologue, during the battle with the Guardian and in the final task!</font>"
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_damage" "+Damage: "
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_str" "+Strength: "
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_int" "+Intelligence: "
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_hp_regen" "+Health Regen: "
+		"DOTA_Tooltip_ability_item_gu_ice_dragons_talisman_armor" "+Armor: "
+
+		"DOTA_Tooltip_modifier_gu_ice_dragons_talisman_enemy" "Ice Dragons Talisman" 
 
 
 
