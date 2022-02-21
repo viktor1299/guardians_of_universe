@@ -370,6 +370,7 @@
 		"DOTA_Tooltip_ability_lina_laguna_cu_Note0"                                         "Работает по формуле %damage% + интеллект * 1.5."
         "DOTA_Tooltip_ability_lina_laguna_cu_target_count"								    "Количество целей: "
 		"DOTA_Tooltip_ability_lina_laguna_cu_duration"									    "Длительность: "
+		"DOTA_Tooltip_modifier_lina_laguna_cu"												"<font color='#FE5C2C'>「Unstable Lightning」</font>"
 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade" 							        "<font color='#FE5C2C'>「Lightning」</font>"
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" 					        "Выпускает разряд молнии во врага. Если в течении нескольких секунд после применения способности цель умирает, способность получает заряд, увеличивающий урон."
@@ -1489,7 +1490,7 @@
 		"DOTA_Tooltip_ability_ability_thdotsr_eirin01_movement_speed_percent_bonus" 		"Бонусная скорость передвижения: "			
 		
 		"DOTA_Tooltip_ability_ability_thdots_eirin02"                            		"<font color='#649dfa'>Revival 「Game of Life」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_eirin02_Description"		   					"Эйрин стреляет стрелой, которая выпускает лечебный туман при столкновении с союзником/врагом. Туман лечит союзников в радиусе действия и наносит урон врагам. Если стрела попадает в союзника, стрела восстановит больше здоровья. Если стрела попадёт во вражеского героя, то нанесет дополнительный чистый урон и оглушит цель. Время оглушения зависит от расстояния, которое пролетела стрела, вплоть до двух секунд. \n Длительность лечения: 4 \n Бонусный урон/лечение от интеллекта при столкновении со стрелой: %int_scale_impact% \n Дополнительный урон/исцеление в тумане от интеллекта: %int_scale_area%."
+		"DOTA_Tooltip_ability_ability_thdots_eirin02_Description"		   					"Выстреливает стрелу в выбранную область, при попадании стрела создаст ауру которая будет наносить переодический урон. Если стрела попадёт во вражеского героя, то нанесет дополнительный чистый урон и оглушит цель. Время оглушения зависит от расстояния, которое пролетела стрела, вплоть до двух секунд. \n Бонусный урон от интеллекта при столкновении со стрелой: %int_scale_impact% \n Дополнительный урон в тумане от интеллекта: %int_scale_area%."
 		"DOTA_Tooltip_ability_ability_thdots_eirin02_move_speed"		   					"Скорость стрелы: "
 		"DOTA_Tooltip_ability_ability_thdots_eirin02_collision_radius"		   				"Радиус столкновения: "
 		"DOTA_Tooltip_ability_ability_thdots_eirin02_damage"								"Лечение/Урон："
@@ -1804,65 +1805,11 @@
 		"DOTA_Tooltip_modifier_solwave_shard" 											"<font color='#F7DF17'>「Energy Instability」</font>"
 		"DOTA_Tooltip_modifier_solwave_shard_Description" 									"Замедляет скорость атаки на 50."	
 
-
 	 	"npc_dota_hero_tinker"											"Akemi Homura"
 	
+		"npc_dota_hero_ancient_apparition" 										 "Т-72 «Ural»「★★★★」"
 
-		"npc_dota_hero_venomancer" 										 "Т-72 «Ural»「★★★」"
-		
-		"DOTA_Tooltip_Ability_t72_upgrade"												"Т-72 (Объект 172М)"
-		"DOTA_Tooltip_Ability_t72_upgrade_Description"										"Увеличивает максимальную прочность и броню танка."
-		"DOTA_Tooltip_Ability_t72_upgrade_bonus_health"										"Прочность: "
-		"DOTA_Tooltip_Ability_t72_upgrade_bonus_armor"										"Броня: "
-		
-		"DOTA_Tooltip_Ability_t72_2А46"													"2А46 (Д-81ТМ)"	
-		"DOTA_Tooltip_Ability_t72_2А46_Description"											"После принятия на вооружение танковой пушки 2А26 в составе вооружения новых основных танков Т-64А и Т-72, опыт эксплуатации выявил недостаток новых 125-мм гладкоствольных танковых пушек. Пушка 2А46 разрабатывалась в ОКБ-9 под руководством Голубева В. А. и в 1970 году была принята на вооружение. <br><font color='#fc0303'>Скорость атаки и базовое время атаки нельзя изменить!</font>"
-		"DOTA_Tooltip_Ability_t72_2А46_bonus_damage"										"Урон: "
-		"DOTA_Tooltip_Ability_t72_2А46_reload_time"											"Скорость атаки: "
-		"DOTA_Tooltip_Ability_t72_2А46_attack_range_bonus"									"Дальность выстрела: "
-		
-		"DOTA_Tooltip_Ability_t72kym"													"9К120 «Свирь»"	
-		"DOTA_Tooltip_Ability_t72kym_Description"											"Комплекс управляемого вооружения 9К120 «Свирь» обеспечивает ведение стрельбы управляемой ракетой днём с места и с коротких остановок на дальностях от 100 до 4000 м."	
-		"DOTA_Tooltip_Ability_t72kym_damage"												"Урон: "
-		"DOTA_Tooltip_Ability_t72kym_stun"													"Вывод из строя цели: "
-		"DOTA_Tooltip_Ability_t72kym_delay"													"Длительность подготовки: "		
-		
-		"DOTA_Tooltip_Ability_t72explosion"												"Т-72 Боекомплект"	
-		"DOTA_Tooltip_Ability_t72explosion_Description"										"При уничтожении подрывает боекомплект танка, нанося урон в размере 100% от здоровья Т-72 всем целям в радиусе %radius% вокруг него."	
-		"DOTA_Tooltip_Ability_t72explosion_shard_Description"							"Изменяет тип урона на чистый."	
-
-		"DOTA_Tooltip_ability_tankBK"                                        			"Боеукладка"
-		"DOTA_Tooltip_ability_tankBK_description"                            				"Когда у техники остается меньше 20% здоровья, она каждые несколько секунд оглушает всех врагов в радиусе"
-		"DOTA_Tooltip_ability_tankBK_duration"                             					"Длительность: "
-		"DOTA_Tooltip_ability_tankBK_radius"                         						"Радиус: "
-
-		"DOTA_Tooltip_modifier_t72" 													"Уклонение М-1"
-		"DOTA_Tooltip_modifier_t72_Description" 											"Ваш танк защищён от любого вида атаки на 1 раз."
-		
-		"DOTA_Tooltip_Ability_t72_arenam1"												"«Аре́на»"	
-        "DOTA_Tooltip_Ability_t72_arenam1_Description"										"Комплекс активной защиты (КАЗ) танка. Предназначен для защиты танков от противотанковых кумулятивных зарядов (ПТУР и снарядов)."	
-		"DOTA_Tooltip_Ability_t72_arenam1_delay" 											"Задержка Востановления: "
-
-		"DOTA_Tooltip_ability_t72_maingun" 												"3БМ-22"
-		"DOTA_Tooltip_ability_t72_maingun_description" 										"Главный снаряд танка."
-		"DOTA_Tooltip_ability_t72_maingun_scepter_description"								"Позволяет применять способность по области."
-		"DOTA_Tooltip_ability_t72_maingun_cast_range"										"Радиус: "
-		"DOTA_Tooltip_ability_t72_maingun_total_cast_time_tooltip"							"Подготовка выстрела: "
-		"DOTA_Tooltip_ability_t72_maingun_assassinate_damage"								"Урон: "
-		"DOTA_Tooltip_ability_t72_maingun_scatter_range"									"Дальность: "
-		"DOTA_Tooltip_ability_t72_maingun_scepter_radius"									"Радиус со скипетром: "
-		"DOTA_Tooltip_ability_t72_maingun_scepter_crit_bonus"								"%Критический урон: "
-			"DOTA_Tooltip_modifier_t72_maingun"													"Наводка ЗБМ-22"
-			"DOTA_Tooltip_modifier_t72_maingun_Description"										"Залп через 8 секунд!"
-
-		"DOTA_Tooltip_ability_t72_machine_gun_attack"									"12.7 mm НСВТ"
-		"DOTA_Tooltip_ability_t72_machine_gun_attack_Description"							"Если данная способность активирована, то T-72 обстреливает всех вражеских юнитов вокруг себя из крупнокалиберного пулемёта, потребляя энергию каждую секунду.<br>Потребляет 2 <font color='#f7a62d'>Энергии раз за каждый выстрел."
-        "DOTA_Tooltip_ability_t72_machine_gun_attack_radius"								"Радиус:"
-        "DOTA_Tooltip_ability_t72_machine_gun_attack_rocket_damage"							"Урон пули:"
-        "DOTA_Tooltip_ability_t72_machine_gun_attack_attack_mult"							"Скорость обстрела:"
-
-
-			"npc_dota_hero_bounty_hunter"									"Kizaru「★★★」"
+		"npc_dota_hero_bounty_hunter"									"Kizaru「★★★」"
 
 		"DOTA_Tooltip_Ability_void_spirit_astral_step"									"<font color='#E0F817'>「Laser ray」</font>"	
 		"DOTA_Tooltip_Ability_void_spirit_astral_step_Description"							"Кизару проносится сквозь врагов, нанося им урон."	
@@ -2574,6 +2521,10 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_attack_range" 				"+к дальности атаки: "  
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_all_damage_bonus_pct" 			"+% к всему исходящему урону: " 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_strength" 					"+ко всем атрибутам: "  
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_health" 					"+к здоровью: "
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_mana" 						"+к мане: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_health_regen" 				"+к восстановлению здоровья: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_mana_regen" 				"+к востановлению маны: "    
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2"              				"Заряженная Магическая Коса 2"
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 					"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает некоторые способности героев." 
@@ -2582,6 +2533,10 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_attack_range" 			"+к дальности атаки:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_all_damage_bonus_pct" 			"+% к всему исходящему урону:"  
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_strength" 				"+ко всем атрибутам:"  
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_health" 					"+к здоровью: "
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_mana" 						"+к мане: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_health_regen" 				"+к восстановлению здоровья: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_mana_regen" 				"+к востановлению маны: "    
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3"              				"Коса Смерти"
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_Description" 					"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает некоторые способности героев. " 
@@ -2590,6 +2545,10 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_attack_range" 			"+к дальности атаки: "  
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_all_damage_bonus_pct" 			"+% к всему исходящему урону: " 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_strength" 				"+ко всем атрибутам:"   
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_health" 					"+к здоровью: "
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_mana" 						"+к мане: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_health_regen" 				"+к восстановлению здоровья: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_mana_regen" 				"+к востановлению маны: "    
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4"              				"Проклятая Коса Смерти"
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_Description" 					"<h1>Активируемая: Дезинтеграция</h1> Призывает Жнеца к каждому юниту в радиусе 500, выпуская мощный всплеск темной энергии во врага, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Орудие Тьмы</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания.\n<h1>Пассивная: </h1> Улучшает ульт, а также некоторые способности героев." 
@@ -2598,6 +2557,10 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_attack_range" 			"+к дальности атаки: "  
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_all_damage_bonus_pct" 			"+% к всему исходящему урону: " 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_strength" 				"+ко всем атрибутам:"   
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_health" 					"+к здоровью: "
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_mana" 						"+к мане: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_health_regen" 				"+к восстановлению здоровья: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_mana_regen" 				"+к востановлению маны: "    
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r"              			"Проклятая Коса Смерти"
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 					"Можно получить выполнив квест за Кастера"
@@ -3274,7 +3237,7 @@
 
 		"npc_dota_hero_templar_assassin_race"	"Раса: «Spirits»"
 		"npc_dota_hero_warlock_race" 			"Раса: «Spirits»"
-		"npc_dota_hero_venomancer_race" 		"Раса: «Armored»"
+		"npc_dota_hero_ancient_apparition_race" 		"Раса: «Armored»"
 		"npc_dota_hero_bristleback_race" 		"Раса: «Armored»"
 		"npc_dota_hero_lycan_race" 				"Раса: «Tau'ri»"
 		"npc_dota_hero_abaddon_race" 			"Раса: «Anquietas»"
@@ -3338,6 +3301,7 @@
 		"npc_dota_hero_pugna_race"				"Раса: «Ori»"
 		"npc_dota_hero_brewmaster_race"			"Раса: «Armored»"
 		"npc_dota_hero_troll_warlord_race"		"Раса: «Tau'ri»"
+		"npc_dota_hero_venomancer_race"			"Раса: «Armored»"
 
 		"npc_cu_neitrall_updated"									"Вселенский Крип Стандартный"
 		"npc_cu_neitrall_updated_hard"								"Рыба Мутант"
@@ -4164,6 +4128,7 @@
 -Т-90М «Прорыв»<br><br>
 
 <font color='#8e13c2'>Герои 4★</font><br>
+-Т-72 «Ural»
 -Legate of the Legion<br>
 -Ghost Warrior<br>
 -Earth Mage<br>
@@ -4197,7 +4162,7 @@
 -Eternity<br>
 -Emilia<br>
 -Ran Yakumo<br>
--Т-72<br>"
+-BTR-82А<br>"
  
 		"custom_sound_pack_text"	"Если у вас есть уникальный ключ смены пакета музыки, введите его ниже."
 		"custom_sound_pack"			"Введите ключ..."
@@ -4319,16 +4284,16 @@
 		"npc_dota_hero_bounty_hunter_t6_name"		"-「Познание」_-"	
 		"npc_dota_hero_bounty_hunter_t6"		"Улучшает - 「Yasakani no Magatama」! <br><br>Интервал равен 0.1."
 
-		"npc_dota_hero_venomancer_t2_name"		"-「Бронебойные Пули」_-"
-		"npc_dota_hero_venomancer_t3_name"		"-「Подкалиберный Заряд」_-"
-		"npc_dota_hero_venomancer_t4_name"		"-「Осколочный Заряд」_-"
-		"npc_dota_hero_venomancer_t5_name"		"-「Подрыв БК」_-"
-		"npc_dota_hero_venomancer_t6_name"		"-「Улучшеный Затвор」_-"
-		"npc_dota_hero_venomancer_t2"		"Улучшает - 12.7 mm НСВТ<br><br> Изменяет формулу урона на базовый урон + ваша сила"
-		"npc_dota_hero_venomancer_t3"		"Улучшает - ЗБМ-22<br><br> Увеличивает критический урон в 8 раз."
-		"npc_dota_hero_venomancer_t4"		"Улучшает - ЗБМ-22<br><br> Позволяет использовать ЗБМ-22 по области."
-		"npc_dota_hero_venomancer_t5"		"Улучшает - Т-72 Боекомплект<br><br> При уничтожении подрывает боеукладку, урон и длительность стана увеличиваются 4 раза."
-		"npc_dota_hero_venomancer_t6"		"Улучшает - 12.7 mm НСВТ<br><br> Интервал стрельбы уменьшен до 0.2."
+		"npc_dota_hero_ancient_apparition_t2_name"		"-「3ВБМ3」_-"
+		"npc_dota_hero_ancient_apparition_t3_name"		"-「3ВБК7」_-"
+		"npc_dota_hero_ancient_apparition_t4_name"		"-「3ВОФ22」_-"
+		"npc_dota_hero_ancient_apparition_t5_name"		"-「Система заряжания」_-"
+		"npc_dota_hero_ancient_apparition_t6_name"		"-「Улучшеный Взрыватель」_-"
+		"npc_dota_hero_ancient_apparition_t2"		"Улучшает - <font color='#fd2727'>「3ВБМ3」</font><br><br> Добавляет бонусный урон который равен вашему максимальному здоровью."
+		"npc_dota_hero_ancient_apparition_t3"		"Улучшает - <font color='#fd7427'>「3ВБК7」</font><br><br> Позволяет с шансом в 20% при попадании по цели нанести ей дополнительный урон который равен 10% от её максимального здоровья Чистым."
+		"npc_dota_hero_ancient_apparition_t4"		"Улучшает - <font color='#fd7427'>「3ВОФ22」</font><br><br> Добавляет бонусный урон - сила * 1.5."
+		"npc_dota_hero_ancient_apparition_t5"		"Улучшает - <font color='#fd2727'>「3ВБМ3」</font><br><font color='#f9fd27'>「3ВБК7」</font><br><font color='#fd7427'>「3ВОФ22」</font><br><br> Позволяет переключать снаряды без перезарядки а так же убирает прерывание перезарядки в случае отмены применения."
+		"npc_dota_hero_ancient_apparition_t6"		"Улучшает - <font color='#fd7427'>「9М112М2」</font><br><br> Увеличивает общий урон ракеты в 10 раз.<br><br> Улучшает - <br><font color='#f9fd27'>「3ВБК7」</font><br><font color='#fd7427'>「3ВОФ22」</font><br><br> Убирает затраты энергии."
 
 		"npc_dota_hero_monkey_king_t2_name"		"-「Spectral Shiv」_-"
 		"npc_dota_hero_monkey_king_t3_name"		"-「Disaster Contact」_-"
@@ -4341,16 +4306,16 @@
 		"npc_dota_hero_monkey_king_t5"		"Улучшает -「Fiesta of Death」<br><br> Изменяет формулу урона на базовый урон + ((интеллект + сила + ловкость) * множитель) + % текущего здоровья."
 		"npc_dota_hero_monkey_king_t6"		"Улучшает -「Fiesta of Death」<br><br> Уменьшает перезарядку до 10 секунд."
 
-		"npc_dota_hero_shredder_t2_name"		"-「2А46М-5 Титан」_-"
-		"npc_dota_hero_shredder_t3_name"		"-「2А46М-5 Кумулятив」_-"
-		"npc_dota_hero_shredder_t4_name"		"-「2А46М-5 Осколочный」_-"
-		"npc_dota_hero_shredder_t5_name"		"-「2А46М-5 Универсальный」_-"
-		"npc_dota_hero_shredder_t6_name"		"-「Улучшеный Затвор」_-"
-		"npc_dota_hero_shredder_t2"		"Улучшает - 2А46М-5 Подкалиберный<br><br> Добавляет множитель урона базовый урон + (сила * множитель). Увеличивает длительность стана в 4 раза."
-		"npc_dota_hero_shredder_t3"		"Улучшает - 2А46М-5 Подкалиберный<br><br> Позволяет игнорировать магический иммунитет, а также любые типы уклонения или защиты от урона."
-		"npc_dota_hero_shredder_t4"		"Улучшает - 2А46М-5 Подкалиберный<br><br> При использовании, выстрелит во всех вражеских юнитов вокруг танка в радиусе 600."
-		"npc_dota_hero_shredder_t5"		"Улучшает - 2А46М-5 Подкалиберный<br><br> При попадании имеет шанс в 95% нанести критический урон в размере базовый урон * 40."
-		"npc_dota_hero_shredder_t6"		"Улучшает - 2А46М-5 Подкалиберный<br><br> Уменьшает перезарядку до 1.5 секунд."
+		"npc_dota_hero_shredder_t2_name"		"-「3БМ46/3БМ48」_-"
+		"npc_dota_hero_shredder_t3_name"		"-「3БК29(М)」_-"
+		"npc_dota_hero_shredder_t4_name"		"-「3ОФ26」_-"
+		"npc_dota_hero_shredder_t5_name"		"-「Система Заряжания」_-"
+		"npc_dota_hero_shredder_t6_name"		"-「Энергобаланс」_-"
+		"npc_dota_hero_shredder_t2"		"Улучшает - <font color='#fd2727'>「3БМ46/3БМ48」</font><br><br> Добавляет к базовому урон, урон который зависит от максимального здоровья Т-90."
+		"npc_dota_hero_shredder_t3"		"Улучшает - <font color='#f9fd27'>「3БК29(М)」</font><br><br> Добавляет бонусный урон - ваша броня * 5."
+		"npc_dota_hero_shredder_t4"		"Улучшает - <font color='#fd7427'>「3ОФ26」</font><br><br> Изменяет тип наносимого урона по области на ЧИСТЫЙ."
+		"npc_dota_hero_shredder_t5"		"Улучшает - <font color='#fd2727'>「3БМ46/3БМ48」</font><br> <font color='#f9fd27'>「3БК29(М)」</font><br><font color='#fd7427'>「3ОФ26」</font><br><br>Убирает перезарядку между переключением на разные типа снарядов, так-же переключение сработает даже если отметить перезарядку."
+		"npc_dota_hero_shredder_t6"		"Улучшает - <br><font color='#f9fd27'>「3БК29(М)」</font><br><font color='#fd7427'>「3ОФ26」</font><br><br> Убирает затраты энергии на все типы снарядов. <br><br><font color='#fd7427'>「9М112М2」</font><br><br> Увеличивает наносимый урон в 15 раз"
 
 		"npc_dota_hero_silencer_t2_name"		"-「MQ-9 Predator」_-"
 		"npc_dota_hero_silencer_t3_name"		"-「Поддержка Оверлорда」_-"
@@ -4886,6 +4851,18 @@
 		"npc_dota_hero_brewmaster_t5"				"Улучшает   <br><font color='#fd7427'>「SprgG 46」</font><br><font color='#f9fd27'>「Gr 46 H1A」</font><br><font color='#fd2727'>「PzGr 46」</font><br><br> Убирает перезарядку между переключением на разные типа снарядов, так-же переключение сработает даже если отметить перезарядку."
 		"npc_dota_hero_brewmaster_t6"				"Улучшает   <br><font color='#f9fd27'>「Gr 46 H1A」</font><br><font color='#fd7427'>「SprgG 46」</font><br><br> Больше выстрелы не будут тратить золото."
 
+		"npc_dota_hero_venomancer_t2_name"		"「3УБР8」"
+		"npc_dota_hero_venomancer_t3_name"		"「ЗУОФ8」"
+		"npc_dota_hero_venomancer_t4_name"		"「ЗУОФ8」"
+		"npc_dota_hero_venomancer_t5_name"		"「Система Заряжания」"
+		"npc_dota_hero_venomancer_t6_name"		"「Белый Фосфор」"
+		"npc_dota_hero_venomancer_t2"				"Улучшает   <br><font color='#fd2727'>「3УБР8」</font><br><br> Позволяет наносить дополнительный урон который равен ловкости персонажа."
+		"npc_dota_hero_venomancer_t3"				"Улучшает   <br><font color='#f9fd27'>「ЗУОФ8」</font><br><br> Добавляет бонусный урон - ловкость * 1.5"
+		"npc_dota_hero_venomancer_t4"				"Улучшает   <br><font color='#fd7427'>「ЗУОФ8」</font><br><br> Уменьшает потребление энергии за выстрел до 0.5%"
+		"npc_dota_hero_venomancer_t5"				"Улучшает   <br><font color='#fd7427'>「3УБР8」</font><br><font color='#fd2727'>「ЗУОФ8」</font><br><br> Убирает перезарядку между переключением на разные типа снарядов, так-же переключение сработает даже если отметить перезарядку."
+		"npc_dota_hero_venomancer_t6"				"Улучшает   <br><font color='#f9fd27'>「ЗУОФ8」</font><br><br><br> Изменяет тип наносимого урона по области на ЧИСТЫЙ."
+
+
 	"task_random_address"        "Для вас сгенерирован случайный адресс для системы врат Milky Way, Pegasus либо Вселенная. Наберите его на устройстве набора за отведённое время и получите награду!"
 	"task_name_address"			"Случайный Адрес"
 	
@@ -5365,7 +5342,7 @@
 
 
 		"npc_dota_hero_warlock_dificult" 			"Сложность героя: «Нормально»"
-		"npc_dota_hero_venomancer_dificult" 		"Сложность героя: «Сложно»"
+		"npc_dota_hero_ancient_apparition_dificult" 		"Сложность героя: «Сложно»"
 		"npc_dota_hero_bristleback_dificult" 		"Сложность героя: «Нормально»"
 		"npc_dota_hero_abaddon_dificult" 			"Сложность героя: «Легко»"
 		"npc_dota_hero_earth_spirit_dificult" 		"Сложность героя: «Легко»"
@@ -5426,10 +5403,11 @@
 		"npc_dota_hero_pugna_dificult"				"Сложность героя: «Легко»"
 		"npc_dota_hero_brewmaster_dificult"			"Сложность героя: «Нормально»"
 		"npc_dota_hero_troll_warlord_dificult"		"Сложность героя: «Нормально»"
+		"npc_dota_hero_venomancer_dificult"			"Сложность героя: «Нормально»"
 
 		"npc_dota_hero_queenofpain_type" 		"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_warlock_type" 			"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
-		"npc_dota_hero_venomancer_type" 		"Роль: <font color='#ba1111'>«Танк»</font>"
+		"npc_dota_hero_ancient_apparition_type" "Роль: <font color='#ba1111'>«Танк»</font>"
 		"npc_dota_hero_bristleback_type" 		"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"npc_dota_hero_abaddon_type" 			"Роль: <font color='#ba1111'>«Танк»</font>"
 		"npc_dota_hero_earth_spirit_type" 		"Роль: <font color='#ba1111'>«Танк»</font>"
@@ -5471,11 +5449,11 @@
 		"npc_dota_hero_obsidian_destroyer_type" "Роль: <font color='#ba1111'>Танк»</font>"
 		"npc_dota_hero_skeleton_king_type" 		"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"npc_dota_hero_skywrath_mage_type" 		"Роль: <font color='#119e09'>«Основной ДПС»</font>"
-		"npc_dota_hero_mirana_type"             "Роль: <font color='#0f8fa8'>«Поддержка»</font>"
+		"npc_dota_hero_mirana_type"             "Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_void_spirit_type"        "Роль: <font color='#0f8fa8'>«Поддержка»</font>"
 		"npc_dota_hero_antimage_type"        	"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"npc_dota_hero_pudge_type"        		"Роль: <font color='#119e09'>«Основной ДПС»</font>"
-		"npc_dota_hero_monkey_king_type"        "Роль: <font color='#119e09'>«ДПС</font>, <font color='#a822ba'>«Маг. ДПС»</font>"
+		"npc_dota_hero_monkey_king_type"        "Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_templar_assassin_type"   "Роль: <font color='#0f8fa8'>«Поддержка»</font>"
 		"npc_dota_hero_wisp_type"				"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_puck_type" 				"Роль: <font color='#0f8fa8'>«Поддержка»</font>"
@@ -5491,9 +5469,10 @@
 		"npc_dota_hero_pugna_type"   			"Роль: <font color='#a822ba'>«Маг. ДПС»</font>"
 		"npc_dota_hero_brewmaster_type"			"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"npc_dota_hero_troll_warlord_type"		"Роль: <font color='#119e09'>«Основной ДПС»</font>"
+		"npc_dota_hero_venomancer_type"			"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 
 		"npc_dota_hero_warlock_rare" 			"Баннер: «История Андромеды»"
-		"npc_dota_hero_venomancer_rare" 		"Баннер: «История Андромеды»"
+		"npc_dota_hero_ancient_apparition_rare" 		"Баннер: «История Андромеды»"
 		"npc_dota_hero_bristleback_rare" 		"Баннер: «История Андромеды»"
 		"npc_dota_hero_lycan_rare" 				"Баннер: «История Андромеды»"
 		"npc_dota_hero_abaddon_rare" 			"Баннер: «История Андромеды»"
@@ -5558,10 +5537,11 @@
 		"npc_dota_hero_pugna_rare"				"Получение: «Прохождение Сложного»"
 		"npc_dota_hero_brewmaster_rare"			"Получение: «Засекречено»"
 		"npc_dota_hero_troll_warlord_rare"		"Персонаж игрока: Emiya"
+		"npc_dota_hero_venomancer_rare"			"Баннер: «История Андромеды»"
 
 		"npc_dota_hero_queenofpain_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_warlock_damage" 				"Источник: «Guardians of Universe»"
-		"npc_dota_hero_venomancer_damage" 			"Источник: «Guardians of Universe»"
+		"npc_dota_hero_ancient_apparition_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_bristleback_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_abaddon_damage" 				"Источник: «Dusk»"
 		"npc_dota_hero_earth_spirit_damage" 		"Источник: «Guardians of Universe»"
@@ -5623,9 +5603,10 @@
 		"npc_dota_hero_pugna_damage"				"Источник: «ASB»"
 		"npc_dota_hero_brewmaster_damage"			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_troll_warlord_damage"		"Источник: «Anime»"
+		"npc_dota_hero_venomancer_damage"			"Источник: «Guardians of Universe»"
 
 		"npc_dota_hero_warlock_weapon" 				"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
-		"npc_dota_hero_venomancer_weapon" 			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
+		"npc_dota_hero_ancient_apparition_weapon" 			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
 		"npc_dota_hero_bristleback_weapon" 			"Вооружение: <font color='#ff565d'>«Орудие»</font>"  
 		"npc_dota_hero_lycan_weapon" 				"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
 		"npc_dota_hero_abaddon_weapon" 				"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
@@ -5684,8 +5665,9 @@
 		"npc_dota_hero_earthshaker_weapon"			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
 		"npc_dota_hero_tiny_weapon"					"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
 		"npc_dota_hero_pugna_weapon"				"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
-		"npc_dota_hero_troll_warlord_weapon" 				"Вооружение: <font color='#76ff56'>«Лук»</font>"
+		"npc_dota_hero_troll_warlord_weapon" 		"Вооружение: <font color='#76ff56'>«Лук»</font>"
 		"npc_dota_hero_brewmaster_weapon"			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
+		"npc_dota_hero_venomancer_weapon"			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
 
 		"npc_gu_t72_base"			"Т-72 База"
 		"npc_gu_t90_base"			"Т-90 База"
@@ -5904,6 +5886,7 @@
 «Ram»<br><br>
 
 <font color='#8e13c2'>Герои 4★</font><br>
+-Т-72 «Ural»
 -Legate of the Legion<br>
 -Ghost Warrior<br>
 -Earth Mage<br>
@@ -5937,7 +5920,7 @@
 -Eternity<br>
 -Emilia<br>
 -Ran Yakumo<br>
--Т-72<br>"
+-BTR-82А<br>"
 
 
 			"npc_dota_hero_skeleton_king_prew_text"				"Ты станешь моим возмездием, и страшен будет удел тех, кто станет у тебя на пути. Иди же и взгляни в лицо своей судьбе, мой рыцарь смерти."
@@ -6909,7 +6892,7 @@
 
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence"					"Cuirass Of Malevolence"
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_Description"			"<h1>Пассивная: Ancient Cuirass</h1>В радиусе 800 у всех врагов, уменьшает их броню на %armor_reduction% и урон на %dmg_reduction%%%."
-		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_armor"					"-Броня: "
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_armor"					"+Броня: "
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_hp"					"+Здоровье: "
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_hp_regen"				"+%Регенерации Здоровья: "
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_str"					"+Силе: "
@@ -6926,14 +6909,94 @@
 
 		"DOTA_Tooltip_modifier_gu_ice_dragons_talisman_enemy"					"Ice Dragons Talisman"
 
+		"DOTA_Tooltip_ability_gu_t72_upgrade" 								"<font color='#fd2727'>「Т-72 «Урал»」</font>"
+		"DOTA_Tooltip_ability_gu_t72_upgrade_Description" 					"Разработка Т-72 началась в 1967 году. В ходе дальнейшей работы, в 1968-69 годах, были проведены сравнительные испытания основных танков Т-64А с двигателем В-45 с эжекционной системой охлаждения (разработка Харьковского конструкторского бюро машиностроения) и образцов с двигателем В-45 с вентиляторной системой охлаждения (разработка конструкторского бюро в Нижнем Тагиле) и автоматом заряжания пушки на 22 выстрела. Последние показали более высокие результаты. Прокачивает основные характеристики. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела, + %damage% к урону. Предметы на уменьшение базового времени атаки не работают. Получает на 20% меньше любого урона по себе. <br><br> Имеет фиксированую скорость стрельбы, никакие предметы на снижение базового времени атаки и другое не работают!"
+		"DOTA_Tooltip_ability_gu_t72_upgrade_scepter_Description"			"Увеличивает бонусный урон на 150%" 
+
+		"DOTA_Tooltip_ability_gu_t72_ammo_bb" 								"<font color='#fd2727'>「3ВБМ3」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_bb_Description" 					"Бронебойный снаряд <font color='#fd2727'>「3ВБМ3」</font> - основной снаряд который использует орудие Д-81ТМ. Бронепробитие данного снаряда составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительно 50% урона по цели в зависимости от силы Т-72"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_bb" 							"<font color='#fd2727'>「3ВБМ3」</font>"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_bb_Description" 				"Стандартный снаряд, не имеет никаких уникальных эффектов"
+
+		"DOTA_Tooltip_ability_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「3ВБК7」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_kym_Description" 				"Кумулятивный снаряд <font color='#f9fd27'>「3ВБК7」</font> предназначен для пробития толстой брони, пробитие данным снарядом составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительный Чистый урон в размере 2% от максимального здоровья цели. Данный снаряд имеет шанс в %chance_force_kill%%% обездвижить цель на 5 секунд, данное оглушение игнорирует сопротивление эффектам, стоимость выстрела составляет 5% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「3ВБК7」</font>"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_kym_Description" 				"Имеет некоторый шанс оглушить противника, значительно снижает броню врага, стоимость выстрела - 5% от вашей энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
+		
+		"DOTA_Tooltip_ability_gu_t72_ammo_heat" 							"<font color='#fd7427'>「3ВОФ22」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_heat_Description" 				"Осколочно-фугасные снаряд <font color='#fd7427'>「3ВОФ22」</font> не пробивает броню но наносит %damage%%% урона по области в радиусе %heat_dmg_radius% от основной цели. Стоимость выстрела данным снарядом составляет 2% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_heat_penetration" 				"Пробитие: "
+		"DOTA_Tooltip_modifier_gu_t72_ammo_heat" 							"<font color='#fd7427'>「3ВОФ22」</font>"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_heat_Description" 				"Наносит огромный урон по области в радиусе 800, стоимость выстрела - 2% энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
+
+		"DOTA_Tooltip_modifier_gu_t72_ammo_armor_reduction"					"Пробитие"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_armor_reduction_Description"			"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+
+		"DOTA_Tooltip_ability_gu_t72_ammo_rocket" 							"<font color='#fd7427'>「9М112М2」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_Description" 					"Советский комплекс управляемого вооружения танка (КУВТ) с радиокомандным наведением <font color='#fd7427'>「9М112М2」</font> Позволяет поражать вражеские цели на дальности 50000, попадание игнорирует броню врага нанося урон по формуле %base_damage% + (%bonus_dmg_per_armor% * вашу броню), перезарядку данной способности невозможно уменьшить."
+		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_count_target" 					"Количество целей: "
+		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_shard_Description" 			"Добавляет бонусный урон - сила * 3"
 
 
+		"DOTA_Tooltip_ability_gu_t90_upgrade" 								"<font color='#fd2727'>「Т-90М «Прорыв»」</font>"
+		"DOTA_Tooltip_ability_gu_t90_upgrade_Description" 					"Т-90 является глубокой модернизацией Т-72Б, созданного в нижнетагильском «УКБТМ» в 1989 году под руководством главного инженера Владимира Поткина (заводское название «Объект 188»). Прокачивает основные характеристики. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела, + %damage% к урону. Получает на 20% меньше любого урона по себе. <br><br> Имеет фиксированую скорость стрельбы, никакие предметы на снижение базового времени атаки и другое не работают!"
+		"DOTA_Tooltip_ability_gu_t90_upgrade_scepter_Description"			"Увеличивает бонусный урон на 150%" 
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_bb" 								"<font color='#fd2727'>「3БМ46/3БМ48」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_bb_Description" 					"Бронебойный снаряд <font color='#fd2727'>「3БМ46/3БМ48」</font> - основной снаряд который использует орудие Д-81ТМ. Бронепробитие данного снаряда составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительно 100% урона по цели в зависимости от силы Т-90"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_bb" 							"<font color='#fd2727'>「3БМ46/3БМ48」</font>"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_bb_Description" 				"Стандартный снаряд, не имеет никаких уникальных эффектов"
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_kym" 							"<font color='#f9fd27'>「3БК29(М)」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_kym_Description" 				"Кумулятивный снаряд <font color='#f9fd27'>「3БК29(М)」</font> предназначен для пробития толстой брони, пробитие данным снарядом составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительный Чистый урон в размере 5% от максимального здоровья цели. С шансом в 20% снаряд может нанести дополнительно 10% урона от здоровья цели ЧИСТЫМ, стоимость выстрела составляет 5% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font> <br><br><font color='#fd2727'>Вниманий! Эффект данного снаряда накладываеться, это значит что пока вы атакуете цель её броня будет уменьшатся до бесконечности!</font>"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_kym" 							"<font color='#f9fd27'>「3БК29(М)」</font>"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_kym_Description" 				"Имеет некоторый шанс оглушить противника, значительно снижает броню врага, стоимость выстрела - 5% от вашей энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font>"
+		
+		"DOTA_Tooltip_ability_gu_t90_ammo_heat" 							"<font color='#fd7427'>「3ОФ26」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_heat_Description" 				"Осколочно-фугасные снаряд <font color='#fd7427'>「3ОФ26」</font> не пробивает броню но наносит %damage%%% урона по области в радиусе %heat_dmg_radius% от основной цели. Стоимость выстрела данным снарядом составляет 2% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_heat_penetration" 				"Пробитие: "
+		"DOTA_Tooltip_modifier_gu_t90_ammo_heat" 							"<font color='#fd7427'>「3ОФ26」</font>"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_heat_Description" 				"Наносит огромный урон по области в радиусе 800, стоимость выстрела - 2% энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font>"
+
+		"DOTA_Tooltip_modifier_gu_t90_ammo_armor_reduction"					"Пробитие"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_armor_reduction_Description"			"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_rocket" 							"<font color='#fd7427'>「9М112М2」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_rocket_Description" 					"Советский комплекс управляемого вооружения танка (КУВТ) с радиокомандным наведением <font color='#fd7427'>「9М112М2」</font> Позволяет поражать вражеские цели на дальности 50000, попадание игнорирует броню врага нанося урон по формуле %base_damage% + (%bonus_dmg_per_armor% * вашу броню), перезарядку данной способности невозможно уменьшить."
+		"DOTA_Tooltip_ability_gu_t90_ammo_rocket_count_target" 					"Количество целей: "
+		"DOTA_Tooltip_ability_gu_t90_ammo_rocket_shard_Description" 			"Добавляет бонусный урон - сила * 3"
+
+		"DOTA_Tooltip_ability_gu_t90_arenam1" 							"<font color='#5dff00'>「«Штора-1»」</font>"
+		"DOTA_Tooltip_ability_gu_t90_arenam1_Description" 					"Помимо традиционного бронирования и динамической защиты, Т-90 оборудован активной защитой, состоящей из комплекса оптико-электронного подавления «Штора-1». Комплекс предназначен для защиты от поражения танка противотанковыми управляемыми ракетами и состоит из станции оптико-электронного подавления и системы постановки завес. Станция оптико-электронного подавления предназначается для защиты от ракет с полуавтоматической системой наведения и состоит из двух инфракрасных прожекторов ОТШУ-1-7, двух модуляторов и пульта управления. <br><br> Позволяет избежать любого урона каждые %cd% секунд"
+		
+		"npc_gu_btr82_base"													"BTR-82A Base"
+		"npc_dota_hero_venomancer"											"BTR-82А「★★★」"
 
 
+		"DOTA_Tooltip_ability_gu_btr82a_upgrade" 								"<font color='#fd2727'>「БТР-82А」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_upgrade_Description" 						"Опытные образцы БТР-82 и БТР-82А были собраны в декабре 2009 года на Арзамасском машиностроительном заводе (АМЗ). Испытания машин прошли зимой 2010 года, после чего они были приняты на вооружение. В 2011 году на БТР-82А были перевооружены некоторые части Южного военного округа. Прокачивает основные характеристики. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела, + %damage% к урону. Предметы на уменьшение базового времени атаки не работают. Получает на 20% меньше любого урона по себе. <br><br> Имеет фиксированую скорость стрельбы, никакие предметы на снижение базового времени атаки и другое не работают!"
+		"DOTA_Tooltip_ability_gu_btr82a_upgrade_scepter_Description"				"Увеличивает бонусный урон на 150%" 
 
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_bb" 								"<font color='#fd2727'>「3УБР8」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_bb_Description" 						"Бронебойный снаряд <font color='#fd2727'>「3УБР8」</font> - основной снаряд который использует 30-мм пушка 2А72. Бронепробитие данного снаряда составляет %penetration% мм (понижает броню врага на данное значение)."
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_bb" 									"<font color='#fd2727'>「3УБР8」</font>"
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_bb_Description" 						"Стандартный снаряд, не имеет никаких уникальных эффектов"
 
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_heat" 								"<font color='#fd7427'>「3УОФ8」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_heat_Description" 						"Осколочно-фугасные снаряд <font color='#fd7427'>「3УОФ8」</font> не пробивает броню но наносит %damage%%% урона по области в радиусе %heat_dmg_radius% от основной цели. Стоимость выстрела данным снарядом составляет 2% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3УБР8」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_heat_penetration" 						"Пробитие: "
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat" 							"<font color='#fd7427'>「3УОФ8」</font>"
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat_Description" 					"Наносит огромный урон по области в радиусе 800, стоимость выстрела - 2% энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3УБР8」</font>"
 
+		"DOTA_Tooltip_ability_gu_btr82a_smoke" 									"<font color='#fd2727'>「Система 902 «Туча»」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_Description" 							"Система 902 «Туча» - советская унифицированная система запуска 81-мм дымовых гранат с объектов бронетанковой техники. Создаёт дымовую завесу в выбранной области, все вражеские юниты которые попали в область действия будут промахиватся по всем с шансом в %miss_chance%%%"
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_duration"								"Длительность: "
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_radius"								"Радиус: "
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_shard_Description"				"Добавляет +10 секунд лительности на всех уровнях."
+		"DOTA_Tooltip_modifier_gu_btr82a_smoke_enemy"							"<font color='#fd2727'>「Система 902 «Туча»」</font>"
 
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_armor_reduction"					"Пробитие"
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_armor_reduction_Description"			"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
 
 	}	
 }

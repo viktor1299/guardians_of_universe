@@ -1682,7 +1682,7 @@
  "DOTA_Tooltip_modifier_solwave_shard" "<font color='#F7DF17'>「Energy Instability」</font>"
  "DOTA_Tooltip_modifier_solwave_shard_Description" "Slows attack speed by 50."	
 
-"npc_dota_hero_venomancer" "T-72 Ural「★★★」"
+"npc_dota_hero_ancient_apparition" "T-72 Ural「★★★」"
  
  "DOTA_Tooltip_Ability_t72_upgrade" "T-72 (Object 172M)"
  "DOTA_Tooltip_Ability_t72_upgrade_Description" "Increases the tank's maximum durability and armor."
@@ -3014,7 +3014,7 @@
 
  "npc_dota_hero_templar_assassin_race"          "Race: Spirits"
  "npc_dota_hero_warlock_race"                   "Race: Spirits"
- "npc_dota_hero_venomancer_race"                "Race: Armored"
+ "npc_dota_hero_ancient_apparition_race"                "Race: Armored"
  "npc_dota_hero_bristleback_race"               "Race: Armored"
  "npc_dota_hero_lycan_race"                     "Race: Tau'ri"
  "npc_dota_hero_abaddon_race"                   "Race: Anquietas"
@@ -4074,16 +4074,16 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "npc_dota_hero_bounty_hunter_t6_name" "-「Knowledge」_-"	
  "npc_dota_hero_bounty_hunter_t6" "Upgrade - 「Yasakani no Magatama」! <br><br>Interval is 0.1."
 
- "npc_dota_hero_venomancer_t2_name" "-「Armor Piercing Bullets」_-"
- "npc_dota_hero_venomancer_t3_name" "-「Sub Caliber Charge」_-"
- "npc_dota_hero_venomancer_t4_name" "-「Splinter Charge」_-"
- "npc_dota_hero_venomancer_t5_name" "-「BC Undermining」_-"
- "npc_dota_hero_venomancer_t6_name" "-「Improved Shutter」_-"
- "npc_dota_hero_venomancer_t2" "Upgrade - 12.7 mm NSVT<br><br> Changes damage formula to base damage + your strength"
- "npc_dota_hero_venomancer_t3" "Upgrade - ZBM-22<br><br> Increases critical damage by 8 times."
- "npc_dota_hero_venomancer_t4" "Upgrade - MBA-22<br><br> Allows MBA-22 to be cast in an area."
- "npc_dota_hero_venomancer_t5" "Upgrade - T-72 Ammo Load<br><br> When destroyed, detonates the ammo rack, increasing damage and stun duration by 4 times."
- "npc_dota_hero_venomancer_t6" "Upgrade - 12.7 mm NSVT<br><br> Firing interval reduced to 0.2."
+ "npc_dota_hero_ancient_apparition_t2_name" "-「Armor Piercing Bullets」_-"
+ "npc_dota_hero_ancient_apparition_t3_name" "-「Sub Caliber Charge」_-"
+ "npc_dota_hero_ancient_apparition_t4_name" "-「Splinter Charge」_-"
+ "npc_dota_hero_ancient_apparition_t5_name" "-「BC Undermining」_-"
+ "npc_dota_hero_ancient_apparition_t6_name" "-「Improved Shutter」_-"
+ "npc_dota_hero_ancient_apparition_t2" "Upgrade - 12.7 mm NSVT<br><br> Changes damage formula to base damage + your strength"
+ "npc_dota_hero_ancient_apparition_t3" "Upgrade - ZBM-22<br><br> Increases critical damage by 8 times."
+ "npc_dota_hero_ancient_apparition_t4" "Upgrade - MBA-22<br><br> Allows MBA-22 to be cast in an area."
+ "npc_dota_hero_ancient_apparition_t5" "Upgrade - T-72 Ammo Load<br><br> When destroyed, detonates the ammo rack, increasing damage and stun duration by 4 times."
+ "npc_dota_hero_ancient_apparition_t6" "Upgrade - 12.7 mm NSVT<br><br> Firing interval reduced to 0.2."
 
  "npc_dota_hero_monkey_king_t2_name" "-「Spectral Shiv」_-"
  "npc_dota_hero_monkey_king_t3_name" "-「Disaster Contact」_-"
@@ -5121,7 +5121,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
 
  
 "npc_dota_hero_warlock_dificult" "Hero Difficulty: Normal"
- "npc_dota_hero_venomancer_dificult" "Hero Difficulty: Difficult"
+ "npc_dota_hero_ancient_apparition_dificult" "Hero Difficulty: Difficult"
  "npc_dota_hero_bristleback_dificult" "Hero Difficulty: Normal"
  "npc_dota_hero_abaddon_dificult" "Hero Difficulty: Easy"
  "npc_dota_hero_earth_spirit_dificult" "Hero Difficulty: Easy"
@@ -5185,7 +5185,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  
 "npc_dota_hero_queenofpain_type"        "Role: <font color='#a822ba'>Mage DPS</font>"
 "npc_dota_hero_warlock_type"            "Role: <font color='#a822ba'>Mage DPS</font>"
-"npc_dota_hero_venomancer_type"         "Role: <font color='#ba1111'>Tank</font>" 
+"npc_dota_hero_ancient_apparition_type"         "Role: <font color='#ba1111'>Tank</font>" 
 "npc_dota_hero_bristleback_type"        "Role: <font color='#119e09'>Main DPS</font>"
 "npc_dota_hero_abaddon_type"            "Role: <font color='#ba1111'>Tank</font>, <font color='#0f8fa8'>Support</font>"
  "npc_dota_hero_earth_spirit_type"      "Role: <font color='#ba1111'>Tank</font>"
@@ -5249,7 +5249,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
 		"npc_dota_hero_troll_warlord_type"		"Роль: <font color='#119e09'>«Main DPS»</font>"
 
  "npc_dota_hero_warlock_rare" "Banner: Andromeda's Tale"
- "npc_dota_hero_venomancer_rare" "Banner: Andromeda's Tale"
+ "npc_dota_hero_ancient_apparition_rare" "Banner: Andromeda's Tale"
  "npc_dota_hero_bristleback_rare" "Banner: Andromeda's Tale"
  "npc_dota_hero_lycan_rare" "Banner: Andromeda's Tale"
  "npc_dota_hero_abaddon_rare" "Banner: Andromeda's Tale"
@@ -5317,7 +5317,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
 
  "npc_dota_hero_queenofpain_damage" "Source: Guardians of Universe"
  "npc_dota_hero_warlock_damage" "Source: Guardians of Universe"
- "npc_dota_hero_venomancer_damage" "Source: Guardians of Universe"
+ "npc_dota_hero_ancient_apparition_damage" "Source: Guardians of Universe"
  "npc_dota_hero_bristleback_damage" "Source: Guardians of Universe"
  "npc_dota_hero_abaddon_damage" "Source: Dusk"
  "npc_dota_hero_earth_spirit_damage" "Source: Guardians of Universe"
@@ -5381,7 +5381,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
 		"npc_dota_hero_troll_warlord_damage"		"Source: «Anime»"
 
  "npc_dota_hero_warlock_weapon" "Weapon: <font color='#ff38f0'>Catalyst</font>"
- "npc_dota_hero_venomancer_weapon" "Weapon: <font color='#ff565d'>Gun</font>"
+ "npc_dota_hero_ancient_apparition_weapon" "Weapon: <font color='#ff565d'>Gun</font>"
  "npc_dota_hero_bristleback_weapon" "Weapon: <font color='#ff565d'>Gun</font>" 
  "npc_dota_hero_lycan_weapon" "Weapon: <font color='#ffb056'>One-Handed Sword</font>"
  "npc_dota_hero_abaddon_weapon" "Weapon: <font color='#ffb056'>One Hand Sword</font>"
