@@ -355,6 +355,7 @@
  "DOTA_Tooltip_ability_lina_laguna_cu_Note0" "Works like %damage% + intelligence * 1.5."
  "DOTA_Tooltip_ability_lina_laguna_cu_target_count" "Number of targets: "
  "DOTA_Tooltip_ability_lina_laguna_cu_duration" "Duration: "
+ "DOTA_Tooltip_modifier_lina_laguna_cu"												"<font color='#FE5C2C'>「Unstable Lightning」</font>"
 
  "DOTA_Tooltip_ability_mjz_lina_laguna_blade" "<font color='#FE5C2C'>「Lightning」</font>"
  "DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" "Fires a bolt of lightning at the enemy. If the target dies within a few seconds of casting the ability, the ability gains a damage-increasing charge."
@@ -1370,7 +1371,7 @@
  "DOTA_Tooltip_ability_ability_thdotsr_eirin01_movement_speed_percent_bonus" "Bonus Movement Speed: " 
  
  "DOTA_Tooltip_ability_ability_thdots_eirin02" "<font color='#649dfa'>Revival 「Game of Life」</font>"
- "DOTA_Tooltip_ability_ability_thdots_eirin02_Description" "Eirin fires an arrow that releases a healing mist on impact with an ally/enemy. The mist heals allies in range and deals damage to enemies. If the arrow hits an ally, the arrow will regenerate more health. If the arrow hits an enemy hero, it will deal additional pure damage and will stun the target.Stun time depends on the distance the arrow travels, up to 2 seconds.\n Healing duration: 4 \n Bonus damage/healing from intelligence on impact with an arrow: %int_scale_impact% \n Bonus damage/healing in intelligence fog: %int_scale_area%."
+ "DOTA_Tooltip_ability_ability_thdots_eirin02_Description" "Eirin fires an arrow that releases a mist that deals DoT on impact. If the arrow hits an enemy hero, it will deal additional pure damage and will stun the target.Stun time depends on the distance the arrow travels, up to 2 seconds.\n Healing duration: 4 \n Bonus damage/healing from intelligence on impact with an arrow: %int_scale_impact% \n Bonus damage/healing in intelligence fog: %int_scale_area%."
  "DOTA_Tooltip_ability_ability_thdots_eirin02_move_speed" "Arrow speed: "
  "DOTA_Tooltip_ability_ability_thdots_eirin02_collision_radius" "Collision radius: "
  "DOTA_Tooltip_ability_ability_thdots_eirin02_damage" "Heal/Damage："
@@ -1682,7 +1683,7 @@
  "DOTA_Tooltip_modifier_solwave_shard" "<font color='#F7DF17'>「Energy Instability」</font>"
  "DOTA_Tooltip_modifier_solwave_shard_Description" "Slows attack speed by 50."	
 
-"npc_dota_hero_ancient_apparition" "T-72 Ural「★★★」"
+"npc_dota_hero_ancient_apparition" 										 "Т-72 «Ural»「★★★★」"
  
  "DOTA_Tooltip_Ability_t72_upgrade" "T-72 (Object 172M)"
  "DOTA_Tooltip_Ability_t72_upgrade_Description" "Increases the tank's maximum durability and armor."
@@ -2316,6 +2317,10 @@
 "DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_attack_range" "+Attack Range: "
 "DOTA_Tooltip_ability_item_scythe_of_the_ancients_all_damage_bonus_pct" "+% all damage dealt: "
 "DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_strength" "+All Attributes: "
+"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_health" 					"+Health: "
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_mana" 						"+Mana: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_health_regen" 				"+Health Regen: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_mana_regen" 				"+Mana Regen: "   
 
 "DOTA_Tooltip_ability_item_scythe_of_the_ancients_2" "Charged Magic Scythe 2"
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" "<h1>Active: Reaper</h1> Summons a Reaper, unleashing a powerful burst of dark energy at the enemy, dealing %cast_damage% + %cast_damage_pct%% damage and stunning them for %stun_duration% seconds. When the stun ends, The Reaper will strike for %delayed_damage_per_health% damage per missing health.\n<h1>Passive: Shadow Weapon</h1> Deals %magic_damage_to_pure_pct%%% of the spell's damage as true damage to an enemy.\n< h1>Passive: </h1> Improves some hero abilities." 
@@ -2324,6 +2329,10 @@
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_attack_range" "+attack range:" 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_all_damage_bonus_pct" "+% all damage dealt:" 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_strength" "+All Attributes:" 
+ "DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_health" 					"+Health: "
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_mana" 						"+Mana: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_health_regen" 				"+Health Regen: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_mana_regen" 				"+Mana Regen: "   
 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_3" "Death Scythe"
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_Description" "<h1>Active: Reaper</h1> Summons a Reaper, unleashing a massive burst of dark energy at the enemy, dealing %cast_damage% + %cast_damage_pct%% damage and stunning them for %stun_duration% seconds. When the stun ends, The Reaper will strike for %delayed_damage_per_health% damage per missing health.\n<h1>Passive: Shadow Weapon</h1> Deals %magic_damage_to_pure_pct%%% of the spell's damage as true damage to an enemy.\n< h1>Passive: </h1> Improves some hero abilities." 
@@ -2332,6 +2341,10 @@
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_attack_range" "+Attack Range: " 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_all_damage_bonus_pct" "+% all damage dealt: " 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_strength" "+All Attributes:" 
+ "DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_health" 					"+Health: "
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_mana" 						"+Mana: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_health_regen" 				"+Health Regen: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_3_bonus_mana_regen" 				"+Mana Regen: "   
 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_4" "Cursed Death Scythe"
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_Description" "<h1>Active: Disintegrate</h1> Summons a Reaper on every unit within 500 radius, unleashing a powerful burst of dark energy at the enemy, dealing %cast_damage% + %cast_damage_pct%% damage and stunning them for %stun_duration% seconds( s).When the stun ends, the Reaper will strike for %delayed_damage_per_health% damage per missing health.\n<h1>Passive: Shadow Weapon</h1> Deals true damage equal to %magic_damage_to_pure_pct%%% of spell damage.\n<h1>Passive: </h1> Improves the ultimate, as well as some abilities of the heroes." 
@@ -2340,6 +2353,10 @@
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_attack_range" "+Attack Range: " 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_all_damage_bonus_pct" "+% all damage dealt: " 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_strength" "+All Attributes:" 
+ "DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_health" 					"+Health: "
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_mana" 						"+Mana: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_health_regen" 				"+Health Regen: "    
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_bonus_mana_regen" 				"+Mana Regen: "   
 
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r" "Cursed Death Scythe"
  "DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" "Acquired by completing Caster's quest"
@@ -3078,6 +3095,7 @@
 "npc_dota_hero_pugna_race"                     "Race: Ori"
 "npc_dota_hero_brewmaster_race"					"Race: «Armored»"
 "npc_dota_hero_troll_warlord_race"				"Race: «Tau'ri»"
+"npc_dota_hero_ancient_apparition_race" 		"Race: «Armored»"
 
  
  
@@ -3935,6 +3953,7 @@ If you have duplicate characters (opened in the game, bought in the store or won
 -Illyasviel von Einzbern<br>
 -AH-1Z Super Cobra<br>
 -Mystical Samurai<br>
+-Т-72 «Ural»<br>
 -Kanade Tachibana<br><br>
 
 <font color='#1368c2'>Heroes 3★</font><br>
@@ -3950,7 +3969,7 @@ If you have duplicate characters (opened in the game, bought in the store or won
 -Eternity<br>
 -Emilia<br>
 -Ran Yakumo<br>
--T-72<br>"
+-BTR-82А<br>"
 
 "custom_sound_pack_text" "If you have a unique music pack change key, enter it below."
  "custom_sound_pack" "Enter a key..."
@@ -4074,16 +4093,6 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "npc_dota_hero_bounty_hunter_t6_name" "-「Knowledge」_-"	
  "npc_dota_hero_bounty_hunter_t6" "Upgrade - 「Yasakani no Magatama」! <br><br>Interval is 0.1."
 
- "npc_dota_hero_ancient_apparition_t2_name" "-「Armor Piercing Bullets」_-"
- "npc_dota_hero_ancient_apparition_t3_name" "-「Sub Caliber Charge」_-"
- "npc_dota_hero_ancient_apparition_t4_name" "-「Splinter Charge」_-"
- "npc_dota_hero_ancient_apparition_t5_name" "-「BC Undermining」_-"
- "npc_dota_hero_ancient_apparition_t6_name" "-「Improved Shutter」_-"
- "npc_dota_hero_ancient_apparition_t2" "Upgrade - 12.7 mm NSVT<br><br> Changes damage formula to base damage + your strength"
- "npc_dota_hero_ancient_apparition_t3" "Upgrade - ZBM-22<br><br> Increases critical damage by 8 times."
- "npc_dota_hero_ancient_apparition_t4" "Upgrade - MBA-22<br><br> Allows MBA-22 to be cast in an area."
- "npc_dota_hero_ancient_apparition_t5" "Upgrade - T-72 Ammo Load<br><br> When destroyed, detonates the ammo rack, increasing damage and stun duration by 4 times."
- "npc_dota_hero_ancient_apparition_t6" "Upgrade - 12.7 mm NSVT<br><br> Firing interval reduced to 0.2."
 
  "npc_dota_hero_monkey_king_t2_name" "-「Spectral Shiv」_-"
  "npc_dota_hero_monkey_king_t3_name" "-「Disaster Contact」_-"
@@ -4096,16 +4105,16 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "npc_dota_hero_monkey_king_t5" "Upgrade -「Fiesta of Death」<br><br> Changes damage formula to base damage + ((intellect + strength + agility) * multiplier) + % of current health."
  "npc_dota_hero_monkey_king_t6" "Upgrade -「Fiesta of Death」<br><br> Reduces cooldown to 10 seconds."
 
- "npc_dota_hero_shredder_t2_name" "-「2A46M-5 Titanium」_-"
- "npc_dota_hero_shredder_t3_name" "-「2A46M-5 HEAT」_-"
- "npc_dota_hero_shredder_t4_name" "-「2A46M-5 Shredder」_-"
- "npc_dota_hero_shredder_t5_name" "-「2A46M-5 Generic」_-"
- "npc_dota_hero_shredder_t6_name" "-「Improved Shutter」_-"
- "npc_dota_hero_shredder_t2" "Upgrade - 2A46M-5 Sub-Caliber<br><br> Adds damage multiplier base damage + (strength * multiplier). Increases stun duration by 4 times."
- "npc_dota_hero_shredder_t3" "Upgrade - 2A46M-5 Sub-Caliber<br><br> Allows you to ignore magical immunity, as well as any types of evasion or damage protection."
- "npc_dota_hero_shredder_t4" "Upgrade - 2A46M-5 Sub-caliber<br><br> When used, will shoot all enemy units around the tank within a 600 radius."
- "npc_dota_hero_shredder_t5" "Upgrade - 2A46M-5 Sub-Caliber<br><br> On hit, has a 95% chance to deal critical damage equal to base damage * 40."
- "npc_dota_hero_shredder_t6" "Upgrade - 2A46M-5 Sub-caliber<br><br> Reduces cooldown to 1.5 seconds."
+"npc_dota_hero_shredder_t2_name"		"-「ZBM46/ZBM48」_-"
+		"npc_dota_hero_shredder_t3_name"		"-「ZBK29(М)」_-"
+		"npc_dota_hero_shredder_t4_name"		"-「ZOF26」_-"
+		"npc_dota_hero_shredder_t5_name"		"-「Loading system」_-"
+		"npc_dota_hero_shredder_t6_name"		"-「Energy Balance」_-"
+		"npc_dota_hero_shredder_t2"		"Improves - <font color='#fd2727'>「ZBM46/ZBM48」</font><br><br> Adds bonus damage depending on T-90 health."
+		"npc_dota_hero_shredder_t3"		"Improves - <font color='#f9fd27'>「ZBK29(М)」</font><br><br> Adds bonus damage - armor * 5."
+		"npc_dota_hero_shredder_t4"		"Improves - <font color='#fd7427'>「ZOF26」</font><br><br> Changes damage type to pure."
+		"npc_dota_hero_shredder_t5"		"Improves - <font color='#fd2727'>「ZBM46/ZBM48」</font><br> <font color='#f9fd27'>「ZBK29(М)」</font><br><font color='#fd7427'>「ZOF26」</font><br><br>Allows swapping shells without cooldown and removes reload stop if interrupted."
+		"npc_dota_hero_shredder_t6"		"Improves - <br><font color='#f9fd27'>「ZBK29(М)」</font><br><font color='#fd7427'>「ZOF26」</font><br><br> Removes energy cost for all shell types. <br><br><font color='#fd7427'>「9М112М2」</font><br><br> Increases damage by 15 times."
 
  "npc_dota_hero_silencer_t2_name" "-「MQ-9 Predator」_-"
  "npc_dota_hero_silencer_t3_name" "-「Overlord Support」_-"
@@ -4117,6 +4126,21 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "npc_dota_hero_silencer_t4" "Upgrade - 9M37 SAM<br><br> Reduces cooldown to 30 seconds."
  "npc_dota_hero_silencer_t5" "Upgrade - 9M37 SAM<br><br> Increases burning damage by 5 times and adds an intelligence multiplier; increases burning duration by 4 times."
  "npc_dota_hero_silencer_t6" "Upgrade - 9M37 SAM<br><br> Increases the number of missiles to 12."
+
+ 
+		"npc_dota_hero_venomancer_t2_name"		"「ZUBR8」"
+		"npc_dota_hero_venomancer_t3_name"		"「ZUOF8」"
+		"npc_dota_hero_venomancer_t4_name"		"「ZUOF8」"
+		"npc_dota_hero_venomancer_t5_name"		"「Loading System」"
+		"npc_dota_hero_venomancer_t6_name"		"「White Phosphorus」"
+		"npc_dota_hero_venomancer_t2"				"Improves   <br><font color='#fd2727'>「ZUBR8」</font><br><br> Adds bonus damage that is equal to character's agility."
+		"npc_dota_hero_venomancer_t3"				"Improves   <br><font color='#f9fd27'>「ZUOF8」</font><br><br> Adds bonus damage - agility * 1.5"
+		"npc_dota_hero_venomancer_t4"				"Improves   <br><font color='#fd7427'>「ZUOF8」</font><br><br> Decreases energy cost per shot to 0.5% from max."
+		"npc_dota_hero_venomancer_t5"				"Improves   <br><font color='#fd7427'>「ZUBR8」</font><br><font color='#fd2727'>「ZUOF8」</font><br><br> Allows swapping shells without cooldown and removes reload stop if interrupted."
+		"npc_dota_hero_venomancer_t6"				"Improves   <br><font color='#f9fd27'>「ZUOF8」</font><br><br><br> Changes damage type to pure."
+
+
+
 
  "npc_dota_hero_bristleback_t2_name" "-「HYDRA 70」_-"
  "npc_dota_hero_bristleback_t3_name" "-「AGM-114」_-"
@@ -4219,6 +4243,17 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "npc_dota_hero_vengefulspirit_t4" "Upgrade - 「Sakuya's Special Stopwatch」<br><br> Reduces cooldown to 60 seconds."
  "npc_dota_hero_vengefulspirit_t5" "Upgrade - 「Time Dilation」<br><br> Now deals damage to all enemy units in the area, based on Sakuya's Agility."
  "npc_dota_hero_vengefulspirit_t6" "Upgrade - 「Eternal Knife」<br><br> When hitting an enemy, instantly recharge the ability."
+
+ "npc_dota_hero_ancient_apparition_t2_name"		"-「ZVBM3」_-"
+		"npc_dota_hero_ancient_apparition_t3_name"		"-「ZVBK7」_-"
+		"npc_dota_hero_ancient_apparition_t4_name"		"-「ZVOF22」_-"
+		"npc_dota_hero_ancient_apparition_t5_name"		"-「Loading System」_-"
+		"npc_dota_hero_ancient_apparition_t6_name"		"-「Modified Fuse」_-"
+		"npc_dota_hero_ancient_apparition_t2"		"Improves - <font color='#fd2727'>「ZVBM3」</font><br><br> Adds bonus damage equal to max health."
+		"npc_dota_hero_ancient_apparition_t3"		"Improves - <font color='#fd7427'>「ZVBK7」</font><br><br> On impact deals damage to target equal 10% of their max HP with 20% chance."
+		"npc_dota_hero_ancient_apparition_t4"		"Improves - <font color='#fd7427'>「ZVOF22」</font><br><br> Adds bonus damage - strength * 1.5."
+		"npc_dota_hero_ancient_apparition_t5"		"Improves - <font color='#fd2727'>「ZVBM3」</font><br><font color='#f9fd27'>「ZVBK7」</font><br><font color='#fd7427'>「ZVOF22」</font><br><br> Allows swappoing shells without cooldown and removes reload stop if interrupted."
+		"npc_dota_hero_ancient_apparition_t6"		"Improves - <font color='#fd7427'>「9М112М2」</font><br><br> Increases rocket total damage tenfold.<br><br> Improves - <br><font color='#f9fd27'>「ZVBK7」</font><br><font color='#fd7427'>「ZVOF22」</font><br><br> Removes energy cost."
 
  "npc_dota_hero_enchantress_t2_name" "-「Deep Freeze」_-"
  "npc_dota_hero_enchantress_t3_name" "-「Icicle」_-"
@@ -4635,11 +4670,22 @@ If you have duplicate characters (opened in the game, bought in the store or won
 		"npc_dota_hero_brewmaster_t4_name"		"「SprgG 46」"
 		"npc_dota_hero_brewmaster_t5_name"		"「SprgG 46」"
 		"npc_dota_hero_brewmaster_t6_name"		"「Gr 46 H1A」"
-		"npc_dota_hero_brewmaster_t2"				"Улучшает   <br><font color='#fd2727'>「PzGr 46」</font><br><br> Adds bonus damage - agility * 5"
-		"npc_dota_hero_brewmaster_t3"				"Улучшает   <br><font color='#f9fd27'>「Gr 46 H1A」</font><br><br> Adds bonus damage - agility * 5"
-		"npc_dota_hero_brewmaster_t4"				"Улучшает   <br><font color='#fd7427'>「SprgG 46」</font><br><br> Adds bonus damage - agility * 5"
-		"npc_dota_hero_brewmaster_t5"				"Улучшает   <br><font color='#fd7427'>「SprgG 46」</font><br><font color='#f9fd27'>「Gr 46 H1A」</font><br><font color='#fd2727'>「PzGr 46」</font><br><br> Removes cooldown for changing shell type, works even if cancelled."
-		"npc_dota_hero_brewmaster_t6"				"Улучшает   <br><font color='#f9fd27'>「Gr 46 H1A」</font><br><font color='#fd7427'>「SprgG 46」</font><br><br> Shot do not spond gold."
+		"npc_dota_hero_brewmaster_t2"				"Improves   <br><font color='#fd2727'>「PzGr 46」</font><br><br> Adds bonus damage - agility * 5"
+		"npc_dota_hero_brewmaster_t3"				"Improves   <br><font color='#f9fd27'>「Gr 46 H1A」</font><br><br> Adds bonus damage - agility * 5"
+		"npc_dota_hero_brewmaster_t4"				"Improves   <br><font color='#fd7427'>「SprgG 46」</font><br><br> Adds bonus damage - agility * 5"
+		"npc_dota_hero_brewmaster_t5"				"Improves   <br><font color='#fd7427'>「SprgG 46」</font><br><font color='#f9fd27'>「Gr 46 H1A」</font><br><font color='#fd2727'>「PzGr 46」</font><br><br> Removes cooldown for changing shell type, works even if cancelled."
+		"npc_dota_hero_brewmaster_t6"				"Improves   <br><font color='#f9fd27'>「Gr 46 H1A」</font><br><font color='#fd7427'>「SprgG 46」</font><br><br> Shot do not spond gold."
+
+"npc_dota_hero_nevermore_t2name"        "-「ZBM46/ZBM48」-"
+        "npc_dota_hero_nevermore_t3name"        "-「ZBK29(М)」-"
+        "npc_dota_hero_nevermore_t4name"        "-「ZOF26」-"
+        "npc_dota_hero_nevermore_t5name"        "-「Loading system」-"
+        "npc_dota_hero_nevermore_t6name"        "-「Energy balance」-"
+        "npc_dota_hero_nevermore_t2"        "Improves - <font color='#fd2727'>「ZBM46/ZBM48」</font><br><br> Shoots target 3 times per shot instead of one per shot."
+        "npc_dota_hero_nevermore_t3"        "Improves - <font color='#f9fd27'>「ZBK29(М)」</font><br><br> Adds bonus damage - agility * 5."
+        "npc_dota_hero_nevermore_t4"        "Improves - <font color='#fd7427'>「ZOF26」</font><br><br> Change AOE damage type to pure."
+        "npc_dota_hero_nevermore_t5"        "Improves - <font color='#fd2727'>「ZBM46/ZBM48」</font><br> <font color='#f9fd27'>「ZBK29(М)」</font><br><font color='#fd7427'>「ZOF26」</font><br><br> Removes cooldown for changing shell type, works even if cancelled."
+        "npc_dota_hero_nevermore_t6"        "Improves - <br><font color='#f9fd27'>「ZBK29(М)」</font><br><font color='#fd7427'>「ZOF26」</font><br><br> Removes energy cost. <br><br><font color='#fd7427'>「9М112М2」</font><br><br> Increases damage by 30 times."
 
  "task_random_address" "A random address has been generated for you for either the Milky Way, Pegasus or Universe gate system. Type it on the dialer within the allotted time and you'll be rewarded!"
  "task_name_address" "Random Address"
@@ -5182,6 +5228,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
 "npc_dota_hero_pugna_dificult" "Hero Difficulty: Easy"
 "npc_dota_hero_brewmaster_dificult"			"Hero Difficulty: Normal"
 		"npc_dota_hero_troll_warlord_dificult"		"Hero Difficulty: Normal"
+		"npc_dota_hero_venomancer_dificult"			"Hero Difficulty: Normal"
  
 "npc_dota_hero_queenofpain_type"        "Role: <font color='#a822ba'>Mage DPS</font>"
 "npc_dota_hero_warlock_type"            "Role: <font color='#a822ba'>Mage DPS</font>"
@@ -5227,11 +5274,11 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_obsidian_destroyer_type" "Role: <font color='#ba1111'>Tank</font>" 
  "npc_dota_hero_skeleton_king_type" "Role: <font color='#119e09'>Main DPS</font>"
  "npc_dota_hero_skywrath_mage_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_mirana_type" "Role: <font color='#a822ba'>Mage DPS</font>, <font color='#0f8fa8'>Support</font>"
+ "npc_dota_hero_mirana_type" "Role: <font color='#a822ba'>Mage DPS</font>"
  "npc_dota_hero_void_spirit_type" "Role: <font color='#a822ba'>Mage DPS</font>, <font color='#0f8fa8'>Support</font>"
  "npc_dota_hero_antimage_type" "Role: <font color='#119e09'>Main DPS</font>"
  "npc_dota_hero_pudge_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_monkey_king_type" "Role: <font color='#119e09'>DPS</font>, <font color='#a822ba'>Mage DPS</font>"
+ "npc_dota_hero_monkey_king_type" "Role: <font color='#a822ba'>Mage DPS</font>"
  "npc_dota_hero_templar_assassin_type" "Role: <font color='#0f8fa8'>Support</font>"
  "npc_dota_hero_wisp_type" "Role: <font color='#a822ba'>Mage DPS</font>"
  "npc_dota_hero_puck_type" "Role: <font color='#a822ba'>Mage DPS</font>, <font color='#0f8fa8'>Support</font>"
@@ -5245,8 +5292,9 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_earthshaker_type" "Role: <font color='#119e09'>Main DPS</font>"
  "npc_dota_hero_tiny_type" "Role: <font color='#ba1111'>Tank</font>"
  "npc_dota_hero_pugna_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_brewmaster_type"			"Роль: <font color='#119e09'>«Main DPS»</font>"
-		"npc_dota_hero_troll_warlord_type"		"Роль: <font color='#119e09'>«Main DPS»</font>"
+ "npc_dota_hero_brewmaster_type"			"Role: <font color='#119e09'>Main DPS</font>"
+		"npc_dota_hero_troll_warlord_type"		"Role: <font color='#119e09'>Main DPS</font>"
+		"npc_dota_hero_venomancer_type"			"Роль: <font color='#119e09'>Main DPS</font>"
 
  "npc_dota_hero_warlock_rare" "Banner: Andromeda's Tale"
  "npc_dota_hero_ancient_apparition_rare" "Banner: Andromeda's Tale"
@@ -5314,6 +5362,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_pugna_rare" "Acquisition: Hard Pass"
  "npc_dota_hero_brewmaster_rare"			"Acquisition: «Kto»"
 		"npc_dota_hero_troll_warlord_rare"		"Player Character: Emiya"
+		"npc_dota_hero_venomancer_rare"	"Banner: Andromeda's Tale"
 
  "npc_dota_hero_queenofpain_damage" "Source: Guardians of Universe"
  "npc_dota_hero_warlock_damage" "Source: Guardians of Universe"
@@ -5379,6 +5428,7 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_pugna_damage" "Source: ASB"
  "npc_dota_hero_brewmaster_damage"			"Source: «Guardians of Universe»"
 		"npc_dota_hero_troll_warlord_damage"		"Source: «Anime»"
+		"npc_dota_hero_venomancer_damage"	"Source: «Guardians of Universe»"
 
  "npc_dota_hero_warlock_weapon" "Weapon: <font color='#ff38f0'>Catalyst</font>"
  "npc_dota_hero_ancient_apparition_weapon" "Weapon: <font color='#ff565d'>Gun</font>"
@@ -5440,8 +5490,9 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
  "npc_dota_hero_earthshaker_weapon" "Weapon: <font color='#ff565d'>Gun</font>"
  "npc_dota_hero_tiny_weapon" "Weapon: <font color='#ff38f0'>Catalyst</font>"
  "npc_dota_hero_pugna_weapon" "Weapon: <font color='#ff38f0'>Catalyst</font>"
- "npc_dota_hero_troll_warlord_weapon" 				"Вооружение: <font color='#76ff56'>Bow</font>"
-		"npc_dota_hero_brewmaster_weapon"			"Вооружение: <font color='#ff565d'>Gun</font>"
+ "npc_dota_hero_troll_warlord_weapon" 				"Weapon: <font color='#76ff56'>Bow</font>"
+		"npc_dota_hero_brewmaster_weapon"			"Weapon: <font color='#ff565d'>Gun</font>"
+		"npc_dota_hero_venomancer_weapon"	"Weapon: <font color='#ff565d'>Gun</font>"
  
 "npc_gu_t72_base" "T-72 Base"
  "npc_gu_t90_base" "T-90 Base"
@@ -5676,6 +5727,7 @@ Ram<br><br>
 -Illyasviel von Einzbern<br>
 -AH-1Z Super Cobra<br>
 -Mystical Samurai<br>
+-Т-72 «Ural»<br>
 -Kanade Tachibana<br><br>
 
 <font color='#1368c2'>Heroes 3★</font><br>
@@ -5691,7 +5743,7 @@ Ram<br><br>
 -Eternity<br>
 -Emilia<br> 
 -Ran Yakumo<br>
--T-72<br>"
+-BTR-82А<br>"
 
  "npc_dota_hero_skeleton_king_prew_text"             "You will be my retribution, and the fate of those who stand in your way will be terrible. Go and face your fate, my death knight."
  "npc_dota_hero_queenofpain_prew_text"              "Kore ga unmei, watashi wa tou ni shitte imashita yo."
@@ -6616,6 +6668,7 @@ Ram<br><br>
 		"armor_2"														"Hit!"
 		"armor_3"														"You hit the enemy!"
 		"armor_4"														"You penetratred enemy armor!"
+		"armor_5"														""
 
 		"DOTA_Tooltip_ability_gu_bulwark" 								"<font color='#00ff09'>「Bulwark」</font>"
 		"DOTA_Tooltip_ability_gu_bulwark_Description" 						"Decreases front damage by %physical_damage_reduction%%%, side damage by %physical_damage_reduction_side%%%"
@@ -6709,7 +6762,7 @@ Ram<br><br>
 
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence" "Cuirass Of Malevolence"
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_Description" "<h1>Passive: Ancient Cuirass</h1>In a 800 radius of all enemies, reduces their armor by %armor_reduction% and their damage by %dmg_reduction%%%."
-		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_armor" "-Armor: "
+		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_armor" "+Armor: "
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_hp" "+Health: "
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_hp_regen" "+%Health Regen: "
 		"DOTA_Tooltip_ability_item_gu_cuirass_of_malevolence_str" "+Strength: "
@@ -6727,19 +6780,131 @@ Ram<br><br>
 		"DOTA_Tooltip_modifier_gu_ice_dragons_talisman_enemy" "Ice Dragons Talisman" 
 
 
+		"DOTA_Tooltip_ability_gu_t72_upgrade" 								"<font color='#fd2727'>「Т-72 «Ural»」</font>"
+		"DOTA_Tooltip_ability_gu_t72_upgrade_Description" 					"The T-72 is a family of Soviet/Russian main battle tanks that entered production in 1969. The T-72 was a development of the T-64, which was troubled by high costs and its reliance on immature developmental technology. About 25,000 T-72 tanks have been built, and refurbishment has enabled many to remain in service for decades. The early T-72 versions are considered as second-generation main battle tanks. It was widely exported and saw service in 40 countries and in numerous conflicts. The T-90 introduced in 1992 is a relatively minor development of the T-72B,though production and development of the T-72. Upgrades main parameters. Adds + %bonus_health% health, + %bonus_armor% armor, + %attack_range_bonus% attack range, + %damage% damage.  Receives 20% less damage. <br><br> Have fixed attack time, items that are decreasing BAT do not work."
+		"DOTA_Tooltip_ability_gu_t72_upgrade_scepter_Description"			"Increases bonus damage by 150%" 
+
+		"DOTA_Tooltip_ability_gu_t72_ammo_bb" 								"<font color='#fd2727'>「ZVBM3」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_bb_Description" 					"AP <font color='#fd2727'>「ZVBM3」</font> - main shell of D-81ТМ gun. This shell penetrates up to %penetration% mm (decreases enemy armor by that value), additionally deals 50% of character strength as damage."
+		"DOTA_Tooltip_modifier_gu_t72_ammo_bb" 							"<font color='#fd2727'>「ZVBM3」</font>"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_bb_Description" 				"AP shell."
+
+		"DOTA_Tooltip_ability_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「ZVBK7」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_kym_Description" 				"HEAT <font color='#f9fd27'>「ZVBK7」</font> is used to penetrate thick armor, this shell penetrates up to %penetration% mm (decreases enemy armor by that value), additionally deals 2% of target max HP as pure damage. This shell has %chance_force_kill%%% chance to stun its target for 5 seconds, ignores status resistance, costs 5% of your max energy. <br><br><font color='#fd2727'>If you don't have enough energy, your shell will be automatically swapped to「ZVBM3」</font>"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「ZVBK7」</font>"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_kym_Description" 				"HEAT shell."
+
+		"DOTA_Tooltip_ability_gu_t72_ammo_heat" 							"<font color='#fd7427'>「ZVOF22」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_heat_Description" 				"HE <font color='#fd7427'>「ZVOF22」</font> does not penetrate armor but deals %damage%%% damage in %heat_dmg_radius% AOE. one shot costs 2% of your max energy. <br><br><font color='#fd2727'>If you have not enough energy, your shell will be automatically swapped to「ZVBM3」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_heat_penetration" 				"-Armor: "
+		"DOTA_Tooltip_modifier_gu_t72_ammo_heat" 							"<font color='#fd7427'>「3ВОФ22」</font>"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_heat_Description" 				"HE shell."
+
+		"DOTA_Tooltip_modifier_gu_t72_ammo_armor_reduction"					"Penetrated"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_armor_reduction_Description"			"Armor decreased by %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+
+		"DOTA_Tooltip_ability_gu_t72_ammo_rocket" 							"<font color='#fd7427'>「9М112М2」</font>"
+		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_Description" 					"Anti-tank guided missile (ATGM) with radio targeting <font color='#fd7427'>「9М112М2」</font> Allows hitting enemy targets up to 50000 range, if hit ignores enemy armor and deals damage %base_damage% + (%bonus_dmg_per_armor% * your armor), cooldown cannot be decreased."
+		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_count_target" 					"Target count: "
+		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_shard_Description" 			"Adds bonus damage - strength * 3"
+
+
+		"DOTA_Tooltip_ability_gu_t90_upgrade" 								"<font color='#fd2727'>「Т-90М «Breakthrough»」</font>"
+		"DOTA_Tooltip_ability_gu_t90_upgrade_Description" 					"The T-90 is a third-generation Russian main battle tank. The T-72BU was officially accepted into service in 1992 by the Russian Ministry of Defence and simultaneously renamed as the T-90 for marketing and propaganda purposes aimed at distancing the new type from existing T-72 variants. The T-90 uses a 125 mm 2A46 smoothbore main gun, the 1A45T fire-control system, an upgraded engine, and gunner's thermal sight. Standard protective measures include a blend of steel and composite armour, smoke grenade dischargers, Kontakt-5 explosive-reactive armour and the Shtora infrared ATGM jamming system. Upgrades main stats. Adds + %bonus_health% health, + %bonus_armor% armor, + %attack_range_bonus% attack range, + %damage% damage. Receives 20% damage less. <br><br> Have fixed attack time, items that are decreasing BAT do not work."
+		"DOTA_Tooltip_ability_gu_t90_upgrade_scepter_Description"			"Increases bonus armor by 300%" 
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_bb" 								"<font color='#fd2727'>「ZBM46/ZBM48」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_bb_Description" 					"AP <font color='#fd2727'>「ZBM46/ZBM48」</font> - main shell of D-81ТМ gun. This shell penetrates up to %penetration% mm (decreases enemy armor by that value), additionally deals 100% of character strength as damage."
+		"DOTA_Tooltip_modifier_gu_t90_ammo_bb" 							"<font color='#fd2727'>「ZBM46/ZBM48」</font>"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_bb_Description" 				"AP shell."
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_kym" 							"<font color='#f9fd27'>「ZBK29(М)」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_kym_Description" 				"HEAT <font color='#f9fd27'>「ZBK29(М)」</font> is used to penetrate thick armor, this shell penetrates up to %penetration% mm (decreases enemy armor by that value), additionally deals 5% of target max HP as pure damage. This shell has 20% chance to deal bonus 10% of target health as pure damage, costs 5% of your max energy. <br><br><font color='#fd2727'>If you don't have enough energy, your shell will be automatically swapped to「ZBM46/ZBM48」</font>"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_kym" 							"<font color='#f9fd27'>「ZBK29(М)」</font>"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_kym_Description" 				"HEAT shell."
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_heat" 							"<font color='#fd7427'>「ZOF26」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_heat_Description" 				"HE <font color='#fd7427'>「ZOF26」</font> does not penetrate armor but deals %damage%%% damage in %heat_dmg_radius% AOE. one shot costs 2% of your max energy. <br><br><font color='#fd2727'>If you have not enough energy, your shell will be automatically swapped to「ZBM46/ZBM48」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_heat_penetration" 				"-Armor: "
+		"DOTA_Tooltip_modifier_gu_t90_ammo_heat" 							"<font color='#fd7427'>「ZOF26」</font>"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_heat_Description" 				"HE shell."
+
+		"DOTA_Tooltip_modifier_gu_t90_ammo_armor_reduction"					"Penetrated"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_armor_reduction_Description"			"Armor decreased by %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_rocket" 							"<font color='#fd7427'>「9М112М2」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_rocket_Description" 					"Anti-tank guided missile (ATGM) with radio targeting <font color='#fd7427'>「9М112М2」</font> Allows hitting enemy targets up to 50000 range, if hit ignores enemy armor and deals damage %base_damage% + (%bonus_dmg_per_armor% * your armor), cooldown cannot be decreased."
+		"DOTA_Tooltip_ability_gu_t90_ammo_rocket_count_target" 					"КTarget count: "
+		"DOTA_Tooltip_ability_gu_t90_ammo_rocket_shard_Description" 			"Adds bonus damage - strength * 3"
+
+		"DOTA_Tooltip_ability_gu_t90_arenam1" 							"<font color='#5dff00'>「«Shtora-1»」</font>"
+		"DOTA_Tooltip_ability_gu_t90_arenam1_Description" 					"is an electro-optical active protection system or suite for tanks, designed to disrupt the laser designator and laser rangefinders of incoming anti-tank guided missiles (ATGMs). The system is mounted on the Russian T-80 and T-90 series tanks and the Ukrainian T-84. <br><br> Allows to avoid one instance of damage every %cd% seconds"
+
+		"npc_gu_btr82_base"													"BTR-82A Base"
+		"npc_dota_hero_venomancer"											"BTR-82А「★★★」"
+
+
+		"DOTA_Tooltip_ability_gu_btr82a_upgrade" 								"<font color='#fd2727'>「BTR-82А」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_upgrade_Description" 						"Latest production version with improved armour, spall liners, more modern night vision device TKN-4GA-02, 2A72 30 mm gun (a lighter, less complex cousin of the 2A42), GLONASS navigation system and a more powerful engine of 300 hp. The prototype of the BTR-82A was shown for the first time in November 2009. Upgrades main stats. Adds + %bonus_health% health, + %bonus_armor% armor, + %attack_range_bonus% attack range, + %damage% damage. Receives 20% damage less. <br><br> Have fixed attack time, items that are decreasing BAT do not work."
+		"DOTA_Tooltip_ability_gu_btr82a_upgrade_scepter_Description"				"Increases bonus damage by 150%" 
+
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_bb" 								"<font color='#fd2727'>「ZUBR8」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_bb_Description" 						"AP <font color='#fd2727'>「ZUBR8」</font> - main shell of 2A72 gun. This shell penetrates up to %penetration% mm (decreases enemy armor by that value), additionally deals 50% of character strength as damage."
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_bb" 									"<font color='#fd2727'>「3УБР8」</font>"
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_bb_Description" 						"AP shell."
+
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_heat" 								"<font color='#fd7427'>「ZUOF8」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_heat_Description" 						"HE <font color='#fd7427'>「ZUOF8」</font>  does not penetrate armor but deals %damage%%% damage in %heat_dmg_radius% AOE. one shot costs 2% of your max energy. <br><br><font color='#fd2727'>If you have not enough energy, your shell will be automatically swapped to「ZUBR8」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_ammo_heat_penetration" 						"Пробитие: "
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat" 							"<font color='#fd7427'>「ZUOF8」</font>"
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat_Description" 					"HE shell."
+
+		"DOTA_Tooltip_ability_gu_btr82a_smoke" 									"<font color='#fd2727'>「System 902 «Tucha»」</font>"
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_Description" 							"System 902 «Tucha» creates smokescreen in selected area, all enemy units in that area will miss with %miss_chance%%% chance."
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_duration"								"Duration: "
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_radius"								"Radius: "
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_shard_Description"				"Increases duration by 10 seconds."
+		"DOTA_Tooltip_modifier_gu_btr82a_smoke_enemy"							"<font color='#fd2727'>「System 902 «Tucha»」</font>"
+
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_armor_reduction"					"Penetrated"
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_armor_reduction_Description"			"Armor decreased by %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+
+		"npc_gu_2c25_base"													"2С25 «Sprut-SD» Base"
+		"npc_dota_hero_nevermore"											"2С25 «Sprut-SD»「★★★★★」"
 
 
 
+		"DOTA_Tooltip_ability_gu_sprut_upgrade" 								"<font color='#fd2727'>「2S25 «Sprut-SD»」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_upgrade_Description" 					"2S25 «Sprut-SD». Upgrades main stats. Adds + %bonus_health% health, + %bonus_armor% armor, + %attack_range_bonus% attack range, + %damage% damage. Receives 20% damage less. <br><br> Have fixed attack time, items that are decreasing BAT do not work."
+		"DOTA_Tooltip_ability_gu_sprut_upgrade_scepter_Description"			"Increases bonus damage by 150%" 
 
+		"DOTA_Tooltip_ability_gu_sprut_ammo_bb" 								"<font color='#fd2727'>「ZBM46/ZBM48」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_bb_Description" 					"AP <font color='#fd2727'>「ZBM46/ZBM48」</font> - main shell of D-81ТМ gun. This shell penetrates up to %penetration% mm (decreases enemy armor by that value), additionally deals 100% of character strength as damage."
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_bb" 							"<font color='#fd2727'>「ZBM46/ZBM48」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_bb_Description" 				"AP shell."
 
+		"DOTA_Tooltip_ability_gu_sprut_ammo_kym" 							"<font color='#f9fd27'>「ZBK29(М)」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_kym_Description" 				"HEAT <font color='#f9fd27'>「ZBK29(М)」</font> is used to penetrate thick armor, this shell penetrates up to %penetration% mm (decreases enemy armor by that value), additionally deals 5% of target max HP as pure damage. This shell has 20% chance to deal bonus 10% of target health as pure damage, costs 5% of your max energy. <br><br><font color='#fd2727'>If you don't have enough energy, your shell will be automatically swapped to「ZBM46/ZBM48」<br><br> Armor decreasing is stackable.</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_kym" 							"<font color='#f9fd27'>「ZBK29(М)」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_kym_Description" 				"HEAT shell."
 
+		"DOTA_Tooltip_ability_gu_sprut_ammo_heat" 							"<font color='#fd7427'>「ZOF26」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_heat_Description" 				"HE <font color='#fd7427'>「ZOF26」</font> does not penetrate armor but deals %damage%%% damage in %heat_dmg_radius% AOE. one shot costs 2% of your max energy. <br><br><font color='#fd2727'>If you have not enough energy, your shell will be automatically swapped to「ZBM46/ZBM48」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_heat_penetration" 				"-Armor: "
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_heat" 							"<font color='#fd7427'>「ZOF26」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_heat_Description" 				"HE shell."
 
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_armor_reduction"					"Penetrated"
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_armor_reduction_Description"			"Armor decreased by %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
 
+		"DOTA_Tooltip_ability_gu_sprut_ammo_rocket" 							"<font color='#fd7427'>「9М112М2」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_rocket_Description" 					"Anti-tank guided missile (ATGM) with radio targeting <font color='#fd7427'>「9М112М2」</font> Allows hitting enemy targets up to 50000 range, if hit ignores enemy armor and deals damage %base_damage% + (%bonus_dmg_per_armor% * your armor), cooldown cannot be decreased."
+		"DOTA_Tooltip_ability_gu_sprut_ammo_rocket_count_target" 					"Target count: "
+		"DOTA_Tooltip_ability_gu_sprut_ammo_rocket_shard_Description" 			"Adds bonus damage - strength * 3"
 
-
-
-
-
+		"DOTA_Tooltip_ability_gu_sprut_smoke" 							"<font color='#fd7427'>「System 902U «Tucha»」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_smoke_Description" 					"System 902 «Tucha» after activation launches smokegrenades around tank. They are creating thick smokescreen, 2S25 cannot move in it but invisible to enemies."
+		"DOTA_Tooltip_ability_gu_sprut_smoke_duration" 						"Duration: "
 
 
  
