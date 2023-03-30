@@ -3331,6 +3331,9 @@
  "boss_name_6" "Master of the Universe"
  "boss_name_7" "年獸"
  "boss_name_8" "Tokisaki Kurumi"
+ "boss_name_9" "Coffin"
+ "boss_name_10" "Lord Voldemort"
+ "boss_name_11" "Lich King"
 
 "npc_universal_boss_dark_willow" "Mireska Windblown"
  "npc_universal_boss_dark_willow_text" "Insidious Reptile"
@@ -3371,6 +3374,22 @@
  "npc_gu_boss_nian_text" "The Legend of the Beast" 
  "npc_gu_boss_nian_text_1" "Time has no beginning and no end. Time is like the serpent Ouroboros with its own tail in its teeth."
  "npc_gu_boss_nian_text_1_2" "Every moment hides eternity. And eternity is made up of the moments that create it."
+
+	"npc_gu_boss_grob" 										"Coffin"
+	"npc_gu_boss_grob_text"									"Let's change"		
+	"npc_gu_boss_grob_text_1"								"Hey, listen, where did the macaw go!!!."
+	"npc_gu_boss_grob_text_1_2"								"Wear and tear of the character after the implementation of the coffin - slightly worn."
+
+	"npc_gu_boss_volandemort" 								"Lord Voldemort"
+	"npc_gu_boss_volandemort_text"							"The Dark Lord"		
+	"npc_gu_boss_volandemort_text_1"						"Greatness awakens envy, envy gives rise to malice, malice breeds lies."
+	"npc_gu_boss_volandemort_text_1_2"						"Don't you dare turn your back on me. I want to see the light fade in your eyes"
+
+	"npc_gu_lich_king"										"Lich King"
+	"npc_gu_lich_king_text"									"Lord of the Scourge"
+	"npc_gu_lich_king_text_1"								"Go and face your destiny."
+	"npc_gu_lich_king_text_1_2"								"Hahahaha. Nowhere to run, now you are mine!"
+
 
  "boss_drop_boss_1" "Items you can get if you win:"
 
@@ -5230,71 +5249,10 @@ Sends a request for close air support. If there are free forces, then 2 helicopt
 		"npc_dota_hero_troll_warlord_dificult"		"Hero Difficulty: Normal"
 		"npc_dota_hero_venomancer_dificult"			"Hero Difficulty: Normal"
  
-"npc_dota_hero_queenofpain_type"        "Role: <font color='#a822ba'>Mage DPS</font>"
-"npc_dota_hero_warlock_type"            "Role: <font color='#a822ba'>Mage DPS</font>"
-"npc_dota_hero_ancient_apparition_type"         "Role: <font color='#ba1111'>Tank</font>" 
-"npc_dota_hero_bristleback_type"        "Role: <font color='#119e09'>Main DPS</font>"
-"npc_dota_hero_abaddon_type"            "Role: <font color='#ba1111'>Tank</font>, <font color='#0f8fa8'>Support</font>"
- "npc_dota_hero_earth_spirit_type"      "Role: <font color='#ba1111'>Tank</font>"
- "npc_dota_hero_sven_type"              "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_elder_titan_type"       "Role: <font color='#ba1111'>Tank</font>"
- "npc_dota_hero_storm_spirit_type"      "Role: <font color='#119e09'>DPS</font>, <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_lina_type"              "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_tiny_type"              "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_luna_type"              "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_silencer_type"          "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_drow_ranger_type"       "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_ember_spirit_type"      "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_oracle_type"            "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_furion_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_windrunner_type" "Role: <font color='#119e09'>DPS</font>, <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_legion_commander_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_bounty_hunter_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_enigma_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_sniper_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_spirit_breaker_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_winter_wyvern_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_naga_siren_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_slark_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_dark_willow_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_dazzle_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_crystal_maiden_type" "Role: <font color='#0f8fa8'>Support</font>"
- "npc_dota_hero_lich_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_tinker_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_alchemist_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_clinkz_type" "Role: <font color='#119e09'>Main DPS</font>, <font color='#ba1111'>Tank</font>"
- "npc_dota_hero_nyx_assassin_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_gyrocopter_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_shredder_type" "Role: <font color='#119e09'>Main DPS</font>,<font color='#ba1111'>Tank</font>"
- "npc_dota_hero_axe_type" "Role: <font color='#ba1111'>Tank</font>"
- "npc_dota_hero_weaver_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_enchantress_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_spectre_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_vengefulspirit_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_obsidian_destroyer_type" "Role: <font color='#ba1111'>Tank</font>" 
- "npc_dota_hero_skeleton_king_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_skywrath_mage_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_mirana_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_void_spirit_type" "Role: <font color='#a822ba'>Mage DPS</font>, <font color='#0f8fa8'>Support</font>"
- "npc_dota_hero_antimage_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_pudge_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_monkey_king_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_templar_assassin_type" "Role: <font color='#0f8fa8'>Support</font>"
- "npc_dota_hero_wisp_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_puck_type" "Role: <font color='#a822ba'>Mage DPS</font>, <font color='#0f8fa8'>Support</font>"
- "npc_dota_hero_bloodseeker_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_juggernaut_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_invoker_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_marci_type" "Role: <font color='#a822ba'>Mage DPS</font>, <font color='#0f8fa8'>Support</font>"
- "npc_dota_hero_dragon_knight_type" "Role: <font color='#ba1111'>Tank</font>"
- "npc_dota_hero_hoodwink_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_phantom_assassin_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_earthshaker_type" "Role: <font color='#119e09'>Main DPS</font>"
- "npc_dota_hero_tiny_type" "Role: <font color='#ba1111'>Tank</font>"
- "npc_dota_hero_pugna_type" "Role: <font color='#a822ba'>Mage DPS</font>"
- "npc_dota_hero_brewmaster_type"			"Role: <font color='#119e09'>Main DPS</font>"
-		"npc_dota_hero_troll_warlord_type"		"Role: <font color='#119e09'>Main DPS</font>"
-		"npc_dota_hero_venomancer_type"			"Роль: <font color='#119e09'>Main DPS</font>"
+		"role_type_1"							"Роль: <font color='#119e09'>«Basic DPS»</font>"
+		"role_type_2"							"Роль: <font color='#a822ba'>«Magic DPS»</font>"
+		"role_type_3"							"Роль: <font color='#ba1111'>«Armored»</font>"
+		"role_type_4"							"Роль: <font color='#0f8fa8'>«Support»</font>"
 
  "npc_dota_hero_warlock_rare" "Banner: Andromeda's Tale"
  "npc_dota_hero_ancient_apparition_rare" "Banner: Andromeda's Tale"
@@ -7127,8 +7085,8 @@ Ram<br><br>
 		"backpack_icon_help" "Any player can pick up items he likes from this cache, in order to pick up an item - click on it with LMB."
 
 
-		"gu_potion_create" "{player_name} created a potion - "{item_name}"!"
-		"gu_meteor_true" "{player_name} has finished collecting meteorite fragments!"
+		"gu_potion_create" 	"{player_name} created a potion - {item_name}!"
+		"gu_meteor_true" 	"{player_name} has finished collecting meteorite fragments!"
 
 
 		"DOTA_Tooltip_ability_item_force_shield_technology_water"					"Force Shield Technology (Underwater)"
@@ -7163,12 +7121,111 @@ Ram<br><br>
 		"odin_a10_repli_2"							"Один 6-2 - Бомбы пошли! Бомбы пошли!."
 
 
+		"npc_dota_hero_sand_king"					"BMP-1 「★★★★」"
+		"npc_dota_hero_abyssal_underlord"			"Youmu Konpaku 「★」"
+		"npc_dota_hero_abyssal_underlord_weapon"	"Weapon: <font color='#ffb056'>One-Handed Sword</font>"
+		"npc_dota_hero_abyssal_underlord_damage"	"Source: «Touhou»"
+		"npc_dota_hero_abyssal_underlord_rare"		"Player Character: Emiya"
+		"npc_dota_hero_abyssal_underlord_dificult"	"Hero Difficulty: Normal"
+		"npc_dota_hero_abyssal_underlord_race"		"Race: «とうほう»"
 
 
+			 "DOTA_Tooltip_ability_ability_thdots_youmuEx"	               "Voidness Sword「Slash Clearing the Six Senses」"
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_Description"	"Youmu parries and counter-attacks with Hakurouken. Total damage=attack damage+damage of「Slash of Departure from Hesitation」.\nYoumu is immune to physical damage when parring."
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_Lore"              "Deals no damage if「Slash of Departure from Hesitation」is not learnt.\nEnter '-youmu2' before studying any skill to change to the other skill set.
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_buff_duration"	"Parry duration: "		
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_ability_radius"	"Counter attack range: "
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_duration"	        "Armor reduction duration: "
+
+		"DOTA_Tooltip_ability_ability_thdots_youmu01"                                "Cherry Blossom Sword「Slash of Saigyou Spring Wind」"
+		"DOTA_Tooltip_ability_ability_thdots_youmu01_Description"		             "Rushes with blinding speed towards the target, slashing twice through all enemies in the %damage_radius% wide path. \nDamage: %AbilityDamage% + 0.8 * (attack damage)"
+		"DOTA_Tooltip_ability_ability_thdots_youmu01_damage_radius"		    		 "RADIUS: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu01_move_duration"		    		 "CASTING TIME: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu01_cast_range"					"CAST RANGE: "
+
+		"DOTA_Tooltip_ability_ability_thdots_youmu02"                           	 "Hesitation-Cutting Sword「Slash of Departure from Hesitation」"
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_Description"		             "Each strike will cut straight through the soul, dealing extra damage and reducing target's Armor for %duration% sec. The armor reducing can be stacked up to 16 times."
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_decrease_armor"		   	     "ARMOR REDUCTION: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_decrease_max_armor"	   	     "MAX REDUCTION: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_bouns_damage"		     		 "BONUS DAMAGE: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_duration"			    		 "DURATION: "
+		"DOTA_Tooltip_Ability_ability_thdots_youmu02_shard_Description"				"Adds additional Physical Damage equal to 0.5% of the target's Max Health."
+
+		"DOTA_Tooltip_ability_ability_thdots_youmu03"                                "Soul Sign「Wheel of Pain of the Living and Dead」"
+		"DOTA_Tooltip_ability_ability_thdots_youmu03_Description"		             "Turns your phantom half into a full copy of yourself, that will follow you and attack your targets. Enlightened Sword effect it has is reduced to %bouns_damage% times."
+              		"DOTA_Tooltip_ability_ability_thdots_youmu03_ability_duration"		     	 "DURATION: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu03_damage"		     		 "PHANTOM DAMAGE: "
+
+		"DOTA_Tooltip_ability_ability_thdots_youmu04"                                "Human Soul「Slash of Fututre Eons」"
+		"DOTA_Tooltip_ability_ability_thdots_youmu04_Description"		             "Dashes in and assaults the target with multiple powerful strikes. The target is stunned during this."
+		"DOTA_Tooltip_ability_ability_thdots_youmu04_AbilityCastRange"		"CAST RANGE: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu04_scepter_description"		"「Slash of Fututre Eons」works on enemies in 350 range of the target. And the stun duration is increased to %wanbaochui_stun% seconds."
+		"DOTA_Tooltip_ability_ability_thdots_youmu04_ability_multi"		     		 "BONUS DAMAGE PER AGI: "
+
+		"DOTA_Tooltip_modifier_thdots_youmu01_think_interval"                             "Sword Skill「Flashing Cherry Blossoms」"
+		"DOTA_Tooltip_modifier_thdots_youmu01_think_interval_Description"                 "Rushes with blinding speed towards the target"
+
+		"DOTA_Tooltip_passive_youmu02_attack"                                             "Enlightened Sword「Rise from Delusion」"
+		"DOTA_Tooltip_passive_youmu02_attack_Description"                                 "Each strike will cut straight through the soul, and reducing target's Armour"
+
+		"DOTA_Tooltip_modifier_youmu02_armor_decrease"                                    "Soul injured"
+		"DOTA_Tooltip_modifier_youmu02_armor_decrease_Description"                        "Your armour reduce because of soul injured."
+
+		"DOTA_Tooltip_modifier_youmu02_armor_decrease_unit"                               "Soul injured(For Soul Sign「Wheel of Pain of the Living and Dead」)"
+		"DOTA_Tooltip_modifier_youmu02_armor_decrease_unit_Description"                   "Your armour reduce because of soul injured.(For Soul Sign 「Wheel of Pain of the Living and Dead」)"
+
+		"DOTA_Tooltip_modifier_thdots_youmu03_spawn"                                      "Soul Sign「Wheel of Pain of the Living and Dead」"
+		"DOTA_Tooltip_modifier_thdots_youmu03_spawn_Description"                          "The soul materialized."
+
+		"DOTA_Tooltip_modifier_thdots_youmu04_states"                                     "Human Soul「Slash of Fututre Eons」"
+		"DOTA_Tooltip_modifier_thdots_youmu04_states_Description"                         "High-speed displacement slash target"
+
+		"DOTA_Tooltip_modifier_thdots_youmu04_think_interval"                             "Human Soul「Slash of Fututre Eons」"
+		"DOTA_Tooltip_modifier_thdots_youmu04_think_interval_Description"                 ""
+
+		"DOTA_Tooltip_modifier_weather_summer_breeze" 						"<font color='#ea9999'>「Summer Breeze」</font>"
+		"DOTA_Tooltip_modifier_weather_summer_breeze_Description" 			"Increases movement speed by 50%%%."
+
+	"andromeda_gate_ac130" 		"У нас дополнительная поддержка с воздуха! Оверлорд, запрашиваю огневую поддержку по координатам 5-0-01!"
+		"overlord_show_ac130" 		"Понял! С запада на восток, 1-6 разрешаю бомбовый удар по координатам 5-0-0-1."
 
 
+		"DOTA_Tooltip_ability_item_give_max"					"Maxwell the Cat"
+		"DOTA_Tooltip_ability_item_give_max_Description"		"IT'S TURNING!!!!!!11"
 
 
+		"halls_in_the_desert"								"Chronicles of Chortogov in the desert"
+		"halls_in_the_desert_1"								"The birth of the city of kings"
+		"halls_in_the_desert_2"								"The end of the golden age"
+		"halls_in_the_desert_3"								"Clock of the Lost Path"
+		"halls_in_the_desert_4"								"Keeper of a wonderful dream"
+		"halls_in_the_desert_5"								"The legacy of the desert nobility"
+		"halls_in_the_desert_effect_des" 					"2 items: When inflicting critical damage (only with a normal attack), the enemy will receive an additional 3% damage from any source, the duration of the effect is 10 seconds, the number of stacks is unlimited. <br><br> 5 items: Increases additional damage by 8%. <br>"
+
+		"npc_test"											"Dmytro Borisovych Pidorashko"
+		"DOTA_Tooltip_hero_artifact_halls_in_the_desert"				"Chronicles of Chortogov in the desert"
+		"DOTA_Tooltip_hero_artifact_halls_in_the_desert_Description"	"Increases all damage taken"
+
+		"DOTA_Tooltip_ability_item_halls_in_the_desert"					"Chronicles of Chortogov in the desert"
+		"DOTA_Tooltip_ability_item_halls_in_the_desert_Description"		"A random piece from the Chronicles of Chortogov in the Desert set"
+
+
+		"armored_modules_bonus"													"Удосконалене обладнання"
+		"armored_modules_bonus_1"												"Система відведення порохових газів"
+		"armored_modules_bonus_2"												"Підвищена снарядостійкість"
+		"armored_modules_bonus_3"												"Юстована оптика"
+		"armored_modules_bonus_4"												"Поліпшений компресор"
+		"armored_modules_bonus_5"												"Експериментальна система заряджання"
+		"armored_modules_bonus_effect_des" 										"Система відведення порохових газів: Збільшує всі ваші атрибути на 100%. <br><br> Підвищена снарядостійкість: Зменшує всю отримувану шкоду на 20%.<br><br> Юстована оптика: Збільшує дальність видимості на 2500. <br><br> Поліпшений компресор: збільшує швидкість на 200.<br><br> Експериментальна система заряджання: Зменшує перезарядку гармати на 30%. (Працює лише на наступних машинах: T-72, T-90, BTR-82A, 2c25 Спрут СД и Jagdpanzer E-100 <br>"
+
+
+		"armored_modules_exp"													"Експериментальне обладнання"
+		"armored_modules_exp_1"													"Система управління вогнем"
+		"armored_modules_exp_2"													"Система підвищеної мобільності"
+		"armored_modules_exp_3"													"Комплекс покращень виживання"
+		"armored_modules_exp_4"													"Трофейний турбонагнітач"
+		"armored_modules_exp_5"													"Трофейна вентиляція"
+		"armored_modules_exp_effect_des" 										"Система управління вогнем: Зменшує перезарядку гармати на 50%. (Працює лише на наступних машинах: T-72, T-90, BTR-82A, 2c25 Спрут СД и Jagdpanzer E-100. <br><br> Система підвищеної мобільності: Збільшує швидкість на 400.<br><br> Комплекс покращень виживання: Зменшує всю отримувану шкоду на 40% .<br>"
 
 
 

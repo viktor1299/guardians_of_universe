@@ -32,6 +32,7 @@
 	"boss_dif_4"			"Сложность: <font color='#cc553d'>«Сложная»</font>"
 	"boss_dif_5"			"Сложность: <font color='#cf1919'>«Абсурдная»</font>"
 	"boss_dif_6"			"Сложность: <font color='#ff0000'>«Невоз</font><font color='#ff6a00'>можная»</font>"
+	"boss_dif_7"			"Сложность: <font color='#ff0000'>«Помя</font><font color='#ff6a00'>нем»</font>"
 
 
 	/// H U D  В О Л Н Ы ///
@@ -150,6 +151,7 @@
 		"swamp"				"Погода: Болотный Дождь" 
 		"sandstorm"			"Погода: Песчаная Буря" 
 		"spacerift"			"Погода: Аномальная" 
+		"summer_breeze"		"Погода: Летний Бриз" 
 
 		"sunny_des"			"Увеличивает дальность обзора всех игроков на 1500." 
 		"rain_des"			"Уменьшает область видимости до уровня ночи."  
@@ -159,6 +161,7 @@
 		"swamp_des"			"Попадание в болото замедляет вас на 30% и уменьшает броню на 10%." 
 		"sandstorm_des"		"Снижает вашу обзор до минимального, а также создаёт песчаные бури, которые замедляют вас и увеличивают шанс промаха." 
 		"spacerift_des"		"Создаёт временные разломы. Попадание в разлом приносит 500 опыта, а также восстанавливает 10% здоровья." 
+		"summer_breeze_des"	"Увеличивает скорость передвижения всех игроков и захватчиков на 50%." 
 	 
 	"DOTA_Tooltip_ability_ouroboros_dualcast"										    "Мультикаст"
 	"DOTA_Tooltip_ability_ouroboros_dualcast_description"								    "<h1>Переключаемая: Повторитель </h1> При применении способности с включенным мультикастом, способность будет использована дважды, но при этом будет потрачено 50 энергии."
@@ -2547,13 +2550,13 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 					"Можно получить выполнив квест за Кастера"
  
         "DOTA_Tooltip_ability_item_stellar_flare"										"Звёздная вспышка"
-	    "DOTA_Tooltip_ability_item_stellar_flare_Description"								"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). <br>Внимание! Данный предмет работает только у героев с основным атрибутом Интеллект. \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
+	    "DOTA_Tooltip_ability_item_stellar_flare_Description"								"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). <br>Внимание! Данный предмет работает только у героев с основным атрибутом Интеллект, урон не может юыть более 1% от максимального здоровья цели! \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
 		"DOTA_Tooltip_ability_item_stellar_flare_Note0"										"Урон предмета не зависит от магического усиления"
 	    "DOTA_Tooltip_ability_item_stellar_flare_int"										"+к интеллекту:" 
 		"DOTA_Tooltip_ability_item_stellar_flare_mana"										"+к мане"
 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil"									"Нестабильная Звёздная вспышка"
-	    "DOTA_Tooltip_ability_item_stellar_flare_veil_Description"							"<h1>Активная: Нестабильность</h1> При активации на точку уменьшает магическое сопротивление всех вражеских юнитов на 30%. <br>Внимание! Данный предмет работает только у героев с основным атрибутом - Интеллект.\n<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
+	    "DOTA_Tooltip_ability_item_stellar_flare_veil_Description"							"<h1>Активная: Нестабильность</h1> При активации на точку уменьшает магическое сопротивление всех вражеских юнитов на 30%. <br>Внимание! Данный предмет работает только у героев с основным атрибутом - Интеллект, урон не может юыть более 1% от максимального здоровья цели!\n<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_Note0" 								"Урон предмета не зависит от магического усиления"
 	    "DOTA_Tooltip_ability_item_stellar_flare_veil_int"									"+к интеллекту:" 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_mana"									"+к мане"
@@ -3291,6 +3294,8 @@
 		"npc_dota_hero_venomancer_race"			"Раса: «Armored»"
 		"npc_dota_hero_nevermore_race"			"Раса: «Armored»"
 		"npc_dota_hero_zuus_race"				"Раса: «Armored»"
+		"npc_dota_hero_abyssal_underlord_race"	"Раса: «とうほう»"
+		"npc_dota_hero_sand_king_race"			"Раса: «Armored»"
 
 		"npc_cu_neitrall_updated"									"Вселенский Крип Стандартный"
 		"npc_cu_neitrall_updated_hard"								"Рыба Мутант"
@@ -3525,7 +3530,10 @@
 			"boss_name_6" "Ba'al"
 			"boss_name_7" "年獸"
 			"boss_name_8" "Tokisaki Kurumi"
-			"boss_name_9" "Помянем"
+			"boss_name_9" "Домовина"
+			"boss_name_10" "Lord Voldemort"
+			"boss_name_11" "Lich King"
+			"boss_name_12" "Pudge"
 
 
 			"npc_universal_boss_dark_willow"						"Sangonomiya"
@@ -3570,13 +3578,25 @@
 			
 			"boss_drop_boss_1"										"Предметы которые вы сможете получить в случае победы:"
 
-			"npc_gu_boss_grob" 										"Гроб"
+			"npc_gu_boss_grob" 										"Домовина"
 			"npc_gu_boss_grob_text"									"Помянем"		
 			"npc_gu_boss_grob_text_1"								"ЭЭЭЭЭЭ ССЛЫШ ТЫ КУДА ПОЛЭЗ АРА!!!."
 			"npc_gu_boss_grob_text_1_2"								"Износ персонажа после реализации гроба - немного поношенное."
 
+			"npc_gu_boss_volandemort" 								"Lord Voldemort"
+			"npc_gu_boss_volandemort_text"							"The Dark Lord"		
+			"npc_gu_boss_volandemort_text_1"						"Величие пробуждает зависть, зависть рождает злобу, злоба плодит ложь."
+			"npc_gu_boss_volandemort_text_1_2"						"Не смей поворачиваться ко мне спиной. Я хочу видеть как померкнет свет в твоих глазах."
+
 			"npc_gu_lich_king"										"Lich King"
 			"npc_gu_lich_king_text"									"Lord of the Scourge"
+			"npc_gu_lich_king_text_1"								"Иди же и взгляни в лицо своей судьбе."
+			"npc_gu_lich_king_text_1_2"								"Хахахаха. Бежать некуда, теперь вы мои!"
+
+			"npc_gu_boss_pudge"										"The Pudge"
+			"npc_gu_boss_pudge_text"								"Feast Of Abscession"
+			"npc_gu_boss_pudge_text_1"								"Меня зовут Мясником."
+			"npc_gu_boss_pudge_text_1_2"							"Устроим вечеринку с потрошением!"
 			
 
 		"DOTA_Tooltip_ability_item_gold"							"Золото"
@@ -4883,6 +4903,16 @@
 		"npc_dota_hero_earthshaker_t5"		"Улучшает - <font color='#fd2727'>「33ВБП2」</font><br> <font color='#f9fd27'>「53-ВОФ-545Г<br><br>Убирает перезарядку между переключением на разные типа снарядов, так-же переключение сработает даже если отметить перезарядку."
 		"npc_dota_hero_earthshaker_t6"		"Улучшает - <br><font color='#f9fd27'>「53-ВОФ-545Г」</font><br><br> Убирает затраты энергии на все типы снарядов."
 
+		"npc_dota_hero_sand_king_t2_name"		"-「Покращенні Міни」_-"
+		"npc_dota_hero_sand_king_t3_name"		"-「Додатковий тротил」_-"
+		"npc_dota_hero_sand_king_t4_name"		"-「Урановий Сердечник」_-"
+		"npc_dota_hero_sand_king_t5_name"		"-「Система Заряжання」_-"
+		"npc_dota_hero_sand_king_t6_name"		"-「Система КАЗ 2ТМ」_-"
+		"npc_dota_hero_sand_king_t2"		"Покращує - <font color='#fd2727'>「МОН-100」</font><br><br> Зменшуе перезарядку до 2 секунд.<br><br>Покращує -<font color='#fd2727'>「МОН-100 (Касета)」</font><br><br> Зменшуе перезарядку до 20 секунд."
+		"npc_dota_hero_sand_king_t3"		"Покращує - <font color='#fd2727'>「МОН-100」</font><br><br> Додає до шкоди додатково 30% на всіх рівнях.<br><br>Покращує -<font color='#fd2727'>「МОН-100 (Касета)」</font><br><br> Додає до шкоди додатково 30% на всіх рівнях."
+		"npc_dota_hero_sand_king_t4"		"Покращує - <font color='#fd7427'>「ПГ-15」</font><br><br> Додає до базової шкоди - додаткову шкоду у розмірі 30% від максимального здоровя цілі.<br><br> Покращує - <font color='#fd7427'>「ОГ-15」</font><br><br> Додає до базової шкоди - додаткову шкоду у розмірі 150% від вашої спритності."
+		"npc_dota_hero_sand_king_t5"		"Покращує - <br><font color='#fd2727'>「ПГ-15」</font><br> <font color='#f9fd27'>「ОГ-15」</font><br><br>Забирає перезарядку між перемиканням на різні типи снарядів, так само перемикання спрацює навіть якщо відмінити переключення."
+		"npc_dota_hero_sand_king_t6"		"Покращує - <br><font color='#f9fd27'>「ОГ-15」</font><br><br> Забирає затрати енергії.<br>Покращує - <br><font color='#f9fd27'>「9К111-1 «Фагот»」</font><br><br> Збільшує шкоду в 10 разів а також при використані здібності, БМП-1 випустить додаткові ракети по всім ворожим цілям у радіусі 1200 з чередою в 0.5 секунд."
 
 
 
@@ -4936,6 +4966,7 @@
 		"spacerift_chat"			"Погода: <font color='#d428c0'>Аномальная</font>" 
 		"rain_infinity_chat"		"Погода: <font color='#7a7a7a'>Пустота</font>" 
 		"snow_infinity_chat"		"Погода: <font color='#51668a'>Адский Холод</font>"
+		"summer_breeze_chat"		"Погода: <font color='#ea9999'>Летний Бриз</font>"
 
 		"gu_qvest"		"{player_name} Выполнил {qvest}"
 
@@ -5063,6 +5094,18 @@
 		Не работает на Хранителей.<br>
 		Перезарядка 180 секунд.<br>
 		Может использовать 1 игрок, после чего у всех остальных уйдёт на перезарядку."
+
+		"gu_ac130"						"AC-130U Spectre<br><br>
+		Дозволяє використовувати підтримку з повітря у вигляді літака безпосередньої підтримки з повітря AC-130U Spectre.<br>
+		Характеристики:<br>
+		Тривалість: 39 секунд<br>
+		Шкода: Залежить від типу озброєння<br>
+		Боезапас: Необмежений<br> 
+		<br>
+		Обмеження:<br>
+		Не працює в сюжетних завданнях.<br>
+		Перезарядка 600 секунд.<br>
+		Може використовувати 1 гравець, після чого у всіх інших піде на перезарядку."
 
 		
 		"overlord_random_repli_1"	"Хантер-два-один, 15 бойцов противника направляются к вам с севера, приём!"
@@ -5434,6 +5477,8 @@
 		"npc_dota_hero_venomancer_dificult"			"Сложность героя: «Нормально»"
 		"npc_dota_hero_nevermore_dificult"			"Сложность героя: «Нормально»"
 		"npc_dota_hero_zuus_dificult"				"Сложность героя: «Легко»"
+		"npc_dota_hero_abyssal_underlord_dificult"	"Сложность героя: «Нормально»"
+		"npc_dota_hero_sand_king_dificult"			"Складність героя: «Нормально»"
 
 		"role_type_1"							"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"role_type_2"							"Роль: <font color='#a822ba'>«Магический ДПС»</font>"
@@ -5509,74 +5554,78 @@
 		"npc_dota_hero_venomancer_rare"			"Баннер: «История Андромеды»"
 		"npc_dota_hero_nevermore_rare"			"Персонаж игрока: Nepgear"
 		"npc_dota_hero_zuus_rare"				"Получение: «Засекречено»"
+		"npc_dota_hero_abyssal_underlord_rare"	"Персонаж игрока: Emiya"
+		"npc_dota_hero_sand_king_rare"			"Отримання: «Засекречено»"
 
-		"npc_dota_hero_queenofpain_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_warlock_damage" 				"Источник: «Guardians of Universe»"
-		"npc_dota_hero_ancient_apparition_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_bristleback_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_abaddon_damage" 				"Источник: «Dusk»"
-		"npc_dota_hero_earth_spirit_damage" 		"Источник: «Guardians of Universe»"
-		"npc_dota_hero_sven_damage" 				"Источник: «Anime»"
-		"npc_dota_hero_elder_titan_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_storm_spirit_damage" 		"Источник: «Touhou»"
-		"npc_dota_hero_lina_damage" 				"Источник: «Guardians of Universe»"
-		"npc_dota_hero_tiny_damage" 				"Источник: «Guardians of Universe»"
-		"npc_dota_hero_luna_damage" 				"Источник: «Guardians of Universe»"
-		"npc_dota_hero_silencer_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_drow_ranger_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_ember_spirit_damage" 		"Источник: «Guardians of Universe»"
-		"npc_dota_hero_oracle_damage" 				"Источник: «Guarding Athena»"
-		"npc_dota_hero_furion_damage" 				"Источник: «Anime»"
-		"npc_dota_hero_windrunner_damage" 			"Источник: «Guarding Athena»"
-		"npc_dota_hero_legion_commander_damage" 	"Источник: «Guardians of Universe»"
-		"npc_dota_hero_bounty_hunter_damage" 		"Источник: «Anime»"
-		"npc_dota_hero_enigma_damage" 				"Источник: «Dusk»"
-		"npc_dota_hero_sniper_damage" 				"Источник: «Guardians of Universe»"
-		"npc_dota_hero_spirit_breaker_damage" 		"Источник: «MoeToMoe»"
-		"npc_dota_hero_winter_wyvern_damage" 		"Источник: «Anime»"
-		"npc_dota_hero_naga_siren_damage" 			"Источник: «Anime»"
-		"npc_dota_hero_slark_damage" 				"Источник: «Anime»"
-		"npc_dota_hero_dark_willow_damage" 			"Источник: «Anime»"
-		"npc_dota_hero_dazzle_damage" 				"Источник: «Touhou»"
-		"npc_dota_hero_crystal_maiden_damage" 		"Источник: «Anime»"
-		"npc_dota_hero_lich_damage" 				"Источник: «Anime»"
-		"npc_dota_hero_tinker_damage" 				"Источник: «Anime»"
-		"npc_dota_hero_alchemist_damage" 			"Источник: «Anime»"
-		"npc_dota_hero_clinkz_damage" 				"Источник: «MoeToMoe»"
-		"npc_dota_hero_nyx_assassin_damage" 		"Источник: «Anime»"
-		"npc_dota_hero_gyrocopter_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_shredder_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_axe_damage" 					"Источник: «Anime»"
-		"npc_dota_hero_weaver_damage" 				"Источник: «Anime»"
-		"npc_dota_hero_enchantress_damage" 			"Источник: «Touhou»"
-		"npc_dota_hero_spectre_damage" 				"Источник: «Guardians of Universe»"
-		"npc_dota_hero_vengefulspirit_damage" 		"Источник: «Anime»"
-		"npc_dota_hero_obsidian_destroyer_damage" 	"Источник: «Angel Arena Black Star»"
-		"npc_dota_hero_skeleton_king_damage" 		"Источник: «Comic Heroes War»"
-		"npc_dota_hero_skywrath_mage_damage" 		"Источник: «MoeToMoe»"
-		"npc_dota_hero_mirana_damage"             	"Источник: «Touhou»"
-		"npc_dota_hero_void_spirit_damage"        	"Источник: «Touhou»"
-		"npc_dota_hero_antimage_damage"        		"Источник: «Guarding Athena»"
-		"npc_dota_hero_pudge_damage"        		"Источник: «Dota Imba»"
-		"npc_dota_hero_monkey_king_damage"        	"Источник: «Guarding Athena»"
-		"npc_dota_hero_templar_assassin_damage"     "Источник: «Guardians of Universe»"
-		"npc_dota_hero_wisp_damage"					"Источник: «Dusk»"
-		"npc_dota_hero_puck_damage" 				"Источник: «Touhou»"
-		"npc_dota_hero_bloodseeker_damage"			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_juggernaut_damage"			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_invoker_damage"				"Источник: «Epic Boss Fite»"
-		"npc_dota_hero_marci_damage"				"Источник: «Dusk»"
-		"npc_dota_hero_dragon_knight_damage"		"Источник: «Fate»"
-		"npc_dota_hero_hoodwink_damage"				"Источник: «Fate»"
-		"npc_dota_hero_phantom_assassin_damage"		"Источник: «ASB»"
-		"npc_dota_hero_earthshaker_damage"			"Источник: «2CH Defender»"
-		"npc_dota_hero_tiny_damage"					"Источник: «2CH Defender»"
-		"npc_dota_hero_pugna_damage"				"Источник: «ASB»"
-		"npc_dota_hero_brewmaster_damage"			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_troll_warlord_damage"		"Источник: «Anime»"
-		"npc_dota_hero_venomancer_damage"			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_nevermore_damage"			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_zuus_damage"					"Источник: «Guardians of Universe»"
+		"npc_dota_hero_queenofpain_damage" 			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_warlock_damage" 				"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_ancient_apparition_damage" 	"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_bristleback_damage" 			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_abaddon_damage" 				"Джерело: «Dusk»"
+		"npc_dota_hero_earth_spirit_damage" 		"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_sven_damage" 				"Джерело: «Anime»"
+		"npc_dota_hero_elder_titan_damage" 			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_storm_spirit_damage" 		"Джерело: «Touhou»"
+		"npc_dota_hero_lina_damage" 				"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_tiny_damage" 				"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_luna_damage" 				"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_silencer_damage" 			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_drow_ranger_damage" 			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_ember_spirit_damage" 		"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_oracle_damage" 				"Джерело: «Guarding Athena»"
+		"npc_dota_hero_furion_damage" 				"Джерело: «Anime»"
+		"npc_dota_hero_windrunner_damage" 			"Джерело: «Guarding Athena»"
+		"npc_dota_hero_legion_commander_damage" 	"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_bounty_hunter_damage" 		"Джерело: «Anime»"
+		"npc_dota_hero_enigma_damage" 				"Джерело: «Dusk»"
+		"npc_dota_hero_sniper_damage" 				"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_spirit_breaker_damage" 		"Джерело: «MoeToMoe»"
+		"npc_dota_hero_winter_wyvern_damage" 		"Джерело: «Anime»"
+		"npc_dota_hero_naga_siren_damage" 			"Джерело: «Anime»"
+		"npc_dota_hero_slark_damage" 				"Джерело: «Anime»"
+		"npc_dota_hero_dark_willow_damage" 			"Джерело: «Anime»"
+		"npc_dota_hero_dazzle_damage" 				"Джерело: «Touhou»"
+		"npc_dota_hero_crystal_maiden_damage" 		"Джерело: «Anime»"
+		"npc_dota_hero_lich_damage" 				"Джерело: «Anime»"
+		"npc_dota_hero_tinker_damage" 				"Джерело: «Anime»"
+		"npc_dota_hero_alchemist_damage" 			"Джерело: «Anime»"
+		"npc_dota_hero_clinkz_damage" 				"Джерело: «MoeToMoe»"
+		"npc_dota_hero_nyx_assassin_damage" 		"Джерело: «Anime»"
+		"npc_dota_hero_gyrocopter_damage" 			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_shredder_damage" 			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_axe_damage" 					"Джерело: «Anime»"
+		"npc_dota_hero_weaver_damage" 				"Джерело: «Anime»"
+		"npc_dota_hero_enchantress_damage" 			"Джерело: «Touhou»"
+		"npc_dota_hero_spectre_damage" 				"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_vengefulspirit_damage" 		"Джерело: «Anime»"
+		"npc_dota_hero_obsidian_destroyer_damage" 	"Джерело: «Angel Arena Black Star»"
+		"npc_dota_hero_skeleton_king_damage" 		"Джерело: «Comic Heroes War»"
+		"npc_dota_hero_skywrath_mage_damage" 		"Джерело: «MoeToMoe»"
+		"npc_dota_hero_mirana_damage"             	"Джерело: «Touhou»"
+		"npc_dota_hero_void_spirit_damage"        	"Джерело: «Touhou»"
+		"npc_dota_hero_antimage_damage"        		"Джерело: «Guarding Athena»"
+		"npc_dota_hero_pudge_damage"        		"Джерело: «Dota Imba»"
+		"npc_dota_hero_monkey_king_damage"        	"Джерело: «Guarding Athena»"
+		"npc_dota_hero_templar_assassin_damage"     "Джерело: «Guardians of Universe»"
+		"npc_dota_hero_wisp_damage"					"Джерело: «Dusk»"
+		"npc_dota_hero_puck_damage" 				"Джерело: «Touhou»"
+		"npc_dota_hero_bloodseeker_damage"			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_juggernaut_damage"			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_invoker_damage"				"Джерело: «Epic Boss Fite»"
+		"npc_dota_hero_marci_damage"				"Джерело: «Dusk»"
+		"npc_dota_hero_dragon_knight_damage"		"Джерело: «Fate»"
+		"npc_dota_hero_hoodwink_damage"				"Джерело: «Fate»"
+		"npc_dota_hero_phantom_assassin_damage"		"Джерело: «ASB»"
+		"npc_dota_hero_earthshaker_damage"			"Джерело: «2CH Defender»"
+		"npc_dota_hero_tiny_damage"					"Джерело: «2CH Defender»"
+		"npc_dota_hero_pugna_damage"				"Джерело: «ASB»"
+		"npc_dota_hero_brewmaster_damage"			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_troll_warlord_damage"		"Джерело: «Anime»"
+		"npc_dota_hero_venomancer_damage"			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_nevermore_damage"			"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_zuus_damage"					"Джерело: «Guardians of Universe»"
+		"npc_dota_hero_abyssal_underlord_damage"	"Джерело: «Touhou»"
+		"npc_dota_hero_sand_king_damage"			"Джерело: «Guardians of Universe»"
 
 		"npc_dota_hero_warlock_weapon" 				"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
 		"npc_dota_hero_ancient_apparition_weapon" 			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
@@ -5643,6 +5692,9 @@
 		"npc_dota_hero_venomancer_weapon"			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
 		"npc_dota_hero_nevermore_weapon"			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
 		"npc_dota_hero_zuus_weapon"					"Вооружение: <font color='#ff565d'>«Орудие»</font>"
+		"npc_dota_hero_abyssal_underlord_weapon"	"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
+		"npc_dota_hero_sand_king_weapon"			"Вооружение: <font color='#ff565d'>«Гармата»</font>"
+
 
 		"npc_gu_t72_base"			"Т-72 База"
 		"npc_gu_t90_base"			"Т-90 База"
@@ -6862,8 +6914,7 @@
 
 
 		"DOTA_Tooltip_ability_item_gu_nova" 									"Nova"
-		"DOTA_Tooltip_ability_item_gu_nova_Description" 							"<h1>Пассивная: Nova</h1> Снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br><br>Радиус: %aura_radius% \n <h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %aura_radius% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). Внимание! Урон от данного предмета работает только у героев с основным атрибутом - Интеллект. \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 3 единиц маны." 
-		"DOTA_Tooltip_ability_item_gu_nova_Note0"									"Можем повторить"
+		"DOTA_Tooltip_ability_item_gu_nova_Description" 							"<h1>Пассивная: Nova</h1> Снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br><br>Радиус: %aura_radius% \n <h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %aura_radius% магический урон по формуле %damage% + (%damage_int% * ваш основной атрибут). Внимание! Урон не может быть более 1% от максимального здоровья цели! \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 3 единиц маны." 
 		"DOTA_Tooltip_ability_item_gu_nova_bonus_day_vision" 						"К радиусу обзора днем: " 
 		"DOTA_Tooltip_ability_item_gu_nova_bonus_night_vision" 						"К радиусу обзора ночью: " 
 		"DOTA_Tooltip_ability_item_gu_nova_spell_amp_pct" 							"+% к урону от способностей "
@@ -7339,7 +7390,151 @@
 		"overlord_a10_repli_4"						"Отличное попадание! Молодцы! Давайте дальше."
 		"odin_a10_repli_2"							"Один 6-2 - Бомбы пошли! Бомбы пошли!."
 
+		"npc_dota_hero_abyssal_underlord"			"Youmu Konpaku「★」"
 
+		 "DOTA_Tooltip_ability_ability_thdots_youmuEx"	               "Voidness Sword「Slash Clearing the Six Senses」"
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_Description"	"Youmu parries and counter-attacks with Hakurouken. Total damage=attack damage+damage of「Slash of Departure from Hesitation」.\nYoumu is immune to physical damage when parring."
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_Lore"              "Deals no damage if「Slash of Departure from Hesitation」is not learnt.\nEnter '-youmu2' before studying any skill to change to the other skill set.
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_buff_duration"	"Parry duration: "		
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_ability_radius"	"Counter attack range: "
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_duration"	        "Armor reduction duration: "
+
+		"DOTA_Tooltip_ability_ability_thdots_youmu01"                                "Cherry Blossom Sword「Slash of Saigyou Spring Wind」"
+		"DOTA_Tooltip_ability_ability_thdots_youmu01_Description"		             "Rushes with blinding speed towards the target, slashing twice through all enemies in the %damage_radius% wide path. \nDamage: %AbilityDamage% + 0.8 * (attack damage)"
+		"DOTA_Tooltip_ability_ability_thdots_youmu01_damage_radius"		    		 "RADIUS: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu01_move_duration"		    		 "CASTING TIME: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu01_cast_range"					"CAST RANGE: "
+
+		"DOTA_Tooltip_ability_ability_thdots_youmu02"                           	 "Hesitation-Cutting Sword「Slash of Departure from Hesitation」"
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_Description"		             "Each strike will cut straight through the soul, dealing extra damage and reducing target's Armor for %duration% sec. The armor reducing can be stacked up to 16 times."
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_decrease_armor"		   	     "ARMOR REDUCTION: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_decrease_max_armor"	   	     "MAX REDUCTION: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_bouns_damage"		     		 "BONUS DAMAGE: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu02_duration"			    		 "DURATION: "
+		"DOTA_Tooltip_Ability_ability_thdots_youmu02_shard_Description"				"Adds additional Physical Damage equal to 0.5% of the target's Max Health."
+		
+
+		"DOTA_Tooltip_ability_ability_thdots_youmu03"                                "Soul Sign「Wheel of Pain of the Living and Dead」"
+		"DOTA_Tooltip_ability_ability_thdots_youmu03_Description"		             "Turns your phantom half into a full copy of yourself, that will follow you and attack your targets. Enlightened Sword effect it has is reduced to %bouns_damage% times."
+              		"DOTA_Tooltip_ability_ability_thdots_youmu03_ability_duration"		     	 "DURATION: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu03_damage"		     		 "PHANTOM DAMAGE: "
+
+		"DOTA_Tooltip_ability_ability_thdots_youmu04"                                "Human Soul「Slash of Fututre Eons」"
+		"DOTA_Tooltip_ability_ability_thdots_youmu04_Description"		             "Dashes in and assaults the target with multiple powerful strikes. The target is stunned during this."
+		"DOTA_Tooltip_ability_ability_thdots_youmu04_AbilityCastRange"		"CAST RANGE: "
+		"DOTA_Tooltip_ability_ability_thdots_youmu04_scepter_description"		"「Slash of Fututre Eons」works on enemies in 350 range of the target. And the stun duration is increased to %wanbaochui_stun% seconds."
+		"DOTA_Tooltip_ability_ability_thdots_youmu04_ability_multi"		     		 "BONUS DAMAGE PER AGI: "
+
+		"DOTA_Tooltip_modifier_thdots_youmu01_think_interval"                             "Sword Skill「Flashing Cherry Blossoms」"
+		"DOTA_Tooltip_modifier_thdots_youmu01_think_interval_Description"                 "Rushes with blinding speed towards the target"
+
+		"DOTA_Tooltip_passive_youmu02_attack"                                             "Enlightened Sword「Rise from Delusion」"
+		"DOTA_Tooltip_passive_youmu02_attack_Description"                                 "Each strike will cut straight through the soul, and reducing target's Armour"
+
+		"DOTA_Tooltip_modifier_youmu02_armor_decrease"                                    "Soul injured"
+		"DOTA_Tooltip_modifier_youmu02_armor_decrease_Description"                        "Your armour reduce because of soul injured."
+
+		"DOTA_Tooltip_modifier_youmu02_armor_decrease_unit"                               "Soul injured(For Soul Sign「Wheel of Pain of the Living and Dead」)"
+		"DOTA_Tooltip_modifier_youmu02_armor_decrease_unit_Description"                   "Your armour reduce because of soul injured.(For Soul Sign 「Wheel of Pain of the Living and Dead」)"
+
+		"DOTA_Tooltip_modifier_thdots_youmu03_spawn"                                      "Soul Sign「Wheel of Pain of the Living and Dead」"
+		"DOTA_Tooltip_modifier_thdots_youmu03_spawn_Description"                          "The soul materialized."
+
+		"DOTA_Tooltip_modifier_thdots_youmu04_states"                                     "Human Soul「Slash of Fututre Eons」"
+		"DOTA_Tooltip_modifier_thdots_youmu04_states_Description"                         "High-speed displacement slash target"
+
+		"DOTA_Tooltip_modifier_thdots_youmu04_think_interval"                             "Human Soul「Slash of Fututre Eons」"
+		"DOTA_Tooltip_modifier_thdots_youmu04_think_interval_Description"                 ""
+
+
+
+
+		"DOTA_Tooltip_modifier_weather_summer_breeze" 						"<font color='#ea9999'>「Летний Бриз」</font>"
+		"DOTA_Tooltip_modifier_weather_summer_breeze_Description" 			"Увеличивает скорость передвижения на 50%%%."
+
+
+		"andromeda_gate_ac130" 		"У нас дополнительная поддержка с воздуха! Оверлорд, запрашиваю огневую поддержку по координатам 5-0-01!"
+		"overlord_show_ac130" 		"Понял! С запада на восток, 1-6 разрешаю бомбовый удар по координатам 5-0-0-1."
+
+
+		"DOTA_Tooltip_ability_item_give_max"					"Maxwell the Cat"
+		"DOTA_Tooltip_ability_item_give_max_Description"		"ВІН ОБЕРТАЕТЬСЯ!!!!!!11"
+
+
+		"halls_in_the_desert"								"Хроніки Чортогов у пустелі"
+		"halls_in_the_desert_1"								"Народження міста королів"
+		"halls_in_the_desert_2"								"Кінець золотого царства"
+		"halls_in_the_desert_3"								"Годинник втраченого шляху"
+		"halls_in_the_desert_4"								"Зберігач чудової мрії"
+		"halls_in_the_desert_5"								"Спадщина пустельної знаті"
+		"halls_in_the_desert_effect_des" 					"2 предмета: При нанесенні критичної шкоди (тільки звичайною атакою) ворог буде отримувати додатково 3% шкоди від будь якого джерела, тривалість єфекту - 10 секунд, кількість стаків - необмеженно. <br><br> 5 предметів: Збільшує додаткову шкоду до 8%. <br>"
+
+		"npc_test"											"Дмитро Борисович Підорашко"
+		"DOTA_Tooltip_hero_artifact_halls_in_the_desert"				"Хроніки Чортогов у пустелі"
+		"DOTA_Tooltip_hero_artifact_halls_in_the_desert_Description"	"Збільшує всю отриману шкоду"
+
+		"DOTA_Tooltip_ability_item_halls_in_the_desert"					"Хроніки Чортогов у пустелі"
+		"DOTA_Tooltip_ability_item_halls_in_the_desert_Description"		"Випадковий шматок з набору Хроніки Чортогов у пустелі"
+
+
+		"armored_modules_bonus"													"Удосконалене обладнання"
+		"armored_modules_bonus_1"												"Система відведення порохових газів"
+		"armored_modules_bonus_2"												"Підвищена снарядостійкість"
+		"armored_modules_bonus_3"												"Юстована оптика"
+		"armored_modules_bonus_4"												"Поліпшений компресор"
+		"armored_modules_bonus_5"												"Експериментальна система заряджання"
+		"armored_modules_bonus_effect_des" 										"Система відведення порохових газів: Збільшує всі ваші атрибути на 100%. <br><br> Підвищена снарядостійкість: Зменшує всю отримувану шкоду на 20%.<br><br> Юстована оптика: Збільшує дальність видимості на 2500. <br><br> Поліпшений компресор: збільшує швидкість на 200.<br><br> Експериментальна система заряджання: Зменшує перезарядку гармати на 30%. (Працює лише на наступних машинах: T-72, T-90, BTR-82A, 2c25 Спрут СД и Jagdpanzer E-100 <br>"
+
+
+		"armored_modules_exp"													"Експериментальне обладнання"
+		"armored_modules_exp_1"													"Система управління вогнем"
+		"armored_modules_exp_2"													"Система підвищеної мобільності"
+		"armored_modules_exp_3"													"Комплекс покращень виживання"
+		"armored_modules_exp_4"													"Трофейний турбонагнітач"
+		"armored_modules_exp_5"													"Трофейна вентиляція"
+		"armored_modules_exp_effect_des" 										"Система управління вогнем: Зменшує перезарядку гармати на 50%. (Працює лише на наступних машинах: T-72, T-90, BTR-82A, 2c25 Спрут СД и Jagdpanzer E-100. <br><br> Система підвищеної мобільності: Збільшує швидкість на 400.<br><br> Комплекс покращень виживання: Зменшує всю отримувану шкоду на 40% .<br>"
+
+		"DOTA_Tooltip_modifier_underwater"										"「Ви Задихаєтесь!」"
+		"DOTA_Tooltip_modifier_underwater_Description"							"У вас немає систем щоб дихати під водою."
+
+		"npc_dota_hero_sand_king"					"BMP-1 「★★★★★★」"
+
+
+		"DOTA_Tooltip_ability_gu_bmp1_upgrade"	               					"BMP-1"
+		"DOTA_Tooltip_ability_gu_bmp1_upgrade_Description"						"BMP-1 — перша радянська серійна бойова броньована гусенична машина, здатна плавати та призначена для транспортування особового складу мотострілецьких підрозділів на поле бою, підвищення його мобільності, озброєності та захищеності на полі бою, а також для сумісних дій з танками у бою. Родоначальниця такого класу бойових машин, як бойові машини піхоти; перша у світі серійна бойова машина піхоти. Прокачує основні характеристики. Додає + %bonus_health% до здоров'я, + %bonus_armor% до броні, + %attack_range_bonus% до дальності пострілу, + %damage% да шкоди. Отримує на 20% менше будь-якої шкоди по собі. <br><br> Має фіксовану швидкість стрільби, ніякі предмети на зниження базового часу атаки та інше не працюють!"
+		"DOTA_Tooltip_ability_gu_bmp1_upgrade_scepter_Description"				"Додає додаткову шкоду у розмірі 300%"
+
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_kym" 							"<font color='#f9fd27'>「ПГ–15」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_kym_Description" 				"Основний снаряд гармати 2А28 «Грім», пробиття даним снарядом складає %penetration% мм."
+		"DOTA_Tooltip_modifier_gu_bmp1_ammo_kym" 							"<font color='#f9fd27'>「ПГ–15」</font>"
+		"DOTA_Tooltip_modifier_gu_bmp1_ammo_kym_Description" 				"Основний тип снаряду"
+		
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_heat" 							"<font color='#fd7427'>「ОГ-15」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_heat_Description" 				"Уламково-фугасний снаряд <font color='#fd7427'>「ОГ-15」</font> не пробиває броню але завдає %damage%%% шкоди по області в радіусі %heat_dmg_radius% від основної цілі. Вартість пострілу даним снарядом складає 2% від вашої енергії. <br><br><font color='#fd2727'>При нестачі енергії для пострілу ви будете автоматично переключені на снаряд 「ПГ–15」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_heat_penetration" 				"Пробитие: "
+		"DOTA_Tooltip_modifier_gu_bmp1_ammo_heat" 							"<font color='#fd7427'>「ОГ-15」</font>"
+		"DOTA_Tooltip_modifier_gu_bmp1_ammo_heat_Description" 				"Завдає величезної шкоди області в радіусі 800, вартість пострілу - 2% енергії. <br><font color='#fd2727'>При нестачі енергії для пострілу ви будете автоматично переключені на снаряд 「ПГ-15」</font>"
+
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_rocket" 							"<font color='#fd7427'>「9К111-1 «Фагот»」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_rocket_Description" 				"Протита́нковий керо́ваний раке́тний ко́мплекс 9К111 «Фагот» — радянський переносний протитанковий ракетний комплекс з напівавтоматичним командним наведенням по дротах (за класифікацією НАТО — AT-4 Spigot)[1], призначений для ураження візуально спостережуваних нерухомих і рухомих зі швидкостями до 60 км/год цілей (броньованої техніки супротивника, укриттів, вогневих засобів, низько летючих повітряних цілей на малих швидкостях) на дальностях до 2 км, а ракетою 9М113 — до 4 км. Попадання ігнорує броню ворога завдаючи шкоди за формулою %base_damage% + (%bonus_dmg_per_armor% * вашу броню), перезаряджання цієї здібності неможливо зменшити."
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_rocket_shard_Description" 		"Добавляет бонусный урон - сила * 3"
+
+		"DOTA_Tooltip_ability_gu_bmp1_mines_type_1" 							"<font color='#fd7427'>「МОН-100」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_mines_type_1_Description" 				"Встановлює протипіхотну міну яка здетонує якщо в радіусі 300 від неї пройде супротивник. Завдає %damage%% шкоди від здоровья цілі."
+		
+		"DOTA_Tooltip_ability_gu_bmp1_mines_type_2" 							"<font color='#fd7427'>「МОН-100 (Касета)」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_mines_type_2_Description" 				"Встановлює %count% протипіхотних мін в радіусі %radius% які здетонують якщо в радіусі 300 від неї пройде супротивник. Завдає %damage%% шкоди від здоровья цілі."
+		
+		"beloved_young_maiden"									"Кохана юна діва"
+		"beloved_young_maiden_1"								"Далека душа юної діви"
+		"beloved_young_maiden_2"								"Туга юної діви"
+		"beloved_young_maiden_3"								"Молодість юної діви, що йде."
+		"beloved_young_maiden_4"								"Дозвілля юної діви"
+		"beloved_young_maiden_5"								"В'януча краса юної діви"
+		"beloved_young_maiden_effect_des" 						"2 предмета: Збільшує усе лікування на 50%. <br><br> 5 предметів: ПРи лікуванні союзника - він отримає єффект невразливості до магії на 8 секунд, перезарядка здібності - 30 секунд. <br>"
+
+		"DOTA_Tooltip_ability_item_beloved_young_maiden"					"Кохана юна діва"
+		"DOTA_Tooltip_ability_item_beloved_young_maiden_Description"		"Випадковий шматок з набору - Кохана юна діва"
 
 
 
