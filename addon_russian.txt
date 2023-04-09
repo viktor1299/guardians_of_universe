@@ -2550,13 +2550,13 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 					"Можно получить выполнив квест за Кастера"
  
         "DOTA_Tooltip_ability_item_stellar_flare"										"Звёздная вспышка"
-	    "DOTA_Tooltip_ability_item_stellar_flare_Description"								"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). <br>Внимание! Данный предмет работает только у героев с основным атрибутом Интеллект, урон не может юыть более 1% от максимального здоровья цели! \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
+	    "DOTA_Tooltip_ability_item_stellar_flare_Description"								"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). <br>Внимание! Данный предмет работает только у героев с основным атрибутом Интеллект, урон не может юыть более 1-10% от максимального здоровья цели! \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
 		"DOTA_Tooltip_ability_item_stellar_flare_Note0"										"Урон предмета не зависит от магического усиления"
 	    "DOTA_Tooltip_ability_item_stellar_flare_int"										"+к интеллекту:" 
 		"DOTA_Tooltip_ability_item_stellar_flare_mana"										"+к мане"
 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil"									"Нестабильная Звёздная вспышка"
-	    "DOTA_Tooltip_ability_item_stellar_flare_veil_Description"							"<h1>Активная: Нестабильность</h1> При активации на точку уменьшает магическое сопротивление всех вражеских юнитов на 30%. <br>Внимание! Данный предмет работает только у героев с основным атрибутом - Интеллект, урон не может юыть более 1% от максимального здоровья цели!\n<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
+	    "DOTA_Tooltip_ability_item_stellar_flare_veil_Description"							"<h1>Активная: Нестабильность</h1> При активации на точку уменьшает магическое сопротивление всех вражеских юнитов на 30%. <br>Внимание! Данный предмет работает только у героев с основным атрибутом - Интеллект, урон не может юыть более 1-10% от максимального здоровья цели!\n<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_Note0" 								"Урон предмета не зависит от магического усиления"
 	    "DOTA_Tooltip_ability_item_stellar_flare_veil_int"									"+к интеллекту:" 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_mana"									"+к мане"
@@ -4057,13 +4057,13 @@
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"								"Регенерация маны: "
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8"										"Unstable Dead Fury"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"								"<h1>Активная: Break World  </h1> При использовании выведет из строя всех вражеских юнитов в радиусе 300 на 2.5-4 сек.\n <h1>Пассивная: Deadly Essence </h1> Увеличивает ваш урон %bonus_dmg_target%% от белого.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% \n <h1>Пассивная: Goldmine </h1>За каждую атаку вся команда будет получать случайное количество золота от 1-2."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"								"<h1>Активная: Break World  </h1> При использовании выведет из строя всех вражеских юнитов в радиусе 300 на 2.5-4 сек.\n <h1>Пассивная: Deadly Essence </h1> Увеличивает ваш урон %bonus_dmg_target%% от белого.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% \n <h1>Пассивная: Goldmine </h1>За каждую атаку вся команда будет получать по 2 золота."
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"									"Урон: "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"								"Регенерация здоровья: "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"								"Регенерация маны: "
 
 		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion"								"Sword Of Exhaustion"
-		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_description"						"<h1>Активная: Break World  </h1> При использовании выведет из строя всех вражеских юнитов в радиусе 300 на 2.5-4 сек.\n <h1>Пассивная: Deadly Essence </h1> Увеличивает ваш урон %bonus_dmg_target%% от белого.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% \n <h1>Пассивная: Goldmine </h1>За каждую атаку вся команда будет получать случайное количество золота от 1-2.\n <h1>Пассивное: Rift</h1> Наносит %cleave_damage%%% урона от вашей атаки по всем вражеским юнитам перед владельцем в радиусе %cleave_distance%. <br><br><font color='#ff0000'>Работает только на героях с ближним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_description"						"<h1>Активная: Break World  </h1> При использовании выведет из строя всех вражеских юнитов в радиусе 300 на 2.5-4 сек.\n <h1>Пассивная: Deadly Essence </h1> Увеличивает ваш урон %bonus_dmg_target%% от белого.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% \n <h1>Пассивная: Goldmine </h1>За каждую атаку вся команда будет получать по 3 золота.\n <h1>Пассивное: Rift</h1> Наносит %cleave_damage%%% урона от вашей атаки по всем вражеским юнитам перед владельцем в радиусе %cleave_distance%. <br><br><font color='#ff0000'>Работает только на героях с ближним типом атаки!</font>"
 		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_damage"							"Урон: "
 		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_hp_regen"							"Регенерация здоровья: "
 		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_mana_regen"						"Регенерация маны: "
@@ -5031,7 +5031,7 @@
  			"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"										"Щит Ядра Погоды"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"								"Рецепт Cuirasse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"						"<font color='#7ee340'>Можно передать союзнику! <br><br><</font> <font color='#fc0303'>Не работает в прологе, при битве с Хранителем а также в концовке игры!</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"						"<font color='#7ee340'>Можно передать союзнику!"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"								"Cuirasse of Universe"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"						"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита. При атаке юнита, который находится под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния, которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек. \n <h1>Пассивная: <font color='#0384fc'>Weather God</font> </h1> Даёт иммунитет ко всем негативным погодным эффектам (вас не может ударить молния и т.д.). \n <h1>Пассивная: <font color='#0384fc'>Energy Immune</font> </h1> Полностью защищает игрока от любого воздействия электричества . \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию, которая сделает скачок по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета.\n <h1>Пассивная: <font color='#ff8400'>Universe Set</font> </h1>「При полном сете вещей Universe, добавит новую способность - Destroyer of the world 」"
@@ -6918,7 +6918,7 @@
 
 
 		"DOTA_Tooltip_ability_item_gu_nova" 									"Nova"
-		"DOTA_Tooltip_ability_item_gu_nova_Description" 							"<h1>Пассивная: Nova</h1> Снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br><br>Радиус: %aura_radius% \n <h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %aura_radius% магический урон по формуле %damage% + (%damage_int% * ваш основной атрибут). Внимание! Урон не может быть более 1% от максимального здоровья цели! \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 3 единиц маны." 
+		"DOTA_Tooltip_ability_item_gu_nova_Description" 							"<h1>Пассивная: Nova</h1> Снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br><br>Радиус: %aura_radius% \n <h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %aura_radius% магический урон по формуле %damage% + (%damage_int% * ваш основной атрибут). Внимание! Урон не может быть более 5-20% от максимального здоровья цели! \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 3 единиц маны." 
 		"DOTA_Tooltip_ability_item_gu_nova_bonus_day_vision" 						"К радиусу обзора днем: " 
 		"DOTA_Tooltip_ability_item_gu_nova_bonus_night_vision" 						"К радиусу обзора ночью: " 
 		"DOTA_Tooltip_ability_item_gu_nova_spell_amp_pct" 							"+% к урону от способностей "
@@ -7500,6 +7500,8 @@
 
 		"DOTA_Tooltip_modifier_underwater"										"「Ви Задихаєтесь!」"
 		"DOTA_Tooltip_modifier_underwater_Description"							"У вас немає систем щоб дихати під водою."
+		"DOTA_Tooltip_modifier_modifier_item_force_shield_technology_water"										"「Force Shield Technology (Underwater)!」"
+		"DOTA_Tooltip_modifier_modifier_item_force_shield_technology_water_Description"							"У вас есть возможность дыхание под водой."
 
 		"npc_dota_hero_sand_king"					"BMP-1 「★★★★★★」"
 
@@ -7651,8 +7653,8 @@
 		"DOTA_Tooltip_ability_topolsplesh_Description"							"ل"
 		"DOTA_Tooltip_ability_topolsplesh_splash_damage"						"Ядерная боеголовка:"
 
-
-
+		"gold_farm"															"Заработано золота: "
+	
 
 
 
