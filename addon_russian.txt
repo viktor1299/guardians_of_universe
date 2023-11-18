@@ -2215,10 +2215,10 @@
 		"DOTA_Tooltip_modifier_boss_armor_no_invisibility" 									"Модульные блоки" 
 		"DOTA_Tooltip_modifier_boss_armor_no_invisibility_Description" 						"Ваша дальность атаки уменьшена до 1200."
 
-		"dota_tooltip_ability_spell_lab_missile_storm" 									"Звезда Каптейна"
-		"dota_tooltip_ability_spell_lab_missile_storm_description" 							"Атакует врага звездой."
-		"dota_tooltip_ability_spell_lab_missile_storm_duration" 							"Длительность оглушения: "
-		"DOTA_Tooltip_spell_lab_storm_modifier"												"Звезда Каптейна"
+		"dota_tooltip_ability_andromeda_laguna_storm" 									"Звезда Каптейна"
+		"dota_tooltip_ability_andromeda_laguna_storm_description" 							"Атакует всех врагов в радиусе 1500 разрядами молний,имеет случайную перезарядку от 50 до 120 секунд.За каждый пройденный раунд урон способности увеличивается на 50%."
+		"dota_tooltip_ability_andromeda_laguna_storm_damage" 								"Урон: "
+		"DOTA_Tooltip_modifier_andromeda_laguna_storm"										"Звезда Каптейна"
  
  		"dota_tooltip_ability_holeepic2" 												"Судьба"
 		"dota_tooltip_ability_holeepic2_description" 										"Создаёт чёрную дыру, которая засасывает всех вражеских существ."
@@ -7193,7 +7193,8 @@
 		"kurumigu_stash_text"									"Тайник"
 		"kurumigu_stash_text1"									"Волны"
 		"kurumigu_stash_text2"									"Цветы"
-		"kurumigu_stash_text3"									"Хранители"
+		"kurumigu_stash_text3"									"Боссы"
+		"kurumigu_stash_text44"									"Нейтрал."
 
 		"zpm_icon_main"											"МНТ"
 		"zpm_icon_text"											"Основной источник энергии которая нужна для многих игровых механик, например - Звёздные Врата: для того чтобы вы смогли набрать адрес, где конечные врата являются из серии Пегаса(Атлантиды) вам потребуется минимум 3 МНТ, для врат Вселенной требуется 6 МНТ. Это не значит что при наборе одного такого адреса вы потеряете все МНТ, это минимальное количество для установки гипертунеля, каждая активация врат будет потреблять некоторое кол-во энергии, после того как энергия в МНТ закончится - оно будет считатся утерянным."
@@ -7655,7 +7656,9 @@
 
 		"gold_farm"															"Заработано золота: "
 	
-
+		"DOTA_Tooltip_ability_item_gu_test"									"Eblan"
+		"DOTA_Tooltip_ability_item_gu_test_Description"							"kto"
+		"DOTA_Tooltip_ability_item_gu_test_damage"								"pidaras:"
 
 
 
