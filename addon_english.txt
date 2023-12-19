@@ -4699,7 +4699,9 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "xp" "Experience"
  "energy" "Energy"
  "mmr" "Rating"
- "gu_coins" "gucoins"
+ "gu_coins" "GU-Coins"
+ "proton"				"Proton"
+ "neutron"				"Neutron"
  "stellar_shine" "Free Star Shine"
  "pray_coin_standart" "Fateful Encounters"
  "pray_coin_event" "Intertwined Fates"
@@ -5760,7 +5762,7 @@ Ram<br><br>
  "rune_fire" "Path: Fire"
  "rune_mystic" "Path: Mystic" 
  "rune_air" "Path: Air" 
- "rune_power" "Path: Power"
+ "rune_power" "Path: Wealth"
  
  "rune_magic_des" "This path is for those who are really ready to give themselves to the knowledge of the Magic of this world. <br> At the first leveling, it gives the character the knowledge of the Asuran race, you learn from the ancient Archmages and learn a lot of new things. <br><br> Bonus when first leveling:<br> Gives the character a passive ability - the ability to instantly recharge any ability with a certain chance.<br> Adds the ability to restore part of mana depending on the damage dealt."
  "rune_vampire_des" "An ancient curse that you will learn to control. <br> At the first level, grants the character the Tok'ra Forbidden Knowledge. <br> Grants the character a passive ability - the lower the character's health, the higher their damage and attack speed. <br> Gives the character a passive ability - upon reaching less than 10% health, they can become enraged and gain immunity to magic for a while."
@@ -5768,7 +5770,7 @@ Ram<br><br>
  "rune_fire_des" "You study the found weapons and learn how to use them. <br> At the first leveling, it gives the character knowledge of the Ursini race in the field of weapons. <br> It gives the character a passive ability - with a 10% chance to set fire to any target with auto attacks, burning will deal damage in % of your attack."
  "rune_mystic_des" "Long forgotten secret knowledge of various races, who knows what they hide? <br> At the first leveling, it gives the character knowledge of various races in the field of finding weak points.<br> Adds a large amount of Critical Damage to the artifact system<br> Strengthens your character - adds % physical damage bonus."
  "rune_air_des" "Once upon a time, airbenders lived in the world... <br> At the first level, gives the character air magic.<br> Increases the character's movement speed.<br> Increases the character's attack speed."
- "rune_power_des"	"Long-forgotten knowledge of the Wraith race, you learn the basics of character enhancement at the basic level.<br> At the first level, it gives the character secret knowledge in the field of basic power.<br> Increases your basic characteristics<br> The more duplicates you have per character, the more your base stats - this effect only works when the path is fully upgraded."
+ "rune_power_des"	"You delve into the ancient field of natural philosophy - Alchemy.<br> Your knowledge allows you to receive more gold from some sources, as well as convert part of the experience gained into gold.<br>Increases the gold received for killing enemies on the wave.<br>Converts some experience gained into gold using Foresight Stone and Artifact of Wisdom items"
 
  "pick_ascension_button" "Pump!"
  "pick_ascension_button_back" "< Back"
@@ -5792,8 +5794,8 @@ Ram<br><br>
   "rune_air_bonus_1" "Movement Speed: "
   "rune_air_bonus_2" "Attack Speed: "
   
-  "rune_power_bonus_1" "Bonus base stats: "
-  "rune_power_bonus_2" "Bonus parameters from copies: "
+  "rune_power_bonus_1" "Bonus gold from the wave: "
+  "rune_power_bonus_2" "Part of the experience converted into gold: "
 
  "DOTA_Tooltip_ability_gu_ascension_ability" "Ascension"
  "DOTA_Tooltip_ability_gu_ascension_ability_description" "Opens the character's ascension menu."
@@ -5992,23 +5994,23 @@ Ram<br><br>
 "npc_gu_qvest_crystall" "Mysterious Crystal"
  "npc_gu_crystall_guardians" "Crystal Guardian"
 
- "task_item_find" "MNT Search"
-	"task_item_text_start" "After you've passed through the gate to the planet Andromeda, you've depleted its gate's power supply, now you need to find new ZPMs in order to continue using the Stargate and more. Be careful! The ZPMs are heavily guarded by the sentient Asurans!< br><br> You need to find 3 shield generators on 8 random planets."
-	"task_item_text_start_solo" "After you've passed through the gate to the planet Andromeda, you've depleted its gate's power supply, now you need to find new ZPMs in order to continue using the Stargate and more. Be careful! The ZPMs are heavily guarded by the sentient Asurans!< br><br> You need to find the shield generator on 8 random planets."
+ "task_item_find" "Search for a Generator"
+	"task_item_text_start" "After you have passed through the gate to the planet Andromeda, you have depleted the power supply of its gate, now you need to find resources for the Nuclear Reactor in order to continue using the Star Gate and much more. Be careful! The generator is well guarded by the intelligent race Asurans!<br><br> You need to find a proton generator on 8 random planets."
+	"task_item_text_start_solo" "After you have passed through the gate to the planet Andromeda, you have depleted the power supply of its gate, now you need to find resources for the Nuclear Reactor in order to continue using the Star Gate and much more. Be careful! The generator is well guarded by the intelligent race Asurans!<br><br> You need to find a proton generator on 8 random planets.."
 	"task_item_text_1" "Great! You found and destroyed one of the generators. Find the other 2!"
 	"task_item_text_2" "Great! You found and destroyed another of the generators. Find the last one!"
 	"task_item_text_3" "Good job! You've destroyed all the shield generators and now we know where the МНТ is. To find out its location, use the button below. After arriving on the planet, destroy all the guards and take the ZPM."
 
 
-	"task_item_rewards_chance" "Chances for rewards - 100%, 100%, 100%, 30%, 5%"
+	"task_item_rewards_chance" "Chances for rewards - 100%, 100%, 100%, 2%"
  	"find_random_item" "Sensors"
-	"task_item_distance" "Distance to MNT: "
+	"task_item_distance" "Distance to Generator: "
 	"task_item_distance_a" "Generator Distance: "
-	"task_item_not_found" "МНТ not found!"
-	"task_item_timer_not" "<font color='#F92B2B'>The system did not find the item!</font>"
-	"crystall_qvest_start" "New quest received: Quest for МНТ!"
-	"DOTA_Tooltip_modifier_gu_crystall_qvest" "Search МНТ"
-	"DOTA_Tooltip_modifier_gu_crystall_qvest_Description" "To get the МНТ, kill all of its guards!"
+	"task_item_not_found" "Generator not found!"
+	"task_item_timer_not" "<font color='#F92B2B'>The system did not detect the Generator!</font>"
+	"crystall_qvest_start" "New task received: Search for the Generator!"
+	"DOTA_Tooltip_modifier_gu_crystall_qvest" "Search for a Generator"
+	"DOTA_Tooltip_modifier_gu_crystall_qvest_Description" "To get resources, kill all the guards!"
  "gu_qvest_crystall" "{player_name} Completed the quest - {qvest}"
  "gu_qvest_crystall_end_str" "{player_name} turned in unknown fragments to Andromeda and got {str} to strength!"
  "gu_qvest_crystall_end_int" "{player_name} turned in unknown fragments to Andromeda and gained {int} intelligence!"
@@ -6326,6 +6328,9 @@ Ram<br><br>
  "MANA" "Mana"
  "CD_REDUCTION" "Cooldown Reduction"
  "DMG_RES" "Damage Reduction"
+ "ATK_SPD"							"Atack Speed"
+"STATS"							    "Stats"
+"ALL_STATS"							"to all"
 
 "artifact_give" "Recive"
  "artifact_destroy" "Delete"
@@ -6348,8 +6353,8 @@ Ram<br><br>
  "ascension_button_help" "Choose your path! For beating the game, you have a chance to get Free Starlight! With it, you can upgrade various character parameters; the progress of this upgrade is saved between games, and the progress is unique for each character! Upon reaching the maximum level of upgrade, there is a chance you can get a duplicate character.You can get a maximum of 5 duplicates per character.4★ character needs 50 ascension level of any type, 5★ character needs 80 ascension level of any type, 6★ character needs 130 ascension level of any type , for characters 1-3★ this mechanic is not available for obvious reasons."
  
  "boss_button_main" "Battle with the Guardian"
- "boss_button_text" "Quick access to the selection menu for the Guardian to fight."
- "boss_button_help" "The battle with the guardian is available getting 4 MNT, you can choose the guardian you need and fight him. <br>The battle with the guardian will begin only after more than 50% of the players vote for killing him. You are given 2 to kill the Guardian attempts every round, if you win, then you can only re-summon it in the next round.If the battle with the Guardian successfully starts, the current round will be reset, after winning or losing you will be automatically moved to the base and the current round will be restarted, but with one change - for killed mobs you will not get gold and experience."
+ "boss_button_text" "Quick access to the Guardian selection menu for battle. Energy needed:"
+ "boss_button_help" "The battle with the Guardian is available after collecting the required amount of energy in your MNT, you will be able to select the Guardian you need and fight with him. <br>The battle with the Guardian will begin only after more than 50% of the players vote to kill him. You are given 2 attempts to kill the Guardian each round; if you win, you can only summon him again in the next round. If the battle with the Guardian successfully starts, the current round will be reset, after victory or defeat you will be automatically moved to the base and the current round will be restarted, but with one change - you will not receive gold and experience for killed mobs."
  
  "gate_button_main" "Stargate"
  "gate_button_text" "Quick access to the Stargate system's autodial menu."
@@ -6998,8 +7003,8 @@ Ram<br><br>
 		"kurumigu_stash_text2" "Flowers"
 		"kurumigu_stash_text3" "Guardians"
 		"zpm_icon_main" "ZPM"
-		"zpm_icon_text" "The main source of energy that is needed for many game mechanics, for example - the Stargate: in order for you to be able to dial the address where the final gate is from the Pegasus (Atlantis) series, you need a minimum of 3 ZPM, for the gates of the Universe you need 6 ZPM. This does not mean that when dialing one such address, you will lose all ZPM, this is the minimum amount to install a hypertunnel, each activation of the gate will consume a certain amount of energy, after the energy in the ZPM runs out - it will be considered lost."
-		"zpm_icon_help" "This device is a source of energy created by the Ancients. The principle of the ZPM is zero vibration, which allows the MNT to suck energy from an artificially created subspace-time. In fact, the ZPM is a miniature universe." 
+		"zpm_icon_text" "The main source of energy that is needed for many game mechanics, for example, the Star Gate: you can replenish the energy of the MNT by carrying out reactions in the Nuclear Reactor."
+		"zpm_icon_help" "This device is a source of energy created by the Ancients. The operating principle of the MNT is zero-point oscillations, which allows the MNT to suck energy from an artificially created subspace-time. In fact, the MNT is a miniature universe" 
 		"error_zpm_pegasus" "Stargate control crystal error - not enough energy. In order to use the Atlantis gate you need to have 3 ZPM and have 5% of its charge."
 		"error_zpm_universal" "Stargate control crystal error - not enough energy. In order to use the universe gate you need to have 6 ZPM and have 10% of its charge."
 		"protagonist_name_4" "Dr. Rodney McKay"
@@ -7011,76 +7016,19 @@ Ram<br><br>
 		"DOTA_Tooltip_ability_item_zpm_Description" "Zero Point Module - This device is a power source created by the Ancients. The principle of the ZPM is zero vibrations, which allows the MNT to suck energy from an artificially created subspace-time. In fact, the ZPM is a miniature universe."
 		
 		
-		"mckay_replic_zpm_start" "My long range sensors have spotted enemy entities transporting MNT - get it at all costs!"
-		"mckay_replic_zpm_1" "Great job! You've found one of the 3 force field generators that won't reveal the location of the MNT! Find 2 more!"
-		"mckay_replic_zpm_2" "Last generator left!"
-		"mckay_replic_zpm_3" "IS! We know the location of the MNT! Use the Long Range Sensors to find out the location!"
-		"mckay_replic_zpm_4" "Yes, you did it! You got a brand new charged MNT! Great job!"
-		"npc_gu_generator_shield" "Shield Generator"
+		"mckay_replic_zpm_start" "My sensors have detected a signal consistent with the Ancients' proton generator! Destroy its defenders and extract fuel cells from it."
+		"mckay_replic_zpm_4" "Good job! Don't forget to charge our MNT with the proton fuel cells you mine!"
+		"npc_gu_generator_shield" "Proton Generator"
 		"npc_gu_zpm_guard_1" "Suppressor"
 		"npc_gu_zpm_guard_2" "Analyst"
 		"npc_gu_zpm_guard_3" "The Highest Cleric"
 		"npc_gu_zpm_guard_solo" "Hunter"
-		"npc_gu_zpm_box" "ZPM BOX"
 		
 		
 		"DOTA_Tooltip_ability_gu_power_barrier" "Power Barrier"
 		"DOTA_Tooltip_ability_gu_power_barrier_Description" "Damage from hand and abilities that deal physical damage reduced by 95%. Has a 17% chance to disarm the target for %duration%, cooldown is %cd% seconds."
 		
 		"DOTA_Tooltip_modifier_gu_power_barrier_debuff" "Disarm"
-		
-		"DOTA_Tooltip_ability_item_gu_flower_life" "The Flower Of Life"
-		"DOTA_Tooltip_ability_item_gu_flower_fire" "The Flower Of Fire"
-		"DOTA_Tooltip_ability_item_gu_flower_ghostly" "A Ghostly Flower"
-		"DOTA_Tooltip_ability_item_gu_flower_secret_rose" "The Secret Rose"
-		"DOTA_Tooltip_ability_item_gu_flower_Grey" "Grey Flower"
-		"DOTA_Tooltip_ability_item_gu_flower_Frosty_lotus" "Frosty Lotus"
-		"DOTA_Tooltip_ability_item_gu_flower_Plantain" "Plantain"
-		"DOTA_Tooltip_ability_item_gu_flower_A_frightening" "A Frightening Flower"
-		"DOTA_Tooltip_ability_item_gu_flower_Rainbow" "Rainbow Flower"
-		"DOTA_Tooltip_ability_item_gu_flower_A_living" "A Living Flower"
-		"DOTA_Tooltip_ability_item_gu_flower_Black_lotus" "Black Lotus"
-		"DOTA_Tooltip_ability_item_gu_flower_White_lotus" "White Lotus"
-		"DOTA_Tooltip_ability_item_gu_flower_Moon_flower" "Moon Flower"
-		"DOTA_Tooltip_ability_item_gu_flower_the_sun" "The Flower Of The Sun"
-		"DOTA_Tooltip_ability_item_gu_flower_Dragon" "Dragon Flower"
-		"DOTA_Tooltip_ability_item_gu_flower_Default_lotus" "Default Lotus"
-		"DOTA_Tooltip_ability_item_gu_flower_life_Description" "A strange-looking flower, but for some reason holding it feels like your wounds are healing."
-		"DOTA_Tooltip_ability_item_gu_flower_fire_Description" "A burning flower... quite an interesting sight, maybe it can save you from the cold, but right now I'm HOT."
-		"DOTA_Tooltip_ability_item_gu_flower_ghostly_Description" " "
-		"DOTA_Tooltip_ability_item_gu_flower_secret_rose_Description" "While in hand, this flower increases the wearer's intelligence, (maybe I can find the profile button now) looks like it could be used for something special."
-		"DOTA_Tooltip_ability_item_gu_flower_Grey_Description" "Somehow holding this flower in your hand makes you feel closed off."
-		"DOTA_Tooltip_ability_item_gu_flower_Frosty_lotus_Description" "I don't want to say anything, but I'm cold..."
-		"DOTA_Tooltip_ability_item_gu_flower_Plantain_Description" ".... Do you really need a description for the plantain? Don't you have anything else to do? It sort of heals the effects."
-		"DOTA_Tooltip_ability_item_gu_flower_A_frightening_Description" "A flower looks like a flower, but I'm kind of scared."
-		"DOTA_Tooltip_ability_item_gu_flower_Rainbow_Description" "Really? LGBT positive even got here, ahem lan, he's like rainbow."
-		"DOTA_Tooltip_ability_item_gu_flower_A_living_Description" "You know, I'm not naturally a florist, but I think it wants to eat you."
-		"DOTA_Tooltip_ability_item_gu_flower_Black_lotus_Description" "Oh, we can finally replenish our mana. What do you mean it's not botania?"
-		"DOTA_Tooltip_ability_item_gu_flower_White_lotus_Description" "So white it makes blacks jealous."
-		"DOTA_Tooltip_ability_item_gu_flower_Moon_flower_Description" "The flower of the moon itself appears to contain some of the power of time."
-		"DOTA_Tooltip_ability_item_gu_flower_the_sun_Description"		" "
-		"DOTA_Tooltip_ability_item_gu_flower_Dragon_Description"		" "
-		"DOTA_Tooltip_ability_item_gu_flower_Default_lotus_Description" "I don't even know, it's not black, it's not white, why is it red?"
-		"DOTA_Tooltip_ability_item_gu_potion_of_life" "The Potion Of Life"
-		"DOTA_Tooltip_ability_item_gu_potion_Endurance" "Endurance Potion"
-		"DOTA_Tooltip_ability_item_gu_potion_intelligence" "The Potion Of Intelligence"
-		"DOTA_Tooltip_ability_item_gu_potion_The_Lich" "The Lichs Potion"
-		"DOTA_Tooltip_ability_item_gu_potion_Rainbow" "Rainbow Potion"
-		"DOTA_Tooltip_ability_item_gu_potion_of_life_Description" "Increases health regeneration by 5%, reduces all incoming damage by 15%. When active, grants immunity to freeze in the quest Unknown. The duration is random between 30 and 60 seconds."
-		"DOTA_Tooltip_ability_item_gu_potion_Endurance_Description" "Grants 50% reduction in incoming damage and resets debuffs every 2 seconds. Duration is random between 20 and 60 seconds."
-		"DOTA_Tooltip_ability_item_gu_potion_intelligence_Description" "Grants 50% increased Intelligence. Randomly increases your Intelligence by a percentage every 10 seconds. Duration is random between 60 and 120 seconds."
-		"DOTA_Tooltip_ability_item_gu_potion_The_Lich_Description" "Reduces armor by 400, damage by 5000, and movement speed by 80% of all enemy units within 800. Duration is random between 30 and 90 seconds."
-		"DOTA_Tooltip_ability_item_gu_potion_Rainbow_Description" "Temporarily increases your stats by 25%. Duration is random between 90 and 160 seconds."
-		"DOTA_Tooltip_modifier_item_gu_potion_of_life" "The Potion Of Life"
-		"DOTA_Tooltip_modifier_item_gu_potion_of_life_Description" "Increases health regen by 5%%, reduces all incoming damage by 15%. When active, grants immunity to freeze in the quest Unknown. The duration is random between 30 and 60 seconds."
-		"DOTA_Tooltip_modifier_item_gu_potion_Endurance" "Endurance Potion"
-		"DOTA_Tooltip_modifier_item_gu_potion_Endurance_Description" "Grants 50% reduction in incoming damage and resets debuffs every 2 seconds. Duration is random between 20 and 60 seconds."
-		"DOTA_Tooltip_modifier_item_gu_potion_intelligence" "The Potion Of Intelligence"
-		"DOTA_Tooltip_modifier_item_gu_potion_intelligence_Description" "Grants 50% increased Intelligence. Randomly increases your Intelligence by % every 10 seconds. Duration is random between 60 and 120 seconds"
-		"DOTA_Tooltip_modifier_item_gu_potion_The_Lich" "The Lichs Potion"
-		"DOTA_Tooltip_modifier_item_gu_potion_The_Lich_Description" "Reduces armor by 400, damage by 5000, and movement speed by 80% of all enemy units within 800. Duration is random between 30 and 90 seconds."
-		"DOTA_Tooltip_modifier_item_gu_potion_Rainbow" "Rainbow Potion"
-		"DOTA_Tooltip_modifier_item_gu_potion_Rainbow_Description" "Temporarily increases your stats by 25%. Randomly increases all your stats by % every 10 seconds Duration is random from 90 to 160 seconds"
 		
 		"DOTA_Tooltip_ability_item_gu_flower_scissors" "Scissors For Cutting Flowers"
 		"DOTA_Tooltip_ability_item_gu_flower_scissors_Description" "Allows you to get flowers from plants located on the planet Heliopolis "P3X-972" with a 17% drop chance."
@@ -7407,8 +7355,6 @@ Ram<br><br>
 		"DOTA_Tooltip_ability_item_gu_mkb_bot_Description"								"Позволяет боту попасть по вам с 100% шансом а так-же нанести дополнительный магический урон с шансом в 17% по формуле 50 * (на волну в степени 2) * (сложность / 3)."
 
 
-
-
 		"nuclear_hud_name"															"Ядерный Реактор"
 		"nuclear_hud_type"															"Тип Реакции"
 		"nuclear_hud_material"														"Синтезируемый Материал"
@@ -7417,13 +7363,15 @@ Ram<br><br>
 		"nuclear_input_name"														"Ингридиенты для реакции:"
 		"nuclear_output_help"														"Для того чтобы поместить компонент - выберите его в Хранилище нажав ПКМ по нему затем нажмите на слот в который вы хотите поместить ресурс (порядок для правильной реакции ВАЖЕН!)"
 		"nuclear_item_clear"														"-Очистить-"
-		"nuclear_energy_bar"														"Внутреннее хранилище энергии реактора:"
-		"nuclear_zpm_in"															"Взять энергию из МНТ"
-		"nuclear_zpm_out"															"Передать энергию в МНТ"
+		"nuclear_energy_bar"														"Энергия:"
 		"nuclear_start"																"☢ЗАПУСК☢"
 		"nuclear_true"																"<font color='#0bfc03'>Успешно!</font>"	
 		"nuclear_false"																"<font color='#fc0303'>Ошибка!</font>"
-
+		"nuclear_give_slot"															"Ячейка доступа Реактора:"
+		"nuclear_item_false"														"<font color='#fc0303'>Ресурс недоступен!</font>"
+		"nuclear_item_true"															"<font color='#0bfc03'>Получено!</font>"
+		"nuclear_output_name_help"													"Первый столбик - Радиоактивные материалы, Второй - Стабильные материалы, Третий - готовые ресурсы которые вы можете получить переместив их в - Ячейку доступа Реактора."
+		"npc_gu_caldron"															"Ядерный Реактор"
 		"nuclear_reaction_1"														"Реакция Распада"
 		"nuclear_reaction_2"														"Реакция Слияния"
 
@@ -7432,12 +7380,13 @@ Ram<br><br>
 		"nuclear_resourse_2"														"Кислород-16"
 		"nuclear_resourse_3"														"Полоний-210"
 		"nuclear_resourse_4"														"Протон-Протонная цепочка"
+		"nuclear_resourse_5"														"Стронций-90"
 
 
 
 
 		"isotope_uran238"															"Уран-238"
-		"isotope_uran238_text"														"Радиоактивен (13 мкрад/с на 1 кг, время полураспада - 4.468 млрд лет)"
+		"isotope_uran238_text"														"Радиоактивен (1 мкрад/с, время полураспада - 4.468 млрд лет)"
 
 		"isotope_thorium234"														"Торий-234"
 		"isotope_thorium234_text"													"радиоактивен (60 тыс. рад/с на 1 кг, время полураспада - 24 дня 2 часа)"
@@ -7446,7 +7395,7 @@ Ram<br><br>
 		"isotope_null_text"															" "
 
 		"isotope_beryllium8"														"Бериллий-8"
-		"isotope_beryllium8_text"													"Радиоактивен (1,2 миллиарда рад/с на 1 кг вещества, время полураспада - 10^-17 сек)"
+		"isotope_beryllium8_text"													"Радиоактивен (500 рад/с, время полураспада - 10^-17 сек)"
 		
 		"isotope_carbon12"															"Углерод-12"
 		"isotope_carbon12_text"														"Стабилен"
@@ -7476,61 +7425,61 @@ Ram<br><br>
 		"isotope_calcium40_text"													"Стабилен"
 
 		"isotope_titanium44"														"Титан-44"
-		"isotope_titanium44_text"													"Радиоактивен (120 рад/с на 1 кг, время полураспада - 60 лет)"
+		"isotope_titanium44_text"													"Радиоактивен (1 рад/с, время полураспада - 60 лет)"
 
 		"isotope_chromium48"														"Хром-48"
-		"isotope_chromium48_text"													"Радиоактивен (4.77 млн рад/с на 1 кг, время полураспада - 21  час 30 минут)"
+		"isotope_chromium48_text"													"Радиоактивен (30 рад/с, время полураспада - 21  час 30 минут)"
 		
 		"isotope_iron52"															"Железо-52"
-		"isotope_iron52_text"														"Радиоактивно (164.5 млн рад/с на 1кг,время полураспада - 8 часов 15 минут)"
+		"isotope_iron52_text"														"Радиоактивно (50 рад/с, время полураспада - 8 часов 15 минут)"
 
 		"isotope_iron56"															"Железо-56"
 		"isotope_iron56_text"														"Стабильно"
 		
 		"isotope_cobalt56"															"Кобальт-56"
-		"isotope_cobalt56_text"														"Радиоактивен (1.31 млн рад/с на 1 кг, время полураспада - 77 дней 6 часов)"
+		"isotope_cobalt56_text"														"Радиоактивен (25 рад/с, время полураспада - 77 дней 6 часов)"
 
 		"isotope_nickel56"															"Никель-56"
-		"isotope_nickel56_text"														"Радиоактивен (7.78 млн рад/с на 1 кг, время полураспада - 6 дней 2 часа)"
+		"isotope_nickel56_text"														"Радиоактивен (32 рад/с, время полураспада - 6 дней 2 часа)"
 
 		"isotope_uran234"															"Уран-234"
-		"isotope_uran234_text"														"Радиоактивен (287 мрад/с на 1 кг, время полураспада - 245500 лет)"
+		"isotope_uran234_text"														"Радиоактивен (1 мрад/с, время полураспада - 245500 лет)"
 
 		"isotope_protactinium234"													"Протактиний-234"
-		"isotope_protactinium234_text"												"Радиоактивен (41.7 млн рад/с на 1 кг, время полураспада - 6 часов 42 минуты)
+		"isotope_protactinium234_text"												"Радиоактивен (40 рад/с, время полураспада - 6 часов 42 минуты)"
 
 		"isotope_thorium234"														"Торий-234"
-		"isotope_thorium234_text"													"Радиоактивен (60 тыс. рад/с на 1 кг, время полураспада - 24 дня 2 часа)"
+		"isotope_thorium234_text"													"Радиоактивен (5 рад/с, время полураспада - 24 дня 2 часа)"
 
 		"isotope_thorium230"														"Торий-230"
-		"isotope_thorium230_text"													"Радиоактивен (930 мрад/с на 1 кг, время полураспада - 75400 лет)"
+		"isotope_thorium230_text"													"Радиоактивен (40 мрад/с, время полураспада - 75400 лет)"
 
 		"isotope_radium226"															"Радий-226"
-		"isotope_radium226_text"													"Радиоактивен (45.8 рад/с на 1 кг, время полураспада - 1600 лет)"
+		"isotope_radium226_text"													"Радиоактивен (2 рад/с, время полураспада - 1600 лет)"
 
 		"isotope_radon222"															"Радон-222"
-		"isotope_radon222_text"														"Радиоактивен (8.17 млн рад/с на 1 кг, время полураспада - 3 дня 19 часов)"
+		"isotope_radon222_text"														"Радиоактивен (34 рад/с, время полураспада - 3 дня 19 часов)"
 
 		"isotope_polonium218"														"Полоний-218"
-		"isotope_polonium218_text"													"Радиоактивен (16.1 млрд рад/с на 1 кг, время полураспада - 3 мин 6 сек)"
+		"isotope_polonium218_text"													"Радиоактивен (600 рад/с, время полураспада - 3 мин 6 сек)"
 
 		"isotope_polonium214"														"Полоний-214"
-		"isotope_polonium214_text"													"Радиоактивен (3.9 триллиона рад/с на 1 кг, время полураспада - 164 микросекунды)"
+		"isotope_polonium214_text"													"Радиоактивен (1200 рад/с, время полураспада - 164 микросекунды)"
 
 		"isotope_polonium210"														"Полоний-210"
-		"isotope_polonium210_text"													"Радиоактивен (231 тыс. рад/с на 1 кг, время полураспада - 138 дней 9 часов)"
+		"isotope_polonium210_text"													"Радиоактивен (15 рад/с, время полураспада - 138 дней 9 часов)"
 
 		"isotope_bismuth214"														"Висмут-214"
-		"isotope_bismuth214_text"													"Радиоактивен (1.38 млрд рад/с на 1 кг, время полураспада - 19 мин 42 сек)"
+		"isotope_bismuth214_text"													"Радиоактивен (550 рад/с, время полураспада - 19 мин 42 сек)"
 
 		"isotope_bismuth210"														"Висмут-210"
-		"isotope_bismuth210_text"													"Радиоактивен (1.37 млн рад/с на 1 кг, время полураспада - 5 дней)"
+		"isotope_bismuth210_text"													"Радиоактивен (30 рад/с, время полураспада - 5 дней) "
 
 		"isotope_lead214"															"Свинец-214"
-		"isotope_lead214_text"														"Радиоактивен (314 млн рад/с на 1 кг, время полураспада - 27 мин 4 сек)"
+		"isotope_lead214_text"														"Радиоактивен (80 рад/с, время полураспада - 27 мин 4 сек)"
 
 		"isotope_lead210"															"Свинец-210"
-		"isotope_lead210_text"														"Радиоактивен (46.3 рад/с на 1 кг, время полураспада - 22 года)"
+		"isotope_lead210_text"														"Радиоактивен (1 рад/с, время полураспада - 22 года)"
 
 		"isotope_proton"															"Протон"
 		"isotope_proton_text"														"Стабилен"
@@ -7541,6 +7490,23 @@ Ram<br><br>
 		"isotope_helium3"															"Гелий-3"
 		"isotope_helium3_text"														"Стабилен"
 
+		"isotope_uran235"															"Уран-235"
+		"isotope_uran235_text"														"Радиоактивен (1 мкрад/с, время полураспада - 700 млн лет) "
+
+		"isotope_strontium90"														"Стронций-90"
+		"isotope_strontium90_text"													"Радиоактивен (4 рад/с, время полураспада - 28 лет 11 месяцев)"
+
+		"isotope_xenon133"															"Ксенон-133"
+		"isotope_xenon133_text"														"Стабилен"
+
+		"isotope_neutron"															"Нейтрон"
+		"isotope_neutron_text"														"Стабилен"
+
+		"isotope_lead206"															"Свинец-206"
+		"isotope_lead206_text"														"Стабилен"
+
+		"isotope_iridium191"														"Иридий-191"
+		"isotope_iridium191_text"													"Стабилен"
 
 
 
@@ -7578,10 +7544,14 @@ Ram<br><br>
 		"polonium210_11"															"Вход - Полоний-214, выход - Свинец-210, гелий-4"
 		"polonium210_12"															"Вход - Свинец-210, выход - Висмут-210"
 		"polonium210_13"															"Вход - Висмут-210, выход - Полоний-210"
+		"polonium210_14"															"Вход - Полоний-210, выход - Свинец-206"
 
-		"pp_1"																		"(+14000): Вход - 2 протона, выход - 2 дейтерия "
+		"pp_1"																		"(+14000): Вход - 2 протона, выход - 1 дейтерия "
 		"pp_2"																		"(+9000): Вход - протона + дейтерий, выход - 1 гелий-3"
 		"pp_3"																		"(+1000): Вход - 2 гелий-3, выход - 1 гелий-4, 2 протона"
+
+		"strontium90_1"																"Вход - уран-235 + нейтрон, выход - стронций-90, ксенон-133, 2 нейтрона"
+
 
 		"reactions_des_0"															"Выберите желаемую реакию в списке выше."
 		"reactions_des_1"															"Синтез железа - цепочка реакций, проходящих при постоянно возрастающем давлении внутри звезды, при которой вследствие соударения ядер химических элементов тяжелее неона с гелием синтезируются всё более тяжелые элементы, останавливаясь на железе (из-за того, что у него самая большая энергия связи на нуклон в ядре синтез элементов тяжелее железа таким образом невозможен) (требует 30000 энергии, производит железо, необходимое для некоторых улучшений брони)."
@@ -7590,9 +7560,43 @@ Ram<br><br>
 		"reactions_des_4"															"Протон-протонная цепочка -  совокупность термоядерных реакций, в ходе которых водород превращается в гелий в звёздах, находящихся на главной звёздной последовательности. Этот цикл может приносить до 98% общей энергии звезды (вырабаетывает 32000 ед. энергии). "
 		
 
+		"DOTA_Tooltip_modifier_radiation"											"Радиация"
+		"DOTA_Tooltip_modifier_radiation_Description"									"За каждый стак вы получаете 0.03% урона от вашего максимального здоровья.Радиация накапливается каждую секунду если у вас в инвентаре находится радиоактивный материал. Данный эффект будет постепенно спадать если у вас не будет радиактивных предметов в инвентаре."
 
 
 
+		"DOTA_Tooltip_ability_item_polonium210"												"Полоний-210"
+		"DOTA_Tooltip_ability_item_polonium210_Description"										"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+
+		"DOTA_Tooltip_ability_item_iron56"													"Железо-56"
+		"DOTA_Tooltip_ability_item_iron56_Description"											"Стабильно"
+
+		"DOTA_Tooltip_ability_item_titanium44"												"Титан-44"
+		"DOTA_Tooltip_ability_item_titanium44_Description"										"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+
+		"DOTA_Tooltip_ability_item_oxygen16"												"Кислород-16"
+		"DOTA_Tooltip_ability_item_oxygen16_Description"										"Стабильно"
+
+		"DOTA_Tooltip_ability_item_lead206"													"Свинец-206"
+		"DOTA_Tooltip_ability_item_lead206_Description"											"Стабильно"
+
+		"DOTA_Tooltip_ability_item_iridium191"												"Иридий-191"
+		"DOTA_Tooltip_ability_item_iridium191_Description"										"Стабильно"
+
+		"DOTA_Tooltip_ability_item_uran235"													"Уран-235"
+		"DOTA_Tooltip_ability_item_uran235_Description"											"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+
+		"DOTA_Tooltip_ability_item_uran238"													"Уран-238"
+		"DOTA_Tooltip_ability_item_uran238_Description"											"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+
+		"DOTA_Tooltip_ability_item_proton"													"Протон"
+		"DOTA_Tooltip_ability_item_proton_Description"											"Стабильно"
+
+		"DOTA_Tooltip_ability_item_neutron"													"Нейтрон"
+		"DOTA_Tooltip_ability_item_neutron_Description"											"Стабильно"
+
+
+		"gold_farm"															"Gold earned: "
 
 
 
