@@ -2006,10 +2006,10 @@
  "DOTA_Tooltip_modifier_boss_armor_no_invisibility" "Modular blocks" 
  "DOTA_Tooltip_modifier_boss_armor_no_invisibility_Description" "Your attack range has been reduced to 1200."
 
- "dota_tooltip_ability_spell_lab_missile_storm" "Kaptein's Star"
- "dota_tooltip_ability_spell_lab_missile_storm_description" "Attacks an enemy with a star."
- "dota_tooltip_ability_spell_lab_missile_storm_duration" "Stun Duration: "
- "DOTA_Tooltip_spell_lab_storm_modifier" "Kaptein's Star"
+"dota_tooltip_ability_andromeda_laguna_storm" 									"Звезда Каптейна"
+"dota_tooltip_ability_andromeda_laguna_storm_description" 							"Attacks all enemies in a radius of 1500 with lightning discharges, has a random recharge from 50 to 120 seconds. For each completed round, the damage of the ability increases by 50%."
+"dota_tooltip_ability_andromeda_laguna_storm_damage" 								"Damage:"
+"DOTA_Tooltip_modifier_andromeda_laguna_storm"										"Captain's star"
  
  "dota_tooltip_ability_holeepic2" "Fate"
  "dota_tooltip_ability_holeepic2_description" "Creates a black hole that sucks in all enemy creatures."
@@ -2327,13 +2327,13 @@
 
 
 "DOTA_Tooltip_ability_item_stellar_flare" "Star Flare"
- "DOTA_Tooltip_ability_item_stellar_flare_Description" "<h1>Passive: Radiation</h1> In %dps% intervals, deals %damage% + (%damage_int% * your intellect) magic damage to all enemies within a %range% radius. <br>Warning! This item works only for heroes with the primary attribute Intellect, the damage cannot exceed 1% of the target's maximum health!\n <h1>Passive: Starburst</h1> Grants 2 additional mana for each point of intelligence."
+ "DOTA_Tooltip_ability_item_stellar_flare_Description" "<h1>Passive: Radiation</h1> In %dps% intervals, deals %damage% + (%damage_int% * your intellect) magic damage to all enemies within a %range% radius. <br>Warning! This item works only for heroes with the primary attribute Intellect, the damage cannot exceed 1-10% of the target's maximum health!\n <h1>Passive: Starburst</h1> Grants 2 additional mana for each point of intelligence."
  "DOTA_Tooltip_ability_item_stellar_flare_Note0" "Item damage does not scale with magic amplification"
  "DOTA_Tooltip_ability_item_stellar_flare_int" "+Intelligence:" 
  "DOTA_Tooltip_ability_item_stellar_flare_mana" "+ mana"
 
  "DOTA_Tooltip_ability_item_stellar_flare_veil" "Unstable Star Flare"
- "DOTA_Tooltip_ability_item_stellar_flare_veil_Description" "<h1>Active: Instability</h1> When activated per point, reduces the magic resistance of all enemy units by 30%. <br>Attention! This item only works on heroes with the main attribute - Intelligence, damage cannot exceed 1% of target's maximum health!\n<h1>Passive: Radiation</h1> In %dps% intervals, deal %damage% + (%damage_int% * your intelligence) magic damage to all enemies within a %range% radius.\n < h1>Passive: Starburst</h1> Grants 2 extra mana for each point of intelligence."
+ "DOTA_Tooltip_ability_item_stellar_flare_veil_Description" "<h1>Active: Instability</h1> When activated per point, reduces the magic resistance of all enemy units by 30%. <br>Attention! This item only works on heroes with the main attribute - Intelligence, damage cannot exceed 1-10% of target's maximum health!\n<h1>Passive: Radiation</h1> In %dps% intervals, deal %damage% + (%damage_int% * your intelligence) magic damage to all enemies within a %range% radius.\n < h1>Passive: Starburst</h1> Grants 2 extra mana for each point of intelligence."
  "DOTA_Tooltip_ability_item_stellar_flare_veil_Note0" "Item damage does not scale with magic amplification"
  "DOTA_Tooltip_ability_item_stellar_flare_veil_int" "+Int:" 
  "DOTA_Tooltip_ability_item_stellar_flare_veil_mana" "+ mana"
@@ -3831,10 +3831,16 @@ Difficulty: Absurd - 100% of the total accumulated rating.<br><br>
  "DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen" "Mana regen: "
 
  "DOTA_Tooltip_ability_item_gu_dead_sword_8" "Unstable Dead Fury"
- "DOTA_Tooltip_ability_item_gu_dead_sword_8_description" "<h1>Active: Break World</h1> When used, will incapacitate all enemy units within a 300 radius for 2.5-4 seconds.\n <h1>Passive: Deadly Essence </h1> Increases your attack damage(white) by %bonus_dmg_target%% .\n <h1>Passive: Bush </h1>If the item is not on cooldown, it has a 3% chance for ranged heroes, and a 5% chance for melee heroes to stun the target for %bush_duration% \n <h1>Passive: Unstable Rift </h1>With a 10% chance, a hand attack will bring 1-4 gold."
+ "DOTA_Tooltip_ability_item_gu_dead_sword_8_description" "<h1>Active: Break World</h1> When used, will incapacitate all enemy units within a 300 radius for 2.5-4 seconds.\n <h1>Passive: Deadly Essence </h1> Increases your damage by %bonus_dmg_target%% of white .\n <h1>Passive: Bush </h1>If the item is not on cooldown, it has a 3% chance for ranged heroes, and a 5% chance for melee heroes to stun the target for %bush_duration% \n <h1>Passive: Goldmine < /h1>For each attack, the whole team will receive 2 gold."
  "DOTA_Tooltip_ability_item_gu_dead_sword_8_damage" "Damage: "
  "DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen" "Health regen: "
  "DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen" "Mana regen: "
+ 
+ "DOTA_Tooltip_ability_item_gu_sword_of_exhaustion"								"Sword Of Exhaustion"
+		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_description"						"<h1>Active: Break World</h1> When used, will incapacitate all enemy units within a 300 radius for 2.5-4 seconds.\n <h1>Passive: Deadly Essence </h1> Increases your damage by %bonus_dmg_target%% of white .\n <h1>Passive: Bush </h1>If the item is not on cooldown, it has a 3% chance for ranged heroes, and a 5% chance for melee heroes to stun the target for %bush_duration% \n <h1>Passive: Goldmine < /h1>For each attack, the whole team will receive 3 gold.\n <h1>Passive: Rift</h1> Deals %cleave_damage%%% damage from your attack to all enemy units in front of the owner within %cleave_distance%. <br><br><font color='#ff0000'>Only works on melee heroes!</font>"
+		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_damage"							"Damage: "
+		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_hp_regen"							"Health Regeneration: "
+		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_mana_regen"						"Mana Regeneration: "
 
  "DOTA_Tooltip_ability_item_gu_helm_of_universe_1" "Helm of God"
  "DOTA_Tooltip_ability_item_gu_helm_of_universe_1_description" "<h1>Active: Helm of Universe </h1> Increases your damage and health by %mult_active%% for 60 seconds \n <h1>Passive: Elemental Burn </h1> In 0.5 second intervals, inflicts damage to all enemy units around the hero, the damage depends on the main attribute of the hero and works according to the formula main attribute * %mult%."
@@ -4701,7 +4707,7 @@ If you have duplicate characters (opened in the game, bought in the store or won
  "mmr" "Rating"
  "gu_coins" "GU-Coins"
  "proton"				"Proton"
- "neutron"				"Neutron"
+"neutron"				"Neutron"
  "stellar_shine" "Free Star Shine"
  "pray_coin_standart" "Fateful Encounters"
  "pray_coin_event" "Intertwined Fates"
@@ -5095,6 +5101,7 @@ Can be used by 1 player, after which everyone else will have to recharge."
  "DOTA_Tooltip_ability_gu_syndragosa_ab_1" "Frost Breath"
  "DOTA_Tooltip_ability_gu_syndragosa_ab_1_Description" "Deals damage equal to 20 percent of health to all enemies within the area of ​​effect."
  "npc_gu_syndragosa" "Syndragosa"
+ "npc_gu_syndragosa_text"								"Ice Dragon Queen"
  "npc_gu_lich_crate" "Lost Crystal"
  "npc_gu_skeleton" "Skeleton"
 
@@ -5258,6 +5265,7 @@ Can be used by 1 player, after which everyone else will have to recharge."
  "npc_dota_hero_venomancer_dificult"			"Hero Difficulty: Normal"
  "npc_dota_hero_nevermore_dificult"			"Hero Difficulty: Normal"
 "npc_dota_hero_zuus_dificult"				"Hero Difficulty: Easy"
+"npc_dota_hero_sand_king_dificult"			"Hero Difficulty: Normal"
  
  
 		"role_type_1"							"Role: <font color='#119e09'>«Basic DPS»</font>"
@@ -5567,7 +5575,7 @@ Can be used by 1 player, after which everyone else will have to recharge."
  "DOTA_Tooltip_modifier_mag_damage_red_race_spirits_Description" "Magic resistance reduced by -%dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%"
  
  "DOTA_Tooltip_modifier_race_armored" "Armored" 
- "DOTA_Tooltip_modifier_race_armored_Description" "Increases your armor by +%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%, reduces all incoming damage by %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%"
+ "DOTA_Tooltip_modifier_race_armored_Description" "Increases your armor by +%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%, reduces all incoming damage by (view value in player settings)"
 
  "DOTA_Tooltip_modifier_race_anquietas" "Alteran" 
  "DOTA_Tooltip_modifier_race_anquietas_Description" "Gives you +2 Intelligence every 30 seconds, and you gain bonus XP every minute, based on race rank.<br><br> <font color='#cf1919'>This ability does not work in Prologue, Battle with the Guardian, Ending and other world tasks.</font>"
@@ -5794,7 +5802,7 @@ Ram<br><br>
   "rune_air_bonus_1" "Movement Speed: "
   "rune_air_bonus_2" "Attack Speed: "
   
-  "rune_power_bonus_1" "Bonus gold from the wave: "
+  "rune_power_bonus_1" "Bonus gold from wave: "
   "rune_power_bonus_2" "Part of the experience converted into gold: "
 
  "DOTA_Tooltip_ability_gu_ascension_ability" "Ascension"
@@ -5922,7 +5930,7 @@ Ram<br><br>
  "DOTA_Tooltip_modifier_item_gu_dust_of_berserk_debuff_description" "You're attacking!"
  
  "DOTA_Tooltip_ability_item_gu_sword_of_the_universe" "Sword Of The Universe"
-"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_description" "<h1>Active: Break World</h1> When activated, will incapacitate all enemy units within a 300 radius for 5-10 seconds. \n <h1>Passive: Sword Of The Universe </h1> On each attack , stacks on the enemy, deals an additional 500 physical damage per stack, max stacks 100, duration 15. \n <h1>Passive: Dead Strike </h1> Increases your white attack by %bonus_dmg_target%%.\n < h1>Passive: Bush </h1>If the item is not on cooldown, it has a 3% chance for ranged heroes, and a 5% chance for melee heroes to stun the target for %bush_duration% \n <h1>Passive: Unstable Rift </h1> Has a 10% chance to gain 1-4 gold when attacking from your hand.\n <h1>Passive: Eternal Drain</h1>Restores %lifesteal% health to the owner for each hit.\n <h1>Passive: <font color='#ff8400'>Universe Set</font> </h1>「When the Universe set is full, it will add a new ability - Destroyer of the world」"
+"DOTA_Tooltip_ability_item_gu_sword_of_the_universe_description" "<h1>Active: Break World</h1> When activated, will incapacitate all enemy units within a 300 radius for 5-10 seconds. \n <h1>Passive: Sword Of The Universe </h1> On each attack , stacks on the enemy, deals an additional 500 physical damage per stack, max stacks 100, duration 15. \n <h1>Passive: Dead Strike </h1> Increases your white attack by %bonus_dmg_target%%.\n < h1>Passive: Bush </h1>If the item is not on cooldown, it has a 3% chance for ranged heroes, and a 5% chance for melee heroes to stun the target for %bush_duration% \n <h1>Goldmine </h1>For each attack, the entire team will receive 4 gold.\n <h1>Passive: Eternal Drain</h1> For each hit, restores %lifesteal% health to the owner.\n <h1>Passive: <font color= '#ff8400'>Universe Set</font> </h1>「With a full set of Universe items, it will add a new ability - Destroyer of the world」"
  "DOTA_Tooltip_ability_item_gu_sword_of_the_universe_damage" "Base Damage:"
  "DOTA_Tooltip_ability_item_gu_sword_of_the_universe_hp_regen" "Health regen:"
  "DOTA_Tooltip_ability_item_gu_sword_of_the_universe_mana_regen" "Mana regen:"
@@ -5994,26 +6002,22 @@ Ram<br><br>
 "npc_gu_qvest_crystall" "Mysterious Crystal"
  "npc_gu_crystall_guardians" "Crystal Guardian"
 
- "task_item_find" "Search for a Generator"
-	"task_item_text_start" "After you have passed through the gate to the planet Andromeda, you have depleted the power supply of its gate, now you need to find resources for the Nuclear Reactor in order to continue using the Star Gate and much more. Be careful! The generator is well guarded by the intelligent race Asurans!<br><br> You need to find a proton generator on 8 random planets."
-	"task_item_text_start_solo" "After you have passed through the gate to the planet Andromeda, you have depleted the power supply of its gate, now you need to find resources for the Nuclear Reactor in order to continue using the Star Gate and much more. Be careful! The generator is well guarded by the intelligent race Asurans!<br><br> You need to find a proton generator on 8 random planets.."
-	"task_item_text_1" "Great! You found and destroyed one of the generators. Find the other 2!"
-	"task_item_text_2" "Great! You found and destroyed another of the generators. Find the last one!"
-	"task_item_text_3" "Good job! You've destroyed all the shield generators and now we know where the МНТ is. To find out its location, use the button below. After arriving on the planet, destroy all the guards and take the ZPM."
+ "task_item_find"														"Search for a Generator"
+		"task_item_text_start"  "After you have passed through the gate to the planet Andromeda, you have depleted the power supply of its gate, now you need to find resources for the Nuclear Reactor in order to continue using the Star Gate and much more. Be careful! The generator is well guarded by the intelligent race Asurans!<br><br> You need to find a proton generator on 8 random planets."
+		"task_item_text_start_solo"  "After you have passed through the gate to the planet Andromeda, you have depleted the power supply of its gate, now you need to find resources for the Nuclear Reactor in order to continue using the Star Gate and much more. Be careful! The generator is well guarded by the intelligent race Asurans!<br><br> You need to find a proton generator on 8 random planets."
 
 
-	"task_item_rewards_chance" "Chances for rewards - 100%, 100%, 100%, 2%"
- 	"find_random_item" "Sensors"
-	"task_item_distance" "Distance to Generator: "
-	"task_item_distance_a" "Generator Distance: "
-	"task_item_not_found" "Generator not found!"
-	"task_item_timer_not" "<font color='#F92B2B'>The system did not detect the Generator!</font>"
-	"crystall_qvest_start" "New task received: Search for the Generator!"
-	"DOTA_Tooltip_modifier_gu_crystall_qvest" "Search for a Generator"
-	"DOTA_Tooltip_modifier_gu_crystall_qvest_Description" "To get resources, kill all the guards!"
+	"task_item_rewards_chance" "Chances for rewards - 100%, 100%, 100%, 30%, 5%"
+ 	"find_random_item" "Radar"
+"task_item_distance"	"Distance to Generator:"
+"task_item_not_found"	"Генератор не найден!"
+"task_item_timer_not"	"<font color='#F92B2B'>The system did not detect the Generator!</font>"
+"crystall_qvest_start" 	"New task received: Search for the Generator!" 
+"DOTA_Tooltip_modifier_gu_crystall_qvest"	"Search for a Generator"
+"DOTA_Tooltip_modifier_gu_crystall_qvest_Description"	"To get resources, kill all the guards!"
  "gu_qvest_crystall" "{player_name} Completed the quest - {qvest}"
- "gu_qvest_crystall_end_str" "{player_name} turned in unknown fragments to Andromeda and got {str} to strength!"
- "gu_qvest_crystall_end_int" "{player_name} turned in unknown fragments to Andromeda and gained {int} intelligence!"
+ "gu_qvest_crystall_end_str" "{player_name} turned in unknown fragments to Andromeda and got {str} to Strength!"
+ "gu_qvest_crystall_end_int" "{player_name} turned in unknown fragments to Andromeda and gained {int} Intelligence!"
  "gu_qvest_crystall_end_agi" "{player_name} turned in unknown fragments to Andromeda and gained {agi} Agility!"
  "gu_qvest_crystall_end_gold" "{player_name} turned in unknown fragments to Andromeda and received {gold} gold!"
  "gu_qvest_crystall_end_exp" "{player_name} turned in unknown fragments to Andromeda and got {exp} experience!"
@@ -6328,10 +6332,8 @@ Ram<br><br>
  "MANA" "Mana"
  "CD_REDUCTION" "Cooldown Reduction"
  "DMG_RES" "Damage Reduction"
- "ATK_SPD"							"Atack Speed"
-"STATS"							    "Stats"
-"ALL_STATS"							"to all"
-
+ "STATS"							    "Stats"
+ "ALL_STATS"							"All Stats"
 "artifact_give" "Recive"
  "artifact_destroy" "Delete"
  "artifact_replace" "When confirmed, the artifact on the left will replace yours on the right."
@@ -6354,7 +6356,7 @@ Ram<br><br>
  
  "boss_button_main" "Battle with the Guardian"
  "boss_button_text" "Quick access to the Guardian selection menu for battle. Energy needed:"
- "boss_button_help" "The battle with the Guardian is available after collecting the required amount of energy in your MNT, you will be able to select the Guardian you need and fight with him. <br>The battle with the Guardian will begin only after more than 50% of the players vote to kill him. You are given 2 attempts to kill the Guardian each round; if you win, you can only summon him again in the next round. If the battle with the Guardian successfully starts, the current round will be reset, after victory or defeat you will be automatically moved to the base and the current round will be restarted, but with one change - you will not receive gold and experience for killed mobs."
+ "boss_button_help" "The battle with the Guardian is available after collecting the required amount of energy in your MNT, you will be able to select the Guardian you need and fight with him. <br>The battle with the Guardian will begin only after more than 50% of the players vote to kill him. You are given 2 attempts each round to kill the Guardian; if you win, you can only summon him again in the next round. If the battle with the Guardian successfully starts, the current round will be reset, after victory or defeat you will be automatically moved to the base and the current round will be restarted, but with one change - you will not receive gold and experience for killed mobs in the next wave."
  
  "gate_button_main" "Stargate"
  "gate_button_text" "Quick access to the Stargate system's autodial menu."
@@ -6363,7 +6365,7 @@ Ram<br><br>
 
 
  "gu_art_stats_help" "Additional stats from Artifacts and Weapons."
- "gu_const_stats_help" "Additional stats for obtaining copies on your character, each copy even after 21 adds bonuses that depend on your character's main role, the additional bonus is displayed after the + sign"
+ "gu_const_stats_help" "Additional characteristics for received copies of your character, each copy, even after 21, adds bonuses that depend on the chosen role of your character, you will also receive +1 to all attributes for each copy of the character but not more than 20."
  "gu_round_stats_help" "Additional stats for completing waves."
 
  "mmr_Description" "Shows approximately how much MMR you will earn"
@@ -7001,10 +7003,11 @@ Ram<br><br>
 		"kurumigu_stash_text" "Stash"
 		"kurumigu_stash_text1" "Waves"
 		"kurumigu_stash_text2" "Flowers"
-		"kurumigu_stash_text3" "Guardians"
+		"kurumigu_stash_text3"									"Bosses"
+		"kurumigu_stash_text44"									"Neutral."
 		"zpm_icon_main" "ZPM"
-		"zpm_icon_text" "The main source of energy that is needed for many game mechanics, for example, the Star Gate: you can replenish the energy of the MNT by carrying out reactions in the Nuclear Reactor."
-		"zpm_icon_help" "This device is a source of energy created by the Ancients. The operating principle of the MNT is zero-point oscillations, which allows the MNT to suck energy from an artificially created subspace-time. In fact, the MNT is a miniature universe" 
+		"zpm_icon_text" "The main source of energy that is needed for many game mechanics, for example - the Stargate: in order for you to be able to dial the address where the final gate is from the Pegasus (Atlantis) series, you need a minimum of 3 ZPM, for the gates of the Universe you need 6 ZPM. This does not mean that when dialing one such address, you will lose all ZPM, this is the minimum amount to install a hypertunnel, each activation of the gate will consume a certain amount of energy, after the energy in the ZPM runs out - it will be considered lost."
+		"zpm_icon_help" "This device is a source of energy created by the Ancients. The operating principle of the MHT is zero-point oscillations, which allows the MHT to “suck” energy from an artificially created subspace-time. In fact, the MHT is a miniature universe.<br><br> By clicking on this icon, you will charge the current MHT by the current indicator of your energy." 
 		"error_zpm_pegasus" "Stargate control crystal error - not enough energy. In order to use the Atlantis gate you need to have 3 ZPM and have 5% of its charge."
 		"error_zpm_universal" "Stargate control crystal error - not enough energy. In order to use the universe gate you need to have 6 ZPM and have 10% of its charge."
 		"protagonist_name_4" "Dr. Rodney McKay"
@@ -7016,9 +7019,9 @@ Ram<br><br>
 		"DOTA_Tooltip_ability_item_zpm_Description" "Zero Point Module - This device is a power source created by the Ancients. The principle of the ZPM is zero vibrations, which allows the MNT to suck energy from an artificially created subspace-time. In fact, the ZPM is a miniature universe."
 		
 		
-		"mckay_replic_zpm_start" "My sensors have detected a signal consistent with the Ancients' proton generator! Destroy its defenders and extract fuel cells from it."
-		"mckay_replic_zpm_4" "Good job! Don't forget to charge our MNT with the proton fuel cells you mine!"
-		"npc_gu_generator_shield" "Proton Generator"
+		"mckay_replic_zpm_start"								"My sensors detected a signal corresponding to the proton generator of the Ancients! Destroy its defenders and get fuel cells from it."
+		"mckay_replic_zpm_4"									"Good job! Do not forget to charge our MHT with the help of extracted proton fuel cells!"
+		"npc_gu_generator_shield" "Proton generator"
 		"npc_gu_zpm_guard_1" "Suppressor"
 		"npc_gu_zpm_guard_2" "Analyst"
 		"npc_gu_zpm_guard_3" "The Highest Cleric"
@@ -7126,7 +7129,36 @@ Ram<br><br>
 		"odin_a10_repli_2"							"One 6-2 - Bombs go! Bombs go!"
 
 
-		"npc_dota_hero_sand_king"					"BMP-1 「★★★★」"
+		"npc_dota_hero_sand_king"					"BMP-1 「★★★★★★」"
+		"npc_dota_hero_sand_king_rare"			"Acquisition: Classified"
+		"npc_dota_hero_sand_king_damage"			"Source: Guardians of Universe"
+		"npc_dota_hero_sand_king_weapon"			"Armament: <font color='#ff565d'>Weapon</font>"
+		
+				"DOTA_Tooltip_ability_gu_bmp1_upgrade"	               					"BMP-1"
+		"DOTA_Tooltip_ability_gu_bmp1_upgrade_Description"						"The BMP-1 is the first Soviet mass-produced armored combat tracked vehicle capable of floating and designed to transport personnel of motorized rifle units to the battlefield, increase its mobility, armament and protection on the battlefield, as well as for joint actions with tanks in battle. The progenitor of such a class of combat vehicles as infantry fighting vehicles; the world's first mass-produced infantry fighting vehicle. Pumps basic characteristics. Adds + %bonus_health% to health, + %bonus_armor% to armor, + %attack_range_bonus% to range, + %damage% and damage. Takes 20% less damage of any kind. <br><br> Has a fixed rate of fire, no base attack time reduction items, etc. work!"
+		"DOTA_Tooltip_ability_gu_bmp1_upgrade_scepter_Description"				"Adds 300% bonus damage"
+
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_kym" 							"<font color='#f9fd27'>「PG-15」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_kym_Description" 				"The main projectile of the 2A28 Thunder gun, the penetration of this projectile is %penetration% mm."
+		"DOTA_Tooltip_modifier_gu_bmp1_ammo_kym" 							"<font color='#f9fd27'>「PG-15」</font>"
+		"DOTA_Tooltip_modifier_gu_bmp1_ammo_kym_Description" 				"The main type of projectile"
+		
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_heat" 							"<font color='#fd7427'>「OG-15」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_heat_Description" 				"The high-explosive projectile <font color='#fd7427'>「OG-15」</font> does not penetrate armor, but does %damage%%% area damage within %heat_dmg_radius% of the main target. The cost of firing this projectile is 2% of your energy. <br>"
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_heat_penetration" 				"Penetration: "
+		"DOTA_Tooltip_modifier_gu_bmp1_ammo_heat" 							"<font color='#fd7427'>「OG-15」</font>"
+		"DOTA_Tooltip_modifier_gu_bmp1_ammo_heat_Description" 				"Inflicts massive area damage in a radius of 800, the cost of the shot is 2% energy. <br><font color='#fd2727'>If you run out of energy for a shot, you will be automatically switched to the 「PG-15」</font>"
+
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_rocket" 							"<font color='#fd7427'>「9K111-1 Bassoon」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_rocket_Description" 				"The anti-tank guided missile complex 9K111 Fagot is a Soviet portable anti-tank missile complex with semi-automatic wire-guided command guidance (according to the NATO classification - AT-4 Spigot)[1], designed to hit visually observed stationary and moving targets at speeds up to 60 km/h (armored equipment of the enemy, shelters, fire means, low-flying air targets at low speeds) at ranges up to 2 km, and with the 9M113 missile - up to 4 km. The hit ignores the enemy's armor, dealing %base_damage% + (%bonus_dmg_per_armor% * your armor) damage, the cooldown of this ability cannot be reduced."
+		"DOTA_Tooltip_ability_gu_bmp1_ammo_rocket_shard_Description" 		"Adds bonus damage - strength * 3"
+
+		"DOTA_Tooltip_ability_gu_bmp1_mines_type_1" 							"<font color='#fd7427'>「MON-100」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_mines_type_1_Description" 				"Places an anti-personnel mine that will detonate if an enemy passes within a 300 radius of it. Deals %damage%% damage to the target's health."
+		
+		"DOTA_Tooltip_ability_gu_bmp1_mines_type_2" 							"<font color='#fd7427'>「MON-100 (Cassette)」</font>"
+		"DOTA_Tooltip_ability_gu_bmp1_mines_type_2_Description" 				"Sets the %count% of anti-personnel mines in a radius of %radius% that will detonate if an enemy passes within a 300 radius of it. Deals %damage%% damage to the target's health."
+		
 		"npc_dota_hero_abyssal_underlord"			"Youmu Konpaku 「★」"
 		"npc_dota_hero_abyssal_underlord_weapon"	"Weapon: <font color='#ffb056'>One-Handed Sword</font>"
 		"npc_dota_hero_abyssal_underlord_damage"	"Source: «Touhou»"
@@ -7342,261 +7374,272 @@ Ram<br><br>
 
 		"setting_zoom_slider"												"Zoom setting:"
 
+"gold_farm"															"Gold earned: "
 
-		"DOTA_Tooltip_ability_item_gu_desolator_bot"								"Skibidi Desolator"
-		"DOTA_Tooltip_ability_item_gu_desolator_bot_Description"						"Делает броне противника Skibidi и он начинает ощущать боль. Уменьшает броню цели по формуле (1 + сложность) * номер волны."
-		"DOTA_Tooltip_modifier_item_gu_desolator_bot_armor"							"Skibidi Desolator"
-		"DOTA_Tooltip_modifier_item_gu_desolator_bot_armor_Description"					"Вашу броню Skibidiшнули."
-
-		"DOTA_Tooltip_ability_item_gu_deadalus_bot"									"Долбень Вскибидёвский"
-		"DOTA_Tooltip_ability_item_gu_deadalus_bot_Description"							"Позволяет нанести Вскибидёвский критический урон в размере (5 * сложность) * номер волны, с шансом 2 * номер волны."
-
-		"DOTA_Tooltip_ability_item_gu_mkb_bot"										"Пісюнковий Злодій"
-		"DOTA_Tooltip_ability_item_gu_mkb_bot_Description"								"Позволяет боту попасть по вам с 100% шансом а так-же нанести дополнительный магический урон с шансом в 17% по формуле 50 * (на волну в степени 2) * (сложность / 3)."
-
+"DOTA_Tooltip_ability_item_gu_test"									"Eblan"
+"DOTA_Tooltip_ability_item_gu_test_Description"						"kto"
+"DOTA_Tooltip_ability_item_gu_test_damage"							"pidaras:"
 
-		"nuclear_hud_name"															"Ядерный Реактор"
-		"nuclear_hud_type"															"Тип Реакции"
-		"nuclear_hud_material"														"Синтезируемый Материал"
-		"nuclear_hud_state"															"Рецепт"
-		"nuclear_output_name"														"Хранилище:"
-		"nuclear_input_name"														"Ингридиенты для реакции:"
-		"nuclear_output_help"														"Для того чтобы поместить компонент - выберите его в Хранилище нажав ПКМ по нему затем нажмите на слот в который вы хотите поместить ресурс (порядок для правильной реакции ВАЖЕН!)"
-		"nuclear_item_clear"														"-Очистить-"
-		"nuclear_energy_bar"														"Энергия:"
-		"nuclear_start"																"☢ЗАПУСК☢"
-		"nuclear_true"																"<font color='#0bfc03'>Успешно!</font>"	
-		"nuclear_false"																"<font color='#fc0303'>Ошибка!</font>"
-		"nuclear_give_slot"															"Ячейка доступа Реактора:"
-		"nuclear_item_false"														"<font color='#fc0303'>Ресурс недоступен!</font>"
-		"nuclear_item_true"															"<font color='#0bfc03'>Получено!</font>"
-		"nuclear_output_name_help"													"Первый столбик - Радиоактивные материалы, Второй - Стабильные материалы, Третий - готовые ресурсы которые вы можете получить переместив их в - Ячейку доступа Реактора."
-		"npc_gu_caldron"															"Ядерный Реактор"
-		"nuclear_reaction_1"														"Реакция Распада"
-		"nuclear_reaction_2"														"Реакция Слияния"
+"DOTA_Tooltip_ability_item_gu_desolator_bot"								"Skibidi Desolator"
+"DOTA_Tooltip_ability_item_gu_desolator_bot_Description"						"Skibidi makes the opponent's armor and he starts to feel pain. Reduces the target's armor according to the formula (1 + game difficulty) * wavenumber."
+"DOTA_Tooltip_modifier_item_gu_desolator_bot_armor"							"Skibidi Desolator"
+"DOTA_Tooltip_modifier_item_gu_desolator_bot_armor_Description"					"Your armor has been skibid."
 
-		"nuclear_resourse_picked"													"Выберите синтезируемый материал"
-		"nuclear_resourse_1"														"Железо-56"
-		"nuclear_resourse_2"														"Кислород-16"
-		"nuclear_resourse_3"														"Полоний-210"
-		"nuclear_resourse_4"														"Протон-Протонная цепочка"
-		"nuclear_resourse_5"														"Стронций-90"
+"DOTA_Tooltip_ability_item_gu_deadalus_bot"									"Dolben Vskybydovsky"
+"DOTA_Tooltip_ability_item_gu_deadalus_bot_Description"							"Allows you to inflict Vskibydovsky critical damage in the amount of (5 * game difficulty) * wave number, with a chance of 2 * wave number."
 
+"DOTA_Tooltip_ability_item_gu_mkb_bot"										"Song Thief"
+"DOTA_Tooltip_ability_item_gu_mkb_bot_Description"								"Allows the bot to hit you with a 100% chance and also cause additional magical damage with a 17% chance according to the formula 50 * (per wave to the power of 2) * (difficulty / 3)."
 
 
+"nuclear_hud_name"															"Nuclear Reactor"
+"nuclear_hud_type"															"Type of Reaction"
+"nuclear_hud_material"														"Synthesized material"
+"nuclear_hud_state"															"Recipe"
+"nuclear_output_name"														"Storage:"
+"nuclear_input_name"														"Ingredients for the reaction:"
+"nuclear_output_help"														"In order to place the component - select the ego in the Storage room by clicking on it, then click on the slot in which you want to place the resource (the order for the correct reaction is IMPORTANT!)"
+"nuclear_item_clear"														"-Clear-"
+"nuclear_energy_bar"														"Energy:"
+"nuclear_start"																"☢LAUNCH☢"
+"nuclear_true"																"<font color='#0bfc03'>Successfully!</font>"	
+"nuclear_false"																"<font color='#fc0303'>Error!</font>"
 
-		"isotope_uran238"															"Уран-238"
-		"isotope_uran238_text"														"Радиоактивен (1 мкрад/с, время полураспада - 4.468 млрд лет)"
+"nuclear_give_slot"															"Reactor access cell:"
+"nuclear_item_false"														"<font color='#fc0303'>The resource is unavailable!</font>"
+"nuclear_item_true"															"<font color='#0bfc03'>Received!</font>"
+"nuclear_output_name_help"													"The first column - Radioactive materials, the second - Stable materials, the third - ready-made resources that you can get by moving them to the Reactor Access Cell."
+"npc_gu_caldron"															"Nuclear Reactor"
 
-		"isotope_thorium234"														"Торий-234"
-		"isotope_thorium234_text"													"радиоактивен (60 тыс. рад/с на 1 кг, время полураспада - 24 дня 2 часа)"
+"nuclear_reaction_1"														"Decay reaction"
+"nuclear_reaction_2"														"Fusion reaction"
 
-		"isotope_null"																"Пустой Слот"
-		"isotope_null_text"															" "
+"nuclear_resourse_picked"													"Select the synthesized material"
+"nuclear_resourse_1"														"Iron-56"
+"nuclear_resourse_2"														"Oxygen-16"
+"nuclear_resourse_3"														"Polonius-210"
+"nuclear_resourse_4"														"Proton-Proton chain"
+"nuclear_resourse_5"														"Strontium-90"
 
-		"isotope_beryllium8"														"Бериллий-8"
-		"isotope_beryllium8_text"													"Радиоактивен (500 рад/с, время полураспада - 10^-17 сек)"
-		
-		"isotope_carbon12"															"Углерод-12"
-		"isotope_carbon12_text"														"Стабилен"
 
-		"isotope_oxygen16"															"Кислород-16"
-		"isotope_oxygen16_text"														"Стабилен"
-		
-		"isotope_helium4"															"Гелий-4"
-		"isotope_helium4_text"														"Стабилен"
-		
-		"isotope_neon20"															"Неон-20"
-		"isotope_neon20_text"														"Стабилен"
 
-		"isotope_magnesium24"														"Магний-24"
-		"isotope_magnesium24_text"													"Стабилен"
+"isotope_uran238"															"Uranium-238"
+"isotope_uran238_text"														"Radioactive (1 μrad/s, half-life - 4.468 billion years)"
 
-		"isotope_silicon28"															"Кремний-28"
-		"isotope_silicon28_text"													"Стабилен"
+"isotope_thorium234"														"Торий-234"
+"isotope_thorium234_text"													"radioactive (60 thousand rad/s per 1 kg, half-life - 24 days 2 hours)"
 
-		"isotope_sulfur32"															"Сера-32"
-		"isotope_sulfur32_text"														"Стабилен"
+"isotope_null"																"Empty slot"
+"isotope_null_text"															" "
 
-		"isotope_argon36"															"Аргон-36"
-		"isotope_argon36_text"														"Стабилен"
+"isotope_beryllium8"														"Beryl-8"
+"isotope_beryllium8_text"													"Radioactive (500 rad/s, half-life - 10^-17 sec)"
 
-		"isotope_calcium40"															"Кальций-40"
-		"isotope_calcium40_text"													"Стабилен"
+"isotope_carbon12"															"Carbon-12"
+"isotope_carbon12_text"														"Stable"
 
-		"isotope_titanium44"														"Титан-44"
-		"isotope_titanium44_text"													"Радиоактивен (1 рад/с, время полураспада - 60 лет)"
+"isotope_oxygen16"															"Oxygen-16"
+"isotope_oxygen16_text"														"Stable"
 
-		"isotope_chromium48"														"Хром-48"
-		"isotope_chromium48_text"													"Радиоактивен (30 рад/с, время полураспада - 21  час 30 минут)"
-		
-		"isotope_iron52"															"Железо-52"
-		"isotope_iron52_text"														"Радиоактивно (50 рад/с, время полураспада - 8 часов 15 минут)"
+"isotope_helium4"															"Helium-4"
+"isotope_helium4_text"														"Stable"
 
-		"isotope_iron56"															"Железо-56"
-		"isotope_iron56_text"														"Стабильно"
-		
-		"isotope_cobalt56"															"Кобальт-56"
-		"isotope_cobalt56_text"														"Радиоактивен (25 рад/с, время полураспада - 77 дней 6 часов)"
+"isotope_neon20"															"Neon-20"
+"isotope_neon20_text"														"Stable"
 
-		"isotope_nickel56"															"Никель-56"
-		"isotope_nickel56_text"														"Радиоактивен (32 рад/с, время полураспада - 6 дней 2 часа)"
+"isotope_magnesium24"														"Magnesium-24"
+"isotope_magnesium24_text"													"Stable"
 
-		"isotope_uran234"															"Уран-234"
-		"isotope_uran234_text"														"Радиоактивен (1 мрад/с, время полураспада - 245500 лет)"
+"isotope_silicon28"															"Kremny-28"
+"isotope_silicon28_text"													"Stable"
 
-		"isotope_protactinium234"													"Протактиний-234"
-		"isotope_protactinium234_text"												"Радиоактивен (40 рад/с, время полураспада - 6 часов 42 минуты)"
+"isotope_sulfur32"															"Sera-32"
+"isotope_sulfur32_text"														"Stable"
 
-		"isotope_thorium234"														"Торий-234"
-		"isotope_thorium234_text"													"Радиоактивен (5 рад/с, время полураспада - 24 дня 2 часа)"
+"isotope_argon36"															"Argon-36"
+"isotope_argon36_text"														"Stable"
 
-		"isotope_thorium230"														"Торий-230"
-		"isotope_thorium230_text"													"Радиоактивен (40 мрад/с, время полураспада - 75400 лет)"
+"isotope_calcium40"															"Calcium-40"
+"isotope_calcium40_text"													"Stable"
 
-		"isotope_radium226"															"Радий-226"
-		"isotope_radium226_text"													"Радиоактивен (2 рад/с, время полураспада - 1600 лет)"
+"isotope_titanium44"														"Titan-44"
+"isotope_titanium44_text"													"Radioactive (1 rad/s, half-life - 60 years)"
 
-		"isotope_radon222"															"Радон-222"
-		"isotope_radon222_text"														"Радиоактивен (34 рад/с, время полураспада - 3 дня 19 часов)"
+"isotope_chromium48"														"Chrome-48"
+"isotope_chromium48_text"													"Radioactive (30 rad/s, half-life - 21 hours 30 minutes)"
 
-		"isotope_polonium218"														"Полоний-218"
-		"isotope_polonium218_text"													"Радиоактивен (600 рад/с, время полураспада - 3 мин 6 сек)"
+"isotope_iron52"															"Iron-52"
+"isotope_iron52_text"														"Radioactive (50 rad/s, half-life - 8 hours 15 minutes)"
 
-		"isotope_polonium214"														"Полоний-214"
-		"isotope_polonium214_text"													"Радиоактивен (1200 рад/с, время полураспада - 164 микросекунды)"
+"isotope_iron56"															"Iron-56"
+"isotope_iron56_text"														"Stable"
 
-		"isotope_polonium210"														"Полоний-210"
-		"isotope_polonium210_text"													"Радиоактивен (15 рад/с, время полураспада - 138 дней 9 часов)"
+"isotope_cobalt56"															"Cobalt-56"
+"isotope_cobalt56_text"														"Radioactive (25 rad/s, half-life time - 77 days 6 hours)"
 
-		"isotope_bismuth214"														"Висмут-214"
-		"isotope_bismuth214_text"													"Радиоактивен (550 рад/с, время полураспада - 19 мин 42 сек)"
+"isotope_nickel56"															"Nickel-56"
+"isotope_nickel56_text"														"Radioactive (32 rad/s, half-life - 6 days 2 hours)"
 
-		"isotope_bismuth210"														"Висмут-210"
-		"isotope_bismuth210_text"													"Радиоактивен (30 рад/с, время полураспада - 5 дней) "
+"isotope_uran234"															"Uran-234"
+"isotope_uran234_text"														"Radioactive (1 mrad/s, half-life - 245,500 years)"
 
-		"isotope_lead214"															"Свинец-214"
-		"isotope_lead214_text"														"Радиоактивен (80 рад/с, время полураспада - 27 мин 4 сек)"
+"isotope_protactinium234"													"Protactiny-234"
+"isotope_protactinium234_text"												"Radioactive (40 rad/s, half-life - 6 hours 42 minutes)"
 
-		"isotope_lead210"															"Свинец-210"
-		"isotope_lead210_text"														"Радиоактивен (1 рад/с, время полураспада - 22 года)"
+"isotope_thorium234"														"Thorium-234"
+"isotope_thorium234_text"													"Radioactive (5 rad/s, half-life - 24 days 2 hours)"
 
-		"isotope_proton"															"Протон"
-		"isotope_proton_text"														"Стабилен"
+"isotope_thorium230"														"Thorium-230"
+"isotope_thorium230_text"													"Radioactive (40 mrad/s, half-life - 75400 years)"
 
-		"isotope_deuterium"															"Дейтерий"
-		"isotope_deuterium_text"													"Стабилен"
+"isotope_radium226"															"Radium-226"
+"isotope_radium226_text"													"Radioactive (2 rad/s, half-life - 1600 years)"
 
-		"isotope_helium3"															"Гелий-3"
-		"isotope_helium3_text"														"Стабилен"
+"isotope_radon222"															"Radon-222"
+"isotope_radon222_text"														"Radioactive (34 rad/s, half-life - 3 days 19 hours)"
 
-		"isotope_uran235"															"Уран-235"
-		"isotope_uran235_text"														"Радиоактивен (1 мкрад/с, время полураспада - 700 млн лет) "
+"isotope_polonium218"														"Polonius-218"
+"isotope_polonium218_text"													"Radioactive (600 rad/s, half-life - 3 min 6 sec)"
 
-		"isotope_strontium90"														"Стронций-90"
-		"isotope_strontium90_text"													"Радиоактивен (4 рад/с, время полураспада - 28 лет 11 месяцев)"
+"isotope_polonium214"														"Polonius-214"
+"isotope_polonium214_text"													"Radioactive (1200 rad/s, half-life - 164 microseconds)"
 
-		"isotope_xenon133"															"Ксенон-133"
-		"isotope_xenon133_text"														"Стабилен"
+"isotope_polonium210"														"Polonius-210"
+"isotope_polonium210_text"													"Radioactive (15 rad/s, half-life - 138 days 9 hours)"
 
-		"isotope_neutron"															"Нейтрон"
-		"isotope_neutron_text"														"Стабилен"
+"isotope_bismuth214"														"Bismuth-214"
+"isotope_bismuth214_text"													"Radioactive (550 rad/s, half-life - 19 min 42 sec)"
 
-		"isotope_lead206"															"Свинец-206"
-		"isotope_lead206_text"														"Стабилен"
+"isotope_bismuth210"														"Bismuth-210"
+"isotope_bismuth210_text"													"Radioactive (30 rad/s, half-life - 5 days)"
 
-		"isotope_iridium191"														"Иридий-191"
-		"isotope_iridium191_text"													"Стабилен"
+"isotope_lead214"															"Lead-214"
+"isotope_lead214_text"														"Radioactive (80 rad/s, half-life - 27 min 4 sec)"
 
+"isotope_lead210"															"Lead-210"
+"isotope_lead210_text"														"Radioactive (1 rad/s, half-life - 22 years)"
 
+"isotope_proton"															"Proton"
+"isotope_proton_text"														"Stable"
 
+"isotope_deuterium"															"Deuterium"
+"isotope_deuterium_text"													"Stable"
 
-		"iron56_1"																	"Вход - 2 углерод-12, выход - неон-20, гелий-4"
-		"iron56_2"																	"Вход - неон-20 + гелий-4, выход - магний-24"
-		"iron56_3"																	"Вход - магний-24 + гелий-4, выход - кремний-28"
-		"iron56_4"																	"Вход - кремний-28 + гелий-4, выход - сера-32"
-		"iron56_5"																	"Вход - сера-32 + гелий-4, выход - аргон-36"
-		"iron56_6"																	"Вход - аргон-36 + гелий-4, выход - кальций-40"
-		"iron56_7"																	"Вход - кальций-40 + гелий-4, выход - титан-44"
-		"iron56_8"																	"Вход - титан-44 + гелий-4, выход - хром-48"
-		"iron56_9"																	"Вход - хром-48 + гелий-4, выход - железо-52"
-		"iron56_10"																	"Вход - железо-52 + гелий-4, выход - никель-56"
-		"iron56_11"																	"Вход - никель-56 + выход - кобальт-56"
-		"iron56_12"																	"Вход - кобальт-56 + выход - железо-56"
+"isotope_helium3"															"Helium-3"
+"isotope_helium3_text"														"Stable"
 
-		"oxygen_1"																	"Вход - 2 Гелия-4, выход - Бериллий-8"
-		"oxygen_2"																	"Вход - Бериллий-8 + гелий-4, выход - углерод-12, 2 гамма-кванта"
-		"oxygen_3"																	"Вход - Углерод-12 + гелий-4, выход - кислород-16, гамма-квант"
+"isotope_uran235"															"Uranium-235"
+"isotope_uran235_text"														"Radioactive (1 μrad/s, half-life - 700 million years) "
 
+"isotope_strontium90"														"Strontium-90"
+"isotope_strontium90_text"													"Радиоактивен (4 рад/с, время полураспада - 28 лет 11 месяцев)"
 
+"isotope_xenon133"															"Xenon-133"
+"isotope_xenon133_text"														"Stable"
 
+"isotope_neutron"															"Neutron"
+"isotope_neutron_text"														"Stable"
 
-		"polonium210_1"																"Вход - Уран-238, выход - Торий-234, гелий-4"
-		"polonium210_2"																"Вход - Торий-234, выход - Протактиний-234"
-		"polonium210_3"																"Вход - Протактиний-234, выход - Уран-234"
-		"polonium210_4"																"Вход - Уран-234, выход - Торий-230, гелий-4"
-		"polonium210_5"																"Вход - Торий-230, выход - Радий-226, гелий-4"
-		"polonium210_6"																"Вход - Радий-226, выход - Радон-222, гелий-4"
-		"polonium210_7"																"Вход - Радон-222, выход - Полоний-218, гелий-4"
-		"polonium210_8"																"Вход - Полоний-218, выход - Свинец-214, гелий-4"
-		"polonium210_9"																"Вход - Свинец-214, выход - Висмут-214"
-		"polonium210_10"															"Вход - Висмут-214, выход - Полоний-214"
-		"polonium210_11"															"Вход - Полоний-214, выход - Свинец-210, гелий-4"
-		"polonium210_12"															"Вход - Свинец-210, выход - Висмут-210"
-		"polonium210_13"															"Вход - Висмут-210, выход - Полоний-210"
-		"polonium210_14"															"Вход - Полоний-210, выход - Свинец-206"
+"isotope_lead206"															"Lead-206"
+"isotope_lead206_text"														"Stable"
 
-		"pp_1"																		"(+14000): Вход - 2 протона, выход - 1 дейтерия "
-		"pp_2"																		"(+9000): Вход - протона + дейтерий, выход - 1 гелий-3"
-		"pp_3"																		"(+1000): Вход - 2 гелий-3, выход - 1 гелий-4, 2 протона"
+"isotope_iridium191"														"Iridium-191"
+"isotope_iridium191_text"													"Stable"
 
-		"strontium90_1"																"Вход - уран-235 + нейтрон, выход - стронций-90, ксенон-133, 2 нейтрона"
 
 
-		"reactions_des_0"															"Выберите желаемую реакию в списке выше."
-		"reactions_des_1"															"Синтез железа - цепочка реакций, проходящих при постоянно возрастающем давлении внутри звезды, при которой вследствие соударения ядер химических элементов тяжелее неона с гелием синтезируются всё более тяжелые элементы, останавливаясь на железе (из-за того, что у него самая большая энергия связи на нуклон в ядре синтез элементов тяжелее железа таким образом невозможен) (требует 30000 энергии, производит железо, необходимое для некоторых улучшений брони)."
-		"reactions_des_2"															"Тройной альфа процесс - цепочка термоядерных реакций в недрах звёзд, в ходе которой три ядра гелия-4 образуют ядро углерода-12. При достаточно высоком давлении этот цикл может продолжиться синтезом кислорода (суммарно требует 12000 ед. энергии, производит кислород, необходимый для фарма абсурдного леса)."
-		"reactions_des_3"															"Распад урана-238 (радиевая серия, урановый каскад) - происходящий естественно каскадный распад ядра изотопа урана-238 на более легкие элементы с излучением множественных альфа-частиц (вырабатывает 15000 энергии, производит полоний-210, необходимый для некоторых улучшений на оружие, а также свинец-206, необходимый для создания противорадиационной защиты)."
-		"reactions_des_4"															"Протон-протонная цепочка -  совокупность термоядерных реакций, в ходе которых водород превращается в гелий в звёздах, находящихся на главной звёздной последовательности. Этот цикл может приносить до 98% общей энергии звезды (вырабаетывает 32000 ед. энергии). "
-		
+"iron56_1"																	"Input - 2 carbon-12, output - neon-20, helium-4"
+"iron56_2"																	"Input - neon-20 + helium-4, output - magnesium-24"
+"iron56_3"																	"Input - magnesium-24 + helium-4, output - silicon-28"
+"iron56_4"																	"Input - silicon-28 + helium-4, output - sulfur-32"
+"iron56_5"																	"Input - sulfur-32 + helium-4, output - argon-36"
+"iron56_6"																	"Input - argon-36 + helium-4, output - calcium-40"
+"iron56_7"																	"Input - calcium-40 + helium-4, output - titanium-44"
+"iron56_8"																	"Input - titanium-44 + helium-4, output - chrome-48"
+"iron56_9"																	"Input - chromium-48 + helium-4, output - iron-52"
+"iron56_10"																	"Input - iron-52 + helium-4, output - nickel-56"
+"iron56_11"																	"Input - nickel-56 + output - cobalt-56"
+"iron56_12"																	"Input - cobalt-56 + output - iron-56"
 
-		"DOTA_Tooltip_modifier_radiation"											"Радиация"
-		"DOTA_Tooltip_modifier_radiation_Description"									"За каждый стак вы получаете 0.03% урона от вашего максимального здоровья.Радиация накапливается каждую секунду если у вас в инвентаре находится радиоактивный материал. Данный эффект будет постепенно спадать если у вас не будет радиактивных предметов в инвентаре."
+"oxygen_1"																	"Input - 2 Helium-4, output - Beryl-8"
+"oxygen_2"																	"Input - Beryllium-8 + helium-4, output - carbon-12, 2 gamma quanta"
+"oxygen_3"																	"Input - Carbon-12 + helium-4, output - oxygen-16, gamma quantum"
 
 
 
-		"DOTA_Tooltip_ability_item_polonium210"												"Полоний-210"
-		"DOTA_Tooltip_ability_item_polonium210_Description"										"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
 
-		"DOTA_Tooltip_ability_item_iron56"													"Железо-56"
-		"DOTA_Tooltip_ability_item_iron56_Description"											"Стабильно"
+"polonium210_1"																"Input - Uranium-238, output - Thorium-234, helium-4"
+"polonium210_2"																"Input - Thorium-234, output - Protactinium-234"
+"polonium210_3"																"Input - Protactinium-234, output - Uranium-234"
+"polonium210_4"																"Input - Uranium-234, output - Thorium-230, helium-4"
+"polonium210_5"																"Input - Thorium-230, output - Radium-226, helium-4"
+"polonium210_6"																"Input - Radium-226, output - Radon-222, helium-4"
+"polonium210_7"																"Input - Radon-222, output - Polonium-218, helium-4"
+"polonium210_8"																"Input - polonium-218, output - lead-214, helium-4"
+"polonium210_9"																"Input - Lead-214, output - Bismuth-214"
+"polonium210_10"															"Input - Bismuth-214, output - Polony-214"
+"polonium210_11"															"Input - polonium-214, output - lead-210, helium-4"
+"polonium210_12"															"Input - Lead-210, output - Bismuth-210"
+"polonium210_13"															"Input - Bismuth-210, output - Polonium-210"
+"polonium210_14"															"Input - Polony-210, output - Svynets-206"
 
-		"DOTA_Tooltip_ability_item_titanium44"												"Титан-44"
-		"DOTA_Tooltip_ability_item_titanium44_Description"										"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+"pp_1"																		"(+14000): Input - 2 protons, output - 1 deuterium"
+"pp_2"																		"(+9000): Input - proton + deuterium, output - 1 helium-3"
+"pp_3"																		"(+1000): Input - 2 helium-3, output - 1 helium-4, 2 protons"
 
-		"DOTA_Tooltip_ability_item_oxygen16"												"Кислород-16"
-		"DOTA_Tooltip_ability_item_oxygen16_Description"										"Стабильно"
+"strontium90_1"																"Input - uranium-235 + neutron, output - strontium-90, xenon-133, 2 neutrons"
 
-		"DOTA_Tooltip_ability_item_lead206"													"Свинец-206"
-		"DOTA_Tooltip_ability_item_lead206_Description"											"Стабильно"
 
-		"DOTA_Tooltip_ability_item_iridium191"												"Иридий-191"
-		"DOTA_Tooltip_ability_item_iridium191_Description"										"Стабильно"
 
-		"DOTA_Tooltip_ability_item_uran235"													"Уран-235"
-		"DOTA_Tooltip_ability_item_uran235_Description"											"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+"reactions_des_0"															"Select the desired reaction from the list above."
+"reactions_des_1"															"The synthesis of iron is a chain of reactions that take place under constantly increasing pressure inside the star, in which, as a result of the collision of the nuclei of chemical elements heavier than neon with helium, increasingly heavier elements are synthesized, stopping on iron (due to the fact that it has the highest binding energy per nucleon in nuclear synthesis of elements heavier than iron is thus impossible) (requires 30,000 energy, produces iron, necessary for some improved armor)."
+"reactions_des_2"															"The triple alpha process is a chain of thermonuclear reactions in the interior of stars, during which three nuclei of helium-4 form a nucleus of carbon-12. At sufficiently high pressure, this cycle can be continued by the synthesis of oxygen (requires a total of 12,000 units of energy, produces the oxygen necessary for the absurd forest farm)."
+"reactions_des_3"															"Decay of uranium-238 (radio series, uranium cascade) - the naturally occurring cascade decay of the nucleus of the isotope uranium-238 into lighter elements with the emission of multiple alpha particles (produces 15,000 energy, produces polonium-210, which is necessary for some improved weapons, as well as lead-206, necessary to create anti-radiation protection)."
+"reactions_des_4"															"A proton-proton chain is a set of thermonuclear reactions during which hydrogen turns into helium in stars located on the main stellar sequence. This cycle can bring up to 98% of the star's total energy (produces 32,000 units of energy)."
 
-		"DOTA_Tooltip_ability_item_uran238"													"Уран-238"
-		"DOTA_Tooltip_ability_item_uran238_Description"											"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
 
-		"DOTA_Tooltip_ability_item_proton"													"Протон"
-		"DOTA_Tooltip_ability_item_proton_Description"											"Стабильно"
 
-		"DOTA_Tooltip_ability_item_neutron"													"Нейтрон"
-		"DOTA_Tooltip_ability_item_neutron_Description"											"Стабильно"
+"DOTA_Tooltip_modifier_radiation"											"Radiation"
+"DOTA_Tooltip_modifier_radiation_Description"									"For each stack, you take 0.03% damage from your maximum health. Radiation accumulates every second if you have radioactive material in your inventory. This effect will gradually decrease if you do not have radioactive items in your inventory."
 
 
-		"gold_farm"															"Gold earned: "
+
+"DOTA_Tooltip_ability_item_polonium210"												"Polonius-210"
+"DOTA_Tooltip_ability_item_polonium210_Description"										"This isotope of polonium was discovered by Marie and Pierre Curie in 1898. This isotope was considered as one of the options for use as a neutron initiator in nuclear weapons or in radioisotope thermoelectric generators. But in both cases it was rejected due to the availability of more effective options. And in the end it became a weapon for killing.<br>Used to improve some items.<br><font color='#fa0202'>ATTENTION!!!<br> This isotope is radioactive!! The irradiation strength is %rad% RAD/SEC</font>"
+
+"DOTA_Tooltip_ability_item_iron56"													"Iron-56"
+"DOTA_Tooltip_ability_item_iron56_Description"											"The isotope iron-56 is the same iron from which the materials we encounter every day are made. This isotope of iron is the end product of reactions within a star, and is formed in the core in the last days before it explodes as a supernova.<br>Used to upgrade some items.<br>Stable"
+
+"DOTA_Tooltip_ability_item_titanium44"												"Titan-44"
+"DOTA_Tooltip_ability_item_titanium44_Description"										"Titanium-44 is the parent isotope of scandium-44, used in medical diagnostics. Due to the short lifetime of scandium-44, it is produced in special mobile isotope generators from titanium-44.<br>Used together with strontium-90 to obtain an individual protective force field.<br><font color='#fa0202'>ATTENTION !!!<br> This isotope is radioactive!! The irradiation strength is %rad% RAD/SEC</font>"
+
+"DOTA_Tooltip_ability_item_oxygen16"												"Oxygen-16"
+"DOTA_Tooltip_ability_item_oxygen16_Description"										"Oxygen-16 is a naturally occurring isotope of oxygen that we breathe (as molecular oxygen) and is found in water, organic compounds, oxides and some salts. <br>Necessary for survival in the absurd forest (together with the recipe from the Guardian, combined into an item).<br> Stable"
+
+"DOTA_Tooltip_ability_item_lead206"													"Lead-206"
+"DOTA_Tooltip_ability_item_lead206_Description"											"Lead was used in ancient times as one of the components for the production of bronze (later replaced by tin). Used in solders, in the production of batteries, and is a good radiation absorber. <br>Necessary to obtain anti-radiation protection.<br>Stable"
+
+"DOTA_Tooltip_ability_item_iridium191"												"Iridium-191"
+"DOTA_Tooltip_ability_item_iridium191_Description"										"Iridium-191 exists in nature, but its quantity is very small. Some scientists believe that one of the main sources of iridium on the planet is the fall of meteorites, in which the concentration of iridium is many times higher. <br>Obtained by collecting meteorites, necessary for upgrading Andromeda.<br>Stable"
+
+"DOTA_Tooltip_ability_item_uran235"													"Uranium-235"
+"DOTA_Tooltip_ability_item_uran235_Description"											"Uranium-235 is used as fuel in nuclear reactors, as well as in nuclear weapons.<br>It is used to produce strontium-90 due to irradiation of uranium-235 isotopes with neutrons.<br><font color='#fa0202'>ATTENTION!!!< br> This isotope is radioactive!! The irradiation strength is %rad% RAD/SEC</font>"
+
+"DOTA_Tooltip_ability_item_uran238"													"Uranium-238"
+"DOTA_Tooltip_ability_item_uran238_Description"											"Uranium-238 is the most abundant and long-lived isotope of uranium, and is one of the heaviest isotopes of any chemical element found in nature.<br>Used in the reactor to produce polonium-210 and lead-206.<br><font color='# fa0202'>ATTENTION!!!<br> This isotope is radioactive!! The irradiation strength is %rad% RAD/SEC</font>"
+
+"DOTA_Tooltip_ability_item_proton"													"Proton"
+"DOTA_Tooltip_ability_item_proton_Description"											"Stable"
+
+"DOTA_Tooltip_ability_item_neutron"													"Neutron"
+"DOTA_Tooltip_ability_item_neutron_Description"											"Stable"
+
+
+
+
+
+
+
 
 
 

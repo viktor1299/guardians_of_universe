@@ -3144,11 +3144,11 @@
 		"dota_tooltip_ability_item_custom_universe_rune_bounty_description" 				"Дает вам золото в зависимости от текущей минуты."
 		
 		"dota_tooltip_ability_item_custom_universe_rune_doubledamage" 					"Вселенская Руна: Двойной Урон"
-		"dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" 			"Базовый урон увеличен на 1000. \nОсновной атрибут увеличен на 1000."
+		"dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" 			"Базовый урон увеличен на 200. \nОсновной атрибут увеличен на 200."
 			"dota_tooltip_modifier_custom_universe_double_damage_rune" 							"Вселенская Руна: Двойной Урон"
-			"dota_tooltip_modifier_custom_universe_double_damage_rune_description" 				"Базовый урон увеличен на 1000, основной атрибут увеличен на 1000."
+			"dota_tooltip_modifier_custom_universe_double_damage_rune_description" 				"Базовый урон увеличен на 200, основной атрибут увеличен на 200."
 			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura" 						"Вселенская Руна: Двойной Урон"
-			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" 			"Базовый урон увеличен на 500, основной атрибут увеличен на 500."
+			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" 			"Базовый урон увеличен на 100, основной атрибут увеличен на 100."
 
 		"dota_tooltip_ability_item_custom_universe_rune_ember" 							"Вселенская Руна: Огненная Душа"
 		"dota_tooltip_ability_item_custom_universe_rune_ember_description" 					"Накладывает эффект горения, наносящий урон противникам вокруг вас. Ваши атаки поджигают цель."
@@ -3723,6 +3723,9 @@
 
 		"DOTA_Tooltip_ability_item_desolator_anubis_r"									"Destroyer Of The Eternal World Fabric"
 		"DOTA_Tooltip_ability_item_desolator_anubis_r_Description"							"Можно получить выполнив квест за Физического ДД"
+
+		"DOTA_Tooltip_ability_item_ancient_technology_r"									"Технологии Древних"
+		"DOTA_Tooltip_ability_item_ancient_technology_r_Description"						"Можно получить выполнив квест за Саппорта"
 
 		"DOTA_Tooltip_ability_item_ancient_technology"									"Технологии Древних"
 		"DOTA_Tooltip_ability_item_ancient_technology_Description"							"<h1>Активная: Вознесение</h1> Воскрешает всех союзников на карте. После использования перезаряжается 120 секунд.<br><font color='#ff8400'>Перезарядку этого предмета нельзя уменьшить.</font>"
@@ -7202,12 +7205,12 @@
 		"zpm_icon_text"											"Основной источник энергии которая нужна для многих игровых механик, например - Звёздные Врата. вы можете восполнить энергию МНТ при помощи проведения реакций в Ядерном Реакторе."
 		"zpm_icon_help"											"Это устройство является источником энергии, созданным Древними. Принцип работы МНТ заключается в нулевых колебаниях, что позволяет МНТ «высасывать» энергию из искусственно созданного подпространства-времени. Фактически МНТ — миниатюрная вселенная"
 
-		"error_zpm_pegasus"										"Ошибка контрольного кристалла Звёздных Врат - недостаточно энергии. Для того чтобы использовать врата Атлантиды вам нужно иметь 3 МНТ и иметь 5% их заряда."
-		"error_zpm_universal"									"Ошибка контрольного кристалла Звёздных Врат - недостаточно энергии. Для того чтобы использовать врата Вселенной вам нужно иметь 6 МНТ и иметь 10% их заряда."
+		"error_zpm_pegasus"										"Ошибка контрольного кристалла Звёздных Врат - недостаточно энергии."
+		"error_zpm_universal"									"Ошибка контрольного кристалла Звёздных Врат - недостаточно энергии."
 
 		"protagonist_name_4" 									"Dr. Rodney McKay"
 		"gate_deactive"		 									"Ошибка Питания"
-		"error_zpm_boss"										"Ошибка питания врат, для того чтобы установить соединение с данной планетой нужно иметь 4 МНТ и иметь 30% их заряда."
+		"error_zpm_boss"										"Ошибка питания врат, у вас недостаточно энергии."
 
 		"zpm_module"											"МНТ"
 		"zpm_module_Description"								"Модуль Нулевой Точки - Это устройство является источником энергии, созданным Древними. Принцип работы МНТ заключается в нулевых колебаниях, что позволяет МНТ «высасывать» энергию из искусственно созданного подпространства-времени. Фактически МНТ — миниатюрная вселенная."
@@ -7232,8 +7235,8 @@
 	
 		"DOTA_Tooltip_modifier_gu_power_barrier_debuff"					"Обезоруживания"
 
-		"DOTA_Tooltip_ability_item_gu_flower_scissors"								"Scissors For Cutting Flowers"
-		"DOTA_Tooltip_ability_item_gu_flower_scissors_Description"					"Позволяет добыть из растений которые находятся на планете Heliopolis «P3X-972» - цветы с шансом в 17%."
+		"DOTA_Tooltip_ability_item_gu_flower_scissors"								"Кинетический Топор"
+		"DOTA_Tooltip_ability_item_gu_flower_scissors_Description"					"Всем привет.сегодня попробуем сделать интересный инструмент для рубки дров."
 
 		"gu_reputation"																"Репутация:"
 	
@@ -7302,10 +7305,13 @@
 		"DOTA_Tooltip_gu_rune_magic_Description" 							"Эффект моментального отката способностей имеет перезарядку в 5 секунд."
 
 
+		"DOTA_Tooltip_ability_item_force_shield_technology_water_r"					"Force Shield Technology (Underwater) Рецепт"
+		"DOTA_Tooltip_ability_item_force_shield_technology_water_r_Description"			"При использовании, позволяет дышать под водой. Нужен для убийства существ на планете P3X-367"
 
 		"DOTA_Tooltip_ability_item_force_shield_technology_water"					"Force Shield Technology (Underwater)"
-		"DOTA_Tooltip_ability_item_force_shield_technology_water_Description"			"При активации, позволяет дышать под водой. Нужен для убийства существ на планете P3X-367"
-
+		"DOTA_Tooltip_ability_item_force_shield_technology_water_Description"			"При использовании, позволяет дышать под водой. Нужен для убийства существ на планете P3X-367"
+		"DOTA_Tooltip_modifier_item_force_shield_technology_water"					"Force Shield Technology (Underwater)"
+		"DOTA_Tooltip_modifier_item_force_shield_technology_water_Description"			"Позволяет дышать под водой. Нужен для убийства существ на планете P3X-367"
 
 		"memories"								"Воспоминания дремучего леса"
 		"memories_1"							"Странник лабиринта"
@@ -7749,6 +7755,7 @@
 
 		"isotope_uran235"															"Уран-235"
 		"isotope_uran235_text"														"Радиоактивен (1 мкрад/с, время полураспада - 700 млн лет) "
+		"uran235"																	"Уран-235"
 
 		"isotope_strontium90"														"Стронций-90"
 		"isotope_strontium90_text"													"Радиоактивен (4 рад/с, время полураспада - 28 лет 11 месяцев)"
@@ -7822,35 +7829,46 @@
 
 
 
-		"DOTA_Tooltip_ability_item_polonium210"												"Полоний-210"
-		"DOTA_Tooltip_ability_item_polonium210_Description"										"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+		"DOTA_Tooltip_ability_item_polonium210"                                                "Полоний-210"
+        "DOTA_Tooltip_ability_item_polonium210_Description"                                        "Этот изотоп полония был открыт Марией и Пьером Кюри в 1898 году. Этот изотоп рассматривался как один из вариантов для использования в качестве инициатора нейтронов в ядерном оружии или в радиоизотопных термоэлектрических генераторах. Но в обеих случаях был отклонен из-за наличия более эффективных вариантов. А в итоге стал оружием для убийства.<br>Используется для улучшения некоторых предметов.<br><font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
 
-		"DOTA_Tooltip_ability_item_iron56"													"Железо-56"
-		"DOTA_Tooltip_ability_item_iron56_Description"											"Стабильно"
+        "DOTA_Tooltip_ability_item_iron56"                                                    "Железо-56"
+        "DOTA_Tooltip_ability_item_iron56_Description"                                            "Изотоп железа-56 - то самое железо, из которого производятся материалы, встречающиеся нам ежедневно. Этот изотоп железа является конечным продуктом реакций внутри звезды, и формируется в ядре в последние дни перед её взрывом как сверхновой.<br>Используется для улучшения некоторых предметов.<br>Стабильно"
 
-		"DOTA_Tooltip_ability_item_titanium44"												"Титан-44"
-		"DOTA_Tooltip_ability_item_titanium44_Description"										"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+        "DOTA_Tooltip_ability_item_titanium44"                                                "Титан-44"
+        "DOTA_Tooltip_ability_item_titanium44_Description"                                        "Титан-44 - родительский изотоп для скандия-44, использующегося в медицинской диагностике. Из-за короткого времени жизни скандия-44 он производится в специальных мобильных изотопных генераторах из титана-44.<br>Используется вместе со стронцием-90 для получения индивидуального защитного силового поля.<br><font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
 
-		"DOTA_Tooltip_ability_item_oxygen16"												"Кислород-16"
-		"DOTA_Tooltip_ability_item_oxygen16_Description"										"Стабильно"
+        "DOTA_Tooltip_ability_item_oxygen16"                                                "Кислород-16"
+        "DOTA_Tooltip_ability_item_oxygen16_Description"                                        "Кислород-16 - естественный изотоп кислорода, которым мы дышим (как молекулярный кислород) и который входит в состав воды, органических соединений, оксидов и некоторых солей. <br>Необходим для выживания в абсурдном лесу (вместе с рецептом с Хранителя объединяется в предмет).<br> Стабилен"
 
-		"DOTA_Tooltip_ability_item_lead206"													"Свинец-206"
-		"DOTA_Tooltip_ability_item_lead206_Description"											"Стабильно"
+        "DOTA_Tooltip_ability_item_lead206"                                                    "Свинец-206"
+        "DOTA_Tooltip_ability_item_lead206_Description"                                            "Свинец использовался еще в древние времена как один из компонентов для производства бронзы (позже был заменен оловом). Используется в припоях, в производстве аккумуляторов, является хорошим поглотителем радиации. <br>Необходим для получения противорадиационной защиты.<br>Стабилен"
 
-		"DOTA_Tooltip_ability_item_iridium191"												"Иридий-191"
-		"DOTA_Tooltip_ability_item_iridium191_Description"										"Стабильно"
+        "DOTA_Tooltip_ability_item_iridium191"                                                "Иридий-191"
+        "DOTA_Tooltip_ability_item_iridium191_Description"                                        "Иридий-191 существует в природе, но его количество очень мало. Одним из основных источников иридия на планете некоторые ученые считают падение метеоритов, в которых концентрация иридия в разы больше. <br>Получается при сборе метеоритов, необходим для улучшения Андромеды.<br>Стабилен"
 
-		"DOTA_Tooltip_ability_item_uran235"													"Уран-235"
-		"DOTA_Tooltip_ability_item_uran235_Description"											"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+        "DOTA_Tooltip_ability_item_uran235"                                                    "Уран-235"
+        "DOTA_Tooltip_ability_item_uran235_Description"                                            "Уран-235 используется как топливо в ядерных реакторах, а также в ядерном оружии.<br>Используется для получения стронция-90 вследствие облучения изотопов урана-235 нейтронами.<br><font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+		
+		"DOTA_Tooltip_ability_item_uran238"                                                    "Уран-238"
+        "DOTA_Tooltip_ability_item_uran238_Description"                                            "Уран-238 - самый распространенный и долгоживущий изотоп урана, является одним из самых тяжелых изотопов любого химического элемента, встречающихся в природе.<br>Используется в реакторе для получения полония-210 и свинца-206.<br><font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
 
-		"DOTA_Tooltip_ability_item_uran238"													"Уран-238"
-		"DOTA_Tooltip_ability_item_uran238_Description"											"<font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
+		"DOTA_Tooltip_ability_item_strontium90"                                                    	"Стронций-90"
+        "DOTA_Tooltip_ability_item_strontium90_Description"                                            	"Стронций-90 применяется в производстве контрольных источников дозиметрических приборов, а также в производстве радиоизотопных источников энергии в виде титаната стронция.<br>Используется вместе с титаном-44 и свинцом-206 как элементы комплекса противорадиационной защиты для эндгейма.<br><font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
 
-		"DOTA_Tooltip_ability_item_proton"													"Протон"
-		"DOTA_Tooltip_ability_item_proton_Description"											"Стабильно"
 
-		"DOTA_Tooltip_ability_item_neutron"													"Нейтрон"
-		"DOTA_Tooltip_ability_item_neutron_Description"											"Стабильно"
+		"DOTA_Tooltip_ability_item_gu_frequency_amplifier"                                     "Frequency Amplifier"
+        "DOTA_Tooltip_ability_item_gu_frequency_amplifier_Description"                             "Инструмент, позволяющий подключиться к системе безопасности Андромеды для усиления ее защиты. Для активации усилителя активируйте предмет нажав на Андромеду."
+
+		"DOTA_Tooltip_modifier_item_gu_frequency_amplifier"                                    "Frequency Amplifier"
+        "DOTA_Tooltip_modifier_item_gu_frequency_amplifier_Description"                            "Инструмент, позволяющий подключиться к системе безопасности Андромеды для усиления ее защиты."
+
+		"DOTA_Tooltip_ability_item_gu_antirad"                                     				"Anti-Radiation Protection Complex"
+        "DOTA_Tooltip_ability_item_gu_antirad_Description"                         				    "Защищает от радиации в Финальном Задании."
+
+		"DOTA_Tooltip_modifier_item_gu_antirad"                                    				"Anti-Radiation Protection Complex"
+        "DOTA_Tooltip_modifier_item_gu_antirad_Description"                        				    "Защищает от радиации в Финальном Задании."
+
 
 
 
