@@ -91,34 +91,34 @@
 	
 	Возможность пика любого (даже заблокированного) героя."
 
-	"P:Ori" "<font color='#E6DA1A'>Ori</font>"
-	"P:Asgard" "<font color='#9F1AE6'>Asgard</font>"
-	"P:Alteran" "<font color='#7CF106'>Alteran</font>"
-	"P:Wraith" "<font color='#0678F1'>Wraith</font>"
-	"P:Goauld" "<font color='#F1068D'>Goa'uld</font>"
-	"P:Tauri" "<font color='#41DC88'>Tau'ri</font>"
-	"P:Jaffa" "<font color='#29AFF7'>Jaffa</font>"
+	"P_Ori" "<font color='#E6DA1A'>Ori</font>"
+	"P_Asgard" "<font color='#9F1AE6'>Asgard</font>"
+	"P_Alteran" "<font color='#7CF106'>Alteran</font>"
+	"P_Wraith" "<font color='#0678F1'>Wraith</font>"
+	"P_Goauld" "<font color='#F1068D'>Goa'uld</font>"
+	"P_Tauri" "<font color='#41DC88'>Tau'ri</font>"
+	"P_Jaffa" "<font color='#29AFF7'>Jaffa</font>"
 
-	"P:Ori_game" "Ori"
-	"P:Asgard_game" "Asgard"
-	"P:Alteran_game" "Alteran"
-	"P:Wraith_game" "Wraith"
-	"P:Goauld_game" "Goa'uld"
-	"P:Tauri_game" "Tau'ri"
-	"P:Jaffa_game" "Jaffa"
+	"P_Ori_game" "Ori"
+	"P_Asgard_game" "Asgard"
+	"P_Alteran_game" "Alteran"
+	"P_Wraith_game" "Wraith"
+	"P_Goauld_game" "Goa'uld"
+	"P_Tauri_game" "Tau'ri"
+	"P_Jaffa_game" "Jaffa"
 	"dev_game" "Разработчик"
 	"admin_game" "Администратор"
 	"player_game" "Игрок"
 	"jaffa_game" "Jaffa"
 
-	"P:Jaffa_desc"      "Вы проявили активность в дискорде проекта, ваши преимущества:
+	"P_Jaffa_desc"      "Вы проявили активность в дискорде проекта, ваши преимущества:
 	Вы получаете в 1.2 раза больше ММР за каждую волну.
 	Команды чата:
 	-kill: моментально убивает вас.
 	-sr: аналог кнопки Начать волну.
 	-zoom x, где х (300 - 1800): устанавливает дальность камеры игрока"
 
-	"P:Ori_desc"      		"Вы поддержали проект на максимально возможную сумму, ваши преимущества:
+	"P_Ori_desc"      		"Вы поддержали проект на максимально возможную сумму, ваши преимущества:
 	Вы получаете в 3 раза больше ММР за каждую волну,
 	Каждый месяц вы получаете 90 бесплатных Молитв.
 	Команды чата:
@@ -127,7 +127,7 @@
 	-w: сменить погоду на случайную.
 	-zoom x, где х (300 - 1800): устанавливает дальность камеры игрока."
 
-	"P:Tauri_desc"      "Вы поддержали проект, ваши преимущества:
+	"P_Tauri_desc"      "Вы поддержали проект, ваши преимущества:
     Вы получаете в 1.2 раза больше ММР за каждую волну.
     Команды чата:
     -kill: моментально убивает вас.
@@ -2597,7 +2597,7 @@
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5_bonus_mana_regen"						"+к регенерации маны:"
 
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock"									"刻々帝"
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности, кроме ультимативных."
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_str"							"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_agi"							"+к ловкости"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_int"							"+к интеллекту"
@@ -2606,7 +2606,7 @@
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_amplify"						"+% к урону от заклинаний"	
 
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2"									"刻々帝 2"
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности, кроме ультимативных."
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_str"							"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_agi"							"+к ловкости"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_int"							"+к интеллекту"
@@ -2615,7 +2615,7 @@
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_amplify"						"+% к урону от заклинаний"	
 
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3"									"刻々帝 3"
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности, кроме ультимативных."
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_str"							"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_agi"							"+к ловкости"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_int"							"+к интеллекту"
@@ -5157,6 +5157,11 @@
 		"DOTA_Tooltip_ability_item_gu_crate_search_5_int"									"Интеллект:"
 		"DOTA_Tooltip_ability_item_gu_crate_search_5_mana_regen"							"Регенерация Маны:"
 
+		"DOTA_Tooltip_ability_item_gu_crate_search_6"									"Компас Сокровищ Гоа'улдов усиленный Иридием"
+		"DOTA_Tooltip_ability_item_gu_crate_search_6_Description"							"<h1>Активная: Сканер Местности </h1> При активации помечает в радиусе %radius% закопанные сокровища на 10 секунд, в случае отсутствия в радиусе сокровища уйдёт на перезарядку в %cd_no_crate% сек. Если вы не успели найти за 10 секунд ящик, то он опять станет невидимым и вам нужно будет повторить процедуру заново. <br><br><font color='#ff0000'>При нахождении сокровища данным Компасом с шансом в 100% вы дополнительно получите Кобальт-59.</font>"
+		"DOTA_Tooltip_ability_item_gu_crate_search_6_int"									"Интеллект:"
+		"DOTA_Tooltip_ability_item_gu_crate_search_6_mana_regen"							"Регенерация Маны:"
+
 		"npc_dota_hero_pudge" 										 "Pudge「★★」" 
 
 		"dota_tooltip_ability_imba_pudge_meat_hook" "Meat Hook"
@@ -6616,6 +6621,10 @@
 		"backpack_icon_text"				"Общий тайник для всех игроков в который попадают предметы которые выпадают с врагов."
 		"backpack_icon_help"				"Из данного тайника любой игрок может забрать себе понравившиеся ему предметы, для того чтобы забрать предмет - нажмите по нему ЛКМ."
 
+		"nuclear_button_main"				"Ядерный Реактор"
+		"nuclear_button_text"				"Открывает интерфейс для управления Ядерным Реактором."
+		"nuclear_button_help"				"Глобальная механика которая нужна для многих вещей в игре, например для создания защиты от радиации (чтобы не получать облучение в Финальном Задании), улучшение Андромеды, предметов и другое."
+
 
 		"gu_art_stats_help"					"Дополнительные характеристики от Артефактов и Оружия."
 		"gu_const_stats_help"				"Дополнительные характеристики за полученные копии на вашего персонажа, каждая копия даже после 21, добавляет бонусы которые зависят от выбранной роли вашего персонажа, так-же вы получите +1 ко всем атрибутам за каждую копию персонажа но не более 20."
@@ -7247,7 +7256,7 @@
 	
 		"reputation_help_main"														"Система Репутации"
 		"reputation_help_text"														"Отношение Андромеды к вам напрямую влияет на ваш игровой процесс, после того как вы прибыли на планету «P3X-234» вы встретили некую Андромеду которая является Командующей в своём мире. Так-как до этого она не имела с вами никакого дела, она не может вам полностью доверять и поэтому её отношение к вам - нейтральное. Чтобы повысить её доверие к себе вам нужно выполнять задания, убивать Хранителей и успешно одолевать волны захватчиков."
-		"reputation_help_help"														"Для того чтобы закончить игру вам нужно набрать 95% положительного отношения Андромеды и найти определённое кол-во МНТ. Будьте внимательны ведь если вы испортите отношения, то восстановить их будет не просто а последствия от этого могут быть непредсказуемы!<br><br>-Если репутация будет менее 0% то вы не сможете прокачивать Андромеду.<br>-Если репутация будет менее -20% то у вас больше не будет хорошей погоды.<br>-Если репутация будет менее -40% Андромеда больше не будет использовать активные способности.<br>-Если репутация будет менее -60% то все види поодержек с воздуха - имеют увеличенную перезарядку на 50%<br>-Если репутация будет менее -80% то вы больше не можете использовать Общий Тайник<br>-Если репутация будет -100% то вы автоматически проигрываете." 
+		"reputation_help_help"														"Для того чтобы закончить игру вам нужно набрать 95% положительного отношения Андромеды и найти определённое кол-во МНТ. Будьте внимательны ведь если вы испортите отношения, то восстановить их будет не просто а последствия от этого могут быть непредсказуемы!<br><br>Таблица репутации:<br> 0% вы не можете прокачивать Андромеду.<br>-20% у вас больше не будет хорошей погоды.<br>-40% Андромеда больше не будет использовать активные способности.<br>-60% все види поддержек с воздуха имеют увеличенную перезарядку на 50%<br>-80% вы больше не можете использовать Общий Тайник и у вас каждую секунду разряжается МНТ на 0.25% <br>-100% вы проигрываете." 
 
 		"reputation_text_1"															"<font color='#FF0000'>Отвратительная</font>"
 		"reputation_text_2"															"<font color='#FF8C00'>Плохая</font>"
@@ -7345,11 +7354,11 @@
 		"overlord_a10_repli_4"						"Отличное попадание! Молодцы! Давайте дальше."
 		"odin_a10_repli_2"							"Один 6-2 - Бомбы пошли! Бомбы пошли!."
 
-		"npc_dota_hero_abyssal_underlord"			"Youmu Konpaku「★」"
+		"npc_dota_hero_abyssal_underlord"			"Youmu Konpaku「★」" 
 
 		 "DOTA_Tooltip_ability_ability_thdots_youmuEx"	               "Voidness Sword「Slash Clearing the Six Senses」"
 		"DOTA_Tooltip_ability_ability_thdots_youmuEx_Description"	"Youmu parries and counter-attacks with Hakurouken. Total damage=attack damage+damage of「Slash of Departure from Hesitation」.\nYoumu is immune to physical damage when parring."
-		"DOTA_Tooltip_ability_ability_thdots_youmuEx_Lore"              "Deals no damage if「Slash of Departure from Hesitation」is not learnt.\nEnter '-youmu2' before studying any skill to change to the other skill set.
+		"DOTA_Tooltip_ability_ability_thdots_youmuEx_Lore"              "Deals no damage if「Slash of Departure from Hesitation」is not learnt.\nEnter '-youmu2' before studying any skill to change to the other skill set."
 		"DOTA_Tooltip_ability_ability_thdots_youmuEx_buff_duration"	"Parry duration: "		
 		"DOTA_Tooltip_ability_ability_thdots_youmuEx_ability_radius"	"Counter attack range: "
 		"DOTA_Tooltip_ability_ability_thdots_youmuEx_duration"	        "Armor reduction duration: "
@@ -7447,7 +7456,7 @@
 		"armored_modules_exp_3"													"Комплекс покращень виживання"
 		"armored_modules_exp_4"													"Трофейний турбонагнітач"
 		"armored_modules_exp_5"													"Трофейна вентиляція"
-		"armored_modules_exp_effect_des" 										"Система управління вогнем: Зменшує перезарядку гармати на 50%. (Працює лише на наступних машинах: T-72, T-90, BTR-82A, 2c25 Спрут СД и Jagdpanzer E-100. <br><br> Система підвищеної мобільності: Збільшує швидкість на 400.<br><br> Комплекс покращень виживання: Зменшує всю отримувану шкоду на 40% .<br>"
+		"armored_modules_exp_effect_des" 										"Система управління вогнем: Зменшує перезарядку гармати на 50%. Працює лише на наступних машинах: T-72, T-90, BTR-82A, 2c25 Спрут СД и Jagdpanzer E-100. <br><br> Система підвищеної мобільності: Збільшує швидкість на 400.<br><br> Комплекс покращень виживання: Зменшує всю отримувану шкоду на 40% .<br>"
 
 		"DOTA_Tooltip_modifier_underwater"										"「Ви Задихаєтесь!」"
 		"DOTA_Tooltip_modifier_underwater_Description"							"У вас немає систем щоб дихати під водою."
@@ -7601,7 +7610,7 @@
 		"DOTA_Tooltip_ability_topol_nuke_scepter_damage"						"Урон Боеголовки:"
 
 		"DOTA_Tooltip_ability_topolsplesh"									"15Ж55"
-		"DOTA_Tooltip_ability_topolsplesh_Description"							"ل"
+		"DOTA_Tooltip_ability_topolsplesh_Description"							"rrr"
 		"DOTA_Tooltip_ability_topolsplesh_splash_damage"						"Ядерная боеголовка:"
 
 		"gold_farm"															"Заработано золота: "
@@ -7863,7 +7872,10 @@
         "DOTA_Tooltip_ability_item_lead206_Description"                                            "Свинец использовался еще в древние времена как один из компонентов для производства бронзы (позже был заменен оловом). Используется в припоях, в производстве аккумуляторов, является хорошим поглотителем радиации. <br>Необходим для получения противорадиационной защиты.<br>Стабилен"
 
         "DOTA_Tooltip_ability_item_iridium191"                                                "Иридий-191"
-        "DOTA_Tooltip_ability_item_iridium191_Description"                                        "Иридий-191 существует в природе, но его количество очень мало. Одним из основных источников иридия на планете некоторые ученые считают падение метеоритов, в которых концентрация иридия в разы больше. <br>Получается при сборе метеоритов, необходим для улучшения Андромеды.<br>Стабилен"
+        "DOTA_Tooltip_ability_item_iridium191_Description"                                        "Иридий-191 существует в природе, но его количество очень мало. Одним из основных источников иридия на планете некоторые ученые считают падение метеоритов, в которых концентрация иридия в разы больше. <br>Получается при сборе метеоритов, необходим для улучшения Андромеды.Можно применить на Протонный Генератор чтобы гарантировано получить Нейтрон.<br>Стабилен"
+
+		"DOTA_Tooltip_modifier_item_iridium191"													"Иридий-191"
+		"DOTA_Tooltip_modifier_item_iridium191_Description"											"Усиленно Иридием."
 
         "DOTA_Tooltip_ability_item_uran235"                                                    "Уран-235"
         "DOTA_Tooltip_ability_item_uran235_Description"                                            "Уран-235 используется как топливо в ядерных реакторах, а также в ядерном оружии.<br>Используется для получения стронция-90 вследствие облучения изотопов урана-235 нейтронами.<br><font color='#fa0202'>ВНИМАНИЕ!!!<br> Данный изотоп радиоактивен!! Сила облучения составляет %rad% РАД/СЕК</font>"
@@ -7881,8 +7893,9 @@
         "DOTA_Tooltip_ability_item_proton_Description"                                            "Элементарная частица (адрон). Одна из трёх (вместе с нейтроном и электроном) частиц, из которых состоит обычное вещество.<br>Используется в ядерном реакторе как источник энергии для МНТ в протон-протонной цепочке реакций.<br>Стабилен."
 
         "DOTA_Tooltip_ability_item_neutron"                                                    "Нейтрон"
-        "DOTA_Tooltip_ability_item_neutron_Description"                                            "Элементарная частица (адрон). Одна из трёх (вместе с протоном и электроном) частиц, из которых состоит обычное вещество.<br>Используется в ядерном реакторе для получения стронция-90 вследствие облучения ядер изотопа урана-235 нейтронами и кобальта-60 вследствие облучения ядер изотопа кобальта-59.<br>Стабилен." 
-
+        "DOTA_Tooltip_ability_item_neutron_Description"                                            "Элементарная частица (адрон). Одна из трёх (вместе с протоном и электроном) частиц, из которых состоит обычное вещество.<br>Используется в ядерном реакторе для получения стронция-90 вследствие облучения ядер изотопа урана-235 нейтронами и кобальта-60 вследствие облучения ядер изотопа кобальта-59.Можно применить на себя, в таком случае при убийстве любого из Хранителей вы гарантировано получите Уран-235.<br>Стабилен." 
+		"DOTA_Tooltip_modifier_item_neutron"													"Нейтрон"
+		"DOTA_Tooltip_modifier_item_neutron_Description"											"При убийстве любого из Хранителей вы гарантировано получите Уран-235 (работает только 1 раз)"
 
 
 		"DOTA_Tooltip_ability_item_gu_frequency_amplifier"                                     "Frequency Amplifier"
@@ -7897,13 +7910,28 @@
 		"DOTA_Tooltip_modifier_item_gu_antirad"                                    				"Anti-Radiation Protection Complex"
         "DOTA_Tooltip_modifier_item_gu_antirad_Description"                        				    "Защищает от радиации в Финальном Задании."
 
+		"isotope_hud_error"																		"Данный предмет вам не пренадлежит!"
+
+		"gu_defuser_hud_error"																	"Вы не можете разминировать это!"
+
+		"DOTA_Tooltip_ability_item_gu_defuser"                                                    "Высокотехнологичное устройство для разминирования"
+        "DOTA_Tooltip_ability_item_gu_defuser_Description"                                            "Используется для получения осколков из метеоритов.<br>"
 
 
+		"DOTA_Tooltip_modifier_BOT_bonus_6"                                    				"GOU BOT ANDROMEDA BONUS"
+        	"DOTA_Tooltip_modifier_BOT_bonus_6_Description"                        				    "Вы активировали карточку на бонус к золоту в дискорд сервере. Вы получаете +Количество стаков к золоту каждую минуту."
+
+		"DOTA_Tooltip_modifier_BOT_bonus_7"                                    				"GOU BOT ANDROMEDA BONUS"
+        	"DOTA_Tooltip_modifier_BOT_bonus_7_Description"                        				    "Вы активировали карточку на бонус к скорости реакции в ядерном реакторе в дискорд сервере. Вы получаете -Количество стаков%% к скорости любой реакции."
+
+		"DOTA_Tooltip_modifier_BOT_bonus_8"                                    				"GOU BOT ANDROMEDA BONUS"
+        	"DOTA_Tooltip_modifier_BOT_bonus_8_Description"                        				    "Вы активировали карточку на бонус к пассивному пополнению МНТ в дискорд сервере. Вы получаете +Количество стаков к энергии вашего МНТ."
 
 
+		"andromeda_error_1"																	"Для улучшения используйте предмет Frequency Amplifier"
 
-
-
+		"DOTA_Tooltip_modifier_reih_strange"                                    				"МОЩЬ 3 РЕЙХА 卍卍卍"
+        	"DOTA_Tooltip_modifier_reih_strange_Description"                        				    "3 Рейх за ваши великие достижения в Нацизме, выдаёт вам каждую секунду + 3 к белому урону."
 
 
 	}	
