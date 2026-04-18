@@ -2912,7 +2912,7 @@
 		"DOTA_Tooltip_ability_item_lens4_bonus_mana_regen"                          		"Восстановление маны: "
 		
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients"              				"Scythe of Obedience"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 						"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во всех врагов в радиусе 300 вокруг основной цели, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Purification Magic</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания, если предмет не находится на перезарядке. \n <font color='#eb0202'>Увеличение дальности атаки работает только на героях с дальним типом атаки!!!.</font>" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 						"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во всех врагов в радиусе 300 вокруг основной цели, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Purification Magic</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания, если предмет не находится на перезарядке. \n <font color='#eb0202'>Увеличение дальности атаки работает только на героях с дальним типом атаки!!!.</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_spell_amp_pct" 					"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_cast_range_bonus" 				"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_attack_range" 				"+к дальности атаки: "  
@@ -2924,7 +2924,7 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_mana_regen" 				"+к востановлению маны: "    
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2"              				"Scythe of Obedience 2"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 					"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во всех врагов в радиусе 300 вокруг основной цели, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Purification Magic</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания, если предмет не находится на перезарядке. \n <font color='#eb0202'>Увеличение дальности атаки работает только на героях с дальним типом атаки!!!.</font>" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 					"<h1>Активируемая: Жнец</h1> Призывает Жнеца, выпуская мощный всплеск темной энергии во всех врагов в радиусе 300 вокруг основной цели, нанося %cast_damage% + %cast_damage_pct%% урона и оглушая его на  %stun_duration% секунд(ы). По окончанию оглушения Жнец нанесет удар, силой в %delayed_damage_per_health% ед. урона за каждую отсутствующую ед. здоровья.\n<h1>Пассивная: Purification Magic</h1> Наносит противнику чистый урон в размере %magic_damage_to_pure_pct%%% от урона заклинания, если предмет не находится на перезарядке. \n <font color='#eb0202'>Увеличение дальности атаки работает только на героях с дальним типом атаки!!!.</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_spell_amp_pct" 					"+% к урону от заклинаний:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_cast_range_bonus" 				"+к дальности применения способностей:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_attack_range" 			"+к дальности атаки:" 
@@ -2967,7 +2967,7 @@
 		"DOTA_Tooltip_ability_item_stellar_flare_mana"                              "+ к мане:"
 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil"                              "Нестабильная Звёздная вспышка"
-		"DOTA_Tooltip_ability_item_stellar_flare_veil_Description"                  "<h1>Активная: Нестабильность</h1> Поражает выбранную область, снижая магическое сопротивление всех врагов в ней на 30%.\n<h1>Пассивная: Космические колебания</h1> Каждые 2 секунды с шансом 20% обрушивает на врагов в радиусе %range% космическую молнию. Удар наносит магический урон, равный 5% от текущего здоровья цели + ваш текущий показатель интеллекта.\n<h1>Пассивная: Звёздный разум</h1> За каждую единицу интеллекта владелец получает 2 дополнительных единицы маны."
+		"DOTA_Tooltip_ability_item_stellar_flare_veil_Description"                  "<h1>Активная: Нестабильность</h1> Поражает выбранную область, снижая магическое сопротивление всех врагов в ней на 30%.\n<h1>Пассивная: Космические колебания</h1> Каждые 2 секунды с шансом 20% обрушивает на врагов в радиусе %range% космическую молнию. Удар наносит магический урон, равный 5% от текущего здоровья цели + ваш текущий показатель интеллекта.\n<h1>Пассивная: Звёздный разум</h1> За каждую единицу интеллекта владелец получает 2 дополнительных единицы маны.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_Note0"                        "Урон космических колебаний не зависит от магического усиления."
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_int"                          "+ к интеллекту:" 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_mana"                         "+ к мане:"
@@ -3001,7 +3001,7 @@
 		"DOTA_Tooltip_ability_item_octarine_core_cu_4_bonus_mana_regen"						"+к регенерации маны:"
 
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5"									"Ядро Галактики 5"
-		"DOTA_Tooltip_ability_item_octarine_core_cu_5_Description"							"<h1>Пассивная: Ядро Галактики</h1> Уменьшает время перезарядки ваших способностей на %cd%%. <font color='#fc0303'>Снижение перезарядки от 2 и более Ядер Галактики не складывается.</font> \n <font color='#ff1100'>Внимание!</font> Данный предмет является частью системы артефактов, уменьшение перезарядки от нескольких типов предметов не складываются!"
+		"DOTA_Tooltip_ability_item_octarine_core_cu_5_Description"							"<h1>Пассивная: Ядро Галактики</h1> Уменьшает время перезарядки ваших способностей на %cd%%. <font color='#fc0303'>Снижение перезарядки от 2 и более Ядер Галактики не складывается.</font> \n <font color='#ff1100'>Внимание!</font> Данный предмет является частью системы артефактов, уменьшение перезарядки от нескольких типов предметов не складываются!\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5_bonus_health"							"+к здоровью"
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5_bonus_mana"							"+к мане: "
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5_bonus_intelligence"					"+к интеллекту"
@@ -3099,7 +3099,7 @@
 			"DOTA_Tooltip_modifier_item_unstable_quasar2_aura_Description" 						"Магическое сопротивление снижено"
 		
 		"DOTA_Tooltip_ability_item_unstable_quasar2" 									"Нестабильный Карлик"
-		"DOTA_Tooltip_ability_item_unstable_quasar2_Description" 							"<h1>Пассивная: Магическая Нестабильность</h1> Снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br> <br>Радиус: %aura_radius%"
+		"DOTA_Tooltip_ability_item_unstable_quasar2_Description" 							"<h1>Пассивная: Магическая Нестабильность</h1> Снижает магическое сопротивление противников на %aura_resist_debuff_pct%%%. <br> <br>Радиус: %aura_radius%\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_day_vision" 						"+к радиусу обзора днем " 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_night_vision" 					"+к радиусу обзора ночью " 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_spell_amp_pct" 							"+% к урону от способностей "
@@ -3131,7 +3131,7 @@
 		"DOTA_Tooltip_ability_item_quibbela4_mana_regen"									"+к восстановлению маны "
 
         "DOTA_Tooltip_ability_item_quibbela5"              								"Foresight Stone 5"
-        "DOTA_Tooltip_ability_item_quibbela5_Description"    								"<h1>Foresight Stone</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, при битве с Хранителем и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela5_Description"    								"<h1>Foresight Stone</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, при битве с Хранителем и в финальном задании!</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
         "DOTA_Tooltip_ability_item_quibbela5_int"  											"+к интеллекту "
 		"DOTA_Tooltip_ability_item_quibbela5_mana"  										"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela5_mana_regen"									"+к восстановлению маны "
@@ -3143,7 +3143,7 @@
 		"DOTA_Tooltip_ability_item_quibbela6_mana_regen"									"+к восстановлению маны "
 
         "DOTA_Tooltip_ability_item_quibbela7"             								"Foresight Stone 7"
-        "DOTA_Tooltip_ability_item_quibbela7_Description"    								"<h1>Foresight Stone</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, при битве с Хранителем и в финальном задании!</font>"
+        "DOTA_Tooltip_ability_item_quibbela7_Description"    								"<h1>Foresight Stone</h1> Приносит (%exp_per_cast% + (%exp_lvl_bonus% * текущий уровень игрока)) опыта за применение способностей.\n <font color='#ff1100'>Предмет не работает в прологе, при битве с Хранителем и в финальном задании!</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
         "DOTA_Tooltip_ability_item_quibbela7_int"  											"+к интеллекту "
 		"DOTA_Tooltip_ability_item_quibbela7_mana"  										"+к мане "
 		"DOTA_Tooltip_ability_item_quibbela7_mana_regen"									"+к восстановлению маны "
@@ -3185,12 +3185,12 @@
 		"DOTA_Tooltip_Ability_item_mars_sword_3_bonus_damage"								"+к урону "
 
 		"DOTA_Tooltip_Ability_item_mars_sword_4"										"Меч Марса 4"
-		"DOTA_Tooltip_Ability_item_mars_sword_4_Description"								"<h1>Активируемая: Spell Immune</h1> Вы получаете магический иммунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели."
+		"DOTA_Tooltip_Ability_item_mars_sword_4_Description"								"<h1>Активируемая: Spell Immune</h1> Вы получаете магический иммунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_Ability_item_mars_sword_4_bonus_armor"								"+к броне "
 		"DOTA_Tooltip_Ability_item_mars_sword_4_bonus_damage"								"+к урону "
 
 		"DOTA_Tooltip_Ability_item_mars_sword_5"										"Меч Марса 5"
-		"DOTA_Tooltip_Ability_item_mars_sword_5_Description"								"<h1>Активируемая: Spell Immune</h1> Вы получаете магический иммунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели."
+		"DOTA_Tooltip_Ability_item_mars_sword_5_Description"								"<h1>Активируемая: Spell Immune</h1> Вы получаете магический иммунитет на %duration% секунд.\n <h1>Пассивная: Меч Бога</h1> Вы не можете промахнуться своими атаками по цели.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_Ability_item_mars_sword_5_bonus_armor"								"+к броне "
 		"DOTA_Tooltip_Ability_item_mars_sword_5_bonus_damage"								"+к урону "
 
@@ -3237,7 +3237,7 @@
 		"DOTA_Tooltip_Ability_item_gu_desolator_3_bonus_damage"								"+к урону: "
 
 		"DOTA_Tooltip_Ability_item_gu_desolator_4"										"Destroyer of the Eternal 4"
-		"DOTA_Tooltip_Ability_item_gu_desolator_4_Description"								"<h1>Пассивная: Destroyer of the Eternal</h1> Уничтожает физическое сопротивление цели на 30 секунд, принцип работы состоит из нескольких этапов.<br><br> 1: Уменьшает физическое сопротивление цели на %base_armor_reduction%%% <br> 2: Дополнительно снижает %static_armor_reduction% сопротивления. <br><br><br> <font color='#ff0000'>Внимание!</font> <br> Перезарядка предмета равна %cd% и её нельзя уменьшить, пока предмет перезаряжается Способность Destroyer of the Eternal не работает."
+		"DOTA_Tooltip_Ability_item_gu_desolator_4_Description"								"<h1>Пассивная: Destroyer of the Eternal</h1> Уничтожает физическое сопротивление цели на 30 секунд, принцип работы состоит из нескольких этапов.<br><br> 1: Уменьшает физическое сопротивление цели на %base_armor_reduction%%% <br> 2: Дополнительно снижает %static_armor_reduction% сопротивления. <br><br><br> <font color='#ff0000'>Внимание!</font> <br> Перезарядка предмета равна %cd% и её нельзя уменьшить, пока предмет перезаряжается Способность Destroyer of the Eternal не работает.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>」"
 		"DOTA_Tooltip_Ability_item_gu_desolator_4_bonus_damage"								"+к урону: "
 
 		"DOTA_Tooltip_Ability_item_gu_desolator_5"										"Destroyer of the Eternal 5"
@@ -3304,13 +3304,13 @@
 		"DOTA_Tooltip_ability_item_gu_hearth_4_bonus_health_max"                            "+к здоровью"
 		
 		"DOTA_Tooltip_ability_item_gu_hearth_5"                                       	"Сердце Галактики 5"
-		"DOTA_Tooltip_ability_item_gu_hearth_5_Description"                           		"<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>"
+		"DOTA_Tooltip_ability_item_gu_hearth_5_Description"                           		"<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_hearth_5_health_regen_percent"            			"+% к восстановлению здоровья в секунду"
 		"DOTA_Tooltip_ability_item_gu_hearth_5_bonus_strength"                              "+к силе"
 		"DOTA_Tooltip_ability_item_gu_hearth_5_bonus_health_max"                            "+к здоровью"
 		
         "DOTA_Tooltip_ability_item_gu_armor"              								"Armor of Destruction"
-		"DOTA_Tooltip_ability_item_gu_armor_Description" 									"<h1>Пассивная: Поглощение</h1> Восcтанавливает здоровье владельцу предмета в размере %lifesteal%% от нанесённого урона с руки его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% ко всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки и %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
+		"DOTA_Tooltip_ability_item_gu_armor_Description" 									"<h1>Пассивная: Поглощение</h1> Восcтанавливает здоровье владельцу предмета в размере %lifesteal%% от нанесённого урона с руки его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% ко всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки и %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>" 
         "DOTA_Tooltip_ability_item_gu_armor_health_regen_percent" 							"+% к восстановлению здоровья"
         "DOTA_Tooltip_ability_item_gu_armor_bonus_all" 										"+ко всем атрибутам"
         "DOTA_Tooltip_ability_item_gu_armor_bonus_health" 									"+к здоровью " 
@@ -3326,7 +3326,7 @@
 			"DOTA_Tooltip_item_gu_armor_passive_team_Description"								"На вас работает аура Накидки Полубога"
 
         "DOTA_Tooltip_ability_item_gu_armor_2"              							"Armor of Destruction 2"
-		"DOTA_Tooltip_ability_item_gu_armor_2_Description" 									"<h1>Пассивная: Поглощение</h1> Восcтанавливает здоровье владельцу предмета в размере %lifesteal%% от нанесённого урона с руки его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% ко всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки и %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>" 
+		"DOTA_Tooltip_ability_item_gu_armor_2_Description" 									"<h1>Пассивная: Поглощение</h1> Восcтанавливает здоровье владельцу предмета в размере %lifesteal%% от нанесённого урона с руки его союзниками в радиусе %radius%.\n <h1>Пассивная: Полубог</h1> Добавляет дополнительное здоровье владельцу в зависимости от его силы.\n <h1>Пассивная: Божественная Аура</h1> Добавляет всем союзникам в радиусе %radius% %bonus_health_max_aoe% здоровья, %bonus_all_aoe% ко всем характеристикам, %bonus_attackspeed_aoe% к скорости атаки и %bonus_armor_aoe% к броне.\n<font color='#ff1100'>Внимание! Предметы данного типа не сочетаются между собой.</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>" 
         "DOTA_Tooltip_ability_item_gu_armor_2_health_regen_percent" 						"+% к восстановлению здоровья"
         "DOTA_Tooltip_ability_item_gu_armor_2_bonus_all" 									"+ко всем атрибутам"
         "DOTA_Tooltip_ability_item_gu_armor_2_bonus_health" 								"+к здоровью " 
@@ -3402,7 +3402,7 @@
 		"DOTA_Tooltip_ability_item_talisman_of_mastery4_bonus_hp_regen"						"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5"								"Artifact of Wisdom 5"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery5_Description"						"<h1>Пассивно: О-Сознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, при битве с Хранителем и в финальном задании!</font>"
+		"DOTA_Tooltip_ability_item_talisman_of_mastery5_Description"						"<h1>Пассивно: О-Сознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, при битве с Хранителем и в финальном задании!</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_attack"						"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_str"							"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_hp_regen"						"+к восстановлению здоровья "
@@ -3414,7 +3414,7 @@
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_hp_regen"						"+к восстановлению здоровья "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7"								"Artifact of Wisdom 7"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description"						"<h1>Пассивно: О-Сознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, при битве с Хранителем и в финальном задании!</font>"
+		"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description"						"<h1>Пассивно: О-Сознание</h1>За каждую атаку ты получаешь дополнительный опыт от %min_exp% до %max_exp%. %damage_to_exp%% урона конвертируется в опыт. <br><br><font color='#ff1100'>Предмет не работает в прологе, при битве с Хранителем и в финальном задании!</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_attack"						"+к урону "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_str"							"+к силе "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_hp_regen"						"+к восстановлению здоровья "
@@ -3432,7 +3432,7 @@
 		"DOTA_Tooltip_ability_item_azrael_crossbow3_bonus_damage"							"+к урону "
 
 		"DOTA_Tooltip_ability_item_aqua_greaves"										"Поножи Богини Аквы"
-		"DOTA_Tooltip_ability_item_aqua_greaves_Description"								"<h1>Активная: Лечение</h1>Мгновенно восстанавливает %replenish_health% здоровья и %replenish_mana% маны, затем восстанавливает 18%% от их общего количества за 6 секунд, всем ближайшим союзникам. Снимает большинство отрицательных эффектов с заклинателя.\n<h1>Пассивно: Аура Аквы</h1> Увеличивает регенерацию здоровья от %base_regen% до %regen_per_pct_tooltip% и броню от %base_armor% до %armor_per_pct_tooltip% ближайших союзников в радиусе %aura_radius%. Чем ниже здоровья у цели, тем больший эффект она получает. \n<h1>Пассивно: Бесполезногиня</h1> Применяет Лечение, если HP владельца ниже %heal_threshold_pct%%%."
+		"DOTA_Tooltip_ability_item_aqua_greaves_Description"								"<h1>Активная: Лечение</h1>Мгновенно восстанавливает %replenish_health% здоровья и %replenish_mana% маны, затем восстанавливает 18%% от их общего количества за 6 секунд, всем ближайшим союзникам. Снимает большинство отрицательных эффектов с заклинателя.\n<h1>Пассивно: Аура Аквы</h1> Увеличивает регенерацию здоровья от %base_regen% до %regen_per_pct_tooltip% и броню от %base_armor% до %armor_per_pct_tooltip% ближайших союзников в радиусе %aura_radius%. Чем ниже здоровья у цели, тем больший эффект она получает. \n<h1>Пассивно: Бесполезногиня</h1> Применяет Лечение, если HP владельца ниже %heal_threshold_pct%%%.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_movement"								"+$move_speed"
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_all_stats"							"+ко всем характеристикам"	
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_mana"									"+мана"		
@@ -4507,7 +4507,7 @@
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"								"Регенерация маны: "
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8"										"Unstable Dead Fury"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"								"<h1>Активная: Break World  </h1> При использовании выведет из строя всех вражеских юнитов в радиусе 300 на 2.5-4 сек.\n <h1>Пассивная: Deadly Essence </h1> Увеличивает ваш урон %bonus_dmg_target%% от белого.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"								"<h1>Активная: Break World  </h1> При использовании выведет из строя всех вражеских юнитов в радиусе 300 на 2.5-4 сек.\n <h1>Пассивная: Deadly Essence </h1> Увеличивает ваш урон %bonus_dmg_target%% от белого.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% \n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"									"Урон: "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"								"Регенерация здоровья: "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"								"Регенерация маны: "
@@ -4519,7 +4519,7 @@
 		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_mana_regen"						"Регенерация маны: "
 
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1"								"Helm of God"
-		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_description"						"<h1>Активная: Helm of Universe </h1> При активации на 60 сек увеличит ваш урон и здоровье на %mult_active%% \n <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5 сек, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле основной атрибут * %mult%."
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_description"						"<h1>Активная: Helm of Universe </h1> При активации на 60 сек увеличит ваш урон и здоровье на %mult_active%% \n <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5 сек, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле основной атрибут * %mult%.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_armor"								"Броня: "
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_str"								"Сила: "
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_int"								"Интеллект: "
@@ -4527,7 +4527,7 @@
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_mana"								"Мана: "
 
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2"								"Helm of Anubis"
-		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_description"						"<h1>Активная: Helm of Universe </h1> При активации на 60 сек увеличит ваш урон и здоровье на %mult_active%% \n <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5 сек, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле основной атрибут * %mult%."
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_description"						"<h1>Активная: Helm of Universe </h1> При активации на 60 сек увеличит ваш урон и здоровье на %mult_active%% \n <h1>Пассивная: Elemental Burn </h1> С интервалом 0.5 сек, наносит урон всем вражеским юнитам вокруг героя, урон зависит от основного атрибута героя и работает по формуле основной атрибут * %mult%.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_armor"								"Броня: "
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_str"								"Сила: "
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_int"								"Интеллект: "
@@ -5468,12 +5468,12 @@
 		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_as"									"+к скорости атаки:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2"										"Ядро Погоды 2"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"								"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита. При атаке юнита, который находится под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния, которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию, которая сделает скачок по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"								"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита. При атаке юнита, который находится под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния, которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию, которая сделает скачок по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_damage"								"+к урону:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_as"									"+к скорости атаки:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3"										"Ядро Погоды 3"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"								"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита. При атаке юнита, который находится под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния, которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию, которая сделает скачок по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета."
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"								"<h1>Активная: Weather Shield </h1> Накладывает на цель эффект грозового щита. При атаке юнита, который находится под защитой щита, при каждом %static_proc_count% попадании по владельцу, во врага будет выпущена молния, которая нанесёт %static_damage%% урона атакующего, а также замедлит его на %static_slow% на %static_slow_duration% сек \n <h1>Пассивная: Energy burst </h1> С шансом %proc_chance%% создаст цепную молнию, которая сделает скачок по всем вражеским юнитам в радиусе %bounce_radius% и нанесёт %bounce_damage%% урона от атаки владельца предмета.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"								"+к урону:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"									"+к скорости атаки:"
  			"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"										"Щит Ядра Погоды"
@@ -5845,7 +5845,7 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_int"									"Бонус к интеллекту:"
 
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3"									"Staff of Revelation 3"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_3_Description"							"<h1>Активная: Зафкиэль </h1> При активации, перезаряжает все способности кроме Ультимейтов а так-же очищает владельца от всех негативных эффектов. <br><br><font color='#eb0202'>Увеличение дальности атаки работает только на героях с дальним типом атаки!!!.</font>"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_Description"							"<h1>Активная: Зафкиэль </h1> При активации, перезаряжает все способности кроме Ультимейтов а так-же очищает владельца от всех негативных эффектов. <br><br><font color='#eb0202'>Увеличение дальности атаки работает только на героях с дальним типом атаки!!!.</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_range_attack_bonus"						"Бонус к дальности атаки:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_caste_range_bonus"						"Бонус к дальности каста:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_cast_time"								"%Уменьшение времени каста:"
@@ -5867,19 +5867,19 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_int"									"Бонус к интеллекту:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1"									"Броня Гоа'улдов"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_armor"									"Броня:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp_regen"								"%Восстановление здоровья:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp"										"Бонусное здоровье:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2"									"Броня Гоа'улдов 2"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_armor"									"Броня:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp_regen"								"%Восстановление здоровья:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp"										"Бонусное здоровье:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3"									"Броня Гоа'улдов 3"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"							"<h1>Пассивная: Власть Симбионта </h1> Когда владелец предмета получает любой урон, он будет накапливать стаки брони, каждый стак даёт + 2 к силе и + 1 к броне, перезарядка предмета фиксирована и составляет %cd%, длительность баффа %duration%.\n <font color='#fc0335'>При перекладывании предмета из инвентаря вы потеряете все стаки, максимум стаков - 1000</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_armor"									"Броня:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp_regen"								"%Восстановление здоровья:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp"										"Бонусное здоровье:"
@@ -6576,7 +6576,7 @@
 			"DOTA_Tooltip_ability_item_gu_lifesteal_7_status_res"							"Сопротивление Эффектам:"
 
 			"DOTA_Tooltip_ability_item_gu_lifesteal_8"                     				"Бессмертная Душа 3"
-			"DOTA_Tooltip_ability_item_gu_lifesteal_8_Description"							"<h1>Пассивная: Immortal Soul</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8_Description"							"<h1>Пассивная: Immortal Soul</h1> За каждый удар восстанавливает %lifesteal% здоровья владельцу.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 			"DOTA_Tooltip_ability_item_gu_lifesteal_8_damage"								"Урон:"
 			"DOTA_Tooltip_ability_item_gu_lifesteal_8_status_res"							"Сопротивление Эффектам:"
 			
@@ -7236,7 +7236,7 @@
 		"DOTA_Tooltip_ability_item_gu_cleave2_damage" 						"Урон: "
 
 		"DOTA_Tooltip_ability_item_gu_cleave3"							"Rift Fury 3"
-		"DOTA_Tooltip_ability_item_gu_cleave3_Description" 					"<h1>Пассивное: Rift</h1> Наносит %cleave_damage%%% урона от вашей атаки по вражеским юнитам перед владельцем в радиусе %cleave_distance%, целей не может быть более 3. <br><br><font color='#ff0000'>Работает только на героях с ближним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_gu_cleave3_Description" 					"<h1>Пассивное: Rift</h1> Наносит %cleave_damage%%% урона от вашей атаки по вражеским юнитам перед владельцем в радиусе %cleave_distance%, целей не может быть более 3. <br><br><font color='#ff0000'>Работает только на героях с ближним типом атаки!</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_cleave3_damage" 						"Урон: "
 
 		"DOTA_Tooltip_Ability_moai_1"							"<font color='#3fff05'>「Moai」</font>"
@@ -7427,19 +7427,19 @@
 		"DOTA_Tooltip_ability_gu_bulwark_Description" 						"Уменьшает весь входящий урон с переда на %physical_damage_reduction%%%, с боков на %physical_damage_reduction_side%%%"
 
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass"					"Ancient Cuirass"
-		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_Description"			"<h1>Пассивная: Ancient Cuirass</h1>В радиусе 800 у всех врагов, уменьшает их броню на %armor_reduction% и урон на %dmg_reduction%%%."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_Description"			"<h1>Пассивная: Ancient Cuirass</h1>В радиусе 800 у всех врагов, уменьшает их броню на %armor_reduction% и урон на %dmg_reduction%%%.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_armor"				"Броня: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_hp"					"Здоровье: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_hp_regen"				"%Регенерация Здоровья: "
 
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2"					"Ancient Cuirass 2"
-		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_Description"			"<h1>Пассивная: Ancient Cuirass</h1>В радиусе 800 у всех врагов, уменьшает их броню на %armor_reduction% и урон на %dmg_reduction%%%."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_Description"			"<h1>Пассивная: Ancient Cuirass</h1>В радиусе 800 у всех врагов, уменьшает их броню на %armor_reduction% и урон на %dmg_reduction%%%.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_armor"				"Броня: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_hp"					"Здоровье: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_hp_regen"				"%Регенерация Здоровья: "
 
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3"					"Ancient Cuirass 3"
-		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_Description"			"<h1>Пассивная: Ancient Cuirass</h1>В радиусе 800 у всех врагов, уменьшает их броню на %armor_reduction% и урон на %dmg_reduction%%%."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_Description"			"<h1>Пассивная: Ancient Cuirass</h1>В радиусе 800 у всех врагов, уменьшает их броню на %armor_reduction% и урон на %dmg_reduction%%%.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_armor"					"Броня: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_hp"						"Здоровье: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_hp_regen"				"%Регенерация Здоровья: "
@@ -7451,7 +7451,7 @@
 		"DOTA_Tooltip_ability_item_gu_bounded_field_int"					"Интеллект: "
 
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2"					"Bounded Field 2"
-		"DOTA_Tooltip_ability_item_gu_bounded_field_2_Description"			"<h1>Пассивная: Bounded Field</h1>Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит ману. Блокирует %block_damage_rate%%% урона и в замен тратит 1 эденицу маны за %block_damage_per_mana% урона. Игнорирует магический урон если владелец предмета находиться под эффектом неуязвимости к магии."
+		"DOTA_Tooltip_ability_item_gu_bounded_field_2_Description"			"<h1>Пассивная: Bounded Field</h1>Создаёт энергетическое поле которое абсорбирует весь получаемый урон но в замен тратит ману. Блокирует %block_damage_rate%%% урона и в замен тратит 1 эденицу маны за %block_damage_per_mana% урона. Игнорирует магический урон если владелец предмета находиться под эффектом неуязвимости к магии.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_mana"					"Мана: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_mana_regen"			"Восстановление Маны: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_int"					"Интеллект: "
@@ -8645,58 +8645,58 @@
 	
 		// ШАХТЫ И РУДЫ: ТИР 1
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_graphite"				"Графит"
+		"DOTA_Tooltip_ability_item_gu_ore_graphite"				"Графит (ТИР 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_graphite_Description"	"Углеродный минерал. Используется для создания базовых стержней-замедлителей при починке реактора."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_magnetite"			"Магнетит"
+		"DOTA_Tooltip_ability_item_gu_ore_magnetite"			"Магнетит (ТИР 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_magnetite_Description""Магнитная железная руда. Важный компонент для электромагнитных систем реактора."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_malachite"			"Малахит"
+		"DOTA_Tooltip_ability_item_gu_ore_malachite"			"Малахит (ТИР 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_malachite_Description""Медный минерал, применяемый для восстановления проводки и базовой электроники."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_lead"					"Свинец"
+		"DOTA_Tooltip_ability_item_gu_ore_lead"					"Свинец (ТИР 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_lead_Description"		"Тяжелый металл. Жизненно необходим для восстановления радиационной защиты вокруг ядра."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_bauxite"				"Боксит"
+		"DOTA_Tooltip_ability_item_gu_ore_bauxite"				"Боксит (ТИР 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_bauxite_Description"	"Алюминиевая руда. Используется для легких и прочных корпусных конструкций."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_hematite"				"Гематит"
+		"DOTA_Tooltip_ability_item_gu_ore_hematite"				"Гематит (ТИР 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_hematite_Description" "Особая руда. Необходима для крафта накидки на здоровье и предметов 6 тира на опыт."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_barite"				"Барит"
+		"DOTA_Tooltip_ability_item_gu_ore_barite"				"Барит (ТИР 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_barite_Description"	"Ценный кристалл. Нужен для создания меча на добычу золота, криты и сплеш-урон (как в ближнем, так и в дальнем бою)."
 
 		// ==========================================
 		// ШАХТЫ И РУДЫ: ТИР 2
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_manganese"			"Марганцевая руда"
+		"DOTA_Tooltip_ability_item_gu_ore_manganese"			"Марганцевая руда (ТИР 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_manganese_Description""Укрепляющая добавка. Позволяет создавать износостойкие стальные сплавы для тяжелых механизмов."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_steel"				"Сталь"
+		"DOTA_Tooltip_ability_item_gu_ore_steel"				"Сталь (ТИР 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_steel_Description"	"Закаленный сплав. Основной строительный материал для продвинутых структур реактора."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_zirconium"			"Цирконий"
+		"DOTA_Tooltip_ability_item_gu_ore_zirconium"			"Цирконий (ТИР 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_zirconium_Description""Тугоплавкий металл. Используется для оболочек тепловыделяющих элементов реактора."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_sodium"				"Бура"
+		"DOTA_Tooltip_ability_item_gu_ore_sodium"				"Бура (ТИР 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_sodium_Description"	"Источник натрия и бора. Используется в качестве жидкого теплоносителя в охлаждающем контуре и как элемент контроля скорости реакции в активной зоне соответственно."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_titanium"				"Титан"
+		"DOTA_Tooltip_ability_item_gu_ore_titanium"				"Титан (ТИР 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_titanium_Description" "Сверхпрочный металл. Нужен для прокачки предметов на выживаемость: 2 грейд накидки, 5 грейд сердца и 3 грейд брони."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_adamantite"			"Адамантит"
+		"DOTA_Tooltip_ability_item_gu_ore_adamantite"			"Адамантит (ТИР 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_adamantite_Description""Магический металл. Используется для финальных грейдов ДПС-предметов: 5 грейд меча галактики, 3 грейд ядра погоды и 3 грейд посоха магов."
 
 		// ==========================================
 		// ШАХТЫ И РУДЫ: ТИР 3
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_naquadah"				"Наквадах"
+		"DOTA_Tooltip_ability_item_gu_ore_naquadah"				"Наквадах (ТИР 3)"
 		"DOTA_Tooltip_ability_item_gu_ore_naquadah_Description" "Крайне редкий элемент со сверхпроводимостью. Используется для создания всех финальных предметов на Танков."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_quadrillium"			"Квадриллиум"
+		"DOTA_Tooltip_ability_item_gu_ore_quadrillium"			"Квадриллиум (ТИР 3)"
 		"DOTA_Tooltip_ability_item_gu_ore_quadrillium_Description""Невероятно плотный и тяжелый элемент. Нужен для создания всех финальных предметов на физический урон (ДД)."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_aurodium"				"Ауродий"
+		"DOTA_Tooltip_ability_item_gu_ore_aurodium"				"Ауродий (ТИР 3)"
 		"DOTA_Tooltip_ability_item_gu_ore_aurodium_Description" "Идеальный проводник магии вселенной. Используется для создания всех финальных предметов на Магов."
 		
 		"DOTA_Tooltip_ability_item_gu_ore_gold"             "Золотая руда"
@@ -8782,7 +8782,7 @@
 		"DOTA_Tooltip_modifier_item_gu_ancient_bio_reactor_Description" "Регенерация здоровья усилена броней."
 
 		"DOTA_Tooltip_ability_item_gu_replicator_disruptor_1"             "Нано-Трансмутатор"
-        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_1_Description" "+ %bonus_all_stats% ко всем атрибутам\n+ %bonus_damage% к урону\n\n<h1>Пассивно: Трансмутация</h1>Конвертирует <font color='#00e5ff'>%stat_convert_pct%%%</font> вашей базовой силы и интеллекта в ловкость. Предмет буквально отнимает эти статы, жертвуя выживаемостью и маной ради скорости.\n\n<h1>Пассивно: Усиление потенциала</h1>Увеличивает базовый (белый) урон от атак на <font color='#00e5ff'>%base_damage_pct%%%</font>."
+        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_1_Description" "+ %bonus_all_stats% ко всем атрибутам\n+ %bonus_damage% к урону\n\n<h1>Пассивно: Трансмутация</h1>Конвертирует <font color='#00e5ff'>%stat_convert_pct%%%</font> вашей базовой силы и интеллекта в ловкость. Предмет буквально отнимает эти статы, жертвуя выживаемостью и маной ради скорости.\n\n<h1>Пассивно: Усиление потенциала</h1>Увеличивает базовый (белый) урон от атак на <font color='#00e5ff'>%base_damage_pct%%%</font>.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 
         "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2"             "Абсолютный Трансмутатор"
         "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2_Description" "+ %bonus_all_stats% ко всем атрибутам\n+ %bonus_damage% к урону\n\n<h1>Пассивно: Трансмутация</h1>Конвертирует <font color='#00e5ff'>%stat_convert_pct%%%</font> вашей базовой силы и интеллекта в ловкость.\n\n<h1>Пассивно: Усиление потенциала</h1>Увеличивает базовый (белый) урон от атак на <font color='#00e5ff'>%base_damage_pct%%%</font>.\n\n<h1>Пассивно: Деструктор Репликаторов</h1>Наносит на <font color='#ff4c4c'>%replicator_damage_pct%%%</font> больше урона по любым видам Репликаторов."
