@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-"Language"	"Russian"
+"Language"	"English"
 "Tokens"
 {
 "addon_game_name"							"Guardians of Universe"
@@ -1585,7 +1585,7 @@
 			"npc_dota_hero_leshrac"  										"Energy Mage"
 
 		"DOTA_Tooltip_ability_clusters_stars"											"Energy Mage: Star Clusters"
-		"DOTA_Tooltip_ability_clusters_stars_Description"									"Passively allows you to make an additional attack. When activated, it increases the character's damage as well as damage from critical hits. Restores health after killing a target. Damage depends on your Combo."
+		"DOTA_Tooltip_ability_clusters_stars_Description"									"Passively allows you to make an additional attack. When activated, it increases the character's damage as well as damage from critical hits. Restores health after killing a target. The damage depends on your Combo."
 		"DOTA_Tooltip_ability_clusters_stars_Note0"											"Combo Boost: 25%%<br></br>Crit Multiplier: 30<br></br>Critical Hit Ratio: 1 + 0.25 * Ability Level<br></br>Damage: 2 * Attack * Ability Level<br></br>Duration: 2"
 		"DOTA_Tooltip_ability_clusters_stars_reduce_armor"									"Armor reduction: "
 		"DOTA_Tooltip_ability_clusters_stars_damage"										"Damage: "
@@ -8803,6 +8803,40 @@
 		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_agility"  "+ Dexterity:"
 		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy"   "+ Max. Energy:"
 		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy_regen" "+ Energy regeneration:"
+
+		"error_not_mine"        "The target is not a mine!"
+		"error_only_tier3"      "The device is only needed for Tier 3 mines!"
+		"error_no_energy_zpm"   "There is not enough energy in the reactor (need 10,000)!"
+
+
+		// ====================================================================
+		// БОСС: САНГОНОМИЯ (СПОСОБНОСТИ И МОДИФИКАТОРЫ)
+		// ====================================================================
+
+		// 1. ПРОТОКОЛ БАКЭ-КУРАГЭ
+		"DOTA_Tooltip_ability_sangonomiya_bake_kurage"								"Bake-kurage protocol"
+		"DOTA_Tooltip_ability_sangonomiya_bake_kurage_Description"					"Passive directive. Sangonomy regularly summons boiling water zones into the arena. While in them, she quickly restores her health, and the Party’s enemies receive pure damage every second."
+		
+		// 2. ЖЕМЧУЖНЫЕ РЕПРЕССИИ
+		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"Pearl repression"
+		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions_Description"			"Sangonomy builds a perfect ring of water traps around itself. After a short delay, giant spikes burst out of the ground, stunning intruders, dealing magic damage, and piercing their magical armor."
+		
+		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff"						"Pearl repression"
+		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff_Description"			"Your magic resistance is reduced after colliding with a hydro spike. The Party warned you!"
+
+		// 3. ПРОЗРЕНИЕ ЖРИЦЫ
+		"DOTA_Tooltip_ability_sangonomiya_priestess_insight"						"Priestess's Epiphany"
+		"DOTA_Tooltip_ability_sangonomiya_priestess_insight_Description"			"Sangonomy reads the thoughts of dissidents and places a control mark on random enemies. If the victim attempts to use any ability or item, an astral nuclear explosion will occur, causing massive damage and silencing the victim and anyone nearby."
+		
+		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff"							"Dissent label"
+		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff_Description"				"Your thoughts are being watched! Using ANY active ability or item will cause an explosion and silence!"
+
+		// 4. ЦЕРЕМОНИЯ СОМЛЕНТА (УЛЬТИМАТУМ)
+		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony"						"Somlenta ceremony"
+		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony_Description"			"Absolute power. Sangonomy enters the Shadow Realm, becoming completely invulnerable, undetectable, and disarmed. During the ceremony, she heals her wounds and releases destructive ring waves that cause damage and cause a violent earthquake."
+		
+		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff"							"Somlenta ceremony"
+		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff_Description"				"Sangonomy is completely invulnerable, restores health and prepares to punish enemies."
 
 	}	
 }

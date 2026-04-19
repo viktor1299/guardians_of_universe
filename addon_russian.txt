@@ -8804,5 +8804,39 @@
 		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy"   "+ Макс. Энергия:"
 		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy_regen" "+ Регенерация энергии:"
 
+		"error_not_mine"        "Цель не является шахтой!"
+		"error_only_tier3"      "Устройство нужно только для шахт 3 тира!"
+		"error_no_energy_zpm"   "Недостаточно энергии в реакторе (нужно 10 000)!"
+
+
+		// ====================================================================
+		// БОСС: САНГОНОМИЯ (СПОСОБНОСТИ И МОДИФИКАТОРЫ)
+		// ====================================================================
+
+		// 1. ПРОТОКОЛ БАКЭ-КУРАГЭ
+		"DOTA_Tooltip_ability_sangonomiya_bake_kurage"								"Протокол Бакэ-курагэ"
+		"DOTA_Tooltip_ability_sangonomiya_bake_kurage_Description"					"Пассивная директива. Сангономия регулярно призывает на арену кипящие водяные зоны. Находясь в них, она стремительно восстанавливает своё здоровье, а враги Партии получают ежесекундный чистый урон."
+		
+		// 2. ЖЕМЧУЖНЫЕ РЕПРЕССИИ
+		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"Жемчужные репрессии"
+		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions_Description"			"Сангономия выстраивает вокруг себя идеальное кольцо из водяных ловушек. Через небольшую задержку из-под земли вырываются гигантские шипы, которые оглушают нарушителей, наносят магический урон и пробивают их магическую броню."
+		
+		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff"						"Жемчужные репрессии"
+		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff_Description"			"Ваше сопротивление магии снижено после столкновения с гидро-шипом. Партия вас предупреждала!"
+
+		// 3. ПРОЗРЕНИЕ ЖРИЦЫ
+		"DOTA_Tooltip_ability_sangonomiya_priestess_insight"						"Прозрение Жрицы"
+		"DOTA_Tooltip_ability_sangonomiya_priestess_insight_Description"			"Сангономия читает мысли диссидентов и вешает на случайных врагов метку контроля. Если жертва попытается применить любую способность или предмет, произойдет астральный ядерный взрыв, который нанесет огромный урон и наложит безмолвие на саму жертву и всех, кто стоял рядом."
+		
+		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff"							"Метка инакомыслия"
+		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff_Description"				"За вашими мыслями следят! Применение ЛЮБОЙ активной способности или предмета спровоцирует взрыв и наложит безмолвие!"
+
+		// 4. ЦЕРЕМОНИЯ СОМЛЕНТА (УЛЬТИМАТУМ)
+		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony"						"Церемония Сомлента"
+		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony_Description"			"Абсолютная власть. Сангономия переходит в Теневое Царство, становясь полностью неуязвимой, невыделяемой и обезоруженной. Во время церемонии она исцеляет свои раны и испускает разрушительные кольцевые волны, которые наносят урон и вызывают жесткое землетрясение."
+		
+		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff"							"Церемония Сомлента"
+		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff_Description"				"Сангономия полностью неуязвима, восстанавливает здоровье и готовится покарать врагов."
+
 	}	
 }
