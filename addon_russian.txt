@@ -3591,7 +3591,7 @@
         "dota_tooltip_ability_item_custom_universe_rune_haste"                      "Вселенская Руна: Кошмарная тень"
         "dota_tooltip_ability_item_custom_universe_rune_haste_description"          "Даёт 100 скорости передвижения + 10 за каждую волну. Позволяет беспрепятственно проходить сквозь существ, увеличивает скорость разворота на 100%% и скорость атаки на 35.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает вашу скорость передвижения на 5."
             "dota_tooltip_modifier_custom_universe_haste_rune"                      "Вселенская Руна: Кошмарная тень"
-            "dota_tooltip_modifier_custom_universe_haste_rune_description"          "Скорость передвижения и атаки значительно увеличены, даровано беспрепятственное передвижение."
+            "dota_tooltip_modifier_custom_universe_haste_rune_description"          "Скорость передвижения и атаки значительно увеличены, позволяет беспрепятственно проходить сквозь существ."
             "dota_tooltip_modifier_custom_universe_haste_rune_aura"                 "Вселенская Руна: Кошмарная тень (Аура)"
             "dota_tooltip_modifier_custom_universe_haste_rune_aura_description"     "Скорость передвижения и атаки увеличены от союзной руны."
 

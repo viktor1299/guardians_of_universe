@@ -2912,7 +2912,7 @@
 		"DOTA_Tooltip_ability_item_lens4_bonus_mana_regen"                          		"Mana Regeneration: "
 		
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients"              				"Scythe of Obedience"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 						"<h1>Activated by: Reaper</h1>Summons the Reaper, releasing a powerful burst of dark energy at all enemies within a 300 radius around the primary target, dealing%cast_damage%+%cast_damage_pct%% damage and stunning them for%stun_duration%seconds. At the end of the stun, the Reaper will strike with a force of%delayed_damage_per_health%units. damage for each missing unit. health.\n<h1>Passive: Purification Magic</h1>Deals pure damage to the enemy equal to%magic_damage_to_pure_pct%%%of the spell's damage if the item is not on cooldown.\n<font color='#eb0202'>Increasing attack range only works on heroes with a ranged attack type!!!.</font>" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_Description" 						"<h1>Activated by: Reaper</h1>Summons the Reaper, releasing a powerful burst of dark energy at all enemies within a 300 radius around the primary target, dealing%cast_damage%+%cast_damage_pct%% damage and stunning them for%stun_duration%seconds. At the end of the stun, the Reaper will strike with a force of%delayed_damage_per_health%units. damage for each missing unit. health.\n<h1>Passive: Purification Magic</h1>Deals pure damage to the enemy equal to%magic_damage_to_pure_pct%%%of the spell's damage if the item is not on cooldown.\n<font color='#eb0202'>Increasing attack range only works on heroes with a ranged attack type!!!.</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_spell_amp_pct" 					"+% to spell damage:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_cast_range_bonus" 				"+ to the range of abilities:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_attack_range" 				"+to attack range: "  
@@ -2924,7 +2924,7 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_bonus_mana_regen" 				"+to mana recovery: "    
 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2"              				"Scythe of Obedience 2"
-		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 					"<h1>Activated by: Reaper</h1>Summons the Reaper, releasing a powerful burst of dark energy at all enemies within a 300 radius around the primary target, dealing%cast_damage%+%cast_damage_pct%% damage and stunning them for%stun_duration%seconds. At the end of the stun, the Reaper will strike with a force of%delayed_damage_per_health%units. damage for each missing unit. health.\n<h1>Passive: Purification Magic</h1>Deals pure damage to the enemy equal to%magic_damage_to_pure_pct%%%of the spell's damage if the item is not on cooldown.\n<font color='#eb0202'>Increasing attack range only works on heroes with a ranged attack type!!!.</font>" 
+		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_Description" 					"<h1>Activated by: Reaper</h1>Summons the Reaper, releasing a powerful burst of dark energy at all enemies within a 300 radius around the primary target, dealing%cast_damage%+%cast_damage_pct%% damage and stunning them for%stun_duration%seconds. At the end of the stun, the Reaper will strike with a force of%delayed_damage_per_health%units. damage for each missing unit. health.\n<h1>Passive: Purification Magic</h1>Deals pure damage to the enemy equal to%magic_damage_to_pure_pct%%%of the spell's damage if the item is not on cooldown.\n<font color='#eb0202'>Increasing attack range only works on heroes with a ranged attack type!!!.</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_spell_amp_pct" 					"+% to spell damage:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_cast_range_bonus" 				"+ to the range of abilities:" 
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_2_bonus_attack_range" 			"+to attack range:" 
@@ -2967,7 +2967,7 @@
 		"DOTA_Tooltip_ability_item_stellar_flare_mana"                              "+ to mana:"
 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil"                              "Unstable Stellar Flare"
-		"DOTA_Tooltip_ability_item_stellar_flare_veil_Description"                  "<h1>Active: Instability</h1>Strikes a selected area, reducing the magic resistance of all enemies in it by 30%.\n<h1>Passive: Cosmic Fluctuation</h1>Every 2 seconds, with a 20% chance, unleashes cosmic lightning on enemies within a%range%radius. The strike deals magic damage equal to 5% of the target's current health + your current intelligence.\n<h1>Passive: Stellar Mind</h1>For each unit of intelligence, the owner receives 2 additional units of mana."
+		"DOTA_Tooltip_ability_item_stellar_flare_veil_Description"                  "<h1>Active: Instability</h1>Strikes a selected area, reducing the magic resistance of all enemies in it by 30%.\n<h1>Passive: Cosmic Fluctuation</h1>Every 2 seconds, with a 20% chance, unleashes cosmic lightning on enemies within a%range%radius. The strike deals magic damage equal to 5% of the target's current health + your current intelligence.\n<h1>Passive: Stellar Mind</h1>For each unit of intelligence, the owner receives 2 additional units of mana.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_Note0"                        "Cosmic vibration damage is not affected by magical enhancement."
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_int"                          "+ to intelligence:" 
 		"DOTA_Tooltip_ability_item_stellar_flare_veil_mana"                         "+ to mana:"
@@ -3001,7 +3001,7 @@
 		"DOTA_Tooltip_ability_item_octarine_core_cu_4_bonus_mana_regen"						"+to mana regeneration:"
 
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5"									"Galaxy Core 5"
-		"DOTA_Tooltip_ability_item_octarine_core_cu_5_Description"							"<h1>Passive: Galaxy Core</h1>Reduces the cooldown of your abilities by%cd%%.<font color='#fc0303'>Cooldown reduction from 2 or more Galaxy Cores does not stack.</font>\n<font color='#ff1100'>Attention!</font>This item is part of the artifact system; cooldown reductions from multiple types of items do not stack!"
+		"DOTA_Tooltip_ability_item_octarine_core_cu_5_Description"							"<h1>Passive: Galaxy Core</h1>Reduces the cooldown of your abilities by%cd%%.<font color='#fc0303'>Cooldown reduction from 2 or more Galaxy Cores does not stack.</font>\n<font color='#ff1100'>Attention!</font>This item is part of the artifact system; cooldown reductions from multiple types of items do not stack!\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5_bonus_health"							"+ to health"
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5_bonus_mana"							"+to mana: "
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5_bonus_intelligence"					"+to intelligence"
@@ -3099,7 +3099,7 @@
 			"DOTA_Tooltip_modifier_item_unstable_quasar2_aura_Description" 						"Magic resistance reduced"
 		
 		"DOTA_Tooltip_ability_item_unstable_quasar2" 									"Unstable Dwarf"
-		"DOTA_Tooltip_ability_item_unstable_quasar2_Description" 							"<h1>Passive: Magical Instability</h1>Reduces enemy magic resistance by%aura_resist_debuff_pct%%%.<br><br>Radius:%aura_radius%"
+		"DOTA_Tooltip_ability_item_unstable_quasar2_Description" 							"<h1>Passive: Magical Instability</h1>Reduces enemy magic resistance by%aura_resist_debuff_pct%%%.<br><br>Radius:%aura_radius%\n<font color='#ff0000'>This item can be upgraded at the metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_day_vision" 						"+ to daytime viewing radius " 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_bonus_night_vision" 					"+ to viewing radius at night " 
 		"DOTA_Tooltip_ability_item_unstable_quasar2_spell_amp_pct" 							"+% to damage from abilities "
@@ -3131,7 +3131,7 @@
 		"DOTA_Tooltip_ability_item_quibbela4_mana_regen"									"+to mana recovery "
 
         "DOTA_Tooltip_ability_item_quibbela5"              								"Foresight Stone 5"
-        "DOTA_Tooltip_ability_item_quibbela5_Description"    								"<h1>Foresight Stone</h1>Provides (%exp_per_cast%+ (%exp_lvl_bonus%* current player level)) experience for using abilities.\n<font color='#ff1100'>The item does not work in the prologue, during the battle with the Guardian and in the final task!</font>"
+        "DOTA_Tooltip_ability_item_quibbela5_Description"    								"<h1>Foresight Stone</h1>Provides (%exp_per_cast%+ (%exp_lvl_bonus%* current player level)) experience for using abilities.\n<font color='#ff1100'>The item does not work in the prologue, during the battle with the Guardian and in the final task!</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>"
         "DOTA_Tooltip_ability_item_quibbela5_int"  											"+to intelligence "
 		"DOTA_Tooltip_ability_item_quibbela5_mana"  										"+to mana "
 		"DOTA_Tooltip_ability_item_quibbela5_mana_regen"									"+to mana recovery "
@@ -3143,7 +3143,7 @@
 		"DOTA_Tooltip_ability_item_quibbela6_mana_regen"									"+to mana recovery "
 
         "DOTA_Tooltip_ability_item_quibbela7"             								"Foresight Stone 7"
-        "DOTA_Tooltip_ability_item_quibbela7_Description"    								"<h1>Foresight Stone</h1>Provides (%exp_per_cast%+ (%exp_lvl_bonus%* current player level)) experience for using abilities.\n<font color='#ff1100'>The item does not work in the prologue, during the battle with the Guardian and in the final task!</font>"
+        "DOTA_Tooltip_ability_item_quibbela7_Description"    								"<h1>Foresight Stone</h1>Provides (%exp_per_cast%+ (%exp_lvl_bonus%* current player level)) experience for using abilities.\n<font color='#ff1100'>The item does not work in the prologue, during the battle with the Guardian and in the final task!</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>"
         "DOTA_Tooltip_ability_item_quibbela7_int"  											"+to intelligence "
 		"DOTA_Tooltip_ability_item_quibbela7_mana"  										"+to mana "
 		"DOTA_Tooltip_ability_item_quibbela7_mana_regen"									"+to mana recovery "
@@ -3185,12 +3185,12 @@
 		"DOTA_Tooltip_Ability_item_mars_sword_3_bonus_damage"								"+to damage "
 
 		"DOTA_Tooltip_Ability_item_mars_sword_4"										"Sword of Mars 4"
-		"DOTA_Tooltip_Ability_item_mars_sword_4_Description"								"<h1>Activated by: Spell Immune</h1>You gain magical immunity for%duration%seconds.\n<h1>Passive: Sword of God</h1>You cannot miss your target with your attacks."
+		"DOTA_Tooltip_Ability_item_mars_sword_4_Description"								"<h1>Activated by: Spell Immune</h1>You gain magical immunity for%duration%seconds.\n<h1>Passive: Sword of God</h1>You cannot miss your target with your attacks.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_Ability_item_mars_sword_4_bonus_armor"								"+to armor "
 		"DOTA_Tooltip_Ability_item_mars_sword_4_bonus_damage"								"+to damage "
 
 		"DOTA_Tooltip_Ability_item_mars_sword_5"										"Sword of Mars 5"
-		"DOTA_Tooltip_Ability_item_mars_sword_5_Description"								"<h1>Activated by: Spell Immune</h1>You gain magical immunity for%duration%seconds.\n<h1>Passive: Sword of God</h1>You cannot miss your target with your attacks."
+		"DOTA_Tooltip_Ability_item_mars_sword_5_Description"								"<h1>Activated by: Spell Immune</h1>You gain magical immunity for%duration%seconds.\n<h1>Passive: Sword of God</h1>You cannot miss your target with your attacks.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_Ability_item_mars_sword_5_bonus_armor"								"+to armor "
 		"DOTA_Tooltip_Ability_item_mars_sword_5_bonus_damage"								"+to damage "
 
@@ -3237,7 +3237,7 @@
 		"DOTA_Tooltip_Ability_item_gu_desolator_3_bonus_damage"								"+to damage: "
 
 		"DOTA_Tooltip_Ability_item_gu_desolator_4"										"Destroyer of the Eternal 4"
-		"DOTA_Tooltip_Ability_item_gu_desolator_4_Description"								"<h1>Passive: Destroyer of the Eternal</h1>Destroys the target's physical resistance for 30 seconds, the principle of operation consists of several stages.<br><br>1: Reduces the target's physical resistance by%base_armor_reduction%%%<br>2: Additionally reduces%static_armor_reduction%resistance.<br><br><br><font color='#ff0000'>Attention!</font><br>Item cooldown is%cd%and cannot be reduced while the item is on cooldown. Destroyer of the Eternal's ability does not work."
+		"DOTA_Tooltip_Ability_item_gu_desolator_4_Description"								"<h1>Passive: Destroyer of the Eternal</h1>Destroys the target's physical resistance for 30 seconds, the principle of operation consists of several stages.<br><br>1: Reduces the target's physical resistance by%base_armor_reduction%%%<br>2: Additionally reduces%static_armor_reduction%resistance.<br><br><br><font color='#ff0000'>Attention!</font><br>Item cooldown is%cd%and cannot be reduced while the item is on cooldown. Destroyer of the Eternal's ability does not work.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>」"
 		"DOTA_Tooltip_Ability_item_gu_desolator_4_bonus_damage"								"+to damage: "
 
 		"DOTA_Tooltip_Ability_item_gu_desolator_5"										"Destroyer of the Eternal 5"
@@ -3304,13 +3304,13 @@
 		"DOTA_Tooltip_ability_item_gu_hearth_4_bonus_health_max"                            "+ to health"
 		
 		"DOTA_Tooltip_ability_item_gu_hearth_5"                                       	"Galaxy Heart 5"
-		"DOTA_Tooltip_ability_item_gu_hearth_5_Description"                           		"<font color='#ff1100'>Attention! Items of this type cannot be combined with each other.</font>"
+		"DOTA_Tooltip_ability_item_gu_hearth_5_Description"                           		"<font color='#ff1100'>Attention! Items of this type cannot be combined with each other.</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_hearth_5_health_regen_percent"            			"+% to health regeneration per second"
 		"DOTA_Tooltip_ability_item_gu_hearth_5_bonus_strength"                              "+to strength"
 		"DOTA_Tooltip_ability_item_gu_hearth_5_bonus_health_max"                            "+ to health"
 		
         "DOTA_Tooltip_ability_item_gu_armor"              								"Armor of Destruction"
-		"DOTA_Tooltip_ability_item_gu_armor_Description" 									"<h1>Passive: Absorb</h1>Restores health to the owner of the item in the amount of%lifesteal%% of the damage dealt from the hand by his allies within a radius of%radius%.\n<h1>Passive: Demigod</h1>Adds additional health to the owner depending on their strength.\n<h1>Passive: Divine Aura</h1>Adds%radius%%bonus_health_max_aoe%health to all allies within a radius,%bonus_all_aoe%to all stats,%bonus_attackspeed_aoe%to attack speed and%bonus_armor_aoe%to armor.\n<font color='#ff1100'>Attention! Items of this type cannot be combined with each other.</font>" 
+		"DOTA_Tooltip_ability_item_gu_armor_Description" 									"<h1>Passive: Absorb</h1>Restores health to the owner of the item in the amount of%lifesteal%% of the damage dealt from the hand by his allies within a radius of%radius%.\n<h1>Passive: Demigod</h1>Adds additional health to the owner depending on their strength.\n<h1>Passive: Divine Aura</h1>Adds%radius%%bonus_health_max_aoe%health to all allies within a radius,%bonus_all_aoe%to all stats,%bonus_attackspeed_aoe%to attack speed and%bonus_armor_aoe%to armor.\n<font color='#ff1100'>Attention! Items of this type cannot be combined with each other.</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>" 
         "DOTA_Tooltip_ability_item_gu_armor_health_regen_percent" 							"+% to health recovery"
         "DOTA_Tooltip_ability_item_gu_armor_bonus_all" 										"+ to all attributes"
         "DOTA_Tooltip_ability_item_gu_armor_bonus_health" 									"+ to health " 
@@ -3326,7 +3326,7 @@
 			"DOTA_Tooltip_item_gu_armor_passive_team_Description"								"The aura of the Demigod's Cape works for you"
 
         "DOTA_Tooltip_ability_item_gu_armor_2"              							"Armor of Destruction 2"
-		"DOTA_Tooltip_ability_item_gu_armor_2_Description" 									"<h1>Passive: Absorb</h1>Restores health to the owner of the item in the amount of%lifesteal%% of the damage dealt from the hand by his allies within a radius of%radius%.\n<h1>Passive: Demigod</h1>Adds additional health to the owner depending on their strength.\n<h1>Passive: Divine Aura</h1>Adds%radius%%bonus_health_max_aoe%health to all allies within a radius,%bonus_all_aoe%to all stats,%bonus_attackspeed_aoe%to attack speed and%bonus_armor_aoe%to armor.\n<font color='#ff1100'>Attention! Items of this type cannot be combined with each other.</font>" 
+		"DOTA_Tooltip_ability_item_gu_armor_2_Description" 									"<h1>Passive: Absorb</h1>Restores health to the owner of the item in the amount of%lifesteal%% of the damage dealt from the hand by his allies within a radius of%radius%.\n<h1>Passive: Demigod</h1>Adds additional health to the owner depending on their strength.\n<h1>Passive: Divine Aura</h1>Adds%radius%%bonus_health_max_aoe%health to all allies within a radius,%bonus_all_aoe%to all stats,%bonus_attackspeed_aoe%to attack speed and%bonus_armor_aoe%to armor.\n<font color='#ff1100'>Attention! Items of this type cannot be combined with each other.</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>" 
         "DOTA_Tooltip_ability_item_gu_armor_2_health_regen_percent" 						"+% to health recovery"
         "DOTA_Tooltip_ability_item_gu_armor_2_bonus_all" 									"+ to all attributes"
         "DOTA_Tooltip_ability_item_gu_armor_2_bonus_health" 								"+ to health " 
@@ -3402,7 +3402,7 @@
 		"DOTA_Tooltip_ability_item_talisman_of_mastery4_bonus_hp_regen"						"+to restore health "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5"								"Artifact of Wisdom 5"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery5_Description"						"<h1>Passive: O-Consciousness</h1>For each attack you receive additional experience from%min_exp%to%max_exp%.%damage_to_exp%% of damage is converted into experience.<br><br><font color='#ff1100'>The item does not work in the prologue, during the battle with the Guardian and in the final task!</font>"
+		"DOTA_Tooltip_ability_item_talisman_of_mastery5_Description"						"<h1>Passive: O-Consciousness</h1>For each attack you receive additional experience from%min_exp%to%max_exp%.%damage_to_exp%% of damage is converted into experience.<br><br><font color='#ff1100'>The item does not work in the prologue, during the battle with the Guardian and in the final task!</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_attack"						"+to damage "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_str"							"+to strength "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery5_bonus_hp_regen"						"+to restore health "
@@ -3414,7 +3414,7 @@
 		"DOTA_Tooltip_ability_item_talisman_of_mastery6_bonus_hp_regen"						"+to restore health "
 
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7"								"Artifact of Wisdom 7"
-		"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description"						"<h1>Passive: O-Consciousness</h1>For each attack you receive additional experience from%min_exp%to%max_exp%.%damage_to_exp%% of damage is converted into experience.<br><br><font color='#ff1100'>The item does not work in the prologue, during the battle with the Guardian and in the final task!</font>"
+		"DOTA_Tooltip_ability_item_talisman_of_mastery7_Description"						"<h1>Passive: O-Consciousness</h1>For each attack you receive additional experience from%min_exp%to%max_exp%.%damage_to_exp%% of damage is converted into experience.<br><br><font color='#ff1100'>The item does not work in the prologue, during the battle with the Guardian and in the final task!</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_attack"						"+to damage "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_str"							"+to strength "
 		"DOTA_Tooltip_ability_item_talisman_of_mastery7_bonus_hp_regen"						"+to restore health "
@@ -3432,7 +3432,7 @@
 		"DOTA_Tooltip_ability_item_azrael_crossbow3_bonus_damage"							"+to damage "
 
 		"DOTA_Tooltip_ability_item_aqua_greaves"										"Leggings of the Goddess Aqua"
-		"DOTA_Tooltip_ability_item_aqua_greaves_Description"								"<h1>Active: Heal</h1>Instantly restores%replenish_health%health and%replenish_mana%mana, then restores 18%%of their total over 6 seconds to all nearby allies. Removes most negative effects from the caster.\n<h1>Passive: Aqua's Aura</h1>Increases health regeneration from%base_regen%to%regen_per_pct_tooltip%and armor from%base_armor%to%armor_per_pct_tooltip%of nearby allies within a%aura_radius%radius. The lower the target's health, the greater the effect it receives.\n<h1>Passive: Useless Goddess</h1>Applies Heal if the owner's HP is below%heal_threshold_pct%%%."
+		"DOTA_Tooltip_ability_item_aqua_greaves_Description"								"<h1>Active: Heal</h1>Instantly restores%replenish_health%health and%replenish_mana%mana, then restores 18%%of their total over 6 seconds to all nearby allies. Removes most negative effects from the caster.\n<h1>Passive: Aqua's Aura</h1>Increases health regeneration from%base_regen%to%regen_per_pct_tooltip%and armor from%base_armor%to%armor_per_pct_tooltip%of nearby allies within a%aura_radius%radius. The lower the target's health, the greater the effect it receives.\n<h1>Passive: Useless Goddess</h1>Applies Heal if the owner's HP is below%heal_threshold_pct%%%.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_movement"								"+$move_speed"
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_all_stats"							"+ to all characteristics"	
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_mana"									"+mana"		
@@ -3591,7 +3591,7 @@
         "dota_tooltip_ability_item_custom_universe_rune_haste"                      "Universal Rune: Nightmare Shadow"
         "dota_tooltip_ability_item_custom_universe_rune_haste_description"          "Gives 100 movement speed + 10 for each wave. Allows you to pass through creatures unhindered, increases turn speed by 100%%and attack speed by 35.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases your movement speed by 5."
             "dota_tooltip_modifier_custom_universe_haste_rune"                      "Universal Rune: Nightmare Shadow"
-            "dota_tooltip_modifier_custom_universe_haste_rune_description"          "Movement and attack speed are significantly increased, and unhindered movement is granted."
+            "dota_tooltip_modifier_custom_universe_haste_rune_description"          "Movement and attack speed are significantly increased, allowing you to easily pass through creatures."
             "dota_tooltip_modifier_custom_universe_haste_rune_aura"                 "Universal Rune: Nightmare Shadow (Aura)"
             "dota_tooltip_modifier_custom_universe_haste_rune_aura_description"     "Movement and attack speed are increased by the allied rune."
 
@@ -4507,7 +4507,7 @@
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"								"Mana regeneration: "
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8"										"Unstable Dead Fury"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"								"<h1>Active: Break World</h1>When used, will disable all enemy units within a 300 radius for 2.5-4 seconds.\n<h1>Passive: Deadly Essence</h1>Increases your damage by%bonus_dmg_target%% of white.\n<h1>Passive: Bush</h1>If the item does not recharge, then with a chance for ranged heroes - 3%, for melee - 5% it can stun the target at%bush_duration% "
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"								"<h1>Active: Break World</h1>When used, will disable all enemy units within a 300 radius for 2.5-4 seconds.\n<h1>Passive: Deadly Essence</h1>Increases your damage by%bonus_dmg_target%% of white.\n<h1>Passive: Bush</h1>If the item does not recharge, then with a chance for ranged heroes - 3%, for melee - 5% it can stun the target at%bush_duration%\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"									"Damage: "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"								"Health Regeneration: "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"								"Mana regeneration: "
@@ -4519,7 +4519,7 @@
 		"DOTA_Tooltip_ability_item_gu_sword_of_exhaustion_mana_regen"						"Mana regeneration: "
 
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1"								"Helm of God"
-		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_description"						"<h1>Active: Helm of Universe</h1>When activated for 60 sec, will increase your damage and health by%mult_active%%\n<h1>Passive: Elemental Burn</h1>With an interval of 0.5 sec, deals damage to all enemy units around the hero, the damage depends on the main attribute of the hero and works according to the formula main attribute *%mult%."
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_description"						"<h1>Active: Helm of Universe</h1>When activated for 60 sec, will increase your damage and health by%mult_active%%\n<h1>Passive: Elemental Burn</h1>With an interval of 0.5 sec, deals damage to all enemy units around the hero, the damage depends on the main attribute of the hero and works according to the formula main attribute *%mult%.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_armor"								"Armor: "
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_str"								"Strength: "
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_int"								"Intelligence: "
@@ -4527,7 +4527,7 @@
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_1_mana"								"Mana: "
 
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2"								"Helm of Anubis"
-		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_description"						"<h1>Active: Helm of Universe</h1>When activated for 60 sec, will increase your damage and health by%mult_active%%\n<h1>Passive: Elemental Burn</h1>With an interval of 0.5 sec, deals damage to all enemy units around the hero, the damage depends on the main attribute of the hero and works according to the formula main attribute *%mult%."
+		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_description"						"<h1>Active: Helm of Universe</h1>When activated for 60 sec, will increase your damage and health by%mult_active%%\n<h1>Passive: Elemental Burn</h1>With an interval of 0.5 sec, deals damage to all enemy units around the hero, the damage depends on the main attribute of the hero and works according to the formula main attribute *%mult%.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_armor"								"Armor: "
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_str"								"Strength: "
 		"DOTA_Tooltip_ability_item_gu_helm_of_universe_2_int"								"Intelligence: "
@@ -5468,12 +5468,12 @@
 		"DOTA_Tooltip_ability_item_gu_mjollnir_bonus_as"									"+to attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2"										"Weather Core 2"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"								"<h1>Active: Weather Shield</h1>Applies a lightning shield effect to the target. When attacking a unit that is protected by a shield, with each%static_proc_count%hit on the owner, lightning will be released at the enemy, which will deal%static_damage%% damage to the attacker, and also slow him down by%static_slow%for%static_slow_duration%sec\n<h1>Passive: Energy burst</h1>With a%proc_chance%% chance of creating chain lightning, which will make a jump to all enemy units within a radius of%bounce_radius%and deal%bounce_damage%% of the attack damage to the owner of the item."
+		"DOTA_Tooltip_ability_item_gu_mjollnir_2_Description"								"<h1>Active: Weather Shield</h1>Applies a lightning shield effect to the target. When attacking a unit that is protected by a shield, with each%static_proc_count%hit on the owner, lightning will be released at the enemy, which will deal%static_damage%% damage to the attacker, and also slow him down by%static_slow%for%static_slow_duration%sec\n<h1>Passive: Energy burst</h1>With a%proc_chance%% chance of creating chain lightning, which will make a jump to all enemy units within a radius of%bounce_radius%and deal%bounce_damage%% of the attack damage to the owner of the item.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_damage"								"+to damage:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_2_bonus_as"									"+to attack speed:"
 
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3"										"Weather Core 3"
-		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"								"<h1>Active: Weather Shield</h1>Applies a lightning shield effect to the target. When attacking a unit that is protected by a shield, with each%static_proc_count%hit on the owner, lightning will be released at the enemy, which will deal%static_damage%% damage to the attacker, and also slow him down by%static_slow%for%static_slow_duration%sec\n<h1>Passive: Energy burst</h1>With a%proc_chance%% chance of creating chain lightning, which will make a jump to all enemy units within a radius of%bounce_radius%and deal%bounce_damage%% of the attack damage to the owner of the item."
+		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"								"<h1>Active: Weather Shield</h1>Applies a lightning shield effect to the target. When attacking a unit that is protected by a shield, with each%static_proc_count%hit on the owner, lightning will be released at the enemy, which will deal%static_damage%% damage to the attacker, and also slow him down by%static_slow%for%static_slow_duration%sec\n<h1>Passive: Energy burst</h1>With a%proc_chance%% chance of creating chain lightning, which will make a jump to all enemy units within a radius of%bounce_radius%and deal%bounce_damage%% of the attack damage to the owner of the item.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"								"+to damage:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"									"+to attack speed:"
  			"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"										"Weather Core Shield"
@@ -5845,7 +5845,7 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_int"									"Intelligence Bonus:"
 
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3"									"Staff of Revelation 3"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_3_Description"							"<h1>Active: Zafkiel</h1>When activated, recharges all abilities except Ultimates and also clears the owner of all negative effects.<br><br><font color='#eb0202'>Increasing attack range only works on heroes with a ranged attack type!!!.</font>"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_Description"							"<h1>Active: Zafkiel</h1>When activated, recharges all abilities except Ultimates and also clears the owner of all negative effects.<br><br><font color='#eb0202'>Increasing attack range only works on heroes with a ranged attack type!!!.</font>\n<font color='#ff0000'>This item can be improved in the metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_range_attack_bonus"						"Attack Range Bonus:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_caste_range_bonus"						"Cast range bonus:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_cast_time"								"%Уменьшениеcast time:"
@@ -5867,19 +5867,19 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_4_int"									"Intelligence Bonus:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1"									"Goa'uld armor"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"							"<h1>Passive: Power of the Symbiote</h1>When the owner of the item receives any damage, he will accumulate stacks of armor, each stack gives + 2 to strength and + 1 to armor, the cooldown of the item is fixed and is%cd%, the duration of the buff is%duration%.\n<font color='#fc0335'>When moving an item from your inventory, you will lose all stacks, maximum stacks - 1000</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_1_Description"							"<h1>Passive: Power of the Symbiote</h1>When the owner of the item receives any damage, he will accumulate stacks of armor, each stack gives + 2 to strength and + 1 to armor, the cooldown of the item is fixed and is%cd%, the duration of the buff is%duration%.\n<font color='#fc0335'>When moving an item from your inventory, you will lose all stacks, maximum stacks - 1000</font>\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_armor"									"Armor:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp_regen"								"%Восстановлениеhealth:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_1_hp"										"Bonus Health:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2"									"Goa'uld Armor 2"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"							"<h1>Passive: Power of the Symbiote</h1>When the owner of the item receives any damage, he will accumulate stacks of armor, each stack gives + 2 to strength and + 1 to armor, the cooldown of the item is fixed and is%cd%, the duration of the buff is%duration%.\n<font color='#fc0335'>When moving an item from your inventory, you will lose all stacks, maximum stacks - 1000</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_2_Description"							"<h1>Passive: Power of the Symbiote</h1>When the owner of the item receives any damage, he will accumulate stacks of armor, each stack gives + 2 to strength and + 1 to armor, the cooldown of the item is fixed and is%cd%, the duration of the buff is%duration%.\n<font color='#fc0335'>When moving an item from your inventory, you will lose all stacks, maximum stacks - 1000</font>\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_armor"									"Armor:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp_regen"								"%Восстановлениеhealth:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_2_hp"										"Bonus Health:"
 
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3"									"Goa'uld Armor 3"
-		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"							"<h1>Passive: Power of the Symbiote</h1>When the owner of the item receives any damage, he will accumulate stacks of armor, each stack gives + 2 to strength and + 1 to armor, the cooldown of the item is fixed and is%cd%, the duration of the buff is%duration%.\n<font color='#fc0335'>When moving an item from your inventory, you will lose all stacks, maximum stacks - 1000</font>"
+		"DOTA_Tooltip_ability_item_gu_armor_alter_3_Description"							"<h1>Passive: Power of the Symbiote</h1>When the owner of the item receives any damage, he will accumulate stacks of armor, each stack gives + 2 to strength and + 1 to armor, the cooldown of the item is fixed and is%cd%, the duration of the buff is%duration%.\n<font color='#fc0335'>When moving an item from your inventory, you will lose all stacks, maximum stacks - 1000</font>\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_armor"									"Armor:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp_regen"								"%Восстановлениеhealth:"
 		"DOTA_Tooltip_ability_item_gu_armor_alter_3_hp"										"Bonus Health:"
@@ -6576,7 +6576,7 @@
 			"DOTA_Tooltip_ability_item_gu_lifesteal_7_status_res"							"Effect Resistance:"
 
 			"DOTA_Tooltip_ability_item_gu_lifesteal_8"                     				"Immortal Soul 3"
-			"DOTA_Tooltip_ability_item_gu_lifesteal_8_Description"							"<h1>Passive: Immortal Soul</h1>For each hit, restores%lifesteal%health to the owner."
+			"DOTA_Tooltip_ability_item_gu_lifesteal_8_Description"							"<h1>Passive: Immortal Soul</h1>For each hit, restores%lifesteal%health to the owner.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 			"DOTA_Tooltip_ability_item_gu_lifesteal_8_damage"								"Damage:"
 			"DOTA_Tooltip_ability_item_gu_lifesteal_8_status_res"							"Effect Resistance:"
 			
@@ -7236,7 +7236,7 @@
 		"DOTA_Tooltip_ability_item_gu_cleave2_damage" 						"Damage: "
 
 		"DOTA_Tooltip_ability_item_gu_cleave3"							"Rift Fury 3"
-		"DOTA_Tooltip_ability_item_gu_cleave3_Description" 					"<h1>Passive: Rift</h1>Deals%cleave_damage%%%damage from your attack to enemy units in front of the owner within a radius of%cleave_distance%, there can be no more than 3 targets.<br><br><font color='#ff0000'>Works only on heroes with a melee attack type!</font>"
+		"DOTA_Tooltip_ability_item_gu_cleave3_Description" 					"<h1>Passive: Rift</h1>Deals%cleave_damage%%%damage from your attack to enemy units in front of the owner within a radius of%cleave_distance%, there can be no more than 3 targets.<br><br><font color='#ff0000'>Works only on heroes with a melee attack type!</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_cleave3_damage" 						"Damage: "
 
 		"DOTA_Tooltip_Ability_moai_1"							"<font color='#3fff05'>「Moai」</font>"
@@ -7427,19 +7427,19 @@
 		"DOTA_Tooltip_ability_gu_bulwark_Description" 						"Reduces all incoming damage from the front by%physical_damage_reduction%%%, from the sides by%physical_damage_reduction_side%%%"
 
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass"					"Ancient Cuirass"
-		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_Description"			"<h1>Passive: Ancient Cuirass</h1>In a radius of 800 for all enemies, reduces their armor by%armor_reduction%and damage by%dmg_reduction%%%."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_Description"			"<h1>Passive: Ancient Cuirass</h1>In a radius of 800 for all enemies, reduces their armor by%armor_reduction%and damage by%dmg_reduction%%%.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_armor"				"Armor: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_hp"					"Health: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_hp_regen"				"%РегенерацияHealth: "
 
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2"					"Ancient Cuirass 2"
-		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_Description"			"<h1>Passive: Ancient Cuirass</h1>In a radius of 800 for all enemies, reduces their armor by%armor_reduction%and damage by%dmg_reduction%%%."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_Description"			"<h1>Passive: Ancient Cuirass</h1>In a radius of 800 for all enemies, reduces their armor by%armor_reduction%and damage by%dmg_reduction%%%.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_armor"				"Armor: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_hp"					"Health: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_2_hp_regen"				"%РегенерацияHealth: "
 
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3"					"Ancient Cuirass 3"
-		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_Description"			"<h1>Passive: Ancient Cuirass</h1>In a radius of 800 for all enemies, reduces their armor by%armor_reduction%and damage by%dmg_reduction%%%."
+		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_Description"			"<h1>Passive: Ancient Cuirass</h1>In a radius of 800 for all enemies, reduces their armor by%armor_reduction%and damage by%dmg_reduction%%%.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_armor"					"Armor: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_hp"						"Health: "
 		"DOTA_Tooltip_ability_item_gu_ancient_cuirass_3_hp_regen"				"%РегенерацияHealth: "
@@ -7451,7 +7451,7 @@
 		"DOTA_Tooltip_ability_item_gu_bounded_field_int"					"Intelligence: "
 
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2"					"Bounded Field 2"
-		"DOTA_Tooltip_ability_item_gu_bounded_field_2_Description"			"<h1>Passive: Bounded Field</h1>Creates an energy field that absorbs all damage received but spends mana in return. Blocks%block_damage_rate%%%damage and in return spends 1 mana per%block_damage_per_mana%damage. Ignores magic damage if the owner of the item is under the effect of invulnerability to magic."
+		"DOTA_Tooltip_ability_item_gu_bounded_field_2_Description"			"<h1>Passive: Bounded Field</h1>Creates an energy field that absorbs all damage received but spends mana in return. Blocks%block_damage_rate%%%damage and in return spends 1 mana per%block_damage_per_mana%damage. Ignores magic damage if the owner of the item is under the effect of invulnerability to magic.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_mana"					"Mana: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_mana_regen"			"Mana Recovery: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_2_int"					"Intelligence: "
@@ -8645,58 +8645,58 @@
 	
 		// ШАХТЫ И РУДЫ: ТИР 1
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_graphite"				"Graphite"
+		"DOTA_Tooltip_ability_item_gu_ore_graphite"				"Graphite (TIR 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_graphite_Description"	"Carbon mineral. Used to create basic moderator rods when repairing a reactor."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_magnetite"			"Magnetite"
+		"DOTA_Tooltip_ability_item_gu_ore_magnetite"			"Magnetite (TIR 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_magnetite_Description""Magnetic iron ore. An important component for reactor electromagnetic systems."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_malachite"			"Malachite"
+		"DOTA_Tooltip_ability_item_gu_ore_malachite"			"Malachite (Tier 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_malachite_Description""Copper mineral used to repair wiring and basic electronics."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_lead"					"Lead"
+		"DOTA_Tooltip_ability_item_gu_ore_lead"					"Lead (TYR 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_lead_Description"		"Heavy metal. Vital for restoring radiation protection around the core."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_bauxite"				"Bauxite"
+		"DOTA_Tooltip_ability_item_gu_ore_bauxite"				"Bauxite (TIR 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_bauxite_Description"	"Bauxite. Used for lightweight and durable hull structures."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_hematite"				"Hematite"
+		"DOTA_Tooltip_ability_item_gu_ore_hematite"				"Hematite (TIR 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_hematite_Description" "Special ore. Required for crafting health capes and tier 6 items for experience."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_barite"				"Barite"
+		"DOTA_Tooltip_ability_item_gu_ore_barite"				"Barite (TIR 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_barite_Description"	"Valuable crystal. Needed to create a sword for gold mining, crits and splash damage (both in melee and ranged combat)."
 
 		// ==========================================
 		// ШАХТЫ И РУДЫ: ТИР 2
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_manganese"			"Manganese ore"
+		"DOTA_Tooltip_ability_item_gu_ore_manganese"			"Manganese ore (TIR 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_manganese_Description""Strengthening additive. Allows you to create wear-resistant steel alloys for heavy mechanisms."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_steel"				"Steel"
+		"DOTA_Tooltip_ability_item_gu_ore_steel"				"Steel (TIR 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_steel_Description"	"Hardened alloy. Basic building material for advanced reactor structures."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_zirconium"			"Zirconium"
+		"DOTA_Tooltip_ability_item_gu_ore_zirconium"			"Zirconium (TIR 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_zirconium_Description""Refractory metal. Used for shells of reactor fuel elements."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_sodium"				"Borax"
+		"DOTA_Tooltip_ability_item_gu_ore_sodium"				"Borax (TIR 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_sodium_Description"	"Source of sodium and boron. It is used as a coolant liquid in the cooling circuit and as an element for controlling the reaction rate in the core, respectively."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_titanium"				"Titanium"
+		"DOTA_Tooltip_ability_item_gu_ore_titanium"				"Titan (TIR 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_titanium_Description" "Super strong metal. Needed to upgrade items for survivability: grade 2 capes, grade 5 hearts and grade 3 armor."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_adamantite"			"Adamantite"
+		"DOTA_Tooltip_ability_item_gu_ore_adamantite"			"Adamantite (Tier 2)"
 		"DOTA_Tooltip_ability_item_gu_ore_adamantite_Description""Magic metal. Used for the final grades of DPS items: grade 5 galaxy sword, grade 3 weather core and grade 3 mage staff."
 
 		// ==========================================
 		// ШАХТЫ И РУДЫ: ТИР 3
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_naquadah"				"Naquadah"
+		"DOTA_Tooltip_ability_item_gu_ore_naquadah"				"Naquadah (TIR 3)"
 		"DOTA_Tooltip_ability_item_gu_ore_naquadah_Description" "An extremely rare element with superconductivity. Used to create all final items for Tanks."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_quadrillium"			"Quadrillium"
+		"DOTA_Tooltip_ability_item_gu_ore_quadrillium"			"Quadrillium (TIR 3)"
 		"DOTA_Tooltip_ability_item_gu_ore_quadrillium_Description""Incredibly dense and heavy element. Needed to create all final items for physical damage (DD)."
 		
-		"DOTA_Tooltip_ability_item_gu_ore_aurodium"				"Aurodia"
+		"DOTA_Tooltip_ability_item_gu_ore_aurodium"				"Aurodia (TIR 3)"
 		"DOTA_Tooltip_ability_item_gu_ore_aurodium_Description" "The ideal conductor of the magic of the universe. Used to create all final items for Mages."
 		
 		"DOTA_Tooltip_ability_item_gu_ore_gold"             "Gold ore"
@@ -8782,7 +8782,7 @@
 		"DOTA_Tooltip_modifier_item_gu_ancient_bio_reactor_Description" "Health regeneration is enhanced by armor."
 
 		"DOTA_Tooltip_ability_item_gu_replicator_disruptor_1"             "Nano-Transmutator"
-        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_1_Description" "+%bonus_all_stats%to all\nattributes +%bonus_damage%to damage\n\n<h1>Passive: Transmute</h1>Converts<font color='#00e5ff'>%stat_convert_pct%%%</font>your base strength and intelligence into agility. The item literally takes away these stats, sacrificing survivability and mana for speed.\n\n<h1>Passive: Potential Boost</h1>Increases base (white) attack damage by<font color='#00e5ff'>%base_damage_pct%%%</font>."
+        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_1_Description" "+%bonus_all_stats%to all\nattributes +%bonus_damage%to damage\n\n<h1>Passive: Transmute</h1>Converts<font color='#00e5ff'>%stat_convert_pct%%%</font>your base strength and intelligence into agility. The item literally takes away these stats, sacrificing survivability and mana for speed.\n\n<h1>Passive: Potential Boost</h1>Increases base (white) attack damage by<font color='#00e5ff'>%base_damage_pct%%%</font>.\n<font color='#ff0000'>This item can be improved in a metallurgical factory.</font>"
 
         "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2"             "Absolute Transmutator"
         "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2_Description" "+%bonus_all_stats%to all\nattributes +%bonus_damage%to damage\n\n<h1>Passive: Transmute</h1>Converts<font color='#00e5ff'>%stat_convert_pct%%%</font>your base strength and intelligence into agility.\n\n<h1>Passive: Potential Boost</h1>Increases base (white) attack damage by<font color='#00e5ff'>%base_damage_pct%%%</font>.\n\n<h1>Passive: Replicator Destructor</h1>Deals more damage to<font color='#ff4c4c'>%replicator_damage_pct%%%</font>against any type of Replicator."
