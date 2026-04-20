@@ -200,7 +200,7 @@
 		"snow_des"			"被雪旋风击中会造成3%伤害并静止0.5秒。" 
 		"blizzard_des"		"在暴风雨中用冰爆击中英雄会使他无法动弹 5 秒，并造成 7% 的生命值伤害。" 
 		"swamp_des"			"进入沼泽会使你的速度降低 30%，并降低你的护甲值 10%." 
-		"sandstorm_des"		"使你的视野降至最低，同时还会产生沙尘暴，使你的速度减慢并增加错过的机会。" 
+		"sandstorm_des"		"使您的视野降至最低，同时还会产生沙尘暴，使您的速度减慢并增加错过的机会。" 
 		"spacerift_des"		"造成暂时的裂痕。掉入裂缝会带来 500 经验值，还会恢复 10% 生命值。" 
 		"summer_breeze_des"	"使所有玩家和入侵者的移动速度提高 50%." 
 	 
@@ -252,7 +252,7 @@
 
         "DOTA_Tooltip_ability_voin_borrowed_time"                                     "<font color='#B56213'>「最后的机会」</font>"
         "DOTA_Tooltip_ability_voin_borrowed_time_description"                         "英雄对自己施加强力驱散，并暂时将他受到的任何伤害转化为治疗效果。如果生命值低于一定水平，该能力会自动应用。该能力的冷却时间不能被其他效果缩短。"
-        "DOTA_Tooltip_ability_voin_borrowed_time_hp_threshold"                        "自动施放的健康阈值： "
+        "DOTA_Tooltip_ability_voin_borrowed_time_hp_threshold"                        "自动施法的健康阈值： "
         "DOTA_Tooltip_ability_voin_borrowed_time_duration"                            "期间： "
         "DOTA_Tooltip_ability_voin_borrowed_time_duration_scepter"                    "持续时间（权杖）： "
         "DOTA_Tooltip_ability_voin_borrowed_time_redirect_range_scepter"              "光环半径（权杖）： "
@@ -286,7 +286,7 @@
 
             "npc_dota_hero_legion_commander"							     "军团使节「★★★★」"
 
-        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack"                     "<font color='#F86708'>「刚毅」</font> "
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack"                     "<font color='#F86708'>「坚韧」</font> "
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_Description"         "消除所选友方目标的所有负面效果和眩晕（强驱散），并在短时间内获得额外的攻击速度和生命值恢复。"
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_duration"            "期间： "
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_hp_regen"            "健康恢复： "
@@ -564,7 +564,7 @@
 
 		// 2. Вспышка Света (light_array)
 		"DOTA_Tooltip_ability_gu_lina_light_array"							"<font color='#FFD700'>「闪光」</font>"
-		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"召唤一道集中火焰柱，使敌人昏迷%stun_duration%秒，造成伤害，并留下焦土。\n\n留在焦土上的敌人会随着时间的推移而受到伤害，并额外受到<font color='#FF3333'>「永恒之火」</font>的伤害，并且在眩晕结束后，他们的移动速度会大大降低。"
+		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"召唤一道集中火焰柱，使敌人昏迷%stun_duration%秒，造成伤害，并留下焦土。\n\n留在焦土上的敌人会随着时间的推移受到伤害并额外受到<font color='#FF3333'>「永恒之火」</font>的伤害，并且在眩晕结束后，他们的移动速度会大大降低。"
 		"DOTA_Tooltip_ability_gu_lina_light_array_base_damage"				"基础伤害："
 		"DOTA_Tooltip_ability_gu_lina_light_array_intellect"				"%УРОН来自情报："
 		"DOTA_Tooltip_ability_gu_lina_light_array_radius"					"爆炸半径："
@@ -920,7 +920,7 @@
 		"DOTA_Tooltip_ability_gu_kurumi_tenth_bullets_Description"							    "狂三将一个友军目标送入过去，为所有能力（甚至终极技能）充电，冷却时间为%cd%。<br><br><font color='#F81717'>该能力的冷却时间无法缩短。 __标签4__"
 
 		"DOTA_Tooltip_ability_gu_kurumi_fourth_bullets"									    "<font color='#F81717'>「第四个子弹：Dalet」</font>"
-		"DOTA_Tooltip_ability_gu_kurumi_fourth_bullets_Description"							    "狂三有机会%chance%%%躲避任何效果（伤害、控制、死亡等）。<br><br><font color='#F81717'>该能力的冷却时间无法缩短。 __标签5__"
+		"DOTA_Tooltip_ability_gu_kurumi_fourth_bullets_Description"							    "狂三有机会%chance%%%躲避任何效果（伤害、控制、死亡等）。<br><br><font color='#F81717'>该能力的冷却时间无法减少。 __标签5__"
 
 // =========================================
 // 1. ИНВЕРСИЯ (Трансформация)
@@ -1179,7 +1179,7 @@
 		"DOTA_Tooltip_ability_aqua_buff_buff_heal_pct"										"%Увеличение再生： "
 			"DOTA_Tooltip_modifier_aqua_buff"													"<font color='#1163E9'>「终极女神加持」</font>"
 			"DOTA_Tooltip_modifier_aqua_buff_Description"										"对魔法免疫。主属性增加。"
-			"DOTA_Tooltip_ability_aqua_buff_scepter_Description"								"受该能力影响的目标的效果抗性增加+50%。"
+			"DOTA_Tooltip_ability_aqua_buff_scepter_Description"								"受该能力影响的目标的效果抗性+50%。"
 		
 		"DOTA_Tooltip_ability_aqua_respawn"											"<font color='#1163E9'>「女神复活」</font> "
 		"DOTA_Tooltip_ability_aqua_respawn_Description"									"复活地图上所有盟友，复活后，施加技能「终极女神加力」效果，该技能的冷却时间不会减少，为%cd%"
@@ -1388,7 +1388,7 @@
 		"DOTA_Tooltip_ability_ability_thdots_cirno01_icebound_duration"					  	"地面结冰持续时间： "
 
 		"DOTA_Tooltip_ability_ability_thdots_cirno02"                                   "<font color='#0077ff'>碎冰「碎冰机」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_cirno02_Description"                         	"俗气的瀑布。如果它落在冰冻的地面上，冰就会爆炸并伤害敌人。当冰爆炸时，就会引发连锁反应。如果附近没有冰冻地面，敌人会被冻结2秒。如果掉在没有冰的地上，起司会被击晕。"
+		"DOTA_Tooltip_ability_ability_thdots_cirno02_Description"                         	"俗气的落下。如果它落在冰冻的地面上，冰就会爆炸并伤害敌人。当冰爆炸时，就会引发连锁反应。如果附近没有冰冻地面，敌人会被冻结2秒。如果掉在没有冰的地上，起司会被击晕。"
 		"DOTA_Tooltip_ability_ability_thdots_cirno02_radius"							  	"连锁反应半径："
 
 		"DOTA_Tooltip_ability_ability_thdots_cirno03"                                   "<font color='#0077ff'>破冰「冰柱坠落」</font>"
@@ -1704,36 +1704,68 @@
 
 		"npc_dota_hero_void_spirit"														"雾雨魔理沙「★★★★」"
 
-		"DOTA_Tooltip_ability_marisa_starhex"            								"<font color='#D4FF00'>「黑魔法：视界」</font>"
-		"DOTA_Tooltip_ability_marisa_starhex_Description"									"将选定的生物变成无用的生物。"
-		"DOTA_Tooltip_ability_marisa_starhex_duration"   									"期间： "
-		"DOTA_Tooltip_ability_marisa_starhex_ms"         									"生物速度： "
-			"DOTA_Tooltip_modifier_marisa_starhex"												"<font color='#D4FF00'>「黑魔法：视界」</font>"
-			"DOTA_Tooltip_modifier_marisa_starhex_Description"									"然而你的体重却增加了"
-		"DOTA_Tooltip_ability_marisa_starhex_shard_Description"									"冷却时间缩短至 15 秒"
+		"DOTA_Tooltip_ability_marisa_starhex"                                           "<font color='#D4FF00'>「黑魔法：视界」</font>"
+		"DOTA_Tooltip_ability_marisa_starhex_Description"                               "将选定的生物变成无用的生物。"
+		"DOTA_Tooltip_ability_marisa_starhex_duration"                                  "期间： "
+		"DOTA_Tooltip_ability_marisa_starhex_ms"                                        "生物速度： "
+        "DOTA_Tooltip_ability_marisa_starhex_radius"                                    "半径： "
+			"DOTA_Tooltip_modifier_marisa_starhex"                                          "<font color='#D4FF00'>「黑魔法：视界」</font>"
+			"DOTA_Tooltip_modifier_marisa_starhex_Description"                              "然而你的体重却增加了"
+		"DOTA_Tooltip_ability_marisa_starhex_shard_Description"                         "冷却时间缩短至 15 秒"
 
-		"DOTA_Tooltip_ability_marisa_spark"              								"<font color='#D4FF00'>「爱符：火花大师」</font>"
-		"DOTA_Tooltip_ability_marisa_spark_Description"  									"魔理沙施放巨大的彩虹光束，对敌人造成伤害并治愈盟友。"
-		"DOTA_Tooltip_ability_marisa_spark_distance"     									"光束范围： "
-		"DOTA_Tooltip_ability_marisa_spark_start_width"                    					"光束宽度： "
-		"DOTA_Tooltip_ability_marisa_spark_damage_heal"  									"伤害/治疗： "
-		"DOTA_Tooltip_ability_marisa_spark_damage_heal_full"  								"总伤害/治疗： "
+		"DOTA_Tooltip_ability_marisa_spark"                                             "<font color='#D4FF00'>「爱符：火花大师」</font>"
+		"DOTA_Tooltip_ability_marisa_spark_Description"                                 "可切换：玛丽莎发射持续的彩虹光束，击中英雄模型所面对的任何地方。伤害敌人并治疗盟友（玛丽莎获得治疗效果的 10%）。"
+		"DOTA_Tooltip_ability_marisa_spark_distance"                                    "光束范围： "
+		"DOTA_Tooltip_ability_marisa_spark_width"                                       "光束宽度： "
+		"DOTA_Tooltip_ability_marisa_spark_damage"                                      "基础伤害： "
+		"DOTA_Tooltip_ability_marisa_spark_heal"                                        "基本治疗： "
 
-		"DOTA_Tooltip_ability_gu_marisa_aura"                							"<font color='#D4FF00'>「光符：地光射线」</font>"
-        "DOTA_Tooltip_ability_gu_marisa_aura_Description"    								"增加了友方角色以及魔理沙本人的一些参数。如需详细信息，请按住 alt。气场是全球的！"
-		"DOTA_Tooltip_ability_gu_marisa_aura_Note0"    										"根据公式 -%hp%+ (力量 * 7) 增加光环中所有盟友的生命值。<br>根据公式增加光环内所有盟友的生命回复量 -%hp_regen%+ 30% 力量。<br>按照公式 -%Bonus_damage%*（敏捷 * 2）增加光环内所有友军的伤害。<br>根据公式-%mana%* 智力 * 1.5 增加光环中所有盟友的法力。<br>根据公式 -%mana_regen%* 10% 智力，增加光环内所有盟友的法力恢复。"
-        	"DOTA_Tooltip_modifier_gu_marisa_aura_buff" 										"「光符：地光射线」"
-        	"DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" 							" +%dMODIFIER_PROPERTY_HEALTH_BONUS%达到最大生命值，<br>+%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%达到生命再生，<br>+%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE%额外基础伤害<br>+%dMODIFIER_PROPERTY_MANA_BONUS%额外法力值，<br>+%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT%到法力恢复值 "
+		"DOTA_Tooltip_ability_gu_marisa_aura"                                         "<font color='#D4FF00'>「光符：地光射线」</font>"
+        "DOTA_Tooltip_ability_gu_marisa_aura_description"                             "被动能力。魔理沙同步她的属性——她的力量、敏捷和智力指标始终相等。她所有的法术伤害增幅都完全转化为所收到的治疗效果的增加。此外，魔理沙还散发出一种全局光环，可以根据自身属性的比例增加地图上所有盟友的属性。"
+        "DOTA_Tooltip_ability_gu_marisa_aura_Note0"                                   "额外的生命值及其再生取决于玛丽莎的力量。额外伤害取决于她的敏捷性。额外法力及其再生取决于智力。"
+        "DOTA_Tooltip_ability_gu_marisa_aura_hp"                                      "基本健康加成： "
+        "DOTA_Tooltip_ability_gu_marisa_aura_hp_str_mult"                             "力量健康乘数： "
+        "DOTA_Tooltip_ability_gu_marisa_aura_hp_regen"                                "基本恢复健康： "
+        "DOTA_Tooltip_ability_gu_marisa_aura_damage"                                  "基础伤害加成： "
+        "DOTA_Tooltip_ability_gu_marisa_aura_mana"                                    "基础法力加成： "
+        "DOTA_Tooltip_ability_gu_marisa_aura_mana_regen"                              "基本恢复法力： "
 
-		"DOTA_Tooltip_ability_marisa_starfall"            								"<font color='#D4FF00'>「魔符：银河」</font>"
-		"DOTA_Tooltip_ability_marisa_starfall_Description"									"当该能力处于激活状态时，星星会从天而降，对敌人造成伤害并治愈盟友。消耗法力值占最大值的百分比。<br><br><font color='#cf1919'>注意！只有当你达到了最后的高度时，才能借助魔法增强来提高该技能的伤害！"
-		"DOTA_Tooltip_ability_marisa_starfall_radius"     									"半径： "
-		"DOTA_Tooltip_ability_marisa_starfall_interval"   									"间隔： "
-		"DOTA_Tooltip_ability_marisa_starfall_damage_heal"									"伤害/治疗： "
-		"DOTA_Tooltip_ability_marisa_starfall_hit_radius" 									"星半径： "
-			"DOTA_Tooltip_modifier_marisa_starfall"												"<font color='#D4FF00'>「魔符：银河」</font>"
-			"DOTA_Tooltip_modifier_marisa_starfall_Description"									"星星在你身边坠落！"
-		"DOTA_Tooltip_ability_marisa_starfall_scepter_Description"							"减少最多 8% 的法力消耗"
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff"                                   "<font color='#D4FF00'>「光符：地光射线」</font>"
+        "DOTA_Tooltip_modifier_gu_marisa_aura_buff_description"                       "玛丽莎的光环提供+%dMODIFIER_PROPERTY_HEALTH_BONUS%生命值、+%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%生命恢复值、+%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE%伤害值、+%dMODIFIER_PROPERTY_MANA_BONUS%法力值和+%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT%法力恢复值。"	"DOTA_Tooltip_modifier_marisa_starfall_buff"             "<font color='#D4FF00'>「Magic Sign: Milky Way」</font>"
+			"DOTA_Tooltip_modifier_marisa_starfall_buff_Description" "你受到银河系的保护。你的攻击和能力可以导致一颗星星坠落。"
+
+"DOTA_Tooltip_modifier_gu_marisa_aura_buff"              "<font color='#D4FF00'>「光符：地光射线」</font>"
+"DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description"  "+%dMODIFIER_PROPERTY_HEALTH_BONUS%达到最大生命值<br>+%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%达到生命恢复<br>+%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE%达到基础伤害<br>+%dMODIFIER_PROPERTY_MANA_BONUS%达到法力<br>+%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT%达到法力恢复"
+		"DOTA_Tooltip_ability_marisa_starfall"                                          "<font color='#D4FF00'>「魔符：银河」</font>"
+		"DOTA_Tooltip_ability_marisa_starfall_Description"                              "可切换光环：在此光环下造成伤害时，魔理沙和盟友可以向敌人投下一颗星星，在一定范围内造成纯属性伤害和治疗。<br><br>活跃时，玛丽莎不会恢复法力，并且每一颗星星的坠落都会消耗她的储备。如果魔力耗尽，魔理沙将会昏迷5秒。"
+		"DOTA_Tooltip_ability_marisa_starfall_chance_attack"                            "几率（来自攻击）： "
+        "DOTA_Tooltip_ability_marisa_starfall_chance_spell"                             "机会（来自咒语）： "
+		"DOTA_Tooltip_ability_marisa_starfall_dmg_pct"                                  "初始伤害百分比： "
+			"DOTA_Tooltip_modifier_marisa_starfall"                                         "<font color='#D4FF00'>「魔符：银河」</font>"
+			"DOTA_Tooltip_modifier_marisa_starfall_Description"                             "你正在塑造银河系。法力不会再生。"
+		"DOTA_Tooltip_ability_marisa_starfall_scepter_Description"                      "基础星星伤害增加 5%."
+
+		"DOTA_Tooltip_modifier_marisa_spark_active"                             "《爱的印记：火花大师》"
+		"DOTA_Tooltip_modifier_marisa_spark_active_Description"                 "能量集中！发射彩虹光柱，不断消耗法力。"
+
+		// Skill 1: Event Horizon
+		"Talent_Marisa_Starhex_1"           "该技能所造成的魔法伤害等于所有英雄属性总和乘以 2。"
+		"Marisa_Label_AllStatsDamage"       "添加。所有属性造成的伤害 (x2)"
+
+		// Skill 2: Master Spark
+		"Marisa_Scepter_Spark_Desc"         "光束范围增加 250 个单位，宽度增加 50 个单位。"
+		"Talent_Marisa_Spark_5"             "增加 25% 的伤害加成，该加成随玛丽莎的光环治疗效果提升而增加。"
+		"Talent_Marisa_Spark_15"            "该能力在引导时不再消耗法力。"
+		"Marisa_Label_ScepterRange"         "添加。范围和宽度"
+		"Marisa_Label_SparkMana"            "法力消耗"
+
+		// Skill 4: Milky Way
+		"Marisa_Shard_Starfall_Desc"        "流星造成的伤害提高攻击或技能造成伤害的 5%。"
+		"Talent_Marisa_Starfall_10"         "星星掉落的几率增加 4%（法术伤害）和 2%（攻击）。"
+		"Talent_Marisa_Starfall_20"         "将每颗星星掉落的法力消耗百分比从最大法力值的 0.2% 降低至 0.1%。"
+		"Marisa_Label_StarfallChance"       "机会（法术/攻击）"
+		"Marisa_Label_StarfallManaPct"      "星星消耗（最大法力百分比）"
+		"Marisa_Label_ShardDmgPct"          "流星伤害"
 
 
 			"npc_dota_hero_mirana" 											"八心永琳「★★★★★」"
@@ -2004,7 +2036,7 @@
 			"DOTA_Tooltip_modifier_archer_Description"											"你是一名弓箭手"
 		
 		"DOTA_Tooltip_ability_rider"													"<font color='#F717F7'>「变身：骑士」</font> "
-		"DOTA_Tooltip_ability_rider_Description"											"变身为骑手，通过%view%增加可见范围，并将角色的基本统计数据更改为敏捷。"
+		"DOTA_Tooltip_ability_rider_Description"											"变身为骑手，将可见范围增加%view%，并将角色的基本统计数据更改为敏捷。"
 		"DOTA_Tooltip_ability_rider_bonus_range"											"攻击范围： "
 		"DOTA_Tooltip_ability_rider_attribute"												"敏捷奖励： "
 			"DOTA_Tooltip_modifier_rider"														"<font color='#F717F7'>「变身：骑士」</font> "
@@ -2225,7 +2257,7 @@
 			"npc_dota_hero_necrolyte" 										"奥妮姆·蒂安卡"
 
 		"DOTA_Tooltip_ability_bvo_orihime_skill_0" 										"魔法跳跃"
-		"DOTA_Tooltip_ability_bvo_orihime_skill_0_Description" 								"基本攻击会被敌人弹开。随后的每次跳跃造成的伤害都会减少。"
+		"DOTA_Tooltip_ability_bvo_orihime_skill_0_Description" 								"基本攻击会从敌人身上反弹。随后的每次跳跃造成的伤害都会减少。"
 		"DOTA_Tooltip_ability_bvo_orihime_skill_0_range" 									"半径： "
 		"DOTA_Tooltip_ability_bvo_orihime_skill_0_bounces" 									"跳跃次数： "
 		"DOTA_Tooltip_ability_bvo_orihime_skill_0_damage_reduction_percent" 				"伤害减少： "
@@ -2570,7 +2602,7 @@
 		"DOTA_Tooltip_ability_sdkfz234_pac40_Description"							"配备了可以穿透任何装甲的超威力大炮。第三帝国的全部力量都投入到了这种武器上；元首亲自批准了这把枪的制造。"
 		"DOTA_Tooltip_ability_sdkfz234_pac40_bonus_damage"							"第三帝国的权力： "
 		"DOTA_Tooltip_ability_sdkfz234_pac40_scepter_Description"				"将弹药类型更改为次口径。"
-		"DOTA_Tooltip_ability_sdkfz234_pac40_shard_Description"					"将射弹的飞行速度提高至超音速。"
+		"DOTA_Tooltip_ability_sdkfz234_pac40_shard_Description"					"将射弹的飞行速度提高到超音速。"
 
 
 		"DOTA_Tooltip_Ability_armor1"													"黑暗斗篷"
@@ -3432,7 +3464,7 @@
 		"DOTA_Tooltip_ability_item_azrael_crossbow3_bonus_damage"							"+造成伤害 "
 
 		"DOTA_Tooltip_ability_item_aqua_greaves"										"阿库娅女神护腿"
-		"DOTA_Tooltip_ability_item_aqua_greaves_Description"								"<h1>主动：治愈</h1>立即恢复%replenish_health%生命值和%replenish_mana%法力，然后在 6 秒内为附近所有盟友恢复 18%%点。消除施法者的大部分负面影响。\n<h1>被动：阿克娅的光环</h1>使%aura_radius%半径内的附近盟友的生命恢复速度从%base_regen%增加到%regen_per_pct_tooltip%，护甲值从%base_armor%增加到%armor_per_pct_tooltip%。目标的生命值越低，受到的影响就越大。\n<h1>被动：无用女神</h1>如果拥有者的 HP 低于%heal_threshold_pct%%%则施加治疗。\n<font color='#ff0000'>该物品可以在冶金工厂改进。 __标签20__"
+		"DOTA_Tooltip_ability_item_aqua_greaves_Description"								"<h1>主动：治愈</h1>立即恢复%replenish_health%生命值和%replenish_mana%法力值，然后在 6 秒内为附近所有盟友恢复 18 个%%值。消除施法者的大部分负面影响。\n<h1>被动：阿克娅的光环</h1>使%aura_radius%半径内的附近盟友的生命恢复速度从%base_regen%增加到%regen_per_pct_tooltip%，护甲值从%base_armor%增加到%armor_per_pct_tooltip%。目标的生命值越低，受到的影响就越大。\n<h1>被动：无用女神</h1>如果拥有者的 HP 低于%heal_threshold_pct%%%则施加治疗。\n<font color='#ff0000'>该物品可以在冶金工厂改进。 __标签20__"
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_movement"								"+$移动速度"
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_all_stats"							"+ 所有特征"	
 		"DOTA_Tooltip_ability_item_aqua_greaves_bonus_mana"									"+法力"		
@@ -3779,7 +3811,7 @@
 	"stres_rewards" " + 影响抗性"
 	"xp_rewards" " + 体验"
 	"mana_regen_rewards" " + 法力恢复"
-	"hp_regen_rewards" " + 恢复生命值"
+	"hp_regen_rewards" " + 健康再生"
 	"armor_rewards" " + 护甲"
 	"damage_rewards" " + 伤害"
 
@@ -3845,7 +3877,7 @@
 	"round_name_random_14" "科尔-艾"
 	"round_name_random_15" "孤独"
 	"round_name_random_16" "铁皮人"
-	"round_name_random_17" "没有上帝的恩典"
+	"round_name_random_17" "但为了上帝的恩典"
 	"round_name_random_18" "在毒蛇的掌握之中"
 	"round_name_random_19" "蛇的巢穴"
 	"round_name_random_20" "履行职责"
@@ -4211,7 +4243,7 @@
 		"andromeda_repli_4" "如果这个星球拒绝他们的宗教，它就会被摧毁或被奴役。"
 		"andromeda_repli_5" "他们也来到这里，但我拒绝了他们的提议，现在他们的军队开始从他们奴役的所有世界发起攻击。"
 		"andromeda_repli_6" "他们将一个装置搬到了这个星球上——运输环，在它的帮助下他们将部队从船上转移出去！"
-		"andromeda_repli_7" "我的军队被彻底摧毁，现在我需要你在这场战争中的帮助！"
+		"andromeda_repli_7" "我的军队被彻底摧毁，现在我在这场战争中需要你的帮助！"
 		"andromeda_repli_8" "他们又进攻了！注意力！"
 		"andromeda_repli_9" "我发现随着每一波敌人的数量都会增加，并且具有独特能力的冠军也可能会出现。"
 		"andromeda_repli_10" "而且，我们防御的时间越长，他们就会变得越强大，并且他们拥有新的能力和武器。"
@@ -4226,7 +4258,7 @@
 		"andromeda_repli_19" "你已经坚持了一段时间了，我想你已经准备好和守护者一起访问这个星球了！根据我的情报，这个星系中存在着可以获取远古神器的生物！"
 		"andromeda_repli_20" "要与他们开始战斗，请转到选项卡：“个人资料”-“守护者”。"
 		"andromeda_repli_21" "如果我们击败其中任何一个，我们将获得 3 种奖励，其中一些您可以送给您的盟友！"
-		"andromeda_repli_22" "伟大的！你已经击退了第一波入侵者的进攻！"
+		"andromeda_repli_22" "伟大的！你已经击退了第一波入侵者的攻击！"
 		"andromeda_repli_23" "您可以通过“个人资料”-“GU-SHOP”来完善我的参数。"
 		"andromeda_repli_24" "古币可以通过闯关以及完成各种随机任务来获得！古币的数量取决于所选的难度！"
 		"andromeda_repli_25" "好工作！你已经击败了其中一位守护者！我收到了他的力量的一部分，这是一件独特的神器！"
@@ -4694,7 +4726,7 @@
         "npc_dota_hero_legion_commander_t2"        "改进 - 「战地 V」<br><br>现在阵亡战士的灵魂会跟随玩家。"
         "npc_dota_hero_legion_commander_t3"        "改进 -「战地 V」<br><br>将持续时间增加至 25 秒。" 
         "npc_dota_hero_legion_commander_t4"        "改进 -「灵感」<br><br>现在对任何敌方单位有效。"
-        "npc_dota_hero_legion_commander_t5"        "改进 - 「灵感」<br><br>每次触发+1叠加"
+        "npc_dota_hero_legion_commander_t5"        "改进 -「灵感」<br><br>每次触发+1叠加"
         "npc_dota_hero_legion_commander_t6"        "改善-「灵感」<br><br>将技能的冷却时间缩短至50秒。"
 
 		"npc_dota_hero_elder_titan_t2_name"		"-「石头统治」_-"
@@ -4728,7 +4760,7 @@
 		"npc_dota_hero_obsidian_destroyer_t5_name"		"-「古人的知识」_-"
 		"npc_dota_hero_obsidian_destroyer_t5"		"改进 - 「古人知识」<br><br>将冷却时间缩短至 60 秒。"
 		"npc_dota_hero_obsidian_destroyer_t6_name"		"-“认识”_-"
-		"npc_dota_hero_obsidian_destroyer_t6"		"改进 - 英雄！<br><br>删除第一个技能的伤害限制以及第二个技能的跳跃范围。"
+		"npc_dota_hero_obsidian_destroyer_t6"		"进步了——英雄！<br><br>删除第一个技能的伤害限制以及第二个技能的跳跃范围。"
 		
 		"npc_dota_hero_furion_t2_name"		"-「伊芙利特」_-"
 		"npc_dota_hero_furion_t2"		"改良——「烈焰」！<br><br>每秒伤害增加 2 倍，燃烧持续时间增加 4 倍。"
@@ -4950,7 +4982,7 @@
 		"npc_dota_hero_void_spirit_t6_name"		"-「魔符：银河系」_-"
 		"npc_dota_hero_void_spirit_t2"		"改进 -「黑魔法：事件视界」<br><br>将能力的持续时间增加到12秒。"
 		"npc_dota_hero_void_spirit_t3"		"改善 - 「爱印：大师火花」<br><br>治疗效果提高 5 倍。"
-		"npc_dota_hero_void_spirit_t4"		"强化 - 「魔符：银河」<br><br>根据公式增加额外伤害 - 智力 * 1.5。 "
+		"npc_dota_hero_void_spirit_t4"		"强化 - 「魔符：银河系」<br><br>根据公式增加额外伤害 - 智力 * 1.5。 "
 		"npc_dota_hero_void_spirit_t5"		"强化 -「魔符：银河系」<br><br>治疗量增加5倍。"
 		"npc_dota_hero_void_spirit_t6"		"改进 - 「魔法印记：银河系」<br><br>现在增加法术伤害的物品将在该能力上发挥作用。"
 
@@ -5062,10 +5094,10 @@
 		"npc_dota_hero_earth_spirit_t3"		"提高<br><font color='#A78B4A'>「反射伤害」</font><br><br>增加英雄力量的额外伤害。"
 		"npc_dota_hero_earth_spirit_t4"		"改进<br><font color='#A78B4A'>「反射伤害」</font><br><br>缺失生命值阈值从 75% 更改为 90%."
 		"npc_dota_hero_earth_spirit_t5"		"改进<br><font color='#A78B4A'>「接吻怪胎」</font><br><br>现在按下后会损失 75% 的生命值。"
-		"npc_dota_hero_earth_spirit_t6"		"提升<br><font color='#A78B4A'>「挑衅」</font><br><br>半径增加至1200，攻击单位的攻击速度增加150。"
+		"npc_dota_hero_earth_spirit_t6"		"提升<br><font color='#A78B4A'>「挑衅」</font><br><br>半径增加至1200，攻击单位攻击速度增加150。"
 
 		"npc_dota_hero_clinkz_t2_name"		"-「拯救之箭」_-"
-		"npc_dota_hero_clinkz_t3_name"		"-「拯救之箭」_-"
+		"npc_dota_hero_clinkz_t3_name"		"-「Arrows Of Salvation」_-"
 		"npc_dota_hero_clinkz_t4_name"		"-「降临仪式」_-"
 		"npc_dota_hero_clinkz_t5_name"		"-「降临仪式」_-"
 		"npc_dota_hero_clinkz_t6_name"		"-「体质强化」_-"
@@ -5102,7 +5134,7 @@
 		"npc_dota_hero_slark_t2_name"		"-“战斗机”_-"
 		"npc_dota_hero_slark_t3_name"		"-“战斗机”_-"
 		"npc_dota_hero_slark_t4_name"		"-“轰炸机”_-"
-		"npc_dota_hero_slark_t5_name"		"-「鱼雷轰炸机」_-"
+		"npc_dota_hero_slark_t5_name"		"-「Torpedo Bomber」_-"
 		"npc_dota_hero_slark_t6_name"		"-「运气好」_-"
 		"npc_dota_hero_slark_t2"		"提升<br><font color='#F7A22E'>「中队：战斗机」</font><br><br>对盟友使用该能力时，「中队：战斗机」的持续时间将延长 100%。"
 		"npc_dota_hero_slark_t3"		"提升<br><font color='#F7A22E'>「中队：战斗机」</font><br><br>增加额外伤害-智力 * 2"
@@ -5260,7 +5292,7 @@
 		"npc_dota_hero_phantom_assassin_t6_name"		"「魔王纳希玛」"
 		"npc_dota_hero_phantom_assassin_t2"		"提高<br><font color='#df26b8'>「Sandalphon」</font><br><br>增加额外伤害 - 力量 * 2"
 		"npc_dota_hero_phantom_assassin_t3"		"改进<br><font color='#df26b8'>「Adonai Melek」</font><br><br>将攻击之间的冷却时间缩短至 0.1 秒"
-		"npc_dota_hero_phantom_assassin_t4"		"强化<br><font color='#df26b8'>矢刀神十香「★★★★★★」</font><br><br>能力发动 -<font color='#df26b8'>「反转：魔王纳希玛」 「最终之剑：帕弗施列夫」</font>"
+		"npc_dota_hero_phantom_assassin_t4"		"强化<br><font color='#df26b8'>矢刀神十香「★★★★★★」</font><br><br>能力发动 -<font color='#df26b8'>「反转：魔王纳赫玛」 「最终之剑：帕弗施列夫」</font>"
 		"npc_dota_hero_phantom_assassin_t5"		"提高<br><font color='#df26b8'>「Halvanhelen」</font><br><br>增加额外伤害 - 力量 * 2"
 		"npc_dota_hero_phantom_assassin_t6"		"改进<br><font color='#df26b8'>「Halvanhelen」</font><br><br>将伤害类型更改为纯伤害。<br><br>改进<br><font color='#df26b8'>「反转：魔王纳希玛」</font><br><br>将冷却时间缩短至 200 秒。"
 
@@ -5290,7 +5322,7 @@
 		"npc_dota_hero_pugna_t3_name"			"「天翼种」"
 		"npc_dota_hero_pugna_t4_name"			"「黑色能量火箭」"
 		"npc_dota_hero_pugna_t5_name"			"「黑色能量火箭」"
-		"npc_dota_hero_pugna_t6_name"			"「刺杀模式」"
+		"npc_dota_hero_pugna_t6_name"			"「暗杀模式」"
 		"npc_dota_hero_pugna_t2"				"提高<br><font color='#ff00eb'>「黑色能量」</font><br><br>增加额外伤害 - 敏捷 * 2"
 		"npc_dota_hero_pugna_t3"				"改善<br><font color='#ff00eb'>「天翼种」</font><br><br>触发攻击次数减少至2次"
 		"npc_dota_hero_pugna_t4"				"提高<br><font color='#ff00eb'>「黑色能量火箭」</font><br><br>增加额外伤害-敏捷 * 2"
@@ -5673,7 +5705,7 @@
 		"DOTA_Tooltip_ability_item_gu_wave_2_Description"						"<h1>主动：眩晕</h1>向英雄发射一枚射弹，击中后，随机眩晕敌人%stun_min%至%stun_max%秒，冷却时间%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>值取决于难度。"
 
 		"DOTA_Tooltip_ability_item_gu_wave_3"									"投射物：解除武装"
-		"DOTA_Tooltip_ability_item_gu_wave_3_Description"						"<h1>主动：销毁武器</h1>向英雄发射射弹，击中后，解除目标的武装%duration%，重新加载%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>值取决于难度。"
+		"DOTA_Tooltip_ability_item_gu_wave_3_Description"						"<h1>主动：销毁武器</h1>向英雄发射射弹，击中后，解除目标的武装%duration%，重新加载%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>价值取决于难度。"
 		"DOTA_Tooltip_modifier_item_gu_wave_3"									"投射物：解除武装"
 		"DOTA_Tooltip_modifier_item_gu_wave_3_Description"						"你不能攻击。"
 
@@ -5703,7 +5735,7 @@
 		"DOTA_Tooltip_modifier_item_gu_wave_8_Description"						"固定不动"
 
 		"DOTA_Tooltip_ability_item_gu_wave_9"									"投射物：小偷"	
-		"DOTA_Tooltip_ability_item_gu_wave_9_Description"						"<h1>主动：小偷</h1>向英雄发射一枚射弹，击中后，会从英雄身上窃取%min_gold%% 到%max_gold%% 的随机数量的黄金，冷却时间%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>价值取决于难度。"
+		"DOTA_Tooltip_ability_item_gu_wave_9_Description"						"<h1>主动：小偷</h1>向英雄发射一枚射弹，击中后会从英雄身上窃取%min_gold%% 到%max_gold%% 的随机数量的黄金，冷却时间%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>价值取决于难度。"
 		
 		"DOTA_Tooltip_ability_item_gu_wave_10"									"投射物：扭曲"
 		"DOTA_Tooltip_ability_item_gu_wave_10_Description"						"<h1>主动：固定</h1>向英雄发射一枚射弹，击中后，他会 100% 错过%min_duration%时间，最多%max_duration%秒，冷却时间%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>价值取决于难度。"
@@ -6607,7 +6639,7 @@
 		"DOTA_Tooltip_bvo_orihime_skill_2_modifier" 						"<font color='#E5C91D'>「无名防御阵法」</font>"
 		
 		"DOTA_Tooltip_ability_origami_ylti" 								"<font color='#E5C91D'>「阿泰利夫：皇冠大炮」</font>"
-		"DOTA_Tooltip_ability_origami_ylti_Description" 						"通过<font color='#E5C91D'>「绝目天使」</font>能力创造出一个时间扭曲的球体，其中会出现裂痕，每过一秒裂痕就会越来越频繁地出现，伤害的计算公式为%damage%+折纸智力的20%。<br><br><font color='#E51D1D'>你无法使用法术伤害增强物品来增加该能力的伤害！ __标签6__"
+		"DOTA_Tooltip_ability_origami_ylti_Description" 						"通过<font color='#E5C91D'>「绝目天使」</font>能力创造出一个时间扭曲的球体，其中出现裂缝，每过一秒裂缝出现的次数就会越来越多，伤害的计算公式为%damage%+折纸智力的20%。<br><br><font color='#E51D1D'>你无法使用法术伤害增强物品来增加该能力的伤害！ __标签6__"
 
 		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「魔王：撒旦」</font>"
 		"DOTA_Tooltip_ability_origami_inverse_Description" 					"折纸获得撒旦，梅塔特隆的更黑暗、更险恶的版本，进入反转形态，获得额外的智力（%int%），并且所有魔法伤害增加%spell_amp%%%。<br><font color='#E5C91D'>在 10 级可用。</font>"
@@ -6819,7 +6851,7 @@
         "DOTA_Tooltip_ability_nero_tres_fontaine_ardent_damage"				"损害："
  
   		"DOTA_Tooltip_Ability_nero_gladiusanus_blauserum"     			"<font color='#FFE56E'>「剑兰」</font>"
-        "DOTA_Tooltip_ability_nero_gladiusanus_blauserum_Description" 		"激活后，每击中目标3次，尼禄就会对目标周围300半径范围内的区域造成伤害，并对目标施加100%的减速效果，持续%slow_duration%秒，同时激活后额外获得+100的攻击速度。"
+        "DOTA_Tooltip_ability_nero_gladiusanus_blauserum_Description" 		"激活后，每击中目标3次，尼禄就会对目标周围300半径范围内的区域造成伤害，并对目标造成100%的减速，持续%slow_duration%秒，并且激活后额外获得+100攻击速度。"
         "DOTA_Tooltip_ability_nero_gladiusanus_blauserum_duration"			"期间："
 		"DOTA_Tooltip_ability_nero_gladiusanus_blauserum_base_damage"  		"基础伤害："
 		"DOTA_Tooltip_ability_nero_gladiusanus_blauserum_bonus_damage" 		"每次命中的额外伤害："
@@ -7080,7 +7112,7 @@
 
         "talents_button_main"               "冶金厂"
         "talents_button_text"               "打开冶金工厂界面用于熔炼资源和创建物品。"
-        "talents_button_help"               "工厂是整个团队共享的全球生产体系。在这里，从矿山中提取的矿石被冶炼成复杂合金和高科技零件。资源仓库是每个人共有的，但请记住：当一个玩家开始冶炼过程时，工厂将被占用，其他人在完成之前将无法开始新工艺。"
+        "talents_button_help"               "工厂是整个团队共享的全球生产体系。在这里，从矿山中提取的矿石被冶炼成复杂的合金和高科技零件。资源仓库是每个人共有的，但请记住：当一个玩家开始冶炼过程时，工厂将被占用，其他人在完成之前将无法开始新工艺。"
         
         "ascension_button_main"             "扬升"
         "ascension_button_text"             "打开提升菜单以升级角色的特性。"
@@ -7178,7 +7210,7 @@
 		"DOTA_Tooltip_Ability_item_psychic_headband2"						"无限头盔"
 		"DOTA_Tooltip_ability_item_psychic_headband_Description"				"<h1>主动：心灵推动</h1>将选定的敌人推离主人，距离为%push_length%。\n<h1>可升级</h1><font color='#F9E62B'>该物品可以升级为 => 无限头盔。花费 750 史诗神秘水晶碎片</font>"
 		"DOTA_Tooltip_ability_item_psychic_headband2_Description"				"<h1>主动：心灵推动</h1>将选定的敌人推离主人，距离为%push_length%。" 
-		"DOTA_Tooltip_ability_item_psychic_headband2_Lore"						"无量智慧之盔，这件神秘神器的拥有者将永远远离危险，因为他看到了一切。"
+		"DOTA_Tooltip_ability_item_psychic_headband2_Lore"						"无量智慧头盔，这件神秘神器的拥有者将永远远离危险，因为他看到了一切。"
 		"DOTA_Tooltip_ability_item_psychic_headband2_intelligence_pct"			"%+智力"
 		"DOTA_Tooltip_ability_item_psychic_headband2_cast_range"				"+$cast_range"
 
@@ -7619,7 +7651,7 @@
 		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat_Description" 					"对半径800范围内造成巨大伤害，一次射击消耗2%能量。<br><font color='#fd2727'>如果能量不足，会自动切换到「3UBR8」</font>弹丸"
 
 		"DOTA_Tooltip_ability_gu_btr82a_smoke" 									"<font color='#fd2727'>「902系统「云端」」</font>"
-		"DOTA_Tooltip_ability_gu_btr82a_smoke_Description" 							"902“云”系统是苏联统一的装甲车发射81毫米烟雾弹的系统。在选定区域制造烟幕，所有落入效果区域的敌方单位都会错过所有人，并有机会%miss_chance%%%"
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_Description" 							"902“云”系统是苏联统一的装甲车发射81毫米烟雾弹的系统。在选定区域内制造烟幕，所有落入效果区域的敌方单位都会错过所有人，并有机会%miss_chance%%%"
 		"DOTA_Tooltip_ability_gu_btr82a_smoke_duration"								"期间： "
 		"DOTA_Tooltip_ability_gu_btr82a_smoke_radius"								"半径： "
 		"DOTA_Tooltip_ability_gu_btr82a_smoke_shard_Description"				"所有级别的持续时间增加+10秒。"
@@ -7775,7 +7807,7 @@
 		"gate_deactive"		 									"电源错误"
 		"error_zpm_boss"										"门电源错误，您没有足够的能量。"
 
-		"zpm_module"											"神经网络"
+		"zpm_module"											"运动神经元"
 		"zpm_module_Description"								"零点模块 - 该装置是古人创造的能源。 MNT的工作原理是零点振荡，这使得MNT能够从人工创建的子时空中“吸取”能量。事实上，MNT是一个微型宇宙。"
 
 		"DOTA_Tooltip_ability_item_zpm"							"运动神经元"
@@ -8016,7 +8048,7 @@
 
 
 		"DOTA_Tooltip_ability_gu_bmp1_upgrade"							"骨形态发生蛋白-1"
-		"DOTA_Tooltip_ability_gu_bmp1_upgrade_Description"				"BMP-1是苏联第一款系列装甲战斗履带车，能够游动，设计用于在战场上运送摩托化步兵部队人员，增强其在战场上的机动性、武器装备和防护能力，以及在战斗中与坦克联合行动。步兵战车这一类战车的始祖；世界上第一款量产的步兵战车。提高基本特性。增加+%bonus_health%生命值，+%bonus_armor%增加护甲，+%attack_range_bonus%增加射程，+%damage%增加伤害。受到自身伤害减少 20%。<br><br>有固定的射速，没有减少基础攻击时间的物品等起作用！"
+		"DOTA_Tooltip_ability_gu_bmp1_upgrade_Description"				"BMP-1是苏联第一款系列装甲战斗履带车，能够游动，设计用于在战场上运输摩托化步兵部队人员，增强其在战场上的机动性、武器装备和防护能力，以及在战斗中与坦克联合行动。步兵战车这一类战车的始祖；世界上第一款量产的步兵战车。提高基本特性。增加+%bonus_health%生命值，+%bonus_armor%增加护甲，+%attack_range_bonus%增加射程，+%damage%增加伤害。受到自身伤害减少 20%。<br><br>有固定的射速，没有减少基础攻击时间的物品等起作用！"
 		"DOTA_Tooltip_ability_gu_bmp1_upgrade_scepter_Description"		"增加 300% 的额外伤害"
 
 		"DOTA_Tooltip_ability_gu_bmp1_ammo_kym" 						"<font color='#f9fd27'>「PG–15」</font>"
@@ -8373,7 +8405,7 @@
 		"polonium210_5"																	"输入：<font color='#FE0033'>钍-230</font>1 个，<font color='#FE0033'>Cobalt-60</font>1 个<br>输出：<font color='#249A41'>Radium-226</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个，<font color='#249A41'>Nickel-60</font>1 个<br>MNT 能量：-500<br>时间：15 秒"
 		"polonium210_6"																	"输入：<font color='#FE0033'>Radium-226</font>1 个，<font color='#FE0033'>Cobalt-60</font>1 个<br>输出：<font color='#249A41'>Radon-222</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个，<font color='#249A41'>Nickel-60</font>1 个<br>MNT 能量：-500<br>时间：15 秒"
 		"polonium210_7"																	"输入：<font color='#FE0033'>Radon-222</font>1 个。<br>输出：<font color='#249A41'>钋-218</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个<br>MNT 能量：+1600<br>时间：3 秒"
-		"polonium210_8"																	"输入：<font color='#FE0033'>钋-218</font>1 个。<br>输出：<font color='#249A41'>Lead-214</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个<br>MNT 能量：+2500<br>时间：1 秒"
+		"polonium210_8"																	"输入：<font color='#FE0033'>钋-218</font>1 件。<br>输出：<font color='#249A41'>Lead-214</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个<br>MNT 能量：+2500<br>时间：1 秒"
 		"polonium210_9"																	"输入：<font color='#FE0033'>Lead-214</font>1 个。<br>输出：<font color='#249A41'>Bismuth-214</font>1 个。<br>MNT 能量：+2500<br>时间：1 秒"
 		"polonium210_10"																"输入：<font color='#FE0033'>Bismuth-214</font>1 个。<br>输出：<font color='#249A41'>钋-214</font>1 个。<br>MNT 能量：+3000<br>时间：1 秒"
 		"polonium210_11"																"输入：<font color='#FE0033'>钋-214</font>1 个。<br>输出：<font color='#249A41'>Lead-210</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个<br>MNT 能量：+3000<br>时间：1 秒"
@@ -8435,7 +8467,7 @@
 		"DOTA_Tooltip_ability_item_cobalt59"                                                    "钴59"
         "DOTA_Tooltip_ability_item_cobalt59_Description"                                           	"自然界中最常见的钴同位素。它是许多合金和特种钢的组成部分，包括硬磁和耐热材料。<br>通过钴 59 与中子反应获得，钴 60 用作催化剂来加速某些衰变反应。<br>稳定。"
 
-		"DOTA_Tooltip_ability_item_proton"                                                    "普腾"
+		"DOTA_Tooltip_ability_item_proton"                                                    "质子"
         "DOTA_Tooltip_ability_item_proton_Description"                                            "基本粒子（强子）。构成普通物质的三种粒子（连同中子和电子）之一。<br>在核反应堆中用作质子-质子反应链中 MNT 的能源。<br>稳定。"
 
         "DOTA_Tooltip_ability_item_neutron"                                                    "中子"
@@ -8450,7 +8482,7 @@
 		"DOTA_Tooltip_modifier_item_gu_frequency_amplifier"                                    "频率放大器"
         "DOTA_Tooltip_modifier_item_gu_frequency_amplifier_Description"                            "一个允许您连接到 Andromeda 安全系统以增强其保护的工具。"
 
-		"DOTA_Tooltip_ability_item_gu_antirad"                                     				"抗辐射防护复合体"
+		"DOTA_Tooltip_ability_item_gu_antirad"                                     				"抗辐射防护复合物"
         "DOTA_Tooltip_ability_item_gu_antirad_Description"                         				    "在最终任务中防止辐射。激活后，它适用于所有玩家。"
 
 		"DOTA_Tooltip_modifier_item_gu_antirad"                                    				"抗辐射防护复合体"
@@ -8566,13 +8598,13 @@
 		"Talent_MI24V_Label_EnergyCost"     "能源消耗"
 
 		"Talent_MI24_03_20"                 "对目标的攻击会造成护甲破坏效果。"
-    	"Talent_MI24_Label_ShredDuration"   "Длительность снижения брони"
+    	"Talent_MI24_Label_ShredDuration"   "护甲减少持续时间"
 
 		"Talent_Mosquito_01_5"                  "根据英雄的敏捷性，增加火箭伤害的额外伤害。"
     	"Talent_Mosquito_Label_BonusAgiDamage"  "添加。敏捷伤害"
 
 		"Talent_Mosquito_01_15"                 "将导弹发射间隔从 0.5 秒缩短至 0.1 秒。"
-    	"Talent_Mosquito_Label_Interval"        "Интервал выпуска"
+    	"Talent_Mosquito_Label_Interval"        "释放间隔"
 
 
 		"andromeda_repli_failed"	"你无法证明我的信任！你和奥里合而为一！！！你会被毁掉的！！！！你的游戏结束了。"
@@ -8715,7 +8747,7 @@
 		"DOTA_Tooltip_ability_item_gu_rude_compass_2_Description"	"用于搜索稀有金属和难熔金属的增强型扫描仪。使用时，它会进行全面搜索，同时探测第一层和第二层的自由矿床并在上面安装地雷。使用成功后消失。"
 		
 		"DOTA_Tooltip_ability_item_gu_rude_compass_3"				"共振深度定位器"
-		"DOTA_Tooltip_ability_item_gu_rude_compass_3_Description"	"一种能够检测遗迹元素辐射的复杂装置。激活后，它会发起大规模扫描，同时打开空置的 1、2 和 3 级矿藏（包括 Naquadah、Quadrillium 和 Aurodia 的矿脉）并在那里安装地雷。使用成功后消失。"
+		"DOTA_Tooltip_ability_item_gu_rude_compass_3_Description"	"一种能够检测遗迹元素辐射的复杂装置。激活后，它会启动大规模扫描，同时打开空置的 1、2 和 3 级矿藏（包括 Naquadah、Quadrillium 和 Aurodia 的矿脉）并在那里安装地雷。使用成功后消失。"
 	
 		// ШАГ 1: КОНФАЙНМЕНТ (УДЕРЖАНИЕ)
         "DOTA_Tooltip_Ability_item_gu_radiation_protection"             "防辐射防护"
@@ -8818,7 +8850,7 @@
 		"DOTA_Tooltip_ability_sangonomiya_bake_kurage_Description"					"被动指令。 Sangonomy 定期将沸水区召唤到竞技场中。在其中时，她会迅速恢复生命值，而党的敌人每秒都会受到纯粹的伤害。"
 		
 		// 2. ЖЕМЧУЖНЫЕ РЕПРЕССИИ
-		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"珍珠镇压"
+		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"Жемчужные репрессии"
 		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions_Description"			"Sangonomy 在自身周围构建了一个完美的集水环。短暂的延迟后，巨大的尖刺从地面爆发出来，击晕入侵者，造成魔法伤害，并刺穿他们的魔法护甲。"
 		
 		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff"						"珍珠镇压"
