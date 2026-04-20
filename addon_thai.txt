@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-"Language"	"thai"
+"Language"	"ภาษารัสเซีย"
 "Tokens"
 {
 "addon_game_name"							"ผู้พิทักษ์จักรวาล"
@@ -251,7 +251,7 @@
         "DOTA_Tooltip_modifier_voin_aphotic_shield_description"                       "ดูดซับความเสียหายที่เข้ามา"
 
         "DOTA_Tooltip_ability_voin_borrowed_time"                                     "<font color='#B56213'>「โอกาสสุดท้าย」</font>"
-        "DOTA_Tooltip_ability_voin_borrowed_time_description"                         "ฮีโร่ใช้การลบล้างอย่างรุนแรงกับตัวเอง และเปลี่ยนความเสียหายที่ได้รับให้เป็นการรักษาชั่วคราว ความสามารถจะถูกนำไปใช้โดยอัตโนมัติหากสุขภาพลดลงต่ำกว่าระดับที่กำหนด คูลดาวน์ของความสามารถนี้ไม่สามารถลดลงจากเอฟเฟกต์อื่นได้"
+        "DOTA_Tooltip_ability_voin_borrowed_time_description"                         "ฮีโร่ใช้การลบล้างอย่างรุนแรงกับตัวเอง และเปลี่ยนความเสียหายที่ได้รับให้เป็นการรักษาชั่วคราว ความสามารถจะถูกนำไปใช้โดยอัตโนมัติหากสุขภาพลดลงต่ำกว่าระดับที่กำหนด คูลดาวน์ของความสามารถนี้ไม่สามารถลดลงได้ด้วยเอฟเฟกต์อื่น"
         "DOTA_Tooltip_ability_voin_borrowed_time_hp_threshold"                        "เกณฑ์ความสมบูรณ์สำหรับการร่ายอัตโนมัติ: "
         "DOTA_Tooltip_ability_voin_borrowed_time_duration"                            "ระยะเวลา: "
         "DOTA_Tooltip_ability_voin_borrowed_time_duration_scepter"                    "ระยะเวลา (คทา): "
@@ -337,7 +337,7 @@
 		"Talent_Legate_Label_StacksBonus"   "ได้รับสแต็คแล้ว"
 		"Talent_Legate_Label_FixedCD"       "คูลดาวน์ (คงที่)"
         
-            "npc_dota_hero_elder_titan"									    "โมแรกซ์「★★★★」"
+            "npc_dota_hero_elder_titan"									    "โมแร็กซ์「★★★★」"
 
 		// Gaias Fury
 		"DOTA_Tooltip_ability_reus_gaias_fury"											"<font color='#93735E'>「ชะตากรรมของคริสตัล」</font> "
@@ -416,7 +416,7 @@
         "DOTA_Tooltip_ability_gu_arrow_strom_radius"                                   "รัศมีเริ่มต้น: "
         "DOTA_Tooltip_ability_gu_arrow_strom_max_radius"                               "รัศมีสูงสุด: "
         "DOTA_Tooltip_ability_gu_arrow_strom_duration"                                 "ระยะเวลา (วินาที): "
-        "DOTA_Tooltip_ability_gu_arrow_strom_shard_description"                        "ลูกศรแต่ละลูกที่โดนจะเพิ่มความเสียหายเพิ่มเติมของฮีโร่เป็นการชั่วคราว โดยขึ้นอยู่กับความเสียหายพื้นฐานของเขา ระยะเวลาของเอฟเฟกต์คือ 15 วินาที"
+        "DOTA_Tooltip_ability_gu_arrow_strom_shard_description"                        "การยิงธนูแต่ละครั้งจะเพิ่มความเสียหายให้กับฮีโร่เป็นการชั่วคราว โดยขึ้นอยู่กับความเสียหายพื้นฐานของเขา ระยะเวลาของเอฟเฟกต์คือ 15 วินาที"
         
         "DOTA_Tooltip_modifier_gu_arrow_strom_shard_buff"                              "เศษ: ฝนแห่งลูกศร"
         "DOTA_Tooltip_modifier_gu_arrow_strom_shard_buff_description"                  "ความเสียหายเพิ่มเติมจะเพิ่มขึ้นเนื่องจากความสามารถโจมตี"
@@ -519,7 +519,7 @@
 		"Sniper_Label_TakeAimAgi"           "โบนัสเพื่อความคล่องตัว"
 		"Sniper_Label_TakeAimInstaKill"     "โอกาสที่จะคืบคลานครั้งเดียว (>1,000 ระยะ)"
 
-		"Talent_Sniper_ArmorIgnore_5"       "Увеличивает шанс пробивания брони на 8% за каждый уровень прокачки этой способности."
+		"Talent_Sniper_ArmorIgnore_5"       "เพิ่มโอกาสในการเจาะเกราะ 8% สำหรับแต่ละระดับของความสามารถนี้"
 		"Sniper_Label_ArmorIgnoreChance"    "โอกาสที่จะเพิกเฉยต่อชุดเกราะ"
 
 		"Sniper_Shard_APBullet_Desc"        "ลดจำนวนครีปที่ถูกฆ่าที่ต้องได้รับความเสียหายสะสม 3 (ขั้นต่ำ 1)"
@@ -530,67 +530,80 @@
 
 		    "npc_dota_hero_lina" 										    "ลีน่า「★★★★★★」"
 	
-		"DOTA_Tooltip_ability_lina_dragon_slave"								        "<font color='#FE5C2C'>「ลมหายใจแห่งไฟ」</font> "
-		"DOTA_Tooltip_ability_lina_dragon_slave_Description"						        "Lina ปล่อยลมหายใจของมังกร ซึ่งจะเผาทุกสิ่งที่ขวางหน้า"
-		
-		"DOTA_Tooltip_ability_lina_light_strike_array"							        "<font color='#FE5C2C'>「เสาเปลวไฟ」</font> "
-		"DOTA_Tooltip_ability_lina_light_strike_array_Description"					        "เรียกเสาเพลิงคำรามที่ทำให้ศัตรูมึนงง"
-		
-		"DOTA_Tooltip_ability_lina_laguna_cu"									        "<font color='#FE5C2C'>「สายฟ้าไม่เสถียร」</font>"
-	    "DOTA_Tooltip_ability_lina_laguna_cu_Description"							        "เมื่อใช้ ช่วงเวลาสุ่มระหว่างสายฟ้า เพลง และเอฟเฟกต์จะถูกเลือก หลังจากนั้นในรัศมี%aoe%รอบฮีโร่ กลุ่มศัตรูจะได้รับความเสียหายขึ้นอยู่กับสติปัญญาของคุณ"
-		"DOTA_Tooltip_ability_lina_laguna_cu_Note0"                                         "ทำงานตามสูตร%damage%+ Intelligence * 1.5"
-        "DOTA_Tooltip_ability_lina_laguna_cu_target_count"								    "จำนวนเป้าหมาย: "
-		"DOTA_Tooltip_ability_lina_laguna_cu_duration"									    "ระยะเวลา: "
-		"DOTA_Tooltip_modifier_lina_laguna_cu"												"<font color='#FE5C2C'>「สายฟ้าไม่เสถียร」</font>"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire"                            "<font color='#FE5C2C'>「เปลวไฟแห่งความมืด」</font>"
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_description"                "ฮีโร่ปล่อยคลื่นเปลวไฟแห่งการทำลายล้างซึ่งสร้างความเสียหายเวทย์มนตร์และทำให้ศัตรูมึนงงในแนวเดียว ความเสียหายของความสามารถจะเพิ่มขึ้นตามสติปัญญาของเจ้าของ ศัตรูที่โดนโจมตีจะได้รับชาร์จ<font color='#FF3333'>「Eternal Flame」</font>"
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_damage"                     "ความเสียหายพื้นฐาน: "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_intellect_pct"              "ความเสียหายทางปัญญา (%): "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"              "ระยะเวลาสตัน: "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"               "ข้อหาวางเพลิง: "
 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade" 							        "<font color='#FE5C2C'>「สายฟ้า」</font>"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" 					        "ปล่อยสายฟ้าฟาดใส่ศัตรู หากเป้าหมายตายภายในไม่กี่วินาทีหลังจากร่ายความสามารถ ความสามารถนั้นจะได้รับชาร์จเพิ่มความเสียหาย"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage" 							    "ความเสียหาย: " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_scepter" 					    "ความเสียหายด้วยคทา: " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill" 					    "ความเสียหายเพิ่มเติมต่อการชาร์จ: " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_splash_radius_scepter" 				    "รัศมีสายฟ้าพร้อมคทา: " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_delay" 						    "ความล่าช้าในการร่าย: " 
-		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus" 					        "เพิ่มความเสียหายสายฟ้าตามครีป/ฮีโร่แต่ละตัวที่ถูกฆ่า"
-		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" 			        "ความเสียหายสายฟ้าของคุณเพิ่มขึ้น"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_shard_Description" 						"เพิ่มตัวบ่งชี้ความเสียหายทั้งหมด 2 เท่า"
+        "DOTA_Tooltip_ability_gu_lina_light_array"                          "<font color='#FFD700'>「แสงแฟลช」</font>"
+        "DOTA_Tooltip_ability_gu_lina_light_array_description"              "เรียกเสาเพลิงเข้มข้นที่สร้างความเสียหายเวทย์ ทำให้ศัตรูมึนงง และทิ้งดินที่ไหม้เกรียมไว้เบื้องหลัง ศัตรูบนโลกที่ไหม้เกรียมจะได้รับความเสียหายเป็นระยะและชาร์จ<font color='#FF3333'>「Eternal Flame」</font>และเมื่อสตันสิ้นสุดลง ความเร็วในการเคลื่อนที่ของพวกเขาจะลดลง"
+        "DOTA_Tooltip_ability_gu_lina_light_array_base_damage"              "ความเสียหายพื้นฐาน: "
+        "DOTA_Tooltip_ability_gu_lina_light_array_intellect"                "ความเสียหายทางปัญญา (%): "
+        "DOTA_Tooltip_ability_gu_lina_light_array_radius"                   "รัศมีความเสียหาย: "
+        "DOTA_Tooltip_ability_gu_lina_light_array_duration"                 "ระยะเวลาที่โลกเผาไหม้: "
+        
+        "DOTA_Tooltip_modifier_gu_lina_light_array_stun"                    "<font color='#FFD700'>「แฟลชสตัน」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_light_array_stun_description"        "สิ่งมีชีวิตนั้นตกตะลึง"
+        "DOTA_Tooltip_modifier_gu_lina_light_array_debuff"                  "<font color='#FFD700'>「แฟลชเบิร์น」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_light_array_debuff_description"      "ความเร็วในการเคลื่อนที่ลดลง<font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>"
 
-		// 1. Темное пламя (dark_fire)
-		"DOTA_Tooltip_ability_gu_lina_dark_fire"							"<font color='#FE5C2C'>「เปลวไฟแห่งความมืด」</font>"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_Description"				"Lina ปล่อยคลื่นไฟแห่งความมืดที่ทำลายล้าง สร้างความเสียหายอย่างแท้จริง และสตันศัตรูในเลน\n\nความเสียหายของความสามารถจะเพิ่มขึ้นตามสติปัญญาของฮีโร่ ศัตรูที่โดนโจมตีจะได้รับชาร์จเพิ่มเติม<font color='#FF3333'>「Eternal Flame」</font>"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_damage"						"ความเสียหายพื้นฐาน:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_intellect"					"%УРОНจากความฉลาด:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"				"สตัน:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"				"ข้อหาลอบวางเพลิง:"
+        "DOTA_Tooltip_ability_gu_lina_ashes"                                "<font color='#A8A8A8'>「จากขี้เถ้าสู่ขี้เถ้า」</font>"
+        "DOTA_Tooltip_ability_gu_lina_ashes_description"                    "ความสามารถแบบพาสซีฟ การร่ายเวทย์แต่ละครั้งจะล้อมรอบฮีโร่ด้วยเถ้าถ่าน ทำให้สามารถสะสมชาร์จบัฟได้"
+        "DOTA_Tooltip_ability_gu_lina_ashes_duration"                       "ระยะเวลาเอฟเฟกต์: "
+        
+        "DOTA_Tooltip_modifier_gu_lina_ashes_buff"                          "<font color='#A8A8A8'>「จากขี้เถ้าสู่ขี้เถ้า」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_ashes_buff_description"              "ฮีโร่ถูกล้อมรอบด้วยขี้เถ้าเพื่อเพิ่มความสามารถของเขา"
 
-		// 2. Вспышка Света (light_array)
-		"DOTA_Tooltip_ability_gu_lina_light_array"							"<font color='#FFD700'>「แสงแฟลช」</font>"
-		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"เรียกเสาเพลิงที่รวมตัวซึ่งจะทำให้ศัตรูมึนงงเป็นเวลา%stun_duration%วินาที สร้างความเสียหาย และทิ้งแผ่นดินที่ไหม้เกรียมไว้เบื้องหลัง\n\nศัตรูที่เหลืออยู่บนโลกที่ไหม้เกรียมจะได้รับความเสียหายต่อเนื่องและชาร์จเพิ่มเติมเป็น<font color='#FF3333'>「Eternal Flame」</font>และหลังจากสตันสิ้นสุดลง ความเร็วในการเคลื่อนที่ก็จะลดลงอย่างมาก"
-		"DOTA_Tooltip_ability_gu_lina_light_array_base_damage"				"ความเสียหายพื้นฐาน:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_intellect"				"%УРОНจากความฉลาด:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_radius"					"รัศมีการระเบิด:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_duration"					"เวลาการเผาไหม้ของโลก:"
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite"                       "<font color='#FF3333'>「เปลวไฟนิรันดร์」</font>"
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_description"           "ความสามารถแบบพาสซีฟ การโจมตีและคาถาของฮีโร่ทำให้ศัตรูติดไฟด้วยเปลวไฟบริสุทธิ์ ชาร์จแต่ละครั้งจะสร้างความเสียหายโดยตรงเป็นระยะๆ โดยจำนวนจะขึ้นอยู่กับคะแนน Intelligence ของเจ้าของในปัจจุบัน"
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"              "ระยะเวลาการเผาไหม้: "
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"                "ความเสียหายพื้นฐานต่อการชาร์จ: "
+        
+        "DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"               "<font color='#FF3333'>「เปลวไฟนิรันดร์」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_description"   "สิ่งมีชีวิตนั้นไหม้และได้รับความเสียหายอย่างต่อเนื่อง"
+
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade"                        "<font color='#00e5ff'>「การปล่อยสายฟ้า」</font>"
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_description"            "ปล่อยสายฟ้าทำลายล้าง สร้างความเสียหายเวทย์มนตร์มหาศาลในพื้นที่รอบๆ เป้าหมาย หากศัตรูเสียชีวิตในขณะที่ Lightning Shock ใช้งานได้ชั่วขณะ ฮีโร่จะได้รับชาร์จที่เพิ่มความเสียหายพื้นฐานของความสามารถนี้อย่างถาวร"
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_shard_description"      "เพิ่มความเสียหายทั้งหมดที่ได้รับจากความสามารถเป็นสองเท่า"
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage"                 "ความเสียหายพื้นฐาน: " 
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_splash_radius"          "รัศมีความเสียหาย: " 
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill"        "ความเสียหายเพิ่มเติมต่อการชาร์จ: " 
+        
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus"                 "<font color='#00e5ff'>「พลังปะทะ」</font>"
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_description"     "Lightning Discharge ความเสียหายเพิ่มขึ้นสำหรับการฆ่าศัตรู"
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_death"                 "<font color='#00e5ff'>「สายฟ้าช็อต」</font>"
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_death_description"     "หากสิ่งมีชีวิตตายภายใต้เอฟเฟกต์นี้ เจ้าของความสามารถนี้จะได้รับโบนัสความเสียหายถาวร"
+
+        "DOTA_Tooltip_ability_lina_laguna_cu"                               "<font color='#b000ff'>「สายฟ้าไม่เสถียร」</font>"
+        "DOTA_Tooltip_ability_lina_laguna_cu_description"                   "ฮีโร่สร้างพายุที่สุ่มปล่อยสายฟ้าใส่ศัตรูแบบสุ่มในรัศมีขนาดใหญ่ ความเสียหายของสายฟ้าแต่ละลูกประกอบด้วยค่าพื้นฐานและเปอร์เซ็นต์ของคะแนนข่าวกรองปัจจุบันของเจ้าของ"
+        "DOTA_Tooltip_ability_lina_laguna_cu_base_damage"                   "ความเสียหายจากสายฟ้าพื้นฐาน: "
+        "DOTA_Tooltip_ability_lina_laguna_cu_int_mult"                      "ตัวคูณความเสียหายทางปัญญา: "
+        "DOTA_Tooltip_ability_lina_laguna_cu_target_count"                  "จำนวนสายฟ้าฟาดต่อช่วงเวลา: "
+        "DOTA_Tooltip_ability_lina_laguna_cu_aoe"                           "รัศมีความเสียหาย: "
+        "DOTA_Tooltip_ability_lina_laguna_cu_duration"                      "ระยะเวลาพายุ: "
+        
+        "DOTA_Tooltip_modifier_lina_laguna_cu"                              "<font color='#b000ff'>「สายฟ้าไม่เสถียร」</font>"
+        "DOTA_Tooltip_modifier_lina_laguna_cu_description"                  "พายุโหมกระหน่ำรอบตัวฮีโร่ โจมตีศัตรูแบบสุ่มด้วยสายฟ้า"
+
 		
-		"DOTA_Tooltip_modifier_gu_lina_light_array_stun"					"<font color='#FFD700'>「แฟลชสตัน」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_stun_Description"		"ตะลึงกับเสาเพลิง"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff"					"<font color='#FFD700'>「แฟลชเบิร์น」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff_Description"		"ความเร็วในการเคลื่อนที่ลดลง<font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>"
+		"Lina_Scepter_DarkFire_Desc"     "เปลี่ยนประเภทความเสียหายของความสามารถเป็น Pure ซึ่งจะไม่สนใจความต้านทานเวทมนตร์"
+		"Talent_Lina_DarkFire_20"        "เพิ่มความฉลาดเพิ่มเติม 60% ให้กับความเสียหายของความสามารถ"
+		"Lina_Label_DarkFireDmg"         "ความเสียหาย (พื้นฐาน + ความสามารถพิเศษ)"
 
-		// 3. Пепел (ashes)
-		"DOTA_Tooltip_ability_gu_lina_ashes"								"<font color='#A8A8A8'>「จากขี้เถ้าสู่ขี้เถ้า」</font>"
-		"DOTA_Tooltip_ability_gu_lina_ashes_Description"					"การร่ายเวทย์แต่ละครั้งจะล้อมรอบ Lina ด้วยเถ้าถ่าน ทำให้เธอได้รับบัฟจำนวนมาก"
-		"DOTA_Tooltip_ability_gu_lina_ashes_duration"						"ระยะเวลาของเถ้า:"
-		
-		"DOTA_Tooltip_modifier_gu_lina_ashes_buff"							"<font color='#A8A8A8'>「จากขี้เถ้าสู่ขี้เถ้า」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_ashes_buff_Description"				"ขี้เถ้าจากคาถาที่ใช้ห่อหุ้มฮีโร่"
+		"Lina_Scepter_LightArray_Desc"   "เปลี่ยนประเภทความเสียหายของความสามารถเป็น Pure ซึ่งจะไม่สนใจความต้านทานเวทมนตร์"
+		"Talent_Lina_LightArray_5"       "เพิ่มระยะเวลาของเปลวไฟที่เหลืออยู่เป็นสองเท่า"
 
-		// 4. Вечное пламя (endless_ignite)
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite"						"<font color='#FF3333'>「เปลวไฟนิรันดร์」</font>"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_Description"			"การโจมตีและความสามารถของ Lina เผาผลาญศัตรูด้วยเปลวเพลิงบริสุทธิ์ แต่ละชาร์จจะสร้างความเสียหายโดยตรงเป็นระยะ โดยจำนวนจะขึ้นอยู่กับคะแนน Intelligence ของ Lina ในปัจจุบันโดยตรง"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"				"ระยะเวลาการลอบวางเพลิง:"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"				"ความเสียหายพื้นฐาน (ต่อสแตค):"
-		
-		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"				"<font color='#FF3333'>「เปลวไฟนิรันดร์」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_Description"	"หน่วยนี้กำลังลุกไหม้ มันได้รับความเสียหายมหาศาลเป็นช่วงๆ โดยขึ้นอยู่กับค่า Intelligence ของผู้ร่าย"
+		"Lina_Scepter_Laguna_Desc"       "เปลี่ยนประเภทความเสียหายของความสามารถเป็น Pure ซึ่งจะไม่สนใจความต้านทานเวทมนตร์"
+		"Lina_Shard_Laguna_Desc"         "เพิ่มความเสียหายสุดท้ายของความสามารถ (รวมถึงโบนัสจากสแต็ค) 2 เท่า"
+		"Talent_Lina_Laguna_1"           "การสังหารแต่ละความสามารถจะได้รับโบนัสความเสียหาย 2 สแต็ค แทนที่จะเป็น 1 สแต็ค"
+		"Talent_Lina_Laguna_15"          "ความสามารถนี้ทำงานสองครั้ง (โจมตีเป้าหมายเดิมซ้ำหลังจาก 0.25 วินาที)"
+		"Lina_Label_LagunaStacks"        "สตาคอฟในข้อหาฆาตกรรม"
+
+		"Talent_Lina_LagunaCU_10"        "การโจมตีแต่ละครั้งของความสามารถจะรักษาคุณ 5% ของความเสียหายที่ทำได้"
+		"Talent_Lina_LagunaCU_20"        "กำหนดคูลดาวน์คงที่ของท่าไม้ตายสูงสุดเป็น 50 วินาที"
+		"Lina_Label_LagunaCUHeal"        "การรักษาความเสียหาย"
 
 		    "npc_dota_hero_obsidian_destroyer" 							    "เมอร์ลิน「★★★」"
 		
@@ -640,30 +653,65 @@
 
 		    "npc_dota_hero_oracle"								             "นกแก้วข้ามมิติ「★★★★」"	
 	
-		"DOTA_Tooltip_ability_space_rift"								"<font color='#9A75FE'>「รอยแยกแห่งจักรวาล」</font>"
-		"DOTA_Tooltip_ability_space_rift_Description"					"ความสามารถแบบพาสซีฟ\nคาถาแต่ละคาถาของคุณทำลายโครงสร้างของพื้นที่รอบตัวคุณ Rifts สร้างความเสียหายพื้นฐานให้กับศัตรูที่อยู่ใกล้เคียงทั้งหมด ศัตรูที่ติดอยู่ตรงกลางรอยแยกจะได้รับความเสียหายเพิ่มเติมเท่ากับ 5%%ของพลังชีวิตสูงสุดของพวกเขา"
-		"DOTA_Tooltip_ability_space_rift_damage"						"ความเสียหายพื้นฐาน:"
-		"DOTA_Tooltip_modifier_space_rift_passive"						"รอยแยกจักรวาล"
-		
-		"DOTA_Tooltip_ability_chronos_magic"							"<font color='#9A75FE'>「เวทมนตร์อวกาศ」</font>"
-		"DOTA_Tooltip_ability_chronos_magic_Description"				"นักเวทย์งอพื้นที่รอบตัวเขา ดึงศัตรูที่อยู่รอบข้างทั้งหมด และสร้างความเสียหายเพิ่มขึ้นให้กับพวกเขาในระหว่างการดึง ในตอนท้ายของแอ็คชั่น ฮีโร่และศัตรูที่ดึงดูดทั้งหมดจะถูกเคลื่อนย้ายไปยังจุดที่ระบุ ซึ่งเกิดการระเบิดอันทรงพลัง\n\n<font color='#F81717'>ข้อจำกัด:</font>คูลดาวน์พื้นฐานของความสามารถไม่สามารถลดได้ด้วยไอเท็มลดคูลดาวน์"
-		"DOTA_Tooltip_ability_chronos_magic_pull_damage"				"ดึงความเสียหาย:"
-		"DOTA_Tooltip_ability_chronos_magic_open_damage"				"สิ้นสุดความเสียหายจากการระเบิด:"
-		"DOTA_Tooltip_ability_chronos_magic_shard_Description"			"ลดคูลดาวน์ของความสามารถลงเหลือ 10 วินาที"
+"DOTA_Tooltip_ability_space_rift"                                 "<font color='#9A75FE'>「รอยแยกแห่งจักรวาล」</font>"
+        "DOTA_Tooltip_ability_space_rift_description"                     "ความสามารถแบบพาสซีฟ การใช้คาถาแต่ละครั้งจะทำลายโครงสร้างพื้นที่รอบๆ ฮีโร่ รอยแยกที่เกิดขึ้นจะสร้างความเสียหายเวทย์แก่ศัตรูทั้งหมดที่อยู่ในรัศมี ศัตรูที่ติดอยู่ในศูนย์กลางของรอยแยกจะได้รับความเสียหายเพิ่มเติมตามพลังชีวิตสูงสุดของพวกเขา"
+        "DOTA_Tooltip_ability_space_rift_damage"                          "ความเสียหายพื้นฐาน:"
+        "DOTA_Tooltip_ability_space_rift_center_damage"                   "ความเสียหายจากศูนย์กลาง (% ของ HP สูงสุด):"
+        "DOTA_Tooltip_ability_space_rift_radius"                          "รัศมีความผิดปกติ:"
+        "DOTA_Tooltip_ability_space_rift_center_radius"                   "รัศมีศูนย์กลางศูนย์กลาง:"
+        "DOTA_Tooltip_modifier_space_rift_passive"                        "รอยแยกจักรวาล"
+        
+        "DOTA_Tooltip_ability_chronos_magic"                               "<font color='#9A75FE'>「เวทมนตร์อวกาศ」</font>"
+        "DOTA_Tooltip_ability_chronos_magic_description"                   "ฮีโร่โค้งงอพื้นที่ ดึงดูดศัตรูทั้งหมดที่อยู่ในระยะและสร้างความเสียหายเพิ่มขึ้นกับพวกเขา ในตอนท้ายของแรงดึงดูด ฮีโร่และเป้าหมายที่จับได้ทั้งหมดจะถูกย้ายไปยังจุดที่ระบุ ซึ่งเกิดการระเบิดเชิงพื้นที่อันทรงพลัง คูลดาวน์ของความสามารถนี้ไม่สามารถลดลงได้ด้วยเอฟเฟกต์การลดคูลดาวน์"
+        "DOTA_Tooltip_ability_chronos_magic_pull_damage"                   "ดึงความเสียหาย:"
+        "DOTA_Tooltip_ability_chronos_magic_pull_bonus"                    "เพิ่มความเสียหายของแรงดึงดูด:"
+        "DOTA_Tooltip_ability_chronos_magic_open_damage"                   "ความเสียหายจากการระเบิด:"
+        "DOTA_Tooltip_ability_chronos_magic_radius"                        "รัศมีการดึงดูด:"
+        "DOTA_Tooltip_ability_chronos_magic_duration"                      "เวลาสถานที่ท่องเที่ยว:"
+        "DOTA_Tooltip_ability_chronos_magic_shard_description"             "ลดคูลดาวน์ของความสามารถลงเหลือ 10 วินาที"
 
-		"DOTA_Tooltip_ability_teleport_phase"							"<font color='#9A75FE'>「เมทริกซ์การกระจัด」</font>"
-		"DOTA_Tooltip_ability_teleport_phase_Description"				"ฮีโร่เตรียมเคลื่อนที่ และหลังจากดีเลย์สั้นๆ เทเลพอร์ตไปยังจุดที่ระบุ ในขณะที่กระโดด พื้นที่ก็พังทลายลง สร้างความเสียหายเวทย์แก่ศัตรูทั้ง ณ จุดที่ออกเดินทางและเมื่อมาถึง"
-		"DOTA_Tooltip_ability_teleport_phase_damage"					"ความเสียหายจากการกระโดด:"
+        "DOTA_Tooltip_ability_teleport_phase"                              "<font color='#9A75FE'>「เมทริกซ์การกระจัด」</font>"
+        "DOTA_Tooltip_ability_teleport_phase_description"                  "หลังจากดีเลย์สั้นๆ ฮีโร่จะเคลื่อนที่ไปยังจุดที่กำหนดทันที ในช่วงเวลาของการหายตัวไปและการปรากฏตัวอีกครั้ง พื้นที่นั้นก็จะพังทลายลง สร้างความเสียหายเวทย์แก่ศัตรูทั้งหมดที่อยู่ในรัศมีของทั้งสองจุด"
+        "DOTA_Tooltip_ability_teleport_phase_damage"                       "ย้ายความเสียหาย:"
+        "DOTA_Tooltip_ability_teleport_phase_delay"                        "หน่วงเวลาก่อนกระโดด:"
+        "DOTA_Tooltip_ability_teleport_phase_radius"                       "รัศมีการระเบิด:"
+        "DOTA_Tooltip_ability_teleport_phase_blink_range"                  "ช่วงการเดินทาง:"
 
-		"DOTA_Tooltip_ability_space_barrier"							"<font color='#9A75FE'>「แผงกั้นอวกาศ」</font>"
-		"DOTA_Tooltip_ability_space_barrier_Description"				"สร้างกำแพงแรงโน้มถ่วงที่ไม่เสถียรในบริเวณที่เลือก ขั้นแรกบาเรียจะดึงศัตรูทั้งหมดเข้ามาตรงกลาง จากนั้นปล่อยความเสียหายเชิงพื้นที่ทำลายล้างใส่พวกเขา สร้างความเสียหายต่อเนื่อง"
-		"DOTA_Tooltip_ability_space_barrier_damage"						"ความเสียหายจากการระเบิด:"
+        "DOTA_Tooltip_ability_space_barrier"                               "<font color='#9A75FE'>「แผงกั้นอวกาศ」</font>"
+        "DOTA_Tooltip_ability_space_barrier_description"                   "สร้างกำแพงแรงโน้มถ่วงในพื้นที่ที่เลือก ขั้นแรกมันจะดึงศัตรูทั้งหมดเข้ามาตรงกลาง จากนั้นปล่อยความเสียหายเชิงพื้นที่ทำลายล้างใส่พวกเขา สร้างความเสียหายเวทย์มนตร์เมื่อเวลาผ่านไป"
+        "DOTA_Tooltip_ability_space_barrier_base_damage"                   "ความเสียหายจากการวางไข่พื้นฐาน:"
+        "DOTA_Tooltip_ability_space_barrier_damage"                        "ระเบิดความเสียหายเมื่อเวลาผ่านไป:"
+        "DOTA_Tooltip_ability_space_barrier_delay"                         "ความล่าช้าก่อนการระเบิด:"
+        "DOTA_Tooltip_ability_space_barrier_radius"                        "รัศมีสิ่งกีดขวาง:"
 
-		"DOTA_Tooltip_ability_fluctuation"								"<font color='#9A75FE'>「การฉายภาพโลก」</font>"
-		"DOTA_Tooltip_ability_fluctuation_Description"					"สร้างการฉายภาพขนาดมหึมาและไม่มั่นคงของโลก ศัตรูที่ติดอยู่ในพื้นที่จะได้รับความเสียหายอย่างมากเมื่อเวลาผ่านไป และถูกสโลว์ 400%%ในแต่ละวินาทีที่ผ่านไป ช่วงเวลาระหว่างการฉายภาพจะสั้นลง และความเสียหายที่เกิดขึ้นจะค่อยๆ เพิ่มขึ้น"
-		"DOTA_Tooltip_ability_fluctuation_damage"						"ความเสียหายพื้นฐานเริ่มต้น:"
-		"DOTA_Tooltip_ability_fluctuation_scepter_Description"			"เพิ่มระยะของความสามารถเป็น 750"
-		"DOTA_Tooltip_modifier_fluctuation_slow"						"การฉายภาพโลก: การชะลอตัว"
+        "DOTA_Tooltip_ability_fluctuation"                                 "<font color='#9A75FE'>「การฉายภาพโลก」</font>"
+        "DOTA_Tooltip_ability_fluctuation_description"                     "เรียกภาพฉายขนาดมหึมาของอีกโลกหนึ่ง ศัตรูในพื้นที่ได้รับความเสียหายอย่างมากเมื่อเวลาผ่านไปและถูกสโลว์ ในแต่ละวินาทีที่ผ่านไป ความถี่ของการฉายภาพจะเพิ่มขึ้น และความเสียหายที่เกิดขึ้นก็เพิ่มขึ้น"
+        "DOTA_Tooltip_ability_fluctuation_damage"                          "ความเสียหายเริ่มต้น:"
+        "DOTA_Tooltip_ability_fluctuation_slow"                            "การเคลื่อนไหวช้าลง:"
+        "DOTA_Tooltip_ability_fluctuation_radius"                          "รัศมีการฉายภาพ:"
+        "DOTA_Tooltip_ability_fluctuation_scepter_description"             "เพิ่มระยะของความสามารถเป็น 750"
+        "DOTA_Tooltip_modifier_fluctuation_slow"                           "การฉายภาพโลก: การชะลอตัว"
+
+		// Chronos Magic
+		"Chronos_Shard_Magic_Desc"          "ลดคูลดาวน์ของความสามารถลงเหลือ 10 วินาที"
+		"Talent_Chronos_Magic_1"            "เพิ่มระยะของความสามารถ 3 เท่า"
+
+		// Teleport Phase
+		"Talent_Chronos_Teleport_5"         "ลบความล่าช้าก่อนเทเลพอร์ต (กระโดดทันที) และเพิ่มรัศมีความเสียหาย 2 เท่า"
+		"Chronos_Label_TeleportDelay"       "กระโดดล่าช้า"
+
+		// Space Barrier
+		"Talent_Chronos_Barrier_10"         "ลบความล่าช้าก่อนทริกเกอร์ เพิ่มจำนวนพัลส์ความเสียหายเป็น 50 และลดช่วงเวลาระหว่างพัลส์เป็น 0.1 วินาที"
+		"Chronos_Label_BarrierPulses"       "จำนวนจังหวะ"
+
+		// Fluctuation (Ultimate)
+		"Chronos_Scepter_Fluctuation_Desc"  "เพิ่มรัศมีของท่าไม้ตายเป็น 750"
+		"Talent_Chronos_Fluctuation_15"     "เพิ่มระยะเวลาของท่าไม้ตายสูงสุดเป็น 15 วินาที และจำนวนความเสียหายเพิ่มขึ้นเป็น 150"
+		"Talent_Chronos_Fluctuation_20"     "สูตรความเสียหายต่อ Tick เปลี่ยนไป: ความเสียหายพื้นฐานจะคูณด้วยค่า Intelligence ของคุณครึ่งหนึ่ง (แทนที่จะบวกเพิ่ม)"
+		"Chronos_Label_FluctuationTicks"    "ขีดความเสียหาย (ทั้งหมด)"
+		"Chronos_Label_FluctuationDmg"      "ความเสียหายต่อขีด (ฐาน ➔ ความสามารถพิเศษ)"
+
+		"DOTA_Ability_Variable_Radius"              "รัศมี"
 
 		    "npc_dota_hero_axe"											    "ลาลาตินา ดัสเนส ฟอร์ด「★★★★」"
 
@@ -1005,7 +1053,7 @@
 
 
 		"DOTA_Tooltip_ability_gu_kanade_2"						                        "<font color='#B9B9B9'>「ความผิดเพี้ยน」</font>"
-		"DOTA_Tooltip_ability_gu_kanade_2_Description"				                        "เมื่อเปิดใช้งาน มันจะสร้างสนามพลังรอบๆ Kanade ซึ่งสะท้อนการโจมตีระยะไกลทั้งหมดกลับไปยังศัตรู (โดยที่ความสามารถพิเศษจะคืนความเสียหายทั้งหมดที่ได้รับ) ระยะเวลา -%reflect_duration%วินาที ส่งคืน%damage_reflect_pct%%%ความเสียหายที่ได้รับ<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
+		"DOTA_Tooltip_ability_gu_kanade_2_Description"				                        "เมื่อเปิดใช้งาน มันจะสร้างสนามพลังรอบๆ Kanade ซึ่งสะท้อนการโจมตีระยะไกลทั้งหมดกลับไปยังศัตรู (พร้อมกับความสามารถพิเศษที่คืนความเสียหายทั้งหมดที่ได้รับ) ระยะเวลา -%reflect_duration%วินาที ส่งคืน%damage_reflect_pct%%%ความเสียหายที่ได้รับ<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
  		"DOTA_Tooltip_modifier_gu_kanade_2"												"<font color='#B9B9B9'>「ความผิดเพี้ยน」</font>" 
 
 		"DOTA_Tooltip_ability_gu_kanade_3"						                        "<font color='#B9B9B9'>「ความผิดปกติ」</font>"
@@ -1154,7 +1202,7 @@
 		"DOTA_Tooltip_ability_aqua_requiem_requiem_duration"								"ระยะเวลาสตัน: "
 		
 		"DOTA_Tooltip_ability_aqua_exorcism"											"<font color='#1163E9'>「การเนรเทศอันศักดิ์สิทธิ์」</font>"
-		"DOTA_Tooltip_ability_aqua_exorcism_Description"									"เริ่มกระบวนการทำความสะอาดในพื้นที่ที่เลือกด้วยรัศมี%exorcism_radius%ศัตรูในพื้นที่จะถูกชะลอความเร็วโดยได้รับความเสียหายต่อเนื่อง และพันธมิตรจะได้รับการรักษา ความเร็วในการหมุนของพื้นที่ลดลง%exorcism_turn%%%สร้างความเสียหายและยังสร้างการรักษาตามสูตร -%exorcism_damage%+ Intelligence * 0.5<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
+		"DOTA_Tooltip_ability_aqua_exorcism_Description"									"เริ่มกระบวนการทำความสะอาดในพื้นที่ที่เลือกด้วยรัศมี%exorcism_radius%ศัตรูในพื้นที่จะถูกสโลว์โดยได้รับความเสียหายต่อเนื่อง และพันธมิตรจะได้รับการรักษา ความเร็วในการหมุนของพื้นที่ลดลง%exorcism_turn%%%สร้างความเสียหายและยังสร้างการรักษาตามสูตร -%exorcism_damage%+ Intelligence * 0.5<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
 		"DOTA_Tooltip_ability_aqua_exorcism_exorcism_radius"								"รัศมี:  "
 		"DOTA_Tooltip_ability_aqua_exorcism_exorcism_duration"								"ระยะเวลา: "
 		"DOTA_Tooltip_ability_aqua_exorcism_exorcism_interval"								"ช่วงความเสียหาย: "
@@ -1185,7 +1233,7 @@
 		"DOTA_Tooltip_ability_aqua_respawn_Description"									"ฟื้นคืนชีพพันธมิตรทั้งหมดบนแผนที่ หลังจากการฟื้นคืนชีพ จะใช้เอฟเฟกต์ของความสามารถ 「Ultimate Goddess Empowerment」 คูลดาวน์ของความสามารถนี้ไม่สามารถลดลงได้ และมันคือ%cd%"
 		
 
-			"npc_dota_hero_dazzle"											"ลูนาซ่า ปริซึมริเวอร์「★★★★★」"
+			"npc_dota_hero_dazzle"											"ลูนาซ่า พริสมริเวอร์「★★★★★」"
 		
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa01"	 		 						"<font color='#C02EF7'>「ชื่อเล่น Stradivarius」</font> "																												
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa01_Description"							"ปล่อยคลื่นเสียงไปยังจุดหนึ่ง สร้างความเสียหายเวทย์แก่ศัตรูที่ขวางทางและทำให้พวกเขาเงียบงัน\nดีล%base_damage%เงียบเป็นเวลา%silence_duration%วินาที"
@@ -1200,8 +1248,8 @@
 
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04"	 		 						"<font color='#C02EF7'>「ชิ้นไวโอลินเศร้าโศก - การเคลื่อนไหวครั้งแรก」</font> "																												
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_Description"							"ลูนาซาเริ่มเล่นทำนองของเป้าหมายด้วยไวโอลิน ในขณะที่เป้าหมายไม่สามารถเคลื่อนไหวได้ ทุกวินาทีจะสร้างความเสียหายเท่ากับ Intelligence ของ Lunasa * 1.5 ระยะเวลา%duration%วินาที เมื่อเพลงเริ่มและจบลง มันจะสร้างความเสียหายเป็นจำนวน%base_damage%+ [%int_scale%* Intelligence] ลดเวลาการโจมตีพื้นฐานลงเหลือ%base_attak_rate%"
-		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_tooltip_castrange" 					"ช่วงการใช้งาน: "
-		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_scepter_Description"					"ทำให้ผลของความคงกระพันมีผลกับเวทมนตร์เป็นเวลา 3 วินาที"
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_tooltip_castrange" 					"ช่วงการสมัคร: "
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_scepter_Description"					"เพิ่มผลของความคงกระพันให้กับเวทย์มนตร์เป็นเวลา 3 วินาที"
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_shard_Description"					"เปลี่ยนประเภทความเสียหายเป็นบริสุทธิ์"
 
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa05"	 		 						"<font color='#C02EF7'>「พริสริเวอร์คอนแชร์โต - ไวโอลินโซโล」</font>"																												
@@ -1299,7 +1347,7 @@
 			"DOTA_Tooltip_ability_modifier_sakuya_knives_Description"							"ขว้างมีด"
 
 		"DOTA_Tooltip_ability_sakuya_refresh"											"「นาฬิกาจับเวลาพิเศษของซาคุยะ」"
-		"DOTA_Tooltip_ability_sakuya_refresh_Description"									"ซาคุยะชาร์จความสามารถและไอเท็มทั้งหมด (ชาร์จไอเท็มด้วยอาร์คานาเท่านั้น) ความสามารถนี้ไม่สามารถชาร์จด้วยวัตถุได้"
+		"DOTA_Tooltip_ability_sakuya_refresh_Description"									"ซาคุยะชาร์จความสามารถและไอเท็มทั้งหมด (ชาร์จไอเท็มด้วยอาร์คานาเท่านั้น) ความสามารถนี้ไม่สามารถชาร์จด้วยไอเท็มได้"
 		"DOTA_Tooltip_ability_sakuya_refresh_abilities"										"ความสามารถ: "
 		"DOTA_Tooltip_ability_sakuya_refresh_items"											"รายการ: "
 		"DOTA_Tooltip_ability_sakuya_refresh_shard_Description"							"ด้วยโอกาส 10% ความสามารถจะใช้เวลา 10 วินาทีในการคูลดาวน์"
@@ -1519,7 +1567,7 @@
 
 		"DOTA_Tooltip_ability_king_lich_frost_nova"                         "<font color='#5ad0ff'>「ฟรอสต์โนวา」</font>"
 		"DOTA_Tooltip_ability_king_lich_frost_nova_Description"             "ทำให้เกิดการระเบิดน้ำแข็งรอบๆ เป้าหมาย สร้างความเสียหายทางกายภาพและสตันศัตรู ยังทำให้การเคลื่อนที่และความเร็วในการโจมตีของเป้าหมายที่รอดชีวิตช้าลงอีกด้วย"
-		"Lich_Shard_FrostNova_Desc"                                         "ในขณะที่ความสามารถทำงานอยู่ เป้าหมายจะได้รับผลกระทบจากเอฟเฟกต์ Break ซึ่งจะปิดการใช้งานความสามารถติดตัว"
+		"Lich_Shard_FrostNova_Desc"                                         "ขณะที่ความสามารถทำงานอยู่ เป้าหมายจะได้รับผลกระทบจากเอฟเฟกต์ Break ซึ่งจะปิดการใช้งานความสามารถติดตัว"
 		"Talent_Lich_FrostNova_1"                                           "เพิ่มรัศมีการระเบิดเป็น 650 และระยะเวลาสตัน/สโลว์เป็น 6 วินาที"
 		"Lich_Label_NovaRadius"                                             "รัศมีการระเบิด"
 		"Lich_Label_NovaDuration"                                           "ระยะเวลาในการควบคุม"
@@ -1567,7 +1615,7 @@
 		"DOTA_Tooltip_ability_nu_gravity_pulse_damage"										"ความเสียหาย: "
 		"DOTA_Tooltip_ability_nu_gravity_pulse_scepter_Description"							"เปลี่ยนประเภทความเสียหายเป็นบริสุทธิ์"
 
-		"DOTA_Tooltip_ability_nu_warpstar"												"<font color='#8D7062'>「การเดินทางของกาแล็กซี」</font>"
+		"DOTA_Tooltip_ability_nu_warpstar"												"<font color='#8D7062'>「การเดินทางของกาแล็กซี่」</font>"
 		"DOTA_Tooltip_ability_nu_warpstar_Description"										"Andromeda สร้างรอยแยกแห่งกาลเวลา เคลื่อนย้ายสิ่งมีชีวิตมาหาเธอ"
 		"DOTA_Tooltip_ability_nu_warpstar_damage"											"ความเสียหาย: "
 		"DOTA_Tooltip_ability_nu_warpstar_slow"												"การชะลอตัว: "
@@ -1652,7 +1700,7 @@
  
         "DOTA_Tooltip_ability_invoker_reset"                                     	"รีเซ็ต"
         "DOTA_Tooltip_ability_invoker_reset_Description"                    			"รีเซ็ตทรงกลมทั้งหมด"
-        "DOTA_Tooltip_ability_invoker_reset_Note0"                    				"เพื่อนคุณคิดว่าจะมีอะไรบางอย่างที่นี่? ไม่นะ คุณมีกลิ่นเหมือนความผิดพลาด ฉันยังได้กลิ่นจากที่นี่ด้วย ปิด ปิดคำอธิบาย และอย่าพยายามเข้าใจว่าฮีโร่คนนี้กำลังทำอะไรอยู่"
+        "DOTA_Tooltip_ability_invoker_reset_Note0"                    				"เพื่อนคุณคิดว่าจะมีบางอย่างที่นี่หรือไม่? ไม่นะ คุณมีกลิ่นเหมือนความผิดพลาด ฉันยังได้กลิ่นจากที่นี่ด้วย ปิด ปิดคำอธิบาย และอย่าพยายามเข้าใจว่าฮีโร่คนนี้กำลังทำอะไรอยู่"
 		"DOTA_Tooltip_ability_invoker_reset_shard_Description"		 				"ลบคูลดาวน์"
 
 		
@@ -1765,7 +1813,7 @@
 		"Talent_Marisa_Starfall_20"         "ลดเปอร์เซ็นต์ของมานาที่ใช้ต่อการดรอปดาวจาก 0.2% เป็น 0.1% ของมานาสูงสุด"
 		"Marisa_Label_StarfallChance"       "โอกาส (คาถา/การโจมตี)"
 		"Marisa_Label_StarfallManaPct"      "ค่าดาว (% มานาสูงสุด)"
-		"Marisa_Label_ShardDmgPct"          "ความเสียหายของดาวตก"
+		"Marisa_Label_ShardDmgPct"          "ดาวตกสร้างความเสียหาย"
 
 
 			"npc_dota_hero_mirana" 											"ยาโกโคโระ เออิริน「★★★★★」"
@@ -1806,39 +1854,62 @@
 
 			"npc_dota_hero_antimage" 										 "นักล่าปีศาจ「★★★★★★」"
 
-		"DOTA_Tooltip_ability_demon_hunter"												"<font color='#1EA72B'>「นักล่าปีศาจ」</font> "
-		"DOTA_Tooltip_ability_demon_hunter_Description"										"นักล่าจับวิญญาณของคู่ต่อสู้ แต่ละวิญญาณมอบ +1 ความว่องไว จำนวนวิญญาณสูงสุดคือ 10,000"
-		"DOTA_Tooltip_modifier_demon_stack"												"<font color='#1EA72B'>「นักล่าปีศาจ」</font> "
-		"DOTA_Tooltip_modifier_demon_stack_Description"										"แต่ละสแต็คให้ +1 ความคล่องตัว"
+		"DOTA_Tooltip_ability_demon_hunter"                                             "<font color='#1EA72B'>「นักล่าปีศาจ」</font>"
+        "DOTA_Tooltip_ability_demon_hunter_description"                                 "ความสามารถแบบพาสซีฟ นักล่าดูดซับวิญญาณของศัตรูที่พ่ายแพ้ เพิ่มความคล่องตัวของเขาอย่างถาวรสำหรับวิญญาณแต่ละดวงที่รวบรวมได้ จำนวนวิญญาณที่รวบรวมได้สูงสุดมีจำกัด (5,000)"
+        
+        "DOTA_Tooltip_modifier_demon_stack"                                             "<font color='#1EA72B'>「นักล่าปีศาจ」</font>"
+        "DOTA_Tooltip_modifier_demon_stack_description"                                 "ความคล่องตัวจะเพิ่มขึ้นตามแต่ละดวงวิญญาณที่ถูกดูดซับ"
 
-		"DOTA_Tooltip_ability_soulblade"												"<font color='#1EA72B'>「อีกด้านหนึ่งของจิตวิญญาณ」</font> "
-		"DOTA_Tooltip_ability_soulblade_Description"										"สร้างความเสียหายโดยใช้สูตร%base_damage%+ (%damage%* ความคล่องตัว) ในพื้นที่ด้านหน้าคุณ และผลักศัตรูกลับไป<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
-		"DOTA_Tooltip_ability_soulblade_shard_Description"							"ลบเอฟเฟกต์ด้านลบทั้งหมดเมื่อใช้"
+        "DOTA_Tooltip_ability_soulblade"                                                "<font color='#1EA72B'>「อีกด้านหนึ่งของจิตวิญญาณ」</font>"
+        "DOTA_Tooltip_ability_soulblade_description"                                    "ฮีโร่สร้างวงสวิงอันทรงพลัง ผลักคู่ต่อสู้ที่อยู่ข้างหน้าเขาและสร้างความเสียหายทางกายภาพแก่พวกเขา ซึ่งจะปรับขนาดตามความคล่องตัวของเจ้าของ<br><br><font color='#cf1919'>ความเสียหายที่เกิดจากความสามารถนี้ไม่ได้รับผลกระทบจากการเพิ่มความเสียหายของเวทย์</font>"
+        "DOTA_Tooltip_ability_soulblade_agi_scale"                                      "ตัวคูณความเสียหายของความคล่องตัว: "
+        "DOTA_Tooltip_ability_soulblade_radius"                                         "รัศมีความเสียหาย: "
+
+        "DOTA_Tooltip_ability_soulring"                                                 "<font color='#1EA72B'>「สนามแห่งจิตวิญญาณ」</font>"
+        "DOTA_Tooltip_ability_soulring_description"                                     "สร้างสนามแห่งวิญญาณเพื่อดูดพลังชีวิตจากคู่ต่อสู้ ศัตรูที่อยู่ในระยะจะได้รับความเสียหายทางกายภาพเป็นระยะตามความว่องไวของฮีโร่ และผู้สวมใส่จะได้รับการรักษาอย่างต่อเนื่อง<br><br><font color='#cf1919'>ความเสียหายที่เกิดจากความสามารถนี้ไม่ได้รับผลกระทบจากการเพิ่มความเสียหายของเวทย์</font>"
+        "DOTA_Tooltip_ability_soulring_agi_scale"                                       "ตัวคูณความเสียหายของความคล่องตัว: "
+        "DOTA_Tooltip_ability_soulring_radius"                                          "รัศมีสนาม: "
+        "DOTA_Tooltip_ability_soulring_duration"                                        "ระยะเวลา: "
+        
+        "DOTA_Tooltip_modifier_dh_agh"                                                  "<font color='#1EA72B'>「สนามวิญญาณ: คทา」</font>"
+        "DOTA_Tooltip_modifier_dh_agh_description"                                      "ให้โอกาสในการหลบความเสียหายที่ได้รับ"
+
+        "DOTA_Tooltip_ability_magic_blade"                                              "<font color='#1EA72B'>「ใบมีดโมฆะ」</font>"
+        "DOTA_Tooltip_ability_magic_blade_description"                                  "ความสามารถแบบพาสซีฟ การโจมตีของฮีโร่แต่ละตัวจะสร้างความเสียหายทางกายภาพเพิ่มเติมตามสถานะความคล่องตัวในปัจจุบันของเขา<br><br><font color='#cf1919'>ความเสียหายที่เกิดจากความสามารถนี้ไม่ได้รับผลกระทบจากการเพิ่มความเสียหายของเวทย์</font>"
+
+        "DOTA_Tooltip_ability_metamorphosis"                                            "<font color='#1EA72B'>「การเปลี่ยนแปลง」</font>"
+        "DOTA_Tooltip_ability_metamorphosis_description"                                "ฮันเตอร์แปลงร่างเป็นร่างปีศาจที่แท้จริงของเขา ในสถานะนี้ ระยะการโจมตีของเขาจะเพิ่มขึ้น และการโจมตีของเขาจะสร้างความเสียหายแบบกระจายในพื้นที่ นอกจากนี้ ฮีโร่ยังถูกรายล้อมไปด้วยวิญญาณอาฆาตที่โจมตีศัตรูที่อยู่ใกล้เคียง สร้างความเสียหายตามความคล่องตัวและรักษาเจ้าของ<br><br><font color='#cf1919'>ความเสียหายจากวิญญาณจะไม่ได้รับผลกระทบจากการเพิ่มความเสียหายของคาถา</font>"
+        "DOTA_Tooltip_ability_metamorphosis_duration"                                   "ระยะเวลา: "
+        "DOTA_Tooltip_ability_metamorphosis_bonus_range"                                "ระยะการโจมตีเพิ่มเติม: "
+        "DOTA_Tooltip_ability_metamorphosis_cleave_radius"                              "รัศมีความเสียหายกระจาย: "
+        "DOTA_Tooltip_ability_metamorphosis_spirits"                                    "จำนวนน้ำหอม: "
+        
+        "DOTA_Tooltip_modifier_metamorphosis_custom"                                    "<font color='#1EA72B'>「การเปลี่ยนแปลง」</font>"
+        "DOTA_Tooltip_modifier_metamorphosis_custom_description"                        "คุณได้กลายร่างเป็นปีศาจ ระยะการโจมตีเพิ่มขึ้นและสร้างความเสียหายเป็นพื้นที่"
 
 
-		"DOTA_Tooltip_ability_soulring"													"<font color='#1EA72B'>「สนามแห่งจิตวิญญาณ」</font> "
-		"DOTA_Tooltip_ability_soulring_Description"											"สร้างสนามดูดพลังชีวิตจากศัตรู สร้างความเสียหายตามความคล่องตัวแก่ศัตรูทุกตัวในรัศมี และยังฟื้นฟูสุขภาพให้กับเจ้าของความสามารถด้วย<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
-		"DOTA_Tooltip_ability_soulring_damage"												"ปัจจัย: "
-		"DOTA_Tooltip_ability_soulring_base_damage"											"ความเสียหายพื้นฐาน: "
-			"DOTA_Tooltip_modifier_soulring"													"<font color='#1EA72B'>「สนามแห่งจิตวิญญาณ」</font> "
-			"DOTA_Tooltip_modifier_soulring_Description"										"คุณอยู่ในทุ่งแห่งจิตวิญญาณ"
-		"DOTA_Tooltip_ability_soulring_scepter_Description"									"ขณะที่ความสามารถนี้ทำงาน คุณมีโอกาส 20% ที่จะหลบเลี่ยงความเสียหายใดๆ"
-		"DOTA_Tooltip_modifier_dh_agh"													"<font color='#1EA72B'>「สนามแห่งจิตวิญญาณ」</font> "
-		"DOTA_Tooltip_modifier_dh_agh_Description"										"คุณสามารถหลบความเสียหายใดๆ ก็ได้โดยมีโอกาส 20%."
+		"DemonHunter_Shard_1_Desc"          "สามารถเปิดใช้งานความสามารถเพื่อใช้วิญญาณ 25 ดวงและชำระล้างตัวเองอย่างเข้มข้น (ลบผลกระทบด้านลบทั้งหมด)"
+		"Talent_DemonHunter_1_1"            "เพิ่มจำนวนวิญญาณที่ได้รับต่อการฆ่าเป็น 2"
+		"Talent_DemonHunter_1_20"           "เพิ่มขีดจำกัดการสะสมวิญญาณสูงสุดเป็น 10,000"
+		"DH_Label_SoulsPerKill"             "อาบน้ำเพื่อการฆาตกรรม"
+		"DH_Label_MaxSouls"                 "ฝักบัวสูงสุด"
 
-		"DOTA_Tooltip_ability_magic_blade"												"<font color='#1EA72B'>「ใบมีดโมฆะ」</font> "
-		"DOTA_Tooltip_ability_magic_blade_Description"										"การโจมตีแต่ละครั้งจะสร้างความเสียหายเพิ่มเติมตามสูตร - ความคล่องตัว * 3<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
+		"Talent_DemonHunter_2_5"            "เพิ่มตัวคูณความเสียหายของ Agility 0.5"
+		"DH_Label_SoulbladeMult"            "ความเสียหายจากความคล่องตัว"
 
-		"DOTA_Tooltip_ability_metamorphosis"											"<font color='#1EA72B'>「การเปลี่ยนแปลง」</font>"
-		"DOTA_Tooltip_ability_metamorphosis_Description"									"เปลี่ยนคุณให้เป็นปีศาจตัวใหญ่และล้อมรอบคุณด้วยวิญญาณ เพิ่ม%bonus_range%ในระยะการโจมตี เพิ่มความเสียหายแบบพื้นที่ และเพิ่มความเสียหายของคุณ%bonus_damage%ขณะที่ความสามารถนี้ทำงานอยู่ วิญญาณจะบินไปรอบๆ คุณ สร้างความเสียหายให้กับศัตรูทั้งหมดในรัศมีและยังช่วยฟื้นฟูสุขภาพของคุณอีกด้วย<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
-		"DOTA_Tooltip_ability_metamorphosis_bonus_damage"									"ความเสียหายเพิ่มเติม: "
-		"DOTA_Tooltip_ability_metamorphosis_max_damage"										"ความเสียหายจากวิญญาณ: "
-		"DOTA_Tooltip_ability_metamorphosis_duration"										"ระยะเวลา: "
-			"DOTA_Tooltip_modifier_magic_blade_buff"											"<font color='#1EA72B'>「ใบมีดโมฆะ」</font> "
-			"DOTA_Tooltip_modifier_magic_blade_debuff"											"<font color='#1EA72B'>「ใบมีดโมฆะ」</font> "
-			"DOTA_Tooltip_modifier_exorcism" 													"<font color='#1EA72B'>「การเปลี่ยนแปลง」</font>"
- 			"DOTA_Tooltip_modifier_metamorphosis"												"<font color='#1EA72B'>「การเปลี่ยนแปลง」</font>"			
+		"DemonHunter_Scepter_3_Desc"        "เมื่อร่ายแล้ว ให้บัฟเป็นเวลา 15 วินาที ซึ่งให้โอกาส 20% ที่จะหลีกเลี่ยงความเสียหายที่ได้รับอย่างสมบูรณ์"
 		
+		"Talent_DemonHunter_4_15"           "เพิ่มตัวคูณความเสียหายกายภาพ Agility จาก 2.0 เป็น 2.5"
+		"DH_Label_MagicBladeMult"           "ตัวคูณการโจมตี (ความคล่องตัว)"
+
+		"Talent_DemonHunter_5_10"           "เพิ่มตัวคูณความเสียหายของ Exorcism จาก Agility ของฮีโร่จาก 0.6 เป็น 1.0"
+		"DH_Label_SpiritMult"               "ความเสียหายจากวิญญาณ (ความชำนาญ)"
+
+		"DH_Label_SoulbladeMult"            "ความเสียหายจากคลื่นความว่องไว"
+		"DH_Label_MagicBladeMult"           "เพิ่ม. ความเสียหายจากความชำนาญ"
+		"DH_Label_SpiritMult"               "ความเสียหายจากวิญญาณจากความว่องไว"
+
+
 
 			"npc_dota_hero_gyrocopter" 										"MI-24V「★★★★★」"
 
@@ -2341,7 +2412,7 @@
         "DOTA_Tooltip_ability_ah64_upgrade_bonus_health"									"สุขภาพ: "
         "DOTA_Tooltip_ability_ah64_upgrade_bonus_armor"										"เกราะ: "
         "DOTA_Tooltip_ability_ah64_upgrade_reload_time"										"ความเร็วในการโจมตี: "
-        "DOTA_Tooltip_ability_ah64_upgrade_attack_range_bonus"								"ระยะการโจมตี: "
+        "DOTA_Tooltip_ability_ah64_upgrade_attack_range_bonus"								"ระยะโจมตี: "
         "DOTA_Tooltip_ability_ah64_upgrade_passive_speed"									"ความเร็วในการเคลื่อนที่: "
 
         "DOTA_Tooltip_ability_ah64_agm_114"												"AGM-114 ไฟนรก"
@@ -2706,7 +2777,7 @@
 			"DOTA_Tooltip_modifier_item_desolators12_armor_Description"							"เกราะลดลง 75"
 
 		"DOTA_Tooltip_ability_item_ressurection_stone"                                  "หินคืนชีพ"
-		"DOTA_Tooltip_ability_item_ressurection_stone_Description"							"การคืนชีพ: คุณจะฟื้นคืนชีพด้วยพลังชีวิตและมานาเต็มหลังจากผ่านไป 2 วินาที The item is consumed when revived.\nคูลดาวน์ - 60 วินาที\n<font color='#EA52FF'>Galaxy Core และการอัพเกรดไม่ลดคูลดาวน์ของ</font>\nไม่มีอะไรสามารถรีเซ็ตคูลดาวน์ของ Ressurection Stone ได้"
+		"DOTA_Tooltip_ability_item_ressurection_stone_Description"							"การคืนชีพ: คุณจะฟื้นคืนชีพด้วยพลังชีวิตและมานาเต็มหลังจากผ่านไป 2 วินาที ไอเทมจะถูกใช้เมื่อฟื้นคืนชีพ\nคูลดาวน์ - 60 วินาที\n<font color='#EA52FF'>Galaxy Core และการอัพเกรดไม่ลดคูลดาวน์ของ</font>\nไม่มีอะไรสามารถรีเซ็ตคูลดาวน์ของ Ressurection Stone ได้"
 		
 		"dota_tooltip_ability_item_cu_shivas_guard" 									"ความสดชื่นที่หนาวจัด"
 		"dota_tooltip_ability_item_cu_shivas_guard_bonus_armor" 							"+ ถึงชุดเกราะ: "
@@ -2786,7 +2857,7 @@
 		"DOTA_Tooltip_ability_item_double_attack_2_Description"								"<h1>ติดตัว: การแตกหักของจิตสำนึก</h1>ทำลายจิตสำนึกของฮีโร่ของคุณ ทำให้คุณสามารถโจมตีครั้งที่สองได้ทันทีหลังจากที่กระสุนโดนเป้าหมาย (ใช้ได้กับฮีโร่ระยะไกลเท่านั้น)"
 		"DOTA_Tooltip_ability_item_double_attack_2_bonus_damage"							"ความเสียหาย: "
 
-		"DOTA_Tooltip_ability_item_double_attack_3"										"การแตกหักของสติ 3"
+		"DOTA_Tooltip_ability_item_double_attack_3"										"สติแตก3"
 		"DOTA_Tooltip_ability_item_double_attack_3_Description"								"<h1>ติดตัว: การแตกหักของจิตสำนึก</h1>ทำลายจิตสำนึกของฮีโร่ของคุณ ทำให้คุณสามารถโจมตีครั้งที่สองได้ทันทีหลังจากที่กระสุนโดนเป้าหมาย (ใช้ได้กับฮีโร่ระยะไกลเท่านั้น)"
 		"DOTA_Tooltip_ability_item_double_attack_3_bonus_damage"							"ความเสียหาย: "
 
@@ -3460,7 +3531,7 @@
 		"DOTA_Tooltip_ability_item_azrael_crossbow2_bonus_damage"							"+เพื่อสร้างความเสียหาย "
 
 		"DOTA_Tooltip_ability_item_azrael_crossbow3"									"ไทม์พาราดอกซ์ 3"
-		"DOTA_Tooltip_ability_item_azrael_crossbow3_Description"							"<h1>ติดตัว: ความเสียหายคริติคอล</h1>เพิ่ม%critical_bonus%% ความเสียหายคริติคอล\n<font color='#ff0000'>「โปรดทราบ!」</font>ไอเท็มนี้เป็นส่วนหนึ่งของระบบ Artifact เพื่อให้ความเสียหายคริติคอลทำงานได้ คุณจะต้องได้รับโอกาสคริติคอล<br><font color='#ff0000'>รายการประเภทนี้ไม่สามารถนำมารวมกันได้!</font>\n<h1>ติดตัว: โจมตีสองครั้ง</h1>หากไอเท็มไม่อยู่ในช่วงคูลดาวน์ การโจมตีครั้งถัดไปของฮีโร่จะดำเนินการสองครั้ง ใช้ได้กับฮีโร่ระยะไกลเท่านั้น"
+		"DOTA_Tooltip_ability_item_azrael_crossbow3_Description"							"<h1>ติดตัว: ความเสียหายคริติคอล</h1>เพิ่ม%critical_bonus%% ความเสียหายคริติคอล\n<font color='#ff0000'>「โปรดทราบ!」</font>ไอเท็มนี้เป็นส่วนหนึ่งของระบบ Artifact เพื่อให้ความเสียหายคริติคอลทำงานได้ คุณจะต้องได้รับโอกาสคริติคอล<br><font color='#ff0000'>รายการประเภทนี้ไม่สามารถนำมารวมกันได้!</font>\n<h1>ติดตัว: โจมตีสองครั้ง</h1>หากไอเท็มไม่อยู่ในช่วงคูลดาวน์ การโจมตีครั้งถัดไปของฮีโร่จะดำเนินการสองครั้ง ใช้งานได้กับฮีโร่ระยะไกลเท่านั้น"
 		"DOTA_Tooltip_ability_item_azrael_crossbow3_bonus_damage"							"+เพื่อสร้างความเสียหาย "
 
 		"DOTA_Tooltip_ability_item_aqua_greaves"										"เลกกิ้งของเทพธิดาอควา"
@@ -3613,7 +3684,7 @@
         "dota_tooltip_ability_item_custom_universe_rune_frost_description"          "เมื่อโจมตีหรือได้รับความเสียหาย จะทำให้ผู้กระทำผิดช้าลง ด้วยโอกาส%%17 ครั้ง ยูนิตที่ถูกโจมตีหรือโจมตีจะถูกสตันเป็นเวลา 3 วินาที"
             "dota_tooltip_modifier_custom_universe_frost_rune"                      "รูนสากล: อนุภาคน้ำแข็ง"
             "dota_tooltip_modifier_custom_universe_frost_rune_description"          "เมื่อโจมตีหรือได้รับความเสียหาย จะทำให้ศัตรูช้าลง"
-            "dota_tooltip_modifier_custom_universe_frost_rune_aura"                 "Universal Rune: อนุภาคน้ำแข็ง (ออร่า)"
+            "dota_tooltip_modifier_custom_universe_frost_rune_aura"                 "รูนสากล: อนุภาคน้ำแข็ง (ออร่า)"
             "dota_tooltip_modifier_custom_universe_frost_rune_aura_description"     "เมื่อโจมตีหรือได้รับความเสียหาย จะทำให้ศัตรูช้าลง"
             "dota_tooltip_modifier_custom_universe_frost_rune_slow"                 "รูนสากล: แช่แข็ง"
             "dota_tooltip_modifier_custom_universe_frost_rune_slow_description"     "ความเร็วในการโจมตีและการเคลื่อนที่ลดลง"
@@ -3821,7 +3892,7 @@
 	"vote_g_u" "ฆ่า"
 	"vote_allplayer" "ผู้เล่นทั้งหมด: - "
 	"vote_1" "ต้องการคะแนนเสียง: - "
-	"vote_2" "Всего Голосов: - "
+	"vote_2" "จำนวนโหวตทั้งหมด: - "
 	"boss_rewards" "รางวัลสำหรับการฆ่าผู้พิทักษ์:"
 
 	"task_vote_boss_b_1" "นางฟ้า"
@@ -4037,7 +4108,7 @@
 			"npc_gu_boss_nian_text_1"								"เวลาไม่มีจุดเริ่มต้นหรือจุดสิ้นสุด เวลาก็เหมือนกับงูอูโรโบรอสที่กัดหางของมันเองด้วยฟัน"
 			"npc_gu_boss_nian_text_1_2"								"ความนิรันดร์ถูกซ่อนอยู่ในทุกช่วงเวลา และนิรันดรนั้นประกอบขึ้นจากช่วงเวลาที่สร้างมันขึ้นมา"
 			
-			"boss_drop_boss_1"										"ไอเทมที่คุณจะได้รับหากชนะ:"
+			"boss_drop_boss_1"										"ไอเทมที่คุณจะได้รับหากคุณชนะ:"
 
 			"npc_gu_boss_grob" 										"โดโมวีนา"
 			"npc_gu_boss_grob_text"									"มาจำกัน"		
@@ -4085,7 +4156,7 @@
 
 		"load_state_1"   "กำลังสร้างการเชื่อมต่อกับเซิร์ฟเวอร์..."
 		"load_state_2"   "กำลังโหลดข้อมูลผู้เล่น..."
-		"load_state_3"   "Соединение установлено, данные загружены!"
+		"load_state_3"   "สร้างการเชื่อมต่อแล้ว โหลดข้อมูลแล้ว!"
 		"load_state_12"  "ตรวจพบสูตรโกงที่เปิดใช้งาน ไม่ได้โหลดเกม ห้ามใช้สูตรโกง คุณจะแพ้โดยอัตโนมัติหลังจากผ่านไป 3 วินาที"
 		"load_state_13"  "ไม่สามารถเข้าถึงฐานข้อมูลได้ โปรดใช้เซิร์ฟเวอร์เฉพาะสำหรับเกม"
 
@@ -4093,10 +4164,10 @@
 
 	"race_human_lore" "Tau'ri ถูกสร้างขึ้นโดยคน Ancient ซึ่งเป็นตัวแทนของเผ่าพันธุ์โบราณและก้าวหน้าอย่างเหลือเชื่อ ซึ่งเป็นผลจากวิวัฒนาการครั้งแรกของผู้คนที่ต้องการสร้างสิ่งมีชีวิตที่ชาญฉลาดบนทางช้างเผือก อย่างไรก็ตาม โครงการนี้ยังไม่เสร็จสิ้น เนื่องจากคนโบราณต้องออกจากโลกเนื่องจากมีโรคระบาดเกิดขึ้น หลังจากนั้นไม่นาน ดาวเคราะห์ Tau'ri ก็ถูกค้นพบโดย Supreme System Lord Ra ผู้ซึ่งยึดอำนาจเหนือโลก และด้วยความช่วยเหลือของ Star Gate ได้เผยแพร่เผ่าพันธุ์มนุษย์ไปยังดาวเคราะห์ดวงอื่นอีกมากมาย"
 	"race_spirits_lore" "วิญญาณคือสิ่งมีชีวิตที่มายังโลกจากอีกมิติหนึ่ง การปรากฏตัวของพวกเขานำหน้าด้วย «รอยแยกอวกาศ» วิญญาณแต่ละดวงมีความสามารถเฉพาะตัวที่แตกต่างกัน - Astral Robe และ Angel ที่มันอัญเชิญ บางคนจำอดีตของตนไม่ได้และเหตุใดจึงมาปรากฏตัวในโลกนี้"
-	"race_armored_lore" "ยุทโธปกรณ์ทางทหารเป็นวิธีการทางเทคนิคสำหรับกองทัพและรับประกันการปฏิบัติการรบและการทำงานประจำวัน เทคโนโลยีทั้งหมดใช้พลังงานเป็นทรัพยากรในการใช้ความสามารถ"
+	"race_armored_lore" "ยุทโธปกรณ์ทางทหารเป็นวิธีการทางเทคนิคที่มีให้กับกองทัพและรับประกันการปฏิบัติการรบและการทำงานประจำวัน เทคโนโลยีทั้งหมดใช้พลังงานเป็นทรัพยากรในการใช้ความสามารถ"
 	"race_anquietas_lore" "Ancients เป็นหนึ่งในเผ่าพันธุ์ที่ก้าวหน้าที่สุดเท่าที่เคยมีมา เนื่องจากพวกมันวิวัฒนาการมาหลายล้านปีก่อนมนุษย์โลก สิ่งประดิษฐ์ที่มีชื่อเสียงที่สุดของพวกเขาคือสตาร์เกท ซึ่งพวกมันกระจัดกระจายไปทั่วโลก"
 	"race_asgard_lore" "แอสการ์ดเป็นหนึ่งในอารยธรรมเอเลี่ยนสมัยใหม่ที่ทันสมัยที่สุด ชาวแอสการ์ดปฏิบัติต่อผู้คนอย่างดีและบางครั้งก็แบ่งปันเทคโนโลยีขั้นสูงกับพวกเขาด้วย ในทางสรีรวิทยา ตัวแทนของเผ่าพันธุ์นี้คือ «ชายสีเทา» คลาสสิกซึ่งเป็นที่รู้จักจากนิยายวิทยาศาสตร์"
-	"race_ori_lore" "Ori เป็นกลุ่มคนโบราณที่ก้าวร้าวและเคร่งศาสนา ซึ่งพัฒนาเป็นสังคมอิสระหลังจากที่คนโบราณหนีออกจากกาแล็กซีบ้านเกิดของตน หนึ่งในอารยธรรมที่มีการพัฒนาขั้นสูงที่สุดในกาแล็กซีทั้งสี่ที่รู้จัก พวกเขาใช้ความมั่นใจในตนเองกับสิ่งมีชีวิตที่ «ต่ำกว่า» อื่น ๆ เพื่อเพิ่มความแข็งแกร่ง"
+	"race_ori_lore" "Ori เป็นกลุ่มคนโบราณที่ก้าวร้าวและเคร่งศาสนา ซึ่งพัฒนาเป็นสังคมอิสระหลังจากที่คนโบราณหนีออกจากกาแล็กซีบ้านเกิดของตน หนึ่งในอารยธรรมที่มีการพัฒนาอย่างสูงที่สุดในกาแล็กซีทั้งสี่ที่รู้จัก พวกเขาใช้ความมั่นใจในตนเองกับสิ่งมีชีวิตที่ «ต่ำกว่า» อื่น ๆ เพื่อเพิ่มความแข็งแกร่ง"
 	"race_touhou_lore" "Touhou - ตัวแทนของเผ่าพันธุ์นี้สามารถทำลายเป้าหมายด้วยเวทมนตร์อันทรงพลังได้ในเสี้ยววินาที"
 
     "race_human_damage" "ประเภทความเสียหาย: กายภาพ"
@@ -4981,7 +5052,7 @@
 		"npc_dota_hero_void_spirit_t5_name"		"-「สัญลักษณ์เวทย์มนตร์: ทางช้างเผือก」_-"
 		"npc_dota_hero_void_spirit_t6_name"		"-「สัญลักษณ์เวทย์มนตร์: ทางช้างเผือก」_-"
 		"npc_dota_hero_void_spirit_t2"		"ปรับปรุง - 「มนต์ดำ: ขอบฟ้าเหตุการณ์」<br><br>เพิ่มระยะเวลาของความสามารถเป็น 12 วินาที"
-		"npc_dota_hero_void_spirit_t3"		"ปรับปรุง - 「สัญลักษณ์แห่งความรัก: มาสเตอร์สปาร์ค」<br><br>เพิ่มการรักษา 5 เท่า"
+		"npc_dota_hero_void_spirit_t3"		"ปรับปรุง - 「สัญลักษณ์ความรัก: มาสเตอร์สปาร์ค」<br><br>เพิ่มการรักษา 5 เท่า"
 		"npc_dota_hero_void_spirit_t4"		"ปรับปรุง - 「ป้ายเวทย์มนตร์: ทางช้างเผือก」<br><br>เพิ่มความเสียหายเพิ่มเติมตามสูตร - ความฉลาด * 1.5 "
 		"npc_dota_hero_void_spirit_t5"		"ปรับปรุง - 「ป้ายเวทย์มนตร์: ทางช้างเผือก」<br><br>เพิ่มการรักษา 5 เท่า"
 		"npc_dota_hero_void_spirit_t6"		"ปรับปรุง - 「ป้ายเวทย์มนตร์: ทางช้างเผือก」<br><br>ตอนนี้ไอเทมที่เพิ่มความเสียหายจากเวทย์จะทำงานกับความสามารถนี้"
@@ -5003,7 +5074,7 @@
 		"npc_dota_hero_dazzle_t5_name"		"-「การเคลื่อนไหวครั้งแรก」_-"
 		"npc_dota_hero_dazzle_t6_name"		"-「การเคลื่อนไหวระดับโลก」_-"
 		"npc_dota_hero_dazzle_t2"		"ปรับปรุง - 「Pseudo Stradivarius」<br><br>เพิ่มความเสียหายคริติคอลจาก 200% เป็น 400%."
-		"npc_dota_hero_dazzle_t3"		"ปรับปรุง - 「คอนเสิร์ตเดี่ยว」<br><br>ลดจำนวนการเข้าชมที่ต้องการจาก 10 เป็น 2 ครั้ง"
+		"npc_dota_hero_dazzle_t3"		"ปรับปรุง - 「คอนเสิร์ตเดี่ยว」<br><br>ลดจำนวนการเข้าชมที่ต้องการเพื่อกระตุ้นจาก 10 เป็น 2"
 		"npc_dota_hero_dazzle_t4"		"ปรับปรุง - 「เพลง Phantasmal อันเศร้าโศก」<br><br>เพิ่มตัวคูณสติปัญญาจาก 1.1 เป็น 2.2"
 		"npc_dota_hero_dazzle_t5"		"ปรับปรุง - 「นักไวโอลิน Poltergeist」<br><br>เพิ่มตัวคูณความเสียหายต่อเนื่องจาก 1.5 เป็น 3"
 		"npc_dota_hero_dazzle_t6"		"ปรับปรุง - 「นักไวโอลิน Poltergeist」<br><br>ช่วยให้คุณใช้ความสามารถในพื้นที่ภายในรัศมี 400"
@@ -5081,7 +5152,7 @@
 		"npc_dota_hero_queenofpain_t6_name"		"-「ภาพสะท้อนแห่งโชคชะตา」_-"
 		"npc_dota_hero_queenofpain_t2"		"ปรับปรุง<br><font color='#44C5FC'>「ปล่อยให้โชคชะตาม้วนกระดูก!」</font><br><br>เพิ่มความเสียหายเพิ่มเติม - ความฉลาด * 1.5."
 		"npc_dota_hero_queenofpain_t3"		"ปรับปรุง<br><font color='#44C5FC'>「ภาพสะท้อนแห่งโชคชะตา」</font><br><br>เพิ่มระยะเวลา +5 วินาทีในทุกระดับ"
-		"npc_dota_hero_queenofpain_t4"		"ปรับปรุง<br><font color='#44C5FC'>「Stellar phantasm」</font><br><br>เพิ่มโอกาส 20% ที่เมื่อฟองสบู่ระเบิด จะสร้างความเสียหายคริติคอล 1,000%"
+		"npc_dota_hero_queenofpain_t4"		"ปรับปรุง<br><font color='#44C5FC'>「Stellar phantasm」</font><br><br>เพิ่มโอกาส 20% ที่เมื่อฟองสบู่ระเบิด มันจะสร้างความเสียหายคริติคอล 1,000%"
 		"npc_dota_hero_queenofpain_t5"		"ปรับปรุง<br><font color='#44C5FC'>「Stellar phantasm」</font><br><br>ลดคูลดาวน์เหลือ 180 วินาที"
 		"npc_dota_hero_queenofpain_t6"		"ปรับปรุง<br><font color='#44C5FC'>「ภาพสะท้อนแห่งโชคชะตา」</font><br><br>เพิ่มโบนัสความเสียหาย - ความฉลาด * 3"
 
@@ -5178,7 +5249,7 @@
 		"npc_dota_hero_winter_wyvern_t2_name"		"-「เฮโปรเจกไทล์」_-"
 		"npc_dota_hero_winter_wyvern_t3_name"		"-「2A44」_-"
 		"npc_dota_hero_winter_wyvern_t4_name"		"-「การทิ้งระเบิด」_-"
-		"npc_dota_hero_winter_wyvern_t5_name"		"-「โหลดเร็ว」_-"
+		"npc_dota_hero_winter_wyvern_t5_name"		"-「โหลดซ้ำอย่างรวดเร็ว」_-"
 		"npc_dota_hero_winter_wyvern_t6_name"		"-「เฮโปรเจกไทล์」_-"
 		"npc_dota_hero_winter_wyvern_t2"		"ปรับปรุง<br><font color='#F34E4E'>「HE Projectile」</font><br><br>เพิ่มโบนัสความเสียหาย - ความคล่องตัว * 2 เปลี่ยนประเภทความเสียหายเป็น PURE"
 		"npc_dota_hero_winter_wyvern_t3"		"ปรับปรุง<br><font color='#F34E4E'>「2А44」</font><br><br>เพิ่มโบนัสความเสียหาย - ความคล่องตัว * 4 เปลี่ยนประเภทความเสียหายเป็น PURE"
@@ -5319,7 +5390,7 @@
 		"npc_dota_hero_tiny_t6"				"ตัวละครนี้ไม่สามารถปรับปรุงได้!"
 
 		"npc_dota_hero_pugna_t2_name"			"「พลังงานสีดำ」"
-		"npc_dota_hero_pugna_t3_name"			"「ฟลูเกล」"
+		"npc_dota_hero_pugna_t3_name"			"「ฟลุเกล」"
 		"npc_dota_hero_pugna_t4_name"			"「จรวดพลังงานสีดำ」"
 		"npc_dota_hero_pugna_t5_name"			"「จรวดพลังงานสีดำ」"
 		"npc_dota_hero_pugna_t6_name"			"「โหมดลอบสังหาร」"
@@ -5640,7 +5711,7 @@
 		"dota_tooltip_ability_imba_pudge_meat_hook_base_damage" "ความเสียหายพื้นฐาน: "
 		"dota_tooltip_ability_imba_pudge_meat_hook_base_range" "รัศมีเริ่มต้น: "
 		"dota_tooltip_ability_imba_pudge_meat_hook_base_speed" "ความเร็วเริ่มต้น: "
-		"dota_tooltip_ability_imba_pudge_meat_hook_description" "โยน hookandroid เก่าไปที่เป้าหมายที่ระบุหรือในทิศทางที่เลือก ตะขอจะเกี่ยวเข้ากับสิ่งมีชีวิตตัวแรกที่โดน ลากเข้าหาฮีโร่และสร้างความเสียหายหากเป้าหมายเป็นศัตรู\n "
+		"dota_tooltip_ability_imba_pudge_meat_hook_description" "โยน hookandroid เก่าไปยังเป้าหมายที่ระบุหรือในทิศทางที่เลือก ตะขอจะเกี่ยวเข้ากับสิ่งมีชีวิตตัวแรกที่โดน ลากเข้าหาฮีโร่และสร้างความเสียหายหากเป้าหมายเป็นศัตรู\n "
 		"dota_tooltip_ability_imba_pudge_meat_hook_hook_stacks" "ค่าพลังงาน/ความเร็ว: "
 		"dota_tooltip_ability_imba_pudge_meat_hook_hook_width" "ความกว้าง: "
 		"dota_tooltip_ability_imba_pudge_meat_hook_scepter_description" "<font color='#FF7800'>เพิ่มค่าความแข็งแกร่งและความเร็ว</font>"
@@ -6074,7 +6145,7 @@
 		"npc_dota_hero_elder_titan_damage" 			"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_storm_spirit_damage" 		"ที่มา: Touhou"
 		"npc_dota_hero_lina_damage" 				"ที่มา: ผู้พิทักษ์จักรวาล"
-		"npc_dota_hero_tiny_damage" 				"ที่มา: ผู้พิทักษ์แห่งจักรวาล"
+		"npc_dota_hero_tiny_damage" 				"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_luna_damage" 				"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_silencer_damage" 			"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_drow_ranger_damage" 			"ที่มา: ผู้พิทักษ์จักรวาล"
@@ -6098,7 +6169,7 @@
 		"npc_dota_hero_alchemist_damage" 			"ที่มา: «อะนิเมะ»"
 		"npc_dota_hero_clinkz_damage" 				"ที่มา: MoeToMoe"
 		"npc_dota_hero_nyx_assassin_damage" 		"ที่มา: «อะนิเมะ»"
-		"npc_dota_hero_gyrocopter_damage" 			"ที่มา: ผู้พิทักษ์แห่งจักรวาล"
+		"npc_dota_hero_gyrocopter_damage" 			"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_shredder_damage" 			"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_axe_damage" 					"ที่มา: «อะนิเมะ»"
 		"npc_dota_hero_weaver_damage" 				"ที่มา: «อะนิเมะ»"
@@ -6130,7 +6201,7 @@
 		"npc_dota_hero_troll_warlord_damage"		"ที่มา: «อะนิเมะ»"
 		"npc_dota_hero_venomancer_damage"			"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_nevermore_damage"			"ที่มา: ผู้พิทักษ์จักรวาล"
-		"npc_dota_hero_zuus_damage"					"ที่มา: ผู้พิทักษ์แห่งจักรวาล"
+		"npc_dota_hero_zuus_damage"					"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_abyssal_underlord_damage"	"ที่มา: Touhou"
 		"npc_dota_hero_sand_king_damage"			"ที่มา: ผู้พิทักษ์จักรวาล"
 
@@ -6557,7 +6628,7 @@
 		"DOTA_Tooltip_modifier_rune_fire_armor_shatter"					"เกราะที่แตกสลาย"
 		"DOTA_Tooltip_modifier_rune_fire_armor_shatter_Description"		"เกราะลดลงจากเอฟเฟกต์ Path of Fire"
 
-		"DOTA_Tooltip_modifier_rune_mystic"								"เส้นทางแห่งไสยศาสตร์"
+		"DOTA_Tooltip_modifier_rune_mystic"								"เส้นทางแห่งเวทย์มนต์"
 		"DOTA_Tooltip_modifier_rune_mystic_Description"					"เพิ่มโอกาสโจมตีคริติคอลและความเสียหายพื้นฐาน การโจมตีคริติคอลจะรักษา"
 
 		"DOTA_Tooltip_modifier_rune_air"								"เส้นทางอากาศ"
@@ -6639,7 +6710,7 @@
 		"DOTA_Tooltip_bvo_orihime_skill_2_modifier" 						"<font color='#E5C91D'>「รูปแบบการป้องกันที่ไม่ระบุชื่อ」</font>"
 		
 		"DOTA_Tooltip_ability_origami_ylti" 								"<font color='#E5C91D'>「อาร์เทลิฟ: ปืนใหญ่มงกุฎ」</font>"
-		"DOTA_Tooltip_ability_origami_ylti_Description" 						"สร้างขอบเขตของการบิดเบือนเวลาที่รอยแยกเกิดขึ้นจากความสามารถ<font color='#E5C91D'>「Zetsumetsu Tenshi」</font>โดยรอยแยกแต่ละวินาทีจะปรากฏขึ้นบ่อยขึ้นเรื่อยๆ ความเสียหายจะคำนวณโดยสูตร -%damage%+ 20% ของสติปัญญาของ Origami<br><br><font color='#E51D1D'>คุณไม่สามารถเพิ่มความเสียหายของความสามารถนี้ได้โดยใช้ไอเท็มเสริมพลังความเสียหายจากคาถา!</font>"
+		"DOTA_Tooltip_ability_origami_ylti_Description" 						"สร้างขอบเขตของการบิดเบือนเวลาที่รอยแยกเกิดขึ้นจากความสามารถ<font color='#E5C91D'>「Zetsumetsu Tenshi」</font>โดยรอยแยกแต่ละวินาทีจะปรากฏขึ้นบ่อยขึ้นเรื่อยๆ ความเสียหายจะคำนวณโดยสูตร -%damage%+ 20% ของสติปัญญาของ Origami<br><br><font color='#E51D1D'>คุณไม่สามารถเพิ่มความเสียหายของความสามารถนี้ได้โดยใช้ไอเทมเสริมพลังความเสียหายจากคาถา!</font>"
 
 		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「ราชาปีศาจ: ซาตาน」</font>"
 		"DOTA_Tooltip_ability_origami_inverse_Description" 					"โอริกามิได้รับซาตาน ซึ่งเป็นเวอร์ชันที่มืดมนและน่ากลัวกว่าของเมตาตรอน เข้าสู่รูปแบบผกผัน ได้รับสติปัญญาเพิ่มเติมจำนวน%int%และยังเพิ่มความเสียหายทางเวทย์มนตร์ทั้งหมดอีก%spell_amp%%%<br><font color='#E5C91D'>มีให้ที่ระดับ 10</font>"
@@ -6842,7 +6913,7 @@
 		"damage_boss"												" ตีผู้พิทักษ์: "
 
 		"DOTA_Tooltip_Ability_item_gu_weather_control"                  "ตัวปรับสภาพอากาศ"
-		"DOTA_Tooltip_ability_item_gu_weather_control_Description"		"<h1>ใช้งานอยู่: การรักษาเสถียรภาพ</h1>เปลี่ยนสภาพอากาศปัจจุบันเป็นแดดจัด<br><br><font color='#E51D1D'>ไม่ทำงานระหว่างการต่อสู้กับผู้พิทักษ์ งานสุดท้าย ในภารกิจที่ไม่รู้จัก และในอารัมภบท!</font>"
+		"DOTA_Tooltip_ability_item_gu_weather_control_Description"		"<h1>ใช้งานอยู่: การรักษาเสถียรภาพ</h1>เปลี่ยนสภาพอากาศปัจจุบันเป็นแดดจัด<br><br><font color='#E51D1D'>ไม่ทำงานในระหว่างการต่อสู้กับผู้พิทักษ์ งานสุดท้าย ในภารกิจที่ไม่รู้จัก และในอารัมภบท!</font>"
 
 
 
@@ -6973,7 +7044,7 @@
 		"wanderers_song_lore"				"หนังสือหนักเล่มนี้มีเพลงมากมาย ข้อความที่เขียนด้วยลายมือสร้างแรงบันดาลใจให้ความเคารพ แม้ว่าหนังสือเล่มนี้จะถูกมอดกินก็ตาม<br>"
 
 		"prayer_to_the_holy_winds"			"อธิษฐานต่อสายลมศักดิ์สิทธิ์"
-		"prayer_to_the_holy_winds_text"		"ทุกๆ 30 วินาที คุณจะได้รับความเสียหายจากเวทย์เพิ่มขึ้น 50% สามารถซ้อนได้สูงสุด 6 ครั้ง เมื่อตัวละครตายจะสูญเสียสแต็คทั้งหมด"
+		"prayer_to_the_holy_winds_text"		"ทุกๆ 30 วินาที คุณจะได้รับความเสียหายจากเวทย์เพิ่มขึ้น 50% สามารถซ้อนได้สูงสุด 6 ครั้ง เมื่อตัวละครตาย จะสูญเสียสแต็คทั้งหมด"
 		"prayer_to_the_holy_winds_lore"		"ชุดคำอธิษฐานที่เขียนโดยคนพื้นเมืองของทวีปที่บูชาสายลม ตลอดระยะเวลาหลายพันปีที่ผ่านมา หนังสือเล่มนี้ซึ่งพรั่งพร้อมด้วยพรแห่งสายลม ได้สั่งสมพลังเวทย์มนตร์ที่ไม่ธรรมดาเอาไว้<br>"
 
 		"catalist_5_2"						"แสงจันทร์นิรันดร์"
@@ -7273,7 +7344,7 @@
 
 		"DOTA_Tooltip_Ability_moai_1"							"<font color='#3fff05'>「โมอาย」</font>"
 		"DOTA_Tooltip_Ability_moai_1_Description"					"ตำนานของเกาะพูดถึงหัวหน้าเผ่า Hotu Matu'a ซึ่งออกจากบ้านเพื่อค้นหาเกาะใหม่และค้นพบเกาะอีสเตอร์ เมื่อเขาเสียชีวิต เกาะนี้ถูกแบ่งระหว่างลูกชายทั้งหกของเขา และระหว่างหลานกับเหลน ชาวเกาะเชื่อว่ารูปปั้นเหล่านี้มีพลังเหนือธรรมชาติของบรรพบุรุษของกลุ่มนี้ (มานา) ความเข้มข้นของมานาจะนำไปสู่การเก็บเกี่ยวที่ดีฝนและความเจริญรุ่งเรือง ตำนานเหล่านี้เปลี่ยนแปลงอยู่ตลอดเวลาและสืบทอดกันเป็นชิ้นเล็กชิ้นน้อย ทำให้เป็นการยากที่จะสร้างประวัติศาสตร์ที่แน่นอนขึ้นใหม่ ทฤษฎีที่ได้รับการยอมรับอย่างกว้างขวางที่สุดในหมู่นักวิจัยก็คือ โมอายถูกสร้างขึ้นโดยผู้ตั้งถิ่นฐานจากหมู่เกาะโพลีนีเซียนในศตวรรษที่ 11 โมอายอาจเป็นตัวแทนของบรรพบุรุษที่เสียชีวิตหรือให้ความแข็งแกร่งแก่หัวหน้าที่ยังมีชีวิตอยู่ รวมถึงเป็นสัญลักษณ์ของกลุ่มต่างๆ เป็นออร่าระดับโลก!"
-		"DOTA_Tooltip_Ability_moai_1_Note0"							"หินยืนอยู่ แต่คุณไม่มีมัน"
+		"DOTA_Tooltip_Ability_moai_1_Note0"							"หินนั้นยืนอยู่ แต่คุณไม่มีมัน"
 		"DOTA_Tooltip_Ability_moai_1_hp"							"สุขภาพเสริม: "
 		"DOTA_Tooltip_Ability_moai_1_bonus_armor"					"เกราะเพิ่มเติม: "
 		"DOTA_Tooltip_Ability_moai_1_hp_regen"						"%Регенерацияสุขภาพ: "
@@ -7405,7 +7476,7 @@
 		"DOTA_Tooltip_modifier_archer_ubw_charge_channeling_Description"						"Channeling Unlimited Blade Works"
 
 		"DOTA_Tooltip_modifier_archer_ubw_charge_buff"											"สวดมนต์"
-		"DOTA_Tooltip_modifier_archer_ubw_charge_buff_Description"								"สวดมนต์ Blade Unlimited Works"
+		"DOTA_Tooltip_modifier_archer_ubw_charge_buff_Description"								"สวดมนต์ Unlimited Blade Works"
 
 		//Unlimited Blade Works
 		"DOTA_Tooltip_ability_archer_ubw"														"งานใบมีดไม่ จำกัด"
@@ -7837,7 +7908,7 @@
 	
 		"reputation_help_main"														"ระบบชื่อเสียง"
 		"reputation_help_text"														"ทัศนคติของ Andromeda ที่มีต่อคุณส่งผลโดยตรงต่อการเล่นเกมของคุณ หลังจากที่คุณมาถึงดาวเคราะห์ “P3X-234” คุณได้พบกับแอนโดรเมดาซึ่งเป็นผู้บัญชาการในโลกของเธอ เนื่องจากเธอไม่เคยเกี่ยวข้องกับคุณมาก่อน เธอจึงไม่สามารถไว้วางใจคุณได้อย่างสมบูรณ์ ดังนั้นทัศนคติของเธอที่มีต่อคุณจึงเป็นกลาง เพื่อเพิ่มความมั่นใจในตัวคุณ คุณต้องทำงานให้สำเร็จ ฆ่าผู้พิทักษ์ และเอาชนะคลื่นผู้รุกรานได้สำเร็จ"
-		"reputation_help_help"														"ในการจบเกม คุณต้องมีทัศนคติเชิงบวก 95% ของ Andromeda และค้นหา MNT ตามจำนวนที่กำหนด ระวังเพราะถ้าคุณทำลายความสัมพันธ์ การฟื้นฟูความสัมพันธ์นั้นไม่ใช่เรื่องง่าย และผลที่ตามมาก็ไม่สามารถคาดเดาได้!<br><br>ตารางชื่อเสียง:<br>0% คุณไม่สามารถอัปเกรด Andromeda ได้<br>-20% คุณจะไม่มีอากาศดีอีกต่อไป<br>-40% Andromeda จะไม่ใช้ความสามารถที่ใช้งานอีกต่อไป<br>-60% การสนับสนุนทางอากาศทุกประเภทมีคูลดาวน์เพิ่มขึ้น 50%<br>-80% คุณไม่สามารถใช้แคชทั่วไปได้อีกต่อไป และ MNT ของคุณจะหมด 0.25% ทุก ๆ วินาที<br>-100% คุณแพ้" 
+		"reputation_help_help"														"ในการจบเกม คุณจะต้องมีทัศนคติเชิงบวก 95% ของ Andromeda และค้นหา MNT ตามจำนวนที่กำหนด ระวังเพราะถ้าคุณทำลายความสัมพันธ์ การฟื้นฟูความสัมพันธ์นั้นไม่ใช่เรื่องง่าย และผลที่ตามมาก็ไม่สามารถคาดเดาได้!<br><br>ตารางชื่อเสียง:<br>0% คุณไม่สามารถอัปเกรด Andromeda ได้<br>-20% คุณจะไม่มีอากาศดีอีกต่อไป<br>-40% Andromeda จะไม่ใช้ความสามารถที่ใช้งานอีกต่อไป<br>-60% การสนับสนุนทางอากาศทุกประเภทมีคูลดาวน์เพิ่มขึ้น 50%<br>-80% คุณไม่สามารถใช้แคชทั่วไปได้อีกต่อไป และ MNT ของคุณจะหมด 0.25% ทุก ๆ วินาที<br>-100% คุณแพ้" 
 
 		"reputation_text_1"															"<font color='#FF0000'>น่าขยะแขยง</font>"
 		"reputation_text_2"															"<font color='#FF8C00'>แย่</font>"
@@ -8250,7 +8321,7 @@
 		"isotope_uran238_text"														"กัมมันตภาพรังสี (1 ไมโครราด/วินาที ครึ่งชีวิต - 4.468 พันล้านปี)"
 
 		"isotope_thorium234"														"ทอเรียม-234"
-		"isotope_thorium234_text"													"กัมมันตภาพรังสี (60,000 rad/s ต่อ 1 กิโลกรัม ครึ่งชีวิต - 24 วัน 2 ชั่วโมง)"
+		"isotope_thorium234_text"													"กัมมันตรังสี (60,000 rad/s ต่อ 1 กิโลกรัม ครึ่งชีวิต - 24 วัน 2 ชั่วโมง)"
 
 		"isotope_null"																"ช่องว่าง"
 		"isotope_null_text"															" "
@@ -8438,7 +8509,7 @@
         "DOTA_Tooltip_ability_item_polonium210_Description"                                        "ไอโซโทปของพอโลเนียมนี้ถูกค้นพบโดยมารีและปิแอร์ กูรีในปี พ.ศ. 2441 ไอโซโทปนี้ถือเป็นทางเลือกหนึ่งสำหรับใช้เป็นตัวเริ่มนิวตรอนในอาวุธนิวเคลียร์หรือในเครื่องกำเนิดเทอร์โมอิเล็กทริกของไอโซโทปรังสี แต่ในทั้งสองกรณีก็ถูกปฏิเสธเนื่องจากมีตัวเลือกที่มีประสิทธิภาพมากกว่า และสุดท้ายก็กลายเป็นอาวุธสังหาร<br>ใช้เพื่ออัพเกรดบางรายการ<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
 
         "DOTA_Tooltip_ability_item_iron56"                                                    "เหล็ก-56"
-        "DOTA_Tooltip_ability_item_iron56_Description"                                            "ไอโซโทปเหล็ก-56 เป็นเหล็กชนิดเดียวกับที่ใช้ในการผลิตวัสดุที่เราพบทุกวัน ไอโซโทปของเหล็กนี้เป็นผลผลิตขั้นสุดท้ายของปฏิกิริยาภายในดาวฤกษ์ และก่อตัวขึ้นในแกนกลางในช่วงวันสุดท้ายก่อนที่มันจะระเบิดเป็นซุปเปอร์โนวา<br>ใช้เพื่ออัพเกรดบางรายการ<br>เสถียร"
+        "DOTA_Tooltip_ability_item_iron56_Description"                                            "ไอโซโทปเหล็ก-56 เป็นเหล็กชนิดเดียวกับที่ใช้ในการผลิตวัสดุที่เราพบทุกวัน ไอโซโทปของเหล็กเป็นผลสุดท้ายของปฏิกิริยาภายในดาวฤกษ์ และก่อตัวขึ้นในแกนกลางในช่วงวันสุดท้ายก่อนที่มันจะระเบิดเป็นซุปเปอร์โนวา<br>ใช้เพื่ออัพเกรดบางรายการ<br>เสถียร"
 
         "DOTA_Tooltip_ability_item_titanium44"                                                "ไททัน-44"
         "DOTA_Tooltip_ability_item_titanium44_Description"                                        "ไทเทเนียม-44 เป็นไอโซโทปต้นกำเนิดของสแกนเดียม-44 ที่ใช้ในการวินิจฉัยทางการแพทย์ เนื่องจากสแกนเดียม-44 มีอายุการใช้งานสั้น จึงถูกผลิตขึ้นในเครื่องกำเนิดไอโซโทปไทเทเนียม-44 แบบเคลื่อนที่พิเศษ<br>ใช้ร่วมกับสตรอนเทียม-90 เพื่อสร้างสนามพลังป้องกันแบบกำหนดเอง<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
@@ -8462,7 +8533,7 @@
         "DOTA_Tooltip_ability_item_uran238_Description"                                            "ยูเรเนียม-238 ซึ่งเป็นไอโซโทปยูเรเนียมที่มีความอุดมสมบูรณ์และมีอายุยาวนานที่สุด เป็นหนึ่งในไอโซโทปที่หนักที่สุดในบรรดาองค์ประกอบทางเคมีที่พบในธรรมชาติ<br>ใช้ในเครื่องปฏิกรณ์เพื่อผลิตพอโลเนียม-210 และตะกั่ว-206<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
 
 		"DOTA_Tooltip_ability_item_strontium90"                                                "สตรอนเชียม-90"
-        "DOTA_Tooltip_ability_item_strontium90_Description"                                       	"Strontium-90 ใช้ในการผลิตแหล่งควบคุมสำหรับเครื่องมือวัดปริมาณรังสี เช่นเดียวกับในการผลิตแหล่งพลังงานไอโซโทปรังสีในรูปของสตรอนเซียมไททาเนต<br>ใช้ร่วมกับไทเทเนียม-44 และตะกั่ว-206 เป็นองค์ประกอบของสารเชิงซ้อนการป้องกันรังสีในช่วงท้ายเกม<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตภาพรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
+        "DOTA_Tooltip_ability_item_strontium90_Description"                                       	"Strontium-90 ใช้ในการผลิตแหล่งควบคุมสำหรับเครื่องมือวัดปริมาณรังสี เช่นเดียวกับในการผลิตแหล่งพลังงานไอโซโทปรังสีในรูปของสตรอนเซียมไททาเนต<br>ใช้ร่วมกับไทเทเนียม-44 และตะกั่ว-206 เป็นองค์ประกอบของสารเชิงซ้อนการป้องกันรังสีในช่วงท้ายเกม<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
 
 		"DOTA_Tooltip_ability_item_cobalt59"                                                    "โคบอลต์-59"
         "DOTA_Tooltip_ability_item_cobalt59_Description"                                           	"ไอโซโทปโคบอลต์ที่พบมากที่สุดในธรรมชาติ เป็นส่วนประกอบของโลหะผสมและเหล็กกล้าพิเศษหลายชนิด รวมถึงวัสดุแม่เหล็กแข็งและทนความร้อน<br>ได้มาจากการทำปฏิกิริยาโคบอลต์-59 กับนิวตรอน โคบอลต์-60 จะถูกใช้เป็นตัวเร่งปฏิกิริยาเพื่อเร่งปฏิกิริยาการสลายตัวบางอย่าง<br>เสถียร"
@@ -8580,7 +8651,7 @@
 		"Talent_Lunasa_Label_Radius"            "รัศมีพื้นที่"
 
 		"DOTA_Tooltip_modifier_tree_cutter_tracker"                "ตามล่าหาเนื้อ"
-		"DOTA_Tooltip_modifier_tree_cutter_tracker_Description"    "เคาน์เตอร์ต้นไม้ล้ม Local legends say that the smell of fresh wood chips attracts lovers of fresh meat..."
+		"DOTA_Tooltip_modifier_tree_cutter_tracker_Description"    "เคาน์เตอร์ต้นไม้ล้ม ตำนานท้องถิ่นว่ากลิ่นของเศษไม้สดดึงดูดผู้ชื่นชอบเนื้อสด..."
 
 		"ebobo_text"	"???"
 
@@ -8591,7 +8662,7 @@
 		"Talent_MI24V_Label_BonusAgiDamage" "เพิ่ม. ความเสียหายจากความคล่องตัว"
 		"Talent_MI24V_Label_AgiScale"       "สเกลจากความคล่องตัว"
 
-		"Talent_MI24V_02_10"                "ลดช่วงเวลาระหว่างการยิงมิสไซล์จาก 1.0 เป็น 0.4 วินาที ทำให้อัตราการยิงเพิ่มขึ้น"
+		"Talent_MI24V_02_10"                "ลดช่วงเวลาระหว่างการยิงมิสไซล์จาก 1.0 เป็น 0.4 วินาที เพิ่มอัตราการยิง"
     	"Talent_MI24V_Label_AttackInterval" "ช่วงเวลาการโจมตี"
 
 		"Talent_MI24V_02_20"                "ลดค่าใช้จ่ายด้านพลังงานเมื่อใช้ความสามารถ"
@@ -8684,7 +8755,7 @@
 		"DOTA_Tooltip_ability_item_gu_ore_magnetite_Description""แร่เหล็กแม่เหล็ก องค์ประกอบที่สำคัญสำหรับระบบแม่เหล็กไฟฟ้าของเครื่องปฏิกรณ์"
 		
 		"DOTA_Tooltip_ability_item_gu_ore_malachite"			"มาลาไคต์ (ระดับ 1)"
-		"DOTA_Tooltip_ability_item_gu_ore_malachite_Description""แร่ทองแดงใช้ในการซ่อมแซมสายไฟและอุปกรณ์อิเล็กทรอนิกส์ขั้นพื้นฐาน"
+		"DOTA_Tooltip_ability_item_gu_ore_malachite_Description""แร่ทองแดงใช้ในการซ่อมแซมสายไฟและอุปกรณ์อิเล็กทรอนิกส์พื้นฐาน"
 		
 		"DOTA_Tooltip_ability_item_gu_ore_lead"					"ตะกั่ว (TYR 1)"
 		"DOTA_Tooltip_ability_item_gu_ore_lead_Description"		"โลหะหนัก. มีความสำคัญในการฟื้นฟูการป้องกันรังสีรอบแกนกลาง"
@@ -8806,7 +8877,7 @@
 		
 		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor"             "เครื่องปฏิกรณ์ชีวภาพของคนโบราณ"
         "DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_Description" "<h1>Passive: การฟื้นฟูแบบปรับตัว</h1>ฟื้นฟู<font color='#00e5ff'>%base_health_regen_pct%%%</font>จากพลังชีวิตสูงสุดต่อวินาที\n\nการฟื้นฟูจะเพิ่มขึ้นเพิ่มเติมอีก<font color='#00e5ff'>0.003%</font>สำหรับแต่ละยูนิตของเกราะกายภาพของฮีโร่\n\n<i>«เนื้อเยื่ออินทรีย์และโลหะผสมหลอมรวมเข้าด้วยกัน ทำให้ผู้สวมใส่แทบจะเป็นอมตะ»</i>"
-		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_strength" "โบนัสความแข็งแกร่ง:"
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_strength" "โบนัสเพื่อความแข็งแกร่ง:"
 		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_health" "โบนัสสุขภาพ:"
 		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_base_health_regen_pct" "%Регенерацияสุขภาพ:"
 

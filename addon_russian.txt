@@ -530,67 +530,80 @@
 
 		    "npc_dota_hero_lina" 										    "Lina「★★★★★★」"
 	
-		"DOTA_Tooltip_ability_lina_dragon_slave"								        "<font color='#FE5C2C'>「Fire Breath」</font> "
-		"DOTA_Tooltip_ability_lina_dragon_slave_Description"						        "Лина высвобождает дыхание дракона, которое сжигает всё на своем пути."
-		
-		"DOTA_Tooltip_ability_lina_light_strike_array"							        "<font color='#FE5C2C'>「Flame Pillar」</font> "
-		"DOTA_Tooltip_ability_lina_light_strike_array_Description"					        "Призывает ревущий столб пламени, оглушающий врагов."
-		
-		"DOTA_Tooltip_ability_lina_laguna_cu"									        "<font color='#FE5C2C'>「Unstable Lightning」</font>"
-	    "DOTA_Tooltip_ability_lina_laguna_cu_Description"							        "При использовании будет выбран случайный интервал между молниями, музыка, а также эффект, после чего в радиусе %aoe% вокруг героя вражеские мобы будут получать урон, зависящий от вашего интеллекта."
-		"DOTA_Tooltip_ability_lina_laguna_cu_Note0"                                         "Работает по формуле %damage% + интеллект * 1.5."
-        "DOTA_Tooltip_ability_lina_laguna_cu_target_count"								    "Количество целей: "
-		"DOTA_Tooltip_ability_lina_laguna_cu_duration"									    "Длительность: "
-		"DOTA_Tooltip_modifier_lina_laguna_cu"												"<font color='#FE5C2C'>「Unstable Lightning」</font>"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire"                            "<font color='#FE5C2C'>「Темное Пламя」</font>"
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_description"                "Герой выпускает разрушительную волну тёмного пламени, которая наносит магический урон и оглушает врагов на одной линии. Урон способности увеличивается в зависимости от показателя интеллекта владельца. Поражённые противники получают заряды <font color='#FF3333'>「Вечного Пламени」</font>."
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_damage"                     "Базовый урон: "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_intellect_pct"              "Урон от интеллекта (%): "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"              "Длительность оглушения: "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"               "Зарядов поджога: "
 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade" 							        "<font color='#FE5C2C'>「Lightning」</font>"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" 					        "Выпускает разряд молнии во врага. Если в течении нескольких секунд после применения способности цель умирает, способность получает заряд, увеличивающий урон."
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage" 							    "Урон: " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_scepter" 					    "Урон с скипетром: " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill" 					    "Дополнительный урон за заряд: " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_splash_radius_scepter" 				    "Радиус молнии со скипетром: " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_delay" 						    "Задержка каста: " 
-		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus" 					        "Увеличивает урон молнии за каждого убитого крипа/героя."
-		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" 			        "Ваш урон с молнии увеличен"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_shard_Description" 						"Увеличивает все показатели урона в 2 раза."
+        "DOTA_Tooltip_ability_gu_lina_light_array"                          "<font color='#FFD700'>「Вспышка Света」</font>"
+        "DOTA_Tooltip_ability_gu_lina_light_array_description"              "Призывает столб концентрированного пламени, который наносит магический урон, оглушает врагов и оставляет после себя выжженную землю. Противники, находящиеся на выжженной земле, получают периодический урон и заряды <font color='#FF3333'>「Вечного Пламени」</font>, а по окончании оглушения их скорость передвижения снижается."
+        "DOTA_Tooltip_ability_gu_lina_light_array_base_damage"              "Базовый урон: "
+        "DOTA_Tooltip_ability_gu_lina_light_array_intellect"                "Урон от интеллекта (%): "
+        "DOTA_Tooltip_ability_gu_lina_light_array_radius"                   "Радиус поражения: "
+        "DOTA_Tooltip_ability_gu_lina_light_array_duration"                 "Длительность горения земли: "
+        
+        "DOTA_Tooltip_modifier_gu_lina_light_array_stun"                    "<font color='#FFD700'>「Оглушение вспышкой」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_light_array_stun_description"        "Существо оглушено."
+        "DOTA_Tooltip_modifier_gu_lina_light_array_debuff"                  "<font color='#FFD700'>「Ожоги вспышки」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_light_array_debuff_description"      "Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
 
-		// 1. Темное пламя (dark_fire)
-		"DOTA_Tooltip_ability_gu_lina_dark_fire"							"<font color='#FE5C2C'>「Темное Пламя」</font>"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_Description"				"Лина выпускает разрушительную волну темного огня, наносящую чистый урон и оглушающую врагов на линии.\n\nУрон способности увеличивается в зависимости от Интеллекта героя. Пораженные враги дополнительно получают заряды <font color='#FF3333'>「Вечного Пламени」</font>."
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_damage"						"БАЗОВЫЙ УРОН:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_intellect"					"%УРОН ОТ ИНТЕЛЛЕКТА:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"				"ОГЛУШЕНИЕ:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"				"ЗАРЯДОВ ПОДЖОГА:"
+        "DOTA_Tooltip_ability_gu_lina_ashes"                                "<font color='#A8A8A8'>「Прах к Праху」</font>"
+        "DOTA_Tooltip_ability_gu_lina_ashes_description"                    "Пассивная способность. Каждое применение заклинаний окружает героя вихрем пепла, даруя накапливающиеся заряды усиления."
+        "DOTA_Tooltip_ability_gu_lina_ashes_duration"                       "Длительность эффекта: "
+        
+        "DOTA_Tooltip_modifier_gu_lina_ashes_buff"                          "<font color='#A8A8A8'>「Прах к Праху」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_ashes_buff_description"              "Герой окружён пеплом, усиливающим его способности."
 
-		// 2. Вспышка Света (light_array)
-		"DOTA_Tooltip_ability_gu_lina_light_array"							"<font color='#FFD700'>「Вспышка Света」</font>"
-		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"Призывает столб концентрированного пламени, который оглушает врагов на %stun_duration% сек., наносит урон и оставляет выжженную землю. \n\nВраги, оставшиеся на выжженной земле, получают периодический урон и дополнительные заряды <font color='#FF3333'>「Вечного Пламени」</font>, а после окончания оглушения их скорость передвижения сильно снижается."
-		"DOTA_Tooltip_ability_gu_lina_light_array_base_damage"				"БАЗОВЫЙ УРОН:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_intellect"				"%УРОН ОТ ИНТЕЛЛЕКТА:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_radius"					"РАДИУС ВЗРЫВА:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_duration"					"ВРЕМЯ ГОРЕНИЯ ЗЕМЛИ:"
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite"                       "<font color='#FF3333'>「Вечное Пламя」</font>"
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_description"           "Пассивная способность. Атаки и заклинания героя поджигают противников чистым пламенем. Каждый наложенный заряд наносит периодический чистый урон, величина которого зависит от текущего показателя интеллекта владельца."
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"              "Длительность горения: "
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"                "Базовый урон за заряд: "
+        
+        "DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"               "<font color='#FF3333'>「Вечное пламя」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_description"   "Существо горит, получая периодический чистый урон."
+
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade"                        "<font color='#00e5ff'>「Lightning Discharge」</font>"
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_description"            "Выпускает сокрушительный разряд молнии, наносящий огромный магический урон по области вокруг выбранной цели. Если противник погибает во время действия кратковременного эффекта шока от молнии, герой навсегда получает заряд, увеличивающий базовый урон этой способности."
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_shard_description"      "Увеличивает весь наносимый урон от способности в два раза."
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage"                 "Базовый урон: " 
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_splash_radius"          "Радиус поражения: " 
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill"        "Дополнительный урон за заряд: " 
+        
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus"                 "<font color='#00e5ff'>「Мощь Разряда」</font>"
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_description"     "Урон способности Lightning Discharge увеличен за убийство врагов."
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_death"                 "<font color='#00e5ff'>「Шок от молнии」</font>"
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_death_description"     "Если существо погибнет под этим эффектом, владелец способности получит постоянный бонус к урону."
+
+        "DOTA_Tooltip_ability_lina_laguna_cu"                               "<font color='#b000ff'>「Unstable Lightning」</font>"
+        "DOTA_Tooltip_ability_lina_laguna_cu_description"                   "Герой создаёт бурю, которая хаотично обрушивает разряды молний на случайных врагов в огромном радиусе. Урон каждой молнии складывается из базового значения и доли от текущего показателя интеллекта владельца."
+        "DOTA_Tooltip_ability_lina_laguna_cu_base_damage"                   "Базовый урон молнии: "
+        "DOTA_Tooltip_ability_lina_laguna_cu_int_mult"                      "Множитель урона от интеллекта: "
+        "DOTA_Tooltip_ability_lina_laguna_cu_target_count"                  "Количество молний за интервал: "
+        "DOTA_Tooltip_ability_lina_laguna_cu_aoe"                           "Радиус поражения: "
+        "DOTA_Tooltip_ability_lina_laguna_cu_duration"                      "Длительность бури: "
+        
+        "DOTA_Tooltip_modifier_lina_laguna_cu"                              "<font color='#b000ff'>「Unstable Lightning」</font>"
+        "DOTA_Tooltip_modifier_lina_laguna_cu_description"                  "Вокруг героя бушует шторм, поражающий случайных противников молниями."
+
 		
-		"DOTA_Tooltip_modifier_gu_lina_light_array_stun"					"<font color='#FFD700'>「Оглушение вспышкой」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_stun_Description"		"Оглушен столбом пламени."
-		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff"					"<font color='#FFD700'>「Ожоги вспышки」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff_Description"		"Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
+		"Lina_Scepter_DarkFire_Desc"     "Изменяет тип урона способности на Чистый (Pure), игнорирующий магическое сопротивление."
+		"Talent_Lina_DarkFire_20"        "Добавляет к урону способности дополнительные 60% от вашего Интеллекта."
+		"Lina_Label_DarkFireDmg"         "Урон (База + Талант)"
 
-		// 3. Пепел (ashes)
-		"DOTA_Tooltip_ability_gu_lina_ashes"								"<font color='#A8A8A8'>「Прах к Праху」</font>"
-		"DOTA_Tooltip_ability_gu_lina_ashes_Description"					"Каждое применение заклинаний окружает Лину вихрем пепла, даруя ей стаки усиления."
-		"DOTA_Tooltip_ability_gu_lina_ashes_duration"						"ДЛИТЕЛЬНОСТЬ ПЕПЛА:"
-		
-		"DOTA_Tooltip_modifier_gu_lina_ashes_buff"							"<font color='#A8A8A8'>「Прах к Праху」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_ashes_buff_Description"				"Пепел от примененных заклинаний обволакивает героя."
+		"Lina_Scepter_LightArray_Desc"   "Изменяет тип урона способности на Чистый (Pure), игнорирующий магическое сопротивление."
+		"Talent_Lina_LightArray_5"       "Удваивает длительность существования остаточного пламени."
 
-		// 4. Вечное пламя (endless_ignite)
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite"						"<font color='#FF3333'>「Вечное Пламя」</font>"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_Description"			"Атаки и способности Лины поджигают врагов чистым пламенем. Каждый заряд наносит периодический чистый урон, размер которого напрямую зависит от текущего показателя Интеллекта Лины."
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"				"ДЛИТЕЛЬНОСТЬ ПОДЖОГА:"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"				"БАЗОВЫЙ УРОН (ЗА СТАК):"
-		
-		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"				"<font color='#FF3333'>「Вечное пламя」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_Description"	"Этот юнит горит. Он получает огромный периодический чистый урон в зависимости от Интеллекта заклинателя."
+		"Lina_Scepter_Laguna_Desc"       "Изменяет тип урона способности на Чистый (Pure), игнорирующий магическое сопротивление."
+		"Lina_Shard_Laguna_Desc"         "Увеличивает итоговый урон способности (включая бонус от стаков) ровно в 2 раза."
+		"Talent_Lina_Laguna_1"           "За каждое убийство способностью дается 2 стака бонусного урона вместо 1."
+		"Talent_Lina_Laguna_15"          "Способность срабатывает дважды (повторный удар в ту же цель через 0.25 сек)."
+		"Lina_Label_LagunaStacks"        "Стаков за убийство"
+
+		"Talent_Lina_LagunaCU_10"        "Каждый удар способности исцеляет вас на 5% от нанесенного урона."
+		"Talent_Lina_LagunaCU_20"        "Устанавливает фиксированную перезарядку ультимейта в 50 секунд."
+		"Lina_Label_LagunaCUHeal"        "Лечение от урона"
 
 		    "npc_dota_hero_obsidian_destroyer" 							    "Merlin「★★★」"
 		
@@ -640,30 +653,65 @@
 
 		    "npc_dota_hero_oracle"								             "Interdimensional Parrot「★★★★」"	
 	
-		"DOTA_Tooltip_ability_space_rift"								"<font color='#9A75FE'>「Cosmic Rift」</font>"
-		"DOTA_Tooltip_ability_space_rift_Description"					"Пассивная способность.\nКаждое ваше заклинание прорывает ткань пространства вокруг вас. Разломы наносят базовый урон всем врагам поблизости. Противники, оказавшиеся в самом эпицентре разлома, дополнительно получают чистый урон, равный 5%% от их максимального запаса здоровья."
-		"DOTA_Tooltip_ability_space_rift_damage"						"Базовый урон:"
-		"DOTA_Tooltip_modifier_space_rift_passive"						"Cosmic Rift"
-		
-		"DOTA_Tooltip_ability_chronos_magic"							"<font color='#9A75FE'>「Space Magic」</font>"
-		"DOTA_Tooltip_ability_chronos_magic_Description"				"Маг искривляет пространство вокруг себя, затягивая всех окружающих врагов и нанося им нарастающий урон во время притяжения. По окончании действия герой и все притянутые враги телепортируются в указанную точку, где происходит мощный взрыв.\n\n<font color='#F81717'>Ограничение:</font> Базовое время перезарядки способности нельзя уменьшить предметами на сокращение кулдауна."
-		"DOTA_Tooltip_ability_chronos_magic_pull_damage"				"Урон от притяжения:"
-		"DOTA_Tooltip_ability_chronos_magic_open_damage"				"Урон от взрыва в конце:"
-		"DOTA_Tooltip_ability_chronos_magic_shard_Description"			"Снижает время перезарядки способности до 10 секунд."
+"DOTA_Tooltip_ability_space_rift"                                 "<font color='#9A75FE'>「Cosmic Rift」</font>"
+        "DOTA_Tooltip_ability_space_rift_description"                     "Пассивная способность. Каждое применение заклинаний прорывает ткань пространства вокруг героя. Возникающие разломы наносят магический урон всем врагам в радиусе действия. Противники, оказавшиеся в самом эпицентре разлома, дополнительно получают чистый урон, зависящий от их максимального запаса здоровья."
+        "DOTA_Tooltip_ability_space_rift_damage"                          "Базовый урон:"
+        "DOTA_Tooltip_ability_space_rift_center_damage"                   "Урон в центре (% от макс. HP):"
+        "DOTA_Tooltip_ability_space_rift_radius"                          "Радиус разлома:"
+        "DOTA_Tooltip_ability_space_rift_center_radius"                   "Радиус эпицентра:"
+        "DOTA_Tooltip_modifier_space_rift_passive"                        "Cosmic Rift"
+        
+        "DOTA_Tooltip_ability_chronos_magic"                               "<font color='#9A75FE'>「Space Magic」</font>"
+        "DOTA_Tooltip_ability_chronos_magic_description"                   "Герой искривляет пространство, притягивая к себе всех врагов в радиусе действия и нанося им нарастающий урон. По окончании притяжения герой и все захваченные цели перемещаются в указанную точку, где происходит мощный пространственный взрыв. Перезарядка этой способности не может быть уменьшена эффектами сокращения кулдауна."
+        "DOTA_Tooltip_ability_chronos_magic_pull_damage"                   "Урон от притяжения:"
+        "DOTA_Tooltip_ability_chronos_magic_pull_bonus"                    "Нарастающий урон притяжения:"
+        "DOTA_Tooltip_ability_chronos_magic_open_damage"                   "Урон от взрыва:"
+        "DOTA_Tooltip_ability_chronos_magic_radius"                        "Радиус притяжения:"
+        "DOTA_Tooltip_ability_chronos_magic_duration"                      "Время притяжения:"
+        "DOTA_Tooltip_ability_chronos_magic_shard_description"             "Сокращает перезарядку способности до 10 секунд."
 
-		"DOTA_Tooltip_ability_teleport_phase"							"<font color='#9A75FE'>「Displacement Matrix」</font>"
-		"DOTA_Tooltip_ability_teleport_phase_Description"				"Герой готовится к перемещению и после небольшой задержки телепортируется в указанную точку. В момент скачка пространство схлопывается, нанося магический урон врагам как в точке отправления, так и в точке прибытия."
-		"DOTA_Tooltip_ability_teleport_phase_damage"					"Урон от скачка:"
+        "DOTA_Tooltip_ability_teleport_phase"                              "<font color='#9A75FE'>「Displacement Matrix」</font>"
+        "DOTA_Tooltip_ability_teleport_phase_description"                  "После небольшой задержки герой мгновенно перемещается в указанную точку. В моменты исчезновения и появления пространство схлопывается, нанося магический урон всем врагам в радиусе обеих точек."
+        "DOTA_Tooltip_ability_teleport_phase_damage"                       "Урон от перемещения:"
+        "DOTA_Tooltip_ability_teleport_phase_delay"                        "Задержка перед скачком:"
+        "DOTA_Tooltip_ability_teleport_phase_radius"                       "Радиус взрыва:"
+        "DOTA_Tooltip_ability_teleport_phase_blink_range"                  "Дальность перемещения:"
 
-		"DOTA_Tooltip_ability_space_barrier"							"<font color='#9A75FE'>「Space Barrier」</font>"
-		"DOTA_Tooltip_ability_space_barrier_Description"				"Создает в выбранной области нестабильный гравитационный барьер. Сначала барьер стягивает всех противников в центр, а затем обрушивает на них серию разрушительных разрывов пространства, наносящих периодический урон."
-		"DOTA_Tooltip_ability_space_barrier_damage"						"Урон от разрыва:"
+        "DOTA_Tooltip_ability_space_barrier"                               "<font color='#9A75FE'>「Space Barrier」</font>"
+        "DOTA_Tooltip_ability_space_barrier_description"                   "Создает в выбранной области гравитационный барьер. Сначала он стягивает всех противников в центр, а затем обрушивает на них серию разрушительных разрывов пространства, наносящих периодический магический урон."
+        "DOTA_Tooltip_ability_space_barrier_base_damage"                   "Базовый урон появления:"
+        "DOTA_Tooltip_ability_space_barrier_damage"                        "Периодический урон разрыва:"
+        "DOTA_Tooltip_ability_space_barrier_delay"                         "Задержка до взрыва:"
+        "DOTA_Tooltip_ability_space_barrier_radius"                        "Радиус барьера:"
 
-		"DOTA_Tooltip_ability_fluctuation"								"<font color='#9A75FE'>「World Projection」</font>"
-		"DOTA_Tooltip_ability_fluctuation_Description"					"Создает колоссальную нестабильную проекцию мира. Враги, попавшие в область, получают огромный периодический урон и замедляются на 400%%. С каждой секундой интервал между ударами проекции сокращается, а наносимый урон постепенно увеличивается."
-		"DOTA_Tooltip_ability_fluctuation_damage"						"Начальный базовый урон:"
-		"DOTA_Tooltip_ability_fluctuation_scepter_Description"			"Увеличивает радиус действия способности до 750."
-		"DOTA_Tooltip_modifier_fluctuation_slow"						"Проекция Мира: Замедление"
+        "DOTA_Tooltip_ability_fluctuation"                                 "<font color='#9A75FE'>「World Projection」</font>"
+        "DOTA_Tooltip_ability_fluctuation_description"                     "Призывает колоссальную проекцию иного мира. Враги в области действия получают значительный периодический урон и замедляются. С каждой секундой частота ударов проекции растет, а наносимый ими урон увеличивается."
+        "DOTA_Tooltip_ability_fluctuation_damage"                          "Начальный урон:"
+        "DOTA_Tooltip_ability_fluctuation_slow"                            "Замедление передвижения:"
+        "DOTA_Tooltip_ability_fluctuation_radius"                          "Радиус проекции:"
+        "DOTA_Tooltip_ability_fluctuation_scepter_description"             "Увеличивает радиус действия способности до 750."
+        "DOTA_Tooltip_modifier_fluctuation_slow"                           "World Projection: Замедление"
+
+		// Chronos Magic
+		"Chronos_Shard_Magic_Desc"          "Снижает перезарядку способности до 10 секунд."
+		"Talent_Chronos_Magic_1"            "Увеличивает радиус действия способности в 3 раза."
+
+		// Teleport Phase
+		"Talent_Chronos_Teleport_5"         "Убирает задержку перед телепортацией (мгновенный прыжок) и увеличивает радиус урона в 2 раза."
+		"Chronos_Label_TeleportDelay"       "Задержка прыжка"
+
+		// Space Barrier
+		"Talent_Chronos_Barrier_10"         "Убирает задержку перед срабатыванием, увеличивает количество пульсаций урона до 50 и снижает интервал между ними до 0.1 сек."
+		"Chronos_Label_BarrierPulses"       "Количество пульсаций"
+
+		// Fluctuation (Ultimate)
+		"Chronos_Scepter_Fluctuation_Desc"  "Увеличивает радиус ультимейта до 750."
+		"Talent_Chronos_Fluctuation_15"     "Увеличивает длительность ультимейта до 15 секунд и количество тиков урона до 150."
+		"Talent_Chronos_Fluctuation_20"     "Формула урона за тик изменяется: базовый урон теперь умножается на половину от вашего Интеллекта (вместо сложения с ним)."
+		"Chronos_Label_FluctuationTicks"    "Тиков урона (всего)"
+		"Chronos_Label_FluctuationDmg"      "Урон за тик (База ➔ Талант)"
+
+		"DOTA_Ability_Variable_Radius"              "Радиус"
 
 		    "npc_dota_hero_axe"											    "Lalatina Dustiness Ford「★★★★」"
 
@@ -1806,39 +1854,62 @@
 
 			"npc_dota_hero_antimage" 										 "Demon Hunter「★★★★★★」"
 
-		"DOTA_Tooltip_ability_demon_hunter"												"<font color='#1EA72B'>「Demon hunter」</font> "
-		"DOTA_Tooltip_ability_demon_hunter_Description"										"Охотник захватывает души противников, каждая душа дает +1 к ловкости. Максимальное количество душ - 10000."
-		"DOTA_Tooltip_modifier_demon_stack"												"<font color='#1EA72B'>「Demon hunter」</font> "
-		"DOTA_Tooltip_modifier_demon_stack_Description"										"Каждый стак даёт +1 к ловкости."
+		"DOTA_Tooltip_ability_demon_hunter"                                             "<font color='#1EA72B'>「Demon hunter」</font>"
+        "DOTA_Tooltip_ability_demon_hunter_description"                                 "Пассивная способность. Охотник поглощает души поверженных врагов, навсегда увеличивая свою ловкость за каждую собранную душу. Максимальное базовое количество собираемых душ ограничено (5000)."
+        
+        "DOTA_Tooltip_modifier_demon_stack"                                             "<font color='#1EA72B'>「Demon hunter」</font>"
+        "DOTA_Tooltip_modifier_demon_stack_description"                                 "Ловкость увеличена за каждую поглощенную душу."
 
-		"DOTA_Tooltip_ability_soulblade"												"<font color='#1EA72B'>「On the other side of the soul」</font> "
-		"DOTA_Tooltip_ability_soulblade_Description"										"Наносит урон по формуле %base_damage% + (%damage% * ловкость) в области перед собой и отталкивает противников.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_soulblade_shard_Description"							"Снимает с себя все негативные эффекты при приминении."
+        "DOTA_Tooltip_ability_soulblade"                                                "<font color='#1EA72B'>「On the other side of the soul」</font>"
+        "DOTA_Tooltip_ability_soulblade_description"                                    "Герой совершает мощный взмах, отталкивая противников перед собой и нанося им физический урон, который масштабируется от показателя ловкости владельца.<br><br><font color='#cf1919'>Урон от этой способности не зависит от показателя усиления урона от заклинаний.</font>"
+        "DOTA_Tooltip_ability_soulblade_agi_scale"                                      "Множитель урона от ловкости: "
+        "DOTA_Tooltip_ability_soulblade_radius"                                         "Радиус поражения: "
+
+        "DOTA_Tooltip_ability_soulring"                                                 "<font color='#1EA72B'>「Soul field」</font>"
+        "DOTA_Tooltip_ability_soulring_description"                                     "Создает поле душ, высасывающее жизненные силы из противников. Враги в радиусе действия получают периодический физический урон, зависящий от ловкости героя, а сам владелец непрерывно исцеляется.<br><br><font color='#cf1919'>Урон от этой способности не зависит от показателя усиления урона от заклинаний.</font>"
+        "DOTA_Tooltip_ability_soulring_agi_scale"                                       "Множитель урона от ловкости: "
+        "DOTA_Tooltip_ability_soulring_radius"                                          "Радиус поля: "
+        "DOTA_Tooltip_ability_soulring_duration"                                        "Длительность: "
+        
+        "DOTA_Tooltip_modifier_dh_agh"                                                  "<font color='#1EA72B'>「Soul field: Scepter」</font>"
+        "DOTA_Tooltip_modifier_dh_agh_description"                                      "Дарует шанс уклониться от любого получаемого урона."
+
+        "DOTA_Tooltip_ability_magic_blade"                                              "<font color='#1EA72B'>「Void Blade」</font>"
+        "DOTA_Tooltip_ability_magic_blade_description"                                  "Пассивная способность. Каждая атака героя наносит дополнительный физический урон, зависящий от его текущего показателя ловкости.<br><br><font color='#cf1919'>Урон от этой способности не зависит от показателя усиления урона от заклинаний.</font>"
+
+        "DOTA_Tooltip_ability_metamorphosis"                                            "<font color='#1EA72B'>「Metamorphosis」</font>"
+        "DOTA_Tooltip_ability_metamorphosis_description"                                "Охотник принимает свою истинную демоническую форму. В этом состоянии его дальность атаки увеличивается, а удары наносят прорубающий урон по области. Кроме того, героя окружают мстительные духи, которые атакуют врагов поблизости, нанося урон в зависимости от ловкости и исцеляя владельца.<br><br><font color='#cf1919'>Урон от духов не зависит от показателя усиления урона от заклинаний.</font>"
+        "DOTA_Tooltip_ability_metamorphosis_duration"                                   "Длительность: "
+        "DOTA_Tooltip_ability_metamorphosis_bonus_range"                                "Дополнительная дальность атаки: "
+        "DOTA_Tooltip_ability_metamorphosis_cleave_radius"                              "Радиус прорубающего урона: "
+        "DOTA_Tooltip_ability_metamorphosis_spirits"                                    "Количество духов: "
+        
+        "DOTA_Tooltip_modifier_metamorphosis_custom"                                    "<font color='#1EA72B'>「Metamorphosis」</font>"
+        "DOTA_Tooltip_modifier_metamorphosis_custom_description"                        "Вы приняли демоническую форму. Дальность атаки увеличена, а удары наносят урон по области."
 
 
-		"DOTA_Tooltip_ability_soulring"													"<font color='#1EA72B'>「Soul field」</font> "
-		"DOTA_Tooltip_ability_soulring_Description"											"Создает поле, высасывающее жизнь из врагов. Наносит урон в зависимости от ловкости всем врагам в радиусе, а также востанавливает здоровье владельцу способности.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_soulring_damage"												"Множитель: "
-		"DOTA_Tooltip_ability_soulring_base_damage"											"Базовый урон: "
-			"DOTA_Tooltip_modifier_soulring"													"<font color='#1EA72B'>「Soul field」</font> "
-			"DOTA_Tooltip_modifier_soulring_Description"										"Вы находитесь в поле душ"
-		"DOTA_Tooltip_ability_soulring_scepter_Description"									"Во время действия способности, вы можете с шансом в 20% уклониться от любого урона."
-		"DOTA_Tooltip_modifier_dh_agh"													"<font color='#1EA72B'>「Soul field」</font> "
-		"DOTA_Tooltip_modifier_dh_agh_Description"										"Вы можете уклониться от любого урона с шансом 20%."
+		"DemonHunter_Shard_1_Desc"          "Способность можно активировать, чтобы потратить 25 душ и применить к себе сильное очищение (снимает все негативные эффекты)."
+		"Talent_DemonHunter_1_1"            "Увеличивает количество получаемых душ за каждое убийство до 2."
+		"Talent_DemonHunter_1_20"           "Увеличивает максимальный лимит накопления душ до 10,000."
+		"DH_Label_SoulsPerKill"             "Душ за убийство"
+		"DH_Label_MaxSouls"                 "Максимально душ"
 
-		"DOTA_Tooltip_ability_magic_blade"												"<font color='#1EA72B'>「Void Blade」</font> "
-		"DOTA_Tooltip_ability_magic_blade_Description"										"Каждой атакой наносит дополнительный урон по формуле - ловкость * 3<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
+		"Talent_DemonHunter_2_5"            "Увеличивает множитель урона от Ловкости на 0.5."
+		"DH_Label_SoulbladeMult"            "Урон от Ловкости"
 
-		"DOTA_Tooltip_ability_metamorphosis"											"<font color='#1EA72B'>「Metamorphosis」</font>"
-		"DOTA_Tooltip_ability_metamorphosis_Description"									"Превращает вас в огромного демона и окружает вас духами, добавляет %bonus_range% к дальности атаки, добавляет возможность нанесения урона по области, а также увеличивает ваш урон на %bonus_damage%. Во время действия способности вокруг вас будут летать духи, наносящие урон всем врагам в радиусе, а также востанавливающие вам здоровье.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_metamorphosis_bonus_damage"									"Дополнительный урон: "
-		"DOTA_Tooltip_ability_metamorphosis_max_damage"										"Урон духа: "
-		"DOTA_Tooltip_ability_metamorphosis_duration"										"Длительность: "
-			"DOTA_Tooltip_modifier_magic_blade_buff"											"<font color='#1EA72B'>「Void Blade」</font> "
-			"DOTA_Tooltip_modifier_magic_blade_debuff"											"<font color='#1EA72B'>「Void Blade」</font> "
-			"DOTA_Tooltip_modifier_exorcism" 													"<font color='#1EA72B'>「Metamorphosis」</font>"
- 			"DOTA_Tooltip_modifier_metamorphosis"												"<font color='#1EA72B'>「Metamorphosis」</font>"			
+		"DemonHunter_Scepter_3_Desc"        "После применения дарует бафф на 15 секунд, который дает 20% шанс полностью избежать любого входящего урона."
 		
+		"Talent_DemonHunter_4_15"           "Увеличивает множитель физического урона от Ловкости с 2.0 до 2.5."
+		"DH_Label_MagicBladeMult"           "Множитель атаки (Ловкость)"
+
+		"Talent_DemonHunter_5_10"           "Увеличивает множитель урона духов (Exorcism) от Ловкости героя с 0.6 до 1.0."
+		"DH_Label_SpiritMult"               "Урон духов (от Ловкости)"
+
+		"DH_Label_SoulbladeMult"            "Урон волны от Ловкости"
+		"DH_Label_MagicBladeMult"           "Доп. урон от Ловкости"
+		"DH_Label_SpiritMult"               "Урон духов от Ловкости"
+
+
 
 			"npc_dota_hero_gyrocopter" 										"MI-24V「★★★★★」"
 

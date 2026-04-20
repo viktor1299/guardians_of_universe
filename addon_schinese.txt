@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-"Language"	"schinese"
+"Language"	"俄语"
 "Tokens"
 {
 "addon_game_name"							"宇宙守护者"
@@ -252,7 +252,7 @@
 
         "DOTA_Tooltip_ability_voin_borrowed_time"                                     "<font color='#B56213'>「最后的机会」</font>"
         "DOTA_Tooltip_ability_voin_borrowed_time_description"                         "英雄对自己施加强力驱散，并暂时将他受到的任何伤害转化为治疗效果。如果生命值低于一定水平，该能力会自动应用。该能力的冷却时间不能被其他效果缩短。"
-        "DOTA_Tooltip_ability_voin_borrowed_time_hp_threshold"                        "自动施法的健康阈值： "
+        "DOTA_Tooltip_ability_voin_borrowed_time_hp_threshold"                        "自动施放的健康阈值： "
         "DOTA_Tooltip_ability_voin_borrowed_time_duration"                            "期间： "
         "DOTA_Tooltip_ability_voin_borrowed_time_duration_scepter"                    "持续时间（权杖）： "
         "DOTA_Tooltip_ability_voin_borrowed_time_redirect_range_scepter"              "光环半径（权杖）： "
@@ -530,67 +530,80 @@
 
 		    "npc_dota_hero_lina" 										    "莉娜「★★★★★★」"
 	
-		"DOTA_Tooltip_ability_lina_dragon_slave"								        "<font color='#FE5C2C'>「火息」</font> "
-		"DOTA_Tooltip_ability_lina_dragon_slave_Description"						        "莉娜释放出龙息，燃烧其路径上的一切。"
-		
-		"DOTA_Tooltip_ability_lina_light_strike_array"							        "<font color='#FE5C2C'>「火焰柱」</font> "
-		"DOTA_Tooltip_ability_lina_light_strike_array_Description"					        "召唤一道咆哮的火柱，使敌人昏迷。"
-		
-		"DOTA_Tooltip_ability_lina_laguna_cu"									        "<font color='#FE5C2C'>「不稳定的闪电」</font>"
-	    "DOTA_Tooltip_ability_lina_laguna_cu_Description"							        "使用时，将选择闪电、音乐和效果之间的随机间隔，之后在英雄周围%aoe%半径内，敌方小怪将根据你的智力受到伤害。"
-		"DOTA_Tooltip_ability_lina_laguna_cu_Note0"                                         "根据公式%damage%+ 智力 * 1.5 进行工作。"
-        "DOTA_Tooltip_ability_lina_laguna_cu_target_count"								    "目标数量： "
-		"DOTA_Tooltip_ability_lina_laguna_cu_duration"									    "期间： "
-		"DOTA_Tooltip_modifier_lina_laguna_cu"												"<font color='#FE5C2C'>「不稳定的闪电」</font>"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire"                            "<font color='#FE5C2C'>「黑暗火焰」</font>"
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_description"                "英雄释放一波毁灭性的黑暗火焰，造成魔法伤害并击晕一排敌人。该技能的伤害会根据拥有者的智力而增加。被击中的敌人会收到<font color='#FF3333'>「永恒之火」</font>的费用。"
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_damage"                     "基础伤害： "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_intellect_pct"              "智力伤害（%）： "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"              "眩晕持续时间： "
+        "DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"               "纵火指控： "
 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade" 							        "<font color='#FE5C2C'>「闪电」</font>"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_Description" 					        "向敌人释放一道闪电。如果目标在施放该能力后几秒内死亡，该能力就会获得增加伤害的冲锋。"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage" 							    "损害： " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_scepter" 					    "权杖伤害： " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill" 					    "每次充电的额外伤害： " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_splash_radius_scepter" 				    "权杖闪电半径： " 
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_delay" 						    "施法延迟： " 
-		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus" 					        "每个被杀死的小兵/英雄都会增加闪电伤害。"
-		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" 			        "你的闪电伤害已增加"
-		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_shard_Description" 						"所有伤害指标增加2倍。"
+        "DOTA_Tooltip_ability_gu_lina_light_array"                          "<font color='#FFD700'>「闪光」</font>"
+        "DOTA_Tooltip_ability_gu_lina_light_array_description"              "召唤一道浓缩火焰柱，造成魔法伤害，击晕敌人，并留下焦土。焦土上的敌人会受到周期性伤害并充能<font color='#FF3333'>「永恒之火」</font>，眩晕结束后移动速度会降低。"
+        "DOTA_Tooltip_ability_gu_lina_light_array_base_damage"              "基础伤害： "
+        "DOTA_Tooltip_ability_gu_lina_light_array_intellect"                "智力伤害（%）： "
+        "DOTA_Tooltip_ability_gu_lina_light_array_radius"                   "伤害半径： "
+        "DOTA_Tooltip_ability_gu_lina_light_array_duration"                 "地球燃烧的持续时间： "
+        
+        "DOTA_Tooltip_modifier_gu_lina_light_array_stun"                    "<font color='#FFD700'>「闪光眩晕」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_light_array_stun_description"        "该生物惊呆了。"
+        "DOTA_Tooltip_modifier_gu_lina_light_array_debuff"                  "<font color='#FFD700'>「闪光烧伤」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_light_array_debuff_description"      "移动速度降低<font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>。"
 
-		// 1. Темное пламя (dark_fire)
-		"DOTA_Tooltip_ability_gu_lina_dark_fire"							"<font color='#FE5C2C'>「黑暗火焰」</font>"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_Description"				"莉娜释放出毁灭性的黑暗火焰波，造成纯粹伤害并击晕线上的敌人。\n\n该技能的伤害根据英雄的智力而增加。被击中的敌人会额外获得<font color='#FF3333'>「永恒之火」</font>。"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_damage"						"基础伤害："
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_intellect"					"%УРОН来自情报："
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"				"击晕："
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"				"纵火指控："
+        "DOTA_Tooltip_ability_gu_lina_ashes"                                "<font color='#A8A8A8'>「尘埃落定」</font>"
+        "DOTA_Tooltip_ability_gu_lina_ashes_description"                    "被动能力。每个施放的法术都会将英雄包围在灰烬漩涡中，并给予堆叠增益效果。"
+        "DOTA_Tooltip_ability_gu_lina_ashes_duration"                       "效果持续时间： "
+        
+        "DOTA_Tooltip_modifier_gu_lina_ashes_buff"                          "<font color='#A8A8A8'>「尘埃落定」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_ashes_buff_description"              "英雄被灰烬包围，增强了他的能力。"
 
-		// 2. Вспышка Света (light_array)
-		"DOTA_Tooltip_ability_gu_lina_light_array"							"<font color='#FFD700'>「闪光」</font>"
-		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"召唤一道集中火焰柱，使敌人昏迷%stun_duration%秒，造成伤害，并留下焦土。\n\n留在焦土上的敌人会随着时间的推移受到伤害并额外受到<font color='#FF3333'>「永恒之火」</font>的伤害，并且在眩晕结束后，他们的移动速度会大大降低。"
-		"DOTA_Tooltip_ability_gu_lina_light_array_base_damage"				"基础伤害："
-		"DOTA_Tooltip_ability_gu_lina_light_array_intellect"				"%УРОН来自情报："
-		"DOTA_Tooltip_ability_gu_lina_light_array_radius"					"爆炸半径："
-		"DOTA_Tooltip_ability_gu_lina_light_array_duration"					"地球燃烧时间："
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite"                       "<font color='#FF3333'>「永恒之火」</font>"
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_description"           "被动能力。英雄的攻击和法术用纯粹的火焰点燃敌人。每次施加的费用都会造成周期性的纯粹伤害，其数量取决于所有者当前的智力得分。"
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"              "燃烧持续时间： "
+        "DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"                "每次充电的基础伤害： "
+        
+        "DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"               "<font color='#FF3333'>「永恒之火」</font>"
+        "DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_description"   "该生物会燃烧，随着时间的推移会受到纯粹的伤害。"
+
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade"                        "<font color='#00e5ff'>「闪电放电」</font>"
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_description"            "释放毁灭性的闪电，对目标周围区域造成大量魔法伤害。如果敌人在闪电震击短暂激活时死亡，英雄将永久获得一次充能，增加该能力的基础伤害。"
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_shard_description"      "该技能造成的所有伤害加倍。"
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage"                 "基础伤害： " 
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_splash_radius"          "伤害半径： " 
+        "DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill"        "每次充电的额外伤害： " 
+        
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus"                 "<font color='#00e5ff'>「电击力量」</font>"
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_description"     "杀死敌人时闪电放电伤害增加。"
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_death"                 "<font color='#00e5ff'>「雷电冲击」</font>"
+        "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_death_description"     "如果生物在此效果下死亡，该能力的拥有者将获得永久的伤害加值。"
+
+        "DOTA_Tooltip_ability_lina_laguna_cu"                               "<font color='#b000ff'>「不稳定的闪电」</font>"
+        "DOTA_Tooltip_ability_lina_laguna_cu_description"                   "英雄制造了一场风暴，向大半径范围内的随机敌人随机释放闪电。每个闪电的伤害由基础值和拥有者当前智力值的百分比组成。"
+        "DOTA_Tooltip_ability_lina_laguna_cu_base_damage"                   "基础闪电伤害： "
+        "DOTA_Tooltip_ability_lina_laguna_cu_int_mult"                      "智力伤害倍数： "
+        "DOTA_Tooltip_ability_lina_laguna_cu_target_count"                  "每个时间间隔的雷击次数： "
+        "DOTA_Tooltip_ability_lina_laguna_cu_aoe"                           "伤害半径： "
+        "DOTA_Tooltip_ability_lina_laguna_cu_duration"                      "风暴持续时间： "
+        
+        "DOTA_Tooltip_modifier_lina_laguna_cu"                              "<font color='#b000ff'>「不稳定的闪电」</font>"
+        "DOTA_Tooltip_modifier_lina_laguna_cu_description"                  "风暴在英雄周围肆虐，用闪电袭击随机的敌人。"
+
 		
-		"DOTA_Tooltip_modifier_gu_lina_light_array_stun"					"<font color='#FFD700'>「闪光眩晕」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_stun_Description"		"被一道火柱惊呆了。"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff"					"<font color='#FFD700'>「闪光烧伤」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff_Description"		"移动速度降低<font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>。"
+		"Lina_Scepter_DarkFire_Desc"     "将技能的伤害类型更改为纯粹，忽略魔法抗性。"
+		"Talent_Lina_DarkFire_20"        "该技能的伤害额外增加 60% 的智力。"
+		"Lina_Label_DarkFireDmg"         "伤害（基础+天赋）"
 
-		// 3. Пепел (ashes)
-		"DOTA_Tooltip_ability_gu_lina_ashes"								"<font color='#A8A8A8'>「尘埃落定」</font>"
-		"DOTA_Tooltip_ability_gu_lina_ashes_Description"					"每个施放的咒语都会让莉娜陷入灰烬漩涡中，为她带来成堆的增益效果。"
-		"DOTA_Tooltip_ability_gu_lina_ashes_duration"						"灰烬持续时间："
-		
-		"DOTA_Tooltip_modifier_gu_lina_ashes_buff"							"<font color='#A8A8A8'>「尘埃落定」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_ashes_buff_Description"				"所使用的法术的灰烬包裹着英雄。"
+		"Lina_Scepter_LightArray_Desc"   "将技能的伤害类型更改为纯粹，忽略魔法抗性。"
+		"Talent_Lina_LightArray_5"       "使残余火焰的持续时间加倍。"
 
-		// 4. Вечное пламя (endless_ignite)
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite"						"<font color='#FF3333'>「永恒之火」</font>"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_Description"			"莉娜的攻击和能力会用纯粹的火焰燃烧敌人。每次冲锋都会造成周期性的纯伤害，其数量直接取决于莉娜当前的智力得分。"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"				"纵火持续时间："
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"				"基础伤害（每层）："
-		
-		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"				"<font color='#FF3333'>「永恒之火」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_Description"	"这个单位着火了。根据施法者的智力，它会受到大量周期性的纯伤害。"
+		"Lina_Scepter_Laguna_Desc"       "将技能的伤害类型更改为纯粹，忽略魔法抗性。"
+		"Lina_Shard_Laguna_Desc"         "使该能力的最终伤害（包括叠加的加值）恰好增加 2 倍。"
+		"Talent_Lina_Laguna_1"           "每次击杀技能都会带来 2 层额外伤害，而不是 1 层。"
+		"Talent_Lina_Laguna_15"          "该能力有效两次（0.25秒后重复攻击同一目标）。"
+		"Lina_Label_LagunaStacks"        "斯塔科夫谋杀罪"
+
+		"Talent_Lina_LagunaCU_10"        "该技能的每次命中都会治愈你所造成伤害的 5%。"
+		"Talent_Lina_LagunaCU_20"        "将终极技能的固定冷却时间设置为 50 秒。"
+		"Lina_Label_LagunaCUHeal"        "伤害治疗"
 
 		    "npc_dota_hero_obsidian_destroyer" 							    "梅林「★★★」"
 		
@@ -640,30 +653,65 @@
 
 		    "npc_dota_hero_oracle"								             "异次元鹦鹉「★★★★」"	
 	
-		"DOTA_Tooltip_ability_space_rift"								"<font color='#9A75FE'>「宇宙裂痕」</font>"
-		"DOTA_Tooltip_ability_space_rift_Description"					"被动能力。\n你的每个法术都会破坏你周围的空间结构。裂缝对附近所有敌人造成基础伤害。陷入裂缝中间的敌人会受到相当于其最大生命值 5%%的额外纯伤害。"
-		"DOTA_Tooltip_ability_space_rift_damage"						"基础伤害："
-		"DOTA_Tooltip_modifier_space_rift_passive"						"宇宙裂痕"
-		
-		"DOTA_Tooltip_ability_chronos_magic"							"<font color='#9A75FE'>「空间魔法」</font>"
-		"DOTA_Tooltip_ability_chronos_magic_Description"				"法师会弯曲他周围的空间，将周围的所有敌人拉进来，并在拉扯过程中对他们造成越来越大的伤害。行动结束时，英雄和所有被吸引的敌人都会被传送到指定地点，在那里会发生强大的爆炸。\n\n<font color='#F81717'>限制：</font>技能的基础冷却时间不能通过冷却减少物品来减少。"
-		"DOTA_Tooltip_ability_chronos_magic_pull_damage"				"拉力伤害："
-		"DOTA_Tooltip_ability_chronos_magic_open_damage"				"最终爆炸伤害："
-		"DOTA_Tooltip_ability_chronos_magic_shard_Description"			"将技能的冷却时间缩短至 10 秒。"
+"DOTA_Tooltip_ability_space_rift"                                 "<font color='#9A75FE'>「宇宙裂痕」</font>"
+        "DOTA_Tooltip_ability_space_rift_description"                     "被动能力。每次使用法术都会破坏英雄周围的空间结构。由此产生的裂缝会对半径内的所有敌人造成魔法伤害。陷入裂缝中心的敌人会根据其最大生命值受到额外的纯伤害。"
+        "DOTA_Tooltip_ability_space_rift_damage"                          "基础伤害："
+        "DOTA_Tooltip_ability_space_rift_center_damage"                   "中心伤害（最大生命值的%）："
+        "DOTA_Tooltip_ability_space_rift_radius"                          "断层半径："
+        "DOTA_Tooltip_ability_space_rift_center_radius"                   "震中半径："
+        "DOTA_Tooltip_modifier_space_rift_passive"                        "宇宙裂痕"
+        
+        "DOTA_Tooltip_ability_chronos_magic"                               "<font color='#9A75FE'>「空间魔法」</font>"
+        "DOTA_Tooltip_ability_chronos_magic_description"                   "英雄弯曲空间，吸引范围内的所有敌人并对他们造成越来越大的伤害。在吸引力结束时，英雄和所有捕获的目标被移动到指定点，在那里发生强大的空间爆炸。该技能的冷却时间不会因冷却时间缩短效果而缩短。"
+        "DOTA_Tooltip_ability_chronos_magic_pull_damage"                   "拉力伤害："
+        "DOTA_Tooltip_ability_chronos_magic_pull_bonus"                    "增加吸引力伤害："
+        "DOTA_Tooltip_ability_chronos_magic_open_damage"                   "爆炸伤害："
+        "DOTA_Tooltip_ability_chronos_magic_radius"                        "景点半径："
+        "DOTA_Tooltip_ability_chronos_magic_duration"                      "景点时间："
+        "DOTA_Tooltip_ability_chronos_magic_shard_description"             "将技能的冷却时间缩短至 10 秒。"
 
-		"DOTA_Tooltip_ability_teleport_phase"							"<font color='#9A75FE'>「位移矩阵」</font>"
-		"DOTA_Tooltip_ability_teleport_phase_Description"				"英雄准备移动，并在短暂延迟后传送到指定地点。跳跃的瞬间，空间崩塌，对出发点和到达点的敌人造成魔法伤害。"
-		"DOTA_Tooltip_ability_teleport_phase_damage"					"跳跃伤害："
+        "DOTA_Tooltip_ability_teleport_phase"                              "<font color='#9A75FE'>「位移矩阵」</font>"
+        "DOTA_Tooltip_ability_teleport_phase_description"                  "短暂延迟后，英雄立即移动到指定点。在消失和再现的瞬间，空间崩塌，对两点半径内的所有敌人造成魔法伤害。"
+        "DOTA_Tooltip_ability_teleport_phase_damage"                       "移动伤害："
+        "DOTA_Tooltip_ability_teleport_phase_delay"                        "跳转前延迟："
+        "DOTA_Tooltip_ability_teleport_phase_radius"                       "爆炸半径："
+        "DOTA_Tooltip_ability_teleport_phase_blink_range"                  "行程范围："
 
-		"DOTA_Tooltip_ability_space_barrier"							"<font color='#9A75FE'>「空间屏障」</font>"
-		"DOTA_Tooltip_ability_space_barrier_Description"				"在选定区域创建不稳定的重力屏障。屏障首先将所有敌人拉到中心，然后对他们释放一系列毁灭性的空间破裂，随着时间的推移造成伤害。"
-		"DOTA_Tooltip_ability_space_barrier_damage"						"爆发伤害："
+        "DOTA_Tooltip_ability_space_barrier"                               "<font color='#9A75FE'>「空间屏障」</font>"
+        "DOTA_Tooltip_ability_space_barrier_description"                   "在选定区域中创建重力屏障。它首先将所有敌人拉到中心，然后对他们释放一系列毁灭性的空间破裂，随着时间的推移造成魔法伤害。"
+        "DOTA_Tooltip_ability_space_barrier_base_damage"                   "基础生成伤害："
+        "DOTA_Tooltip_ability_space_barrier_damage"                        "随着时间的推移爆发伤害："
+        "DOTA_Tooltip_ability_space_barrier_delay"                         "爆炸前延迟："
+        "DOTA_Tooltip_ability_space_barrier_radius"                        "障碍半径："
 
-		"DOTA_Tooltip_ability_fluctuation"								"<font color='#9A75FE'>「世界投影」</font>"
-		"DOTA_Tooltip_ability_fluctuation_Description"					"创建一个巨大的、不稳定的世界投影。随着时间的推移，陷入该区域的敌人会受到巨大伤害，并被减速 400%%。每过一秒，投射命中的间隔就会缩短，造成的伤害也逐渐增加。"
-		"DOTA_Tooltip_ability_fluctuation_damage"						"初始基础伤害："
-		"DOTA_Tooltip_ability_fluctuation_scepter_Description"			"将能力范围增加至 750。"
-		"DOTA_Tooltip_modifier_fluctuation_slow"						"世界预测：放缓"
+        "DOTA_Tooltip_ability_fluctuation"                                 "<font color='#9A75FE'>「世界投影」</font>"
+        "DOTA_Tooltip_ability_fluctuation_description"                     "召唤另一个世界的巨大投影。随着时间的推移，该地区的敌人会受到严重伤害并被减速。每过一秒，投射攻击的频率就会增加，造成的伤害也会增加。"
+        "DOTA_Tooltip_ability_fluctuation_damage"                          "初始伤害："
+        "DOTA_Tooltip_ability_fluctuation_slow"                            "移动速度减慢："
+        "DOTA_Tooltip_ability_fluctuation_radius"                          "投影半径："
+        "DOTA_Tooltip_ability_fluctuation_scepter_description"             "将能力范围增加至 750。"
+        "DOTA_Tooltip_modifier_fluctuation_slow"                           "世界预测：放缓"
+
+		// Chronos Magic
+		"Chronos_Shard_Magic_Desc"          "将技能的冷却时间缩短至 10 秒。"
+		"Talent_Chronos_Magic_1"            "能力范围增加3倍。"
+
+		// Teleport Phase
+		"Talent_Chronos_Teleport_5"         "消除传送（瞬间跳跃）前的延迟，并将伤害半径增加 2 倍。"
+		"Chronos_Label_TeleportDelay"       "跳转延迟"
+
+		// Space Barrier
+		"Talent_Chronos_Barrier_10"         "消除触发前的延迟，将伤害脉冲数量增加到 50 个，并将它们之间的间隔缩短到 0.1 秒。"
+		"Chronos_Label_BarrierPulses"       "脉动数"
+
+		// Fluctuation (Ultimate)
+		"Chronos_Scepter_Fluctuation_Desc"  "将终极半径增加到 750。"
+		"Talent_Chronos_Fluctuation_15"     "将终极技能的持续时间增加至 15 秒，伤害刻度数增加至 150。"
+		"Talent_Chronos_Fluctuation_20"     "每刻伤害公式发生变化：基础伤害现在乘以智力的一半（而不是相加）。"
+		"Chronos_Label_FluctuationTicks"    "伤害刻度（总计）"
+		"Chronos_Label_FluctuationDmg"      "每刻伤害（基础➔天赋）"
+
+		"DOTA_Ability_Variable_Radius"              "半径"
 
 		    "npc_dota_hero_axe"											    "拉拉丁娜·达斯蒂尼斯·福特「★★★★」"
 
@@ -752,7 +800,7 @@
 		    "npc_dota_hero_winter_wyvern"							        "金刚「★★★★」" 
 			
 		"DOTA_Tooltip_Ability_kongou_ammo"												"<font color='#F34E4E'>「HE 弹丸」</font>"
-		"DOTA_Tooltip_ability_kongou_ammo_Description"										"以下攻击将获得额外的攻击范围并造成区域伤害。"
+		"DOTA_Tooltip_ability_kongou_ammo_Description"										"以下攻击将获得额外的攻击范围并造成范围伤害。"
 		"DOTA_Tooltip_ability_kongou_ammo_scepter_Description"								"周期性地对英雄攻击范围内的随机敌人进行独立的常规攻击。如果激活该能力，攻击将仅使用高爆弹丸。"
 		"DOTA_Tooltip_ability_kongou_ammo_attacks"         									"攻击次数： "
 		"DOTA_Tooltip_ability_kongou_ammo_duration"        									"期间： "
@@ -920,7 +968,7 @@
 		"DOTA_Tooltip_ability_gu_kurumi_tenth_bullets_Description"							    "狂三将一个友军目标送入过去，为所有能力（甚至终极技能）充电，冷却时间为%cd%。<br><br><font color='#F81717'>该能力的冷却时间无法缩短。 __标签4__"
 
 		"DOTA_Tooltip_ability_gu_kurumi_fourth_bullets"									    "<font color='#F81717'>「第四个子弹：Dalet」</font>"
-		"DOTA_Tooltip_ability_gu_kurumi_fourth_bullets_Description"							    "狂三有机会%chance%%%躲避任何效果（伤害、控制、死亡等）。<br><br><font color='#F81717'>该能力的冷却时间无法减少。 __标签5__"
+		"DOTA_Tooltip_ability_gu_kurumi_fourth_bullets_Description"							    "狂三有机会%chance%%%躲避任何效果（伤害、控制、死亡等）。<br><br><font color='#F81717'>该能力的冷却时间无法缩短。 __标签5__"
 
 // =========================================
 // 1. ИНВЕРСИЯ (Трансформация)
@@ -1179,7 +1227,7 @@
 		"DOTA_Tooltip_ability_aqua_buff_buff_heal_pct"										"%Увеличение再生： "
 			"DOTA_Tooltip_modifier_aqua_buff"													"<font color='#1163E9'>「终极女神加持」</font>"
 			"DOTA_Tooltip_modifier_aqua_buff_Description"										"对魔法免疫。主属性增加。"
-			"DOTA_Tooltip_ability_aqua_buff_scepter_Description"								"受该能力影响的目标的效果抗性+50%。"
+			"DOTA_Tooltip_ability_aqua_buff_scepter_Description"								"受该能力影响的目标的效果抗性增加+50%。"
 		
 		"DOTA_Tooltip_ability_aqua_respawn"											"<font color='#1163E9'>「女神复活」</font> "
 		"DOTA_Tooltip_ability_aqua_respawn_Description"									"复活地图上所有盟友，复活后，施加技能「终极女神加力」效果，该技能的冷却时间不会减少，为%cd%"
@@ -1388,7 +1436,7 @@
 		"DOTA_Tooltip_ability_ability_thdots_cirno01_icebound_duration"					  	"地面结冰持续时间： "
 
 		"DOTA_Tooltip_ability_ability_thdots_cirno02"                                   "<font color='#0077ff'>碎冰「碎冰机」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_cirno02_Description"                         	"俗气的落下。如果它落在冰冻的地面上，冰就会爆炸并伤害敌人。当冰爆炸时，就会引发连锁反应。如果附近没有冰冻地面，敌人会被冻结2秒。如果掉在没有冰的地上，起司会被击晕。"
+		"DOTA_Tooltip_ability_ability_thdots_cirno02_Description"                         	"俗气的瀑布。如果它落在冰冻的地面上，冰就会爆炸并伤害敌人。当冰爆炸时，就会引发连锁反应。如果附近没有冰冻地面，敌人会被冻结2秒。如果掉在没有冰的地上，起司会被击晕。"
 		"DOTA_Tooltip_ability_ability_thdots_cirno02_radius"							  	"连锁反应半径："
 
 		"DOTA_Tooltip_ability_ability_thdots_cirno03"                                   "<font color='#0077ff'>破冰「冰柱坠落」</font>"
@@ -1806,39 +1854,62 @@
 
 			"npc_dota_hero_antimage" 										 "恶魔猎手「★★★★★★」"
 
-		"DOTA_Tooltip_ability_demon_hunter"												"<font color='#1EA72B'>「恶魔猎手」</font> "
-		"DOTA_Tooltip_ability_demon_hunter_Description"										"猎人捕获对手的灵魂，每个灵魂都会使敏捷+1。灵魂数量上限为10,000。"
-		"DOTA_Tooltip_modifier_demon_stack"												"<font color='#1EA72B'>「恶魔猎手」</font> "
-		"DOTA_Tooltip_modifier_demon_stack_Description"										"每层都会使敏捷性+1。"
+		"DOTA_Tooltip_ability_demon_hunter"                                             "<font color='#1EA72B'>「恶魔猎手」</font>"
+        "DOTA_Tooltip_ability_demon_hunter_description"                                 "被动能力。猎人吸收被击败的敌人的灵魂，收集到的每个灵魂都会永久增加他的敏捷性。收集灵魂的最大基数是有限的（5000）。"
+        
+        "DOTA_Tooltip_modifier_demon_stack"                                             "<font color='#1EA72B'>「恶魔猎手」</font>"
+        "DOTA_Tooltip_modifier_demon_stack_description"                                 "每吸收一个灵魂，敏捷性就会增加。"
 
-		"DOTA_Tooltip_ability_soulblade"												"<font color='#1EA72B'>「灵魂的另一边」</font> "
-		"DOTA_Tooltip_ability_soulblade_Description"										"使用公式%base_damage%+ (%damage%* 敏捷性) 在你面前的区域造成伤害并击退敌人。<br><br><font color='#cf1919'>注意！该能力的伤害无法通过魔法强化来提升！"
-		"DOTA_Tooltip_ability_soulblade_shard_Description"							"消除使用时的所有负面影响。"
+        "DOTA_Tooltip_ability_soulblade"                                                "<font color='#1EA72B'>「灵魂的另一边」</font>"
+        "DOTA_Tooltip_ability_soulblade_description"                                    "英雄做出强有力的挥击，将对手推到他面前并对他们造成物理伤害，伤害随着主人的敏捷程度而增加。<br><br><font color='#cf1919'>该能力造成的伤害不受法术伤害加成的影响。 __标签3__"
+        "DOTA_Tooltip_ability_soulblade_agi_scale"                                      "敏捷伤害倍数： "
+        "DOTA_Tooltip_ability_soulblade_radius"                                         "伤害半径： "
+
+        "DOTA_Tooltip_ability_soulring"                                                 "<font color='#1EA72B'>「灵魂领域」</font>"
+        "DOTA_Tooltip_ability_soulring_description"                                     "创建一个灵魂领域，吸取对手的生命力。范围内的敌人会根据英雄的敏捷程度受到周期性的物理伤害，并且佩戴者会持续得到治疗。<br><br><font color='#cf1919'>该能力造成的伤害不受法术伤害加成的影响。 __标签3__"
+        "DOTA_Tooltip_ability_soulring_agi_scale"                                       "敏捷伤害倍数： "
+        "DOTA_Tooltip_ability_soulring_radius"                                          "场地半径： "
+        "DOTA_Tooltip_ability_soulring_duration"                                        "期间： "
+        
+        "DOTA_Tooltip_modifier_dh_agh"                                                  "<font color='#1EA72B'>「灵魂领域：权杖」</font>"
+        "DOTA_Tooltip_modifier_dh_agh_description"                                      "有机会躲避受到的任何伤害。"
+
+        "DOTA_Tooltip_ability_magic_blade"                                              "<font color='#1EA72B'>「虚空之刃」</font>"
+        "DOTA_Tooltip_ability_magic_blade_description"                                  "被动能力。每个英雄的攻击都会根据他当前的敏捷统计数据造成额外的物理伤害。<br><br><font color='#cf1919'>该能力造成的伤害不受法术伤害加成的影响。 __标签3__"
+
+        "DOTA_Tooltip_ability_metamorphosis"                                            "<font color='#1EA72B'>「变形记」</font>"
+        "DOTA_Tooltip_ability_metamorphosis_description"                                "猎人变身为真正的恶魔形态。在这种状态下，他的攻击范围会增加，并且他的攻击会在一定范围内造成劈裂伤害。此外，英雄周围都是复仇之魂，它们会攻击附近的敌人，根据敏捷性造成伤害并治愈主人。<br><br><font color='#cf1919'>来自灵魂的伤害不受法术伤害加成的影响。 __标签3__"
+        "DOTA_Tooltip_ability_metamorphosis_duration"                                   "期间： "
+        "DOTA_Tooltip_ability_metamorphosis_bonus_range"                                "附加攻击范围： "
+        "DOTA_Tooltip_ability_metamorphosis_cleave_radius"                              "劈裂伤害半径： "
+        "DOTA_Tooltip_ability_metamorphosis_spirits"                                    "香水数量： "
+        
+        "DOTA_Tooltip_modifier_metamorphosis_custom"                                    "<font color='#1EA72B'>「变形记」</font>"
+        "DOTA_Tooltip_modifier_metamorphosis_custom_description"                        "你已经呈现出恶魔的形态。攻击范围增加并造成区域伤害。"
 
 
-		"DOTA_Tooltip_ability_soulring"													"<font color='#1EA72B'>「灵魂领域」</font> "
-		"DOTA_Tooltip_ability_soulring_Description"											"创建一个可以吸取敌人生命的能量场。对半径内的所有敌人造成基于敏捷性的伤害，并为该技能的拥有者恢复生命值。<br><br><font color='#cf1919'>注意！该能力的伤害无法通过魔法强化来提升！"
-		"DOTA_Tooltip_ability_soulring_damage"												"因素： "
-		"DOTA_Tooltip_ability_soulring_base_damage"											"基础伤害： "
-			"DOTA_Tooltip_modifier_soulring"													"<font color='#1EA72B'>「灵魂领域」</font> "
-			"DOTA_Tooltip_modifier_soulring_Description"										"你在灵魂的领域"
-		"DOTA_Tooltip_ability_soulring_scepter_Description"									"当该能力处于活动状态时，你有 20% 的几率躲避任何伤害。"
-		"DOTA_Tooltip_modifier_dh_agh"													"<font color='#1EA72B'>「灵魂领域」</font> "
-		"DOTA_Tooltip_modifier_dh_agh_Description"										"你可以以 20%.的几率躲避任何伤害"
+		"DemonHunter_Shard_1_Desc"          "激活该能力需要花费25个灵魂并对自己进行强力净化（消除所有负面影响）。"
+		"Talent_DemonHunter_1_1"            "每次击杀获得的灵魂数量增加至 2 个。"
+		"Talent_DemonHunter_1_20"           "灵魂积累上限增加至10000。"
+		"DH_Label_SoulsPerKill"             "谋杀案淋浴"
+		"DH_Label_MaxSouls"                 "最大淋浴间"
 
-		"DOTA_Tooltip_ability_magic_blade"												"<font color='#1EA72B'>「虚空之刃」</font> "
-		"DOTA_Tooltip_ability_magic_blade_Description"										"每次攻击都会根据公式造成额外伤害 - 敏捷 * 3<br><br><font color='#cf1919'>注意！该能力的伤害无法通过魔法强化来提升！"
+		"Talent_DemonHunter_2_5"            "敏捷伤害倍数增加 0.5。"
+		"DH_Label_SoulbladeMult"            "敏捷伤害"
 
-		"DOTA_Tooltip_ability_metamorphosis"											"<font color='#1EA72B'>「变形记」</font>"
-		"DOTA_Tooltip_ability_metamorphosis_Description"									"将你变成一个巨大的恶魔，用灵魂包围你，使攻击范围增加%bonus_range%，增加效果伤害范围，并使你的伤害增加%bonus_damage%。当该能力处于活动状态时，灵魂会在你周围飞行，对半径内的所有敌人造成伤害并恢复你的生命值。<br><br><font color='#cf1919'>注意！该能力的伤害无法通过魔法强化来提升！"
-		"DOTA_Tooltip_ability_metamorphosis_bonus_damage"									"额外伤害： "
-		"DOTA_Tooltip_ability_metamorphosis_max_damage"										"精神伤害： "
-		"DOTA_Tooltip_ability_metamorphosis_duration"										"期间： "
-			"DOTA_Tooltip_modifier_magic_blade_buff"											"<font color='#1EA72B'>「虚空之刃」</font> "
-			"DOTA_Tooltip_modifier_magic_blade_debuff"											"<font color='#1EA72B'>「虚空之刃」</font> "
-			"DOTA_Tooltip_modifier_exorcism" 													"<font color='#1EA72B'>「变形记」</font>"
- 			"DOTA_Tooltip_modifier_metamorphosis"												"<font color='#1EA72B'>「变形记」</font>"			
+		"DemonHunter_Scepter_3_Desc"        "一旦施放，就会获得持续 15 秒的增益，有 20% 的几率完全避免任何传入的伤害。"
 		
+		"Talent_DemonHunter_4_15"           "敏捷物理伤害倍数从 2.0 增加至 2.5。"
+		"DH_Label_MagicBladeMult"           "攻击倍数（敏捷）"
+
+		"Talent_DemonHunter_5_10"           "将英雄敏捷的驱魔伤害倍数从 0.6 提高到 1.0。"
+		"DH_Label_SpiritMult"               "精神伤害（敏捷）"
+
+		"DH_Label_SoulbladeMult"            "敏捷波伤害"
+		"DH_Label_MagicBladeMult"           "添加。敏捷伤害"
+		"DH_Label_SpiritMult"               "敏捷造成的精神伤害"
+
+
 
 			"npc_dota_hero_gyrocopter" 										"MI-24V「★★★★★」"
 
@@ -2036,7 +2107,7 @@
 			"DOTA_Tooltip_modifier_archer_Description"											"你是一名弓箭手"
 		
 		"DOTA_Tooltip_ability_rider"													"<font color='#F717F7'>「变身：骑士」</font> "
-		"DOTA_Tooltip_ability_rider_Description"											"变身为骑手，将可见范围增加%view%，并将角色的基本统计数据更改为敏捷。"
+		"DOTA_Tooltip_ability_rider_Description"											"变身为骑手，通过%view%增加可见范围，并将角色的基本统计数据更改为敏捷。"
 		"DOTA_Tooltip_ability_rider_bonus_range"											"攻击范围： "
 		"DOTA_Tooltip_ability_rider_attribute"												"敏捷奖励： "
 			"DOTA_Tooltip_modifier_rider"														"<font color='#F717F7'>「变身：骑士」</font> "
@@ -2602,7 +2673,7 @@
 		"DOTA_Tooltip_ability_sdkfz234_pac40_Description"							"配备了可以穿透任何装甲的超威力大炮。第三帝国的全部力量都投入到了这种武器上；元首亲自批准了这把枪的制造。"
 		"DOTA_Tooltip_ability_sdkfz234_pac40_bonus_damage"							"第三帝国的权力： "
 		"DOTA_Tooltip_ability_sdkfz234_pac40_scepter_Description"				"将弹药类型更改为次口径。"
-		"DOTA_Tooltip_ability_sdkfz234_pac40_shard_Description"					"将射弹的飞行速度提高到超音速。"
+		"DOTA_Tooltip_ability_sdkfz234_pac40_shard_Description"					"将射弹的飞行速度提高至超音速。"
 
 
 		"DOTA_Tooltip_Ability_armor1"													"黑暗斗篷"
@@ -3877,7 +3948,7 @@
 	"round_name_random_14" "科尔-艾"
 	"round_name_random_15" "孤独"
 	"round_name_random_16" "铁皮人"
-	"round_name_random_17" "但为了上帝的恩典"
+	"round_name_random_17" "没有上帝的恩典"
 	"round_name_random_18" "在毒蛇的掌握之中"
 	"round_name_random_19" "蛇的巢穴"
 	"round_name_random_20" "履行职责"
@@ -4243,7 +4314,7 @@
 		"andromeda_repli_4" "如果这个星球拒绝他们的宗教，它就会被摧毁或被奴役。"
 		"andromeda_repli_5" "他们也来到这里，但我拒绝了他们的提议，现在他们的军队开始从他们奴役的所有世界发起攻击。"
 		"andromeda_repli_6" "他们将一个装置搬到了这个星球上——运输环，在它的帮助下他们将部队从船上转移出去！"
-		"andromeda_repli_7" "我的军队被彻底摧毁，现在我在这场战争中需要你的帮助！"
+		"andromeda_repli_7" "我的军队被彻底摧毁，现在我需要你在这场战争中的帮助！"
 		"andromeda_repli_8" "他们又进攻了！注意力！"
 		"andromeda_repli_9" "我发现随着每一波敌人的数量都会增加，并且具有独特能力的冠军也可能会出现。"
 		"andromeda_repli_10" "而且，我们防御的时间越长，他们就会变得越强大，并且他们拥有新的能力和武器。"
@@ -4328,7 +4399,7 @@
 		"lore_qvest_main_text_des"	"保卫安德洛墨达免受所有威胁，直到她准备好结束战争！"
 		"lore_qvest_boss_text_des"	"杀死任何守护者。<br><br>奖励：200古币"
 		"lore_qvest_upgrade_tron_text_des"	"将仙女座的任何参数升级 10 级。<br><br>奖励：500古币"
-		"lore_qvest_upgrade_nuclear_text_des"	"修复核反应堆。使用冶金工厂，组装完整的反应堆修理套件并启动！"
+		"lore_qvest_upgrade_nuclear_text_des"	"修理核反应堆。使用冶金工厂，组装完整的反应堆修理套件并启动！"
 		"lore_qvest_all_boss_kill_text_easy_des"	"杀死任意一名守护者 1 次。"
 		"lore_qvest_all_boss_kill_text_standart_des"	"杀死任意 4 个守护者，各一次。"
 		"lore_qvest_all_boss_kill_text_hard_des"	"杀死任意 5 个守护者，各一次。"
@@ -4747,7 +4818,7 @@
 		"npc_dota_hero_storm_spirit_t4_name"		"-「大统一定理」_-"
 		"npc_dota_hero_storm_spirit_t4"		"改进 - 「大统一定理」<br><br>每个十字会额外提供3层被动。"
 		"npc_dota_hero_storm_spirit_t5_name"		"-「核弹头」_-"
-		"npc_dota_hero_storm_spirit_t5"		"强化 - 「核弹头」<br><br>造成伤害增加4倍，眩晕时间增加至10秒。"
+		"npc_dota_hero_storm_spirit_t5"		"强化 - 「核弹头」<br><br>伤害增加4倍，眩晕时间增加至10秒。"
 		"npc_dota_hero_storm_spirit_t6_name"		"-「宇宙飞船」_-"
 		"npc_dota_hero_storm_spirit_t6"		"添加新能力！<br><br>你将能够使用第二个能力——「宇宙飞船的可能性」。"
 
@@ -5097,7 +5168,7 @@
 		"npc_dota_hero_earth_spirit_t6"		"提升<br><font color='#A78B4A'>「挑衅」</font><br><br>半径增加至1200，攻击单位攻击速度增加150。"
 
 		"npc_dota_hero_clinkz_t2_name"		"-「拯救之箭」_-"
-		"npc_dota_hero_clinkz_t3_name"		"-「Arrows Of Salvation」_-"
+		"npc_dota_hero_clinkz_t3_name"		"-「拯救之箭」_-"
 		"npc_dota_hero_clinkz_t4_name"		"-「降临仪式」_-"
 		"npc_dota_hero_clinkz_t5_name"		"-「降临仪式」_-"
 		"npc_dota_hero_clinkz_t6_name"		"-「体质强化」_-"
@@ -5134,7 +5205,7 @@
 		"npc_dota_hero_slark_t2_name"		"-“战斗机”_-"
 		"npc_dota_hero_slark_t3_name"		"-“战斗机”_-"
 		"npc_dota_hero_slark_t4_name"		"-“轰炸机”_-"
-		"npc_dota_hero_slark_t5_name"		"-「Torpedo Bomber」_-"
+		"npc_dota_hero_slark_t5_name"		"-「鱼雷轰炸机」_-"
 		"npc_dota_hero_slark_t6_name"		"-「运气好」_-"
 		"npc_dota_hero_slark_t2"		"提升<br><font color='#F7A22E'>「中队：战斗机」</font><br><br>对盟友使用该能力时，「中队：战斗机」的持续时间将延长 100%。"
 		"npc_dota_hero_slark_t3"		"提升<br><font color='#F7A22E'>「中队：战斗机」</font><br><br>增加额外伤害-智力 * 2"
@@ -5292,7 +5363,7 @@
 		"npc_dota_hero_phantom_assassin_t6_name"		"「魔王纳希玛」"
 		"npc_dota_hero_phantom_assassin_t2"		"提高<br><font color='#df26b8'>「Sandalphon」</font><br><br>增加额外伤害 - 力量 * 2"
 		"npc_dota_hero_phantom_assassin_t3"		"改进<br><font color='#df26b8'>「Adonai Melek」</font><br><br>将攻击之间的冷却时间缩短至 0.1 秒"
-		"npc_dota_hero_phantom_assassin_t4"		"强化<br><font color='#df26b8'>矢刀神十香「★★★★★★」</font><br><br>能力发动 -<font color='#df26b8'>「反转：魔王纳赫玛」 「最终之剑：帕弗施列夫」</font>"
+		"npc_dota_hero_phantom_assassin_t4"		"强化<br><font color='#df26b8'>矢刀神十香「★★★★★★」</font><br><br>能力发动 -<font color='#df26b8'>「反转：魔王纳希玛」 「最终之剑：帕弗施列夫」</font>"
 		"npc_dota_hero_phantom_assassin_t5"		"提高<br><font color='#df26b8'>「Halvanhelen」</font><br><br>增加额外伤害 - 力量 * 2"
 		"npc_dota_hero_phantom_assassin_t6"		"改进<br><font color='#df26b8'>「Halvanhelen」</font><br><br>将伤害类型更改为纯伤害。<br><br>改进<br><font color='#df26b8'>「反转：魔王纳希玛」</font><br><br>将冷却时间缩短至 200 秒。"
 
@@ -5322,7 +5393,7 @@
 		"npc_dota_hero_pugna_t3_name"			"「天翼种」"
 		"npc_dota_hero_pugna_t4_name"			"「黑色能量火箭」"
 		"npc_dota_hero_pugna_t5_name"			"「黑色能量火箭」"
-		"npc_dota_hero_pugna_t6_name"			"「暗杀模式」"
+		"npc_dota_hero_pugna_t6_name"			"「刺杀模式」"
 		"npc_dota_hero_pugna_t2"				"提高<br><font color='#ff00eb'>「黑色能量」</font><br><br>增加额外伤害 - 敏捷 * 2"
 		"npc_dota_hero_pugna_t3"				"改善<br><font color='#ff00eb'>「天翼种」</font><br><br>触发攻击次数减少至2次"
 		"npc_dota_hero_pugna_t4"				"提高<br><font color='#ff00eb'>「黑色能量火箭」</font><br><br>增加额外伤害-敏捷 * 2"
@@ -5514,7 +5585,7 @@
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"						"<font color='#7ee340'>可以送给盟友！"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"								"宇宙胸甲"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"						"<h1>主动：天气护盾</h1>对目标施加闪电护盾效果。攻击有盾牌保护的单位时，每次%static_proc_count%击中自身时，都会向敌人释放闪电，对攻击者造成%static_damage%%伤害，并使其减速%static_slow%，持续%static_slow_duration%秒。\n<h1>被动：<font color='#0384fc'>天气之神</font></h1>免疫所有负面天气影响（你不会被闪电等击中）。\n<h1>被动：<font color='#0384fc'>能量免疫</font></h1>完全保护玩家免受任何电力影响。\n<h1>被动：能量爆发</h1>有%proc_chance%% 几率产生连锁闪电，该闪电会跳到%bounce_radius%半径内的所有敌方单位，并对物品所有者造成%bounce_damage%% 攻击伤害。\n<h1>被动：<font color='#ff8400'>宇宙套装</font></h1>「拥有全套宇宙物品，将新增一个能力——世界毁灭者」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"						"<h1>主动：天气护盾</h1>对目标施加闪电护盾效果。攻击有盾牌保护的单位时，每次%static_proc_count%击中自身时，都会向敌人释放闪电，对攻击者造成%static_damage%%伤害，并使其减速%static_slow%，持续%static_slow_duration%秒。\n<h1>被动：<font color='#0384fc'>天气之神</font></h1>免疫所有负面天气影响（你不会被闪电等击中）。\n<h1>被动：<font color='#0384fc'>能量免疫</font></h1>完全保护玩家免受任何接触电力的影响。\n<h1>被动：能量爆发</h1>有%proc_chance%% 几率产生连锁闪电，该闪电会跳到%bounce_radius%半径内的所有敌方单位，并对物品所有者造成%bounce_damage%% 攻击伤害。\n<h1>被动：<font color='#ff8400'>宇宙套装</font></h1>「拥有全套宇宙物品，将增加新能力——世界毁灭者」"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"						"+伤害："
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"							"+攻击速度："
 
@@ -5705,14 +5776,14 @@
 		"DOTA_Tooltip_ability_item_gu_wave_2_Description"						"<h1>主动：眩晕</h1>向英雄发射一枚射弹，击中后，随机眩晕敌人%stun_min%至%stun_max%秒，冷却时间%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>值取决于难度。"
 
 		"DOTA_Tooltip_ability_item_gu_wave_3"									"投射物：解除武装"
-		"DOTA_Tooltip_ability_item_gu_wave_3_Description"						"<h1>主动：销毁武器</h1>向英雄发射射弹，击中后，解除目标的武装%duration%，重新加载%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>价值取决于难度。"
+		"DOTA_Tooltip_ability_item_gu_wave_3_Description"						"<h1>主动：销毁武器</h1>向英雄发射射弹，击中后，解除目标的武装%duration%，重新加载%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>值取决于难度。"
 		"DOTA_Tooltip_modifier_item_gu_wave_3"									"投射物：解除武装"
 		"DOTA_Tooltip_modifier_item_gu_wave_3_Description"						"你不能攻击。"
 
 		"DOTA_Tooltip_ability_item_gu_wave_4"									"投射物：沉默"
 		"DOTA_Tooltip_ability_item_gu_wave_4_Description"						"<h1>主动：沉默</h1>向英雄发射一枚射弹，撞击后沉默%duration%，冷却时间%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>价值取决于难度。"
 		"DOTA_Tooltip_modifier_item_gu_wave_4"									"投射物：沉默"
-		"DOTA_Tooltip_modifier_item_gu_wave_4_Description"						"受尽折磨。"
+		"DOTA_Tooltip_modifier_item_gu_wave_4_Description"						"Замучен."
 
 		"DOTA_Tooltip_ability_item_gu_wave_5"									"射弹：伤害减少"
 		"DOTA_Tooltip_ability_item_gu_wave_5_Description"						"<h1>主动：伤害减少</h1>向英雄发射一枚射弹，击中后，目标伤害减少%damage%%，持续%duration%秒，冷却时间%cd%\n<h1><font color='#ff1778'>入侵者能力</font></h1>值取决于难度。"
@@ -6639,7 +6710,7 @@
 		"DOTA_Tooltip_bvo_orihime_skill_2_modifier" 						"<font color='#E5C91D'>「无名防御阵法」</font>"
 		
 		"DOTA_Tooltip_ability_origami_ylti" 								"<font color='#E5C91D'>「阿泰利夫：皇冠大炮」</font>"
-		"DOTA_Tooltip_ability_origami_ylti_Description" 						"通过<font color='#E5C91D'>「绝目天使」</font>能力创造出一个时间扭曲的球体，其中出现裂缝，每过一秒裂缝出现的次数就会越来越多，伤害的计算公式为%damage%+折纸智力的20%。<br><br><font color='#E51D1D'>你无法使用法术伤害增强物品来增加该能力的伤害！ __标签6__"
+		"DOTA_Tooltip_ability_origami_ylti_Description" 						"通过<font color='#E5C91D'>「绝目天使」</font>能力创造出一个时间扭曲的球体，其中会出现裂痕，每过一秒裂痕就会越来越频繁地出现，伤害的计算公式为%damage%+折纸智力的20%。<br><br><font color='#E51D1D'>你无法使用法术伤害增强物品来增加该能力的伤害！ __标签6__"
 
 		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「魔王：撒旦」</font>"
 		"DOTA_Tooltip_ability_origami_inverse_Description" 					"折纸获得撒旦，梅塔特隆的更黑暗、更险恶的版本，进入反转形态，获得额外的智力（%int%），并且所有魔法伤害增加%spell_amp%%%。<br><font color='#E5C91D'>在 10 级可用。</font>"
@@ -6731,7 +6802,7 @@
 
 
 		"DOTA_Tooltip_ability_item_boots_of_universe"										"宇宙之靴"
-		"DOTA_Tooltip_ability_item_boots_of_universe_Description"								"<h1>主动：治愈</h1>立即恢复%replenish_health%生命值和%replenish_mana%法力，然后在 6 秒内为附近所有盟友恢复 18%%点。消除施法者的大部分负面影响。\n<h1>被动：银河核心</h1>将你的能力冷却时间缩短%cd%%.\n<h1>被动：水色光环</h1>使健康单位的生命恢复速度增加%base_regen%+%regen_per_pct_tooltip%%%，在%base_armor%+%armor_per_pct_tooltip%%%内最亲密盟友的护甲上增加 __TAG13__ + __TAG14__ __TAG15__%aura_radius%的半径。目标的生命值越低，受到的影响就越大。\n<h1>被动：无用女神</h1>如果拥有者的 HP 低于%heal_threshold_pct%%%则施加治疗。\n<h1>被动：<font color='#ff8400'>宇宙套装</font></h1>「拥有全套宇宙物品，将增加新能力-世界毁灭者」\n<font color='#ff1100'>注意！</font>该项目是神器系统的一部分；多种类型物品的冷却时间减少不会叠加！"
+		"DOTA_Tooltip_ability_item_boots_of_universe_Description"								"<h1>主动：治愈</h1>立即恢复%replenish_health%生命值和%replenish_mana%法力值，然后在 6 秒内为附近所有盟友恢复 18 个%%值。消除施法者的大部分负面影响。\n<h1>被动：银河核心</h1>将你的能力冷却时间缩短%cd%%.\n<h1>被动：水色光环</h1>使健康单位的生命恢复速度增加%base_regen%+%regen_per_pct_tooltip%%%，在%base_armor%+%armor_per_pct_tooltip%%%内最亲密盟友的护甲上增加 __TAG13__ + __TAG14__ __TAG15__%aura_radius%的半径。目标的生命值越低，受到的影响就越大。\n<h1>被动：无用女神</h1>如果拥有者的 HP 低于%heal_threshold_pct%%%则施加治疗。\n<h1>被动：<font color='#ff8400'>宇宙套装</font></h1>「拥有全套宇宙物品，将增加新能力-世界毁灭者」\n<font color='#ff1100'>注意！</font>该项目是神器系统的一部分；多种类型物品的冷却时间减少不会叠加！"
 		"DOTA_Tooltip_ability_item_boots_of_universe_bonus_movement"								"%+$移动速度"
 		"DOTA_Tooltip_ability_item_boots_of_universe_bonus_all_stats"							"+$全部"	
 		"DOTA_Tooltip_ability_item_boots_of_universe_bonus_mana"									"+$法力"		
@@ -6851,7 +6922,7 @@
         "DOTA_Tooltip_ability_nero_tres_fontaine_ardent_damage"				"损害："
  
   		"DOTA_Tooltip_Ability_nero_gladiusanus_blauserum"     			"<font color='#FFE56E'>「剑兰」</font>"
-        "DOTA_Tooltip_ability_nero_gladiusanus_blauserum_Description" 		"激活后，每击中目标3次，尼禄就会对目标周围300半径范围内的区域造成伤害，并对目标造成100%的减速，持续%slow_duration%秒，并且激活后额外获得+100攻击速度。"
+        "DOTA_Tooltip_ability_nero_gladiusanus_blauserum_Description" 		"激活后，每击中目标3次，尼禄就会对目标周围300半径范围内的区域造成伤害，并对目标施加100%的减速效果，持续%slow_duration%秒，同时激活后额外获得+100的攻击速度。"
         "DOTA_Tooltip_ability_nero_gladiusanus_blauserum_duration"			"期间："
 		"DOTA_Tooltip_ability_nero_gladiusanus_blauserum_base_damage"  		"基础伤害："
 		"DOTA_Tooltip_ability_nero_gladiusanus_blauserum_bonus_damage" 		"每次命中的额外伤害："
@@ -7112,7 +7183,7 @@
 
         "talents_button_main"               "冶金厂"
         "talents_button_text"               "打开冶金工厂界面用于熔炼资源和创建物品。"
-        "talents_button_help"               "工厂是整个团队共享的全球生产体系。在这里，从矿山中提取的矿石被冶炼成复杂的合金和高科技零件。资源仓库是每个人共有的，但请记住：当一个玩家开始冶炼过程时，工厂将被占用，其他人在完成之前将无法开始新工艺。"
+        "talents_button_help"               "工厂是整个团队共享的全球生产体系。在这里，从矿山中提取的矿石被冶炼成复杂合金和高科技零件。资源仓库是每个人共有的，但请记住：当一个玩家开始冶炼过程时，工厂将被占用，其他人在完成之前将无法开始新工艺。"
         
         "ascension_button_main"             "扬升"
         "ascension_button_text"             "打开提升菜单以升级角色的特性。"
@@ -7210,7 +7281,7 @@
 		"DOTA_Tooltip_Ability_item_psychic_headband2"						"无限头盔"
 		"DOTA_Tooltip_ability_item_psychic_headband_Description"				"<h1>主动：心灵推动</h1>将选定的敌人推离主人，距离为%push_length%。\n<h1>可升级</h1><font color='#F9E62B'>该物品可以升级为 => 无限头盔。花费 750 史诗神秘水晶碎片</font>"
 		"DOTA_Tooltip_ability_item_psychic_headband2_Description"				"<h1>主动：心灵推动</h1>将选定的敌人推离主人，距离为%push_length%。" 
-		"DOTA_Tooltip_ability_item_psychic_headband2_Lore"						"无量智慧头盔，这件神秘神器的拥有者将永远远离危险，因为他看到了一切。"
+		"DOTA_Tooltip_ability_item_psychic_headband2_Lore"						"无量智慧之盔，这件神秘神器的拥有者将永远远离危险，因为他看到了一切。"
 		"DOTA_Tooltip_ability_item_psychic_headband2_intelligence_pct"			"%+智力"
 		"DOTA_Tooltip_ability_item_psychic_headband2_cast_range"				"+$cast_range"
 
@@ -7651,7 +7722,7 @@
 		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat_Description" 					"对半径800范围内造成巨大伤害，一次射击消耗2%能量。<br><font color='#fd2727'>如果能量不足，会自动切换到「3UBR8」</font>弹丸"
 
 		"DOTA_Tooltip_ability_gu_btr82a_smoke" 									"<font color='#fd2727'>「902系统「云端」」</font>"
-		"DOTA_Tooltip_ability_gu_btr82a_smoke_Description" 							"902“云”系统是苏联统一的装甲车发射81毫米烟雾弹的系统。在选定区域内制造烟幕，所有落入效果区域的敌方单位都会错过所有人，并有机会%miss_chance%%%"
+		"DOTA_Tooltip_ability_gu_btr82a_smoke_Description" 							"902“云”系统是苏联统一的装甲车发射81毫米烟雾弹的系统。在选定区域制造烟幕，所有落入效果区域的敌方单位都会错过所有人，并有机会%miss_chance%%%"
 		"DOTA_Tooltip_ability_gu_btr82a_smoke_duration"								"期间： "
 		"DOTA_Tooltip_ability_gu_btr82a_smoke_radius"								"半径： "
 		"DOTA_Tooltip_ability_gu_btr82a_smoke_shard_Description"				"所有级别的持续时间增加+10秒。"
@@ -8048,7 +8119,7 @@
 
 
 		"DOTA_Tooltip_ability_gu_bmp1_upgrade"							"骨形态发生蛋白-1"
-		"DOTA_Tooltip_ability_gu_bmp1_upgrade_Description"				"BMP-1是苏联第一款系列装甲战斗履带车，能够游动，设计用于在战场上运输摩托化步兵部队人员，增强其在战场上的机动性、武器装备和防护能力，以及在战斗中与坦克联合行动。步兵战车这一类战车的始祖；世界上第一款量产的步兵战车。提高基本特性。增加+%bonus_health%生命值，+%bonus_armor%增加护甲，+%attack_range_bonus%增加射程，+%damage%增加伤害。受到自身伤害减少 20%。<br><br>有固定的射速，没有减少基础攻击时间的物品等起作用！"
+		"DOTA_Tooltip_ability_gu_bmp1_upgrade_Description"				"BMP-1是苏联第一款系列装甲战斗履带车，能够游动，设计用于在战场上运送摩托化步兵部队人员，增强其在战场上的机动性、武器装备和防护能力，以及在战斗中与坦克联合行动。步兵战车这一类战车的始祖；世界上第一款量产的步兵战车。提高基本特性。增加+%bonus_health%生命值，+%bonus_armor%增加护甲，+%attack_range_bonus%增加射程，+%damage%增加伤害。受到自身伤害减少 20%。<br><br>有固定的射速，没有减少基础攻击时间的物品等起作用！"
 		"DOTA_Tooltip_ability_gu_bmp1_upgrade_scepter_Description"		"增加 300% 的额外伤害"
 
 		"DOTA_Tooltip_ability_gu_bmp1_ammo_kym" 						"<font color='#f9fd27'>「PG–15」</font>"
@@ -8405,7 +8476,7 @@
 		"polonium210_5"																	"输入：<font color='#FE0033'>钍-230</font>1 个，<font color='#FE0033'>Cobalt-60</font>1 个<br>输出：<font color='#249A41'>Radium-226</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个，<font color='#249A41'>Nickel-60</font>1 个<br>MNT 能量：-500<br>时间：15 秒"
 		"polonium210_6"																	"输入：<font color='#FE0033'>Radium-226</font>1 个，<font color='#FE0033'>Cobalt-60</font>1 个<br>输出：<font color='#249A41'>Radon-222</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个，<font color='#249A41'>Nickel-60</font>1 个<br>MNT 能量：-500<br>时间：15 秒"
 		"polonium210_7"																	"输入：<font color='#FE0033'>Radon-222</font>1 个。<br>输出：<font color='#249A41'>钋-218</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个<br>MNT 能量：+1600<br>时间：3 秒"
-		"polonium210_8"																	"输入：<font color='#FE0033'>钋-218</font>1 件。<br>输出：<font color='#249A41'>Lead-214</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个<br>MNT 能量：+2500<br>时间：1 秒"
+		"polonium210_8"																	"输入：<font color='#FE0033'>钋-218</font>1 个。<br>输出：<font color='#249A41'>Lead-214</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个<br>MNT 能量：+2500<br>时间：1 秒"
 		"polonium210_9"																	"输入：<font color='#FE0033'>Lead-214</font>1 个。<br>输出：<font color='#249A41'>Bismuth-214</font>1 个。<br>MNT 能量：+2500<br>时间：1 秒"
 		"polonium210_10"																"输入：<font color='#FE0033'>Bismuth-214</font>1 个。<br>输出：<font color='#249A41'>钋-214</font>1 个。<br>MNT 能量：+3000<br>时间：1 秒"
 		"polonium210_11"																"输入：<font color='#FE0033'>钋-214</font>1 个。<br>输出：<font color='#249A41'>Lead-210</font>1 个，<font color='#249A41'>He​​lium-4</font>1 个<br>MNT 能量：+3000<br>时间：1 秒"
@@ -8467,7 +8538,7 @@
 		"DOTA_Tooltip_ability_item_cobalt59"                                                    "钴59"
         "DOTA_Tooltip_ability_item_cobalt59_Description"                                           	"自然界中最常见的钴同位素。它是许多合金和特种钢的组成部分，包括硬磁和耐热材料。<br>通过钴 59 与中子反应获得，钴 60 用作催化剂来加速某些衰变反应。<br>稳定。"
 
-		"DOTA_Tooltip_ability_item_proton"                                                    "质子"
+		"DOTA_Tooltip_ability_item_proton"                                                    "普腾"
         "DOTA_Tooltip_ability_item_proton_Description"                                            "基本粒子（强子）。构成普通物质的三种粒子（连同中子和电子）之一。<br>在核反应堆中用作质子-质子反应链中 MNT 的能源。<br>稳定。"
 
         "DOTA_Tooltip_ability_item_neutron"                                                    "中子"
@@ -8482,7 +8553,7 @@
 		"DOTA_Tooltip_modifier_item_gu_frequency_amplifier"                                    "频率放大器"
         "DOTA_Tooltip_modifier_item_gu_frequency_amplifier_Description"                            "一个允许您连接到 Andromeda 安全系统以增强其保护的工具。"
 
-		"DOTA_Tooltip_ability_item_gu_antirad"                                     				"抗辐射防护复合物"
+		"DOTA_Tooltip_ability_item_gu_antirad"                                     				"抗辐射防护复合体"
         "DOTA_Tooltip_ability_item_gu_antirad_Description"                         				    "在最终任务中防止辐射。激活后，它适用于所有玩家。"
 
 		"DOTA_Tooltip_modifier_item_gu_antirad"                                    				"抗辐射防护复合体"
@@ -8747,7 +8818,7 @@
 		"DOTA_Tooltip_ability_item_gu_rude_compass_2_Description"	"用于搜索稀有金属和难熔金属的增强型扫描仪。使用时，它会进行全面搜索，同时探测第一层和第二层的自由矿床并在上面安装地雷。使用成功后消失。"
 		
 		"DOTA_Tooltip_ability_item_gu_rude_compass_3"				"共振深度定位器"
-		"DOTA_Tooltip_ability_item_gu_rude_compass_3_Description"	"一种能够检测遗迹元素辐射的复杂装置。激活后，它会启动大规模扫描，同时打开空置的 1、2 和 3 级矿藏（包括 Naquadah、Quadrillium 和 Aurodia 的矿脉）并在那里安装地雷。使用成功后消失。"
+		"DOTA_Tooltip_ability_item_gu_rude_compass_3_Description"	"一种能够检测遗迹元素辐射的复杂装置。激活后，它会发起大规模扫描，同时打开空置的 1、2 和 3 级矿藏（包括 Naquadah、Quadrillium 和 Aurodia 的矿脉）并在那里安装地雷。使用成功后消失。"
 	
 		// ШАГ 1: КОНФАЙНМЕНТ (УДЕРЖАНИЕ)
         "DOTA_Tooltip_Ability_item_gu_radiation_protection"             "防辐射防护"
@@ -8850,7 +8921,7 @@
 		"DOTA_Tooltip_ability_sangonomiya_bake_kurage_Description"					"被动指令。 Sangonomy 定期将沸水区召唤到竞技场中。在其中时，她会迅速恢复生命值，而党的敌人每秒都会受到纯粹的伤害。"
 		
 		// 2. ЖЕМЧУЖНЫЕ РЕПРЕССИИ
-		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"Жемчужные репрессии"
+		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"珍珠镇压"
 		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions_Description"			"Sangonomy 在自身周围构建了一个完美的集水环。短暂的延迟后，巨大的尖刺从地面爆发出来，击晕入侵者，造成魔法伤害，并刺穿他们的魔法护甲。"
 		
 		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff"						"珍珠镇压"
