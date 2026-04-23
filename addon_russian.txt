@@ -3757,6 +3757,7 @@
 		"armored" 	"Раса: Armored"
 		"touhou" 	"Раса: とう"
 
+		"npc_dota_hero_ember_spirit_race" 		"Раса: «Tau'ri»"
 		"npc_dota_hero_templar_assassin_race"	"Раса: «Spirits»"
 		"npc_dota_hero_warlock_race" 			"Раса: «Spirits»"
 		"npc_dota_hero_ancient_apparition_race" 		"Раса: «Armored»"
@@ -3773,7 +3774,6 @@
 		"npc_dota_hero_luna_race" 				"Раса: «Armored»"
 		"npc_dota_hero_silencer_race" 			"Раса: «Armored»"
 		"npc_dota_hero_drow_ranger_race" 		"Раса: «Tau'ri»"
-		"npc_dota_hero_ember_spirit_race" 		"Раса: «Tau'ri»"
 		"npc_dota_hero_oracle_race" 			"Раса: «Spirits»"
 		"npc_dota_hero_furion_race" 			"Раса: «Spirits»"
 		"npc_dota_hero_windrunner_race" 		"Раса: «Tau'ri»"
@@ -6056,7 +6056,8 @@
 		"npc_dota_hero_nevermore_dificult"			"Сложность героя: «Нормально»"
 		"npc_dota_hero_zuus_dificult"				"Сложность героя: «Легко»"
 		"npc_dota_hero_abyssal_underlord_dificult"	"Сложность героя: «Нормально»"
-		"npc_dota_hero_sand_king_dificult"			"Складність героя: «Нормально»"
+		"npc_dota_hero_sand_king_dificult"			"Сложность героя: «Нормально»"
+		"npc_dota_hero_ember_spirit_dificult"		"Сложность героя: «Легко»"
 
 		"role_type_1"							"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"role_type_2"							"Роль: <font color='#a822ba'>«Магический ДПС»</font>"
@@ -6078,7 +6079,6 @@
 		"npc_dota_hero_luna_rare" 				"Баннер: «История Андромеды»"
 		"npc_dota_hero_silencer_rare" 			"Баннер: «История Андромеды»"
 		"npc_dota_hero_drow_ranger_rare" 		"Персонаж игрока: Jekob"
-		"npc_dota_hero_ember_spirit_rare" 		"Баннер: «История Андромеды»"
 		"npc_dota_hero_oracle_rare" 			"Баннер: «История Андромеды»"
 		"npc_dota_hero_furion_rare" 			"Баннер: «История Андромеды»"
 		"npc_dota_hero_windrunner_rare" 		"Баннер: «История Андромеды»"
@@ -6133,7 +6133,8 @@
 		"npc_dota_hero_nevermore_rare"			"Персонаж игрока: Nepgear"
 		"npc_dota_hero_zuus_rare"				"Получение: «Засекречено»"
 		"npc_dota_hero_abyssal_underlord_rare"	"Персонаж игрока: Emiya"
-		"npc_dota_hero_sand_king_rare"			"Отримання: «Засекречено»"
+		"npc_dota_hero_sand_king_rare"			"Получение: «Засекречено»"
+		"npc_dota_hero_ember_spirit_rare"		"Персонаж игрока Kurumi"
 
 		"npc_dota_hero_queenofpain_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_warlock_damage" 				"Источник: «Guardians of Universe»"
@@ -6144,12 +6145,12 @@
 		"npc_dota_hero_sven_damage" 				"Источник: «Anime»"
 		"npc_dota_hero_elder_titan_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_storm_spirit_damage" 		"Источник: «Touhou»"
+		"npc_dota_hero_ember_spirit_damage" 		"Источник: «Guardians of Universe»"
 		"npc_dota_hero_lina_damage" 				"Источник: «Guardians of Universe»"
 		"npc_dota_hero_tiny_damage" 				"Источник: «Guardians of Universe»"
 		"npc_dota_hero_luna_damage" 				"Источник: «Guardians of Universe»"
 		"npc_dota_hero_silencer_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_drow_ranger_damage" 			"Источник: «Guardians of Universe»"
-		"npc_dota_hero_ember_spirit_damage" 		"Источник: «Guardians of Universe»"
 		"npc_dota_hero_oracle_damage" 				"Источник: «Guarding Athena»"
 		"npc_dota_hero_furion_damage" 				"Источник: «Anime»"
 		"npc_dota_hero_windrunner_damage" 			"Источник: «Guarding Athena»"
@@ -6205,8 +6206,9 @@
 		"npc_dota_hero_abyssal_underlord_damage"	"Источник: «Touhou»"
 		"npc_dota_hero_sand_king_damage"			"Источник: «Guardians of Universe»"
 
+		"npc_dota_hero_ember_spirit_weapon" 		"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
 		"npc_dota_hero_warlock_weapon" 				"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
-		"npc_dota_hero_ancient_apparition_weapon" 			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
+		"npc_dota_hero_ancient_apparition_weapon" 	"Вооружение: <font color='#ff565d'>«Орудие»</font>"
 		"npc_dota_hero_bristleback_weapon" 			"Вооружение: <font color='#ff565d'>«Орудие»</font>"  
 		"npc_dota_hero_lycan_weapon" 				"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
 		"npc_dota_hero_abaddon_weapon" 				"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
@@ -8940,6 +8942,80 @@
 		
 		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff"							"Церемония Сомлента"
 		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff_Description"				"Сангономия полностью неуязвима, восстанавливает здоровье и готовится покарать врагов."
+
+
+        "npc_dota_hero_ember_spirit"                                "Chen Qianyu 「★★★★★★」" 
+
+        "DOTA_Tooltip_ability_chen_appercot"                        "<font color='#00BFFF'>「Стиль Чэнь: Восходящий удар」</font>"
+        "DOTA_Tooltip_ability_chen_appercot_Description"            "Чэнь совершает молниеносный удар ножнами. Удар наносит критический урон врагам, подбрасывая их в воздух и пробивая броню. Работает на всех существ."
+        "DOTA_Tooltip_ability_chen_appercot_damage"                 "Критический урон:"
+        "DOTA_Tooltip_ability_chen_appercot_armor"                  "Снижение брони:"
+
+        "DOTA_Tooltip_ability_chen_dash_cool"                       "<font color='#00BFFF'>「Тень Лунга: Стремительный рывок」</font>"
+        "DOTA_Tooltip_ability_chen_dash_cool_Description"           "Чэнь использует свою поразительную скорость, совершая рывок в указанную точку. Все противники на её пути получают мгновенный физический урон и критический удар мечом."
+        "DOTA_Tooltip_ability_chen_dash_cool_damage"                "Урон от рывка:"
+
+        "DOTA_Tooltip_ability_chen_lung"                            "<font color='#FFD700'>「Кровь Лунга」</font>"
+        "DOTA_Tooltip_ability_chen_lung_Description"                "Принадлежность к древней расе драконов пассивно снижает любой получаемый Чэнь урон и увеличивает весь исходящий урон."
+        "DOTA_Tooltip_ability_chen_lung_income_tooltip"             "% СНИЖЕНИЕ УРОНА:"
+        "DOTA_Tooltip_ability_chen_lung_outcome"                    "% УВЕЛИЧЕНИЕ УРОНА:"
+
+        "DOTA_Tooltip_ability_chen_scepter"                         "<font color='#DC143C'>「Чи Сяо: Расколотые небеса」</font>"
+        "DOTA_Tooltip_ability_chen_scepter_Description"             "Высвобождает истинную ауру меча Чи Сяо. Чэнь наносит сокрушительный круговой критический удар всем противникам в огромном радиусе вокруг себя."
+        "DOTA_Tooltip_ability_chen_scepter_damage"                  "Критический урон:"
+        "DOTA_Tooltip_ability_chen_scepter_radius"                  "Радиус поражения:"
+
+        "DOTA_Tooltip_ability_chen_shard"                           "<font color='#FFD700'>「Дисциплина L.G.D.」</font>"
+        "DOTA_Tooltip_ability_chen_shard_Description"               "Навыки Офицера Чэнь постоянно оттачиваются в бою. За каждое совершенное убийство (включая крипов) она получает перманентный стак, увеличивающий её базовую ловкость."
+        "DOTA_Tooltip_ability_chen_shard_agi_per_stack"             "Ловкость за убийство:"
+
+        "DOTA_Tooltip_ability_chen_ult"                             "<font color='#DC143C'>「Чи Сяо: Бестеневой удар」</font>"
+        "DOTA_Tooltip_ability_chen_ult_Description"                 "Чэнь обнажает свой демонический красный клинок и переходит в состояние неуязвимости. Она обрушивает серию из 7 разрушительных ударов по <b>ВСЕМ</b> врагам в радиусе вокруг себя. Финальный удар наносит колоссальный урон, оглушает и отбрасывает выживших."
+        "DOTA_Tooltip_ability_chen_ult_damage"                      "Урон финального удара:"
+        "DOTA_Tooltip_ability_chen_ult_stun"                        "Длительность оглушения:"
+        "DOTA_Tooltip_ability_chen_ult_dop_agi"                     "Доп. ловкость:"
+        "DOTA_Tooltip_ability_chen_ult_duration"                    "Длительность баффа ловкости:"
+
+
+        // --- ВИДИМЫЕ МОДИФИКАТОРЫ (БАФФЫ/ДЕБАФФЫ) ---
+
+        "DOTA_Tooltip_modifier_chen_appercot_armor"                 "Пробитая броня"
+        "DOTA_Tooltip_modifier_chen_appercot_armor_Description"     "Броня снижена после Восходящего удара Чэнь."
+
+        "DOTA_Tooltip_modifier_chen_ult_agi"                        "Концентрация Чи Сяо"
+        "DOTA_Tooltip_modifier_chen_ult_agi_Description"            "Чэнь предельно сконцентрирована. Её ловкость значительно увеличена."
+
+        "DOTA_Tooltip_modifier_chen_shard_stack"                    "Тренировки L.G.D."
+        "DOTA_Tooltip_modifier_chen_shard_stack_Description"        "Перманентный бонус к ловкости за убийство врагов."
+
+		// Q: Appercot
+		"Chen_Scepter_Appercot_Desc"        "Аганим: увеличивает радиус поражения способности до 500."
+		"Talent_Chen_Appercot_10"           "Дополнительно снижает броню задетых врагов на 15 единиц."
+		"Chen_Label_ArmorRed"               "Снижение брони"
+
+		// W: Dash
+		"Talent_Chen_Dash_15"               "Снижает время перезарядки способности на 5 секунд."
+
+		// F: Дисциплина L.G.D. (chen_shard)
+		"Chen_Shard_Desc"                   "Шард: за каждое убийство дается 2 стака ловкости вместо 1."
+		"Talent_Chen_Shard_1"               "Пассивно добавляет к вашим атакам физический урон, равный 20% от текущей Ловкости."
+		"Talent_Chen_Shard_5"               "Увеличивает бонусный урон от Ловкости в атаках с 20% до 50%."
+		"Chen_Label_Stacks"                 "Стаков за убийство"
+		"Chen_Label_AgiDmg20"               "Урон от Ловкости (20%)"
+		"Chen_Label_AgiDmg50"               "Урон от Ловкости (20% ➔ 50%)"
+
+		// R: Ultimate
+		"Talent_Chen_Ult_20"                "Финальный массовый удар ультимейта дополнительно наносит всем врагам чистый урон, равный вашей Ловкости, умноженной на 2."
+		"Chen_Label_UltPureDmg"             "Чистый урон от ЛВК (x2)"
+
+		"DOTA_Tooltip_ability_item_ancient_repository"                        "<font color='#00e5ff'>Хранилище знаний Древних</font>"
+        "DOTA_Tooltip_ability_item_ancient_repository_Description"            "Расходуемый артефакт. Загружает в мозг владельца базу данных величайшей цивилизации.\n\n<font color='#FFD700'><b>ОЗАРЕНИЕ ДРЕВНИХ (АКТИВНАЯ):</b></font>\nГерой навсегда получает способность использовать любые активные предметы <b>прямо из рюкзака</b>, а также получает перманентный бонус ко всем атрибутам. Эффект не спадает после смерти."
+        "DOTA_Tooltip_ability_item_ancient_repository_Lore"                   "Устройство Древних, которое вводит гигантский объем информации прямо в сознание субъекта. Обычный человек не выдержал бы такой нагрузки..."
+        "DOTA_Tooltip_ability_item_ancient_repository_bonus_all_stats"        "+ Ко всем атрибутам:"
+        
+        "DOTA_Tooltip_modifier_item_ancient_repository_buff"                       "Знания Древних"
+        "DOTA_Tooltip_modifier_item_ancient_repository_buff_Description"           "Ваше сознание расширено технологиями Звёздных Врат. Характеристики увеличены, предметы в рюкзаке активны."
+
 
 	}	
 }
