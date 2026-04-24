@@ -219,7 +219,7 @@
         "DOTA_Tooltip_ability_odin_gods_eye_radius"                                   "รัศมี: "
         "DOTA_Tooltip_ability_odin_gods_eye_bonus_movespeed"                          "การเคลื่อนไหวช้าลง (%): "
         "DOTA_Tooltip_ability_odin_gods_eye_bonus_attack_speed"                       "ลดความเร็วในการโจมตี: "
-        "DOTA_Tooltip_ability_odin_gods_eye_invis_damage"                             "สร้างความเสียหายให้กับสิ่งมีชีวิตที่มองไม่เห็น: "
+        "DOTA_Tooltip_ability_odin_gods_eye_invis_damage"                             "สร้างความเสียหายต่อสิ่งมีชีวิตที่มองไม่เห็น: "
         
         "DOTA_Tooltip_modifier_godseye_aura_debuff"                                   "<font color='#B56213'>「สนามแห่งความโกลาหล」</font>"
         "DOTA_Tooltip_modifier_godseye_aura_debuff_description"                       "ความเร็วในการเคลื่อนที่และการโจมตีลดลง"
@@ -287,7 +287,7 @@
             "npc_dota_hero_legion_commander"							     "ตัวแทนแห่งลีเจียน「★★★★」"
 
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack"                     "<font color='#F86708'>「ความแข็งแกร่ง」</font> "
-        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_Description"         "ลบเอฟเฟกต์ด้านลบและสตันทั้งหมด (ลบล้างอย่างรุนแรง) ออกจากเป้าหมายพันธมิตรที่เลือก และยังเพิ่มความเร็วการโจมตีและการฟื้นฟูพลังชีวิตเพิ่มเติมในช่วงเวลาสั้นๆ"
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_Description"         "ลบเอฟเฟกต์ด้านลบและสตัน (ลบล้างอย่างรุนแรง) ทั้งหมดออกจากเป้าหมายพันธมิตรที่เลือก และยังเพิ่มความเร็วการโจมตีและการฟื้นฟูพลังชีวิตเพิ่มเติมในช่วงเวลาสั้นๆ"
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_duration"            "ระยะเวลา: "
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_hp_regen"            "การฟื้นฟูสุขภาพ: "
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_attack_speed"        "เพิ่ม. ความเร็วในการโจมตี: "
@@ -337,7 +337,7 @@
 		"Talent_Legate_Label_StacksBonus"   "ได้รับสแต็คแล้ว"
 		"Talent_Legate_Label_FixedCD"       "คูลดาวน์ (คงที่)"
         
-            "npc_dota_hero_elder_titan"									    "โมแรกซ์「★★★★」"
+            "npc_dota_hero_elder_titan"									    "โมแร็กซ์「★★★★」"
 
 		// Gaias Fury
 		"DOTA_Tooltip_ability_reus_gaias_fury"											"<font color='#93735E'>「ชะตากรรมของคริสตัล」</font> "
@@ -433,7 +433,7 @@
         "DOTA_Tooltip_modifier_gu_chase_moon_and_star_debuff_description"              "เกราะลดลงด้วยลูกศรดาว"
 
         "DOTA_Tooltip_ability_gu_multiple_shoot"                                       "<font color='#32CA0D'>「ยิงห้าครั้ง」</font>"
-        "DOTA_Tooltip_ability_gu_multiple_shoot_description"                           "ฮีโร่ยิงพัดด้วยลูกศรอันทรงพลัง 5 ดอก สร้างความเสียหายทางกายภาพแก่ศัตรูทั้งหมดที่ขวางทาง ความเสียหายของลูกธนูแต่ละลูกจะเพิ่มขึ้นอย่างมากขึ้นอยู่กับความคล่องตัวในปัจจุบันของฮีโร่"
+        "DOTA_Tooltip_ability_gu_multiple_shoot_description"                           "ฮีโร่ยิงธนูอันทรงพลังห้าลูกออกไป สร้างความเสียหายทางกายภาพให้กับศัตรูทุกคนที่ขวางทาง ความเสียหายของลูกธนูแต่ละลูกจะเพิ่มขึ้นอย่างมากขึ้นอยู่กับความคล่องตัวในปัจจุบันของฮีโร่"
         "DOTA_Tooltip_ability_gu_multiple_shoot_basedamage"                            "ความเสียหายพื้นฐาน: "
         "DOTA_Tooltip_ability_gu_multiple_shoot_damage"                                "ตัวคูณความเสียหายของความคล่องตัว: "
         "DOTA_Tooltip_ability_gu_multiple_shoot_range"                                 "ช่วงการบิน: "
@@ -662,7 +662,7 @@
         "DOTA_Tooltip_modifier_space_rift_passive"                        "รอยแยกจักรวาล"
         
         "DOTA_Tooltip_ability_chronos_magic"                               "<font color='#9A75FE'>「เวทมนตร์อวกาศ」</font>"
-        "DOTA_Tooltip_ability_chronos_magic_description"                   "ฮีโร่โค้งงอพื้นที่ ดึงดูดศัตรูทั้งหมดที่อยู่ในระยะและสร้างความเสียหายเพิ่มขึ้นกับพวกเขา ในตอนท้ายของแรงดึงดูด ฮีโร่และเป้าหมายที่จับได้ทั้งหมดจะถูกย้ายไปยังจุดที่ระบุ ซึ่งเกิดการระเบิดเชิงพื้นที่อันทรงพลัง คูลดาวน์ของความสามารถนี้ไม่สามารถลดลงได้ด้วยเอฟเฟกต์การลดคูลดาวน์"
+        "DOTA_Tooltip_ability_chronos_magic_description"                   "ฮีโร่โค้งงอพื้นที่ ดึงดูดศัตรูทั้งหมดที่อยู่ในระยะและสร้างความเสียหายเพิ่มขึ้นกับพวกมัน ในตอนท้ายของแรงดึงดูด ฮีโร่และเป้าหมายที่จับได้ทั้งหมดจะถูกย้ายไปยังจุดที่ระบุ ซึ่งเกิดการระเบิดเชิงพื้นที่อันทรงพลัง คูลดาวน์ของความสามารถนี้ไม่สามารถลดลงได้ด้วยเอฟเฟกต์การลดคูลดาวน์"
         "DOTA_Tooltip_ability_chronos_magic_pull_damage"                   "ดึงความเสียหาย:"
         "DOTA_Tooltip_ability_chronos_magic_pull_bonus"                    "เพิ่มความเสียหายของแรงดึงดูด:"
         "DOTA_Tooltip_ability_chronos_magic_open_damage"                   "ความเสียหายจากการระเบิด:"
@@ -858,7 +858,7 @@
 
 		"DOTA_Tooltip_ability_neptun_armor"												"<font color='#F300FF'>「ตัวคูณสถิติ」</font>"
 		"DOTA_Tooltip_ability_neptun_armor_Description"										"เมื่ออยู่ใกล้เนปทูเนีย พันธมิตรทั้งหมดจะได้รับเกราะ การโจมตี และความเร็วในการเคลื่อนที่เพิ่มขึ้น"
-		"DOTA_Tooltip_ability_neptun_armor_armor"										    "Бонусная броня: "
+		"DOTA_Tooltip_ability_neptun_armor_armor"										    "เกราะโบนัส: "
 		"DOTA_Tooltip_ability_neptun_armor_ms"												"%Бонуснаяความเร็วในการเคลื่อนที่: "
 		"DOTA_Tooltip_ability_neptun_armor_as"												"โบนัสความเร็วในการโจมตี: "
 		    "DOTA_Tooltip_modifier_neptun_armor_buff"											"<font color='#F300FF'>「ตัวคูณสถิติ」</font>"
@@ -1143,7 +1143,7 @@
 			"DOTA_Tooltip_modifier_soul_leader_Description"										""
 		
 		"DOTA_Tooltip_ability_gu_madokami"													"<font color='#F2509F'>「พิธีจุติ」</font>"
-		"DOTA_Tooltip_ability_gu_madokami_Description"											"สิ่งมีชีวิตที่ทรงพลังที่มาโดกะกลายมาเป็นหลังจากเติมเต็มความปรารถนาของเธอ ขอบคุณสิ่งที่เกิดขึ้น Kaname มีโอกาสเปลี่ยนแปลงจักรวาลและกฎของมัน สำหรับศัตรูแต่ละตัวที่ถูกสังหาร มีโอกาส 6% ที่จะได้รับชาร์จที่เพิ่มสถานะของมาโดกะ"
+		"DOTA_Tooltip_ability_gu_madokami_Description"											"สิ่งมีชีวิตที่ทรงพลังที่มาโดกะกลายมาเป็นหลังจากเติมเต็มความปรารถนาของเธอ ต้องขอบคุณสิ่งที่เกิดขึ้น Kaname จึงมีโอกาสเปลี่ยนจักรวาลและกฎของมัน สำหรับศัตรูแต่ละตัวที่ถูกสังหาร มีโอกาส 6% ที่จะได้รับชาร์จที่เพิ่มสถานะของมาโดกะ"
 		"DOTA_Tooltip_ability_gu_madokami_shard_Description"									"เพิ่มจำนวนสแต็คสูงสุด 10 ใช้ได้กับความสามารถพิเศษระดับ 3 เท่านั้น!"
 		"DOTA_Tooltip_ability_gu_madokami_agility"												"โบนัสความคล่องตัว: "
 		"DOTA_Tooltip_ability_gu_madokami_int"													"โบนัสสำหรับความฉลาดและความแข็งแกร่ง: "
@@ -1190,7 +1190,7 @@
 		"DOTA_Tooltip_ability_puck_shadows_orb_Description"									"อควาปล่อยลูกบอลออกไปทุกทิศทาง ซึ่งเมื่อถูกโจมตีจะสร้างความเสียหาย%damage%+ (สติปัญญา * 0.5)"
 		 
 		"DOTA_Tooltip_ability_puck_shadows_orb2"                                        "<font color='#1163E9'>「เทพธิดาไร้ประโยชน์」</font> "
-		"DOTA_Tooltip_ability_puck_shadows_orb2_Description"								"อควาปล่อยลูกบอลออกไปทุกทิศทาง เมื่อถูกโจมตีจะสร้างความเสียหาย%damage%+ (สติปัญญา * 0.5)<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
+		"DOTA_Tooltip_ability_puck_shadows_orb2_Description"								"อควาปล่อยลูกบอลออกไปทุกทิศทาง ซึ่งเมื่อถูกโจมตีจะสร้างความเสียหาย%damage%+ (สติปัญญา * 0.5)<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"
 		"DOTA_Tooltip_modifier_aqua_disable_heal"                                        "<font color='#1163E9'>「เทพธิดาไร้ประโยชน์」</font>" 
 		"DOTA_Tooltip_modifier_aqua_disable_heal_Description"                            "ปิดการใช้งานการฟื้นฟูสุขภาพ" 
 
@@ -1263,7 +1263,7 @@
 			"npc_dota_hero_dark_willow"										"เมกุมิน「★★★★」"  
 
 		"DOTA_Tooltip_ability_megumin_explosion"										"<font color='#F72E49'>「ระเบิด」</font> "
-		"DOTA_Tooltip_ability_megumin_explosion_Description"								"หลังจากผ่านไปครู่หนึ่ง เมกุมินก็ใช้เวทย์มนตร์ระเบิดของเธอใส่เป้าหมาย ทำให้เกิดความเสียหายและทำให้คู่ต่อสู้มึนงง ความเสียหายสุดท้ายจะขึ้นอยู่กับมานาที่ใช้ไป" 
+		"DOTA_Tooltip_ability_megumin_explosion_Description"								"หลังจากผ่านไปครู่หนึ่ง เมกุมินใช้เวทย์มนตร์ระเบิดของเธอใส่เป้าหมาย ทำให้เกิดความเสียหายและทำให้คู่ต่อสู้มึนงง ความเสียหายสุดท้ายจะขึ้นอยู่กับมานาที่ใช้ไป" 
 		"DOTA_Tooltip_ability_megumin_explosion_radius"										"รัศมี:  "
 		"DOTA_Tooltip_ability_megumin_explosion_duration"									"ความล่าช้าในการสมัคร: "
 		"DOTA_Tooltip_ability_megumin_explosion_damage"										"ความเสียหาย: "
@@ -1362,7 +1362,7 @@
 		"DOTA_Tooltip_modifier_sakuya_time_buff"											"「การขยายเวลา」"
 		"DOTA_Tooltip_modifier_sakuya_time_buff_Description"								"เวลาหยุดแล้ว"
 
-		"npc_dota_hero_dragon_knight"											"มาช ไครีไลท์「★★★★★」"
+		"npc_dota_hero_dragon_knight"											"มาช ไครี่ไลท์「★★★★★」"
 		"npc_dota_hero_hoodwink"												"เนโร คลอดิอุส「★★★★★」"
 
 
@@ -1374,7 +1374,7 @@
 		"npc_dota_anime_enterprise_plane"												"「ฝูงบิน: นักสู้」"
 		
 		"DOTA_Tooltip_ability_enterprise_fighter"                                  		"<font color='#F7A22E'>「ฝูงบิน: เครื่องบินรบ」</font>"
-		"DOTA_Tooltip_ability_enterprise_fighter_Description"                            	"เรียกเครื่องบินรบที่จะบินเป็นวงกลมไปยังเป้าหมายและโจมตีศัตรูที่ใกล้ที่สุดภายในรัศมีการโจมตี ร่ายใส่ตัวเองหรือพันธมิตร ทำให้เครื่องบินติดตามพวกเขา<br><br>ไม่ชาร์จด้วยตัวเอง ความสามารถนี้สามารถชาร์จได้โดยใช้ 「การเสริมกำลังทางยุทธวิธี」<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้โดยใช้การเพิ่มประสิทธิภาพเวทย์มนตร์!"
+		"DOTA_Tooltip_ability_enterprise_fighter_Description"                            	"เรียกเครื่องบินรบที่จะบินเป็นวงกลมไปยังเป้าหมายและโจมตีศัตรูที่ใกล้ที่สุดภายในรัศมีการโจมตี ร่ายใส่ตัวเองหรือพันธมิตร ทำให้เครื่องบินติดตามพวกเขา<br><br>ไม่ชาร์จด้วยตัวเอง ความสามารถนี้สามารถชาร์จได้โดยใช้ 「การเสริมกำลังทางยุทธวิธี」<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้โดยใช้การเสริมประสิทธิภาพเวทย์มนตร์!"
 		"DOTA_Tooltip_ability_enterprise_fighter_fighter_damage"                   			"ความเสียหายต่อนัด:"
 		"DOTA_Tooltip_ability_enterprise_fighter_fighter_interval"                       	"ช่วงเวลาการยิง: "
 		"DOTA_Tooltip_ability_enterprise_fighter_fighter_radius"                  			"ภูมิภาค: "
@@ -1428,7 +1428,7 @@
  			"npc_dota_hero_enchantress"										 "ชิร์โน「★★★」"
 	
 		"DOTA_Tooltip_ability_ability_thdots_cirno01"                                   "<font color='#0077ff'>「การแช่แข็งที่สมบูรณ์แบบ」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_cirno01_Description"                       	"ชีสแช่แข็งทุกสิ่งรอบตัว ลดความเร็วการเคลื่อนไหวและการโจมตีของศัตรูที่อยู่ใกล้เคียงเป็นเวลา 3 วินาที (พื้นดินก็แข็งเช่นกัน)"
+		"DOTA_Tooltip_ability_ability_thdots_cirno01_Description"                       	"ชีสทำให้ทุกสิ่งรอบตัวแข็งตัว ลดความเร็วการเคลื่อนไหวและการโจมตีของศัตรูที่อยู่ใกล้เคียงเป็นเวลา 3 วินาที (พื้นดินก็แข็งเช่นกัน)"
 		"DOTA_Tooltip_ability_ability_thdots_cirno01_radius"							 	"รัศมีความเสียหาย： "
 		"DOTA_Tooltip_ability_ability_thdots_cirno01_slow_movement_pct"					  	"ความเร็วในการเคลื่อนที่： "
 		"DOTA_Tooltip_ability_ability_thdots_cirno01_slow_attackspeed"					  	"ความเร็วในการโจมตี： "
@@ -1571,7 +1571,7 @@
 		"Talent_Lich_FrostNova_1"                                           "เพิ่มรัศมีการระเบิดเป็น 650 และระยะเวลาสตัน/สโลว์เป็น 6 วินาที"
 		"Lich_Label_NovaRadius"                                             "รัศมีการระเบิด"
 		"Lich_Label_NovaDuration"                                           "ระยะเวลาในการควบคุม"
-		"Talent_Lich_WinterCurse_1"         								"เพิ่มการเคลื่อนที่ของศัตรูช้าลงเป็น 70%."
+		"Talent_Lich_WinterCurse_1"         								"เพิ่มการเคลื่อนที่ของศัตรูให้ช้าลงเป็น 70%."
 		"Talent_Lich_WinterCurse_10"        								"เพิ่มตัวคูณความเสียหาย Strength 0.4"
 		"Talent_Lich_WinterCurse_15"        								"ลดเปอร์เซ็นต์การใช้พลังงานเหลือ 0.5% ต่อวินาที"
 		"Lich_Label_EnergyCost"             								"การใช้พลังงาน (% สูงสุด)"
@@ -1587,48 +1587,78 @@
 
 			"npc_dota_hero_enigma"											"แอนโดรเมดา「★★★★★」"	
 
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex"									"<font color='#8D7062'>「ความโกลาหลสากล」</font>"
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex_description"							"แอนโดรเมดาเรียกหลุมดำที่ไม่สามารถควบคุมได้ ซึ่งจะดูดทุกคนที่อยู่ในรัศมีของมัน"
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex_aghanim_description"					"สตันเป็นเวลา 20 วินาทีหลังจากชนตรงกลางปล่องภูเขาไฟ"
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex_chargetime"								"ระยะเวลา: "
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex_pull_speed"								"ความเร็วดึงดูด: "
+			// ==============================================================================
+        // ГЕРОЙ: ANDROMEDA
+        // ==============================================================================
 
-		"DOTA_Tooltip_ability_gemini_dimensionquake"									"<font color='#8D7062'>「การบิดเบือนอวกาศ」</font>"
-		"DOTA_Tooltip_ability_gemini_dimensionquake_description"							"แอนโดรเมดาบิดเบือนส่วนหนึ่งของโลกรอบตัวเธอ"
-		"DOTA_Tooltip_ability_gemini_dimensionquake_stun"									"ระยะเวลาสตัน: "
-		"DOTA_Tooltip_ability_gemini_dimensionquake_damage"									"ความเสียหาย: "
-		"DOTA_Tooltip_ability_gemini_dimensionquake_radius"									"รัศมี: "
+        // --- СПОСОБНОСТИ ---
+        
+        "DOTA_Tooltip_ability_nu_gravity_pulse"                         "<font color='#8D7062'>「แรงกระตุ้นของสสารแห่งจักรวาล」</font>"
+        "DOTA_Tooltip_ability_nu_gravity_pulse_Description"             "แอนโดรเมดาสร้างชีพจรจากเรื่องของจักรวาล ทำให้เกิดความเสียหายมหาศาลและทำให้ศัตรูช้าลง"
+        "DOTA_Tooltip_ability_nu_gravity_pulse_damage"                  "ความเสียหาย:"
+        "DOTA_Tooltip_ability_nu_gravity_pulse_slow_duration"           "ระยะเวลาช้า:"
 
-		"DOTA_Tooltip_ability_nu_flux_field"											"<font color='#8D7062'>「วงกลมปฏิสสาร」</font>"
-		"DOTA_Tooltip_ability_nu_flux_field_Description"									"Andromeda สร้างสนามปฏิสสารที่สร้างความเสียหายต่อเนื่อง"
-		"DOTA_Tooltip_ability_nu_flux_field_damage_over_time"								"ความเสียหายทั้งหมด: "
-		"DOTA_Tooltip_ability_nu_flux_field_damage_per_cast"								"ความเสียหายจากการใช้ความสามารถ: "
-		"DOTA_Tooltip_ability_nu_flux_field_radius"											"รัศมี: "
-		"DOTA_Tooltip_ability_nu_flux_field_duration"										"ระยะเวลา: "
-		"DOTA_Tooltip_ability_nu_flux_field_shard_Description"								"โอกาสสตันเพิ่มขึ้นเป็น 50%"
-			"DOTA_Tooltip_modifier_nu_flux_field_aura"											"<font color='#8D7062'>「วงกลมปฏิสสาร」</font>"
+        "DOTA_Tooltip_ability_nu_flux_field"                            "<font color='#8D7062'>「วงกลมปฏิสสาร」</font>"
+        "DOTA_Tooltip_ability_nu_flux_field_Description"                "Andromeda สร้างสนามปฏิสสารที่สร้างความเสียหายเป็นระยะแก่ศัตรูทั้งหมดที่อยู่ภายใน"
+        "DOTA_Tooltip_ability_nu_flux_field_damage_over_time"           "ความเสียหายต่อวินาที:"
+        "DOTA_Tooltip_ability_nu_flux_field_radius"                     "รัศมี:"
+        "DOTA_Tooltip_ability_nu_flux_field_duration"                   "ระยะเวลา:"
 
-		"DOTA_Tooltip_ability_nu_gravity_pulse"                                         "<font color='#8D7062'>「แรงกระตุ้นของสสารแห่งจักรวาล」</font>"
-		"DOTA_Tooltip_ability_nu_gravity_pulse_Description"									"แอนโดรเมด้าสร้างแรงกระตุ้นจากเรื่องของจักรวาล"
-		"DOTA_Tooltip_ability_nu_gravity_pulse_slow"										"การชะลอตัว: "
-		"DOTA_Tooltip_ability_nu_gravity_pulse_slow_duration"								"ระยะเวลาช้า: "
-		"DOTA_Tooltip_ability_nu_gravity_pulse_damage"										"ความเสียหาย: "
-		"DOTA_Tooltip_ability_nu_gravity_pulse_scepter_Description"							"เปลี่ยนประเภทความเสียหายเป็นบริสุทธิ์"
+        "DOTA_Tooltip_ability_aghs_elemental_vortex"                    "<font color='#8D7062'>「ยุบ」</font>"
+        "DOTA_Tooltip_ability_aghs_elemental_vortex_Description"        "แอนโดรเมดาสร้างหลุมดำที่ดูดยูนิตศัตรูทั้งหมดเข้าสู่ตัวมันเอง สร้างความเสียหายโดยตรงเป็นระยะๆ และสตันพวกมัน"
+        "DOTA_Tooltip_ability_aghs_elemental_vortex_damage"             "ความเสียหายสุทธิ (ต่อวินาที):"
+        "DOTA_Tooltip_ability_aghs_elemental_vortex_duration"           "ระยะเวลา:"
+        "DOTA_Tooltip_ability_aghs_elemental_vortex_radius"             "รัศมี:"
 
-		"DOTA_Tooltip_ability_nu_warpstar"												"<font color='#8D7062'>「การเดินทางของกาแล็กซี่」</font>"
-		"DOTA_Tooltip_ability_nu_warpstar_Description"										"Andromeda สร้างรอยแยกแห่งกาลเวลา เคลื่อนย้ายสิ่งมีชีวิตมาหาเธอ"
-		"DOTA_Tooltip_ability_nu_warpstar_damage"											"ความเสียหาย: "
-		"DOTA_Tooltip_ability_nu_warpstar_slow"												"การชะลอตัว: "
-		"DOTA_Tooltip_ability_nu_warpstar_stun"												"สตัน: "
-		"DOTA_Tooltip_ability_nu_warpstar_radius"											"รัศมี: "
-		"DOTA_Tooltip_ability_nu_warpstar_delay"											"ล่าช้า: "
+        "DOTA_Tooltip_ability_nu_warpstar"                              "<font color='#8D7062'>「การเดินทางของกาแล็กซี่」</font>"
+        "DOTA_Tooltip_ability_nu_warpstar_Description"                  "แอนโดรเมดาบิดเบือนพื้นที่และเทเลพอร์ตไปยังจุดที่เลือก หลังจากเคลื่อนที่ เธอจะดึงศัตรูทั้งหมดในรัศมีขนาดใหญ่เข้าหาเธอ กลายเป็นผู้คงกระพันโดยสมบูรณ์ และทำการโจมตีต่อเนื่องหลายครั้งกับศัตรูที่ดึงดูดแต่ละตัว"
+        "DOTA_Tooltip_ability_nu_warpstar_pull_radius"                  "รัศมีการหดตัว:"
+        "DOTA_Tooltip_ability_nu_warpstar_invuln_duration"              "ระยะเวลาคงกระพัน:"
 
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex"									"<font color='#8D7062'>「ยุบ」</font>"
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex_Description"							"แอนโดรเมดาสร้างหลุมดำที่จะดูดยูนิตศัตรูทั้งหมดเข้าสู่ตัวมันเองและสร้างความเสียหาย"
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex_damage"									"ความเสียหาย: "
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex_duration"								"ระยะเวลา: "
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex_far_radius"								"รัศมี: "
+        "DOTA_Tooltip_ability_gemini_dimensionquake"                    "<font color='#8D7062'>「แฮ็ครหัสสากล」</font>"
+        "DOTA_Tooltip_ability_gemini_dimensionquake_Description"        "แอนโดรเมดาถอดรหัสรหัสแห่งจักรวาล รีเซ็ตคูลดาวน์ของประตูหรือเลือกภารกิจที่ใช้งานอยู่สำหรับประตูอีกครั้ง"
 
+        "DOTA_Tooltip_ability_item_divine_hole"                         "<font color='#FFD700'>หลุมศักดิ์สิทธิ์</font>"
+        "DOTA_Tooltip_ability_item_divine_hole_Description"             "ไอเท็มที่มีพลังอันเหลือเชื่อ สามารถใช้ได้เฉพาะกับ Andromeda ในฐานของคุณเพื่อเพิ่มระดับของเธอให้สูงสุด"
+
+
+        // --- ВИДИМЫЕ МОДИФИКАТОРЫ (БАФФЫ/ДЕБАФФЫ) ---
+
+        "DOTA_Tooltip_modifier_nu_gravity_pulse_slow"                   "แรงกระตุ้นของจักรวาล"
+        "DOTA_Tooltip_modifier_nu_gravity_pulse_slow_Description"       "ความเร็วในการเคลื่อนที่ลดลงอย่างมาก"
+
+        "DOTA_Tooltip_modifier_nu_gravity_pulse_aghs"                   "ความเปราะบางที่สำคัญ"
+        "DOTA_Tooltip_modifier_nu_gravity_pulse_aghs_Description"       "ความเสียหายที่ได้รับจาก Creation Pulse เพิ่มขึ้น"
+
+        "DOTA_Tooltip_modifier_nu_flux_field_aura"                      "สนามปฏิสสาร"
+        "DOTA_Tooltip_modifier_nu_flux_field_aura_Description"          "ได้รับความเสียหายเมื่อเวลาผ่านไป"
+
+        "DOTA_Tooltip_modifier_nu_flux_field_shard_resist"              "การสลายตัวของปฏิสสาร"
+        "DOTA_Tooltip_modifier_nu_flux_field_shard_resist_Description"   "ความต้านทานเวทมนตร์ลดลงเนื่องจากอยู่ในสนาม"
+
+        "DOTA_Tooltip_modifier_aghs_vortex_channel"                     "ยุบซาร์"
+        "DOTA_Tooltip_modifier_aghs_vortex_channel_Description"         "เพื่อรักษาหลุมดำไว้"
+
+        "DOTA_Tooltip_modifier_nu_warpstar_invuln"                      "การเดินทางของกาแล็กซี่"
+        "DOTA_Tooltip_modifier_nu_warpstar_invuln_Description"          "แอนโดรเมดาคงกระพันต่อความเสียหายใดๆ อย่างสมบูรณ์"
+
+        "DOTA_Tooltip_modifier_nu_warpstar_c1"                          "การเดินทางของกาแล็กซี: พลัง"
+        "DOTA_Tooltip_modifier_nu_warpstar_c1_Description"              "ความเสียหายที่ส่งออกไปของ Andromeda เพิ่มขึ้นชั่วคราว"
+
+		// Gravity Pulse
+		"Andromeda_Scepter_Gravity_Desc"    "วางดีบัฟใส่ศัตรูที่ได้รับผลกระทบเป็นเวลา 10 วินาที ดีบัฟแต่ละแต้มจะเพิ่มความเสียหายที่ได้รับจากความสามารถนี้ 15%."
+		"Talent_Andromeda_C2"               "เพิ่มโบนัสความเสียหายให้กับความสามารถ จำนวนโบนัสจะถูกปรับขนาดอย่างไม่สิ้นสุดตามสูตร ขึ้นอยู่กับจำนวนสำเนาของ Andromeda ที่คุณมี"
+		"Andromeda_Label_C2_Damage"         "โบนัส (ความเสียหายเพิ่มเติม)"
+		"Andromeda_Shard_Flux_Desc"         "Shard: การเปิดใช้งานแต่ละครั้งของสนามจะทำให้ศัตรูมึนงงเป็นเวลา 0.2 วินาที และลดความต้านทานเวทมนตร์ลง 2% (เอฟเฟกต์ซ้อนทับได้สูงสุด 12 ครั้ง / -24%)"
+		"Talent_Andromeda_C4"               "ศัตรูที่อยู่ในสนามจะได้รับความเสียหายเพิ่มขึ้น เปอร์เซ็นต์ของช่องโหว่จะปรับขนาดตามจำนวนสำเนาที่คุณมี"
+		"Andromeda_Label_C4_Amp"            "โบนัส (ช่องโหว่)"
+		"Talent_Andromeda_C5"               "ช่วยยืดอายุของหลุมดำ ช่วงเวลาเพิ่มเติมจะอิงตามจำนวนสำเนาที่คุณมี"
+		"Andromeda_Label_C5_Duration"       "โบนัส (ระยะเวลา)"
+		"Talent_Andromeda_C1"               "หลังจากเทเลพอร์ตแล้ว จะเพิ่มความเสียหายที่ส่งออกเป็นเวลา 6 วินาที เปอร์เซ็นต์ที่ได้รับจะปรับขนาดตามจำนวนสำเนาที่คุณมี"
+		"Andromeda_Label_C1_OutDamage"      "โบนัส (ความเสียหายขาออก)"
+		"Talent_Andromeda_C3"               "ลดคูลดาวน์คงที่ของความสามารถ (ขั้นต่ำ 1 วินาที) ระดับการลดขนาดขึ้นอยู่กับจำนวนสำเนาที่คุณมี"
+		"Andromeda_Label_C3_Cooldown"       "โบนัส (ลดซีดี)"
+		"Talent_Andromeda_C6"               "C6 (1,000 ชุด): เมื่อปรากฏในเกม จะแจกไอเทม «Divine Hole» ซึ่งใช้ได้เฉพาะกับเจ้าหญิงแห่งฐานเท่านั้น"
 
 			"npc_dota_hero_leshrac"  										"เวทย์มนตร์พลังงาน"
 
@@ -1846,7 +1876,7 @@
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_health_regen"		   					"การรักษา: "
 		
 		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX"                            		"<font color='#649dfa'>สมองแห่งดวงจันทร์</font>"
-		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   					"ทุกๆ%think_interval%วินาที เอรินจะได้รับค่า Intelligence +1\nด้วยพรสวรรค์ - เอรินสร้างความเสียหายทางปัญญา%int_scale%% เป็นความเสียหายเวทย์มนตร์ด้วยการโจมตีพื้นฐาน<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"		
+		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   					"ทุกๆ%think_interval%วินาที เอรินจะได้รับค่า Intelligence +1\nด้วยความสามารถพิเศษ - เอรินสร้างความเสียหายทางเวทย์มนตร์%int_scale%% ด้วยการโจมตีพื้นฐาน<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!"		
  
 		"DOTA_Tooltip_passive_eirinex_int"												"<font color='#649dfa'>สมองแห่งดวงจันทร์</font>"
 		"DOTA_Tooltip_passive_eirinex_int_Description"										"เพิ่มความฉลาดเพิ่มเติม"
@@ -1861,7 +1891,7 @@
         "DOTA_Tooltip_modifier_demon_stack_description"                                 "ความคล่องตัวจะเพิ่มขึ้นตามแต่ละดวงวิญญาณที่ถูกดูดซับ"
 
         "DOTA_Tooltip_ability_soulblade"                                                "<font color='#1EA72B'>「อีกด้านหนึ่งของจิตวิญญาณ」</font>"
-        "DOTA_Tooltip_ability_soulblade_description"                                    "ฮีโร่สร้างวงสวิงอันทรงพลัง ผลักคู่ต่อสู้ที่อยู่ข้างหน้าเขาและสร้างความเสียหายทางกายภาพแก่พวกเขา ซึ่งจะปรับขนาดตามความคล่องตัวของเจ้าของ<br><br><font color='#cf1919'>ความเสียหายที่เกิดจากความสามารถนี้ไม่ได้รับผลกระทบจากการเพิ่มความเสียหายของเวทย์</font>"
+        "DOTA_Tooltip_ability_soulblade_description"                                    "ฮีโร่สร้างวงสวิงอันทรงพลัง ผลักคู่ต่อสู้ที่อยู่ข้างหน้าเขาและสร้างความเสียหายทางกายภาพแก่พวกเขา ซึ่งจะปรับขนาดตามความคล่องตัวของเจ้าของ<br><br><font color='#cf1919'>ความเสียหายที่เกิดจากความสามารถนี้ไม่ได้รับผลกระทบจากการเพิ่มความเสียหายของคาถา</font>"
         "DOTA_Tooltip_ability_soulblade_agi_scale"                                      "ตัวคูณความเสียหายของความคล่องตัว: "
         "DOTA_Tooltip_ability_soulblade_radius"                                         "รัศมีความเสียหาย: "
 
@@ -2057,7 +2087,7 @@
 		"DOTA_Tooltip_ability_gu_spectral_spirit_3_max_reduction"				"%Максимальноеเพิ่ม การลดน้อยลง: "
 
 		"DOTA_Tooltip_ability_gu_spectral_spirit_4"								"<font color='#3E3E3E'>「พลังงานล้น」</font>"
-		"DOTA_Tooltip_ability_gu_spectral_spirit_4_Description"					"เพิ่มพลังให้กับตัวเองหรือพันธมิตรที่เลือก โดยเพิ่มความเสียหายที่ส่งออกไปทั้งหมดตามจำนวนตามค่า Intelligence ของผู้ร่าย ณ เวลาที่ร่าย หลังจากร่าย ผู้ร่ายจะหมดแรงเป็นเวลา 90 วินาที: ในระหว่างนี้ เขาจะไม่สามารถรับสแต็คใหม่จากความสามารถที่สองได้ คูลดาวน์ของความสามารถนี้ไม่สามารถรีเซ็ตได้"
+		"DOTA_Tooltip_ability_gu_spectral_spirit_4_Description"					"เพิ่มพลังให้ตัวเองหรือพันธมิตรที่เลือก โดยเพิ่มความเสียหายที่ส่งออกไปทั้งหมดตามจำนวนตามค่า Intelligence ของผู้ร่าย ณ เวลาที่ร่าย หลังจากร่าย ผู้ร่ายจะหมดแรงเป็นเวลา 90 วินาที: ในระหว่างนี้ เขาจะไม่สามารถรับสแต็คใหม่จากความสามารถที่สองได้ คูลดาวน์ของความสามารถนี้ไม่สามารถรีเซ็ตได้"
 		"DOTA_Tooltip_ability_gu_spectral_spirit_4_int_mult"					"%Множительจากข่าวกรอง: "
 		"DOTA_Tooltip_ability_gu_spectral_spirit_4_duration"					"ระยะเวลาบัฟ: "
 		"DOTA_Tooltip_modifier_gu_spectral_spirit_4_buff"						"พลังล้น: ได้รับ"
@@ -2078,7 +2108,7 @@
 		"Spectre_Label_DmgRedPerEnemy"      "ลดต่อศัตรู"
 		"Spectre_Label_MaxDmgRed"           "สูงสุด เพิ่ม. ปฏิเสธ"
 
-		"Talent_Spectre_4_10"               "บัฟจากท่าไม้ตายจะช่วยเพิ่มอัตราฟื้นฟูสุขภาพเท่ากับ 20% ของค่า Intelligence ของผู้ร่าย"
+		"Talent_Spectre_4_10"               "บัฟจากท่าไม้ตายจะช่วยเพิ่มอัตราฟื้นฟูสุขภาพเท่ากับ 20% ของ Intelligence ของผู้ร่าย"
 		"Talent_Spectre_4_15"               "เพิ่มระยะเวลาของเอฟเฟกต์ด้านบวกของท่าไม้ตายเป็น 20 วินาที"
 		"Spectre_Label_UltRegen"            "การฟื้นฟู HP จาก Intelligence"
 
@@ -2356,50 +2386,6 @@
 		"DOTA_Tooltip_ability_bvo_orihime_skill_5_duration" 								"ระยะเวลา: "
 		"DOTA_Tooltip_ability_bvo_orihime_skill_5_radius" 									"รัศมี: "
 
-
-			"npc_dota_hero_silencer"    									"9K31 «สเตรลา-1»「★★★」"
-
-		"DOTA_Tooltip_Ability_9k31_upgrade"												"9K31 «สเตรลา-1»"
-		"DOTA_Tooltip_Ability_9k31_upgrade_Description"										"ปรับปรุงคุณลักษณะของระบบป้องกันภัยทางอากาศ Strela-1"
-		"DOTA_Tooltip_Ability_9k31_upgrade_bonus_health"									"สุขภาพ: "
-		"DOTA_Tooltip_Ability_9k31_upgrade_bonus_armor"										"เกราะ: "
-		"DOTA_Tooltip_Ability_9k31_upgrade_passive_speed"									"ความเร็ว: "
-
-		"DOTA_Tooltip_Ability_mq9_9k31"													"เอ็มคิว-9 รีปเปอร์" 
-		"DOTA_Tooltip_Ability_mq9_9k31_Description"											"MQ-9 Reaper (จากภาษาอังกฤษ - «reaper, Harvest»; พาดพิงถึงสำนวน Grim Reaper - «grim reaper» นั่นคือความตาย) เป็นการลาดตระเวนและโจมตี UAV ที่พัฒนาโดย General Atomics Aeronautical Systems (แผนกหนึ่งของ General Dynamics Corporation) สำหรับใช้ในกองทัพอากาศสหรัฐฯ กองทัพเรือสหรัฐฯ และกองทัพอากาศอังกฤษ เที่ยวบินแรกเกิดขึ้นเมื่อวันที่ 2 กุมภาพันธ์ พ.ศ. 2544"
-		"DOTA_Tooltip_Ability_mq9_9k31_cd"												"เติมเงิน: "
-
-		"DOTA_Tooltip_ability_strela_attack"											"9M37 แซม «สเตรลา-10»"
-		"DOTA_Tooltip_ability_strela_attack_Description"									"ขีปนาวุธนำวิถีต่อต้านอากาศยาน (SAM) 9M37 ได้รับการออกแบบมาเพื่อทำลายเครื่องบิน เฮลิคอปเตอร์ ขีปนาวุธร่อน และเป้าหมายทางอากาศอื่นๆ การปรับเปลี่ยนนี้ทำให้คุณสามารถโจมตีเป้าหมายภาคพื้นดินได้<br>ขีปนาวุธแต่ละลูกมีหัวรบแบบกระจายตัว ซึ่งเมื่อถูกโจมตี จะแตกออกเป็น 30 ชิ้น<br>รัศมีของชิ้นส่วนที่กระเจิงคือ 300 ถึง 1,500 หน่วย<br><br><font color='#cf1919'>โปรดทราบ! ความเสียหายของความสามารถนี้ไม่สามารถเพิ่มขึ้นได้ด้วยการเสริมพลังเวทย์มนตร์!<br><br><font color='#F32929'>ไอเท็มลดคูลดาวน์ใช้ไม่ได้กับความสามารถนี้!</font>"
-        "DOTA_Tooltip_ability_strela_attack_projectile_count"								"ขีปนาวุธทั้งหมด: "
-        "DOTA_Tooltip_ability_strela_attack_projectile_speed"								"ความเร็วจรวด: "
-        "DOTA_Tooltip_ability_strela_attack_impact_radius"									"รัศมีความเสียหาย: "
-        "DOTA_Tooltip_ability_strela_attack_damage_per_impact"								"ความเสียหายต่อจรวด: "
-        "DOTA_Tooltip_ability_strela_attack_burn_interval"									"ช่วงเวลาการเผาไหม้จากการกระแทก: "
-        "DOTA_Tooltip_ability_strela_attack_burn_damage"									"ความเสียหายจากการเผาไหม้: "
-        "DOTA_Tooltip_ability_strela_attack_blob_rings_count"								"จำนวนประจุในจรวดคาสเซ็ท: "
-		"DOTA_Tooltip_ability_strela_attack_scepter_Description"							"เพิ่มโบนัสความเสียหาย - สติปัญญา * 1.5"
-		"DOTA_Tooltip_ability_strela_attack_shard_Description"								"เปลี่ยนประเภทความเสียหายเป็นบริสุทธิ์"
-		"DOTA_Tooltip_modifier_imba_snapfire_magma_burn_slow"								"9M37 แซม «สเตรลา-10»"
-
-        "DOTA_Tooltip_Ability_strela_explosion"											"กระสุน 9K31 «สเตรลา-1»"
-		"DOTA_Tooltip_Ability_strela_explosion_Description"									"เมื่อถูกทำลาย กระสุนทั้งหมดจะระเบิด สร้างความเสียหายและทำให้ศัตรูมึนงง"
-		"DOTA_Tooltip_Ability_strela_explosion_radius"										"รัศมี: "
-		"DOTA_Tooltip_Ability_strela_explosion_stun"										"สตัน: "
-        "DOTA_Tooltip_Ability_strela_explosion_respawn"										"เวลาเกิดใหม่: "
-
-        "DOTA_Tooltip_Ability_strela_age"												"การพัฒนา 9K31 «สเตรลา-1»"
-		"DOTA_Tooltip_Ability_strela_age_Description"										"ลูกเรือได้รับประสบการณ์การต่อสู้และเรียนรู้ทักษะใหม่ๆ"
-		"DOTA_Tooltip_Ability_strela_age_min_exp"											"ประสบการณ์ขั้นต่ำ:"
-		"DOTA_Tooltip_Ability_strela_age_max_exp"											"ประสบการณ์สูงสุด:"
-
-		"DOTA_Tooltip_Ability_mq9_predator"												"เอ็มคิว-9 รีปเปอร์" 
-		"DOTA_Tooltip_Ability_mq9_predator_Description"										"MQ-9 Reaper (จากภาษาอังกฤษ - «ผู้เก็บเกี่ยว» การพาดพิงถึงสำนวน Grim Reaper - «ผู้เก็บเกี่ยวที่น่ากลัว» นั่นคือความตาย) เป็นการลาดตระเวนและโจมตี UAV<br>เรียกโดรนที่บินเป็นวงกลมเหนือฮีโร่ของคุณ และโจมตีศัตรูทุกตัวที่อยู่รอบๆ"
-		"DOTA_Tooltip_Ability_mq9_predator_damage"											"ความเสียหาย: "
-        "DOTA_Tooltip_Ability_mq9_predator_attack_speed"									"ความเร็วในการยิง: "
-        "DOTA_Tooltip_Ability_mq9_predator_life"											"ระยะเวลา: "
-
-
 			"npc_dota_hero_bristleback" 									"AH-64D «อาปาเช่»「★★★★」"
 			        
         "DOTA_Tooltip_ability_ah64_rocket"												"ไฮดรา 70"
@@ -2547,13 +2533,13 @@
 		"Talent_Fate_Displace_10"           "เพิ่มระยะเวลาของสถานะ Displace 3 วินาที"
     	"Talent_Fate_Label_Duration"        "ระยะเวลา"
 
-      "DOTA_Tooltip_ability_fate_ancestral_recall"                                 "<font color='#662BF9'>「การเรียกคืนของบรรพบุรุษ」</font>"
+      "DOTA_Tooltip_ability_fate_ancestral_recall"                                 "<font color='#662BF9'>「การระลึกถึงบรรพบุรุษ」</font>"
         "DOTA_Tooltip_ability_fate_ancestral_recall_description"                     "Eternity เรียกร้องความรู้จากบรรพบุรุษ ทำให้พันธมิตรทั้งหมดที่อยู่ในระยะได้รับโบนัสชั่วคราวสำหรับคุณสมบัติทั้งหมด"
         "DOTA_Tooltip_ability_fate_ancestral_recall_radius"                          "รัศมี: "
         "DOTA_Tooltip_ability_fate_ancestral_recall_duration"                        "ระยะเวลา: "
         "DOTA_Tooltip_ability_fate_ancestral_recall_stats"                           "โบนัสสำหรับคุณสมบัติทั้งหมด: "
         
-        "DOTA_Tooltip_modifier_ancestral_recall_display"                             "<font color='#662BF9'>「การเรียกคืนของบรรพบุรุษ」</font>"
+        "DOTA_Tooltip_modifier_ancestral_recall_display"                             "<font color='#662BF9'>「การระลึกถึงบรรพบุรุษ」</font>"
         "DOTA_Tooltip_modifier_ancestral_recall_display_description"                 "คุณสมบัติเพิ่มขึ้น"
 
 		"Fate_Shard_Recall_Desc"            "ยีนบำบัด: สร้างภูมิคุ้มกันเวทย์มนตร์ (BKB) กับพันธมิตรเป็นเวลา 2 วินาที"
@@ -2881,7 +2867,7 @@
 		"DOTA_Tooltip_ability_item_mana_drop_2_bonus_mana"									"มานา: "
 		"DOTA_Tooltip_ability_item_mana_drop_2_bonus_mana_regen"							"การฟื้นฟูมานา: "
 
-		"DOTA_Tooltip_ability_item_mana_drop_3"											"มานะสปริงดรอป 3"
+		"DOTA_Tooltip_ability_item_mana_drop_3"											"มานาสปริงดรอป 3"
 		"DOTA_Tooltip_ability_item_mana_drop_3_Description"									"เพิ่มมานาสูงสุดและการฟื้นฟู"
 		"DOTA_Tooltip_ability_item_mana_drop_3_bonus_mana"									"มานา: "
 		"DOTA_Tooltip_ability_item_mana_drop_3_bonus_mana_regen"							"การฟื้นฟูมานา: "
@@ -3138,7 +3124,7 @@
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_amplify"						"+% ให้กับความเสียหายเวทย์"	
 
 		"DOTA_Tooltip_ability_item_veil_of_discord2"                                   	"แอสการ์ด แมนเทิล"
-		"DOTA_Tooltip_ability_item_veil_of_discord2_Description"							"<h1>ใช้งานอยู่: เวทมนตร์อ่อนแอลง</h1>ลดความต้านทานเวทมนตร์ของศัตรูลง%MR_debuff%% ในพื้นที่%debuff_radius%"
+		"DOTA_Tooltip_ability_item_veil_of_discord2_Description"							"<h1>ใช้งานอยู่: การอ่อนกำลังเวทย์มนตร์</h1>ลดความต้านทานเวทย์มนตร์ของศัตรูลง%MR_debuff%% ในพื้นที่%debuff_radius%"
 		"DOTA_Tooltip_ability_item_veil_of_discord2_bonus_health_regen"						"+เพื่อฟื้นฟูสุขภาพ "
 		"DOTA_Tooltip_ability_item_veil_of_discord2_bonus_armor"							"+ถึงชุดเกราะ "
 
@@ -3357,7 +3343,7 @@
 		"DOTA_Tooltip_ability_item_daedalus_bonus_damage"                      			"+ สร้างความเสียหาย: "
 
 		"DOTA_Tooltip_ability_item_daedalus2"                                 			"เอ็กซ์คาลิเบอร์ 2"
-		"DOTA_Tooltip_ability_item_daedalus2_Description"                    				"<h1>ติดตัว: ความเสียหายคริติคอล</h1>เพิ่ม%critical_bonus%% ความเสียหายคริติคอล\n<font color='#ff0000'>「โปรดทราบ!」</font>ไอเท็มนี้เป็นส่วนหนึ่งของระบบ Artifact เพื่อให้ความเสียหายคริติคอลทำงานได้ คุณจะต้องได้รับโอกาสคริติคอล<br><font color='#ff0000'>รายการประเภทนี้ไม่สามารถนำมารวมกันได้!</font>"
+		"DOTA_Tooltip_ability_item_daedalus2_Description"                    				"<h1>ติดตัว: ความเสียหายคริติคอล</h1>เพิ่ม%critical_bonus%% ความเสียหายคริติคอล\n<font color='#ff0000'>「โปรดทราบ!」</font>ไอเท็มนี้เป็นส่วนหนึ่งของระบบ Artifact เพื่อให้ความเสียหายคริติคอลทำงานได้ คุณจะต้องได้รับโอกาสคริติคอล<br><font color='#ff0000'>รายการประเภทนี้ไม่สามารถรวมกันได้!</font>"
 		"DOTA_Tooltip_ability_item_daedalus2_bonus_damage"                      			"+ สร้างความเสียหาย: "
 
 		"DOTA_Tooltip_ability_item_daedalus3"                                 			"เอ็กซ์คาลิเบอร์ 3"
@@ -3527,11 +3513,11 @@
 		"DOTA_Tooltip_ability_item_azrael_crossbow_bonus_damage"							"+เพื่อสร้างความเสียหาย "
 
 		"DOTA_Tooltip_ability_item_azrael_crossbow2"									"ไทม์พาราดอกซ์ 2"
-		"DOTA_Tooltip_ability_item_azrael_crossbow2_Description"							"<h1>ติดตัว: ความเสียหายคริติคอล</h1>เพิ่ม%critical_bonus%% ความเสียหายคริติคอล\n<font color='#ff0000'>「โปรดทราบ!」</font>ไอเท็มนี้เป็นส่วนหนึ่งของระบบ Artifact เพื่อให้ความเสียหายคริติคอลทำงานได้ คุณจะต้องได้รับโอกาสคริติคอล<br><font color='#ff0000'>รายการประเภทนี้ไม่สามารถรวมกันได้!</font>\n<h1>ติดตัว: โจมตีสองครั้ง</h1>หากไอเท็มไม่อยู่ในช่วงคูลดาวน์ การโจมตีครั้งถัดไปของฮีโร่จะดำเนินการสองครั้ง ใช้งานได้กับฮีโร่ระยะไกลเท่านั้น"
+		"DOTA_Tooltip_ability_item_azrael_crossbow2_Description"							"<h1>ติดตัว: ความเสียหายคริติคอล</h1>เพิ่ม%critical_bonus%% ความเสียหายคริติคอล\n<font color='#ff0000'>「โปรดทราบ!」</font>ไอเท็มนี้เป็นส่วนหนึ่งของระบบ Artifact เพื่อให้ความเสียหายคริติคอลทำงานได้ คุณจะต้องได้รับโอกาสคริติคอล<br><font color='#ff0000'>รายการประเภทนี้ไม่สามารถนำมารวมกันได้!</font>\n<h1>ติดตัว: โจมตีสองครั้ง</h1>หากไอเท็มไม่อยู่ในช่วงคูลดาวน์ การโจมตีครั้งถัดไปของฮีโร่จะดำเนินการสองครั้ง ใช้งานได้กับฮีโร่ระยะไกลเท่านั้น"
 		"DOTA_Tooltip_ability_item_azrael_crossbow2_bonus_damage"							"+เพื่อสร้างความเสียหาย "
 
 		"DOTA_Tooltip_ability_item_azrael_crossbow3"									"ไทม์พาราดอกซ์ 3"
-		"DOTA_Tooltip_ability_item_azrael_crossbow3_Description"							"<h1>ติดตัว: ความเสียหายคริติคอล</h1>เพิ่ม%critical_bonus%% ความเสียหายคริติคอล\n<font color='#ff0000'>「โปรดทราบ!」</font>ไอเท็มนี้เป็นส่วนหนึ่งของระบบ Artifact เพื่อให้ความเสียหายคริติคอลทำงานได้ คุณจะต้องได้รับโอกาสคริติคอล<br><font color='#ff0000'>รายการประเภทนี้ไม่สามารถรวมกันได้!</font>\n<h1>ติดตัว: โจมตีสองครั้ง</h1>หากไอเท็มไม่อยู่ในช่วงคูลดาวน์ การโจมตีครั้งถัดไปของฮีโร่จะดำเนินการสองครั้ง ใช้งานได้กับฮีโร่ระยะไกลเท่านั้น"
+		"DOTA_Tooltip_ability_item_azrael_crossbow3_Description"							"<h1>ติดตัว: ความเสียหายคริติคอล</h1>เพิ่ม%critical_bonus%% ความเสียหายคริติคอล\n<font color='#ff0000'>「โปรดทราบ!」</font>ไอเท็มนี้เป็นส่วนหนึ่งของระบบ Artifact เพื่อให้ความเสียหายคริติคอลทำงานได้ คุณจะต้องได้รับโอกาสคริติคอล<br><font color='#ff0000'>รายการประเภทนี้ไม่สามารถนำมารวมกันได้!</font>\n<h1>ติดตัว: โจมตีสองครั้ง</h1>หากไอเท็มไม่อยู่ในช่วงคูลดาวน์ การโจมตีครั้งถัดไปของฮีโร่จะดำเนินการสองครั้ง ใช้งานได้กับฮีโร่ระยะไกลเท่านั้น"
 		"DOTA_Tooltip_ability_item_azrael_crossbow3_bonus_damage"							"+เพื่อสร้างความเสียหาย "
 
 		"DOTA_Tooltip_ability_item_aqua_greaves"										"เลกกิ้งของเทพธิดาอควา"
@@ -3737,7 +3723,7 @@
 			"DOTA_Tooltip_modifier_weather_storm_debuff_Description"							"ตะลึง."
 
 		"dota_tooltip_ability_item_tree_banana" 										"กล้วย"
-		"dota_tooltip_ability_item_tree_banana_description" 								"<h1>ใช้งาน: กิน</h1>เพิ่ม +1 ให้กับ Intelligence และยังเหลือเปลือกไว้เพื่อให้ศัตรูลื่นไถล"
+		"dota_tooltip_ability_item_tree_banana_description" 								"<h1>ใช้งานอยู่: กิน</h1>เพิ่ม +1 ให้กับ Intelligence และยังเหลือเปลือกไว้เพื่อให้ศัตรูลื่นไถล"
 		"DOTA_Tooltip_ability_item_gu_pumpkin"                        					"ฟักทอง"
         "DOTA_Tooltip_ability_item_gu_pumpkin_description"            						"<h1>ใช้งานอยู่: กิน</h1>เพิ่ม +1 ให้กับความแข็งแกร่ง"
         "DOTA_Tooltip_ability_item_gu_spider"                        					"แมงมุม"
@@ -3772,7 +3758,6 @@
 		"npc_dota_hero_disruptor_race" 			"เผ่าพันธุ์: หุ้มเกราะ"
 		"npc_dota_hero_tiny_race" 				"เผ่าพันธุ์: อัลเทรัน"
 		"npc_dota_hero_luna_race" 				"เผ่าพันธุ์: หุ้มเกราะ"
-		"npc_dota_hero_silencer_race" 			"เผ่าพันธุ์: หุ้มเกราะ"
 		"npc_dota_hero_drow_ranger_race" 		"เผ่าพันธุ์: เทารี"
 		"npc_dota_hero_oracle_race" 			"เผ่าพันธุ์: วิญญาณ"
 		"npc_dota_hero_furion_race" 			"เผ่าพันธุ์: วิญญาณ"
@@ -3782,7 +3767,7 @@
 		"npc_dota_hero_enigma_race" 			"เผ่าพันธุ์: วิญญาณ"
 		"npc_dota_hero_sniper_race" 			"เผ่าพันธุ์: เทารี"
 		"npc_dota_hero_spirit_breaker_race" 	"เผ่าพันธุ์: เทารี"
-		"npc_dota_hero_winter_wyvern_race" 		"เผ่าพันธุ์: เทารี"
+		"npc_dota_hero_winter_wyvern_race" 		"เผ่าพันธุ์: หุ้มเกราะ"
 		"npc_dota_hero_naga_siren_race" 		"เผ่าพันธุ์: «โอริ»"
 		"npc_dota_hero_slark_race" 				"เผ่าพันธุ์: «โอริ»"
 		"npc_dota_hero_dark_willow_race" 		"เผ่าพันธุ์: «โอริ»"
@@ -4052,7 +4037,7 @@
 			"boss_5" "ทุกเส้นทางย่อมมีวันสิ้นสุด ไม่จำเป็นต้องรีบร้อน อดีตคือผี อนาคตคือความฝัน สิ่งเดียวที่เรามีคือปัจจุบัน"
 			"boss_6" "คุณรู้ไหมว่าในช่วงเวลานี้คุณถูกรายล้อมไปด้วยนิรันดร์กาล? และคุณรู้ไหมว่าคุณสามารถใช้ประโยชน์จากความเป็นนิรันดร์นี้ได้หากต้องการ?"
 			"boss_7" "เวลาไม่มีจุดเริ่มต้นหรือจุดสิ้นสุด เวลาก็เหมือนกับงูอูโรโบรอสที่กัดหางของมันเองด้วยฟัน ความนิรันดร์ถูกซ่อนอยู่ในทุกช่วงเวลา และนิรันดรนั้นประกอบขึ้นจากช่วงเวลาที่สร้างมันขึ้นมา"
-			"boss_8" "สามสิบปีก่อน วิญญาณองค์แรกปรากฏบนโลกและกลายเป็นลูกหลานของวิญญาณอื่นๆ เป้าหมายของฉันคือการฆ่าเขา ฉันอยากเห็นว่าพระเจ้าจะยอมรับความพยายามที่โง่เขลาและประมาทเลินเล่อที่จะเปลี่ยนแปลงโลกอย่างไร"
+			"boss_8" "สามสิบปีก่อน วิญญาณดวงแรกปรากฏบนโลกและกลายเป็นรุ่นของวิญญาณอื่นๆ เป้าหมายของฉันคือการฆ่าเขา ฉันอยากเห็นว่าพระเจ้าจะยอมรับความพยายามที่โง่เขลาและประมาทเลินเล่อที่จะเปลี่ยนแปลงโลกอย่างไร"
 
 			"boss_name_1" "ซานโกโนมิยะ"
 			"boss_name_2" "เทพธิดาอควา"
@@ -4357,7 +4342,7 @@
 
 		"andromeda_repli_45" "งานอัศจรรย์! ฉันตรวจพบปฏิกิริยาลูกโซ่ที่เสถียรเริ่มต้นขึ้น เครื่องปฏิกรณ์นิวเคลียร์กลับมาทำงานแล้ว!"
         "andromeda_repli_46" "พลังงานเริ่มไหลเข้าสู่ศูนย์กระจายสินค้าหลักของฐาน MNT ของเรากำลังชาร์จ"
-        "andromeda_repli_47" "ขณะนี้โรงงานสามารถเดินเครื่องได้เต็มประสิทธิภาพแล้ว เราสามารถเข้าถึงการสร้างระบบป้องกันและอาวุธที่ซับซ้อนที่สุดได้"
+        "andromeda_repli_47" "ขณะนี้โรงงานสามารถเดินเครื่องได้เต็มประสิทธิภาพแล้ว เราสามารถเข้าถึงการสร้างระบบป้องกันและอาวุธที่ซับซ้อนที่สุด"
         "andromeda_repli_48" "ใช้พลังนี้อย่างชาญฉลาดนะผู้บังคับบัญชา ตอนนี้เรามีโอกาสที่แท้จริงที่จะต่อสู้กับโอริแล้ว!"
 
 		"lore_qvest_main"	"ได้รับภารกิจใหม่แล้ว!<br>«การป้องกันแอนโดรเมดา»"
@@ -4536,7 +4521,7 @@
         "DOTA_Tooltip_ability_gu_boss_threshold_Description"   								"คืนความเสียหายตามสูตร (5 + (ความยาก * 5))% ของความเสียหายที่ทำกับสิ่งมีชีวิต หากความเสียหายที่ได้รับมากกว่า (50 - (ความยาก * 5))% ของพลังชีวิตสูงสุดของสิ่งมีชีวิต มันจะฟื้นฟูสุขภาพในจำนวน 30% ของความเสียหายที่ทำได้ มีโอกาส 17%."
 
 		"DOTA_Tooltip_ability_sniper_concussive_grenade"                				"<font color='#A7561E'>「M67」</font> "
-        "DOTA_Tooltip_ability_sniper_concussive_grenade_Description"    					"ขว้างระเบิดมือ M-67 ซึ่งจะขับไล่ยูนิตทั้งหมดออกจากจุดนั้นและยังมีเอฟเฟกต์ปลดอาวุธอีกด้วย"
+        "DOTA_Tooltip_ability_sniper_concussive_grenade_Description"    					"ขว้างระเบิดมือ M-67 ซึ่งจะขับไล่ยูนิตทั้งหมดออกจากจุดนั้นและยังมีเอฟเฟกต์ปลดอาวุธด้วย"
 		"DOTA_Tooltip_ability_sniper_concussive_grenade_radius"    							"รัศมี: "
 		"DOTA_Tooltip_ability_sniper_concussive_grenade_debuff_duration"    				"ระยะเวลา: "
 
@@ -4729,7 +4714,6 @@
 -Izayoi Sakuya<br>
 -Kizaru<br>
 -Cirno<br>
--9K31 «Strela-1»<br>
 -Eternity<br>
 -Emilia<br>
 -Ran Yakumo<br>
@@ -4887,17 +4871,6 @@
 		"npc_dota_hero_shredder_t4"		"ปรับปรุง -<font color='#fd7427'>「3ОФ26」</font><br><br>เปลี่ยนประเภทของความเสียหายในพื้นที่ที่สร้างเป็น PURE"
 		"npc_dota_hero_shredder_t5"		"ปรับปรุง -<font color='#fd2727'>「3БМ46/3БМ48」</font><br><font color='#f9fd27'>「3БК29(М)」</font><br><font color='#fd7427'>「3ОФ26」</font><br><br>ลบคูลดาวน์ระหว่างการสลับไปใช้กระสุนประเภทต่างๆ การสลับแบบเดียวกันจะทำงานแม้ว่าคุณจะทำเครื่องหมายการโหลดซ้ำก็ตาม"
 		"npc_dota_hero_shredder_t6"		"ปรับปรุง -<br><font color='#f9fd27'>「3БК29(М)」</font><br><font color='#fd7427'>「3ОФ26」</font><br><br>ลบค่าใช้จ่ายด้านพลังงานสำหรับโพรเจกไทล์ทุกประเภท<br><br><font color='#fd7427'>「9М112М2」</font><br><br>เพิ่มความเสียหายที่ทำได้ 15 ครั้ง"
-
-		"npc_dota_hero_silencer_t2_name"		"-「เอ็มคิว-9 พรีเดเตอร์」_-"
-		"npc_dota_hero_silencer_t3_name"		"-「การสนับสนุนโอเวอร์ลอร์ด」_-"
-		"npc_dota_hero_silencer_t4_name"		"-「9M37 แซม」_-"
-		"npc_dota_hero_silencer_t5_name"		"-「9M37 ฟอสฟอรัสขาว」_-"
-		"npc_dota_hero_silencer_t6_name"		"-「กระสุน 9M37 SAM」_-"
-		"npc_dota_hero_silencer_t2"		"ปรับปรุง - MQ-9 Reaper<br><br>ลดคูลดาวน์ลง 10 วินาทีในทุกระดับ"
-		"npc_dota_hero_silencer_t3"		"การอัพเกรด - MQ-9 Reaper<br><br>เพิ่มจำนวนนัดเป็น 2 นัด"
-		"npc_dota_hero_silencer_t4"		"ปรับปรุง - 9M37 SAM<br><br>ลดเวลาการบรรจุลงเหลือ 30 วินาที"
-		"npc_dota_hero_silencer_t5"		"ปรับปรุง - 9M37 SAM<br><br>เพิ่มความเสียหายจากการเผาไหม้ 5 เท่าและเพิ่มตัวคูณสติปัญญา เพิ่มระยะเวลาการเผาไหม้ 4 เท่า"
-		"npc_dota_hero_silencer_t6"		"ปรับปรุง - 9M37 SAM<br><br>เพิ่มจำนวนขีปนาวุธเป็น 12"
 
 		"npc_dota_hero_bristleback_t2_name"		"-「ไฮดรา 70」_-"
 		"npc_dota_hero_bristleback_t3_name"		"-「ประชุมผู้ถือหุ้น-114」_-"
@@ -5347,8 +5320,8 @@
 
 		"npc_dota_hero_hoodwink_t2_name"		"「เทรส ฟงแตน กระตือรือร้น」"
 		"npc_dota_hero_hoodwink_t3_name"		"「เทรส ฟงแตน กระตือรือร้น」"
-		"npc_dota_hero_hoodwink_t4_name"		"「กลาดิอุซานัส เบลาเซรัม」"
-		"npc_dota_hero_hoodwink_t5_name"		"「กลาดิอุซานัส เบลาเซรัม」"
+		"npc_dota_hero_hoodwink_t4_name"		"「กลาดิอุสซานัส เบลาเซอร์รัม」"
+		"npc_dota_hero_hoodwink_t5_name"		"「กลาดิอุสซานัส เบลาเซอร์รัม」"
 		"npc_dota_hero_hoodwink_t6_name"		"「เอสตุส โดมุส ออเรีย」"
 		"npc_dota_hero_hoodwink_t2"		"ปรับปรุง<br><font color='#FFE56E'>「Très Fontaine Ardent」</font><br><br>เพิ่มโบนัสความเสียหาย - ความคล่องตัว * 2"
 		"npc_dota_hero_hoodwink_t3"		"ปรับปรุง<br><font color='#FFE56E'>「Très Fontaine Ardent」</font><br><br>ด้วยความสามารถใช้งาน<font color='#FFE56E'>「Aestus Domus Aurea」</font>สร้างความเสียหายโดยตรงเพิ่มเติมตามจำนวนฐาน * 2"
@@ -5463,7 +5436,7 @@
 		"npc_dota_hero_sand_king_t2"		"ฉันจะทาสี -<font color='#fd2727'>「MON-100」</font><br><br>เปลี่ยนเวลาโหลดเป็น 2 วินาที<br><br>ฉันจะทาสี -<font color='#fd2727'>「MON-100 (คาสเซ็ต)」</font><br><br>เปลี่ยนเวลาโหลดซ้ำเป็น 20 วินาที"
 		"npc_dota_hero_sand_king_t3"		"ฉันจะทาสี -<font color='#fd2727'>「MON-100」</font><br><br>เพิ่มความเสียหายเพิ่มเติม 30% ในทุกระดับ<br><br>ฉันจะทาสี -<font color='#fd2727'>「MON-100 (เทป)」</font><br><br>เพิ่มความเสียหายเพิ่มเติม 30% ในทุกระดับ"
 		"npc_dota_hero_sand_king_t4"		"สี -<font color='#fd7427'>「PG-15」</font><br><br>เพิ่มสุขภาพขั้นพื้นฐาน - สุขภาพเพิ่มเติมในขนาด 30% ของสุขภาพสูงสุดของเป้าหมาย<br><br>สี -<font color='#fd7427'>「OG-15」</font><br><br>เพิ่มในขนาดพื้นฐาน - ขนาดเพิ่มเติม 150% ขึ้นอยู่กับความสนใจของคุณ"
-		"npc_dota_hero_sand_king_t5"		"การทาสี -<br><font color='#fd2727'>「PG-15」</font><br><font color='#f9fd27'>「OG-15」</font><br><br>ยกเลิกการโหลดซ้ำระหว่างการสลับของกระสุนประเภทต่างๆ และการสลับเอง คุณจะถูกขอให้เปลี่ยนโหมดการสลับ"
+		"npc_dota_hero_sand_king_t5"		"การทาสี -<br><font color='#fd2727'>「PG-15」</font><br><font color='#f9fd27'>「OG-15」</font><br><br>ยกเลิกการโหลดซ้ำระหว่างการสลับของกระสุนประเภทต่างๆ และการสลับกัน คุณจะถูกขอให้เปลี่ยนโหมดการสลับ"
 		"npc_dota_hero_sand_king_t6"		"การทาสี -<br><font color='#f9fd27'>「OG-15」</font><br><br>ช่วยลดค่าใช้จ่ายด้านพลังงาน<br>ฉันจะทาสี -<br><font color='#f9fd27'>「9K111-1 “บาสซูน”」</font><br><br>ความเสียหายจะเพิ่มขึ้น 10 เท่า และหากความเสียหายเพิ่มขึ้น BMP-1 จะยิงขีปนาวุธเพิ่มเติมไปยังเป้าหมายทั้งหมดที่รัศมี 1200 ในช่วงเวลาสลับกัน 0.5 วินาที"
 
 
@@ -5579,7 +5552,7 @@
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_Description"								"<h1>ใช้งานอยู่: โล่สภาพอากาศ</h1>ใช้เอฟเฟกต์โล่สายฟ้ากับเป้าหมาย เมื่อโจมตียูนิตที่ได้รับการป้องกันด้วยโล่ ทุกครั้งที่โจมตี%static_proc_count%ใส่เจ้าของ สายฟ้าจะถูกปล่อยออกมาใส่ศัตรู ซึ่งจะสร้างความเสียหาย%static_damage%% ให้กับผู้โจมตี และยังทำให้เขาช้าลง%static_slow%เป็นเวลา%static_slow_duration%วินาที\n<h1>ติดตัว: พลังงานระเบิด</h1>ด้วยโอกาส%proc_chance%% ในการสร้างสายฟ้าฟาดซึ่งจะทำการกระโดดไปยังยูนิตศัตรูทั้งหมดภายในรัศมี%bounce_radius%และสร้างความเสียหาย%bounce_damage%% ของพลังโจมตีให้กับเจ้าของไอเท็ม\n<font color='#ff0000'>รายการนี้สามารถปรับปรุงได้ในโรงงานโลหะวิทยา</font>"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_damage"								"+ สร้างความเสียหาย:"
 		"DOTA_Tooltip_ability_item_gu_mjollnir_3_bonus_as"									"+ ความเร็วในการโจมตี:"
- 			"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"										"โล่แกนอากาศ"
+ 			"DOTA_Tooltip_modifier_item_gu_mjollnir_shield"										"โล่สภาพอากาศ"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r"								"สูตร Cuirasse แห่งจักรวาล"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"						"<font color='#7ee340'>สามารถมอบให้พันธมิตรได้!"
@@ -5595,7 +5568,7 @@
 
 		"andromeda_gate_event_1" "ความสนใจ! เรามีไฮเปอร์ทันเนลที่กำลังเข้ามา!"
 		"andromeda_gate_event_2" "นี่คือ MQ-9 Predator พันธมิตร! พวกเขาส่งมาให้เราเพื่อให้การสนับสนุนทางอากาศ!"
-		"andromeda_gate_event_3" "ขณะนี้การสนับสนุนโดรนพร้อมให้คุณใช้งานแล้ว หากต้องการใช้ ให้คลิกที่ไอคอนถัดจากแผนที่ย่อและเลือกเป้าหมายที่จะโจมตี!"
+		"andromeda_gate_event_3" "ขณะนี้การสนับสนุนโดรนพร้อมให้คุณใช้งานแล้ว หากต้องการใช้งาน ให้คลิกที่ไอคอนถัดจากแผนที่ย่อและเลือกเป้าหมายที่จะโจมตี!"
 		"andromeda_gate_event_4" "นเรศวร ปกปิดพวกเรา!"
 
 		"protagonist_name_3"  		"นเรศวร"
@@ -5868,7 +5841,7 @@
 		"lich_king_replic_38"      "การสัมผัส"
 
 		"alter_anromeda_base_1"    "ความสนใจ. มีการตรวจพบพลังงานทำลายล้างที่ผิดปกติในบริเวณสตาร์เกต ตัวตนที่ไม่ปรากฏชื่อ ระบุตัวตนของคุณทันที"
-		"alter_anromeda_base_2"    "ฉันแอนโดรเมดา! เครื่องสแกนของฉันแสดงให้เห็นว่าสัญญาณชีพของคุณไม่มีอยู่จริง แต่คุณมีพลังทำลายล้างมหาศาล เปิดใช้งานโปรโตคอลความปลอดภัยพื้นฐานแล้ว"
+		"alter_anromeda_base_2"    "ฉันแอนโดรเมด้า! เครื่องสแกนของฉันแสดงให้เห็นว่าสัญญาณชีพของคุณไม่มีอยู่จริง แต่คุณมีพลังทำลายล้างมหาศาล เปิดใช้งานโปรโตคอลความปลอดภัยพื้นฐานแล้ว"
 		"alter_anromeda_base_3"    "โอกาสสำเร็จของคุณมีน้อยมาก ในขณะนี้ เราได้รับประโยชน์จากการหยุดยิงชั่วคราวเพื่อทำลายกองกำลัง Ori แต่ถ้าคุณพยายามทำร้ายแชมป์เปี้ยนของฉัน ฉันจะปล่อยปืนใหญ่วงโคจรของฉันเต็มกำลังใส่คุณ"
 		"alter_anromeda_base_4"    "มาดูกัน. ระเบียบปฏิบัติการป้องกันร่วมได้รับการยืนยันแล้ว แชมเปี้ยน กลับสู่ตำแหน่งของคุณ การต่อสู้ยังไม่จบ"
 
@@ -5926,7 +5899,7 @@
 		"setting_dificult_text"		"ใส่ใจ!<br><br>เกมได้รับการกำหนดค่าให้เล่นในระดับความยาก - «มาตรฐาน» หากคุณไม่สามารถเล่นแผนที่ให้เสร็จสิ้นได้ ให้เลือกความยาก - «ง่าย» สำหรับผู้ที่เข้าใจวิธีเล่นโปรเจ็กต์นี้ จะมีความยาก - «ยาก» และ «ไร้สาระ»: การเล่นในระดับความยากเหล่านี้ยากกว่ามาก แต่คุณจะได้รับรางวัลมากขึ้นด้วย (MMP, แบนเนอร์แบบเลื่อน และ GU-Coins)"
 
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1"									"ไม้เท้าแห่งวิวรณ์"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_1_Description"							"<h1>ใช้งานอยู่: Zafkiel</h1>เมื่อเปิดใช้งาน จะชาร์จความสามารถทั้งหมดใหม่ ยกเว้นอัลติเมท และยังล้างเอฟเฟกต์ด้านลบทั้งหมดให้กับเจ้าของอีกด้วย<br><br><font color='#eb0202'>การเพิ่มระยะการโจมตีใช้ได้กับฮีโร่ประเภทการโจมตีระยะไกลเท่านั้น!!!.</font>"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_1_Description"							"<h1>ใช้งานอยู่: Zafkiel</h1>เมื่อเปิดใช้งาน จะชาร์จความสามารถทั้งหมดใหม่ ยกเว้นอัลติเมท และยังล้างเอฟเฟกต์ด้านลบทั้งหมดให้กับเจ้าของด้วย<br><br><font color='#eb0202'>การเพิ่มระยะการโจมตีใช้ได้กับฮีโร่ประเภทการโจมตีระยะไกลเท่านั้น!!!.</font>"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_range_attack_bonus"						"โบนัสระยะการโจมตี:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_caste_range_bonus"						"โบนัสระยะร่าย:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_1_cast_time"								"%Уменьшениеเวลาร่าย:"
@@ -5948,7 +5921,7 @@
 		"DOTA_Tooltip_ability_item_gu_magic_staff_2_int"									"โบนัสสติปัญญา:"
 
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3"									"ไม้เท้าของวิวรณ์ 3"
-		"DOTA_Tooltip_ability_item_gu_magic_staff_3_Description"							"<h1>ใช้งานอยู่: Zafkiel</h1>เมื่อเปิดใช้งาน จะชาร์จความสามารถทั้งหมดใหม่ ยกเว้นอัลติเมท และยังล้างเอฟเฟกต์ด้านลบทั้งหมดให้กับเจ้าของอีกด้วย<br><br><font color='#eb0202'>การเพิ่มระยะการโจมตีใช้ได้กับฮีโร่ประเภทการโจมตีระยะไกลเท่านั้น!!!.</font>\n<font color='#ff0000'>รายการนี้สามารถปรับปรุงได้ในโรงงานโลหะวิทยา</font>"
+		"DOTA_Tooltip_ability_item_gu_magic_staff_3_Description"							"<h1>ใช้งานอยู่: Zafkiel</h1>เมื่อเปิดใช้งาน จะชาร์จความสามารถทั้งหมดใหม่ ยกเว้นอัลติเมท และยังล้างเอฟเฟกต์ด้านลบทั้งหมดให้กับเจ้าของด้วย<br><br><font color='#eb0202'>การเพิ่มระยะการโจมตีใช้ได้กับฮีโร่ประเภทการโจมตีระยะไกลเท่านั้น!!!.</font>\n<font color='#ff0000'>รายการนี้สามารถปรับปรุงได้ในโรงงานโลหะวิทยา</font>"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_range_attack_bonus"						"โบนัสระยะการโจมตี:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_caste_range_bonus"						"โบนัสระยะร่าย:"
 		"DOTA_Tooltip_ability_item_gu_magic_staff_3_cast_time"								"%Уменьшениеเวลาร่าย:"
@@ -6000,7 +5973,6 @@
 		"npc_dota_hero_storm_spirit_dificult" 		"ความยากของฮีโร่: ปกติ"
 		"npc_dota_hero_lina_dificult" 				"ความยากของฮีโร่: ปกติ"
 		"npc_dota_hero_luna_dificult" 				"ความยากของฮีโร่: ปกติ"
-		"npc_dota_hero_silencer_dificult" 			"ความยากของฮีโร่: ปกติ"
 		"npc_dota_hero_drow_ranger_dificult" 		"ความยากของฮีโร่: ง่าย"
 		"npc_dota_hero_oracle_dificult" 			"ความยากของฮีโร่: ปกติ"
 		"npc_dota_hero_furion_dificult" 			"ความยากของฮีโร่: ปกติ"
@@ -6058,6 +6030,7 @@
 		"npc_dota_hero_abyssal_underlord_dificult"	"ความยากของฮีโร่: ปกติ"
 		"npc_dota_hero_sand_king_dificult"			"ความยากของฮีโร่: ปกติ"
 		"npc_dota_hero_ember_spirit_dificult"		"ความยากของฮีโร่: ง่าย"
+		"npc_dota_hero_chen_dificult"				"ความยากของฮีโร่: ง่าย"
 
 		"role_type_1"							"บทบาท:<font color='#119e09'>“DPS หลัก”</font>"
 		"role_type_2"							"บทบาท:<font color='#a822ba'>“DPS เวทย์มนตร์”</font>"
@@ -6077,7 +6050,6 @@
 		"npc_dota_hero_disruptor_rare" 			"แบนเนอร์: «เรื่องราวของแอนโดรเมดา»"
 		"npc_dota_hero_tiny_rare" 				"แบนเนอร์: «เรื่องราวของแอนโดรเมดา»"
 		"npc_dota_hero_luna_rare" 				"แบนเนอร์: «เรื่องราวของแอนโดรเมดา»"
-		"npc_dota_hero_silencer_rare" 			"แบนเนอร์: «เรื่องราวของแอนโดรเมดา»"
 		"npc_dota_hero_drow_ranger_rare" 		"ตัวละครผู้เล่น: เจคอบ"
 		"npc_dota_hero_oracle_rare" 			"แบนเนอร์: «เรื่องราวของแอนโดรเมดา»"
 		"npc_dota_hero_furion_rare" 			"แบนเนอร์: «เรื่องราวของแอนโดรเมดา»"
@@ -6135,6 +6107,7 @@
 		"npc_dota_hero_abyssal_underlord_rare"	"ตัวละครผู้เล่น: เอมิยะ"
 		"npc_dota_hero_sand_king_rare"			"ใบเสร็จรับเงิน: «จำแนก»"
 		"npc_dota_hero_ember_spirit_rare"		"ตัวละครผู้เล่นคุรุมิ"
+		"npc_dota_hero_chen_rare"				"ใบเสร็จรับเงิน: «จำแนก»"
 
 		"npc_dota_hero_queenofpain_damage" 			"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_warlock_damage" 				"ที่มา: ผู้พิทักษ์จักรวาล"
@@ -6149,7 +6122,6 @@
 		"npc_dota_hero_lina_damage" 				"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_tiny_damage" 				"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_luna_damage" 				"ที่มา: ผู้พิทักษ์จักรวาล"
-		"npc_dota_hero_silencer_damage" 			"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_drow_ranger_damage" 			"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_oracle_damage" 				"ที่มา: ผู้พิทักษ์เอเธน่า"
 		"npc_dota_hero_furion_damage" 				"ที่มา: «อะนิเมะ»"
@@ -6205,10 +6177,12 @@
 		"npc_dota_hero_zuus_damage"					"ที่มา: ผู้พิทักษ์จักรวาล"
 		"npc_dota_hero_abyssal_underlord_damage"	"ที่มา: Touhou"
 		"npc_dota_hero_sand_king_damage"			"ที่มา: ผู้พิทักษ์จักรวาล"
+		"npc_dota_hero_chen_damage"			"ที่มา: ผู้พิทักษ์จักรวาล"
 
 		"npc_dota_hero_ember_spirit_weapon" 		"อาวุธ:<font color='#ffb056'>“ดาบมือเดียว”</font>"
 		"npc_dota_hero_warlock_weapon" 				"อาวุธ:<font color='#ff38f0'>“ตัวเร่งปฏิกิริยา”</font>"
 		"npc_dota_hero_ancient_apparition_weapon" 	"อาวุธ:<font color='#ff565d'>“ปืน”</font>"
+		"npc_dota_hero_chen_weapon" 				"อาวุธยุทโธปกรณ์:<font color='#ff565d'>«GAU-8, AGM-65, GBU-12»</font>"
 		"npc_dota_hero_bristleback_weapon" 			"อาวุธ:<font color='#ff565d'>“ปืน”</font>"  
 		"npc_dota_hero_lycan_weapon" 				"อาวุธ:<font color='#ffb056'>“ดาบมือเดียว”</font>"
 		"npc_dota_hero_abaddon_weapon" 				"อาวุธ:<font color='#ffb056'>“ดาบมือเดียว”</font>"
@@ -6219,7 +6193,6 @@
 		"npc_dota_hero_lina_weapon" 				"อาวุธ:<font color='#ff38f0'>“ตัวเร่งปฏิกิริยา”</font>"
 		"npc_dota_hero_tiny_weapon" 				"อาวุธ:<font color='#ff38f0'>“ตัวเร่งปฏิกิริยา”</font>"
 		"npc_dota_hero_luna_weapon" 				"อาวุธ:<font color='#ff565d'>“ปืน”</font>"
-		"npc_dota_hero_silencer_weapon" 			"อาวุธ:<font color='#ff565d'>“ปืน”</font>"
 		"npc_dota_hero_drow_ranger_weapon" 			"อาวุธ:<font color='#ff38f0'>“ตัวเร่งปฏิกิริยา”</font>"
 		"npc_dota_hero_oracle_weapon" 				"อาวุธ:<font color='#ff38f0'>“ตัวเร่งปฏิกิริยา”</font>"
 		"npc_dota_hero_furion_weapon" 				"อาวุธ:<font color='#fcff56'>“ดาบใหญ่”</font>"
@@ -6390,7 +6363,7 @@
 		"DOTA_Tooltip_modifier_magires_race_ori" 							"“โอริ”" 
 		"DOTA_Tooltip_modifier_magires_race_ori_Description" 				"เพิ่มความต้านทานต่อคาถา +%dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%%และยังเพิ่มความต้านทานต่อเอฟเฟกต์อีก%dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%"
 
-		"DOTA_Tooltip_modifier_race_touhou" 								"«โตะอุอุ»" 
+		"DOTA_Tooltip_modifier_race_touhou" 								"«とほう»" 
 		"DOTA_Tooltip_modifier_race_touhou_Description" 					"มีโอกาสที่จะฟื้นฟูสุขภาพของคุณโดยขึ้นอยู่กับความเสียหายที่กระทำต่อเป้าหมาย (จากความสามารถเท่านั้น) และยังมีโอกาสที่จะสร้างความเสียหายทางเวทย์มนตร์คริติคอลอีกด้วย"
 
 		"DOTA_Tooltip_modifier_race_asgard" 								"«แอสการ์ด»" 
@@ -6522,7 +6495,6 @@
 -Izayoi Sakuya<br>
 -Kizaru<br>
 -Cirno<br>
--9K31 «Strela-1»<br>
 -Eternity<br>
 -Emilia<br>
 -Ran Yakumo<br>
@@ -6712,7 +6684,7 @@
 		"DOTA_Tooltip_bvo_orihime_skill_2_modifier" 						"<font color='#E5C91D'>「รูปแบบการป้องกันที่ไม่ระบุชื่อ」</font>"
 		
 		"DOTA_Tooltip_ability_origami_ylti" 								"<font color='#E5C91D'>「อาร์เทลิฟ: ปืนใหญ่มงกุฎ」</font>"
-		"DOTA_Tooltip_ability_origami_ylti_Description" 						"สร้างขอบเขตของการบิดเบือนเวลาที่รอยแยกเกิดขึ้นจากความสามารถ<font color='#E5C91D'>「Zetsumetsu Tenshi」</font>โดยรอยแยกแต่ละวินาทีจะปรากฏขึ้นบ่อยขึ้นเรื่อยๆ ความเสียหายจะคำนวณโดยสูตร -%damage%+ 20% ของสติปัญญาของ Origami<br><br><font color='#E51D1D'>คุณไม่สามารถเพิ่มความเสียหายของความสามารถนี้ได้โดยใช้ไอเทมเสริมพลังความเสียหายจากคาถา!</font>"
+		"DOTA_Tooltip_ability_origami_ylti_Description" 						"สร้างขอบเขตของการบิดเบือนเวลาที่รอยแยกเกิดขึ้นจากความสามารถ<font color='#E5C91D'>「Zetsumetsu Tenshi」</font>โดยรอยแยกแต่ละวินาทีจะปรากฏขึ้นบ่อยขึ้นเรื่อยๆ ความเสียหายจะคำนวณโดยสูตร -%damage%+ 20% ของสติปัญญาของ Origami<br><br><font color='#E51D1D'>คุณไม่สามารถเพิ่มความเสียหายของความสามารถนี้ได้โดยใช้ไอเท็มเสริมพลังความเสียหายจากคาถา!</font>"
 
 		"DOTA_Tooltip_ability_origami_inverse" 								"<font color='#9629F7'>「ราชาปีศาจ: ซาตาน」</font>"
 		"DOTA_Tooltip_ability_origami_inverse_Description" 					"โอริกามิได้รับซาตาน ซึ่งเป็นเวอร์ชันที่มืดมนและน่ากลัวกว่าของเมตาตรอน เข้าสู่รูปแบบผกผัน ได้รับสติปัญญาเพิ่มเติมจำนวน%int%และยังเพิ่มความเสียหายทางเวทย์มนตร์ทั้งหมดอีก%spell_amp%%%<br><font color='#E5C91D'>มีให้ที่ระดับ 10</font>"
@@ -6784,7 +6756,7 @@
         "DOTA_Tooltip_ability_item_gu_energy_dagon2_description"            "<h1>ใช้งานอยู่: อาวุธบีม</h1>ยิงสายฟ้าพลังงานไปที่ศัตรูภายในรัศมี 300 ทำให้เกิดความเสียหายตามสูตร - กระแส (ปริมาณพลังงาน * การฟื้นฟู) *%damage_mult%หลังจากใช้งาน พลังงานทั้งหมดของคุณจะถูกใช้ไป<br><br><font color='#F92B2B'>ข้อควรสนใจ: สามารถใช้กับพันธมิตรได้!</font>"
 
         "DOTA_Tooltip_ability_item_gu_energy_dagon3"                        "Asgard Beam Weapons 2.1 รอบชิงชนะเลิศ"
-        "DOTA_Tooltip_ability_item_gu_energy_dagon3_description"            "<h1>ใช้งานอยู่: อาวุธบีม</h1>ยิงสายฟ้าพลังงานไปที่ศัตรูภายในรัศมี 300 ทำให้เกิดความเสียหายตามสูตร - กระแส (ปริมาณพลังงาน * การฟื้นฟู) *%damage_mult%หลังจากใช้งาน พลังงานทั้งหมดของคุณจะถูกใช้ไป<br><br><font color='#F92B2B'>ข้อควรทราบ: สามารถใช้กับพันธมิตรได้!</font>"
+        "DOTA_Tooltip_ability_item_gu_energy_dagon3_description"            "<h1>ใช้งานอยู่: อาวุธบีม</h1>ยิงสายฟ้าพลังงานไปที่ศัตรูภายในรัศมี 300 ทำให้เกิดความเสียหายตามสูตร - กระแส (ปริมาณพลังงาน * การฟื้นฟู) *%damage_mult%หลังจากใช้งาน พลังงานทั้งหมดของคุณจะถูกใช้ไป<br><br><font color='#F92B2B'>ข้อควรสนใจ: สามารถใช้กับพันธมิตรได้!</font>"
 		
         "DOTA_Tooltip_ability_item_gu_mystic_crystal"                        "เคออสคริสตัล"
         "DOTA_Tooltip_ability_item_gu_mystic_crystal_description"            "ไม่มีใครรู้ว่าคริสตัลเหล่านี้มาจากไหน แต่พลังของพวกมันนั้นช่างเหลือเชื่อ ไม่มีใครรู้ว่าจะเกิดอะไรขึ้นเมื่อใช้สิ่งประดิษฐ์นี้ แต่มีข้อมูลว่ามันสามารถทำลายโลกได้"
@@ -6842,7 +6814,7 @@
 		"task_item_timer_not"	"<font color='#F92B2B'>ระบบตรวจไม่พบตัวสร้าง!</font>"
 		"crystall_qvest_start" 	"ได้รับงานใหม่: ค้นหาเครื่องกำเนิด!" 
 		"DOTA_Tooltip_modifier_gu_crystall_qvest"	"ค้นหาเครื่องกำเนิดไฟฟ้า"
-		"DOTA_Tooltip_modifier_gu_crystall_qvest_Description"	"เพื่อให้ได้ทรัพยากร ฆ่าทหารรักษาการณ์ทั้งหมด!"
+		"DOTA_Tooltip_modifier_gu_crystall_qvest_Description"	"เพื่อให้ได้ทรัพยากร ฆ่าทหารองครักษ์ทั้งหมด!"
 		"gu_qvest_crystall"		"{player_name}งานที่เสร็จสมบูรณ์ -{qvest}"
 		"gu_qvest_crystall_end_str"	"{player_name}ส่งมอบชิ้นส่วนที่ไม่รู้จักให้กับแอนโดรเมดา และได้รับพลัง{str}!"
 		"gu_qvest_crystall_end_int"	"{player_name}ส่งมอบชิ้นส่วนที่ไม่รู้จักให้กับแอนโดรเมดา และได้รับข่าวกรอง{int}!"
@@ -7022,7 +6994,7 @@
 		
 		"chill_tiara"						"ชาแมนน้ำแข็ง"
 		"chill_tiara_5"						"มงกุฏแห่งความหนาวเย็น"
-		"chill_tiara_effect_des" 			"สามารถรับได้จากการฆ่า Guardian - Sangonomy<br>เท่านั้น"
+		"chill_tiara_effect_des" 			"สามารถรับได้โดยการฆ่า Guardian - Sangonomy<br>เท่านั้น"
 		
 
 		"lucky"								"โชคดี"
@@ -7071,7 +7043,7 @@
 
 		"gun_type_6"						"M197 (20มม.)"
 		"gun_type_6_text"					"ช่วยให้คุณเพิกเฉยเกราะของศัตรูเมื่อโดนโจมตีด้วยโอกาส 80%"
-		"gun_type_6_lore"					"M197 เป็นปืน Gatling แบบสามลำกล้องอัตโนมัติไฟฟ้าขนาด 20 มม. ซึ่งติดตั้งบนเฮลิคอปเตอร์ซีรีส์ AH-1 เป็นหลัก M197 เป็นรุ่นที่เบากว่าปืน General Electric M61 «Vulcan» โดยมี 3 ลำกล้องแทนที่จะเป็น 6 ลำกล้อง อัตราการยิงสูงสุดของปืนคือครึ่งหนึ่งของอัตราการยิงของวัลแคน - 1,500 รอบต่อนาที โดยหลักแล้วจะทำเพื่อจำกัดผลกระทบต่อเครื่องบินเบาและเฮลิคอปเตอร์<br>"
+		"gun_type_6_lore"					"M197 เป็นปืน Gatling แบบสามลำกล้องอัตโนมัติไฟฟ้าขนาด 20 มม. ซึ่งติดตั้งบนเฮลิคอปเตอร์ซีรีส์ AH-1 เป็นหลัก M197 นั้นเป็นรุ่นที่เบากว่าปืน General Electric M61 «Vulcan» โดยมี 3 ลำกล้องแทนที่จะเป็น 6 ลำกล้อง อัตราการยิงสูงสุดของปืนคือครึ่งหนึ่งของอัตราการยิงของวัลแคน - 1,500 รอบต่อนาที โดยหลักแล้วจะทำเพื่อจำกัดผลกระทบต่อเครื่องบินเบาและเฮลิคอปเตอร์<br>"
 
 		"two_handed_sword"					"ดาบสองมือของฮีโร่"
 		"two_handed_sword_lore"				"ผู้ที่มีจิตตานุภาพเพียงพอจะสามารถแยกภูเขาออกด้วยชิ้นส่วนโลหะนี้ ซึ่งชวนให้นึกถึงดาบอย่างคลุมเครือ"
@@ -7281,7 +7253,7 @@
 
 
 		"DOTA_Tooltip_Ability_item_psychic_headband2"						"หมวกกันน็อคอินฟินิตี้"
-		"DOTA_Tooltip_ability_item_psychic_headband_Description"				"<h1>ใช้งานอยู่: การผลักพลังจิต</h1>ผลักศัตรูที่เลือกออกไปจากเจ้าของในระยะห่าง%push_length%\n<h1>อัปเกรดได้</h1><font color='#F9E62B'>ไอเท็มนี้สามารถอัปเกรดเป็น => Infinity Helmet ได้ ราคา 750 ชิ้นส่วน Epic Mysterious Crystal</font>"
+		"DOTA_Tooltip_ability_item_psychic_headband_Description"				"<h1>ใช้งาน: การผลักพลังจิต</h1>ผลักศัตรูที่เลือกออกจากเจ้าของในระยะห่าง%push_length%\n<h1>อัปเกรดได้</h1><font color='#F9E62B'>ไอเท็มนี้สามารถอัปเกรดเป็น => หมวกอินฟินิตี้ได้ ราคา 750 ชิ้นส่วน Epic Mysterious Crystal</font>"
 		"DOTA_Tooltip_ability_item_psychic_headband2_Description"				"<h1>ใช้งานอยู่: การผลักพลังจิต</h1>ผลักศัตรูที่เลือกออกไปจากเจ้าของในระยะห่าง%push_length%" 
 		"DOTA_Tooltip_ability_item_psychic_headband2_Lore"						"Helm of Infinite Wisdom เจ้าของสิ่งประดิษฐ์ลึกลับนี้จะอยู่ห่างจากอันตรายเสมอเพราะเขามองเห็นทุกสิ่ง"
 		"DOTA_Tooltip_ability_item_psychic_headband2_intelligence_pct"			"%+สู่ความฉลาด"
@@ -7346,7 +7318,7 @@
 
 		"DOTA_Tooltip_Ability_moai_1"							"<font color='#3fff05'>「โมอาย」</font>"
 		"DOTA_Tooltip_Ability_moai_1_Description"					"ตำนานของเกาะพูดถึงหัวหน้าเผ่า Hotu Matu'a ซึ่งออกจากบ้านเพื่อค้นหาเกาะใหม่และค้นพบเกาะอีสเตอร์ เมื่อเขาเสียชีวิต เกาะนี้ถูกแบ่งระหว่างลูกชายทั้งหกของเขา และระหว่างหลานกับเหลน ชาวเกาะเชื่อว่ารูปปั้นเหล่านี้มีพลังเหนือธรรมชาติของบรรพบุรุษของกลุ่มนี้ (มานา) ความเข้มข้นของมานาจะนำไปสู่การเก็บเกี่ยวที่ดีฝนและความเจริญรุ่งเรือง ตำนานเหล่านี้เปลี่ยนแปลงอยู่ตลอดเวลาและสืบทอดกันเป็นชิ้นเล็กชิ้นน้อย ทำให้เป็นการยากที่จะสร้างประวัติศาสตร์ที่แน่นอนขึ้นใหม่ ทฤษฎีที่ได้รับการยอมรับอย่างกว้างขวางที่สุดในหมู่นักวิจัยก็คือ โมอายถูกสร้างขึ้นโดยผู้ตั้งถิ่นฐานจากหมู่เกาะโพลีนีเซียนในศตวรรษที่ 11 โมอายอาจเป็นตัวแทนของบรรพบุรุษที่เสียชีวิตหรือให้ความแข็งแกร่งแก่หัวหน้าที่ยังมีชีวิตอยู่ รวมถึงเป็นสัญลักษณ์ของกลุ่มต่างๆ เป็นออร่าระดับโลก!"
-		"DOTA_Tooltip_Ability_moai_1_Note0"							"หินนั้นยืนอยู่ แต่คุณไม่มีมัน"
+		"DOTA_Tooltip_Ability_moai_1_Note0"							"หินยืนอยู่ แต่คุณไม่มีมัน"
 		"DOTA_Tooltip_Ability_moai_1_hp"							"สุขภาพเสริม: "
 		"DOTA_Tooltip_Ability_moai_1_bonus_armor"					"เกราะเพิ่มเติม: "
 		"DOTA_Tooltip_Ability_moai_1_hp_regen"						"%Регенерацияสุขภาพ: "
@@ -7445,7 +7417,7 @@
 		"DOTA_Tooltip_ability_archer_kab_Description"											"Archer ขว้างอาวุธที่เป็นเอกลักษณ์ของเขาด้วยความแม่นยำถึงตาย สร้างความเสียหายให้กับศัตรูแต่ละยูนิตที่มันโจมตี<br><br>Kanshou<font color='#FF0000'>สีแดง</font>สร้างความเสียหายโดยตรง<br>บาคุยะ<font color='#0033FF'>สีฟ้า</font>สร้างความเสียหายเวทย์มนตร์"
 		"DOTA_Tooltip_ability_archer_kab_scepter_description"									"ให้%scepter_charges%ชาร์จแก่ Kanshou และ Bakuya"
 		"DOTA_Tooltip_ability_archer_kab_Note0"													"ดาบแต่ละเล่มสามารถโจมตีศัตรูคนเดียวกันได้หนึ่งครั้ง"
-		"DOTA_Tooltip_ability_archer_kab_Lore"													"ดาบคู่หยินหยางที่อาร์เชอร์ชื่นชอบ"
+		"DOTA_Tooltip_ability_archer_kab_Lore"													"ดาบคู่หยิน-หยางที่อาร์เชอร์ชื่นชอบ"
 		//"DOTA_Tooltip_ability_archer_kab_hit_radius"											"HIT RADIUS:" //removed
 		//"DOTA_Tooltip_ability_archer_kab_spread"												"SPREAD:" //removed
 		"DOTA_Tooltip_ability_archer_kab_castrange"												"ช่วงนักแสดง:"
@@ -7649,7 +7621,7 @@
 		"DOTA_Tooltip_modifier_gu_t72_ammo_bb_Description" 				"กระสุนปืนมาตรฐานไม่มีเอฟเฟกต์พิเศษ"
 
 		"DOTA_Tooltip_ability_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「3ВБК7」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_kym_Description" 				"กระสุนปืนสะสม<font color='#f9fd27'>「3ВБК7」</font>ได้รับการออกแบบมาเพื่อเจาะเกราะหนา การเจาะของกระสุนปืนนี้คือ%penetration%มม. (ลดเกราะของศัตรูด้วยค่านี้) สร้างความเสียหายโดยตรงเพิ่มเติมในจำนวน 2% ของพลังชีวิตสูงสุดของเป้าหมาย กระสุนปืนนี้มีโอกาส%chance_force_kill%%%ที่จะทำให้เป้าหมายไม่สามารถเคลื่อนที่ได้เป็นเวลา 5 วินาที การทำให้มึนงงนี้ไม่สนใจความต้านทานต่อเอฟเฟกต์ ค่าใช้จ่ายในการยิงคือ 5% ของพลังงานของคุณ<br><br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอสำหรับการยิง คุณจะสลับไปใช้กระสุน 「3VBM3 」</font>โดยอัตโนมัติ"
+		"DOTA_Tooltip_ability_gu_t72_ammo_kym_Description" 				"กระสุนปืนสะสม<font color='#f9fd27'>「3ВБК7」</font>ได้รับการออกแบบมาเพื่อเจาะเกราะหนา การเจาะของกระสุนปืนนี้คือ%penetration%มม. (ลดเกราะของศัตรูด้วยค่านี้) สร้างความเสียหายโดยตรงเพิ่มเติมในจำนวน 2% ของพลังชีวิตสูงสุดของเป้าหมาย กระสุนปืนนี้มีโอกาส%chance_force_kill%%%ที่จะทำให้เป้าหมายไม่สามารถเคลื่อนที่ได้เป็นเวลา 5 วินาที การทำให้มึนงงนี้ไม่สนใจความต้านทานต่อเอฟเฟกต์ ค่าใช้จ่ายในการยิงคือ 5% ของพลังงานของคุณ<br><br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอสำหรับการยิง คุณจะสลับไปที่กระสุนปืน 「3VBM3 」</font>โดยอัตโนมัติ"
 		"DOTA_Tooltip_modifier_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「3ВБК7」</font>"
 		"DOTA_Tooltip_modifier_gu_t72_ammo_kym_Description" 				"มีโอกาสที่จะทำให้ศัตรูมึนงง ลดเกราะของศัตรูลงอย่างมาก ค่าใช้จ่ายในการยิงคือ 5% ของพลังงานของคุณ<br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอที่จะยิง คุณจะสลับไปที่กระสุนปืน 「3VBM3」</font>โดยอัตโนมัติ"
 		
@@ -7691,7 +7663,7 @@
 		"DOTA_Tooltip_ability_gu_t90_ammo_heat_Description" 				"กระสุนกระจายแรงระเบิดสูง<font color='#fd7427'>「3ОФ26」</font>ไม่เจาะเกราะ แต่สร้างความเสียหาย%damage%%%สร้างความเสียหายต่อพื้นที่ภายในรัศมี%heat_dmg_radius%ของเป้าหมายหลัก ค่าใช้จ่ายในการยิงกระสุนปืนนี้คือ 2% ของพลังงานของคุณ<br><br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอในการยิง คุณจะสลับไปใช้กระสุน 「3BM46/3BM48 」</font>โดยอัตโนมัติ"
 		"DOTA_Tooltip_ability_gu_t90_ammo_heat_penetration" 				"ความก้าวหน้า: "
 		"DOTA_Tooltip_modifier_gu_t90_ammo_heat" 							"<font color='#fd7427'>「3ОФ26」</font>"
-		"DOTA_Tooltip_modifier_gu_t90_ammo_heat_Description" 				"สร้างความเสียหายมหาศาลให้กับพื้นที่ภายในรัศมี 700 ค่าใช้จ่ายในการยิงคือพลังงาน 2%<br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอในการยิง คุณจะสลับไปที่กระสุนปืน 「3BM46/3BM48」</font>โดยอัตโนมัติ"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_heat_Description" 				"สร้างความเสียหายมหาศาลให้กับพื้นที่ภายในรัศมี 700 ค่าใช้จ่ายในการยิงคือพลังงาน 2%<br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอที่จะยิง คุณจะสลับไปที่กระสุนปืน 「3BM46/3BM48」</font>โดยอัตโนมัติ"
 
 		"DOTA_Tooltip_modifier_gu_t90_ammo_armor_reduction"					"ความก้าวหน้า"
 		"DOTA_Tooltip_modifier_gu_t90_ammo_armor_reduction_Description"			"เกราะลดลง%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
@@ -7721,7 +7693,7 @@
 		"DOTA_Tooltip_ability_gu_btr82a_ammo_heat_Description" 						"กระสุนกระจายแรงระเบิดสูง<font color='#fd7427'>「3УОФ8」</font>ไม่เจาะเกราะ แต่สร้างความเสียหาย%damage%%%ความเสียหายต่อพื้นที่ภายในรัศมี%heat_dmg_radius%ของเป้าหมายหลัก ค่าใช้จ่ายในการยิงกระสุนปืนนี้คือ 2% ของพลังงานของคุณ<br><br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอสำหรับการยิง คุณจะสลับไปใช้กระสุน 「3UBR8」</font>โดยอัตโนมัติ"
 		"DOTA_Tooltip_ability_gu_btr82a_ammo_heat_penetration" 						"ความก้าวหน้า: "
 		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat" 							"<font color='#fd7427'>「3УОФ8」</font>"
-		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat_Description" 					"สร้างความเสียหายอย่างใหญ่หลวงต่อพื้นที่ภายในรัศมี 800 ค่าใช้จ่ายในการยิงคือพลังงาน 2%<br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอสำหรับการยิง คุณจะสลับไปใช้กระสุน 「3UBR8 」</font>โดยอัตโนมัติ"
+		"DOTA_Tooltip_modifier_gu_btr82a_ammo_heat_Description" 					"สร้างความเสียหายอย่างใหญ่หลวงต่อพื้นที่ภายในรัศมี 800 ค่าใช้จ่ายในการยิงคือพลังงาน 2%<br><font color='#fd2727'>หากมีพลังงานไม่เพียงพอสำหรับการยิง คุณจะสลับไปใช้กระสุน 「3UBR8」</font>โดยอัตโนมัติ"
 
 		"DOTA_Tooltip_ability_gu_btr82a_smoke" 									"<font color='#fd2727'>「ระบบ 902 “คลาวด์”</font>"
 		"DOTA_Tooltip_ability_gu_btr82a_smoke_Description" 							"System 902 «Cloud» เป็นระบบรวมศูนย์ของโซเวียตสำหรับการยิงระเบิดควันขนาด 81 มม. จากยานเกราะ สร้างม่านควันในพื้นที่ที่เลือก ยูนิตศัตรูทั้งหมดที่ตกอยู่ในพื้นที่เอฟเฟกต์จะพลาดทุกคนโดยมีโอกาส%miss_chance%%%"
@@ -7784,7 +7756,7 @@
 		"bracers_1_lore"					"ถุงมือวาลคิรีมาตรฐาน ช่วยลดส่วนของนิ้วและข้อมือ แม้แต่นักรบที่ไม่มีประสบการณ์การต่อสู้ระยะประชิดก็สามารถใช้อาวุธเหล่านี้ได้อย่างง่ายดาย"
 
 		"bracers_2"						"CAS-II นามิโกะ"
-		"bracers_2_lore"					"นักรบแห่งไซบีเรียไม่ใช่คนขี้เมาที่ถือดาบและหอก พวกมันอันตรายถึงชีวิตแม้ว่าจะไม่มีอาวุธก็ตาม "
+		"bracers_2_lore"					"Воины Сибири не пьяницы, вооруженные клинками и копьями. Они смертельны, даже если не вооружены. "
 
 		"bracers_3"						"CAS-X เซนต์ส"
 		"bracers_3_lore"					"ถุงมือคู่นี้เคยเป็นคู่ของ CAS-II นามิโกะ ที่พบในนักรบที่เสียชีวิต Schixal จึงให้ชื่อใหม่ว่า X ซึ่งไม่ใช่เลขโรมัน 10 แต่หมายถึง «ไม่ทราบ» Shiksal ยังค้นพบเทคโนโลยีของสำนักออกแบบ Mikoyan ในอาวุธเหล่านี้ด้วย "
@@ -7798,7 +7770,7 @@
 
 
 		"pistol_1"						"โปรโต พิสทอลส์"
-		"pistol_1_lore"						"อาวุธซีรีส์ USP เป็นข้อมูลอ้างอิง"
+		"pistol_1_lore"						"Оружие серии USP в качестве эталона."
 
 		"pistol_2"						"อินทรีทะเลทราย"
 		"pistol_2_lore"						"ผู้ผลิต IMI ปืนพกเหล่านี้มีสามคาลิเปอร์: .357 Magnum, .44 Magnum และ 50 ME การออกแบบแบบโมดูลาร์ของกระบอกปืน สลักเกลียว และแม็กกาซีนช่วยให้สามารถแปลงสภาพได้อย่างรวดเร็วในภาคสนาม"
@@ -7829,7 +7801,7 @@
 
 		"cross_5"						"ความรอดของซากุระ"
 		"cross_5_text"						"สำหรับแต่ละคาถาที่ใช้ จะสร้างความเสียหายทางเวทมนตร์ 20% ของมานาปัจจุบันรอบๆ ตัวละครในรัศมี 650 หน่วย ความเสียหายนี้ไม่สามารถเพิ่มได้โดยการเพิ่มความเสียหายของเวทย์"
-		"cross_5_lore"						"ภายใต้ฝนดอกซากุระ เธอได้ปฏิญาณและปฏิบัติตามความรอดของเธอ ขณะที่กลีบดอกซากุระเต้น วิญญาณที่ได้รับการช่วยเหลือก็ปลุกพลังที่อยู่ภายในอาวุธให้ตื่นขึ้น "
+		"cross_5_lore"						"Под дождем сакуры она дала зарок и исполнила спасение. Когда лепестки сакуры танцевали, спасенная душа пробудила силу, заключенную в этом оружии. "
 
 
 		"npc_dota_hero_zuus"											"AC-130U สเป็คเตอร์「★★★★★★」"
@@ -7870,7 +7842,7 @@
 		"kurumigu_stash_text3"									"บอส"
 
 		"zpm_icon_main"											"เอ็มเอ็นที"
-		"zpm_icon_text"											"แหล่งพลังงานหลักที่จำเป็นสำหรับกลไกเกมมากมาย เช่น สตาร์เกต<br>การพิมพ์ที่อยู่เพกาซัสจะสิ้นเปลือง - 0.05% ของพลังงานสูงสุด<br>การเรียกเลขหมายที่อยู่จักรวาลสิ้นเปลือง - 0.2% ของพลังงานสูงสุด<br>คุณสามารถเติมพลังงาน MNT ได้ด้วยการทำปฏิกิริยาในเครื่องปฏิกรณ์นิวเคลียร์"
+		"zpm_icon_text"											"แหล่งพลังงานหลักที่จำเป็นสำหรับกลไกเกมมากมาย เช่น สตาร์เกต<br>Набор адреса Пегаса потребляет - 0.05% Максимальной Энергии.<br>Набор адреса Вселенной потребляет - 0.2% Максимальной Энергии.<br>คุณสามารถเติมพลังงาน MNT ได้ด้วยการทำปฏิกิริยาในเครื่องปฏิกรณ์นิวเคลียร์"
 		"zpm_icon_help"											"อุปกรณ์นี้เป็นแหล่งพลังงานที่สร้างขึ้นโดยคนโบราณ หลักการทำงานของ MNT คือการแกว่งแบบจุดศูนย์ ซึ่งช่วยให้ MNT «ดูด» พลังงานจากพื้นที่ย่อย-เวลาที่สร้างขึ้นเทียม ที่จริงแล้ว MNT นั้นเป็นจักรวาลขนาดจิ๋ว"
 
 		"error_zpm_pegasus"										"ข้อผิดพลาดคริสตัลควบคุมสตาร์เกท - พลังงานไม่เพียงพอ"
@@ -7910,7 +7882,7 @@
 	
 		"reputation_help_main"														"ระบบชื่อเสียง"
 		"reputation_help_text"														"ทัศนคติของ Andromeda ที่มีต่อคุณส่งผลโดยตรงต่อการเล่นเกมของคุณ หลังจากที่คุณมาถึงดาวเคราะห์ “P3X-234” คุณได้พบกับแอนโดรเมดาซึ่งเป็นผู้บัญชาการในโลกของเธอ เนื่องจากเธอไม่เคยเกี่ยวข้องกับคุณมาก่อน เธอจึงไม่สามารถไว้วางใจคุณได้อย่างสมบูรณ์ ดังนั้นทัศนคติของเธอที่มีต่อคุณจึงเป็นกลาง เพื่อเพิ่มความมั่นใจในตัวคุณ คุณต้องทำงานให้สำเร็จ ฆ่าผู้พิทักษ์ และเอาชนะคลื่นผู้รุกรานได้สำเร็จ"
-		"reputation_help_help"														"ในการจบเกม คุณจะต้องมีทัศนคติเชิงบวก 95% ของ Andromeda และค้นหา MNT ตามจำนวนที่กำหนด ระวังเพราะถ้าคุณทำลายความสัมพันธ์ การฟื้นฟูความสัมพันธ์นั้นไม่ใช่เรื่องง่าย และผลที่ตามมาก็ไม่สามารถคาดเดาได้!<br><br>ตารางชื่อเสียง:<br>0% คุณไม่สามารถอัปเกรด Andromeda ได้<br>-20% คุณจะไม่มีอากาศดีอีกต่อไป<br>-40% Andromeda จะไม่ใช้ความสามารถที่ใช้งานอีกต่อไป<br>-60% การสนับสนุนทางอากาศทุกประเภทมีคูลดาวน์เพิ่มขึ้น 50%<br>-80% คุณไม่สามารถใช้แคชทั่วไปได้อีกต่อไป และ MNT ของคุณจะหมด 0.25% ทุก ๆ วินาที<br>-100% คุณแพ้" 
+		"reputation_help_help"														"ในการจบเกม คุณจะต้องมีทัศนคติเชิงบวก 95% ของ Andromeda และค้นหา MNT ตามจำนวนที่กำหนด ระวังเพราะถ้าคุณทำลายความสัมพันธ์ การฟื้นฟูความสัมพันธ์นั้นไม่ใช่เรื่องง่าย และผลที่ตามมาก็ไม่สามารถคาดเดาได้!<br><br>ตารางชื่อเสียง:<br>0% คุณไม่สามารถอัปเกรด Andromeda ได้<br>-20% คุณจะไม่มีอากาศดีอีกต่อไป<br>-40% Andromeda จะไม่ใช้ความสามารถที่ใช้งานอีกต่อไป<br>-60% การสนับสนุนทางอากาศทุกประเภทมีคูลดาวน์เพิ่มขึ้น 50%<br>-80% คุณไม่สามารถใช้แคชทั่วไปได้อีกต่อไป และ MNT ของคุณจะหมด 0.25% ทุกๆ วินาที<br>-100% คุณแพ้" 
 
 		"reputation_text_1"															"<font color='#FF0000'>น่าขยะแขยง</font>"
 		"reputation_text_2"															"<font color='#FF8C00'>แย่</font>"
@@ -7963,7 +7935,7 @@
 		"DOTA_Tooltip_ability_gu_Resuscitation" 							"<font color='#fd7427'>「การช่วยชีวิต」</font>"
 		"DOTA_Tooltip_ability_gu_Resuscitation_Description" 				"หากพันธมิตรคนใดตายภายในรัศมี 2000 จากพาหะ เขาจะเกิดใหม่ในสถานที่เดิมทันทีและจะกลายเป็นอมตะต่อเวทมนตร์เป็นเวลา 3 วินาที ให้พันธมิตรทั้งหมดภายในรัศมี 2000%heal%%%ฟื้นฟูสุขภาพ"
 		"DOTA_Tooltip_modifier_gu_Resuscitation_team" 						"<font color='#fd7427'>「การช่วยชีวิต」</font>"
-		"DOTA_Tooltip_modifier_gu_Resuscitation_team_Description" 			"สิ่งมีชีวิตนี้จะเกิดใหม่ทันที"
+		"DOTA_Tooltip_modifier_gu_Resuscitation_team_Description" 			"Данное существо моментально возродится."
 
 		"DOTA_Tooltip_ability_gu_combined_armor" 							"<font color='#fd7427'>「ชุดเกราะรวม」</font>"
 		"DOTA_Tooltip_ability_gu_combined_armor_Description" 				"ลดความเสียหายที่ได้รับทั้งหมด 77% และในระหว่างการโจมตีจะสร้างความเสียหายบริสุทธิ์เพิ่มเติม%dmg_pure%%%ให้กับเป้าหมาย"
@@ -7982,7 +7954,7 @@
 		"DOTA_Tooltip_modifier_item_force_shield_technology_water_Description"			"ให้คุณหายใจใต้น้ำได้ จำเป็นต้องฆ่าสิ่งมีชีวิตบนดาวเคราะห์ P3X-367"
 
 		"memories"								"ความทรงจำแห่งป่าลึก"
-		"memories_1"							"เขาวงกตพเนจร"
+		"memories_1"							"เขาวงกตผู้พเนจร"
 		"memories_2"							"ปราชญ์แห่งเถาวัลย์"
 		"memories_3"							"หนึ่งชั่วโมงแห่งการไตร่ตรอง"
 		"memories_4"							"ตะเกียงแห่งความสูญเสีย"
@@ -8076,7 +8048,7 @@
 
 
 		"DOTA_Tooltip_ability_item_give_max"					"เจ้าแมวแม็กซ์เวลล์"
-		"DOTA_Tooltip_ability_item_give_max_Description"		"วิน เทิร์น อัพ !!!!!!11"
+		"DOTA_Tooltip_ability_item_give_max_Description"		"วิน เทิร์นอัพ !!!!!!11"
 
 
 		"halls_in_the_desert"											"พงศาวดารของห้องโถงในทะเลทราย"
@@ -8243,7 +8215,7 @@
 		"dota_tooltip_ability_penis6_song_heal" 								"โอกิร์กิ:"
 		
 		"dota_tooltip_ability_miku_song3" 									"ฉันสบายดี"
-		"dota_tooltip_ability_miku_song3_description" 							"ฉันสบายดี ใช่แล้ว ฉันรู้สึกโอเค ที่รัก Imma มีค่ำคืนที่ดีที่สุดในชีวิตของฉัน และไม่ว่าจะพาฉันไปที่ไหน ฉันก็ลงไปนั่งบนรถ ที่รัก คุณไม่รู้เหรอว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค เพราะฉันสบายดี ใช่ ฉันรู้สึกโอเค ที่รัก Imma มีค่ำคืนที่ดีที่สุดในชีวิตของฉัน และทุกที่ที่พาฉันไป ฉันก็ลงรถ ที่รัก คุณรู้ไหมว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค คุณไม่รู้เหรอว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค คุณรู้ไหม ฉันยอมทำทุกอย่างในคืนนี้ ฉันไม่ต้องการสิ่งที่ดีกว่านี้ในชีวิต ไม่ว่าฉันจะไปที่ไหน มันเป็นช่วงเวลาที่ดี และฉัน ไม่จำเป็นต้องนั่ง VIP กลางชั้นซึ่งเป็นที่ที่ฉันจะอยู่ ไม่ต้องมีอะไรมากมาย แต่ก็พอสำหรับฉัน เพราะฉันสบายดี ใช่แล้ว ฉันรู้สึกโอเค ที่รัก อิมา มีค่ำคืนที่ดีที่สุดในชีวิตของฉัน และไม่ว่าจะพาฉันไปที่ไหน ฉันก็ลงรถได้ ที่รัก รู้ไหมว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค ฉันสบายดี ดี ฉันสบายดี คุณไม่รู้เหรอว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค ดังนั้น ฉันก็แค่ปล่อยมันไป ปล่อยมันไป โอ้ นา นา นา ไม่ ฉันไม่สนใจอีกต่อไป ไม่สนใจอีกแล้ว โอ้ นา นา เข้ามาเลย บอกฉันสิ บอกฉันหน่อย ยกมือขึ้น นา นา คืนนี้ไม่มีที่รัก ไม่มีอะไรจะหยุดเราได้คืนนี้ เพราะฉันสบายดี ใช่ ฉันรู้สึกดี ที่รัก แม่มีค่ำคืนที่ดีที่สุดในชีวิตของฉัน และไม่ว่าจะพาฉันไปที่ไหน ฉันรู้สึกแย่ สำหรับการเดินทาง ที่รัก เธอรู้ไหมว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค"
+		"dota_tooltip_ability_miku_song3_description" 							"ฉันสบายดี ใช่แล้ว ฉันรู้สึกโอเค ที่รัก Imma มีค่ำคืนที่ดีที่สุดในชีวิตของฉัน และไม่ว่าจะพาฉันไปที่ไหน ฉันก็ลงไปนั่งบนรถ ที่รัก คุณไม่รู้เหรอว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค เพราะฉันสบายดี ใช่ ฉันรู้สึกโอเค ที่รัก Imma มีค่ำคืนที่ดีที่สุดในชีวิตของฉัน และทุกที่ที่พาฉันไป ฉันก็ลงรถ ที่รัก คุณรู้ไหมว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค คุณไม่รู้เหรอว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค คุณรู้ไหม ฉันยอมทำทุกอย่างในคืนนี้ ฉันไม่ต้องการสิ่งที่ดีกว่านี้ในชีวิต ไม่ว่าฉันจะไปที่ไหน มันเป็นช่วงเวลาที่ดี และฉัน ไม่จำเป็นต้องนั่งอยู่ใน VIP กลางชั้นนั่นคือที่ที่ฉันจะอยู่ อย่ามีอะไรมากแต่ก็เพียงพอสำหรับฉัน เพราะฉันสบายดี ใช่แล้ว ฉันรู้สึกโอเค ที่รัก อิมา มีค่ำคืนที่ดีที่สุดในชีวิตของฉัน และไม่ว่าจะพาฉันไปที่ไหน ฉันก็ลงรถ ที่รัก รู้ไหมว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค ฉันสบายดี ดี ฉันสบายดี คุณไม่รู้เหรอว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค ดังนั้น ฉันก็แค่ปล่อยมันไป ปล่อยมันไป โอ้ นา นา นา ไม่ ฉันไม่สนใจอีกต่อไป ไม่สนใจอีกแล้ว โอ้ นา นา เข้ามาเลย บอกฉันสิ บอกฉันหน่อย ยกมือขึ้น นา นา คืนนี้ไม่มีที่รัก ไม่มีอะไรจะหยุดเราได้คืนนี้ เพราะฉันสบายดี ใช่ ฉันรู้สึกดี ที่รัก แม่มีค่ำคืนที่ดีที่สุดในชีวิตของฉัน และไม่ว่าจะพาฉันไปที่ไหน ฉันรู้สึกแย่ สำหรับการเดินทาง ที่รัก เธอรู้ไหมว่าฉันสบายดี ใช่ ฉันรู้สึกโอเค"
 		"dota_tooltip_ability_miku_song3_song_radius" 							"กลางคืน:"
 		"dota_tooltip_ability_miku_song3_song_duration" 						"ดี:"
 		"dota_tooltip_ability_miku_song3_song_damage" 							"และไม่ว่าจะพาฉันไปที่ไหน ฉันก็พร้อมที่จะออกเดินทาง:"
@@ -8395,7 +8367,7 @@
 		"isotope_radon222_text"														"กัมมันตภาพรังสี (34 rad/s ครึ่งชีวิต - 3 วัน 19 ชั่วโมง)"
 
 		"isotope_polonium218"														"พอโลเนียม-218"
-		"isotope_polonium218_text"													"กัมมันตรังสี (600 rad/s, ครึ่งชีวิต - 3 นาที 6 วินาที)"
+		"isotope_polonium218_text"													"กัมมันตภาพรังสี (600 rad/s, ครึ่งชีวิต - 3 นาที 6 วินาที)"
 
 		"isotope_polonium214"														"พอโลเนียม-214"
 		"isotope_polonium214_text"													"กัมมันตภาพรังสี (1200 rad/s ครึ่งชีวิต - 164 ไมโครวินาที)"
@@ -8508,7 +8480,7 @@
 
 
 		"DOTA_Tooltip_ability_item_polonium210"                                                "พอโลเนียม-210"
-        "DOTA_Tooltip_ability_item_polonium210_Description"                                        "ไอโซโทปของพอโลเนียมนี้ถูกค้นพบโดยมารีและปิแอร์ กูรีในปี พ.ศ. 2441 ไอโซโทปนี้ถือเป็นทางเลือกหนึ่งสำหรับใช้เป็นตัวเริ่มนิวตรอนในอาวุธนิวเคลียร์หรือในเครื่องกำเนิดเทอร์โมอิเล็กทริกของไอโซโทปรังสี แต่ในทั้งสองกรณีก็ถูกปฏิเสธเนื่องจากมีตัวเลือกที่มีประสิทธิภาพมากกว่า และสุดท้ายก็กลายเป็นอาวุธสังหาร<br>ใช้เพื่ออัพเกรดบางรายการ<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
+        "DOTA_Tooltip_ability_item_polonium210_Description"                                        "ไอโซโทปของพอโลเนียมนี้ถูกค้นพบโดยมารีและปิแอร์ กูรีในปี พ.ศ. 2441 ไอโซโทปนี้ถือเป็นทางเลือกหนึ่งสำหรับใช้เป็นตัวเริ่มนิวตรอนในอาวุธนิวเคลียร์หรือในเครื่องกำเนิดเทอร์โมอิเล็กทริกของไอโซโทปรังสี แต่ในทั้งสองกรณีก็ถูกปฏิเสธเนื่องจากมีตัวเลือกที่มีประสิทธิภาพมากกว่า และสุดท้ายก็กลายเป็นอาวุธสังหาร<br>ใช้เพื่ออัพเกรดบางรายการ<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตภาพรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
 
         "DOTA_Tooltip_ability_item_iron56"                                                    "เหล็ก-56"
         "DOTA_Tooltip_ability_item_iron56_Description"                                            "ไอโซโทปเหล็ก-56 เป็นเหล็กชนิดเดียวกับที่ใช้ในการผลิตวัสดุที่เราพบทุกวัน ไอโซโทปของเหล็กเป็นผลสุดท้ายของปฏิกิริยาภายในดาวฤกษ์ และก่อตัวขึ้นในแกนกลางในช่วงวันสุดท้ายก่อนที่มันจะระเบิดเป็นซูเปอร์โนวา<br>ใช้เพื่ออัพเกรดบางรายการ<br>เสถียร"
@@ -8532,10 +8504,10 @@
         "DOTA_Tooltip_ability_item_uran235_Description"                                            "ยูเรเนียม-235 ถูกใช้เป็นเชื้อเพลิงในเครื่องปฏิกรณ์นิวเคลียร์และในอาวุธนิวเคลียร์ด้วย<br>ใช้ในการผลิตสตรอนเซียม-90 เนื่องจากการฉายรังสีไอโซโทปยูเรเนียม-235 ด้วยนิวตรอน<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
 		
 		"DOTA_Tooltip_ability_item_uran238"                                                    "ยูราน-238"
-        "DOTA_Tooltip_ability_item_uran238_Description"                                            "ยูเรเนียม-238 ซึ่งเป็นไอโซโทปยูเรเนียมที่มีความอุดมสมบูรณ์และมีอายุยาวนานที่สุด เป็นหนึ่งในไอโซโทปที่หนักที่สุดในบรรดาองค์ประกอบทางเคมีที่พบในธรรมชาติ<br>ใช้ในเครื่องปฏิกรณ์เพื่อผลิตพอโลเนียม-210 และตะกั่ว-206<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
+        "DOTA_Tooltip_ability_item_uran238_Description"                                            "ยูเรเนียม-238 ซึ่งเป็นไอโซโทปยูเรเนียมที่มีความอุดมสมบูรณ์และมีอายุยาวนานที่สุด เป็นหนึ่งในไอโซโทปที่หนักที่สุดในบรรดาองค์ประกอบทางเคมีที่พบในธรรมชาติ<br>ใช้ในเครื่องปฏิกรณ์เพื่อผลิตพอโลเนียม-210 และตะกั่ว-206<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตภาพรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
 
 		"DOTA_Tooltip_ability_item_strontium90"                                                "สตรอนเชียม-90"
-        "DOTA_Tooltip_ability_item_strontium90_Description"                                       	"Strontium-90 ใช้ในการผลิตแหล่งควบคุมสำหรับเครื่องมือวัดปริมาณรังสี เช่นเดียวกับในการผลิตแหล่งพลังงานไอโซโทปรังสีในรูปของสตรอนเซียมไททาเนต<br>ใช้ร่วมกับไทเทเนียม-44 และตะกั่ว-206 เป็นองค์ประกอบของสารเชิงซ้อนการป้องกันรังสีในช่วงท้ายเกม<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
+        "DOTA_Tooltip_ability_item_strontium90_Description"                                       	"Strontium-90 ใช้ในการผลิตแหล่งควบคุมสำหรับเครื่องมือวัดปริมาณรังสี เช่นเดียวกับในการผลิตแหล่งพลังงานไอโซโทปรังสีในรูปของสตรอนเซียมไททาเนต<br>ใช้ร่วมกับไทเทเนียม-44 และตะกั่ว-206 เป็นองค์ประกอบของสารเชิงซ้อนการป้องกันรังสีในช่วงท้ายเกม<br><font color='#fa0202'>โปรดทราบ!!!<br>ไอโซโทปนี้มีกัมมันตภาพรังสี!! ความแรงของการฉายรังสีคือ%rad%RAD/SEC</font>"
 
 		"DOTA_Tooltip_ability_item_cobalt59"                                                    "โคบอลต์-59"
         "DOTA_Tooltip_ability_item_cobalt59_Description"                                           	"ไอโซโทปโคบอลต์ที่พบมากที่สุดในธรรมชาติ เป็นส่วนประกอบของโลหะผสมและเหล็กกล้าพิเศษหลายชนิด รวมถึงวัสดุแม่เหล็กแข็งและทนความร้อน<br>ได้มาจากการทำปฏิกิริยาโคบอลต์-59 กับนิวตรอน โคบอลต์-60 จะถูกใช้เป็นตัวเร่งปฏิกิริยาเพื่อเร่งปฏิกิริยาการสลายตัวบางอย่าง<br>เสถียร"
@@ -8705,7 +8677,7 @@
 		"Talent_T90_Label_TargetHPDmg"      "เป้าหมายสร้างความเสียหายต่อสุขภาพ"
 
 		"Talent_T90_Ammo_1"                 "เพิ่มโบนัสเท่ากับ 20% ของพลังชีวิตสูงสุดให้กับความเสียหายพื้นฐานของกระสุนปืน"
-    	"Talent_T90_Label_HPDamage"         "Урон от здоровья"
+    	"Talent_T90_Label_HPDamage"         "ความเสียหายต่อสุขภาพ"
 
 		"Talent_T90_Ammo_HEAT_10"           "ประเภทความเสียหายของกระสุนปืน HEAT จะกลายเป็นแบบบริสุทธิ์"
     	"Talent_T90_Label_DamageType"       "ประเภทความเสียหาย"
@@ -8718,200 +8690,200 @@
 		"tokra_symbiosis"												"Tok'ra symbiosis"
 		"tokra_symbiosis_1"												"จิตวิญญาณของผู้ถือที่ซื่อสัตย์"
 		"tokra_symbiosis_2"												"ความทรงจำของราชินีเอเจอเรีย"
-		"tokra_symbiosis_3"												"Воля сопротивления"
-		"tokra_symbiosis_4"												"Обет вечного союза"
-		"tokra_symbiosis_5"												"Жизненная сила симбионта"
-		"tokra_symbiosis_effect_des" 									"2 предмета: Увеличивает исходящее лечение на 30%. <br><br> 4 предмета: При лечении союзного героя он получает эффект «Симбиот» на 5 секунд. Эффект увеличивает урон и шанс критического удара цели (бонус зависит от текущей волны). <br>"
+		"tokra_symbiosis_3"												"เจตจำนงแห่งการต่อต้าน"
+		"tokra_symbiosis_4"												"คำปฏิญาณแห่งสหภาพนิรันดร์"
+		"tokra_symbiosis_5"												"พลังชีวิตของสัญลักษณ์"
+		"tokra_symbiosis_effect_des" 									"2 รายการ: เพิ่มการรักษาขาออก 30%.<br><br>4 รายการ: เมื่อรักษาฮีโร่ฝ่ายเดียวกัน เขาจะได้รับเอฟเฟกต์ Symbiote เป็นเวลา 5 วินาที เอฟเฟกต์จะเพิ่มความเสียหายของเป้าหมายและโอกาสคริติคอล (โบนัสขึ้นอยู่กับคลื่นปัจจุบัน)<br>"
 
 		"ancient_legacy"												"มรดกของคนโบราณ"
-		"ancient_legacy_1"												"Осколок забытых знаний"
-		"ancient_legacy_2"												"Энергия модуля МНТ"
-		"ancient_legacy_3"												"Технологии великих предков"
-		"ancient_legacy_4"												"Писание строителей врат"
-		"ancient_legacy_5"												"Путь к истинному вознесению"
-		"ancient_legacy_effect_des" 									"2 предмета: Снижает перезарядку способностей на 15% и дает +15 к регенерации маны. <br><br> 4 предмета: Дарует ауру в радиусе 900. Союзники получают бонус к урону заклинаний (зависит от текущей волны) и снижение расхода маны на 15%. <br>"
+		"ancient_legacy_1"												"ชิ้นส่วนของความรู้ที่ถูกลืม"
+		"ancient_legacy_2"												"พลังงานโมดูล MNT"
+		"ancient_legacy_3"												"เทคโนโลยีของบรรพบุรุษผู้ยิ่งใหญ่"
+		"ancient_legacy_4"												"คัมภีร์ของผู้สร้างประตู"
+		"ancient_legacy_5"												"เส้นทางสู่การเสด็จขึ้นสู่สวรรค์ที่แท้จริง"
+		"ancient_legacy_effect_des" 									"2 รายการ: ลดคูลดาวน์ลง 15% และเพิ่มอัตราการฟื้นฟูมานา +15<br><br>4 รายการ: สร้างออร่าในรัศมี 900 พันธมิตรจะได้รับโบนัสความเสียหายจากเวทย์ (ขึ้นอยู่กับคลื่นปัจจุบัน) และลดการใช้มานาลง 15%.<br>"
 
-		"DOTA_Tooltip_modifier_hero_artifact_tokra_symbiote_buff"				"Симбиот Ток'ра"
-		"DOTA_Tooltip_modifier_hero_artifact_tokra_symbiote_buff_Description"	"Симбионт внутри вас резонирует. Ваш базовый урон увеличен на %atk_bonus%, а шанс критического удара повышен на %crit_bonus%%."
+		"DOTA_Tooltip_modifier_hero_artifact_tokra_symbiote_buff"				"Tok'ra คล้ายกัน"
+		"DOTA_Tooltip_modifier_hero_artifact_tokra_symbiote_buff_Description"	"ความคล้ายคลึงภายในตัวคุณสะท้อนออกมา ความเสียหายพื้นฐานของคุณเพิ่มขึ้น%atk_bonus%และโอกาสคริติคอลของคุณเพิ่มขึ้น%crit_bonus%%."
 
-		"DOTA_Tooltip_modifier_hero_artifact_ancient_legacy_aura"				"Аура: Наследие Древних"
-		"DOTA_Tooltip_modifier_hero_artifact_ancient_legacy_aura_Description"	"Рядом находится носитель знаний Древних. Ваш урон от заклинаний увеличен на %mag_dmg%%, а расход маны на любые способности снижен на 15%."
+		"DOTA_Tooltip_modifier_hero_artifact_ancient_legacy_aura"				"ออร่า: มรดกของคนโบราณ"
+		"DOTA_Tooltip_modifier_hero_artifact_ancient_legacy_aura_Description"	"บริเวณใกล้เคียงคือผู้ถือความรู้ของคนโบราณ ความเสียหายเวทย์ของคุณเพิ่มขึ้น%mag_dmg%% และราคามานาของความสามารถทั้งหมดลดลง 15%."
 
-		"asuran_wisdom"													"Мудрость Асуран"
-		"asuran_wisdom_1"												"Взор Великого Архимага"
-		"asuran_wisdom_2"												"Мантия Познания"
-		"asuran_wisdom_3"												"Древний фолиант тайн"
-		"asuran_wisdom_4"												"Амулет концентрации"
-		"asuran_wisdom_5"												"Печать безграничной маны"
-		"asuran_wisdom_effect_des" 										"2 предмета: Увеличивает урон от заклинаний на 20% и регенерацию маны на +15 ед. <br><br> 5 предметов: «Вычислительный процесс» — Каждое применение способности (кроме предметов) дает герою 1 заряд «Перегрузки» на 8 секунд (максимум 5 зарядов). Каждый заряд дополнительно увеличивает урон от заклинаний на 5% и снижает перезарядку способностей на 3%. <br>"
+		"asuran_wisdom"													"ปัญญา อัสรัน"
+		"asuran_wisdom_1"												"การจ้องมองของจอมเวทย์ผู้ยิ่งใหญ่"
+		"asuran_wisdom_2"												"เสื้อคลุมแห่งความรู้"
+		"asuran_wisdom_3"												"หนังสือความลับโบราณ"
+		"asuran_wisdom_4"												"เครื่องรางแห่งสมาธิ"
+		"asuran_wisdom_5"												"ตราประทับแห่งมานาไร้ขีดจำกัด"
+		"asuran_wisdom_effect_des" 										"2 รายการ: เพิ่มความเสียหายเวทย์ 20% และการฟื้นฟูมานา +15<br><br>5 รายการ: «กระบวนการคำนวณ» - การใช้ความสามารถแต่ละครั้ง (ยกเว้นไอเท็ม) จะทำให้ฮีโร่ได้รับ «โอเวอร์โหลด» 1 ชาร์จเป็นเวลา 8 วินาที (สูงสุด 5 ชาร์จ) การชาร์จแต่ละครั้งจะเพิ่มความเสียหายเวทย์เพิ่มเติม 5% และลดคูลดาวน์ลง 3%.<br>"
 
-		"DOTA_Tooltip_modifier_hero_artifact_asuran_overload_buff"				"Перегрузка (Мудрость Асуран)"
-		"DOTA_Tooltip_modifier_hero_artifact_asuran_overload_buff_Description"	"Каждый заряд этого эффекта увеличивает урон от заклинаний на 5% и снижает время перезарядки способностей на 3%."
+		"DOTA_Tooltip_modifier_hero_artifact_asuran_overload_buff"				"โอเวอร์โหลด (ปัญญาแห่งอาซูรัน)"
+		"DOTA_Tooltip_modifier_hero_artifact_asuran_overload_buff_Description"	"การชาร์จแต่ละครั้งของเอฟเฟกต์นี้จะเพิ่มความเสียหายจากคาถา 5% และลดคูลดาวน์ลง 3%."
 	
 		// ШАХТЫ И РУДЫ: ТИР 1
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_graphite"				"Графит (ТИР 1)"
-		"DOTA_Tooltip_ability_item_gu_ore_graphite_Description"	"Углеродный минерал. Используется для создания базовых стержней-замедлителей при починке реактора."
+		"DOTA_Tooltip_ability_item_gu_ore_graphite"				"กราไฟท์ (TIR 1)"
+		"DOTA_Tooltip_ability_item_gu_ore_graphite_Description"	"แร่คาร์บอน ใช้เพื่อสร้างแท่งตัวหน่วงพื้นฐานเมื่อซ่อมแซมเครื่องปฏิกรณ์"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_magnetite"			"Магнетит (ТИР 1)"
-		"DOTA_Tooltip_ability_item_gu_ore_magnetite_Description""Магнитная железная руда. Важный компонент для электромагнитных систем реактора."
+		"DOTA_Tooltip_ability_item_gu_ore_magnetite"			"แมกนีไทต์ (TIR 1)"
+		"DOTA_Tooltip_ability_item_gu_ore_magnetite_Description""แร่เหล็กแม่เหล็ก องค์ประกอบที่สำคัญสำหรับระบบแม่เหล็กไฟฟ้าของเครื่องปฏิกรณ์"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_malachite"			"Малахит (ТИР 1)"
-		"DOTA_Tooltip_ability_item_gu_ore_malachite_Description""Медный минерал, применяемый для восстановления проводки и базовой электроники."
+		"DOTA_Tooltip_ability_item_gu_ore_malachite"			"มาลาไคต์ (ระดับ 1)"
+		"DOTA_Tooltip_ability_item_gu_ore_malachite_Description""แร่ทองแดงใช้ในการซ่อมแซมสายไฟและอุปกรณ์อิเล็กทรอนิกส์พื้นฐาน"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_lead"					"Свинец (ТИР 1)"
-		"DOTA_Tooltip_ability_item_gu_ore_lead_Description"		"Тяжелый металл. Жизненно необходим для восстановления радиационной защиты вокруг ядра."
+		"DOTA_Tooltip_ability_item_gu_ore_lead"					"ตะกั่ว (TYR 1)"
+		"DOTA_Tooltip_ability_item_gu_ore_lead_Description"		"โลหะหนัก. มีความสำคัญในการฟื้นฟูการป้องกันรังสีรอบแกนกลาง"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_bauxite"				"Боксит (ТИР 1)"
-		"DOTA_Tooltip_ability_item_gu_ore_bauxite_Description"	"Алюминиевая руда. Используется для легких и прочных корпусных конструкций."
+		"DOTA_Tooltip_ability_item_gu_ore_bauxite"				"บอกไซต์ (TIR 1)"
+		"DOTA_Tooltip_ability_item_gu_ore_bauxite_Description"	"อะลูมิเนียม ใช้สำหรับโครงสร้างตัวเรือที่มีน้ำหนักเบาและทนทาน"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_hematite"				"Гематит (ТИР 1)"
-		"DOTA_Tooltip_ability_item_gu_ore_hematite_Description" "Особая руда. Необходима для крафта накидки на здоровье и предметов 6 тира на опыт."
+		"DOTA_Tooltip_ability_item_gu_ore_hematite"				"เฮมาไทต์ (TIR 1)"
+		"DOTA_Tooltip_ability_item_gu_ore_hematite_Description" "แร่พิเศษ จำเป็นสำหรับการประดิษฐ์เสื้อคลุมสุขภาพและไอเท็มระดับ 6 สำหรับค่าประสบการณ์"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_barite"				"Барит (ТИР 1)"
-		"DOTA_Tooltip_ability_item_gu_ore_barite_Description"	"Ценный кристалл. Нужен для создания меча на добычу золота, криты и сплеш-урон (как в ближнем, так и в дальнем бою)."
+		"DOTA_Tooltip_ability_item_gu_ore_barite"				"แบไรท์ (TIR 1)"
+		"DOTA_Tooltip_ability_item_gu_ore_barite_Description"	"คริสตัลอันทรงคุณค่า จำเป็นสำหรับการสร้างดาบสำหรับการขุดทอง คริติคอล และความเสียหายแบบกระจาย (ทั้งการต่อสู้ระยะประชิดและการต่อสู้ระยะไกล)"
 
 		// ==========================================
 		// ШАХТЫ И РУДЫ: ТИР 2
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_manganese"			"Марганцевая руда (ТИР 2)"
-		"DOTA_Tooltip_ability_item_gu_ore_manganese_Description""Укрепляющая добавка. Позволяет создавать износостойкие стальные сплавы для тяжелых механизмов."
+		"DOTA_Tooltip_ability_item_gu_ore_manganese"			"แร่แมงกานีส (TIR 2)"
+		"DOTA_Tooltip_ability_item_gu_ore_manganese_Description""สารเติมแต่งเสริมสร้างความเข้มแข็ง ช่วยให้คุณสร้างโลหะผสมเหล็กที่ทนต่อการสึกหรอสำหรับกลไกหนัก"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_steel"				"Сталь (ТИР 2)"
-		"DOTA_Tooltip_ability_item_gu_ore_steel_Description"	"Закаленный сплав. Основной строительный материал для продвинутых структур реактора."
+		"DOTA_Tooltip_ability_item_gu_ore_steel"				"เหล็ก (TIR 2)"
+		"DOTA_Tooltip_ability_item_gu_ore_steel_Description"	"โลหะผสมแข็ง วัสดุก่อสร้างพื้นฐานสำหรับโครงสร้างเครื่องปฏิกรณ์ขั้นสูง"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_zirconium"			"Цирконий (ТИР 2)"
-		"DOTA_Tooltip_ability_item_gu_ore_zirconium_Description""Тугоплавкий металл. Используется для оболочек тепловыделяющих элементов реактора."
+		"DOTA_Tooltip_ability_item_gu_ore_zirconium"			"เซอร์โคเนียม (TIR 2)"
+		"DOTA_Tooltip_ability_item_gu_ore_zirconium_Description""โลหะทนไฟ ใช้สำหรับเปลือกขององค์ประกอบเชื้อเพลิงของเครื่องปฏิกรณ์"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_sodium"				"Бура (ТИР 2)"
-		"DOTA_Tooltip_ability_item_gu_ore_sodium_Description"	"Источник натрия и бора. Используется в качестве жидкого теплоносителя в охлаждающем контуре и как элемент контроля скорости реакции в активной зоне соответственно."
+		"DOTA_Tooltip_ability_item_gu_ore_sodium"				"บอแรกซ์ (TIR 2)"
+		"DOTA_Tooltip_ability_item_gu_ore_sodium_Description"	"แหล่งที่มาของโซเดียมและโบรอน ใช้เป็นของเหลวหล่อเย็นในวงจรทำความเย็นและเป็นองค์ประกอบในการควบคุมอัตราการเกิดปฏิกิริยาในแกนกลางตามลำดับ"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_titanium"				"Титан (ТИР 2)"
-		"DOTA_Tooltip_ability_item_gu_ore_titanium_Description" "Сверхпрочный металл. Нужен для прокачки предметов на выживаемость: 2 грейд накидки, 5 грейд сердца и 3 грейд брони."
+		"DOTA_Tooltip_ability_item_gu_ore_titanium"				"ไททัน (TIR 2)"
+		"DOTA_Tooltip_ability_item_gu_ore_titanium_Description" "โลหะที่แข็งแกร่งเป็นพิเศษ จำเป็นต้องอัปเกรดไอเท็มเพื่อความอยู่รอด: เสื้อคลุมเกรด 2, หัวใจเกรด 5 และชุดเกราะเกรด 3"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_adamantite"			"Адамантит (ТИР 2)"
-		"DOTA_Tooltip_ability_item_gu_ore_adamantite_Description""Магический металл. Используется для финальных грейдов ДПС-предметов: 5 грейд меча галактики, 3 грейд ядра погоды и 3 грейд посоха магов."
+		"DOTA_Tooltip_ability_item_gu_ore_adamantite"			"อดามันไทต์ (ระดับ 2)"
+		"DOTA_Tooltip_ability_item_gu_ore_adamantite_Description""โลหะวิเศษ ใช้สำหรับเกรดสุดท้ายของไอเท็ม DPS: ดาบกาแล็กซี่เกรด 5, แกนอากาศเกรด 3 และไม้เท้านักเวทย์เกรด 3"
 
 		// ==========================================
 		// ШАХТЫ И РУДЫ: ТИР 3
 		// ==========================================
-		"DOTA_Tooltip_ability_item_gu_ore_naquadah"				"Наквадах (ТИР 3)"
-		"DOTA_Tooltip_ability_item_gu_ore_naquadah_Description" "Крайне редкий элемент со сверхпроводимостью. Используется для создания всех финальных предметов на Танков."
+		"DOTA_Tooltip_ability_item_gu_ore_naquadah"				"นาควาดาห์ (TIR 3)"
+		"DOTA_Tooltip_ability_item_gu_ore_naquadah_Description" "เป็นธาตุที่หายากมากและมีสภาพเป็นตัวนำยิ่งยวด ใช้เพื่อสร้างไอเท็มสุดท้ายทั้งหมดสำหรับรถถัง"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_quadrillium"			"Квадриллиум (ТИР 3)"
-		"DOTA_Tooltip_ability_item_gu_ore_quadrillium_Description""Невероятно плотный и тяжелый элемент. Нужен для создания всех финальных предметов на физический урон (ДД)."
+		"DOTA_Tooltip_ability_item_gu_ore_quadrillium"			"ควอดริลเลียม (TIR 3)"
+		"DOTA_Tooltip_ability_item_gu_ore_quadrillium_Description""องค์ประกอบที่มีความหนาแน่นและหนักอย่างไม่น่าเชื่อ จำเป็นต้องสร้างไอเท็มสุดท้ายทั้งหมดสำหรับความเสียหายทางกายภาพ (DD)"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_aurodium"				"Ауродий (ТИР 3)"
-		"DOTA_Tooltip_ability_item_gu_ore_aurodium_Description" "Идеальный проводник магии вселенной. Используется для создания всех финальных предметов на Магов."
+		"DOTA_Tooltip_ability_item_gu_ore_aurodium"				"ออโรเดีย (TIR 3)"
+		"DOTA_Tooltip_ability_item_gu_ore_aurodium_Description" "ผู้ควบคุมเวทมนตร์แห่งจักรวาลในอุดมคติ ใช้เพื่อสร้างไอเท็มสุดท้ายทั้งหมดสำหรับนักเวทย์"
 		
-		"DOTA_Tooltip_ability_item_gu_ore_gold"             "Золотая руда"
-        "DOTA_Tooltip_ability_item_gu_ore_gold_Description" "Драгоценный металл с высокой электропроводностью. Незаменим в производстве сложной микроэлектроники для Ядерного Реактора. Можно приобрести в лавке за 1000 золота."
+		"DOTA_Tooltip_ability_item_gu_ore_gold"             "แร่ทองคำ"
+        "DOTA_Tooltip_ability_item_gu_ore_gold_Description" "โลหะมีค่าที่มีค่าการนำไฟฟ้าสูง ที่ขาดไม่ได้ในการผลิตไมโครอิเล็กทรอนิกส์ที่ซับซ้อนสำหรับเครื่องปฏิกรณ์นิวเคลียร์ สามารถซื้อได้ที่ร้านค้าในราคา 1,000 ทอง"
 
 		// Инструменты
-		"DOTA_Tooltip_ability_item_gu_drilling_rig"		"Укрепленная Бурильная Установка"
-		"DOTA_Tooltip_ability_item_gu_drilling_rig_Description" "Создана из Стали и Циркония. Примените на шахту 3 тира, требует 10.000 энергии реактора, чтобы начать добычу реликтовых руд. Осторожно: риск взрыва изотопа Наквадрии!"
+		"DOTA_Tooltip_ability_item_gu_drilling_rig"		"แท่นขุดเจาะเสริมความแข็งแกร่ง"
+		"DOTA_Tooltip_ability_item_gu_drilling_rig_Description" "ผลิตจากเหล็กและเซอร์โคเนียม ใช้ระดับ 3 กับเหมือง โดยต้องใช้พลังงานเครื่องปฏิกรณ์ 10,000 เครื่องจึงจะเริ่มขุดแร่โบราณได้ ข้อควรระวัง: ความเสี่ยงของการระเบิดของไอโซโทป Naquadria!"
 	
-		"gu_qvest_rude"		"{player_name} завершил выроботку шахты"
+		"gu_qvest_rude"		"{player_name}การขุดเหมืองเสร็จสมบูรณ์"
 
-		"DOTA_Tooltip_ability_item_gu_rude_compass_1"				"Базовый Гео-Компас"
-		"DOTA_Tooltip_ability_item_gu_rude_compass_1_Description"	"Настраивается на частоты обычных минералов. При использовании сканирует местность, обнаруживает свободное месторождение руды 1 тира и устанавливает там шахту. Устройство имеет 2 невосполнимых заряда, после полного истощения которых прибор разрушается."
+		"DOTA_Tooltip_ability_item_gu_rude_compass_1"				"เข็มทิศภูมิศาสตร์ขั้นพื้นฐาน"
+		"DOTA_Tooltip_ability_item_gu_rude_compass_1_Description"	"ปรับความถี่ของแร่ธาตุทั่วไป เมื่อใช้ ให้สแกนพื้นที่ ตรวจจับแหล่งแร่ระดับ 1 ฟรี และติดตั้งทุ่นระเบิดที่นั่น อุปกรณ์มีค่าใช้จ่ายที่ไม่สามารถถูกแทนที่ได้ 2 ครั้ง หลังจากนั้นอุปกรณ์จะหมดลงอย่างสมบูรณ์อุปกรณ์จะถูกทำลาย"
 		
-		"DOTA_Tooltip_ability_item_gu_rude_compass_2"				"Продвинутый Гео-Сканер"
-		"DOTA_Tooltip_ability_item_gu_rude_compass_2_Description"	"Усиленный сканер для поиска редких и тугоплавких металлов. При использовании производит комплексный поиск, одновременно обнаруживая свободные месторождения руды 1 и 2 тиров и устанавливая на них шахты. Исчезает после успешного применения."
+		"DOTA_Tooltip_ability_item_gu_rude_compass_2"				"เครื่องสแกนภูมิศาสตร์ขั้นสูง"
+		"DOTA_Tooltip_ability_item_gu_rude_compass_2_Description"	"เครื่องสแกนที่ได้รับการปรับปรุงสำหรับการค้นหาโลหะหายากและวัสดุทนไฟ เมื่อใช้งาน จะทำการค้นหาแบบครอบคลุม พร้อมตรวจจับแหล่งแร่อิสระของระดับ 1 และ 2 และติดตั้งทุ่นระเบิดลงไป หายไปหลังจากใช้งานสำเร็จ"
 		
-		"DOTA_Tooltip_ability_item_gu_rude_compass_3"				"Резонансный Локатор Глубин"
-		"DOTA_Tooltip_ability_item_gu_rude_compass_3_Description"	"Сложный прибор, способный уловить излучение реликтовых элементов. При активации запускает масштабное сканирование, одновременно открывая свободные месторождения 1, 2 и 3 тира (включая жилы с Наквадахом, Квадриллиумом и Ауродием) и устанавливая там шахты. Исчезает после успешного применения."
+		"DOTA_Tooltip_ability_item_gu_rude_compass_3"				"ตัวระบุความลึกแบบเรโซแนนซ์"
+		"DOTA_Tooltip_ability_item_gu_rude_compass_3_Description"	"อุปกรณ์ที่ซับซ้อนที่สามารถตรวจจับรังสีจากองค์ประกอบที่เกี่ยวข้องได้ เมื่อเปิดใช้งาน มันจะเปิดการสแกนขนาดใหญ่ พร้อมเปิดเงินฝากระดับ 1, 2 และ 3 ที่ว่างไปพร้อมกัน (รวมถึงหลอดเลือดดำที่มี Naquadah, Quadrillium และ Aurodia) และติดตั้งทุ่นระเบิดที่นั่น หายไปหลังจากใช้งานสำเร็จ"
 	
 		// ШАГ 1: КОНФАЙНМЕНТ (УДЕРЖАНИЕ)
-        "DOTA_Tooltip_Ability_item_gu_radiation_protection"             "Противорадиационная защита"
-        "DOTA_Tooltip_Ability_item_gu_radiation_protection_Description" "Утолщенные свинцовые пластины, необходимые для блокировки смертельного излучения реактора."
+        "DOTA_Tooltip_Ability_item_gu_radiation_protection"             "ป้องกันรังสี"
+        "DOTA_Tooltip_Ability_item_gu_radiation_protection_Description" "แผ่นตะกั่วที่มีความหนาจำเป็นเพื่อป้องกันรังสีอันตรายถึงชีวิตของเครื่องปฏิกรณ์"
 
-        "DOTA_Tooltip_Ability_item_gu_support_struts"                   "Несущие опоры"
-        "DOTA_Tooltip_Ability_item_gu_support_struts_Description"       "Тяжелые стальные балки, составляющие каркас конфайнмента реактора."
+        "DOTA_Tooltip_Ability_item_gu_support_struts"                   "รองรับแบริ่ง"
+        "DOTA_Tooltip_Ability_item_gu_support_struts_Description"       "คานเหล็กหนักที่ประกอบเป็นกรอบของการกักขังเครื่องปฏิกรณ์"
 
-        "DOTA_Tooltip_Ability_item_gu_reactor_casing"                   "Защитный корпус реактора"
-        "DOTA_Tooltip_Ability_item_gu_reactor_casing_Description"       "Прочный внешний купол для предотвращения утечки радиоактивных материалов."
+        "DOTA_Tooltip_Ability_item_gu_reactor_casing"                   "ถังบรรจุเครื่องปฏิกรณ์"
+        "DOTA_Tooltip_Ability_item_gu_reactor_casing_Description"       "โดมด้านนอกแข็งแรงทนทานเพื่อป้องกันการรั่วซึมของสารกัมมันตภาพรังสี"
 
         // ШАГ 2: СИСТЕМА УПРАВЛЕНИЯ
-        "DOTA_Tooltip_Ability_item_gu_control_system_casing"            "Корпус системы управления"
-        "DOTA_Tooltip_Ability_item_gu_control_system_casing_Description" "Защищенный блок для размещения критической электроники управления активной зоной."
+        "DOTA_Tooltip_Ability_item_gu_control_system_casing"            "ที่อยู่อาศัยควบคุม"
+        "DOTA_Tooltip_Ability_item_gu_control_system_casing_Description" "หน่วยที่ทนทานสำหรับติดตั้งอุปกรณ์อิเล็กทรอนิกส์ควบคุมหลักที่สำคัญ"
 
-        "DOTA_Tooltip_Ability_item_gu_main_electronics"                 "Электроника узла управления"
-        "DOTA_Tooltip_Ability_item_gu_main_electronics_Description"     "Главный вычислительный модуль, отвечающий за логику работы реакторной установки."
+        "DOTA_Tooltip_Ability_item_gu_main_electronics"                 "ชุดควบคุมอิเล็กทรอนิกส์"
+        "DOTA_Tooltip_Ability_item_gu_main_electronics_Description"     "โมดูลคอมพิวเตอร์หลักที่รับผิดชอบด้านตรรกะของโรงงานเครื่องปฏิกรณ์"
 
-        "DOTA_Tooltip_Ability_item_gu_peripheral_modules"               "Модули контроля активной зоны"
-        "DOTA_Tooltip_Ability_item_gu_peripheral_modules_Description"   "Набор датчиков и логических плат для мониторинга параметров активной зоны."
+        "DOTA_Tooltip_Ability_item_gu_peripheral_modules"               "โมดูลควบคุมหลัก"
+        "DOTA_Tooltip_Ability_item_gu_peripheral_modules_Description"   "ชุดเซ็นเซอร์และบอร์ดลอจิกสำหรับตรวจสอบพารามิเตอร์หลัก"
 
         // ШАГ 3: АКТИВНАЯ ЗОНА
-        "DOTA_Tooltip_Ability_item_gu_heat_circuit"                     "Теплоносящий контур"
-        "DOTA_Tooltip_Ability_item_gu_heat_circuit_Description"         "Циркониевая система циркуляции натриевого теплоносителя для отвода тепла."
+        "DOTA_Tooltip_Ability_item_gu_heat_circuit"                     "วงจรการถ่ายเทความร้อน"
+        "DOTA_Tooltip_Ability_item_gu_heat_circuit_Description"         "ระบบหมุนเวียนน้ำหล่อเย็นโซเดียมเซอร์โคเนียมเพื่อระบายความร้อน"
 
-        "DOTA_Tooltip_Ability_item_gu_steam_pipes"                      "Трубы-переносчики пара"
-        "DOTA_Tooltip_Ability_item_gu_steam_pipes_Description"          "Усиленные трубы высокого давления для передачи пара от реактора к турбинам."
+        "DOTA_Tooltip_Ability_item_gu_steam_pipes"                      "ท่อขนส่งไอน้ำ"
+        "DOTA_Tooltip_Ability_item_gu_steam_pipes_Description"          "เสริมท่อแรงดันสูงสำหรับถ่ายเทไอน้ำจากเครื่องปฏิกรณ์ไปยังกังหัน"
 
-        "DOTA_Tooltip_Ability_item_gu_moderator_rods"                   "Стержни-замедлители"
-        "DOTA_Tooltip_Ability_item_gu_moderator_rods_Description"       "Графит-натриевые стержни для регулирования скорости ядерной реакции."
+        "DOTA_Tooltip_Ability_item_gu_moderator_rods"                   "แท่งรีทาร์เดอร์"
+        "DOTA_Tooltip_Ability_item_gu_moderator_rods_Description"       "แท่งกราไฟท์โซเดียมสำหรับควบคุมอัตราการเกิดปฏิกิริยานิวเคลียร์"
 
-        "DOTA_Tooltip_Ability_item_gu_active_zone_shell"                "Защитная оболочка активной зоны"
-        "DOTA_Tooltip_Ability_item_gu_active_zone_shell_Description"    "Внутренняя высокотехнологичная оболочка, непосредственно окружающая стержни замедлителей."
+        "DOTA_Tooltip_Ability_item_gu_active_zone_shell"                "การกักเก็บแกนกลาง"
+        "DOTA_Tooltip_Ability_item_gu_active_zone_shell_Description"    "เปลือกหุ้มไฮเทคภายในที่ล้อมรอบแท่งหน่วงโดยตรง"
 
         // ФИНАЛЬНЫЙ ПРЕДМЕТ
-        "DOTA_Tooltip_Ability_item_gu_reactor_repair_kit"               "Ремкомплект реактора"
-        "DOTA_Tooltip_Ability_item_gu_reactor_repair_kit_Description"   "Полный набор узлов и агрегатов, необходимый для капитального ремонта и перезапуска реактора.\n\nВключает в себя восстановленные системы конфайнмента (Шаг 1), управления (Шаг 2) и активной зоны (Шаг 3)."
+        "DOTA_Tooltip_Ability_item_gu_reactor_repair_kit"               "ชุดซ่อมเครื่องปฏิกรณ์"
+        "DOTA_Tooltip_Ability_item_gu_reactor_repair_kit_Description"   "ชุดส่วนประกอบและชุดประกอบทั้งหมดที่จำเป็นสำหรับการยกเครื่องหลักและการรีสตาร์ทเครื่องปฏิกรณ์\n\nรวมถึงระบบการจำกัดที่กู้คืน (ขั้นตอนที่ 1) การควบคุม (ขั้นตอนที่ 2) และระบบหลัก (ขั้นตอนที่ 3)"
 	
-		"gu_factory_craft_time" 									"Время производства: "
-		"gu_factory_waiting" 										"ОЖИДАЕТ ВЫДАЧИ..."
-		"gu_factory_crafting" 										"Производство..."
-		"gu_factory_waiting" 										"СТАТУС: ОЖИДАНИЕ ЗАДАЧИ..."
-		"gu_factory_return_output" 									"ОСВОБОДИТЬ СЛОТ"
-		"gu_factory_select_recipe" 									"ВЫБЕРИТЕ ЧЕРТЕЖ"
-		"gu_factory_insufficient_resources" 						"НЕДОСТАТОЧНО СЫРЬЯ"
-		"gu_factory_start_crafting" 								"НАЧАТЬ ПРОИЗВОДСТВО"
-		"gu_factory" 												"МЕТАЛЛУРГИЧЕСКАЯ ФАБРИКА"
-		"gu_factory_inventory" 										"ОБЩИЙ СКЛАД СЫРЬЯ"
-		"gu_factory_recipes" 										"ЧЕРТЕЖИ И СПЛАВЫ"
-		"gu_factory_select_recipe" 									"ВЫБЕРИТЕ ЧЕРТЕЖ"
-		"gu_factory_error" 											"ПРОИЗОШЛА ОШИБКА! ПОВТОРИТЕ ПОПЫТКУ."
+		"gu_factory_craft_time" 									"เวลาในการผลิต: "
+		"gu_factory_waiting" 										"กำลังรอการออก..."
+		"gu_factory_crafting" 										"การผลิต..."
+		"gu_factory_waiting" 										"สถานะ: กำลังรองาน..."
+		"gu_factory_return_output" 									"สล็อตฟรี"
+		"gu_factory_select_recipe" 									"เลือกภาพวาด"
+		"gu_factory_insufficient_resources" 						"วัตถุดิบไม่เพียงพอ"
+		"gu_factory_start_crafting" 								"เริ่มการผลิต"
+		"gu_factory" 												"โรงงานโลหะวิทยา"
+		"gu_factory_inventory" 										"คลังสินค้าวัตถุดิบทั่วไป"
+		"gu_factory_recipes" 										"ภาพวาดและโลหะผสม"
+		"gu_factory_select_recipe" 									"เลือกภาพวาด"
+		"gu_factory_error" 											"มีข้อผิดพลาดเกิดขึ้น! ลองอีกครั้ง"
 
 
-		"DOTA_Tooltip_ability_item_gu_zpm_resonator"             "Квантовый Резонатор МНТ"
-		"DOTA_Tooltip_ability_item_gu_zpm_resonator_Description" "Особый кристалл Древних, запоминающий энергетические сигнатуры.\n\n<h1>Пассивно: Убийца Стражей</h1>\nНаносит <font color='#00e5ff'>20%</font> дополнительного урона (от атак и способностей) по Стражам МНТ.\n\nЗа каждый успешно извлеченный генератор при помощи Дефузора, предмет получает 1 заряд. Каждый заряд дополнительно увеличивает этот урон на <font color='#00e5ff'>3%</font>."
+		"DOTA_Tooltip_ability_item_gu_zpm_resonator"             "เครื่องสะท้อนควอนตัม MNT"
+		"DOTA_Tooltip_ability_item_gu_zpm_resonator_Description" "คริสตัลพิเศษของคนโบราณที่จดจำลายเซ็นพลังงาน\n\n<h1>ติดตัว: Guardian Slayer</h1>\nสร้างความเสียหาย<font color='#00e5ff'>20%</font>ความเสียหายเพิ่มเติม (จากการโจมตีและความสามารถ) ไปยังผู้พิทักษ์ MNT\n\nสำหรับเครื่องกำเนิดไฟฟ้าแต่ละตัวที่ถอดออกสำเร็จโดยใช้ Defuser ไอเท็มจะได้รับ 1 ชาร์จ การชาร์จแต่ละครั้งจะเพิ่มความเสียหายเพิ่มเติมอีก<font color='#00e5ff'>3%</font>"
 		
-		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor"             "Био-Реактор Древних"
-        "DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_Description" "<h1>Пассивно: Адаптивная Регенерация</h1>Восстанавливает <font color='#00e5ff'>%base_health_regen_pct%%%</font> от максимального здоровья в секунду.\n\nРегенерация дополнительно увеличивается на <font color='#00e5ff'>0.003%</font> за каждую единицу физической брони героя.\n\n<i>«Органическая ткань и сплавы сливаются воедино, делая носителя практически бессмертным».</i>"
-		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_strength" "БОНУС К СИЛЕ:"
-		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_health" "БОНУС К ЗДОРОВЬЮ:"
-		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_base_health_regen_pct" "%Регенерация здоровья:"
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor"             "เครื่องปฏิกรณ์ชีวภาพของคนโบราณ"
+        "DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_Description" "<h1>Passive: การฟื้นฟูแบบปรับตัว</h1>ฟื้นฟู<font color='#00e5ff'>%base_health_regen_pct%%%</font>จากพลังชีวิตสูงสุดต่อวินาที\n\nการฟื้นฟูจะเพิ่มขึ้นเพิ่มเติมอีก<font color='#00e5ff'>0.003%</font>สำหรับแต่ละยูนิตของเกราะกายภาพของฮีโร่\n\n<i>«เนื้อเยื่ออินทรีย์และโลหะผสมหลอมรวมเข้าด้วยกัน ทำให้ผู้สวมใส่แทบจะเป็นอมตะ»</i>"
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_strength" "โบนัสเพื่อความแข็งแกร่ง:"
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_health" "โบนัสสุขภาพ:"
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_base_health_regen_pct" "%Регенерацияสุขภาพ:"
 
-		"DOTA_Tooltip_modifier_item_gu_ancient_bio_reactor"            "Адаптивная Регенерация"
-		"DOTA_Tooltip_modifier_item_gu_ancient_bio_reactor_Description" "Регенерация здоровья усилена броней."
+		"DOTA_Tooltip_modifier_item_gu_ancient_bio_reactor"            "การฟื้นฟูแบบปรับตัว"
+		"DOTA_Tooltip_modifier_item_gu_ancient_bio_reactor_Description" "การฟื้นฟูสุขภาพจะเพิ่มขึ้นด้วยเกราะ"
 
-		"DOTA_Tooltip_ability_item_gu_replicator_disruptor_1"             "Нано-Трансмутатор"
-        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_1_Description" "+ %bonus_all_stats% ко всем атрибутам\n+ %bonus_damage% к урону\n\n<h1>Пассивно: Трансмутация</h1>Конвертирует <font color='#00e5ff'>%stat_convert_pct%%%</font> вашей базовой силы и интеллекта в ловкость. Предмет буквально отнимает эти статы, жертвуя выживаемостью и маной ради скорости.\n\n<h1>Пассивно: Усиление потенциала</h1>Увеличивает базовый (белый) урон от атак на <font color='#00e5ff'>%base_damage_pct%%%</font>.\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
+		"DOTA_Tooltip_ability_item_gu_replicator_disruptor_1"             "นาโนทรานสมิวเทเตอร์"
+        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_1_Description" "+%bonus_all_stats%ให้กับแอตทริบิวต์\nทั้งหมด +%bonus_damage%เพื่อสร้างความเสียหาย\n\n<h1>Passive: แปลงร่าง</h1>แปลง<font color='#00e5ff'>%stat_convert_pct%%%</font>ความแข็งแกร่งพื้นฐานและความฉลาดของคุณให้กลายเป็นความคล่องตัว ไอเท็มนี้จะนำสถิติเหล่านี้ไปอย่างแท้จริง โดยเสียสละความสามารถในการเอาตัวรอดและมานาเพื่อความเร็ว\n\n<h1>Passive: Potential Boost</h1>เพิ่มพลังโจมตีพื้นฐาน (สีขาว)<font color='#00e5ff'>%base_damage_pct%%%</font>\n<font color='#ff0000'>รายการนี้สามารถปรับปรุงได้ในโรงงานโลหะวิทยา</font>"
 
-        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2"             "Абсолютный Трансмутатор"
-        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2_Description" "+ %bonus_all_stats% ко всем атрибутам\n+ %bonus_damage% к урону\n\n<h1>Пассивно: Трансмутация</h1>Конвертирует <font color='#00e5ff'>%stat_convert_pct%%%</font> вашей базовой силы и интеллекта в ловкость.\n\n<h1>Пассивно: Усиление потенциала</h1>Увеличивает базовый (белый) урон от атак на <font color='#00e5ff'>%base_damage_pct%%%</font>.\n\n<h1>Пассивно: Деструктор Репликаторов</h1>Наносит на <font color='#ff4c4c'>%replicator_damage_pct%%%</font> больше урона по любым видам Репликаторов."
+        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2"             "ผู้แปลงร่างแบบสัมบูรณ์"
+        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2_Description" "+%bonus_all_stats%ให้กับแอตทริบิวต์\nทั้งหมด +%bonus_damage%เพื่อสร้างความเสียหาย\n\n<h1>Passive: แปลงร่าง</h1>แปลง<font color='#00e5ff'>%stat_convert_pct%%%</font>ความแข็งแกร่งพื้นฐานและความฉลาดของคุณให้กลายเป็นความคล่องตัว\n\n<h1>Passive: Potential Boost</h1>เพิ่มพลังโจมตีพื้นฐาน (สีขาว)<font color='#00e5ff'>%base_damage_pct%%%</font>\n\n<h1>Passive: Replicator Destructor</h1>สร้างความเสียหายมากขึ้นกับ<font color='#ff4c4c'>%replicator_damage_pct%%%</font>ต่อ Replicator ทุกประเภท"
 	
-		"DOTA_Tooltip_ability_item_nickel60"             "Никель-60"
-        "DOTA_Tooltip_ability_item_nickel60_Description" "Стабильный изотоп никеля, образующийся в результате бета-распада радиоактивного Кобальта-60.\n\nОбладает экстремальной жаропрочностью и структурной плотностью. Благодаря устойчивости к коррозии и радиационному охрупчиванию, этот металл является важнейшим сырьем для создания теплоносящих контуров и защитных корпусов Ядерного Реактора.\n\n<i>«Смертоносное излучение угасает, оставляя после себя металл, способный выдержать температуру звезды».</i>"
+		"DOTA_Tooltip_ability_item_nickel60"             "นิกเกิล-60"
+        "DOTA_Tooltip_ability_item_nickel60_Description" "ไอโซโทปเสถียรของนิกเกิลที่เกิดจากการสลายตัวของเบต้าของสารกัมมันตภาพรังสีโคบอลต์-60\n\nมีความต้านทานความร้อนสูงและความหนาแน่นของโครงสร้าง เนื่องจากทนทานต่อการกัดกร่อนและการเปราะของรังสี โลหะนี้จึงเป็นวัตถุดิบที่สำคัญที่สุดสำหรับการสร้างวงจรน้ำหล่อเย็นและภาชนะป้องกันของเครื่องปฏิกรณ์นิวเคลียร์\n\n<i>«รังสีอันตรายจางหายไป เหลือเพียงโลหะที่สามารถทนต่ออุณหภูมิของดวงดาวได้»</i>"
 
-		"DOTA_Tooltip_Ability_item_gu_muramasa_1"                "Мурамаса (Ур. 1)"
-		"DOTA_Tooltip_Ability_item_gu_muramasa_1_Description"    "<h1>Пассивная: Энергетический надрез</h1>Каждая ваша атака наносит дополнительный магический урон, равный 5% от текущего запаса энергии.<br><h1>Активная: Резонанс</h1>Потребляет 20% от вашего текущего запаса энергии. Ваш следующий удар в течение 5 секунд станет критическим. Множитель критического урона зависит от количества поглощенной энергии."
-		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_damage"   "+ Урон:"
-		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_agility"  "+ Ловкость:"
-		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_energy"   "+ Макс. Энергия:"
-		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_energy_regen" "+ Регенерация энергии:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1"                "มุรามาสะ (Lv. 1)"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_Description"    "<h1>ติดตัว: ฟันพลังงาน</h1>การโจมตีแต่ละครั้งของคุณจะสร้างความเสียหายทางเวทมนตร์เพิ่มเติมเท่ากับ 5% ของพลังงานปัจจุบันของคุณ<br><h1>ใช้งานอยู่: เสียงสะท้อน</h1>ใช้พลังงาน 20% ในปัจจุบัน การโจมตีครั้งต่อไปของคุณภายใน 5 วินาทีจะเป็นการโจมตีแบบคริติคอล ตัวคูณความเสียหายคริติคอลขึ้นอยู่กับปริมาณพลังงานที่ดูดซับ"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_damage"   "+ ความเสียหาย:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_agility"  "+ ความชำนาญ:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_energy"   "+ สูงสุด พลังงาน:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_energy_regen" "+ การฟื้นฟูพลังงาน:"
 
-		"DOTA_Tooltip_Ability_item_gu_muramasa_2"                "Мурамаса (Ур. 2)"
-		"DOTA_Tooltip_Ability_item_gu_muramasa_2_Description"    "<h1>Пассивная: Энергетический надрез</h1>Каждая ваша атака наносит дополнительный магический урон, равный 5% от текущего запаса энергии.<br><h1>Активная: Резонанс</h1>Потребляет 20% от вашего текущего запаса энергии. Ваш следующий удар в течение 5 секунд станет критическим. Множитель критического урона зависит от количества поглощенной энергии."
-		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_damage"   "+ Урон:"
-		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_agility"  "+ Ловкость:"
-		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy"   "+ Макс. Энергия:"
-		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy_regen" "+ Регенерация энергии:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2"                "มุรามาสะ (Lv. 2)"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_Description"    "<h1>ติดตัว: ฟันพลังงาน</h1>การโจมตีแต่ละครั้งของคุณจะสร้างความเสียหายทางเวทมนตร์เพิ่มเติมเท่ากับ 5% ของพลังงานปัจจุบันของคุณ<br><h1>ใช้งานอยู่: เสียงสะท้อน</h1>ใช้พลังงาน 20% ในปัจจุบัน การโจมตีครั้งต่อไปของคุณภายใน 5 วินาทีจะเป็นการโจมตีแบบคริติคอล ตัวคูณความเสียหายคริติคอลขึ้นอยู่กับปริมาณพลังงานที่ดูดซับ"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_damage"   "+ ความเสียหาย:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_agility"  "+ ความชำนาญ:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy"   "+ สูงสุด พลังงาน:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy_regen" "+ การฟื้นฟูพลังงาน:"
 
-		"error_not_mine"        "Цель не является шахтой!"
-		"error_only_tier3"      "Устройство нужно только для шахт 3 тира!"
-		"error_no_energy_zpm"   "Недостаточно энергии в реакторе (нужно 10 000)!"
+		"error_not_mine"        "เป้าหมายไม่ใช่ของฉัน!"
+		"error_only_tier3"      "อุปกรณ์นี้จำเป็นสำหรับทุ่นระเบิดระดับ 3 เท่านั้น!"
+		"error_no_energy_zpm"   "พลังงานในเครื่องปฏิกรณ์ไม่เพียงพอ (ต้องการ 10,000)!"
 
 
 		// ====================================================================
@@ -8919,103 +8891,107 @@
 		// ====================================================================
 
 		// 1. ПРОТОКОЛ БАКЭ-КУРАГЭ
-		"DOTA_Tooltip_ability_sangonomiya_bake_kurage"								"Протокол Бакэ-курагэ"
-		"DOTA_Tooltip_ability_sangonomiya_bake_kurage_Description"					"Пассивная директива. Сангономия регулярно призывает на арену кипящие водяные зоны. Находясь в них, она стремительно восстанавливает своё здоровье, а враги Партии получают ежесекундный чистый урон."
+		"DOTA_Tooltip_ability_sangonomiya_bake_kurage"								"โปรโตคอลเบคคุราเกะ"
+		"DOTA_Tooltip_ability_sangonomiya_bake_kurage_Description"					"คำสั่งแบบพาสซีฟ Sangonomy เรียกโซนน้ำเดือดเข้ามาในสนามเป็นประจำ ขณะที่อยู่ในนั้น เธอจะฟื้นฟูสุขภาพของเธออย่างรวดเร็ว และศัตรูของปาร์ตี้จะได้รับความเสียหายโดยตรงทุกวินาที"
 		
 		// 2. ЖЕМЧУЖНЫЕ РЕПРЕССИИ
-		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"Жемчужные репрессии"
-		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions_Description"			"Сангономия выстраивает вокруг себя идеальное кольцо из водяных ловушек. Через небольшую задержку из-под земли вырываются гигантские шипы, которые оглушают нарушителей, наносят магический урон и пробивают их магическую броню."
+		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"การปราบปรามไข่มุก"
+		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions_Description"			"Sangonomy สร้างวงแหวนกักน้ำที่สมบูรณ์แบบรอบๆ ตัวมันเอง หลังจากผ่านไปครู่หนึ่ง หนามขนาดยักษ์ก็พุ่งออกมาจากพื้น ทำให้ผู้บุกรุกสตัน สร้างความเสียหายเวทย์มนตร์ และเจาะเกราะเวทย์มนตร์ของพวกมัน"
 		
-		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff"						"Жемчужные репрессии"
-		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff_Description"			"Ваше сопротивление магии снижено после столкновения с гидро-шипом. Партия вас предупреждала!"
+		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff"						"การปราบปรามไข่มุก"
+		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff_Description"			"ความต้านทานเวทย์มนตร์ของคุณจะลดลงหลังจากชนกับไฮโดรสไปค์ พรรคเตือน!"
 
 		// 3. ПРОЗРЕНИЕ ЖРИЦЫ
-		"DOTA_Tooltip_ability_sangonomiya_priestess_insight"						"Прозрение Жрицы"
-		"DOTA_Tooltip_ability_sangonomiya_priestess_insight_Description"			"Сангономия читает мысли диссидентов и вешает на случайных врагов метку контроля. Если жертва попытается применить любую способность или предмет, произойдет астральный ядерный взрыв, который нанесет огромный урон и наложит безмолвие на саму жертву и всех, кто стоял рядом."
+		"DOTA_Tooltip_ability_sangonomiya_priestess_insight"						"ความศักดิ์สิทธิ์ของนักบวชหญิง"
+		"DOTA_Tooltip_ability_sangonomiya_priestess_insight_Description"			"Sangonomy อ่านความคิดของผู้ไม่เห็นด้วยและทำเครื่องหมายควบคุมศัตรูแบบสุ่ม หากเหยื่อพยายามใช้ความสามารถหรือไอเท็มใด ๆ การระเบิดของดาวนิวเคลียร์จะเกิดขึ้น ทำให้เกิดความเสียหายอย่างใหญ่หลวงและทำให้เหยื่อและทุกคนในบริเวณใกล้เคียงเงียบเสียง"
 		
-		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff"							"Метка инакомыслия"
-		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff_Description"				"За вашими мыслями следят! Применение ЛЮБОЙ активной способности или предмета спровоцирует взрыв и наложит безмолвие!"
+		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff"							"ป้ายคัดค้าน"
+		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff_Description"				"ความคิดของคุณกำลังถูกจับตามอง! การใช้ความสามารถหรือไอเท็มที่ใช้งานใด ๆ จะทำให้เกิดการระเบิดและความเงียบ!"
 
 		// 4. ЦЕРЕМОНИЯ СОМЛЕНТА (УЛЬТИМАТУМ)
-		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony"						"Церемония Сомлента"
-		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony_Description"			"Абсолютная власть. Сангономия переходит в Теневое Царство, становясь полностью неуязвимой, невыделяемой и обезоруженной. Во время церемонии она исцеляет свои раны и испускает разрушительные кольцевые волны, которые наносят урон и вызывают жесткое землетрясение."
+		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony"						"พิธีโสมเลนตา"
+		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony_Description"			"พลังที่สมบูรณ์ Sangonomy เข้าสู่ Shadow Realm กลายเป็นอมตะ ตรวจไม่พบ และปลดอาวุธ ในระหว่างพิธี เธอรักษาบาดแผลของเธอและปล่อยคลื่นวงแหวนทำลายล้างที่ก่อให้เกิดความเสียหายและทำให้เกิดแผ่นดินไหวรุนแรง"
 		
-		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff"							"Церемония Сомлента"
-		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff_Description"				"Сангономия полностью неуязвима, восстанавливает здоровье и готовится покарать врагов."
+		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff"							"พิธีโสมเลนตา"
+		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff_Description"				"Sangonomy นั้นคงกระพันอย่างสมบูรณ์ ฟื้นฟูสุขภาพ และเตรียมพร้อมที่จะลงโทษศัตรู"
 
 
-        "npc_dota_hero_ember_spirit"                                "Chen Qianyu 「★★★★★★」" 
+        "npc_dota_hero_ember_spirit"                                "เฉินเฉียนหยู「★」" 
 
-        "DOTA_Tooltip_ability_chen_appercot"                        "<font color='#00BFFF'>「Стиль Чэнь: Восходящий удар」</font>"
-        "DOTA_Tooltip_ability_chen_appercot_Description"            "Чэнь совершает молниеносный удар ножнами. Удар наносит критический урон врагам, подбрасывая их в воздух и пробивая броню. Работает на всех существ."
-        "DOTA_Tooltip_ability_chen_appercot_damage"                 "Критический урон:"
-        "DOTA_Tooltip_ability_chen_appercot_armor"                  "Снижение брони:"
+        "DOTA_Tooltip_ability_chen_appercot"                        "<font color='#00BFFF'>「สไตล์เฉิน: Rising Punch」</font>"
+        "DOTA_Tooltip_ability_chen_appercot_Description"            "เฉินใช้ฝักดาบฟาดสายฟ้า การโจมตีจะสร้างความเสียหายคริติคอลแก่ศัตรู กระแทกพวกมันให้ลอยขึ้นไปในอากาศและเจาะเกราะ ใช้ได้กับสิ่งมีชีวิตทุกชนิด"
+        "DOTA_Tooltip_ability_chen_appercot_damage"                 "ความเสียหายร้ายแรง:"
+        "DOTA_Tooltip_ability_chen_appercot_armor"                  "ลดเกราะ:"
 
-        "DOTA_Tooltip_ability_chen_dash_cool"                       "<font color='#00BFFF'>「Тень Лунга: Стремительный рывок」</font>"
-        "DOTA_Tooltip_ability_chen_dash_cool_Description"           "Чэнь использует свою поразительную скорость, совершая рывок в указанную точку. Все противники на её пути получают мгновенный физический урон и критический удар мечом."
-        "DOTA_Tooltip_ability_chen_dash_cool_damage"                "Урон от рывка:"
+        "DOTA_Tooltip_ability_chen_dash_cool"                       "<font color='#00BFFF'>「เงาของปอด: Swift Charge」</font>"
+        "DOTA_Tooltip_ability_chen_dash_cool_Description"           "Chen ใช้ความเร็วอันน่าทึ่งของเขาพุ่งไปยังจุดเป้าหมาย ศัตรูทั้งหมดที่ขวางทางเธอได้รับความเสียหายทางกายภาพทันทีและการโจมตีคริติคอลด้วยดาบ"
+        "DOTA_Tooltip_ability_chen_dash_cool_damage"                "ความเสียหายเร่งด่วน:"
 
-        "DOTA_Tooltip_ability_chen_lung"                            "<font color='#FFD700'>「Кровь Лунга」</font>"
-        "DOTA_Tooltip_ability_chen_lung_Description"                "Принадлежность к древней расе драконов пассивно снижает любой получаемый Чэнь урон и увеличивает весь исходящий урон."
-        "DOTA_Tooltip_ability_chen_lung_income_tooltip"             "% СНИЖЕНИЕ УРОНА:"
-        "DOTA_Tooltip_ability_chen_lung_outcome"                    "% УВЕЛИЧЕНИЕ УРОНА:"
+        "DOTA_Tooltip_ability_chen_lung"                            "<font color='#FFD700'>「เลือดปอด」</font>"
+        "DOTA_Tooltip_ability_chen_lung_Description"                "การเป็นของเผ่าพันธุ์มังกรโบราณจะช่วยลดความเสียหายที่ Chen ได้รับและเพิ่มความเสียหายทั้งหมดที่ได้รับ"
+        "DOTA_Tooltip_ability_chen_lung_income_tooltip"             "% การลดความเสียหาย:"
+        "DOTA_Tooltip_ability_chen_lung_outcome"                    "% ความเสียหายที่เพิ่มขึ้น:"
 
-        "DOTA_Tooltip_ability_chen_scepter"                         "<font color='#DC143C'>「Чи Сяо: Расколотые небеса」</font>"
-        "DOTA_Tooltip_ability_chen_scepter_Description"             "Высвобождает истинную ауру меча Чи Сяо. Чэнь наносит сокрушительный круговой критический удар всем противникам в огромном радиусе вокруг себя."
-        "DOTA_Tooltip_ability_chen_scepter_damage"                  "Критический урон:"
-        "DOTA_Tooltip_ability_chen_scepter_radius"                  "Радиус поражения:"
+        "DOTA_Tooltip_ability_chen_scepter"                         "<font color='#DC143C'>「Chi Xiao: สวรรค์ที่แตกสลาย」</font>"
+        "DOTA_Tooltip_ability_chen_scepter_Description"             "ปลดปล่อยรัศมีที่แท้จริงของดาบของ Chi Xiao Chen สร้างความเสียหายแบบคริติคอลเป็นวงกลมใส่ศัตรูทุกตัวในรัศมีอันกว้างใหญ่รอบตัวเขา"
+        "DOTA_Tooltip_ability_chen_scepter_damage"                  "ความเสียหายร้ายแรง:"
+        "DOTA_Tooltip_ability_chen_scepter_radius"                  "รัศมีความเสียหาย:"
 
-        "DOTA_Tooltip_ability_chen_shard"                           "<font color='#FFD700'>「Дисциплина L.G.D.」</font>"
-        "DOTA_Tooltip_ability_chen_shard_Description"               "Навыки Офицера Чэнь постоянно оттачиваются в бою. За каждое совершенное убийство (включая крипов) она получает перманентный стак, увеличивающий её базовую ловкость."
-        "DOTA_Tooltip_ability_chen_shard_agi_per_stack"             "Ловкость за убийство:"
+        "DOTA_Tooltip_ability_chen_shard"                           "<font color='#FFD700'>「แอล.จี.ดี. วินัย」</font>"
+        "DOTA_Tooltip_ability_chen_shard_Description"               "ทักษะของเจ้าหน้าที่ Chen ได้รับการฝึกฝนอย่างต่อเนื่องในการต่อสู้ สำหรับการฆ่าทุกครั้งที่เธอทำ (รวมถึงครีป) เธอจะได้รับสแตคถาวรซึ่งจะเพิ่มความคล่องตัวพื้นฐานของเธอ"
+        "DOTA_Tooltip_ability_chen_shard_agi_per_stack"             "ความชำนาญในการฆ่า:"
 
-        "DOTA_Tooltip_ability_chen_ult"                             "<font color='#DC143C'>「Чи Сяо: Бестеневой удар」</font>"
-        "DOTA_Tooltip_ability_chen_ult_Description"                 "Чэнь обнажает свой демонический красный клинок и переходит в состояние неуязвимости. Она обрушивает серию из 7 разрушительных ударов по <b>ВСЕМ</b> врагам в радиусе вокруг себя. Финальный удар наносит колоссальный урон, оглушает и отбрасывает выживших."
-        "DOTA_Tooltip_ability_chen_ult_damage"                      "Урон финального удара:"
-        "DOTA_Tooltip_ability_chen_ult_stun"                        "Длительность оглушения:"
-        "DOTA_Tooltip_ability_chen_ult_dop_agi"                     "Доп. ловкость:"
-        "DOTA_Tooltip_ability_chen_ult_duration"                    "Длительность баффа ловкости:"
+        "DOTA_Tooltip_ability_chen_ult"                             "<font color='#DC143C'>「ชิเสี่ยว: การโจมตีที่ไร้เงา」</font>"
+        "DOTA_Tooltip_ability_chen_ult_Description"                 "Chen ดึงดาบสีแดงปีศาจของเขาออกมา และเข้าสู่สภาวะคงกระพัน เธอปล่อยการโจมตีทำลายล้าง 7 ครั้งต่อศัตรู<b>ทั้งหมด</b>ในรัศมีรอบตัวเธอ การโจมตีครั้งสุดท้ายสร้างความเสียหายมหาศาล สตันและทำให้ผู้รอดชีวิตกระเด็นถอยหลัง"
+        "DOTA_Tooltip_ability_chen_ult_damage"                      "ความเสียหายจากการโจมตีครั้งสุดท้าย:"
+        "DOTA_Tooltip_ability_chen_ult_stun"                        "ระยะเวลาสตัน:"
+        "DOTA_Tooltip_ability_chen_ult_dop_agi"                     "เพิ่ม. ความคล่องตัว:"
+        "DOTA_Tooltip_ability_chen_ult_duration"                    "ระยะเวลาบัฟความคล่องตัว:"
 
 
         // --- ВИДИМЫЕ МОДИФИКАТОРЫ (БАФФЫ/ДЕБАФФЫ) ---
 
-        "DOTA_Tooltip_modifier_chen_appercot_armor"                 "Пробитая броня"
-        "DOTA_Tooltip_modifier_chen_appercot_armor_Description"     "Броня снижена после Восходящего удара Чэнь."
+        "DOTA_Tooltip_modifier_chen_appercot_armor"                 "เกราะแตก"
+        "DOTA_Tooltip_modifier_chen_appercot_armor_Description"     "เกราะลดลงหลังจาก Chen Rising Strike"
 
-        "DOTA_Tooltip_modifier_chen_ult_agi"                        "Концентрация Чи Сяо"
-        "DOTA_Tooltip_modifier_chen_ult_agi_Description"            "Чэнь предельно сконцентрирована. Её ловкость значительно увеличена."
+        "DOTA_Tooltip_modifier_chen_ult_agi"                        "ความเข้มข้นของ Chi Xiao"
+        "DOTA_Tooltip_modifier_chen_ult_agi_Description"            "เฉินมีสมาธิอย่างมาก ความคล่องตัวของเธอเพิ่มขึ้นอย่างมาก"
 
-        "DOTA_Tooltip_modifier_chen_shard_stack"                    "Тренировки L.G.D."
-        "DOTA_Tooltip_modifier_chen_shard_stack_Description"        "Перманентный бонус к ловкости за убийство врагов."
+        "DOTA_Tooltip_modifier_chen_shard_stack"                    "การฝึกอบรมแอล.จี.ดี"
+        "DOTA_Tooltip_modifier_chen_shard_stack_Description"        "โบนัสถาวรสำหรับความคล่องตัวในการฆ่าศัตรู"
 
 		// Q: Appercot
-		"Chen_Scepter_Appercot_Desc"        "Аганим: увеличивает радиус поражения способности до 500."
-		"Talent_Chen_Appercot_10"           "Дополнительно снижает броню задетых врагов на 15 единиц."
-		"Chen_Label_ArmorRed"               "Снижение брони"
+		"Chen_Scepter_Appercot_Desc"        "Aghanim: เพิ่มรัศมีของความสามารถเป็น 500"
+		"Talent_Chen_Appercot_10"           "ลดเกราะของศัตรูที่ได้รับผลกระทบอีก 15 หน่วย"
+		"Chen_Label_ArmorRed"               "ลดเกราะ"
 
 		// W: Dash
-		"Talent_Chen_Dash_15"               "Снижает время перезарядки способности на 5 секунд."
+		"Talent_Chen_Dash_15"               "ลดเวลาคูลดาวน์ของความสามารถลง 5 วินาที"
 
 		// F: Дисциплина L.G.D. (chen_shard)
-		"Chen_Shard_Desc"                   "Шард: за каждое убийство дается 2 стака ловкости вместо 1."
+		"Chen_Shard_Desc"                   "ชิ้นส่วน: สำหรับการฆ่าแต่ละครั้ง จะได้รับ 2 สแต็คของ Agility แทนที่จะเป็น 1"
 		"Talent_Chen_Shard_1"               "Пассивно добавляет к вашим атакам физический урон, равный 20% от текущей Ловкости."
-		"Talent_Chen_Shard_5"               "Увеличивает бонусный урон от Ловкости в атаках с 20% до 50%."
-		"Chen_Label_Stacks"                 "Стаков за убийство"
-		"Chen_Label_AgiDmg20"               "Урон от Ловкости (20%)"
-		"Chen_Label_AgiDmg50"               "Урон от Ловкости (20% ➔ 50%)"
+		"Talent_Chen_Shard_5"               "เพิ่มโบนัสความเสียหาย Dexterity ในการโจมตีจาก 20% เป็น 50%."
+		"Chen_Label_Stacks"                 "สตาคอฟในข้อหาฆาตกรรม"
+		"Chen_Label_AgiDmg20"               "ความเสียหายจากความว่องไว (20%)"
+		"Chen_Label_AgiDmg50"               "ความเสียหายจากความว่องไว (20% ➔ 50%)"
 
 		// R: Ultimate
-		"Talent_Chen_Ult_20"                "Финальный массовый удар ультимейта дополнительно наносит всем врагам чистый урон, равный вашей Ловкости, умноженной на 2."
-		"Chen_Label_UltPureDmg"             "Чистый урон от ЛВК (x2)"
+		"Talent_Chen_Ult_20"                "การโจมตีครั้งใหญ่ครั้งสุดท้ายของท่าไม้ตายจะสร้างความเสียหายเพิ่มเติมให้กับศัตรูทั้งหมดเท่ากับ Dexterity ของคุณคูณ 2"
+		"Chen_Label_UltPureDmg"             "ความเสียหายสุทธิ DEX (x2)"
 
-		"DOTA_Tooltip_ability_item_ancient_repository"                        "<font color='#00e5ff'>Хранилище знаний Древних</font>"
-        "DOTA_Tooltip_ability_item_ancient_repository_Description"            "Расходуемый артефакт. Загружает в мозг владельца базу данных величайшей цивилизации.\n\n<font color='#FFD700'><b>ОЗАРЕНИЕ ДРЕВНИХ (АКТИВНАЯ):</b></font>\nГерой навсегда получает способность использовать любые активные предметы <b>прямо из рюкзака</b>, а также получает перманентный бонус ко всем атрибутам. Эффект не спадает после смерти."
-        "DOTA_Tooltip_ability_item_ancient_repository_Lore"                   "Устройство Древних, которое вводит гигантский объем информации прямо в сознание субъекта. Обычный человек не выдержал бы такой нагрузки..."
-        "DOTA_Tooltip_ability_item_ancient_repository_bonus_all_stats"        "+ Ко всем атрибутам:"
+		"DOTA_Tooltip_ability_item_ancient_repository"                        "<font color='#00e5ff'>คลังความรู้โบราณ</font>"
+        "DOTA_Tooltip_ability_item_ancient_repository_Description"            "สิ่งประดิษฐ์สิ้นเปลือง โหลดฐานข้อมูลอารยธรรมที่ยิ่งใหญ่ที่สุดเข้าสู่สมองของเจ้าของ\n\n<font color='#FFD700'><b>ข้อมูลเชิงลึกของโบราณสถาน (ใช้งานอยู่):</b></font>\nฮีโร่จะได้รับความสามารถในการใช้ไอเท็มที่ใช้งานอยู่อย่างถาวร<b>โดยตรงจากกระเป๋าเป้สะพายหลัง</b>และยังได้รับโบนัสถาวรสำหรับคุณสมบัติทั้งหมดอีกด้วย ผลจะไม่หมดไปหลังความตาย"
+        "DOTA_Tooltip_ability_item_ancient_repository_Lore"                   "อุปกรณ์ของคนโบราณที่แนะนำข้อมูลจำนวนมหาศาลเข้าสู่จิตสำนึกของวัตถุโดยตรง คนธรรมดาไม่สามารถทนต่อภาระเช่นนี้ได้..."
+        "DOTA_Tooltip_ability_item_ancient_repository_bonus_all_stats"        "+ ถึงคุณลักษณะทั้งหมด:"
         
-        "DOTA_Tooltip_modifier_item_ancient_repository_buff"                       "Знания Древних"
-        "DOTA_Tooltip_modifier_item_ancient_repository_buff_Description"           "Ваше сознание расширено технологиями Звёздных Врат. Характеристики увеличены, предметы в рюкзаке активны."
+        "DOTA_Tooltip_modifier_item_ancient_repository_buff"                       "ความรู้ของคนโบราณ"
+        "DOTA_Tooltip_modifier_item_ancient_repository_buff_Description"           "จิตสำนึกของคุณได้รับการขยายด้วยเทคโนโลยีสตาร์เกท คุณลักษณะเพิ่มขึ้น ไอเทมในกระเป๋าเป้สะพายหลังใช้งานได้"
 
-
+		"DOTA_Tooltip_modifier_cu_rune_lvlup_permanent"                 "เร่งการเรียนรู้"
+        "DOTA_Tooltip_modifier_cu_rune_lvlup_permanent_Description"     "ค่าประสบการณ์ที่ได้รับจะเพิ่มขึ้นอย่างถาวร%dMODIFIER_PROPERTY_EXP_RATE_BOOST%%%"
+	
+		"npc_gunduk"													"กยินดิก"
+		"npc_dota_hero_chen"											"เอ-10 ธันเดอร์โบลต์ 2"
 	}	
 }

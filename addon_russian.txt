@@ -1587,48 +1587,78 @@
 
 			"npc_dota_hero_enigma"											"Andromeda「★★★★★」"	
 
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex"									"<font color='#8D7062'>「Universal Chaos」</font>"
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex_description"							"Андромеда вызывает неконтролируемую чёрную дыру, которая засасывает всех в своём радиусе."
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex_aghanim_description"					"Оглушает на 20 сек после попадания в центр воронки."
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex_chargetime"								"Длительность: "
-		"DOTA_Tooltip_ability_gemini_abyssal_vortex_pull_speed"								"Скорость притяжения: "
+			// ==============================================================================
+        // ГЕРОЙ: ANDROMEDA
+        // ==============================================================================
 
-		"DOTA_Tooltip_ability_gemini_dimensionquake"									"<font color='#8D7062'>「Space Distortion」</font>"
-		"DOTA_Tooltip_ability_gemini_dimensionquake_description"							"Андромеда искажает часть мира возле себя."
-		"DOTA_Tooltip_ability_gemini_dimensionquake_stun"									"Длительность оглушения: "
-		"DOTA_Tooltip_ability_gemini_dimensionquake_damage"									"Урон: "
-		"DOTA_Tooltip_ability_gemini_dimensionquake_radius"									"Радиус: "
+        // --- СПОСОБНОСТИ ---
+        
+        "DOTA_Tooltip_ability_nu_gravity_pulse"                         "<font color='#8D7062'>「Impulse of the Matter of the Universe」</font>"
+        "DOTA_Tooltip_ability_nu_gravity_pulse_Description"             "Андромеда создаёт импульс из материи мироздания, наносящий огромный урон и замедляющий врагов."
+        "DOTA_Tooltip_ability_nu_gravity_pulse_damage"                  "Урон:"
+        "DOTA_Tooltip_ability_nu_gravity_pulse_slow_duration"           "Длительность замедления:"
 
-		"DOTA_Tooltip_ability_nu_flux_field"											"<font color='#8D7062'>「Circle of Antimatter」</font>"
-		"DOTA_Tooltip_ability_nu_flux_field_Description"									"Андромеда создаёт поле из антиматерии, которое наносит периодический урон."
-		"DOTA_Tooltip_ability_nu_flux_field_damage_over_time"								"Полный урон: "
-		"DOTA_Tooltip_ability_nu_flux_field_damage_per_cast"								"Урон за применение способности: "
-		"DOTA_Tooltip_ability_nu_flux_field_radius"											"Радиус: "
-		"DOTA_Tooltip_ability_nu_flux_field_duration"										"Длительность: "
-		"DOTA_Tooltip_ability_nu_flux_field_shard_Description"								"Шанс на оглушение увеличен до 50%"
-			"DOTA_Tooltip_modifier_nu_flux_field_aura"											"<font color='#8D7062'>「Circle of Antimatter」</font>"
+        "DOTA_Tooltip_ability_nu_flux_field"                            "<font color='#8D7062'>「Circle of Antimatter」</font>"
+        "DOTA_Tooltip_ability_nu_flux_field_Description"                "Андромеда создаёт поле из антиматерии, которое наносит периодический урон всем врагам внутри."
+        "DOTA_Tooltip_ability_nu_flux_field_damage_over_time"           "Урон в секунду:"
+        "DOTA_Tooltip_ability_nu_flux_field_radius"                     "Радиус:"
+        "DOTA_Tooltip_ability_nu_flux_field_duration"                   "Длительность:"
 
-		"DOTA_Tooltip_ability_nu_gravity_pulse"                                         "<font color='#8D7062'>「Impulse of the Matter of the Universe」</font>"
-		"DOTA_Tooltip_ability_nu_gravity_pulse_Description"									"Андромеда создаёт импульс из материи мироздания."
-		"DOTA_Tooltip_ability_nu_gravity_pulse_slow"										"Замедление: "
-		"DOTA_Tooltip_ability_nu_gravity_pulse_slow_duration"								"Длительность замедления: "
-		"DOTA_Tooltip_ability_nu_gravity_pulse_damage"										"Урон: "
-		"DOTA_Tooltip_ability_nu_gravity_pulse_scepter_Description"							"Изменяет тип урона на чистый."
+        "DOTA_Tooltip_ability_aghs_elemental_vortex"                    "<font color='#8D7062'>「Collapsar」</font>"
+        "DOTA_Tooltip_ability_aghs_elemental_vortex_Description"        "Андромеда создаёт чёрную дыру, которая засасывает в себя всех вражеских юнитов, нанося им периодический чистый урон и оглушая."
+        "DOTA_Tooltip_ability_aghs_elemental_vortex_damage"             "Чистый урон (в сек):"
+        "DOTA_Tooltip_ability_aghs_elemental_vortex_duration"           "Длительность:"
+        "DOTA_Tooltip_ability_aghs_elemental_vortex_radius"             "Радиус:"
 
-		"DOTA_Tooltip_ability_nu_warpstar"												"<font color='#8D7062'>「Galaxy Journey」</font>"
-		"DOTA_Tooltip_ability_nu_warpstar_Description"										"Андромеда создаёт временной разлом, телепортируя существ к себе."
-		"DOTA_Tooltip_ability_nu_warpstar_damage"											"Урон: "
-		"DOTA_Tooltip_ability_nu_warpstar_slow"												"Замедление: "
-		"DOTA_Tooltip_ability_nu_warpstar_stun"												"Оглушение: "
-		"DOTA_Tooltip_ability_nu_warpstar_radius"											"Радиус: "
-		"DOTA_Tooltip_ability_nu_warpstar_delay"											"Задержка: "
+        "DOTA_Tooltip_ability_nu_warpstar"                              "<font color='#8D7062'>「Galaxy Journey」</font>"
+        "DOTA_Tooltip_ability_nu_warpstar_Description"                  "Андромеда искажает пространство и телепортируется в выбранную точку. После перемещения она стягивает всех врагов в огромном радиусе к себе, становится полностью неуязвимой и наносит каждому притянутому врагу серию мгновенных атак."
+        "DOTA_Tooltip_ability_nu_warpstar_pull_radius"                  "Радиус стягивания:"
+        "DOTA_Tooltip_ability_nu_warpstar_invuln_duration"              "Длительность неуязвимости:"
 
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex"									"<font color='#8D7062'>「Collapsar」</font>"
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex_Description"							"Андромеда создаёт чёрную дыру, которая засасывает в себя всех вражеских юнитов и наносит урон."
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex_damage"									"Урон: "
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex_duration"								"Длительность: "
-		"DOTA_Tooltip_Ability_aghs_elemental_vortex_far_radius"								"Радиус: "
+        "DOTA_Tooltip_ability_gemini_dimensionquake"                    "<font color='#8D7062'>「Universal Code Hack」</font>"
+        "DOTA_Tooltip_ability_gemini_dimensionquake_Description"        "Андромеда взламывает код вселенной. Сбрасывает перезарядку врат или перевыбирает активный квест на врата."
 
+        "DOTA_Tooltip_ability_item_divine_hole"                         "<font color='#FFD700'>Божественная дырочка</font>"
+        "DOTA_Tooltip_ability_item_divine_hole_Description"             "Предмет невероятной мощи. Можно применить только на Андромеду на вашей базе для её возвышения до максимума."
+
+
+        // --- ВИДИМЫЕ МОДИФИКАТОРЫ (БАФФЫ/ДЕБАФФЫ) ---
+
+        "DOTA_Tooltip_modifier_nu_gravity_pulse_slow"                   "Импульс мироздания"
+        "DOTA_Tooltip_modifier_nu_gravity_pulse_slow_Description"       "Скорость передвижения значительно снижена."
+
+        "DOTA_Tooltip_modifier_nu_gravity_pulse_aghs"                   "Уязвимость к материи"
+        "DOTA_Tooltip_modifier_nu_gravity_pulse_aghs_Description"       "Получаемый урон от Импульса мироздания увеличен."
+
+        "DOTA_Tooltip_modifier_nu_flux_field_aura"                      "Поле антиматерии"
+        "DOTA_Tooltip_modifier_nu_flux_field_aura_Description"          "Получает периодический урон."
+
+        "DOTA_Tooltip_modifier_nu_flux_field_shard_resist"              "Распад антиматерии"
+        "DOTA_Tooltip_modifier_nu_flux_field_shard_resist_Description"   "Магическое сопротивление снижено из-за нахождения в поле."
+
+        "DOTA_Tooltip_modifier_aghs_vortex_channel"                     "Коллапсар"
+        "DOTA_Tooltip_modifier_aghs_vortex_channel_Description"         "Поддержание чёрной дыры."
+
+        "DOTA_Tooltip_modifier_nu_warpstar_invuln"                      "Галактическое путешествие"
+        "DOTA_Tooltip_modifier_nu_warpstar_invuln_Description"          "Андромеда полностью неуязвима к любому урону."
+
+        "DOTA_Tooltip_modifier_nu_warpstar_c1"                          "Галактическое путешествие: Сила"
+        "DOTA_Tooltip_modifier_nu_warpstar_c1_Description"              "Исходящий урон Андромеды временно увеличен."
+
+		// Gravity Pulse
+		"Andromeda_Scepter_Gravity_Desc"    "Накладывает на задетых врагов дебафф на 10 секунд. Каждый стак дебаффа увеличивает получаемый от этой способности урон на 15%."
+		"Talent_Andromeda_C2"               "Добавляет к способности бонусный урон. Величина бонуса бесконечно скалируется по формуле от количества ваших копий Андромеды."
+		"Andromeda_Label_C2_Damage"         "Бонус (Доп. Урон)"
+		"Andromeda_Shard_Flux_Desc"         "Шард: каждое срабатывание поля оглушает врагов на 0.2 сек и снижает их магическое сопротивление на 2% (эффект складывается до 12 раз / -24%)."
+		"Talent_Andromeda_C4"               "Враги внутри поля получают увеличенный урон. Процент уязвимости скалируется от количества ваших копий."
+		"Andromeda_Label_C4_Amp"            "Бонус (Уязвимость)"
+		"Talent_Andromeda_C5"               "Увеличивает длительность существования черной дыры. Добавочное время скалируется от количества ваших копий."
+		"Andromeda_Label_C5_Duration"       "Бонус (Длительность)"
+		"Talent_Andromeda_C1"               "После телепортации увеличивает ваш исходящий урон на 6 секунд. Процент усиления скалируется от количества ваших копий."
+		"Andromeda_Label_C1_OutDamage"      "Бонус (Исходящий урон)"
+		"Talent_Andromeda_C3"               "Снижает фиксированную перезарядку способности (минимум до 1 сек). Снижение скалируется от количества ваших копий."
+		"Andromeda_Label_C3_Cooldown"       "Бонус (Снижение КД)"
+		"Talent_Andromeda_C6"               "C6 (1000 копий): При появлении в игре выдает предмет «Божественная Дырочка», который можно применить только на принцессу базы."
 
 			"npc_dota_hero_leshrac"  										"Energy Mage"
 
@@ -2355,50 +2385,6 @@
 		"DOTA_Tooltip_ability_bvo_orihime_skill_5_Description" 								"Ставит купол который наносит урон."
 		"DOTA_Tooltip_ability_bvo_orihime_skill_5_duration" 								"Длительность: "
 		"DOTA_Tooltip_ability_bvo_orihime_skill_5_radius" 									"Радиус: "
-
-
-			"npc_dota_hero_silencer"    									"9K31 «Strela-1»「★★★」"
-
-		"DOTA_Tooltip_Ability_9k31_upgrade"												"9К31 «Стрела́-1»"
-		"DOTA_Tooltip_Ability_9k31_upgrade_Description"										"Улучшает характеристики ЗРК «Стрела́-1»"
-		"DOTA_Tooltip_Ability_9k31_upgrade_bonus_health"									"Здоровье: "
-		"DOTA_Tooltip_Ability_9k31_upgrade_bonus_armor"										"Броня: "
-		"DOTA_Tooltip_Ability_9k31_upgrade_passive_speed"									"Скорость: "
-
-		"DOTA_Tooltip_Ability_mq9_9k31"													"MQ-9 Reaper" 
-		"DOTA_Tooltip_Ability_mq9_9k31_Description"											"MQ-9 Reaper (с англ. — «жнец, жатва»; намёк на выражение Grim Reaper — «мрачный жнец», то есть смерть) — разведывательно-ударный БПЛА, разработанный компанией General Atomics Aeronautical Systems (подразделением корпорации General Dynamics) для использования в ВВС США, ВМС США и Британских ВВС. Первый полёт состоялся 2 февраля 2001 года."
-		"DOTA_Tooltip_Ability_mq9_9k31_cd"												"Перезарядка: "
-
-		"DOTA_Tooltip_ability_strela_attack"											"9М37 ЗРК «Стрела-10»"
-		"DOTA_Tooltip_ability_strela_attack_Description"									"Зенитная управляемая ракета (ЗУР) 9М37 предназначена для уничтожения самолетов, вертолетов, крылатых ракет и прочих воздушных целей. Данная модификация позволяет атаковать наземные цели.<br>Каждая ракета имеет осколочную боевую часть, которая при попадании разлетается на 30 осколков.<br>Радиус разлёта осколков - от 300 до 1500 единиц. <br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!<br><br><font color='#F32929'>На данную способность не работают предметы на уменьшение перезарядки!</font>"
-        "DOTA_Tooltip_ability_strela_attack_projectile_count"								"Всего ракет: "
-        "DOTA_Tooltip_ability_strela_attack_projectile_speed"								"Скорость ракеты: "
-        "DOTA_Tooltip_ability_strela_attack_impact_radius"									"Радиус поражения: "
-        "DOTA_Tooltip_ability_strela_attack_damage_per_impact"								"Урон за ракету: "
-        "DOTA_Tooltip_ability_strela_attack_burn_interval"									"Интервал горения от попадания: "
-        "DOTA_Tooltip_ability_strela_attack_burn_damage"									"Урон от горения: "
-        "DOTA_Tooltip_ability_strela_attack_blob_rings_count"								"Количество зарядов в касетной ракете: "
-		"DOTA_Tooltip_ability_strela_attack_scepter_Description"							"Добавляет бонусный урон - интеллект * 1.5"
-		"DOTA_Tooltip_ability_strela_attack_shard_Description"								"Изменяет тип урона на чистый."
-		"DOTA_Tooltip_modifier_imba_snapfire_magma_burn_slow"								"9М37 ЗРК «Стрела-10»"
-
-        "DOTA_Tooltip_Ability_strela_explosion"											"9К31 «Стрела́-1» Боекомплект"
-		"DOTA_Tooltip_Ability_strela_explosion_Description"									"При уничтожении детонирует весь боекомплект, нанося урон, а также оглушает врага."
-		"DOTA_Tooltip_Ability_strela_explosion_radius"										"Радиус: "
-		"DOTA_Tooltip_Ability_strela_explosion_stun"										"Оглушение: "
-        "DOTA_Tooltip_Ability_strela_explosion_respawn"										"Время возрождения: "
-
-        "DOTA_Tooltip_Ability_strela_age"												"9К31 «Стрела́-1» Разработка"
-		"DOTA_Tooltip_Ability_strela_age_Description"										"Экипаж получает боевой опыт и обучается новым навыкам."
-		"DOTA_Tooltip_Ability_strela_age_min_exp"											"Минимальный опыт:"
-		"DOTA_Tooltip_Ability_strela_age_max_exp"											"Максимальный опыт:"
-
-		"DOTA_Tooltip_Ability_mq9_predator"												"MQ-9 Reaper" 
-		"DOTA_Tooltip_Ability_mq9_predator_Description"										"MQ-9 Reaper (с англ. — «жнец, жатва»; намёк на выражение Grim Reaper — «мрачный жнец», то есть смерть) — разведывательно-ударный БПЛА. <br>Призывает беспилотник, который кружит над вашим героем и атакует всех вражеских юнитов вокруг."
-		"DOTA_Tooltip_Ability_mq9_predator_damage"											"Урон: "
-        "DOTA_Tooltip_Ability_mq9_predator_attack_speed"									"Скорость обстрела: "
-        "DOTA_Tooltip_Ability_mq9_predator_life"											"Длительность: "
-
 
 			"npc_dota_hero_bristleback" 									"AH-64D «Apache»「★★★★」"
 			        
@@ -3772,7 +3758,6 @@
 		"npc_dota_hero_disruptor_race" 			"Раса: «Armored»"
 		"npc_dota_hero_tiny_race" 				"Раса: «Alteran»"
 		"npc_dota_hero_luna_race" 				"Раса: «Armored»"
-		"npc_dota_hero_silencer_race" 			"Раса: «Armored»"
 		"npc_dota_hero_drow_ranger_race" 		"Раса: «Tau'ri»"
 		"npc_dota_hero_oracle_race" 			"Раса: «Spirits»"
 		"npc_dota_hero_furion_race" 			"Раса: «Spirits»"
@@ -3782,7 +3767,7 @@
 		"npc_dota_hero_enigma_race" 			"Раса: «Spirits»"
 		"npc_dota_hero_sniper_race" 			"Раса: «Tau'ri»"
 		"npc_dota_hero_spirit_breaker_race" 	"Раса: «Tau'ri»"
-		"npc_dota_hero_winter_wyvern_race" 		"Раса: «Tau'ri»"
+		"npc_dota_hero_winter_wyvern_race" 		"Раса: «Armored»"
 		"npc_dota_hero_naga_siren_race" 		"Раса: «Ori»"
 		"npc_dota_hero_slark_race" 				"Раса: «Ori»"
 		"npc_dota_hero_dark_willow_race" 		"Раса: «Ori»"
@@ -4729,7 +4714,6 @@
 -Izayoi Sakuya<br>
 -Kizaru<br>
 -Cirno<br>
--9K31 «Strela-1»<br>
 -Eternity<br>
 -Emilia<br>
 -Ran Yakumo<br>
@@ -4887,17 +4871,6 @@
 		"npc_dota_hero_shredder_t4"		"Улучшает - <font color='#fd7427'>「3ОФ26」</font><br><br> Изменяет тип наносимого урона по области на ЧИСТЫЙ."
 		"npc_dota_hero_shredder_t5"		"Улучшает - <font color='#fd2727'>「3БМ46/3БМ48」</font><br> <font color='#f9fd27'>「3БК29(М)」</font><br><font color='#fd7427'>「3ОФ26」</font><br><br>Убирает перезарядку между переключением на разные типа снарядов, так-же переключение сработает даже если отметить перезарядку."
 		"npc_dota_hero_shredder_t6"		"Улучшает - <br><font color='#f9fd27'>「3БК29(М)」</font><br><font color='#fd7427'>「3ОФ26」</font><br><br> Убирает затраты энергии на все типы снарядов. <br><br><font color='#fd7427'>「9М112М2」</font><br><br> Увеличивает наносимый урон в 15 раз"
-
-		"npc_dota_hero_silencer_t2_name"		"-「MQ-9 Predator」_-"
-		"npc_dota_hero_silencer_t3_name"		"-「Поддержка Оверлорда」_-"
-		"npc_dota_hero_silencer_t4_name"		"-「9M37 ЗРК」_-"
-		"npc_dota_hero_silencer_t5_name"		"-「9M37 Белый Фосфор」_-"
-		"npc_dota_hero_silencer_t6_name"		"-「9M37 ЗРК Боезапас」_-"
-		"npc_dota_hero_silencer_t2"		"Улучшает - MQ-9 Reaper<br><br> Уменьшает перезарядку на 10 секунд на всех уровнях."
-		"npc_dota_hero_silencer_t3"		"Улучшает - MQ-9 Reaper<br><br> Увеличивает количество выстрелов до 2."
-		"npc_dota_hero_silencer_t4"		"Улучшает - 9M37 ЗРК<br><br> Уменьшает перезарядку до 30 секунд."
-		"npc_dota_hero_silencer_t5"		"Улучшает - 9M37 ЗРК<br><br> Увеличивает урон от горения в 5 раз и добавляет множитель интеллекта; увеличивает длительность горения в 4 раза."
-		"npc_dota_hero_silencer_t6"		"Улучшает - 9M37 ЗРК<br><br> Увеличивает количество ракет до 12."
 
 		"npc_dota_hero_bristleback_t2_name"		"-「HYDRA 70」_-"
 		"npc_dota_hero_bristleback_t3_name"		"-「AGM-114」_-"
@@ -6000,7 +5973,6 @@
 		"npc_dota_hero_storm_spirit_dificult" 		"Сложность героя: «Нормально»"
 		"npc_dota_hero_lina_dificult" 				"Сложность героя: «Нормально»"
 		"npc_dota_hero_luna_dificult" 				"Сложность героя: «Нормально»"
-		"npc_dota_hero_silencer_dificult" 			"Сложность героя: «Нормально»"
 		"npc_dota_hero_drow_ranger_dificult" 		"Сложность героя: «Легко»"
 		"npc_dota_hero_oracle_dificult" 			"Сложность героя: «Нормально»"
 		"npc_dota_hero_furion_dificult" 			"Сложность героя: «Нормально»"
@@ -6058,6 +6030,7 @@
 		"npc_dota_hero_abyssal_underlord_dificult"	"Сложность героя: «Нормально»"
 		"npc_dota_hero_sand_king_dificult"			"Сложность героя: «Нормально»"
 		"npc_dota_hero_ember_spirit_dificult"		"Сложность героя: «Легко»"
+		"npc_dota_hero_chen_dificult"				"Сложность героя: «Легко»"
 
 		"role_type_1"							"Роль: <font color='#119e09'>«Основной ДПС»</font>"
 		"role_type_2"							"Роль: <font color='#a822ba'>«Магический ДПС»</font>"
@@ -6077,7 +6050,6 @@
 		"npc_dota_hero_disruptor_rare" 			"Баннер: «История Андромеды»"
 		"npc_dota_hero_tiny_rare" 				"Баннер: «История Андромеды»"
 		"npc_dota_hero_luna_rare" 				"Баннер: «История Андромеды»"
-		"npc_dota_hero_silencer_rare" 			"Баннер: «История Андромеды»"
 		"npc_dota_hero_drow_ranger_rare" 		"Персонаж игрока: Jekob"
 		"npc_dota_hero_oracle_rare" 			"Баннер: «История Андромеды»"
 		"npc_dota_hero_furion_rare" 			"Баннер: «История Андромеды»"
@@ -6135,6 +6107,7 @@
 		"npc_dota_hero_abyssal_underlord_rare"	"Персонаж игрока: Emiya"
 		"npc_dota_hero_sand_king_rare"			"Получение: «Засекречено»"
 		"npc_dota_hero_ember_spirit_rare"		"Персонаж игрока Kurumi"
+		"npc_dota_hero_chen_rare"				"Получение: «Засекречено»"
 
 		"npc_dota_hero_queenofpain_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_warlock_damage" 				"Источник: «Guardians of Universe»"
@@ -6149,7 +6122,6 @@
 		"npc_dota_hero_lina_damage" 				"Источник: «Guardians of Universe»"
 		"npc_dota_hero_tiny_damage" 				"Источник: «Guardians of Universe»"
 		"npc_dota_hero_luna_damage" 				"Источник: «Guardians of Universe»"
-		"npc_dota_hero_silencer_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_drow_ranger_damage" 			"Источник: «Guardians of Universe»"
 		"npc_dota_hero_oracle_damage" 				"Источник: «Guarding Athena»"
 		"npc_dota_hero_furion_damage" 				"Источник: «Anime»"
@@ -6205,10 +6177,12 @@
 		"npc_dota_hero_zuus_damage"					"Источник: «Guardians of Universe»"
 		"npc_dota_hero_abyssal_underlord_damage"	"Источник: «Touhou»"
 		"npc_dota_hero_sand_king_damage"			"Источник: «Guardians of Universe»"
+		"npc_dota_hero_chen_damage"			"Источник: «Guardians of Universe»"
 
 		"npc_dota_hero_ember_spirit_weapon" 		"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
 		"npc_dota_hero_warlock_weapon" 				"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
 		"npc_dota_hero_ancient_apparition_weapon" 	"Вооружение: <font color='#ff565d'>«Орудие»</font>"
+		"npc_dota_hero_chen_weapon" 				"Вооружение: <font color='#ff565d'>«GAU-8, AGM-65, GBU-12»</font>"
 		"npc_dota_hero_bristleback_weapon" 			"Вооружение: <font color='#ff565d'>«Орудие»</font>"  
 		"npc_dota_hero_lycan_weapon" 				"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
 		"npc_dota_hero_abaddon_weapon" 				"Вооружение: <font color='#ffb056'>«Одноручный Меч»</font>"
@@ -6219,7 +6193,6 @@
 		"npc_dota_hero_lina_weapon" 				"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
 		"npc_dota_hero_tiny_weapon" 				"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
 		"npc_dota_hero_luna_weapon" 				"Вооружение: <font color='#ff565d'>«Орудие»</font>"
-		"npc_dota_hero_silencer_weapon" 			"Вооружение: <font color='#ff565d'>«Орудие»</font>"
 		"npc_dota_hero_drow_ranger_weapon" 			"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
 		"npc_dota_hero_oracle_weapon" 				"Вооружение: <font color='#ff38f0'>«Катализатор»</font>"
 		"npc_dota_hero_furion_weapon" 				"Вооружение: <font color='#fcff56'>«Двуручный Меч»</font>"
@@ -6522,7 +6495,6 @@
 -Izayoi Sakuya<br>
 -Kizaru<br>
 -Cirno<br>
--9K31 «Strela-1»<br>
 -Eternity<br>
 -Emilia<br>
 -Ran Yakumo<br>
@@ -8944,7 +8916,7 @@
 		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff_Description"				"Сангономия полностью неуязвима, восстанавливает здоровье и готовится покарать врагов."
 
 
-        "npc_dota_hero_ember_spirit"                                "Chen Qianyu 「★★★★★★」" 
+        "npc_dota_hero_ember_spirit"                                "Chen Qianyu 「★」" 
 
         "DOTA_Tooltip_ability_chen_appercot"                        "<font color='#00BFFF'>「Стиль Чэнь: Восходящий удар」</font>"
         "DOTA_Tooltip_ability_chen_appercot_Description"            "Чэнь совершает молниеносный удар ножнами. Удар наносит критический урон врагам, подбрасывая их в воздух и пробивая броню. Работает на всех существ."
@@ -9016,6 +8988,10 @@
         "DOTA_Tooltip_modifier_item_ancient_repository_buff"                       "Знания Древних"
         "DOTA_Tooltip_modifier_item_ancient_repository_buff_Description"           "Ваше сознание расширено технологиями Звёздных Врат. Характеристики увеличены, предметы в рюкзаке активны."
 
-
+		"DOTA_Tooltip_modifier_cu_rune_lvlup_permanent"                 "Ускоренное обучение"
+        "DOTA_Tooltip_modifier_cu_rune_lvlup_permanent_Description"     "Получаемый опыт перманентно увеличен на %dMODIFIER_PROPERTY_EXP_RATE_BOOST%%%."
+	
+		"npc_gunduk"													"Гындык"
+		"npc_dota_hero_chen"											"A-10 Thunderbolt II"
 	}	
 }
