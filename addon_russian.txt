@@ -2032,39 +2032,91 @@
 
 			"npc_dota_hero_shredder" 										 "Т-90М «Breakthrough»「★★★★★」"
 
-		"DOTA_Tooltip_Ability_t90_upgrade"												"Т-90М «Breakthrough»"
-		"DOTA_Tooltip_Ability_t90_upgrade_Description"										"Улучшает характеристики танка.<br><font color='#fc0303'>Скорость атаки и базовое время атаки нельзя изменить!</font>"
-		"DOTA_Tooltip_Ability_t90_upgrade_bonus_health"										"К здоровью: "
-		"DOTA_Tooltip_Ability_t90_upgrade_bonus_armor"										"Броня: "
-		"DOTA_Tooltip_Ability_t90_upgrade_bonus_damage"										"Урон: "
-		"DOTA_Tooltip_Ability_t90_upgrade_reload_time"										"Базовое время атаки: "
-		"DOTA_Tooltip_Ability_t90_upgrade_attack_range_bonus"								"Дальность стрельбы: "
-		"DOTA_Tooltip_Ability_t90_upgrade_passive_speed"									"Скорость: "
-		"DOTA_Tooltip_Ability_t90_upgrade_bonus_damage_hp_pct"								"%Урон от максимального здоровья врага: "
-
-        "DOTA_Tooltip_Ability_tankdrob"													"3Ш1"
-		"DOTA_Tooltip_Ability_tankdrob_Description"											"При активации в радиусе 1500 выстреливает дополнительный снаряд по случайному вражескому юниту."
-		"DOTA_Tooltip_Ability_tankdrob_arrow_count"											"Количество дополнительных выстрелов:"
-			"DOTA_Tooltip_modifier_multishot" 													"3Ш1"
-
-		"DOTA_Tooltip_Ability_tankvistel"												"2А46М-5 Подкалиберный"
-		"DOTA_Tooltip_Ability_tankvistel_Description"										"Производит выстрел по цели подкалиберным снарядом с большой скоростью полёта.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_Ability_tankvistel_damage"											"Урон: "
-		"DOTA_Tooltip_Ability_tankvistel_stun"												"Оглушение: "
-		"DOTA_Tooltip_Ability_tankvistel_damage_multi"										"Множитель Силы (с талантом): "
+		// ==========================================
+		// Т-90М «Прорыв» (Способности)
+		// ==========================================
 		
-		"DOTA_Tooltip_Ability_tankroket"												"ПТУР «Инвар-М»"
-		"DOTA_Tooltip_Ability_tankroket_Description"										"С определённым шансом Т-90 может выстрелить ракетой по врагу."
-		"DOTA_Tooltip_Ability_tankroket_damage"												"Урон: "
-		"DOTA_Tooltip_Ability_tankroket_chance"												"%Шанс: "
-		"DOTA_Tooltip_Ability_tankroket_scepter_Description"							"Добавляет бонусный урон - сила * 1.2"
-		"DOTA_Tooltip_Ability_tankroket_shard_Description"								"Изменяет тип урона на чистый."
+		"DOTA_Tooltip_ability_gu_t90_passive_armor"					"МДЗ «Реликт»"
+		"DOTA_Tooltip_ability_gu_t90_passive_armor_Description"		"Модульная динамическая защита. Пассивно блокирует 25% всего входящего урона, увеличивает броню и здоровье. Устанавливает жесткое базовое время атаки, которое невозможно изменить предметами."
+		"DOTA_Tooltip_ability_gu_t90_passive_armor_bonus_health"	"Бонусное здоровье:"
+		"DOTA_Tooltip_ability_gu_t90_passive_armor_dmg_reduction"	"Блокирование урона (%):"
+		"DOTA_Tooltip_ability_gu_t90_passive_armor_bonus_armor"		"Бонусная броня:"
+		"DOTA_Tooltip_ability_gu_t90_passive_armor_bat"				"Базовое время атаки:"
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_basic"					"3БМ60 «Свинец-2» (БОПС)"
+		"DOTA_Tooltip_ability_gu_t90_ammo_basic_Description"		"Бронебойный оперённый подкалиберный снаряд. <font color='#a3a3a3'>Не требует энергии.</font>\n\nПри атаке игнорирует процент брони цели. Работает на боссах (не пробивает невосприимчивость к магии). Если запас энергии танка иссякнет, орудие автоматически перейдет на этот тип боеприпасов."
+		"DOTA_Tooltip_ability_gu_t90_ammo_basic_armor_ignore_pct"	"Игнорирование брони (%):"
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_ap"						"3БК31 «Старт» (Кумулятивный)"
+		"DOTA_Tooltip_ability_gu_t90_ammo_ap_Description"			"Кумулятивный боеприпас. <font color='#00a2ff'>Тратит энергию при выстреле.</font>\n\nАтака прожигает броню врага на 10 секунд и оглушает его на 1 секунду. Пробивает невосприимчивость к магии и работает на боссах. Эффект снижения брони не складывается."
+		"DOTA_Tooltip_ability_gu_t90_ammo_ap_armor_reduction"		"Снижение брони:"
+		"DOTA_Tooltip_ability_gu_t90_ammo_ap_stun_duration"			"Оглушение (сек):"
+		"DOTA_Tooltip_ability_gu_t90_ammo_ap_energy_pct"			"Расход энергии (% от макс.):"
+		"DOTA_Tooltip_ability_gu_t90_ammo_ap_energy_flat"			"Расход энергии (ед.):"
+
+		"DOTA_Tooltip_ability_gu_t90_ammo_he"						"3ОФ82 «Тельник» (Осколочно-фугасный)"
+		"DOTA_Tooltip_ability_gu_t90_ammo_he_Description"			"Осколочно-фугасный снаряд с электронным взрывателем. <font color='#00a2ff'>Тратит энергию при выстреле.</font>\n\nАтака наносит сплеш-урон по области и контузит врагов, замедляя их атаку и передвижение на 30%. Работает на боссах (не пробивает невосприимчивость)."
+		"DOTA_Tooltip_ability_gu_t90_ammo_he_splash_radius"			"Радиус поражения:"
+		"DOTA_Tooltip_ability_gu_t90_ammo_he_slow_pct"				"Замедление атаки и бега (%):"
+		"DOTA_Tooltip_ability_gu_t90_ammo_he_slow_duration"			"Длительность контузии:"
+		"DOTA_Tooltip_ability_gu_t90_ammo_he_energy_pct"			"Расход энергии (% от макс.):"
+		"DOTA_Tooltip_ability_gu_t90_ammo_he_energy_flat"			"Расход энергии (ед.):"
+
+		"DOTA_Tooltip_ability_gu_t90_active_strike"					"КУВ «Рефлекс-М» (Термобарический)"
+		"DOTA_Tooltip_ability_gu_t90_active_strike_Description"		"Запуск управляемой ракеты 9М119М1 с термобарической боевой частью по огромной площади. <font color='#00a2ff'>Потребляет колоссальное количество энергии.</font>\n\nОглушает врагов и наносит сокрушительный физический урон в процентах от их максимального здоровья. Пробивает невосприимчивость."
+		"DOTA_Tooltip_ability_gu_t90_active_strike_radius"			"Радиус взрыва:"
+		"DOTA_Tooltip_ability_gu_t90_active_strike_stun_duration"	"Оглушение (сек):"
+		"DOTA_Tooltip_ability_gu_t90_active_strike_hp_dmg_pct"		"Урон от макс. здоровья (%):"
+		"DOTA_Tooltip_ability_gu_t90_active_strike_energy_pct"		"Расход энергии (% от макс.):"
+		"DOTA_Tooltip_ability_gu_t90_active_strike_energy_flat"		"Расход энергии (ед.):"
+
+		"DOTA_Tooltip_ability_gu_t90_aps"							"КАЗ «Арена-М» / КОЭП «Штора-1»"
+		"DOTA_Tooltip_ability_gu_t90_aps_Description"				"Переключаемый комплекс активной защиты.\n\n<font color='#fc0303'>В активном режиме:</font> постоянно потребляет энергию и дает шанс заблокировать любой входящий урон (имеет внутреннюю перезарядку).\n<font color='#55ff00'>В пассивном режиме:</font> значительно ускоряет регенерацию энергии, если танк не получает урон более 10 секунд (при получении урона регенерация падает в 10 раз)."
+		"DOTA_Tooltip_ability_gu_t90_aps_block_chance"				"Шанс перехвата урона (%):"
+		"DOTA_Tooltip_ability_gu_t90_aps_block_cd"					"Перезарядка перехвата (сек):"
+		"DOTA_Tooltip_ability_gu_t90_aps_energy_pct"				"Расход энергии в сек (%):"
+		"DOTA_Tooltip_ability_gu_t90_aps_energy_flat"				"Расход энергии в сек (ед):"
+		"DOTA_Tooltip_ability_gu_t90_aps_regen_buff_pct"			"Ускорение регенерации (%):"
+
+		// ==========================================
+		// Т-90М «Прорыв» (Модификаторы)
+		// ==========================================
 		
-		"DOTA_Tooltip_Ability_kymylativ"												"2А46М-5 Кумулятивный"
-		"DOTA_Tooltip_Ability_kymylativ_Description"										"При каждом попадании по врагу у него будет уменьшаться броня, эффект складывается.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_Ability_kymylativ_armor_reduction"									"Повреждение брони цели за выстрел: "
-        "DOTA_Tooltip_modifier_sentinel_armor_reduction_show" 							"Броня повреждена"
-        "DOTA_Tooltip_modifier_multishot" 													"3Ш1"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_manager"					"Заряжен боеприпас"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_manager_Description"		"Орудие готово к выстрелу выбранным типом снаряда."
+
+		"DOTA_Tooltip_modifier_gu_t90_ammo_ap_debuff"				"Пробитие брони (Кумулятивный)"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_ap_debuff_Description"	"Броня расплавлена кумулятивной струей."
+
+		"DOTA_Tooltip_modifier_gu_t90_ammo_he_slow"					"Контузия (Осколочно-фугасный)"
+		"DOTA_Tooltip_modifier_gu_t90_ammo_he_slow_Description"		"Осколки и взрывная волна снизили скорость передвижения и атаки на 30%."
+
+		"DOTA_Tooltip_modifier_gu_t90_consta_armor"					"Тактическое преимущество (Конста 1)"
+		"DOTA_Tooltip_modifier_gu_t90_consta_armor_Description"		"Танк получил +5 к броне за каждого задетого сплешем врага."
+
+		// Пассивная броня (Skill 1)
+		"Talent_T90_Passive_20"             "Танк становится полностью неуязвимым к урону от артиллерии."
+
+		// Базовый снаряд (Skill 2)
+		"T90_Shard_BasicAmmo_Desc"          "Увеличивает процент игнорируемой брони цели базовым снарядом на 7%."
+		"T90_Label_ArmorIgnore"             "Пробивание брони"
+
+		// Бронебойный снаряд (Skill 3)
+		"Talent_T90_APAmmo_5"               "Бронебойный снаряд дополнительно снижает броню цели на 30 единиц."
+		"T90_Label_ArmorReduction"          "Снижение брони"
+
+		// Фугасный снаряд (Skill 4)
+		"Talent_T90_HEAmmo_1"               "При попадании фугасным снарядом танк получает +5 брони на 10 секунд за каждого задетого врага."
+
+		// Артиллерийский удар (Skill 5)
+		"Talent_T90_Strike_10"              "Увеличивает длительность оглушения от артиллерийского удара до 12 секунд."
+		"T90_Label_StrikeStun"              "Оглушение"
+
+		// Штора / КАЗ (Skill 6)
+		"T90_Scepter_APS_Desc"              "Снижает частоту потребления энергии активной защитой в 2 раза (с 0.5 до 1.0 сек)."
+		"Talent_T90_APS_15"                 "Снижает затраты энергии на поддержание КАЗ (потребление становится: 1% + половина от базового плоского значения)."
+		"T90_Label_APSEnergy"               "Потребление энергии"
+
 
 
 			"npc_dota_hero_monkey_king"										"Tyrael「★★★★★」"
@@ -3097,7 +3149,7 @@
 		"DOTA_Tooltip_ability_item_octarine_core_cu_5_bonus_mana_regen"						"+к регенерации маны:"
 
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock"									"刻々帝"
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности."
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все базовые способности."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_str"							"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_agi"							"+к ловкости"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_int"							"+к интеллекту"
@@ -3106,7 +3158,7 @@
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock_bonus_amplify"						"+% к урону от заклинаний"	
 
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2"									"刻々帝 2"
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности."
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все базовые способности."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_str"							"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_agi"							"+к ловкости"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_int"							"+к интеллекту"
@@ -3115,7 +3167,7 @@
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock2_bonus_amplify"						"+% к урону от заклинаний"	
 
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3"									"刻々帝 3"
-		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все способности."
+		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_Description"							"<h1>Активируемая: Зафкиэль</h1>Перезаряжает все базовые способности."
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_str"							"+к силе"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_agi"							"+к ловкости"
 		"DOTA_Tooltip_ability_item_anime_kurumi_clock3_bonus_int"							"+к интеллекту"
@@ -8170,10 +8222,6 @@
 		"DOTA_Tooltip_Ability_idu2_base_reflection"								"Минимальное отражение:"
 		"DOTA_Tooltip_Ability_idu2_str_to_reflection_pct"						"Максимальное отражение:"
 
-		"DOTA_Tooltip_Ability_idu3"											"Познание вселенной"	
- 		"DOTA_Tooltip_Ability_idu3_Description"									"Вы получаете доволнительные характеристики каждые несколько секунд"	
-		"DOTA_Tooltip_Ability_idu3_stats_per_cycle"								"Характеристики:"
-
 		"DOTA_Tooltip_Ability_idu4"											"Заживление ран"	
  		"DOTA_Tooltip_Ability_idu4_Description"									"Увеличивает скорость атаки и регенерацию хп за %потерянного здоровья."	
 		"DOTA_Tooltip_Ability_idu4_maximum_attack_speed"						"Скорость атаки:"
@@ -8890,30 +8938,26 @@
 		// БОСС: САНГОНОМИЯ (СПОСОБНОСТИ И МОДИФИКАТОРЫ)
 		// ====================================================================
 
-		// 1. ПРОТОКОЛ БАКЭ-КУРАГЭ
-		"DOTA_Tooltip_ability_sangonomiya_bake_kurage"								"Протокол Бакэ-курагэ"
-		"DOTA_Tooltip_ability_sangonomiya_bake_kurage_Description"					"Пассивная директива. Сангономия регулярно призывает на арену кипящие водяные зоны. Находясь в них, она стремительно восстанавливает своё здоровье, а враги Партии получают ежесекундный чистый урон."
+		"npc_universal_boss_dark_willow"                            "Сангономия Кокоми"
+    
+		"DOTA_Tooltip_ability_sangonomia_water_ball"                "Water Ball"
+		"DOTA_Tooltip_ability_sangonomia_water_ball_Description"    "Сангономия запускает гигантский водяной шар, который наносит огромный магический урон и выпускает микро-шары во все стороны. Накладывает стаки Water Weakening."
 		
-		// 2. ЖЕМЧУЖНЫЕ РЕПРЕССИИ
-		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions"						"Жемчужные репрессии"
-		"DOTA_Tooltip_ability_sangonomiya_pearl_repressions_Description"			"Сангономия выстраивает вокруг себя идеальное кольцо из водяных ловушек. Через небольшую задержку из-под земли вырываются гигантские шипы, которые оглушают нарушителей, наносят магический урон и пробивают их магическую броню."
+		"DOTA_Tooltip_ability_sangonomia_water_ring"                "The Water Ring"
+		"DOTA_Tooltip_ability_sangonomia_water_ring_Description"    "После непродолжительной подготовки босс разрывает пространство водным кольцом, нанося урон от максимального здоровья и запрещая целям восстанавливать здоровье."
 		
-		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff"						"Жемчужные репрессии"
-		"DOTA_Tooltip_modifier_sangonomiya_repressions_debuff_Description"			"Ваше сопротивление магии снижено после столкновения с гидро-шипом. Партия вас предупреждала!"
+		"DOTA_Tooltip_ability_sangonomia_water_traps"               "Water Traps"
+		"DOTA_Tooltip_ability_sangonomia_water_traps_Description"   "Сангономия получает защиту от урона и начинает спавнить под врагами (или на их пути) водяные ловушки, которые взрываются и накладывают Water Weakening."
+		
+		"DOTA_Tooltip_ability_sangonomia_water_weakening"           "Water Weakening"
+		"DOTA_Tooltip_ability_sangonomia_water_weakening_Description" "Пассивно снижает магическое сопротивление врагов и увеличивает получаемый ими урон от способностей Сангономии за каждый стак. Дает боссу глобальную регенерацию."
 
-		// 3. ПРОЗРЕНИЕ ЖРИЦЫ
-		"DOTA_Tooltip_ability_sangonomiya_priestess_insight"						"Прозрение Жрицы"
-		"DOTA_Tooltip_ability_sangonomiya_priestess_insight_Description"			"Сангономия читает мысли диссидентов и вешает на случайных врагов метку контроля. Если жертва попытается применить любую способность или предмет, произойдет астральный ядерный взрыв, который нанесет огромный урон и наложит безмолвие на саму жертву и всех, кто стоял рядом."
+		"DOTA_Tooltip_modifier_sangonomia_water_weakening_debuff"   "Water Weakening"
+		"DOTA_Tooltip_modifier_sangonomia_water_weakening_debuff_Description" "Ваше сопротивление магии снижено! Вы получаете больше урона от босса!"
 		
-		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff"							"Метка инакомыслия"
-		"DOTA_Tooltip_modifier_sangonomiya_insight_debuff_Description"				"За вашими мыслями следят! Применение ЛЮБОЙ активной способности или предмета спровоцирует взрыв и наложит безмолвие!"
+		"DOTA_Tooltip_modifier_sangonomia_water_ring_debuff"        "Блокировка регенерации"
+		"DOTA_Tooltip_modifier_sangonomia_water_ring_debuff_Description" "Вы не можете восстанавливать здоровье!"
 
-		// 4. ЦЕРЕМОНИЯ СОМЛЕНТА (УЛЬТИМАТУМ)
-		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony"						"Церемония Сомлента"
-		"DOTA_Tooltip_ability_sangonomiya_somnolenta_ceremony_Description"			"Абсолютная власть. Сангономия переходит в Теневое Царство, становясь полностью неуязвимой, невыделяемой и обезоруженной. Во время церемонии она исцеляет свои раны и испускает разрушительные кольцевые волны, которые наносят урон и вызывают жесткое землетрясение."
-		
-		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff"							"Церемония Сомлента"
-		"DOTA_Tooltip_modifier_sangonomiya_ceremony_buff_Description"				"Сангономия полностью неуязвима, восстанавливает здоровье и готовится покарать врагов."
 
 
         "npc_dota_hero_ember_spirit"                                "Chen Qianyu 「★」" 
