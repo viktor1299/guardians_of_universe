@@ -1347,7 +1347,7 @@
 			"DOTA_Tooltip_ability_modifier_sakuya_knives_Description"							"Throws knives"
 
 		"DOTA_Tooltip_ability_sakuya_refresh"											"「Sakuya's Special Stopwatch」"
-		"DOTA_Tooltip_ability_sakuya_refresh_Description"									"Sakuya recharges all abilities and items (Recharges items only with the arcana). This ability cannot be recharged by objects."
+		"DOTA_Tooltip_ability_sakuya_refresh_Description"									"Sakuya recharges all abilities and items (Recharges items only with the arcana). This ability cannot be recharged by items."
 		"DOTA_Tooltip_ability_sakuya_refresh_abilities"										"Capabilities: "
 		"DOTA_Tooltip_ability_sakuya_refresh_items"											"Items: "
 		"DOTA_Tooltip_ability_sakuya_refresh_shard_Description"							"With a 10% chance, the ability can take 10 seconds to cool down."
@@ -1663,7 +1663,7 @@
 			"npc_dota_hero_leshrac"  										"Energy Mage"
 
 		"DOTA_Tooltip_ability_clusters_stars"											"Energy Mage: Star Clusters"
-		"DOTA_Tooltip_ability_clusters_stars_Description"									"Passively allows you to make an additional attack. When activated, it increases the character's damage as well as damage from critical hits. Restores health after killing a target. Damage depends on your Combo."
+		"DOTA_Tooltip_ability_clusters_stars_Description"									"Passively allows you to make an additional attack. When activated, it increases the character's damage as well as damage from critical hits. Restores health after killing a target. The damage depends on your Combo."
 		"DOTA_Tooltip_ability_clusters_stars_Note0"											"Combo Boost: 25%%<br></br>Crit Multiplier: 30<br></br>Critical Hit Ratio: 1 + 0.25 * Ability Level<br></br>Damage: 2 * Attack * Ability Level<br></br>Duration: 2"
 		"DOTA_Tooltip_ability_clusters_stars_reduce_armor"									"Armor reduction: "
 		"DOTA_Tooltip_ability_clusters_stars_damage"										"Damage: "
@@ -1797,6 +1797,8 @@
 		"DOTA_Tooltip_ability_marisa_spark_width"                                       "Beam Width: "
 		"DOTA_Tooltip_ability_marisa_spark_damage"                                      "Base Damage: "
 		"DOTA_Tooltip_ability_marisa_spark_heal"                                        "Basic treatment: "
+		"DOTA_Tooltip_ability_marisa_spark_damage_attr_mult"                            "Stat Damage Multiplier: "
+		"DOTA_Tooltip_ability_marisa_spark_heal_attr_mult"                              "Healing multiplier based on stats: "
 
 		"DOTA_Tooltip_ability_gu_marisa_aura"                                         "<font color='#D4FF00'>「Light Sign: Earthlight Ray」</font>"
         "DOTA_Tooltip_ability_gu_marisa_aura_description"                             "Passive ability. Marisa synchronizes her attributes - her strength, agility and intelligence indicators are always equal to each other. All of her spell damage amplification is fully converted into increased healing received. In addition, Marisa emits a global aura that increases the stats of all allies on the map in proportion to her own attributes."
@@ -1815,7 +1817,7 @@
 "DOTA_Tooltip_modifier_gu_marisa_aura_buff"              "<font color='#D4FF00'>「Light Sign: Earthlight Ray」</font>"
 "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description"  "+%dMODIFIER_PROPERTY_HEALTH_BONUS%to maximum health<br>+%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%to health regeneration<br>+%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE%to base damage<br>+%dMODIFIER_PROPERTY_MANA_BONUS%to mana<br>+%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT%to mana regeneration"
 		"DOTA_Tooltip_ability_marisa_starfall"                                          "<font color='#D4FF00'>「Magic Sign: Milky Way」</font>"
-		"DOTA_Tooltip_ability_marisa_starfall_Description"                              "SWITCHABLE AURA: When dealing damage while under this aura, Marisa and allies can drop a star on the enemy, dealing pure attribute damage and healing in a radius.<br><br>While active, Marisa does not restore mana, and each fall of a star burns her reserves. If the mana runs out, Marisa will be stunned for 5 seconds."
+		"DOTA_Tooltip_ability_marisa_starfall_Description"                              "SWITCHABLE AURA: When dealing damage under this aura, Marisa and allies can drop a star on the enemy, dealing pure attribute damage equal to x2 of all stats and healing in a radius (0.5 per stat point).<br><br>While active, Marisa does not restore mana, and each fall of a star burns her reserves. If the mana runs out, Marisa will be stunned for 5 seconds."
 		"DOTA_Tooltip_ability_marisa_starfall_chance_attack"                            "Chance (from attack): "
         "DOTA_Tooltip_ability_marisa_starfall_chance_spell"                             "Chance (from spells): "
 		"DOTA_Tooltip_ability_marisa_starfall_dmg_pct"                                  "% of initial damage: "
@@ -2081,7 +2083,9 @@
 		// ==========================================
 		// Т-90М «Прорыв» (Модификаторы)
 		// ==========================================
-		
+		"DOTA_Tooltip_modifier_gu_t90_aps"              "KAZ «Arena-M»"
+        "DOTA_Tooltip_modifier_gu_t90_aps_Description"  "State of the active protection complex.\n\nIn passive mode, gives a bonus to energy regeneration: +%dMODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE%%%\n\nIn active mode, it consumes energy and prepares to block incoming damage."
+
 		"DOTA_Tooltip_modifier_gu_t90_ammo_manager"					"Ammo loaded"
 		"DOTA_Tooltip_modifier_gu_t90_ammo_manager_Description"		"The gun is ready to fire the selected type of projectile."
 
@@ -2695,6 +2699,7 @@
         "DOTA_Tooltip_ability_mystical_samurai_omnislash_duration"                "Duration: "
         "DOTA_Tooltip_ability_mystical_samurai_omnislash_attack_interval"         "Attack Interval: "
         "DOTA_Tooltip_ability_mystical_samurai_omnislash_radius"                  "Jump radius: "
+		"DOTA_Tooltip_ability_mystical_samurai_omnislash_cooldown"                "Recharge: "
 		
 		"DOTA_Tooltip_modifier_mystical_samurai_omnislash"						"<font color='#EA8139'>「Omnislash」</font>"
 		"DOTA_Tooltip_modifier_mystical_samurai_omnislash_Description"			"The hero delivers a series of crushing blows while remaining invulnerable."
@@ -4089,7 +4094,7 @@
 			"boss_5" "All paths will one day come to an end. There's no need to rush. The past is a ghost, the future is a dream, and all we have is the present."
 			"boss_6" "Do you know that in this very moment you are surrounded by eternity? And do you know that you can take advantage of this eternity if you wish?"
 			"boss_7" "Time has neither beginning nor end. Time is like the serpent Ouroboros, grasping its own tail with its teeth. Eternity is hidden in every moment. And eternity is made up of the moments that create it."
-			"boss_8" "Thirty years ago, the First Spirit appeared on Earth and became the offspring of other spirits. My goal is to kill him. I want to see how God will accept a stupid, reckless attempt to change the world."
+			"boss_8" "Thirty years ago, the First Spirit appeared on Earth and became the generation of other spirits. My goal is to kill him. I want to see how God will accept a stupid, reckless attempt to change the world."
 
 			"boss_name_1" "Sangonomiya"
 			"boss_name_2" "Goddess Aqua"
@@ -5610,7 +5615,7 @@
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"						"<font color='#7ee340'>Can be given to an ally!"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"								"Cuirasse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"						"<h1>Active: Weather Shield</h1>Applies a lightning shield effect to the target. When attacking a unit that is protected by a shield, each time%static_proc_count%hits the owner, lightning will be released at the enemy, which will deal%static_damage%% damage to the attacker, and also slow him down by%static_slow%for%static_slow_duration%sec.\n<h1>Passive:<font color='#0384fc'>Weather God</font></h1>Grants immunity to all negative weather effects (you can't be hit by lightning, etc.).\n<h1>Passive:<font color='#0384fc'>Energy Immune</font></h1>Completely protects the player from any effects of electricity.\n<h1>Passive: Energy burst</h1>With a%proc_chance%% chance to create a chain lightning that will jump to all enemy units within a%bounce_radius%radius and deal%bounce_damage%% attack damage to the owner of the item.\n<h1>Passive:<font color='#ff8400'>Universe Set</font></h1>「With a full set of Universe items, it will add a new ability - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"						"<h1>Active: Weather Shield</h1>Applies a lightning shield effect to the target. When attacking a unit that is protected by a shield, each time%static_proc_count%hits the owner, lightning will be released at the enemy, which will deal%static_damage%% damage to the attacker, and also slow him down by%static_slow%for%static_slow_duration%sec.\n<h1>Passive:<font color='#0384fc'>Weather God</font></h1>Grants immunity to all negative weather effects (you can't be hit by lightning, etc.).\n<h1>Passive:<font color='#0384fc'>Energy Immune</font></h1>Completely protects the player from any exposure to electricity.\n<h1>Passive: Energy burst</h1>With a%proc_chance%% chance to create a chain lightning that will jump to all enemy units within a%bounce_radius%radius and deal%bounce_damage%% attack damage to the owner of the item.\n<h1>Passive:<font color='#ff8400'>Universe Set</font></h1>「With a full set of Universe items, it will add a new ability - Destroyer of the world 」"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"						"+to damage:"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"							"+to attack speed:"
 
@@ -7314,7 +7319,7 @@
 		"npc_dota_hero_phantom_assassin"									"Tohka Yatogami「★★★★★★」"
 		"npc_dota_hero_pugna"												"Jibril「★★★★」"
 		"npc_dota_hero_earthshaker"											"ISU-152「★★★」"
-		"npc_dota_hero_tiny"												"Moai「★★」"
+		"npc_dota_hero_tiny"												"Moai「★★★★」"
 
 		"DOTA_Tooltip_ability_tohka_ability_1" 						"<font color='#df26b8'>「Sandalphon」</font>"
 		"DOTA_Tooltip_ability_tohka_ability_1_Description" 				"Summons the scabbard of Sandalphon's Zanpakuto in the form of a throne. Deals damage around itself and also stuns all enemies around it within a radius of%radius%for%duration%seconds.<br><br><font color='#cf1919'>Attention! The damage of this ability cannot be increased with magical enhancement!"
@@ -7368,23 +7373,59 @@
 		"DOTA_Tooltip_ability_item_gu_cleave3_Description" 					"<h1>Passive: Rift</h1>Deals%cleave_damage%%%damage from your attack to enemy units in front of the owner within a radius of%cleave_distance%, there can be no more than 3 targets.<br><br><font color='#ff0000'>Works only on heroes with a melee attack type!</font>\n<font color='#ff0000'>This item can be upgraded in a metallurgical factory.</font>"
 		"DOTA_Tooltip_ability_item_gu_cleave3_damage" 						"Damage: "
 
-		"DOTA_Tooltip_Ability_moai_1"							"<font color='#3fff05'>「Moai」</font>"
-		"DOTA_Tooltip_Ability_moai_1_Description"					"The legends of the island speak of the chief of the Hotu Matu'a clan, who left his home in search of a new one and found Easter Island. When he died, the island was divided between his six sons, and then between his grandchildren and great-grandchildren. Residents of the island believe that the statues contain the supernatural power of the ancestors of this clan (mana). The concentration of mana will lead to good harvests, rain and prosperity. These legends are constantly changing and are passed down in fragments, making it difficult to reconstruct the exact history. The most widely accepted theory among researchers was that the moai were erected by settlers from the Polynesian islands in the 11th century. Moai could represent deceased ancestors or give strength to living chiefs, as well as symbols of clans. Is a global aura!"
-		"DOTA_Tooltip_Ability_moai_1_Note0"							"The stone is standing, but you don't have it"
-		"DOTA_Tooltip_Ability_moai_1_hp"							"Extra Health: "
-		"DOTA_Tooltip_Ability_moai_1_bonus_armor"					"Additional armor: "
-		"DOTA_Tooltip_Ability_moai_1_hp_regen"						"%Регенерацияhealth: "
-		"DOTA_Tooltip_Ability_moai_1_dmg_res"						"%Уменьшениеof total incoming damage: "
-		"DOTA_Tooltip_modifier_moai_1_buff"             "<font color='#3fff05'>「Moai」</font>"
-"DOTA_Tooltip_modifier_moai_1_buff_Description" "🗿<font color='#a2e2fe'>Stone Greatness:</font>Grants +%hp%health, +%bonus_armor%armor and%dmg_res%%%damage resistance.<br><br><font color='#b0b0b0'>BRUH. Moai statues are motionless and silent, like your allies in chat...</font>"
-		"DOTA_Tooltip_Ability_moai_2"							"<font color='#3fff05'>「Moai Rift」</font>"
-		"DOTA_Tooltip_Ability_moai_2_Description"					"Since Moai is a stone, it cannot move, but it can jump to a specified point (No one knows how this happens)"
-		"DOTA_Tooltip_Ability_moai_2_damage"						"Damage:"
-		"moai_2_error"												"You cannot use it for yourself!"
+"DOTA_Tooltip_ability_moai_1_aura"                                            "<font color='#a8a8a8'>「Heaviness of Stone」</font>"
+        "DOTA_Tooltip_ability_moai_1_aura_description"                                "Passive aura. Increases the armor and magic resistance of the wearer and all allies within range. In addition, the aura continuously restores health, mana and energy of creatures depending on their maximum reserve. The effect lasts for 5 seconds after leaving the area of ​​effect. If the wearer is affected by crowd control effects (stun, silence, or exhaustion), the aura and all its bonuses are instantly disabled."
+        "DOTA_Tooltip_ability_moai_1_aura_radius"                                     "Aura radius: "
+        "DOTA_Tooltip_ability_moai_1_aura_armor"                                      "Armor Bonus: "
+        "DOTA_Tooltip_ability_moai_1_aura_mag_res"                                    "Magic Resistance (%): "
+        "DOTA_Tooltip_ability_moai_1_aura_hp_regen_pct"                               "Health recovery (% per second): "
+        "DOTA_Tooltip_ability_moai_1_aura_mana_regen_pct"                             "Mana recovery (% per second): "
+        "DOTA_Tooltip_ability_moai_1_aura_energy_regen_pct"                           "Energy recovery (% per second): "
 
-		"DOTA_Tooltip_Ability_moai_3"							"<font color='#3fff05'>「Moai Eternity」</font>"
-		"DOTA_Tooltip_Ability_moai_3_Description"					"Over the course of its existence, Moai has seen a lot; he has acquired immunity to any magic (not even that kind of magic was performed on him). Gain%phy_dmg%% to all physical damage resistance."
-	
+        "DOTA_Tooltip_ability_moai_2_jump"                                            "<font color='#a8a8a8'>「Monolithic Jump」</font>"
+        "DOTA_Tooltip_ability_moai_2_jump_description"                                "The hero jumps to the specified point, causing pure damage to enemies within the landing radius. The resulting damage depends on the base value and the owner's maximum health. Using the ability consumes part of the hero's current health."
+        "DOTA_Tooltip_ability_moai_2_jump_radius"                                     "Landing radius: "
+        "DOTA_Tooltip_ability_moai_2_jump_pure_damage"                                "Base pure damage: "
+        "DOTA_Tooltip_ability_moai_2_jump_hp_dmg_pct"                                 "Damage from max. health (%): "
+        "DOTA_Tooltip_ability_moai_2_jump_scepter_description"                        "Allows you to jump on an allied hero, taking a position on his head. In this state, the wearer becomes invulnerable and can attack, but cannot use items or most abilities. The bearer ally receives double bonuses from the “Weight of Stone” aura, while other allies lose the aura. While on an ally, the hero automatically activates jump damage every 5 seconds. Repeated use allows you to jump."
+
+        "DOTA_Tooltip_ability_moai_3_stacks"                                          "<font color='#a8a8a8'>「Synergy of Ages」</font>"
+        "DOTA_Tooltip_ability_moai_3_stacks_description"                              "Passive ability. The hero accumulates effect levels for each ally within the radius of his aura. Any control effect placed on the owner resets the number of levels to one. Each stack grants successive buffs:\n1 stack: bonus to effect resistance.\n2 stacks: reduced damage taken.\n3 stacks: reduced ability cooldown.\n4 stacks: Monolithic Jump no longer consumes health.\n5 stacks: Petrification no longer disables this ability.\n6 stacks: immunity to effects."
+        "DOTA_Tooltip_ability_moai_3_stacks_shard_description"                        "Grants an active ability: instantly stops the accumulation of stacks for 30 seconds, but restores a significant portion of health depending on the number of effect levels available at the time of activation. The cooldown of this ability cannot be reduced."
+
+        "DOTA_Tooltip_ability_moai_4_meditation"                                      "<font color='#a8a8a8'>「Petrification」</font>"
+        "DOTA_Tooltip_ability_moai_4_meditation_description"                          "The hero stuns himself, going into a state of deep meditation. This state cannot be interrupted and ignores effect resistances. While the ability is active, the “Weight of Stone” aura continues to operate, and its bonuses are significantly increased. For the duration of the effect, the “Synergy of Ages” ability is completely disabled (if less than 5 levels have been accumulated). The cooldown of this ability is fixed."
+        "DOTA_Tooltip_ability_moai_4_meditation_duration"                             "Duration of meditation: "
+        "DOTA_Tooltip_ability_moai_4_meditation_multiplier"                           "Aura Bonus Multiplier: "
+
+
+		"DOTA_Tooltip_modifier_moai_1_buff"								"Heaviness of Stone"
+		"DOTA_Tooltip_modifier_moai_1_buff_Description"					"Increased armor, magic resistance and regeneration of all resources."
+		"DOTA_Tooltip_modifier_moai_3_stacks"							"Synergy of Ages"
+		"DOTA_Tooltip_modifier_moai_3_stacks_Description"				"Current number of stacks:%dMODIFIER_PROPERTY_TOOLTIP%"
+		"DOTA_Tooltip_modifier_moai_4_meditation"						"Petrification"
+		"DOTA_Tooltip_modifier_moai_4_meditation_Description"			"The hero is stunned, but his aura is enhanced!"
+		"DOTA_Tooltip_modifier_moai_head_buff"							"Stone Protection"
+		"DOTA_Tooltip_modifier_moai_head_buff_Description"				"Moai on your head! Aura bonuses have been doubled."
+
+		// Ограничения / Аура (Skill 1)
+		"Talent_Moai_AttackRange_1"         "Removes the limitation on attack range, increasing it from 1200 to maximum."
+		"Talent_Moai_Aura_20"               "The range of the “Weight of Stone” aura (and buffs from stacks) becomes global (works across the entire map)."
+		"Moai_Label_AttackRange"            "Attack range"
+
+		// Прыжок (Skill 2)
+		"Moai_Scepter_Jump_Desc"            "Allows you to use a jump on an allied hero to jump on their head. While on the head, Moai becomes invulnerable, blocks its 3rd and 4th abilities, and passively deals landing damage around itself."
+		"Talent_Moai_Jump_5"                "Increases the damage radius when landing from a jump by 500."
+
+		// Синергия Веков (Skill 3)
+		"Moai_Shard_Stacks_Desc"            "Adds an active ability. Absorbs all current stacks and provides powerful health regeneration for 5 seconds. Disables stack accumulation for 30 seconds."
+		"Talent_Moai_Stacks_15"             "Passively gives +1 permanent stack of “Synergy of Ages”, independent of the number of allies nearby."
+		"Moai_Label_BonusStacks"            "Bonus stacks"
+
+		// Окаменение / Медитация (Skill 4)
+		"Talent_Moai_Meditation_10"         "While Petrification is active, any attack against Moai or his allies within a 3000 radius has a 50% chance to stun the attacking enemy for 0.5 seconds."
+		"Moai_Label_StunChance"             "Stun Chance"
+		"Moai_Label_StunDur"                "Stun Duration"
 
 		"DOTA_Tooltip_ability_jibril_energy_blast" 						"<font color='#ff00eb'>「Black Energy」</font>"
 		"DOTA_Tooltip_ability_jibril_energy_blast_Description" 				"Creates a charge of black energy in your hand, releasing it into the target area. When hit, it deals damage to all enemies in the area."
@@ -7663,37 +7704,90 @@
 
 		"DOTA_Tooltip_modifier_gu_ice_dragons_talisman_enemy"					"Ice Dragons Talisman"
 
-		"DOTA_Tooltip_ability_gu_t72_upgrade" 								"<font color='#fd2727'>「T-72 “Ural”」</font>"
-		"DOTA_Tooltip_ability_gu_t72_upgrade_Description" 					"Development of the T-72 began in 1967. In the course of further work, in 1968-69, comparative tests were carried out on the main T-64A tanks with the B-45 engine with an ejection cooling system (developed by the Kharkov Mechanical Engineering Design Bureau) and samples with the B-45 engine with a fan cooling system (developed by the design bureau in Nizhny Tagil) and an automatic gun loader for 22 shots. The latter showed better results. Improves basic characteristics. Adds +%bonus_health%to health, +%bonus_armor%to armor, +%attack_range_bonus%to shot range, +%damage%to damage. Items that reduce the base attack time do not work. Receives 20% less damage from self.<br><br>Has a fixed rate of fire, no items that reduce the base attack time or anything else work!"
-		"DOTA_Tooltip_ability_gu_t72_upgrade_scepter_Description"			"Increases bonus damage by 150%" 
+		// ================= СПОСОБНОСТИ Т-72А ================= //
+		"DOTA_Tooltip_ability_gu_t72_passive_armor"                                    "<font color='#fd2727'>「Passive Armor」</font>"
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_description"                        "Passive ability. Strengthens the tank's hull, reducing any incoming damage and increasing the owner's health and armor. Sets a fixed base attack time that cannot be reduced by any items."
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_damage_reduction"                   "Damage reduction (%): "
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_bat"                                "Base attack time: "
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_bonus_health"                       "Health Bonus: "
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_bonus_armor"                        "Additional armor: "
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_shard_description"                  "Grants an active ability: The tank temporarily turns off the engine, completely redistributing power to defense. Movement speed drops to zero, but for 10 seconds the hero takes all damage dealt to allies within a 3000 radius."
 
-		"DOTA_Tooltip_ability_gu_t72_ammo_bb" 								"<font color='#fd2727'>「3ВБМ3」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_bb_Description" 					"The armor-piercing projectile<font color='#fd2727'>「3VBM3」</font>is the main projectile used by the D-81TM gun. The armor penetration of this projectile is%penetration%mm (reduces the enemy’s armor by this value), deals an additional 50% damage to the target depending on the strength of the T-72"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_bb" 							"<font color='#fd2727'>「3ВБМ3」</font>"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_bb_Description" 				"Standard projectile, has no unique effects"
+        "DOTA_Tooltip_ability_gu_t72_ammo_basic"                                       "<font color='#fd2727'>「3VBM3 (Armour-piercing sub-caliber)」</font>"
+        "DOTA_Tooltip_ability_gu_t72_ammo_basic_description"                           "Standard type of projectile. Shots from a gun do not consume energy and partially ignore enemy armor. The ability affects bosses, but does not break immunity to effects."
+        "DOTA_Tooltip_ability_gu_t72_ammo_basic_armor_ignore_pct"                      "Ignore armor (%): "
 
-		"DOTA_Tooltip_ability_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「3ВБК7」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_kym_Description" 				"The cumulative projectile<font color='#f9fd27'>「3ВБК7」</font>is designed to penetrate thick armor, the penetration of this projectile is%penetration%mm (reduces the enemy’s armor by this value), deals additional Pure damage in the amount of 2% of the target’s maximum health. This projectile has a%chance_force_kill%%%chance to immobilize the target for 5 seconds, this stun ignores effect resistance, the cost of the shot is 5% of your energy.<br><br><font color='#fd2727'>If there is not enough energy for a shot, you will automatically switch to the 「3VBM3」</font>projectile"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「3ВБК7」</font>"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_kym_Description" 				"Has some chance of stunning the enemy, significantly reduces the enemy's armor, the cost of the shot is 5% of your energy.<br><font color='#fd2727'>If there is not enough energy to fire, you will automatically switch to the 「3VBM3」</font>projectile"
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap"                                          "<font color='#f9fd27'>「3ВБК7 (Armour-piercing cumulative)」</font>"
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_description"                              "Charges cumulative projectiles. Each attack temporarily reduces the target's armor and places a mark on it: allies attacking the marked enemy receive a bonus to attack speed. Projectiles are effective against bosses and creatures with immunity to effects. If there is not enough energy for a shot, the tank will automatically switch to 3VBM3 shells."
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_armor_reduction"                          "Armor reduction: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_debuff_duration"                          "Armor reduction duration: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_as_buff"                                  "Bonus to attack speed for allies: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_energy_pct"                               "Energy consumption (% of max): "
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_energy_flat"                              "Energy consumption (units): "
+        
+        "DOTA_Tooltip_ability_gu_t72_ammo_he"                                          "<font color='#fd7427'>「3VOF22 (High Explosive)」</font>"
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_description"                              "Loads high-explosive fragmentation shells. Attacks deal damage in an area around the target, slowing the movement and attack speed of all enemies hit. The ability affects bosses, but does not affect creatures with immunity to effects. If there is not enough energy for a shot, the tank will automatically switch to 3VBM3 shells."
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_splash_radius"                            "Damage radius: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_slow_pct"                                 "Deceleration (%): "
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_slow_duration"                            "Slow Duration: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_energy_pct"                               "Energy consumption (% of max): "
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_energy_flat"                              "Energy consumption (units): "
+
+        "DOTA_Tooltip_ability_gu_t72_artillery"                                        "<font color='#fd7427'>「9M119 “Reflex”」</font>"
+        "DOTA_Tooltip_ability_gu_t72_artillery_description"                            "Launches a 9M119 Reflex guided missile through a gun barrel into a specified area. When detonated, the missile deals devastating physical damage to all enemies within its range, the amount of which depends on their maximum health. A powerful blast wave temporarily suppresses surviving enemies, reducing their damage taken. This ability's damage is not affected by its Spell Damage Boost, and its cooldown cannot be instantly restored by Refresher Orb."
+        "DOTA_Tooltip_ability_gu_t72_artillery_radius"                                 "Damage radius: "
+        "DOTA_Tooltip_ability_gu_t72_artillery_hp_dmg_pct"                             "Damage from max. health (%): "
+        "DOTA_Tooltip_ability_gu_t72_artillery_damage_reduction_pct"                   "Enemy Damage Reduction (%): "
+        "DOTA_Tooltip_ability_gu_t72_artillery_debuff_duration"                        "Damage reduction duration: "
+        "DOTA_Tooltip_ability_gu_t72_artillery_energy_pct"                             "Energy consumption (% of max): "
+        "DOTA_Tooltip_ability_gu_t72_artillery_energy_flat"                            "Energy consumption (units): "
+
+        "DOTA_Tooltip_ability_gu_t72_active_armor"                                     "<font color='#fd7427'>「KAZ “Zaslon”」</font>"
+        "DOTA_Tooltip_ability_gu_t72_active_armor_description"                         "Switchable ability. In active mode, the active defense complex reduces incoming damage and reflects part of the received damage back to the attacker. Consumes energy every 0.5 seconds. In passive mode, significantly increases energy regeneration if the tank has not taken damage in the last 10 seconds."
+        "DOTA_Tooltip_ability_gu_t72_active_armor_reduction"                            "Incoming Damage Reduction (%): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_reflect_pct"                         "Reflected Damage (%): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_energy_pct"                          "Energy consumption (%): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_energy_flat"                         "Energy consumption (units): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_regen_pct"                           "Energy regeneration bonus (%): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_scepter_description"                 "Increases the energy consumption interval in active mode to 1 second."
+		// ================= ВИДИМЫЕ МОДИФИКАТОРЫ ================= //
+		"DOTA_Tooltip_modifier_gu_t72_ammo_manager"						"Charged projectile"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_manager_Description"			"The gun is ready to fire. Current ammo type."
 		
-		"DOTA_Tooltip_ability_gu_t72_ammo_heat" 							"<font color='#fd7427'>「3VOФ22」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_heat_Description" 				"High-explosive fragmentation projectile<font color='#fd7427'>「3VOФ22」</font>does not penetrate armor but deals%damage%%%damage to an area within a%heat_dmg_radius%radius from the main target. The cost of firing this projectile is 2% of your energy.<br><br><font color='#fd2727'>If there is not enough energy for a shot, you will automatically switch to the 「3VBM3」</font>projectile"
-		"DOTA_Tooltip_ability_gu_t72_ammo_heat_penetration" 				"Breakthrough: "
-		"DOTA_Tooltip_modifier_gu_t72_ammo_heat" 							"<font color='#fd7427'>「3VOФ22」</font>"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_heat_Description" 				"Deals huge damage to an area within a radius of 800, the cost of a shot is 2% energy.<br><font color='#fd2727'>If there is not enough energy to fire, you will automatically switch to the 「3VBM3」</font>projectile"
-
-		"DOTA_Tooltip_modifier_gu_t72_ammo_armor_reduction"					"Breakthrough"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_armor_reduction_Description"			"Armor reduced by%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
-
-		"DOTA_Tooltip_ability_gu_t72_ammo_rocket" 							"<font color='#fd7427'>「9М112М2」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_Description" 					"Soviet tank guided weapon system (KUVT) with radio command guidance<font color='#fd7427'>「9М112М2」</font>Allows you to hit enemy targets at a range of 50000, the hit ignores the enemy’s armor, causing damage according to the formula%base_damage%+ (%bonus_dmg_per_armor%* your armor), the cooldown of this ability cannot be reduced."
-		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_count_target" 					"Number of targets: "
-		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_shard_Description" 			"Adds bonus damage - strength * 3"
-
-		"DOTA_Tooltip_ability_gu_t72_active_armor" 							"<font color='#fd7427'>「KAZ “Barrier”」</font>"
-		"DOTA_Tooltip_ability_gu_t72_active_armor_Description" 					"“Zaslon” is a Ukrainian complex of active protection for armored vehicles, developed by the Kyiv enterprise BTsKT “Mikrotek” based on the developments of the Soviet “Barrier” program of the 1980s. Designed to protect tanks from ATGMs, cumulative shells from tank and anti-tank guns, as well as BOPS. Allows once every%cd%seconds not to receive damage from any attack, while in a radius of 1200 around the T-72 a charge will be detonated which will cause%damage%in a radius of%radius%"
+		"DOTA_Tooltip_modifier_gu_t72_ap_debuff"						"Armor Penetration (3ВБК7)"
+		"DOTA_Tooltip_modifier_gu_t72_ap_debuff_Description"			"Armor reduced by%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%. Allies attacking this enemy will receive a temporary bonus to attack speed."
 		
+		"DOTA_Tooltip_modifier_gu_t72_he_slow"							"Concussion (3VOF22)"
+		"DOTA_Tooltip_modifier_gu_t72_he_slow_Description"				"Attack and movement speed reduced by%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
+		
+		"DOTA_Tooltip_modifier_gu_t72_consta_armor"						"Strengthening armor (3VOF22)"
+		"DOTA_Tooltip_modifier_gu_t72_consta_armor_Description"			"For successful landmine hits, the armor is increased by%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
+		
+		"DOTA_Tooltip_modifier_gu_t72_art_debuff"						"Suppression"
+		"DOTA_Tooltip_modifier_gu_t72_art_debuff_Description"			"Outgoing damage reduced by%dMODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE%%%."
+		
+		"DOTA_Tooltip_modifier_gu_t72_kaz"								"KAZ «Zaslon»"
+		"DOTA_Tooltip_modifier_gu_t72_kaz_Description"					"Active mode: Reduces incoming damage by%dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%.\nPassive mode: accelerates energy regeneration by%dMODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE%%%."
+
+		// Пассивная броня (Skill 1)
+		"T72_Shard_Passive_Desc"            "The ability can be activated to immobilize the tank for 10 seconds and create an aura (radius 3000). The aura redirects all damage received by allies to the tank as pure damage."
+		"Talent_T72_Passive_5"              "The tank becomes completely invulnerable to weather effects."
+
+		// Бронебойный снаряд (Skill 3)
+		"Talent_T72_APAmmo_2"               "The armor-piercing projectile additionally reduces the target's physical armor by 18 points."
+		"T72_Label_ArmorReduction"          "Armor reduction"
+
+		// Фугасный снаряд (Skill 4)
+		"Talent_T72_HEAmmo_1"               "When hit by a high-explosive shell, the tank receives +3 armor for 10 seconds for each enemy hit."
+
+		// Артиллерийский удар (Skill 5)
+		"Talent_T72_Artillery_10"           "Increases the duration of the debuff to reduce outgoing damage from a shot to 20 seconds."
+		"T72_Label_StrikeDebuff"            "Debuff Duration"
+
+		// КАЗ "Заслон" (Skill 6)
+		"T72_Scepter_KAZ_Desc"              "Reduces the frequency of energy consumption by active protection by 2 times (from 0.5 to 1.0 sec)."
+		"Talent_T72_KAZ_4"                  "Reduces energy costs for maintaining the KAZ. Consumption is fixed at 1% + (5 * ability level)."
+		"T72_Label_KAZEnergy"               "Energy consumption"
 
 
 		"DOTA_Tooltip_ability_gu_t90_upgrade" 								"<font color='#fd2727'>「T-90M “Breakthrough”」</font>"

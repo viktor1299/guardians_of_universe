@@ -1797,6 +1797,8 @@
 		"DOTA_Tooltip_ability_marisa_spark_width"                                       "Ширина луча: "
 		"DOTA_Tooltip_ability_marisa_spark_damage"                                      "Базовый урон: "
 		"DOTA_Tooltip_ability_marisa_spark_heal"                                        "Базовое лечение: "
+		"DOTA_Tooltip_ability_marisa_spark_damage_attr_mult"                            "Множитель урона от характеристик: "
+		"DOTA_Tooltip_ability_marisa_spark_heal_attr_mult"                              "Множитель лечения от характеристик: "
 
 		"DOTA_Tooltip_ability_gu_marisa_aura"                                         "<font color='#D4FF00'>「Light Sign: Earthlight Ray」</font>"
         "DOTA_Tooltip_ability_gu_marisa_aura_description"                             "Пассивная способность. Мариса синхронизирует свои атрибуты — её показатели силы, ловкости и интеллекта всегда равны между собой. Всё её усиление урона от заклинаний полностью конвертируется в усиление получаемого лечения. Кроме того, Мариса излучает глобальную ауру, которая увеличивает характеристики всех союзников на карте пропорционально её собственным атрибутам."
@@ -1815,7 +1817,7 @@
 "DOTA_Tooltip_modifier_gu_marisa_aura_buff"              "<font color='#D4FF00'>「Light Sign: Earthlight Ray」</font>"
 "DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description"  "+%dMODIFIER_PROPERTY_HEALTH_BONUS% к максимальному здоровью<br>+%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регенерации здоровья<br>+%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% к базовому урону<br>+%dMODIFIER_PROPERTY_MANA_BONUS% к мане<br>+%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенерации маны"
 		"DOTA_Tooltip_ability_marisa_starfall"                                          "<font color='#D4FF00'>「Magic Sign: Milky Way」</font>"
-		"DOTA_Tooltip_ability_marisa_starfall_Description"                              "ПЕРЕКЛЮЧАЕМАЯ АУРА: При нанесении урона под этой аурой, Мариса и союзники могут сбросить на врага звезду, наносящую чистый атрибутный урон и исцеляющую в радиусе. <br><br>Пока активно, Мариса не восстанавливает ману, а каждое падение звезды сжигает её резервы. Если мана кончится, Мариса получит стан на 5 секунд."
+		"DOTA_Tooltip_ability_marisa_starfall_Description"                              "ПЕРЕКЛЮЧАЕМАЯ АУРА: При нанесении урона под этой аурой, Мариса и союзники могут сбросить на врага звезду, наносящую чистый атрибутный урон в размере х2 от всех характеристик и исцеляющую в радиусе (0.5 за эдиницу характеристик). <br><br>Пока активно, Мариса не восстанавливает ману, а каждое падение звезды сжигает её резервы. Если мана кончится, Мариса получит стан на 5 секунд."
 		"DOTA_Tooltip_ability_marisa_starfall_chance_attack"                            "Шанс (с атаки): "
         "DOTA_Tooltip_ability_marisa_starfall_chance_spell"                             "Шанс (от заклинаний): "
 		"DOTA_Tooltip_ability_marisa_starfall_dmg_pct"                                  "% от изначального урона: "
@@ -2081,7 +2083,9 @@
 		// ==========================================
 		// Т-90М «Прорыв» (Модификаторы)
 		// ==========================================
-		
+		"DOTA_Tooltip_modifier_gu_t90_aps"              "КАЗ «Арена-М»"
+        "DOTA_Tooltip_modifier_gu_t90_aps_Description"  "Состояние комплекса активной защиты.\n\nВ пассивном режиме дает бонус к регенерации энергии: +%dMODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE%%%\n\nВ активном режиме расходует энергию и готовится заблокировать входящий урон."
+
 		"DOTA_Tooltip_modifier_gu_t90_ammo_manager"					"Заряжен боеприпас"
 		"DOTA_Tooltip_modifier_gu_t90_ammo_manager_Description"		"Орудие готово к выстрелу выбранным типом снаряда."
 
@@ -2695,6 +2699,7 @@
         "DOTA_Tooltip_ability_mystical_samurai_omnislash_duration"                "Длительность: "
         "DOTA_Tooltip_ability_mystical_samurai_omnislash_attack_interval"         "Интервал атак: "
         "DOTA_Tooltip_ability_mystical_samurai_omnislash_radius"                  "Радиус скачков: "
+		"DOTA_Tooltip_ability_mystical_samurai_omnislash_cooldown"                "Перезарядка: "
 		
 		"DOTA_Tooltip_modifier_mystical_samurai_omnislash"						"<font color='#EA8139'>「Omnislash」</font>"
 		"DOTA_Tooltip_modifier_mystical_samurai_omnislash_Description"			"Герой наносит серию сокрушительных ударов, оставаясь неуязвимым."
@@ -7314,7 +7319,7 @@
 		"npc_dota_hero_phantom_assassin"									"Tohka Yatogami「★★★★★★」"
 		"npc_dota_hero_pugna"												"Jibril「★★★★」"
 		"npc_dota_hero_earthshaker"											"ISU-152「★★★」"
-		"npc_dota_hero_tiny"												"Moai「★★」"
+		"npc_dota_hero_tiny"												"Moai「★★★★」"
 
 		"DOTA_Tooltip_ability_tohka_ability_1" 						"<font color='#df26b8'>「Sandalphon」</font>"
 		"DOTA_Tooltip_ability_tohka_ability_1_Description" 				"Призывает ножны духовного меча Сандальфона в виде трона. Наносит урон вокруг себя, а также оглушает всех противников вокруг себя в радиусе %radius% на %duration% секунд.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
@@ -7368,23 +7373,59 @@
 		"DOTA_Tooltip_ability_item_gu_cleave3_Description" 					"<h1>Пассивное: Rift</h1> Наносит %cleave_damage%%% урона от вашей атаки по вражеским юнитам перед владельцем в радиусе %cleave_distance%, целей не может быть более 3. <br><br><font color='#ff0000'>Работает только на героях с ближним типом атаки!</font>\n <font color='#ff0000'>Данный предмет может быть улучшен в металлургической фабрике.</font>"
 		"DOTA_Tooltip_ability_item_gu_cleave3_damage" 						"Урон: "
 
-		"DOTA_Tooltip_Ability_moai_1"							"<font color='#3fff05'>「Moai」</font>"
-		"DOTA_Tooltip_Ability_moai_1_Description"					"Легенды острова говорят о вожде клана Хоту Мату'а, который покинул дом в поисках нового и нашёл остров Пасхи. Когда он умер, остров был поделён между шестерыми его сыновьями, а затем — между внуками и правнуками. Жители острова верят, что в статуях заключена сверхъестественная сила предков этого клана (мана). Концентрация маны приведёт к хорошим урожаям, дождям и процветанию. Эти легенды постоянно меняются и передаются по фрагментам, отчего точную историю восстановить трудно. Среди исследователей наиболее широко была распространена теория, по которой моаи воздвигли поселенцы из островов Полинезии в XI веке. Моаи могли представлять умерших предков или придавать силу живущим вождям, а также быть символами кланов. Является глобальной аурой!"
-		"DOTA_Tooltip_Ability_moai_1_Note0"							"Камень стоит, а у тебя нет"
-		"DOTA_Tooltip_Ability_moai_1_hp"							"Дополнительное здоровье: "
-		"DOTA_Tooltip_Ability_moai_1_bonus_armor"					"Дополнительная броня: "
-		"DOTA_Tooltip_Ability_moai_1_hp_regen"						"%Регенерация здоровья: "
-		"DOTA_Tooltip_Ability_moai_1_dmg_res"						"%Уменьшение всего входящего урона: "
-		"DOTA_Tooltip_modifier_moai_1_buff"             "<font color='#3fff05'>「Moai」</font>"
-"DOTA_Tooltip_modifier_moai_1_buff_Description" "🗿 <font color='#a2e2fe'>Величие камня:</font> Дарует +%hp% здоровья, +%bonus_armor% брони и %dmg_res%%% сопротивления урону. <br><br> <font color='#b0b0b0'> БРУХ. Статуи Моаи неподвижны и молчаливы, как твои союзники в чате...</font>"
-		"DOTA_Tooltip_Ability_moai_2"							"<font color='#3fff05'>「Moai Rift」</font>"
-		"DOTA_Tooltip_Ability_moai_2_Description"					"Так как Moai является камнем, то он не может передвигаться, но он может совершить прыжок в указанную точку (Никто не знает каким образом это происходит)"
-		"DOTA_Tooltip_Ability_moai_2_damage"						"Урон:"
-		"moai_2_error"												"Нельзя использовать под себя!"
+"DOTA_Tooltip_ability_moai_1_aura"                                            "<font color='#a8a8a8'>「Тяжесть Камня」</font>"
+        "DOTA_Tooltip_ability_moai_1_aura_description"                                "Пассивная аура. Увеличивает броню и сопротивление магии владельца и всех союзников в радиусе действия. Кроме того, аура непрерывно восстанавливает здоровье, ману и энергию существ в зависимости от их максимального запаса. Эффект сохраняется в течение 5 секунд после выхода из зоны действия. Если владелец оказывается под действием эффектов контроля (оглушение, безмолвие или истощение), аура и все её бонусы мгновенно отключаются."
+        "DOTA_Tooltip_ability_moai_1_aura_radius"                                     "Радиус ауры: "
+        "DOTA_Tooltip_ability_moai_1_aura_armor"                                      "Бонус к броне: "
+        "DOTA_Tooltip_ability_moai_1_aura_mag_res"                                    "Сопротивление магии (%): "
+        "DOTA_Tooltip_ability_moai_1_aura_hp_regen_pct"                               "Восстановление здоровья (% в сек.): "
+        "DOTA_Tooltip_ability_moai_1_aura_mana_regen_pct"                             "Восстановление маны (% в сек.): "
+        "DOTA_Tooltip_ability_moai_1_aura_energy_regen_pct"                           "Восстановление энергии (% в сек.): "
 
-		"DOTA_Tooltip_Ability_moai_3"							"<font color='#3fff05'>「Moai Eternity」</font>"
-		"DOTA_Tooltip_Ability_moai_3_Description"					"За всё время своего существования Moai повидал многое, он преобрёл иммунитет к любой магии (над ним и не такое проводили). Получает %phy_dmg%%  к сопротивлению любому физическому урону."
-	
+        "DOTA_Tooltip_ability_moai_2_jump"                                            "<font color='#a8a8a8'>「Монолитный Прыжок」</font>"
+        "DOTA_Tooltip_ability_moai_2_jump_description"                                "Герой совершает прыжок в указанную точку, нанося врагам чистый урон в радиусе приземления. Итоговый урон зависит от базового значения и максимального запаса здоровья владельца. Применение способности расходует часть текущего здоровья героя."
+        "DOTA_Tooltip_ability_moai_2_jump_radius"                                     "Радиус приземления: "
+        "DOTA_Tooltip_ability_moai_2_jump_pure_damage"                                "Базовый чистый урон: "
+        "DOTA_Tooltip_ability_moai_2_jump_hp_dmg_pct"                                 "Урон от макс. здоровья (%): "
+        "DOTA_Tooltip_ability_moai_2_jump_scepter_description"                        "Позволяет прыгнуть на союзного героя, занимая позицию у него на голове. В этом состоянии владелец становится неуязвимым и может атаковать, но не может использовать предметы и большинство способностей. Союзник-носитель получает удвоенные бонусы от ауры «Тяжесть Камня», при этом остальные союзники ауру теряют. Находясь на союзнике, герой автоматически активирует урон от прыжка каждые 5 секунд. Повторное применение позволяет спрыгнуть."
+
+        "DOTA_Tooltip_ability_moai_3_stacks"                                          "<font color='#a8a8a8'>「Синергия Веков」</font>"
+        "DOTA_Tooltip_ability_moai_3_stacks_description"                              "Пассивная способность. Герой накапливает уровни эффекта за каждого союзника в радиусе действия своей ауры. Любой эффект контроля, наложенный на владельца, сбрасывает количество уровней до одного. Каждый стак дарует последовательные усиления:\n1 стак: бонус к сопротивлению эффектам.\n2 стака: снижение получаемого урона.\n3 стака: сокращение перезарядки способностей.\n4 стака: «Монолитный Прыжок» больше не расходует здоровье.\n5 стаков: «Окаменение» перестает отключать эту способность.\n6 стаков: невосприимчивость к эффектам."
+        "DOTA_Tooltip_ability_moai_3_stacks_shard_description"                        "Дарует активную способность: моментально прекращает накопление стаков на 30 секунд, но восстанавливает значительную часть здоровья в зависимости от количества уровней эффекта, имевшихся на момент активации. Перезарядка этой способности не может быть уменьшена."
+
+        "DOTA_Tooltip_ability_moai_4_meditation"                                      "<font color='#a8a8a8'>「Окаменение」</font>"
+        "DOTA_Tooltip_ability_moai_4_meditation_description"                          "Герой оглушает самого себя, переходя в состояние глубокой медитации. Это состояние невозможно прервать, и оно игнорирует сопротивление эффектам. Пока способность активна, аура «Тяжесть Камня» продолжает действовать, а её бонусы значительно увеличиваются. На время действия полностью отключается способность «Синергия Веков» (если накоплено менее 5 уровней). Перезарядка этой способности является фиксированной."
+        "DOTA_Tooltip_ability_moai_4_meditation_duration"                             "Длительность медитации: "
+        "DOTA_Tooltip_ability_moai_4_meditation_multiplier"                           "Множитель бонусов ауры: "
+
+
+		"DOTA_Tooltip_modifier_moai_1_buff"								"Тяжесть Камня"
+		"DOTA_Tooltip_modifier_moai_1_buff_Description"					"Увеличена броня, сопротивление магии и регенерация всех ресурсов."
+		"DOTA_Tooltip_modifier_moai_3_stacks"							"Синергия Веков"
+		"DOTA_Tooltip_modifier_moai_3_stacks_Description"				"Текущее количество стаков: %dMODIFIER_PROPERTY_TOOLTIP%"
+		"DOTA_Tooltip_modifier_moai_4_meditation"						"Окаменение"
+		"DOTA_Tooltip_modifier_moai_4_meditation_Description"			"Герой оглушен, но его аура усилена!"
+		"DOTA_Tooltip_modifier_moai_head_buff"							"Каменная Защита"
+		"DOTA_Tooltip_modifier_moai_head_buff_Description"				"Моай на вашей голове! Бонусы ауры увеличены вдвое."
+
+		// Ограничения / Аура (Skill 1)
+		"Talent_Moai_AttackRange_1"         "Снимает ограничение на дальность атаки, увеличивая её со 1200 до максимальной."
+		"Talent_Moai_Aura_20"               "Радиус действия ауры «Тяжесть Камня» (и баффов от стаков) становится глобальным (работает по всей карте)."
+		"Moai_Label_AttackRange"            "Дальность атаки"
+
+		// Прыжок (Skill 2)
+		"Moai_Scepter_Jump_Desc"            "Позволяет применить прыжок на союзного героя, чтобы запрыгнуть ему на голову. Находясь на голове, Моай становится неуязвим, блокирует свои 3 и 4 способности, и пассивно наносит вокруг себя урон от приземления."
+		"Talent_Moai_Jump_5"                "Увеличивает радиус урона при приземлении от прыжка на 500."
+
+		// Синергия Веков (Skill 3)
+		"Moai_Shard_Stacks_Desc"            "Добавляет активную способность. Поглощает все текущие стаки и дает мощную регенерацию здоровья на 5 секунд. Отключает накопление стаков на 30 секунд."
+		"Talent_Moai_Stacks_15"             "Пассивно дает +1 постоянный стак «Синергии Веков», не зависящий от количества союзников рядом."
+		"Moai_Label_BonusStacks"            "Бонусные стаки"
+
+		// Окаменение / Медитация (Skill 4)
+		"Talent_Moai_Meditation_10"         "Во время действия Окаменения, любая атака по Моаю или его союзникам в радиусе 3000 имеет 50% шанс оглушить атакующего врага на 0.5 секунды."
+		"Moai_Label_StunChance"             "Шанс оглушения"
+		"Moai_Label_StunDur"                "Длительность оглушения"
 
 		"DOTA_Tooltip_ability_jibril_energy_blast" 						"<font color='#ff00eb'>「Black Energy」</font>"
 		"DOTA_Tooltip_ability_jibril_energy_blast_Description" 				"Создаёт заряд чёрной энергии в руке, выпуская его в указанную область. При попадании наносит всем противникам в области урон."
@@ -7663,37 +7704,90 @@
 
 		"DOTA_Tooltip_modifier_gu_ice_dragons_talisman_enemy"					"Ice Dragons Talisman"
 
-		"DOTA_Tooltip_ability_gu_t72_upgrade" 								"<font color='#fd2727'>「Т-72 «Урал»」</font>"
-		"DOTA_Tooltip_ability_gu_t72_upgrade_Description" 					"Разработка Т-72 началась в 1967 году. В ходе дальнейшей работы, в 1968-69 годах, были проведены сравнительные испытания основных танков Т-64А с двигателем В-45 с эжекционной системой охлаждения (разработка Харьковского конструкторского бюро машиностроения) и образцов с двигателем В-45 с вентиляторной системой охлаждения (разработка конструкторского бюро в Нижнем Тагиле) и автоматом заряжания пушки на 22 выстрела. Последние показали более высокие результаты. Прокачивает основные характеристики. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела, + %damage% к урону. Предметы на уменьшение базового времени атаки не работают. Получает на 20% меньше любого урона по себе. <br><br> Имеет фиксированую скорость стрельбы, никакие предметы на снижение базового времени атаки и другое не работают!"
-		"DOTA_Tooltip_ability_gu_t72_upgrade_scepter_Description"			"Увеличивает бонусный урон на 150%" 
+		// ================= СПОСОБНОСТИ Т-72А ================= //
+		"DOTA_Tooltip_ability_gu_t72_passive_armor"                                    "<font color='#fd2727'>「Пассивная Броня」</font>"
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_description"                        "Пассивная способность. Укрепляет корпус танка, снижая любой входящий урон и увеличивая показатели здоровья и брони владельца. Устанавливает фиксированное базовое время атаки, которое невозможно уменьшить никакими предметами."
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_damage_reduction"                   "Снижение урона (%): "
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_bat"                                "Базовое время атаки: "
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_bonus_health"                       "Бонус к здоровью: "
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_bonus_armor"                        "Дополнительная броня: "
+        "DOTA_Tooltip_ability_gu_t72_passive_armor_shard_description"                  "Дарует активную способность: Танк временно отключает двигатель, полностью перераспределяя мощность на защиту. Скорость передвижения падает до нуля, но в течение 10 секунд герой принимает на себя весь урон, наносимый союзникам в радиусе 3000."
 
-		"DOTA_Tooltip_ability_gu_t72_ammo_bb" 								"<font color='#fd2727'>「3ВБМ3」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_bb_Description" 					"Бронебойный снаряд <font color='#fd2727'>「3ВБМ3」</font> - основной снаряд который использует орудие Д-81ТМ. Бронепробитие данного снаряда составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительно 50% урона по цели в зависимости от силы Т-72"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_bb" 							"<font color='#fd2727'>「3ВБМ3」</font>"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_bb_Description" 				"Стандартный снаряд, не имеет никаких уникальных эффектов"
+        "DOTA_Tooltip_ability_gu_t72_ammo_basic"                                       "<font color='#fd2727'>「3ВБМ3 (Бронебойный подкалиберный)」</font>"
+        "DOTA_Tooltip_ability_gu_t72_ammo_basic_description"                           "Стандартный тип снарядов. Выстрелы из орудия не расходуют энергию и частично игнорируют броню противника. Способность действует на боссов, но не пробивает невосприимчивость к эффектам."
+        "DOTA_Tooltip_ability_gu_t72_ammo_basic_armor_ignore_pct"                      "Игнорирование брони (%): "
 
-		"DOTA_Tooltip_ability_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「3ВБК7」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_kym_Description" 				"Кумулятивный снаряд <font color='#f9fd27'>「3ВБК7」</font> предназначен для пробития толстой брони, пробитие данным снарядом составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительный Чистый урон в размере 2% от максимального здоровья цели. Данный снаряд имеет шанс в %chance_force_kill%%% обездвижить цель на 5 секунд, данное оглушение игнорирует сопротивление эффектам, стоимость выстрела составляет 5% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_kym" 							"<font color='#f9fd27'>「3ВБК7」</font>"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_kym_Description" 				"Имеет некоторый шанс оглушить противника, значительно снижает броню врага, стоимость выстрела - 5% от вашей энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap"                                          "<font color='#f9fd27'>「3ВБК7 (Бронебойный кумулятивный)」</font>"
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_description"                              "Заряжает кумулятивные снаряды. Каждая атака временно снижает броню цели и накладывает на неё метку: союзники, атакующие помеченного противника, получают бонус к скорости атаки. Снаряды эффективны против боссов и существ с невосприимчивостью к эффектам. Если энергии для выстрела недостаточно, танк автоматически переключится на снаряды 3ВБМ3."
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_armor_reduction"                          "Снижение брони: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_debuff_duration"                          "Длительность снижения брони: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_as_buff"                                  "Бонус к скорости атаки союзникам: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_energy_pct"                               "Расход энергии (% от макс.): "
+        "DOTA_Tooltip_ability_gu_t72_ammo_ap_energy_flat"                              "Расход энергии (ед.): "
+        
+        "DOTA_Tooltip_ability_gu_t72_ammo_he"                                          "<font color='#fd7427'>「3ВОФ22 (Осколочно-фугасный)」</font>"
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_description"                              "Заряжает осколочно-фугасные снаряды. Атаки наносят урон по области вокруг цели, замедляя скорость передвижения и атаки всех задетых противников. Способность действует на боссов, но не действует на существ с невосприимчивостью к эффектам. Если энергии для выстрела недостаточно, танк автоматически переключится на снаряды 3ВБМ3."
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_splash_radius"                            "Радиус поражения: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_slow_pct"                                 "Замедление (%): "
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_slow_duration"                            "Длительность замедления: "
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_energy_pct"                               "Расход энергии (% от макс.): "
+        "DOTA_Tooltip_ability_gu_t72_ammo_he_energy_flat"                              "Расход энергии (ед.): "
+
+        "DOTA_Tooltip_ability_gu_t72_artillery"                                        "<font color='#fd7427'>「9М119 «Рефлекс»」</font>"
+        "DOTA_Tooltip_ability_gu_t72_artillery_description"                            "Осуществляет пуск управляемой ракеты 9М119 «Рефлекс» через ствол орудия в указанную область. При детонации ракета наносит сокрушительный физический урон всем противникам в радиусе действия, величина которого зависит от их максимального запаса здоровья. Мощная взрывная волна временно подавляет выживших врагов, снижая их исходящий урон. Урон от этой способности не зависит от показателя усиления урона от заклинаний, а её перезарядку невозможно мгновенно восстановить с помощью Refresher Orb."
+        "DOTA_Tooltip_ability_gu_t72_artillery_radius"                                 "Радиус поражения: "
+        "DOTA_Tooltip_ability_gu_t72_artillery_hp_dmg_pct"                             "Урон от макс. здоровья (%): "
+        "DOTA_Tooltip_ability_gu_t72_artillery_damage_reduction_pct"                   "Снижение урона врагов (%): "
+        "DOTA_Tooltip_ability_gu_t72_artillery_debuff_duration"                        "Длительность снижения урона: "
+        "DOTA_Tooltip_ability_gu_t72_artillery_energy_pct"                             "Расход энергии (% от макс.): "
+        "DOTA_Tooltip_ability_gu_t72_artillery_energy_flat"                            "Расход энергии (ед.): "
+
+        "DOTA_Tooltip_ability_gu_t72_active_armor"                                     "<font color='#fd7427'>「КАЗ «Заслон»」</font>"
+        "DOTA_Tooltip_ability_gu_t72_active_armor_description"                         "Переключаемая способность. В активном режиме комплекс активной защиты снижает входящий урон и отражает часть полученного урона обратно в атакующего. Потребляет энергию каждые 0,5 секунды. В пассивном режиме значительно увеличивает регенерацию энергии, если танк не получал урон в течение последних 10 секунд."
+        "DOTA_Tooltip_ability_gu_t72_active_armor_reduction"                            "Снижение входящего урона (%): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_reflect_pct"                         "Отражаемый урон (%): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_energy_pct"                          "Расход энергии (%): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_energy_flat"                         "Расход энергии (ед.): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_regen_pct"                           "Бонус к регенерации энергии (%): "
+        "DOTA_Tooltip_ability_gu_t72_active_armor_scepter_description"                 "Увеличивает интервал потребления энергии в активном режиме до 1 секунды."
+		// ================= ВИДИМЫЕ МОДИФИКАТОРЫ ================= //
+		"DOTA_Tooltip_modifier_gu_t72_ammo_manager"						"Заряженный снаряд"
+		"DOTA_Tooltip_modifier_gu_t72_ammo_manager_Description"			"Орудие готово к выстрелу. Текущий тип боеприпасов."
 		
-		"DOTA_Tooltip_ability_gu_t72_ammo_heat" 							"<font color='#fd7427'>「3ВОФ22」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_heat_Description" 				"Осколочно-фугасные снаряд <font color='#fd7427'>「3ВОФ22」</font> не пробивает броню но наносит %damage%%% урона по области в радиусе %heat_dmg_radius% от основной цели. Стоимость выстрела данным снарядом составляет 2% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_heat_penetration" 				"Пробитие: "
-		"DOTA_Tooltip_modifier_gu_t72_ammo_heat" 							"<font color='#fd7427'>「3ВОФ22」</font>"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_heat_Description" 				"Наносит огромный урон по области в радиусе 800, стоимость выстрела - 2% энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
-
-		"DOTA_Tooltip_modifier_gu_t72_ammo_armor_reduction"					"Пробитие"
-		"DOTA_Tooltip_modifier_gu_t72_ammo_armor_reduction_Description"			"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
-
-		"DOTA_Tooltip_ability_gu_t72_ammo_rocket" 							"<font color='#fd7427'>「9М112М2」</font>"
-		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_Description" 					"Советский комплекс управляемого вооружения танка (КУВТ) с радиокомандным наведением <font color='#fd7427'>「9М112М2」</font> Позволяет поражать вражеские цели на дальности 50000, попадание игнорирует броню врага нанося урон по формуле %base_damage% + (%bonus_dmg_per_armor% * вашу броню), перезарядку данной способности невозможно уменьшить."
-		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_count_target" 					"Количество целей: "
-		"DOTA_Tooltip_ability_gu_t72_ammo_rocket_shard_Description" 			"Добавляет бонусный урон - сила * 3"
-
-		"DOTA_Tooltip_ability_gu_t72_active_armor" 							"<font color='#fd7427'>「КАЗ «Барьер»」</font>"
-		"DOTA_Tooltip_ability_gu_t72_active_armor_Description" 					"«Заслон» — украинский комплекс активной защиты бронетехники, разработанный киевским предприятием БЦКТ «Микротек» на основе наработок советской программы 1980-х годов «Барьер». Предназначен для защиты танков от ПТУР, кумулятивных снарядов танковых и противотанковых пушек, а также БОПС. Позволяет раз в %cd% секунд не получить урон от любой атаки, при этом в радиусе 1200 вокруг Т-72 будет произведён подрыв заряда который нанесёт %damage% в радиусе %radius%"
+		"DOTA_Tooltip_modifier_gu_t72_ap_debuff"						"Пробитие брони (3ВБК7)"
+		"DOTA_Tooltip_modifier_gu_t72_ap_debuff_Description"			"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%. Атакующие этого врага союзники получат временный бонус к скорости атаки."
 		
+		"DOTA_Tooltip_modifier_gu_t72_he_slow"							"Контузия (3ВОФ22)"
+		"DOTA_Tooltip_modifier_gu_t72_he_slow_Description"				"Скорость атаки и передвижения снижена на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
+		
+		"DOTA_Tooltip_modifier_gu_t72_consta_armor"						"Укрепление брони (3ВОФ22)"
+		"DOTA_Tooltip_modifier_gu_t72_consta_armor_Description"			"За успешные попадания фугасом броня повышена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
+		
+		"DOTA_Tooltip_modifier_gu_t72_art_debuff"						"Подавление"
+		"DOTA_Tooltip_modifier_gu_t72_art_debuff_Description"			"Исходящий урон снижен на %dMODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE%%%."
+		
+		"DOTA_Tooltip_modifier_gu_t72_kaz"								"КАЗ «Заслон»"
+		"DOTA_Tooltip_modifier_gu_t72_kaz_Description"					"Активный режим: снижает входящий урон на %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%.\nПассивный режим: ускоряет регенерацию энергии на %dMODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE%%%."
+
+		// Пассивная броня (Skill 1)
+		"T72_Shard_Passive_Desc"            "Способность можно активировать, чтобы на 10 секунд обездвижить танк и создать ауру (радиус 3000). Аура перенаправляет весь получаемый союзниками урон на танк в виде чистого урона."
+		"Talent_T72_Passive_5"              "Танк становится полностью неуязвимым к погодным эффектам."
+
+		// Бронебойный снаряд (Skill 3)
+		"Talent_T72_APAmmo_2"               "Бронебойный снаряд дополнительно снижает физическую броню цели на 18 единиц."
+		"T72_Label_ArmorReduction"          "Снижение брони"
+
+		// Фугасный снаряд (Skill 4)
+		"Talent_T72_HEAmmo_1"               "При попадании фугасным снарядом танк получает +3 брони на 10 секунд за каждого задетого врага."
+
+		// Артиллерийский удар (Skill 5)
+		"Talent_T72_Artillery_10"           "Увеличивает длительность дебаффа на снижение исходящего урона от выстрела до 20 секунд."
+		"T72_Label_StrikeDebuff"            "Длительность дебаффа"
+
+		// КАЗ "Заслон" (Skill 6)
+		"T72_Scepter_KAZ_Desc"              "Снижает частоту потребления энергии активной защитой в 2 раза (с 0.5 до 1.0 сек)."
+		"Talent_T72_KAZ_4"                  "Снижает затраты энергии на поддержание КАЗ. Потребление фиксируется на 1% + (5 * уровень способности)."
+		"T72_Label_KAZEnergy"               "Потребление энергии"
 
 
 		"DOTA_Tooltip_ability_gu_t90_upgrade" 								"<font color='#fd2727'>「Т-90М «Прорыв»」</font>"
