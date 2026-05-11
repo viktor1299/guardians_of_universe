@@ -9131,5 +9131,13 @@
 	
 		"npc_gunduk"													"Gyndyk"
 		"npc_dota_hero_chen"											"A-10 Thunderbolt II"
+
+		"DOTA_Tooltip_ability_item_gu_drilling_rig"                             "Reinforced Drilling Rig"
+		"DOTA_Tooltip_ability_item_gu_drilling_rig_Description"                 "Made of Steel and Zirconium. Use on a Tier 3 mine, requires 10,000 reactor energy to begin extracting relic ores. Warning: risk of Naquadria isotope explosion!"
+	
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator"                      "<font color='#00d9ff'>Universal Ancient Manipulator</font>"
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Description"          "The absolute pinnacle of Asgard technology and the legacy of the Ancient race. This tool combines the functions of the Defuser and the heavy Drilling Rig.\n\n<font color='#54ff54'><b>INSTANT EFFECT:</b></font>\n\n<b>☄️ On meteorites:</b> Instantly extracts crystal shards (50-200) and Iridium-191.\n<b>⚡ On generators:</b> Hacks shields to obtain protons and neutrons.\n<b>⛏️ On mines:</b> Unveils deep Tier 3 deposits (consumes 10,000 ZPM energy)."
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Lore"                 "The device the Ancients used to terraform planets now fits in the palm of your hand. Caution: do not point at eyes."
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Note0"                "Replaces the Engineering Complex 'Defuser' and the Drilling Rig."
 	}	
 }

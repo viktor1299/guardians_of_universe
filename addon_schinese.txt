@@ -9131,5 +9131,13 @@
 	
 		"npc_gunduk"													"金迪克"
 		"npc_dota_hero_chen"											"A-10 雷电 II"
+
+		"DOTA_Tooltip_ability_item_gu_drilling_rig"                             "强化钻机"
+		"DOTA_Tooltip_ability_item_gu_drilling_rig_Description"                 "由钢铁和锆制成。对3级矿井使用，需要10,000点反应堆能量才能开始开采遗物矿石。警告：有纳夸德里亚（Naquadria）同位素爆炸的风险！"
+	
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator"                      "<font color='#00d9ff'>古人万能操纵器</font>"
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Description"          "阿斯加德技术的绝对巅峰与古人种族的遗产。该工具结合了拆解器和重型钻机的功能。\n\n<font color='#54ff54'><b>瞬间生效：</b></font>\n\n<b>☄️ 对陨石：</b> 瞬间提取水晶碎片（50-200）和铱-191。\n<b>⚡ 对发生器：</b> 破解护盾以获取质子和中子。\n<b>⛏️ 对矿井：</b> 开启深层3级矿脉（消耗10,000点ZPM能量）。"
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Lore"                 "古人用来地球化改造行星的设备，现在只需单手即可掌握。警告：请勿对准眼睛。"
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Note0"                "取代工程复合体“拆解器”和钻机。"
 	}	
 }

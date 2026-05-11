@@ -9131,5 +9131,13 @@
 	
 		"npc_gunduk"													"กยินดิก"
 		"npc_dota_hero_chen"											"เอ-10 ธันเดอร์โบลต์ 2"
+
+		"DOTA_Tooltip_ability_item_gu_drilling_rig"                             "แท่นขุดเจาะเสริมพลัง"
+		"DOTA_Tooltip_ability_item_gu_drilling_rig_Description"                 "ทำจากเหล็กและเซอร์โคเนียม ใช้กับเหมืองแร่ระดับ 3 ต้องการพลังงานเตาปฏิกรณ์ 10,000 หน่วยเพื่อเริ่มขุดแร่โบราณ คำเตือน: ระวังความเสี่ยงที่ไอโซโทป Naquadria จะระเบิด!"
+	
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator"                      "<font color='#00d9ff'>อุปกรณ์ควบคุมโบราณอเนกประสงค์</font>"
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Description"          "จุดสูงสุดของเทคโนโลยี Asgard และมรดกของเผ่าพันธุ์ Ancient เครื่องมือนี้รวมฟังก์ชันของ Defuser และแท่นขุดเจาะขนาดหนักเข้าด้วยกัน\n\n<font color='#54ff54'><b>ทำงานทันที:</b></font>\n\n<b>☄️ อุกกาบาต:</b> สกัดเศษคริสตัล (50-200) และ Iridium-191 ทันที\n<b>⚡ เครื่องกำเนิดพลังงาน:</b> แฮ็กโล่ป้องกันเพื่อรับโปรตอนและนิวตรอน\n<b>⛏️ เหมืองแร่:</b> ปลดล็อกแหล่งแร่ระดับ 3 ที่อยู่ลึกลงไป (ใช้พลังงาน ZPM 10,000 หน่วย)"
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Lore"                 "อุปกรณ์ที่เหล่า Ancient ใช้ในการปรับสภาพดาวเคราะห์ ตอนนี้สามารถถือได้ด้วยมือเดียว คำเตือน: ห้ามส่องเข้าตา"
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Note0"                "ใช้แทน Engineering Complex «Defuser» และแท่นขุดเจาะ"
 	}	
 }
