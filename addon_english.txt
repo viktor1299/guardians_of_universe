@@ -1663,7 +1663,7 @@
 			"npc_dota_hero_leshrac"  										"Energy Mage"
 
 		"DOTA_Tooltip_ability_clusters_stars"											"Energy Mage: Star Clusters"
-		"DOTA_Tooltip_ability_clusters_stars_Description"									"Passively allows you to make an additional attack. When activated, it increases the character's damage as well as damage from critical hits. Restores health after killing a target. The damage depends on your Combo."
+		"DOTA_Tooltip_ability_clusters_stars_Description"									"Passively allows you to make an additional attack. When activated, it increases the character's damage as well as damage from critical hits. Restores health after killing a target. Damage depends on your Combo."
 		"DOTA_Tooltip_ability_clusters_stars_Note0"											"Combo Boost: 25%%<br></br>Crit Multiplier: 30<br></br>Critical Hit Ratio: 1 + 0.25 * Ability Level<br></br>Damage: 2 * Attack * Ability Level<br></br>Duration: 2"
 		"DOTA_Tooltip_ability_clusters_stars_reduce_armor"									"Armor reduction: "
 		"DOTA_Tooltip_ability_clusters_stars_damage"										"Damage: "
@@ -1945,46 +1945,70 @@
 
 			"npc_dota_hero_gyrocopter" 										"MI-24V「★★★★★」"
 
-		"DOTA_Tooltip_Ability_mi24_upgrade"												"MI-24V"
-		"DOTA_Tooltip_Ability_mi24_upgrade_Description"										"Improves helicopter performance.<br><font color='#fc0303'>The base attack time cannot be changed!</font>"
-		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_health"									"Health: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_armor"										"Armor: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_damage"									"Damage: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_reload_time"										"Attack speed: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_attack_range_bonus"								"Shot range: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_passive_speed"									"Speed: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_damage_hp_pct"								"%Уронfrom health: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5" "Complex S-5 NAR"
+		"DOTA_Tooltip_ability_mi24v_attack_c5_Description" "Switching the vehicle to attack mode: the MI-24V begins to loiter in orbit, firing unguided missiles at enemy targets. Each activation of the guidance system consumes reactor energy (percentage and flat).\n\nThe damage of the warhead is equal to the base value plus the amount of energy expended multiplied by 100 (physical damage).\n\n<font color='#cf1919'>Attention! Ballistic damage cannot be increased with magical enhancement!</font>"
+		"DOTA_Tooltip_ability_mi24v_attack_c5_energy_pct" "% energy per start: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_energy_flat" "Energy units per launch: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_interval" "Firing interval: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_damage" "Base rocket damage: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_radius" "Target acquisition radius: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_scepter_Description" "Armor-piercing warheads: Changes the damage type of missiles to pure."
 
-		"DOTA_Tooltip_ability_mi24v_attack_c5"											"C-5 HAP"
-		"DOTA_Tooltip_ability_mi24v_attack_c5_Description"									"If this ability is activated, the MI-24V begins to circle the area and fire unguided S5-NAR missiles at all enemy units around it, consuming energy every second.<br>Consumes 2<font color='#f7a62d'>Energy</font>every 0.3 seconds.<br><br><font color='#cf1919'>Attention! The damage of this ability cannot be increased with magical enhancement!"
-        "DOTA_Tooltip_ability_mi24v_attack_c5_radius"										"Radius: "
-        "DOTA_Tooltip_ability_mi24v_attack_c5_rocket_damage"								"Rocket Damage: "
-		"DOTA_Tooltip_ability_mi24v_attack_c5_damage_multi"									"Damage multiplier (with talent): "
-		"DOTA_Tooltip_ability_mi24v_attack_c5_scepter_Description"						"Changes the damage type to pure."
+		"DOTA_Tooltip_modifier_mi24v_attack_c5" "Combat orbit"
+		"DOTA_Tooltip_modifier_mi24v_attack_c5_Description" "Close fire support mode activated. The on-board computer spends energy to automatically launch missiles at targets within the affected radius."
 
-		"DOTA_Tooltip_ability_mi24_ykb_12_7"                      "Four-barreled machine gun Yak-B"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"          "Weapon system modification. The helicopter is equipped with a high-speed 12.7 mm machine gun. Passively improves the ballistic characteristics of the vehicle: increases base damage, effective fire range and rate of fire."
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_Lore"                 "The fire density of the Yak-B reaches 4,500 rounds per minute - the target is literally sawed into pieces."
+		"DOTA_Tooltip_Ability_mi24_upgrade" "Titanium Armor"
+		"DOTA_Tooltip_Ability_mi24_upgrade_Description" "Fuselage Strengthening and Engine Boosts: Passively increases structural strength (health), ballistic protection (armor), cruising speed and gives a chance to evade anti-aircraft fire.\n\n<font color='#54ff54'><b>Shard - Active LTC reset:</b></font>When activated for 30 seconds, doubles the current evasion chance due to emergency maneuvering, but reduces the skill's bonus armor by half."
+		"DOTA_Tooltip_Ability_mi24_upgrade_hp" "Structural strength: "
+		"DOTA_Tooltip_Ability_mi24_upgrade_armor" "Armor plates: "
+		"DOTA_Tooltip_Ability_mi24_upgrade_ms" "Cruising speed: "
+		"DOTA_Tooltip_Ability_mi24_upgrade_evasion" "Evasion chance (%): "
+		"DOTA_Tooltip_Ability_mi24_upgrade_shard_duration" "Maneuver duration (Shard): "
 
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_bonus_damage"         "EXTRA DAMAGE:"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_reload_time"          "BASE ATTACK TIME:"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_attack_range_bonus"   "FIRE RANGE BONUS:"
+		"DOTA_Tooltip_modifier_mi24_upgrade_shard" "Emergency maneuvering"
+		"DOTA_Tooltip_modifier_mi24_upgrade_shard_Description" "The heat traps have been reset. The chance to evade attacks is increased by 2 times, but the structural armor is temporarily weakened."
 
-		"DOTA_Tooltip_modifier_mi24_ykb_12_7_armor_shred"                "Broken armor"
-		"DOTA_Tooltip_modifier_mi24_ykb_12_7_armor_shred_Description"    "The protection was damaged by 12.7 mm armor-piercing bullets. Armor rating reduced by%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
+		"DOTA_Tooltip_ability_mi24_ykb_12_7" "Yak-B 12.7 mm machine gun"
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description" "Integrated multi-barrel installation.\n<font color='#a3a3a3'>Passive mode:</font>suppressive fire. Each hit has a chance to apply a charge that reduces the target's armor by 1.\n<font color='#ff4d4d'>Boost Mode (Active):</font>each hit is guaranteed to penetrate armor, but consumes energy. If the reactor is empty, the system will be forced into passive mode."
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_Lore" "The fire density of the Yak-B reaches 4,500 rounds per minute - the target is literally sawed into pieces."
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_inactive_chance" "Chance of penetration (passive): "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_active_energy_pct" "% energy (active): "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_active_energy_flat" "Energy units (asset): "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_debuff_duration" "Penetration duration: "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_scepter_Description" "Kinetics regeneration: allows you to restore energy upon successful armor penetration (5% of the total reserve in passive mode, 0.3% in boosted mode)."
 
-		"DOTA_Tooltip_ability_tek_mosquito_missiles"                                    "Sturm-V"
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_description"							"The MI-24V scans all enemy units within a radius, capturing their heat signature. After interruption or termination of the aiming action, it begins firing from guided missiles of the 9K113 “Sturm-V” type<br><br><font color='#cf1919'>Attention! The damage of this ability cannot be increased with magical enhancement!"
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_interval"								"Interval: "
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_range"									"Radius: "
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_damage"									"Damage: "
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_damage_multi"							"Strength Multiplier (with talent): "
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_shard_description"					"Changes the damage type to pure."	
-			
-		"DOTA_Tooltip_ability_tek_powered_mosquito_missiles"                             "MI-24: 9M17 Scorpio"
-		"DOTA_Tooltip_ability_tek_powered_mosquito_missiles_description"					"MI-24 begins to capture targets around itself. After targeting, it fires missiles at all captured targets."
-		"DOTA_Tooltip_ability_tek_powered_mosquito_missiles_interval"						"Interval: " 
-		"DOTA_Tooltip_ability_tek_powered_mosquito_missiles_range"							"Range: "   
+		"DOTA_Tooltip_modifier_mi24_ykb_12_7_debuff" "The armor is broken"
+		"DOTA_Tooltip_modifier_mi24_ykb_12_7_debuff_Description" "The outer skin was critically damaged by 12.7 mm armor-piercing bullets. Defense indicator reduced by%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
+
+		"DOTA_Tooltip_ability_tek_mosquito_missiles" "Fast and Furious Rotor"
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_description" "Passive: automation fixes the base attack time of machine guns (cannot be changed by third-party items).\n\nActive: The pilot breaks the limiters of the turboshaft engines, burning energy for extreme acceleration of combat systems. The base attack time is temporarily reduced to critical values.\n\n<font color='#fc0303'>Cooling system overcharge is strictly fixed, cannot be reset or reduced!</font>"
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_energy_pct" "% energy for activation: "
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_energy_flat" "Energy units per activation: "
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_passive_bat" "Standard attack time: "
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_active_bat" "Attack time (overload): "
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_duration" "Afterburner operating time: "
+
+		"DOTA_Tooltip_modifier_tek_mosquito_missiles_active" "Removing the Restrictors"
+		"DOTA_Tooltip_modifier_tek_mosquito_missiles_active_Description" "Turboshaft engines operate at their limit. Base attack time reduced to an absolute minimum."
+
+		"Mi24_Scepter_C5_Desc"              "Changes the damage type of missiles from Physical to Pure."
+		"Talent_Mi24_C5_20"                 "Increases the number of missiles fired per salvo from 1 to 2."
+		"Mi24_Label_RocketCount"            "Missiles per salvo"
+
+		"Mi24_Shard_Upgrade_Desc"           "Adds an active ability. When activated, reduces your armor by half for a short time, but doubles your evasion."
+		"Talent_Mi24_Upgrade_15"            "Passively reduces base evasion by 2 times, but gives a chance of absolute evasion from any physical attack (which cannot be penetrated by ICD)."
+		"Mi24_Label_UniversalEvasion"       "Absolute Dodge"
+
+		"Mi24_Scepter_YakB_Desc"            "Machine gun hits restore energy (both active and passive)."
+		"Talent_Mi24_YakB_5"                "In active mode, there is a 20% chance to immediately apply 2 stacks of armor reduction. In passive mode, the chance of applying a debuff gradually increases as the ability is upgraded."
+		"Mi24_Label_YakBChance"             "Debuff Chance (passive)"
+
+		"Talent_Mi24_Mosquito_1"            "Permanently reduces base attack time (BAT) by 0.1 sec in passive and active modes."
+		"Talent_Mi24_Mosquito_10"           "Increases the duration of the active mode (afterburner) by 10 seconds."
+		"Mi24_Label_BAT"                    "Base Attack Time (Passive/Active)"
+		"Mi24_Label_MosquitoDur"            "Afterburner duration"
+
+
 
 
 			"npc_dota_hero_templar_assassin" 								"Biyao「★★★」"
@@ -4094,7 +4118,7 @@
 			"boss_5" "All paths will one day come to an end. There's no need to rush. The past is a ghost, the future is a dream, and all we have is the present."
 			"boss_6" "Do you know that in this very moment you are surrounded by eternity? And do you know that you can take advantage of this eternity if you wish?"
 			"boss_7" "Time has neither beginning nor end. Time is like the serpent Ouroboros, grasping its own tail with its teeth. Eternity is hidden in every moment. And eternity is made up of the moments that create it."
-			"boss_8" "Thirty years ago, the First Spirit appeared on Earth and became the generation of other spirits. My goal is to kill him. I want to see how God will accept a stupid, reckless attempt to change the world."
+			"boss_8" "Thirty years ago, the First Spirit appeared on Earth and became the offspring of other spirits. My goal is to kill him. I want to see how God will accept a stupid, reckless attempt to change the world."
 
 			"boss_name_1" "Sangonomiya"
 			"boss_name_2" "Goddess Aqua"
@@ -7191,7 +7215,7 @@
 		"MANA"								"Mana"
 		"CD_REDUCTION"						"Decrease CD"
 		"DMG_RES"							"Damage Resistance"
-		"ATK_SPD"							"Attack speed"
+		"ATK_SPD"							"Attack Speed"
 		"STATS"							    "Characteristics"
 		"ALL_STATS"							"to everything"
 
@@ -9131,13 +9155,5 @@
 	
 		"npc_gunduk"													"Gyndyk"
 		"npc_dota_hero_chen"											"A-10 Thunderbolt II"
-
-		"DOTA_Tooltip_ability_item_gu_drilling_rig"                             "Reinforced Drilling Rig"
-		"DOTA_Tooltip_ability_item_gu_drilling_rig_Description"                 "Made of Steel and Zirconium. Use on a Tier 3 mine, requires 10,000 reactor energy to begin extracting relic ores. Warning: risk of Naquadria isotope explosion!"
-	
-		"DOTA_Tooltip_ability_item_gu_ancient_manipulator"                      "<font color='#00d9ff'>Universal Ancient Manipulator</font>"
-		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Description"          "The absolute pinnacle of Asgard technology and the legacy of the Ancient race. This tool combines the functions of the Defuser and the heavy Drilling Rig.\n\n<font color='#54ff54'><b>INSTANT EFFECT:</b></font>\n\n<b>☄️ On meteorites:</b> Instantly extracts crystal shards (50-200) and Iridium-191.\n<b>⚡ On generators:</b> Hacks shields to obtain protons and neutrons.\n<b>⛏️ On mines:</b> Unveils deep Tier 3 deposits (consumes 10,000 ZPM energy)."
-		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Lore"                 "The device the Ancients used to terraform planets now fits in the palm of your hand. Caution: do not point at eyes."
-		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Note0"                "Replaces the Engineering Complex 'Defuser' and the Drilling Rig."
 	}	
 }

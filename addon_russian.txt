@@ -1945,46 +1945,70 @@
 
 			"npc_dota_hero_gyrocopter" 										"MI-24V「★★★★★」"
 
-		"DOTA_Tooltip_Ability_mi24_upgrade"												"MI-24V"
-		"DOTA_Tooltip_Ability_mi24_upgrade_Description"										"Улучшает характеристики вертолёта.<br><font color='#fc0303'>Базовое время атаки нельзя изменить!</font>"
-		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_health"									"Здоровье: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_armor"										"Броня: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_damage"									"Урон: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_reload_time"										"Cкорость атаки: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_attack_range_bonus"								"Дальность выстрела: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_passive_speed"									"Скорость: "
-		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_damage_hp_pct"								"%Урон от здоровья: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5" "Комплекс С-5 НАР"
+		"DOTA_Tooltip_ability_mi24v_attack_c5_Description" "Перевод машины в режим штурмовки: MI-24V начинает барражировать по орбите, обстреливая вражеские цели неуправляемыми ракетами. Каждое срабатывание системы наведения расходует энергию реактора (процентную и плоскую).\n\nУрон боевой части равен базовому значению плюс количество затраченной энергии, умноженное на 100 (физический урон).\n\n<font color='#cf1919'>Внимание! Баллистический урон невозможно увеличить с помощью магического усиления!</font>"
+		"DOTA_Tooltip_ability_mi24v_attack_c5_energy_pct" "% энергии за пуск: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_energy_flat" "Единиц энергии за пуск: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_interval" "Интервал стрельбы: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_damage" "Базовый урон ракеты: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_radius" "Радиус захвата целей: "
+		"DOTA_Tooltip_ability_mi24v_attack_c5_scepter_Description" "Бронебойные боеголовки: изменяет тип урона ракет на чистый."
 
-		"DOTA_Tooltip_ability_mi24v_attack_c5"											"C-5 HAP"
-		"DOTA_Tooltip_ability_mi24v_attack_c5_Description"									"Если данная способность активирована, то MI-24V начинает кружить над територией и обстреливать всех вражеских юнитов вокруг себя неуправляемыми ракетами С5-НАР, потребляя энергию каждую секунду.<br>Потребляет 2 <font color='#f7a62d'>Энергии</font> раз в 0.3 секунды.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-        "DOTA_Tooltip_ability_mi24v_attack_c5_radius"										"Радиус: "
-        "DOTA_Tooltip_ability_mi24v_attack_c5_rocket_damage"								"Урон ракеты: "
-		"DOTA_Tooltip_ability_mi24v_attack_c5_damage_multi"									"Множитель урона(с талантом): "
-		"DOTA_Tooltip_ability_mi24v_attack_c5_scepter_Description"						"Изменяет тип урона на чистый."
+		"DOTA_Tooltip_modifier_mi24v_attack_c5" "Боевая орбита"
+		"DOTA_Tooltip_modifier_mi24v_attack_c5_Description" "Активирован режим непосредственной огневой поддержки. Бортовой компьютер расходует энергию на автоматический пуск ракет по целям в радиусе поражения."
 
-		"DOTA_Tooltip_ability_mi24_ykb_12_7"                      "Четырехствольный пулемет Як-Б"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"          "Модификация системы вооружения. Оснащает вертолет высокотемповым пулеметом калибра 12,7 мм. Пассивно улучшает баллистические характеристики машины: повышает базовый урон, дальность эффективного огня и скорострельность."
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_Lore"                 "Плотность огня Як-Б достигает 4500 выстрелов в минуту — цель буквально распиливает на куски."
+		"DOTA_Tooltip_Ability_mi24_upgrade" "Титановая Броня"
+		"DOTA_Tooltip_Ability_mi24_upgrade_Description" "Укрепление фюзеляжа и форсирование двигателей: пассивно увеличивает структурную прочность (здоровье), баллистическую защиту (броню), крейсерскую скорость и дает шанс уклонения от зенитного огня.\n\n<font color='#54ff54'><b>Осколок (Shard) — Активный сброс ЛТЦ:</b></font> При активации на 30 секунд удваивает текущий шанс уклонения за счет экстренного маневрирования, но снижает бонусную броню навыка вдвое."
+		"DOTA_Tooltip_Ability_mi24_upgrade_hp" "Структурная прочность: "
+		"DOTA_Tooltip_Ability_mi24_upgrade_armor" "Бронелисты: "
+		"DOTA_Tooltip_Ability_mi24_upgrade_ms" "Крейсерская скорость: "
+		"DOTA_Tooltip_Ability_mi24_upgrade_evasion" "Шанс уклонения (%): "
+		"DOTA_Tooltip_Ability_mi24_upgrade_shard_duration" "Длительность маневра (Shard): "
 
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_bonus_damage"         "ДОПОЛНИТЕЛЬНЫЙ УРОН:"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_reload_time"          "БАЗОВОЕ ВРЕМЯ АТАКИ:"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_attack_range_bonus"   "БОНУС К ДАЛЬНОСТИ ОГНЯ:"
+		"DOTA_Tooltip_modifier_mi24_upgrade_shard" "Экстренное маневрирование"
+		"DOTA_Tooltip_modifier_mi24_upgrade_shard_Description" "Произведен сброс тепловых ловушек. Шанс уклонения от атак увеличен в 2 раза, однако структурная броня временно ослаблена."
 
-		"DOTA_Tooltip_modifier_mi24_ykb_12_7_armor_shred"                "Пробитая броня"
-		"DOTA_Tooltip_modifier_mi24_ykb_12_7_armor_shred_Description"    "Защита повреждена бронебойными пулями 12,7 мм. Показатель брони снижен на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
+		"DOTA_Tooltip_ability_mi24_ykb_12_7" "Пулемет Як-Б 12,7 мм"
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description" "Интегрированная многоствольная установка.\n<font color='#a3a3a3'>Пассивный режим:</font> огонь на подавление. Каждое попадание имеет шанс наложить заряд, снижающий броню цели на 1.\n<font color='#ff4d4d'>Форсированный режим (Активен):</font> каждое попадание гарантированно прошивает броню, но расходует энергию. Если реактор пуст, система принудительно перейдет в пассивный режим."
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_Lore" "Плотность огня Як-Б достигает 4500 выстрелов в минуту — цель буквально распиливает на куски."
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_inactive_chance" "Шанс пробития (пассив): "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_active_energy_pct" "% энергии (актив): "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_active_energy_flat" "Единиц энергии (актив): "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_debuff_duration" "Длительность пробития: "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_scepter_Description" "Рекуперация кинетики: позволяет восстанавливать энергию при успешном наложении пробития брони (5% от общего запаса в пассивном режиме, 0.3% в форсированном)."
 
-		"DOTA_Tooltip_ability_tek_mosquito_missiles"                                    "Штурм-В"
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_description"							"MI-24V сканирует всех вражеских юнитов в радиусе, захватывая их тепловой след. После прерывания либо окончания действия наводки он начинает обстрел из управляемых ракет типа 9К113 «Штурм-В»<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_interval"								"Интервал: "
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_range"									"Радиус: "
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_damage"									"Урон: "
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_damage_multi"							"Множитель силы(с талантом): "
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_shard_description"					"Изменяет тип урона на чистый."	
-			
-		"DOTA_Tooltip_ability_tek_powered_mosquito_missiles"                             "МИ-24: 9М17 Скорпион"
-		"DOTA_Tooltip_ability_tek_powered_mosquito_missiles_description"					"МИ-24 начинает захват целей вокруг себя. После наведения выпускает ракеты по всем захваченным целям."
-		"DOTA_Tooltip_ability_tek_powered_mosquito_missiles_interval"						"Интервал: " 
-		"DOTA_Tooltip_ability_tek_powered_mosquito_missiles_range"							"Дальность: "   
+		"DOTA_Tooltip_modifier_mi24_ykb_12_7_debuff" "Броня пробита"
+		"DOTA_Tooltip_modifier_mi24_ykb_12_7_debuff_Description" "Внешняя обшивка критически повреждена бронебойными пулями 12,7 мм. Показатель защиты снижен на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
+
+		"DOTA_Tooltip_ability_tek_mosquito_missiles" "Форсаж Ротора"
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_description" "Пассивно: автоматика фиксирует базовое время атаки пулеметов (не может быть изменено сторонними предметами).\n\nАктивно: Пилот срывает ограничители турбовальных двигателей, сжигая энергию для экстремального разгона боевых систем. Базовое время атаки временно снижается до критических значений.\n\n<font color='#fc0303'>Перезарядка системы охлаждения строго фиксирована, не может быть сброшена или уменьшена!</font>"
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_energy_pct" "% энергии на активацию: "
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_energy_flat" "Единиц энергии на активацию: "
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_passive_bat" "Штатное время атаки: "
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_active_bat" "Время атаки (перегрузка): "
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_duration" "Время работы форсажа: "
+
+		"DOTA_Tooltip_modifier_tek_mosquito_missiles_active" "Снятие ограничителей"
+		"DOTA_Tooltip_modifier_tek_mosquito_missiles_active_Description" "Турбовальные двигатели работают на пределе возможностей. Базовое время атаки снижено до абсолютного минимума."
+
+		"Mi24_Scepter_C5_Desc"              "Изменяет тип урона от ракет с физического на Чистый (Pure)."
+		"Talent_Mi24_C5_20"                 "Увеличивает количество выпускаемых ракет за один залп с 1 до 2."
+		"Mi24_Label_RocketCount"            "Ракет за залп"
+
+		"Mi24_Shard_Upgrade_Desc"           "Добавляет активную способность. При активации на короткое время вдвое снижает вашу броню, но удваивает уклонение."
+		"Talent_Mi24_Upgrade_15"            "Пассивно снижает базовое уклонение в 2 раза, но дает шанс абсолютного уворота от любой физической атаки (которое нельзя пробить МКБ)."
+		"Mi24_Label_UniversalEvasion"       "Абсолютный уворот"
+
+		"Mi24_Scepter_YakB_Desc"            "Попадания из пулемета восстанавливают энергию (как в активном, так и в пассивном режиме)."
+		"Talent_Mi24_YakB_5"                "В активном режиме появляется 20% шанс наложить сразу 2 стака снижения брони. В пассивном режиме шанс наложения дебаффа постепенно увеличивается с прокачкой способности."
+		"Mi24_Label_YakBChance"             "Шанс дебаффа (пассивный)"
+
+		"Talent_Mi24_Mosquito_1"            "Постоянно снижает базовое время атаки (BAT) на 0.1 сек в пассивном и активном режимах."
+		"Talent_Mi24_Mosquito_10"           "Увеличивает длительность активного режима (форсажа) на 10 секунд."
+		"Mi24_Label_BAT"                    "Базовое время атаки (Пассив / Актив)"
+		"Mi24_Label_MosquitoDur"            "Длительность форсажа"
+
+
 
 
 			"npc_dota_hero_templar_assassin" 								"Biyao「★★★」"
@@ -8679,11 +8703,12 @@
 
 		"gu_defuser_hud_error"																	"Вы не можете разминировать это!"
 		"DOTA_Tooltip_ability_item_gu_defuser"                      "Инженерный комплекс «Дефузер»"
-		"DOTA_Tooltip_ability_item_gu_defuser_Description"          "Передовая разработка исследовательского бюро Партии. Применяется для мгновенного извлечения ресурсов из аномальных объектов без потерь времени.\n\n<font color='#54ff54'><b>МГНОВЕННОЕ ДЕЙСТВИЕ:</b></font> Применение больше не требует поддержания канала связи.\n\n<b>На метеоритах:</b> Мгновенно раскалывает породу, гарантированно добывая от 50 до 200 кристаллических осколков, а также с шансом извлекает Иридий-191.\n<b>На генераторах:</b> Производит моментальный взлом щитов для получения протонов, нейтронов и мгновенного закрытия оперативных задач."
-		"DOTA_Tooltip_ability_item_gu_defuser_Lore"                 "Инженерная мысль шагнула далеко вперед. Зачем тратить драгоценные секунды на аккуратное сканирование, если можно вырвать ядро одним быстрым импульсом?"
-		"DOTA_Tooltip_ability_item_gu_defuser_Note0"                "Современная модификация устройства полностью исключает риск радиационного облучения оператора. Никакого сопутствующего урона при использовании."
+		"DOTA_Tooltip_ability_item_gu_defuser_Description"          "Специализированный инструмент для полевых операций. Применяется для глубокого сканирования и деконструкции объектов.\n\n<font color='#ffffff'><b>ПРЕРЫВАЕМАЯ:</b></font> Требует поддержания стабильного канала связи с целью.\n\n<b>На метеоритах:</b> Позволяет извлекать ценные кристаллические осколки и изотопы Иридия-191.\n<b>На генераторах:</b> Осуществляет контролируемый взлом щитов для получения протонов и нейтронов."
+		"DOTA_Tooltip_ability_item_gu_defuser_Lore"                 "Стабильный дешифратор — единственное, что отделяет инженера от детонации нестабильного внеземного ядра."
+		"DOTA_Tooltip_ability_item_gu_defuser_Note0"                "Процесс разминирования крайне опасен: устройство перенаправляет часть энергии объекта на носителя, нанося чистый урон."
 
-		"DOTA_Tooltip_ability_item_gu_defuser_Usage_Error"          "Объект не опознан. Разрешено применять только на метеоритах или генераторах."
+		"DOTA_Tooltip_ability_item_gu_defuser_Usage_Error"          "Объект не опознан. Требуется метеорит или генератор."
+
 
 		"DOTA_Tooltip_modifier_BOT_bonus_6"                                    				"GOU BOT ANDROMEDA BONUS"
         	"DOTA_Tooltip_modifier_BOT_bonus_6_Description"                        				    "Вы активировали карточку на бонус к золоту в дискорд сервере. Вы получаете +Количество стаков к золоту каждую минуту."
@@ -8924,13 +8949,6 @@
 		"DOTA_Tooltip_ability_item_gu_drilling_rig"		"Укрепленная Бурильная Установка"
 		"DOTA_Tooltip_ability_item_gu_drilling_rig_Description" "Создана из Стали и Циркония. Примените на шахту 3 тира, требует 10.000 энергии реактора, чтобы начать добычу реликтовых руд. Осторожно: риск взрыва изотопа Наквадрии!"
 	
-		"DOTA_Tooltip_ability_item_gu_ancient_manipulator"                      "<font color='#00d9ff'>Универсальный Манипулятор Древних</font>"
-		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Description"          "Абсолютная вершина технологий Асгарда и наследие расы Древних. Инструмент совмещает в себе функционал Дефузера и тяжелой Буровой установки.\n\n<font color='#54ff54'><b>МГНОВЕННОЕ ДЕЙСТВИЕ:</b></font>\n\n<b>☄️ На метеоритах:</b> Мгновенно добывает кристаллические осколки (50-200) и Иридий-191.\n<b>⚡ На генераторах:</b> Взламывает щиты для получения протонов и нейтронов.\n<b>⛏️ На шахтах:</b> Раскрывает глубокие залежи 3-го уровня (расходует 10 000 ед. энергии МНТ)."
-		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Lore"                 "Устройство, которым Древние терраформировали планеты, теперь умещается в ладони. Осторожно: не направлять в глаза."
-		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Note0"                "Заменяет собой Инженерный комплекс «Дефузер» и Буровую установку."
-
-		"error_ancient_manipulator_target" "Цель не распознана. Укажите Метеорит, Генератор или Шахту 3-го уровня."
-
 		"gu_qvest_rude"		"{player_name} завершил выроботку шахты"
 
 		"DOTA_Tooltip_ability_item_gu_rude_compass_1"				"Базовый Гео-Компас"
