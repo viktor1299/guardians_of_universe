@@ -879,34 +879,65 @@
 
 		    "npc_dota_hero_spirit_breaker" 							        "Rem「★★★」"
 	
-		"DOTA_Tooltip_ability_rembash"								                    "<font color='#008FFF'>「Morgenstern」</font>"
-        "DOTA_Tooltip_ability_rembash_Description"						                    "Ударив, Рем может оглушить и отбросить врага от себя. При активации увеличивает дальность атаки."
-		"DOTA_Tooltip_ability_rembash_chance"						                        "%Шанс: "
-		"DOTA_Tooltip_ability_rembash_Duration"						                        "Длительность оглушения: "
-		"DOTA_Tooltip_ability_rembash_range"						                        "Дополнительная дальность атаки: "	
-		    "DOTA_Tooltip_modifier_rembash"								                        "<font color='#008FFF'>「Morgenstern」</font>"
-		
-		"DOTA_Tooltip_ability_jumpstrike"								                "<font color='#008FFF'>「Jumping kick」</font>"
-		"DOTA_Tooltip_ability_jumpstrike_Description"						                "Рем бьёт своим моргенштерном с размаха в прыжке, оглушая противников."
-		"DOTA_Tooltip_ability_jumpstrike_range"						                        "Дальность: "
-		"DOTA_Tooltip_ability_jumpstrike_stun_duration"				                        "Длительность оглушения: "
-		    "DOTA_Tooltip_modifier_jump_strike"							                        "<font color='#008FFF'>「Jumping kick」</font>"
-		    "DOTA_Tooltip_modifier_jump_strike_Description"				                        ""
-		    "DOTA_Tooltip_modifier_rem_buff_datadriven"					                        "<font color='#008FFF'>「Jumping kick」</font>"
-		    "DOTA_Tooltip_modifier_rem_buff_datadriven_Description"		                        ""
-		"DOTA_Tooltip_ability_jumpstrike_scepter_Description" 									"Увеличивает урон в 2 раза."
-		"DOTA_Tooltip_ability_jumpstrike_shard_Description" 									"Снижает перезарядку до 4 секунд."
+		"DOTA_Tooltip_ability_rem_jumpstrike"                           "<font color='#008FFF'>「Jumping Kick」</font>"
+		"DOTA_Tooltip_ability_rem_jumpstrike_Description"               "Рем совершает молниеносный прыжок с размаха, нанося чистый урон и оглушая противников на 2 секунды. \nЗатраты: 10% от макс. маны + 2% от макс. энергии."
+		"DOTA_Tooltip_ability_rem_jumpstrike_radius"                    "Радиус поражения: "
+		"DOTA_Tooltip_ability_rem_jumpstrike_damage"                    "Чистый урон: "
+		"DOTA_Tooltip_modifier_rem_jumpstrike_dash"                     "<font color='#008FFF'>「Jumping Kick」</font>"
 
-		"DOTA_Tooltip_ability_ice_magic"							                    "<font color='#008FFF'>「Al Hume」</font>"
-		"DOTA_Tooltip_ability_ice_magic_Description"				                        "Рем создает острое ледяное копьё и запускает его во врага.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_ice_magic_slow"						                        "Замедление: "
-		"DOTA_Tooltip_ability_ice_magic_intmut"						                        "Множитель силы в урон: "		
-		    "DOTA_Tooltip_modifier_ice_magic_datadriven"				                        "<font color='#008FFF'>「Al Hume」</font>"
-		    "DOTA_Tooltip_modifier_ice_magic_datadriven_Description"	                        "Вы замедлены"
+		"DOTA_Tooltip_ability_rem_morgenstern"                          "<font color='#008FFF'>「Morgenstern」</font>"
+		"DOTA_Tooltip_ability_rem_morgenstern_Description"              "При активации увеличивает дальность атаки на 400. Каждая атака имеет шанс нанести двойной урон.\nЗатраты на удар: 3% от макс. маны + 0.5% от макс. энергии."
+		"DOTA_Tooltip_ability_rem_morgenstern_chance"                   "%Шанс двойного урона: "
+		"DOTA_Tooltip_ability_rem_morgenstern_bonus_range"              "Дополнительная дальность атаки: "   
 
-		"DOTA_Tooltip_ability_ghostization"							                    "<font color='#008FFF'>「Oni no Ketsuzoku」</font>"
-		"DOTA_Tooltip_ability_ghostization_Description"				                        "При активации начинает потреблять 3% + 50 от текущей маны, но увеличивает урон на %attack%, а также к силу на %strength%."	
-		    "DOTA_Tooltip_modifier_ghostization"						                        "<font color='#008FFF'>「Oni no Ketsuzoku」</font>"
+		"DOTA_Tooltip_ability_rem_ice_magic"                            "<font color='#008FFF'>「Al Hume」</font>"
+		"DOTA_Tooltip_ability_rem_ice_magic_Description"                "Рем запускает во врага ледяное копье. При попадании наносит физический урон и накладывает дебафф на 10 секунд. Каждые 2 секунды под дебаффом враг получает урон, зависящий от Силы Рем, и оглушается на 0.1 сек (оглушение не работает на боссов и сквозь БКБ).\nЗатраты: 30% от макс. маны + 10% от макс. энергии."
+		"DOTA_Tooltip_ability_rem_ice_magic_hit_damage"                 "Урон от копья:"
+		"DOTA_Tooltip_ability_rem_ice_magic_str_pct_damage"             "% от Силы Рем в урон:"      
+		"DOTA_Tooltip_ability_rem_ice_magic_base_damage"                "Базовый урон от дебаффа:"
+
+		"DOTA_Tooltip_ability_rem_oni_mode"                             "<font color='#008FFF'>「Oni no Ketsuzoku」</font>"
+		"DOTA_Tooltip_ability_rem_oni_mode_Description"                 "ПАССИВНАЯ. Каждые 120 секунд Рем автоматически переключается между доступными боевыми стилями.\n\n<font color='#008FFF'>Форма Магии (1):</font> дает бонус к усилению заклинаний, перезарядке способностей, регенерации маны и энергии.\n\n<font color='#F72E49'>Форма Демона (2):</font> дает броню, 5% снижения входящего урона, дальность атаки и процентный бонус к Силе.\n\n<font color='#cf1919'>Базовая дальность атаки Рем не может быть увеличена предметами.</font>"
+		"DOTA_Tooltip_ability_rem_oni_mode_state1_spell_amp"            "ФОРМА 1: % Усиления заклинаний:"
+		"DOTA_Tooltip_ability_rem_oni_mode_state1_cdr"                  "ФОРМА 1: % Снижения перезарядки:"
+		"DOTA_Tooltip_ability_rem_oni_mode_state1_mana_regen_pct"       "ФОРМА 1: % Реген маны:"
+		"DOTA_Tooltip_ability_rem_oni_mode_state1_energy_regen_pct"     "ФОРМА 1: % Реген энергии:"
+		"DOTA_Tooltip_ability_rem_oni_mode_state2_armor"                "ФОРМА 2: Броня:"
+		"DOTA_Tooltip_ability_rem_oni_mode_state2_attack_range"         "ФОРМА 2: Дальность атаки:"
+		"DOTA_Tooltip_ability_rem_oni_mode_state2_str_pct"              "ФОРМА 2: % Бонус к Силе:"
+
+		"DOTA_Tooltip_ability_rem_oni_mode_toggle"                      "<font color='#008FFF'>「Смена формы」</font>"
+		"DOTA_Tooltip_ability_rem_oni_mode_toggle_Description"          "Позволяет вручную сменить текущую форму."
+
+		"DOTA_Tooltip_modifier_rem_morgenstern"                         "<font color='#008FFF'>「Morgenstern: Боевой режим」</font>"
+		"DOTA_Tooltip_modifier_rem_morgenstern_Description"             "Оружие пролетариата приведено в полную готовность. Дальность атаки увеличена на 400. Каждая атака имеет шанс сокрушить врага двойным уроном за счёт маны и энергии."
+
+		"DOTA_Tooltip_modifier_rem_ice_magic_debuff"                    "<font color='#cf1919'>「Al Hume: Крио-обледенение」</font>"
+		"DOTA_Tooltip_modifier_rem_ice_magic_debuff_Description"        "Контрреволюционные элементы скованы арктическим льдом. Юнит получает периодический физический урон, пропорциональный Силе Рем, и подвергается микро-оглушениям."
+
+		"DOTA_Tooltip_modifier_rem_oni_mode"                            "<font color='#008FFF'>「Oni no Ketsuzoku: Боевые Смёны」</font>"
+		"DOTA_Tooltip_modifier_rem_oni_mode_Description"                "Текущее производственное состояние Рем. Каждые 120 секунд (или мгновенно под руководством командира при наличии Скипетра Аганима) переключается между Формой Магии, Формой Демона и Гибридной Формой, перераспределяя боевую мощь."
+
+		// Общий Шард для скиллов 1, 2 и 3
+		"Rem_Shard_Global_Desc"             "Способности Jumping Kick, Morgenstern и Al Hume больше не требуют затрат маны и энергии для использования."
+
+		// Jumping Kick (Skill 1)
+		"Talent_Rem_Jumpstrike_1"           "Увеличивает радиус сокрушительного удара при приземлении на 300."
+
+		// Morgenstern (Skill 2)
+		"Talent_Rem_Morgenstern_2"          "Удваивает шанс нанести двойной урон при атаке Моргенштерном."
+		"Rem_Label_MorgensternChance"       "Шанс двойного урона"
+
+		// Al Hume (Skill 3)
+		"Talent_Rem_IceMagic_3"             "Уменьшает интервал нанесения периодического урона и микро-оглушения с 2.0 до 1.0 секунды (срабатывает в два раза чаще)."
+		"Rem_Label_IceMagicTick"            "Интервал урона"
+
+		// Oni no Ketsuzoku / State Machine (Skill 4)
+		"Rem_Scepter_Oni_Desc"              "Дарует дополнительную способность, позволяющую вручную переключать формы демона, не дожидаясь автоматического таймера (120 сек)."
+		"Talent_Rem_Oni_4"                  "В Магической форме дает дополнительные +100% к усилению заклинаний. В форме Танка дает дополнительные +10% к Силе."
+		"Talent_Rem_Oni_5"                  "Открывает доступ к третьей, Гибридной форме (State 3). Она объединяет в себе эффекты Магической и Танковой форм, предоставляя 50% от силы их бонусов."
+		"Rem_Label_Oni_SpellAmp"            "Усиление заклинаний (Магия)"
+		"Rem_Label_Oni_StrPct"              "Бонус к Силе (Танк)"
 
 
 		    "npc_dota_hero_earth_spirit"								     "Chloe von Einzbern「★★★★★」"
@@ -1262,34 +1293,56 @@
 
 			"npc_dota_hero_dark_willow"										"Megumin「★★★★」"  
 
-		"DOTA_Tooltip_ability_megumin_explosion"										"<font color='#F72E49'>「Explosion」</font> "
-		"DOTA_Tooltip_ability_megumin_explosion_Description"								"После некоторой задержки Мегумин использует на цель свою взрывную магию, нанося урон и оглушая противников. Конечный урон зависит от затраченной маны." 
-		"DOTA_Tooltip_ability_megumin_explosion_radius"										"Радиус:  "
-		"DOTA_Tooltip_ability_megumin_explosion_duration"									"Задержка применения: "
-		"DOTA_Tooltip_ability_megumin_explosion_damage"										"Урон: "
-		"DOTA_Tooltip_ability_megumin_explosion_stun_duration"								"Длительность оглушения:"
-			"DOTA_Tooltip_ability_megumin_explosion_shard_Description"							"Изменяет тип урона на чистый."
+		"DOTA_Tooltip_ability_megumin_explosion"                                        "<font color='#F72E49'>「Explosion」</font>"
+		"DOTA_Tooltip_ability_megumin_explosion_Description"                            "Мегумин использует взрывную магию, затрачивая 50% от максимального запаса маны. Наносит базовый урон + 100% от затраченной маны. Пробивает невосприимчивость к магии и оглушает врагов."
+		"DOTA_Tooltip_ability_megumin_explosion_radius"                                 "Радиус:"
+		"DOTA_Tooltip_ability_megumin_explosion_duration"                               "Задержка перед взрывом:"
+		"DOTA_Tooltip_ability_megumin_explosion_damage"                                 "Базовый урон:"
+		"DOTA_Tooltip_ability_megumin_explosion_stun_duration"                          "Длительность оглушения:"
 
-		"DOTA_Tooltip_ability_megumin_place"											"<font color='#F72E49'>「Explosion Place」</font> "
-		"DOTA_Tooltip_ability_megumin_place_Description"									"С помощью продвинутой взрывной магии Мегумин создает в выбранной области взрывы. Любой юнит, находящийся в этой области, будет взрываться, пока способность действует."
-		"DOTA_Tooltip_ability_megumin_place_radius"											"Радиус:  "
-		"DOTA_Tooltip_ability_megumin_place_duration"										"Длительность: "
-		"DOTA_Tooltip_ability_megumin_place_interval"										"Интервал взрывов: "
-		"DOTA_Tooltip_ability_megumin_place_damage"											"Урон: "
+		"DOTA_Tooltip_ability_megumin_place"                                            "<font color='#F72E49'>「Explosion Place」</font>"
+		"DOTA_Tooltip_ability_megumin_place_Description"                                "Затрачивает 50% от макс. маны. Мегумин создает нестабильную зону. Каждую секунду все враги в ней взрываются, нанося урон по области вокруг себя равный базовому + 30% от затраченной маны."
+		"DOTA_Tooltip_ability_megumin_place_area_radius"                                "Радиус области:"
+		"DOTA_Tooltip_ability_megumin_place_duration"                                   "Длительность:"
+		"DOTA_Tooltip_ability_megumin_place_interval"                                   "Интервал взрывов:"
+		"DOTA_Tooltip_ability_megumin_place_damage"                                     "Базовый урон:"
 
-		"DOTA_Tooltip_ability_megumin_mastery"											"<font color='#F72E49'>「Explosion Mastery」</font> "
-		"DOTA_Tooltip_ability_megumin_mastery_Description"									"Мегумин использовала все очки способностей на магию взрывов и теперь её магия обладает разрушительной мощью, усиливая любую другую магию.\n Работает как аура."
-		"DOTA_Tooltip_ability_megumin_mastery_radius"										"Радиус: "
-		"DOTA_Tooltip_ability_megumin_mastery_amplify"										"%Увеличение урона от заклинаний: "
-			"DOTA_Tooltip_modifier_megumin_mastery_aura"										"「Explosion Mastery Aura」"
-			"DOTA_Tooltip_modifier_megumin_mastery_aura_Description"							"Урон от заклинаний увеличен на %dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%%"
-		"DOTA_Tooltip_ability_megumin_mastery_scepter_Description"								"Увеличивает усиление заклинаний на 100%"
+		"DOTA_Tooltip_ability_megumin_mastery"                                          "<font color='#F72E49'>「Explosion Mastery」</font>"
+		"DOTA_Tooltip_ability_megumin_mastery_Description"                              "Увеличивает макс. запас маны Мегумин и даёт регенерацию в процентах от него. Также конвертирует 0.5% макс. маны в усиление заклинаний для союзников вокруг. Во время стана от ульты бонус ауры увеличивается до 2%."
+		"DOTA_Tooltip_ability_megumin_mastery_bonus_mana"                               "Бонус к запасу маны:"
+		"DOTA_Tooltip_ability_megumin_mastery_mana_regen_pct"                           "% Регенерации от макс. маны:"
+		"DOTA_Tooltip_modifier_megumin_mastery_aura"                                    "「Explosion Mastery Aura」"
+		"DOTA_Tooltip_modifier_megumin_mastery_aura_Description"                        "Урон от заклинаний увеличен на %dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%%"
 
-		"DOTA_Tooltip_ability_megumin_meteors"											"<font color='#F72E49'>「Super-Ultimative explosion magic」</font>"
-		"DOTA_Tooltip_ability_megumin_meteors_Description"									"Мегумин создает огромный взрыв, который наносит %damage% урона + урон от текущего количества маны. После применения способности не может передвигаться, атаковать или использовать заклинания 15 секунд, можно применять на любое расстояние."
-		"DOTA_Tooltip_ability_megumin_meteors_radius"										"Радиус: "
-		"DOTA_Tooltip_modifier_megumin_mutted" 											"<font color='#F72E49'>「Super-Ultimative explosion magic」</font>"
-		"DOTA_Tooltip_modifier_megumin_mutted_Description" 								"Не может передвигаться, атаковать или использовать заклинания."
+		"DOTA_Tooltip_ability_megumin_meteors"                                          "<font color='#F72E49'>「Super-Ultimative Explosion Magic」</font>"
+		"DOTA_Tooltip_ability_megumin_meteors_Description"                              "Мегумин готовит абсолютный взрыв (3 сек), получая +90% резиста к урону и неуязвимость к магии. Наносит чистый урон по карте равный базовому + 200% от макс. маны. После взрыва Мегумин получает стан на 60 сек (неуязвима, но ничего не может делать)."
+		"DOTA_Tooltip_ability_megumin_meteors_radius"                                   "Радиус взрыва:"
+		"DOTA_Tooltip_ability_megumin_meteors_damage"                                   "Базовый чистый урон:"
+		"DOTA_Tooltip_modifier_megumin_aftermath"                                       "<font color='#F72E49'>「Истощение магии」</font>"
+		"DOTA_Tooltip_modifier_megumin_aftermath_Description"                           "Мегумин отдыхает после абсолютного взрыва. Она полностью неуязвима, но не может передвигаться или атаковать."
+
+		"DOTA_Tooltip_ability_megumin_meteors_wakeup"                                   "<font color='#F72E49'>「Пробуждение (10 Конста)」</font>"
+		"DOTA_Tooltip_ability_megumin_meteors_wakeup_Description"                       "Усилием воли Мегумин сокращает время своего отдыха до 10 секунд."
+
+		// Explosion (Skill 1)
+		"Talent_Megumin_Exp_1"              "Увеличивает радиус взрыва на 100."
+		"Talent_Megumin_Exp_15"             "Увеличивает множитель урона от затраченной маны для этой способности с х1.0 до х1.5."
+		"Megumin_Label_ManaMult"            "Урон от затраченной маны"
+
+		// Explosion Place (Skill 2)
+		"Talent_Megumin_Place_5"            "Увеличивает радиус вторичных малых взрывов с 200 до 260."
+		"Talent_Megumin_Place_15"           "Увеличивает множитель урона от затраченной маны для этой способности с х0.3 до х0.5."
+		"Megumin_Label_PlaceRad"            "Радиус малых взрывов"
+
+		// Explosion Mastery (Skill 3)
+		"Megumin_Scepter_Mastery_Desc"      "Добавляет активную способность. Позволяет мгновенно потратить всю текущую ману, сохранив 30% от неё в виде чистого бонусного урона для следующего применения ультимейта."
+		"Megumin_Shard_Mastery_Desc"        "За каждое убийство Мегумин навсегда увеличивает свой максимальный запас маны на 50 единиц."
+		"Talent_Megumin_Mastery_20"         "Радиус действия ауры магической мощи становится глобальным (работает по всей карте)."
+
+		// Super-Ultimative Explosion Magic (Skill 4)
+		"Talent_Megumin_Meteors_10"         "Во время 60-секундного отдыха (оглушения) после ультимейта у вас появляется способность «Пробуждение», которая позволяет сократить оставшееся время отдыха до 10 секунд."
+		"Talent_Megumin_Meteors_15"         "Увеличивает множитель чистого урона от затраченной маны для ультимейта с х2.0 до х3.0."
+		"Megumin_Label_StunDur"             "Время отдыха после ультимейта"
 
 			"npc_dota_hero_naga_siren" 										"Hatsune Miku「★★★★★」"
 		
@@ -7345,37 +7398,68 @@
 		"npc_dota_hero_earthshaker"											"ISU-152「★★★」"
 		"npc_dota_hero_tiny"												"Moai「★★★★」"
 
-		"DOTA_Tooltip_ability_tohka_ability_1" 						"<font color='#df26b8'>「Sandalphon」</font>"
-		"DOTA_Tooltip_ability_tohka_ability_1_Description" 				"Призывает ножны духовного меча Сандальфона в виде трона. Наносит урон вокруг себя, а также оглушает всех противников вокруг себя в радиусе %radius% на %duration% секунд.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_tohka_ability_1_damage" 					"Урон:"
+		"DOTA_Tooltip_ability_tohka_ability_1"                          "<font color='#df26b8'>「Sandalphon」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_1_Description"              "Тока призывает своего Ангела и наносит сокрушительный удар вокруг себя. Враги получают базовый физический урон, а также урон, равный 3000% от показателя брони Токи. За каждого задетого врага её Астральное Одеяние уплотняется, давая временную броню (стаки действуют независимо). \n\n<font color='#cf1919'>Урон способности увеличивается от усиления заклинаний.</font>"
+		"DOTA_Tooltip_ability_tohka_ability_1_radius"                   "Радиус поражения:"
+		"DOTA_Tooltip_ability_tohka_ability_1_armor_per_hit"            "Брони за врага:"
+		"DOTA_Tooltip_ability_tohka_ability_1_damage"                   "Базовый урон:"
 
-		"DOTA_Tooltip_ability_tohka_ability_2" 						"<font color='#df26b8'>「Adonai Melek」</font>"
-		"DOTA_Tooltip_ability_tohka_ability_2_Description" 				"Духовная броня Токи. После активации, увеличивает урон в зависимости от вашей брони (броня * %armor_to_attack%)."
-		"DOTA_Tooltip_ability_tohka_ability_2_bonus_armor" 				"Дополнительная броня:"
-		"DOTA_Tooltip_ability_tohka_ability_2_duration" 				"Длительность:"
-		"DOTA_Tooltip_ability_tohka_ability_2_scepter_description"					"Увеличивает множитель брони в 2 раза на всех уровнях"
-		"DOTA_Tooltip_modifier_tohka_ability_2"						"<font color='#df26b8'>「Adonai Melek」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_2"                          "<font color='#df26b8'>「Adonai Melek」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_2_Description"              "ПАССИВНО: Астральное Одеяние резонирует с оружием, давая бонус к урону атак, равный проценту от брони Токи.\nАКТИВНО: Тока концентрирует духовную энергию, на 10 секунд увеличивая свою броню и получая существенное снижение всего входящего урона.\n\n<font color='#cf1919'>Бонусы не увеличиваются от усиления заклинаний.</font>"
+		"DOTA_Tooltip_ability_tohka_ability_2_passive_armor_to_dmg_pct" "ПАССИВНО: % от Брони в Урон:"
+		"DOTA_Tooltip_ability_tohka_ability_2_active_armor"             "АКТИВНО: Бонус Брони:"
+		"DOTA_Tooltip_ability_tohka_ability_2_active_dmg_reduction"     "АКТИВНО: % Снижения урона:"
 
-		"DOTA_Tooltip_ability_tohka_ability_3" 						"<font color='#df26b8'>「Rage Combo」</font>"
-		"DOTA_Tooltip_ability_tohka_ability_3_Description" 				"<h1>Можно использовать несколько раз!</h1>При использовании с каждым последующим нажатием данной способности наносит по противникам  перед собой прорубающий урон, делает атаку, которая накладывает все эффекты атаки, а также наносит дополнительно %bonus_damage% урона.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_tohka_ability_3_duration" 				"Длительность:"
+		"DOTA_Tooltip_ability_tohka_ability_3"                          "<font color='#df26b8'>「Rage Combo」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_3_Description"              "Тока запрещает себе совершать обычные автоатаки. Вместо этого она обрушивает на врагов непрерывный шквал ударов. С интервалом, равным её текущей скорости атаки, она автоматически бьет всех противников вокруг себя, применяя модификаторы атаки. В этом состоянии её скорость передвижения значительно возрастает."
+		"DOTA_Tooltip_ability_tohka_ability_3_radius"                   "Радиус атак:"
+		"DOTA_Tooltip_ability_tohka_ability_3_bonus_ms"                 "Бонус к скорости бега:"
 
-		"DOTA_Tooltip_ability_tohka_ability_4" 						"<font color='#df26b8'>「Halvanhelen」</font>"
-		"DOTA_Tooltip_ability_tohka_ability_4_Description" 				"Используя духовный меч, создаёт шоковую волну, наносящую урон всем противникам на своём пути, замедляя их на 100% в течении 3 секунд.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_tohka_ability_4_damage" 					"Урон:"
+		"DOTA_Tooltip_ability_tohka_ability_4"                          "<font color='#df26b8'>「Halvanhelen」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_4_Description"              "Тока пробуждает Истинный Меч и выпускает разрушительную волну энергии на расстояние 2000 единиц. Враги на пути получают АБСОЛЮТНЫЙ ЧИСТЫЙ урон в процентах от её текущей брони. Этот удар игнорирует любые уклонения, невосприимчивость к магии и защиту боссов.\n\n<font color='#cf1919'>Урон не может быть увеличен усилением заклинаний. Перезарядку невозможно сбросить или уменьшить!</font>"
+		"DOTA_Tooltip_ability_tohka_ability_4_dmg_pct"                  "% от Брони в виде Урона:"
 
-		"DOTA_Tooltip_ability_tohka_ability_5" 						"<font color='#df26b8'>「Final Blow」</font>"
-		"DOTA_Tooltip_ability_tohka_ability_5_Description" 				"Не может быть использован вне <font color='#df26b8'>「Adonai Melek」</font>.Мгновенно прерывает 「Rage Combo」 нанося дополнительный урон в размере %damage%, а также накладывает оглушение на врагов в радиусе 300.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
-		"DOTA_Tooltip_ability_tohka_ability_5_stun" 					"Оглушение:"
+		"DOTA_Tooltip_ability_tohka_ability_5"                          "<font color='#df26b8'>「Инверсия: Final Blow」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_5_Description"              "Впадая в отчаяние, Тока высвобождает темную энергию Инверсии. Её базовый интервал атак снижается до 0.1 секунды, а Астральное Одеяние поглощает 80% всего получаемого урона.\n\n<font color='#cf1919'>Перезарядку невозможно сбросить или уменьшить!</font>"
+		"DOTA_Tooltip_ability_tohka_ability_5_duration"                 "Длительность:"
 
-		"DOTA_Tooltip_ability_tohka_ability_6" 						"<font color='#df26b8'>「Inversion:Demon King Nahemah」</font>"
-		"DOTA_Tooltip_ability_tohka_ability_6_Description" 				"Впадая в глубочайшие пучины отчаяния, духи могут преобрести форму, многократно увеличивающую их боевой потенциал, ценой своего рассудка. Увеличивает урон на %damage% и силу на %str%. Перезарядку данной способности невозможно уменьшить!"
-		"DOTA_Tooltip_ability_tohka_ability_6_fixed_duration" 			"Длительность:"
-		"DOTA_Tooltip_modifier_tohka_ability_6"							"<font color='#df26b8'>「Inversion:Demon King Nahemah」</font>"
-		
-		"DOTA_Tooltip_ability_tohka_ability_7" 						"<font color='#df26b8'>「Final Sword: Paverschlev」</font>"
-		"DOTA_Tooltip_ability_tohka_ability_7_Description" 				"Используя проклятый духовный меч разрубает само пространство, наносит урон по формуле - %damage% * на %текущей брони Токи."
-		"DOTA_Tooltip_ability_tohka_ability_7_shard_description"		"Увеличивает дополнительный урон по формуле базовый урон + сила * 10"
+		"DOTA_Tooltip_ability_tohka_ability_6"                          "<font color='#df26b8'>「Кристалл Сефиры」</font>"
+		"DOTA_Tooltip_ability_tohka_ability_6_Description"              "ПАССИВНАЯ. Жестко фиксирует дальность атаки Токи на 200 и скорость на 0.9 (может быть изменено только Инверсией). \nПоглощая энергию сильных противников, Тока становится сильнее. За каждое убийство УНИКАЛЬНОГО босса она получает 2 заряда (за повторное убийство — 1 заряд). \n- Каждый заряд: +5 к броне.\n- Каждые 2 заряда: +2 к бонусной броне за задетого врага от 「Sandalphon」.\n- Каждые 3 заряда: +30% к пассивной прибавке урона от 「Adonai Melek」.\n- Каждые 4 заряда: +550% к урону от брони у 「Halvanhelen」.\n- Каждые 5 зарядов: +1 секунда к длительности 「Rage Combo」."
+
+		"DOTA_Tooltip_modifier_tohka_ability_1_armor"                   "<font color='#df26b8'>「Sandalphon: Резонанс Меча」</font>"
+		"DOTA_Tooltip_modifier_tohka_ability_1_armor_Description"       "Астральное Одеяние Токи уплотнилось за счет задетых врагов. Показатель брони временно увеличен."
+
+		"DOTA_Tooltip_modifier_tohka_ability_2_active"                  "<font color='#df26b8'>「Adonai Melek: Духовная Защита」</font>"
+		"DOTA_Tooltip_modifier_tohka_ability_2_active_Description"      "Астральное Одеяние полностью активно! Показатель брони принудительно завышен, а весь входящий урон снижен."
+
+		"DOTA_Tooltip_modifier_tohka_ability_3_active"                  "<font color='#df26b8'>「Rage Combo: Танец Клинков」</font>"
+		"DOTA_Tooltip_modifier_tohka_ability_3_active_Description"      "Тока безостановочно наносит удары вокруг себя, игнорируя стандартные команды атаки."
+
+		"DOTA_Tooltip_modifier_tohka_ability_5_buff"                    "<font color='#df26b8'>「Король Демонов: Nahemah」</font>"
+		"DOTA_Tooltip_modifier_tohka_ability_5_buff_Description"        "Форма Инверсии активирована. Тока поглощает почти весь входящий урон и атакует с невероятной скоростью."
+
+		"DOTA_Tooltip_modifier_tohka_ability_6_passive"                 "<font color='#df26b8'>「Духовная Энергия」</font>"
+		"DOTA_Tooltip_modifier_tohka_ability_6_passive_Description"     "Количество поглощенной энергии боссов. Эти заряды навсегда усиливают способности Токи."
+
+		"Talent_Tohka_Sandalphon_5"         "Увеличивает радиус поражения способности на 100, а длительность баффа на броню — на 15 секунд."
+		"Tohka_Label_SandalphonRad"         "Радиус / Длительность"
+
+		"Tohka_Shard_Adonai_Desc"           "Во время действия активного баффа Тока дополнительно получает 50% магического сопротивления и 30% сопротивления эффектам."
+		"Tohka_Label_AdonaiShard"           "Бонусы Шарда"
+
+		"Talent_Tohka_Rage_1"               "Увеличивает радиус АоЕ-атак на 450, а бонус к скорости передвижения во время действия способности — на 450."
+		"Tohka_Label_RageRadius"            "Радиус / Скорость (MS)"
+
+		"Talent_Tohka_Halvanhelen_10"       "Полностью убирает затраты маны (1000 ➔ 0) и снижает перезарядку способности со 120 до 70 секунд."
+		"Tohka_Label_HalvanhelenCd"         "Перезарядка / Мана"
+
+		"Tohka_Scepter_Inversion_Desc"      "Каждое применение способности гарантированно дает 1 стак пассивной способности убийцы боссов (6-й скилл)."
+		"Talent_Tohka_Inversion_15"         "Снижает перезарядку формы Берсерка в два раза (с 300 до 150 секунд)."
+		"Tohka_Label_InversionCd"           "Перезарядка"
+
+		"Talent_Tohka_Boss_20"              "Дает 50% шанс получить в 2 раза больше стаков при убийстве боссов или при применении формы Берсерка (с Аганимом)."
+		"Tohka_Label_BossChance"            "Шанс удвоения стаков"
+
 
 		"DOTA_Tooltip_ability_item_subconscious_core"					"Subconscious Core"
 		"DOTA_Tooltip_ability_item_subconscious_core_Description" 		"<h1>Пассивное: Subconscious Core</h1> Ваши успешные атаки наносят физический урон по площади всем врагам в радиусе %radius% вокруг основной цели. Второстепенные цели получают %split_shot_damage%%% от изначального урона вашей атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
@@ -7880,39 +7964,70 @@
 		"npc_dota_hero_nevermore"											"2С25 «Спрут-СД»「★★★★★」"
 
 
+		"DOTA_Tooltip_ability_gu_sprut_passive_stats"                   "<font color='#556B2F'>「Шасси: Объект 952」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_passive_stats_Description"       "ПАССИВНАЯ. Усиленная броня корпуса дает Спруту постоянные +400 ХП и снижение всего входящего урона на 12%.\nС повышением уровня увеличивается показатель брони, а СУО (Система управления огнем) ускоряет базовый интервал атак (от 2.2 до 1.3 сек)."
+		"DOTA_Tooltip_ability_gu_sprut_passive_stats_armor_per_lvl"     "Броня:"
+		"DOTA_Tooltip_ability_gu_sprut_passive_stats_bat"               "Базовый интервал атак:"
 
-		"DOTA_Tooltip_ability_gu_sprut_upgrade" 								"<font color='#fd2727'>「2С25 «Спрут-СД»」</font>"
-		"DOTA_Tooltip_ability_gu_sprut_upgrade_Description" 					"2С25 «Спрут-СД» (индекс ГАБТУ — объект 952) — российская авиадесантная самоходная противотанковая пушка. Разработана в конструкторском бюро Волгоградского тракторного завода и екатеринбургском ОКБ-9 под научным руководством климовского Центрального научно-исследовательского института точного машиностроения (ЦНИИТочМаш). Главный конструктор шасси — А. В. Шабалин, 125-мм орудия 2А75 — В. И. Наседкин. САУ 2С25 «Спрут-СД» предназначена для борьбы с танками и другой бронетехникой и живой силой противника. Прокачивает основные характеристики. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела, + %damage% к урону. Получает на 20% меньше любого урона по себе. <br><br> Имеет фиксированую скорость стрельбы, никакие предметы на снижение базового времени атаки и другое не работают!"
-		"DOTA_Tooltip_ability_gu_sprut_upgrade_scepter_Description"			"Увеличивает бонусный урон на 150%" 
+		"DOTA_Tooltip_ability_gu_sprut_ammo_basic"                      "<font color='#A9A9A9'>「Зарядить: Базовый (ББ)」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_basic_Description"          "Переключает орудие на стрельбу стандартными бронебойными снарядами. Эти выстрелы НЕ потребляют энергию танка. \n\nКаждое попадание игнорирует процент от текущей брони цели (пробивает боссов и невосприимчивость к магии). При нехватке энергии Спрут автоматически возвращается к этому типу боеприпасов."
+		"DOTA_Tooltip_ability_gu_sprut_ammo_basic_armor_ignore_pct"     "% Игнорирования брони:"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_basic_shard_description"    "ШАРД: Базовые снаряды (ББ) получают 30% шанс нанести критический урон (160%)."
 
-		"DOTA_Tooltip_ability_gu_sprut_ammo_bb" 								"<font color='#fd2727'>「3БМ46/3БМ48」</font>"
-		"DOTA_Tooltip_ability_gu_sprut_ammo_bb_Description" 					"Бронебойный снаряд <font color='#fd2727'>「3БМ46/3БМ48」</font> - основной снаряд который использует орудие 2А46. Бронепробитие данного снаряда составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительно 100% урона по цели в зависимости от ловкости 2А46"
-		"DOTA_Tooltip_modifier_gu_sprut_ammo_bb" 							"<font color='#fd2727'>「3БМ46/3БМ48」</font>"
-		"DOTA_Tooltip_modifier_gu_sprut_ammo_bb_Description" 				"Стандартный снаряд, не имеет никаких уникальных эффектов"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_ap"                         "<font color='#FF4500'>「Зарядить: Бронебойный Подкалиберный (БПС)」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_ap_Description"             "Переключает орудие на БПС-снаряды. Каждый выстрел тратит 10% макс. энергии + плоское значение. \nПопадания раскалывают броню врага на 10 секунд (не стакается). Снаряд имеет 50% шанс нанести критический урон.\n\n<font color='#008FFF'>СИСТЕМА КАЛИБРОВКИ:</font> Каждое ЛЮБОЕ критическое попадание Спрута (не только с этого навыка) навсегда увеличивает показатель среза брони этим снарядом по формуле стакинга."
+		"DOTA_Tooltip_ability_gu_sprut_ammo_ap_energy_flat"             "Расход энергии (плоский):"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_ap_armor_reduction"         "Снижение брони (базовое):"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_ap_crit_mult"               "% Критического урона:"
 
-		"DOTA_Tooltip_ability_gu_sprut_ammo_kym" 							"<font color='#f9fd27'>「3БК29(М)」</font>"
-		"DOTA_Tooltip_ability_gu_sprut_ammo_kym_Description" 				"Кумулятивный снаряд <font color='#f9fd27'>「3БК29(М)」</font> предназначен для пробития толстой брони, пробитие данным снарядом составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительный Чистый урон в размере 10% от максимального здоровья цели. С шансом в 30% снаряд может обезоружить цель на 5 секунд, стоимость выстрела составляет 5% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font> <br><br><font color='#fd2727'>Вниманий! Эффект данного снаряда накладываеться, это значит что пока вы атакуете цель её броня будет уменьшатся до бесконечности!</font>"
-		"DOTA_Tooltip_modifier_gu_sprut_ammo_kym" 							"<font color='#f9fd27'>「3БК29(М)」</font>"
-		"DOTA_Tooltip_modifier_gu_sprut_ammo_kym_Description" 				"Имеет некоторый шанс оглушить противника, значительно снижает броню врага, стоимость выстрела - 5% от вашей энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font>"
-		
-		"DOTA_Tooltip_ability_gu_sprut_ammo_heat" 							"<font color='#fd7427'>「3ОФ26」</font>"
-		"DOTA_Tooltip_ability_gu_sprut_ammo_heat_Description" 				"Осколочно-фугасные снаряд <font color='#fd7427'>「3ОФ26」</font> не пробивает броню но наносит %damage%%% урона по области в радиусе %heat_dmg_radius% от основной цели. Стоимость выстрела данным снарядом составляет 2% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3ВБМ3」</font>"
-		"DOTA_Tooltip_ability_gu_sprut_ammo_heat_penetration" 				"Пробитие: "
-		"DOTA_Tooltip_modifier_gu_sprut_ammo_heat" 							"<font color='#fd7427'>「3ОФ26」</font>"
-		"DOTA_Tooltip_modifier_gu_sprut_ammo_heat_Description" 				"Наносит огромный урон по области в радиусе 800, стоимость выстрела - 2% энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_he"                         "<font color='#FFD700'>「Зарядить: Осколочно-Фугасный (ОФС)」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_he_Description"             "Переключает орудие на ОФС-снаряды. Каждый выстрел тратит 10% макс. энергии + плоское значение. \nСнаряд наносит сплеш-урон по области вокруг цели. Каждый 5-й выстрел ОФС-снарядом гарантированно наносит крит 150% и накладывает дебафф среза брони от БПС-снаряда на главную цель."
+		"DOTA_Tooltip_ability_gu_sprut_ammo_he_energy_flat"             "Расход энергии (плоский):"
+		"DOTA_Tooltip_ability_gu_sprut_ammo_he_splash_radius"           "Радиус поражения (сплеш):"
 
-		"DOTA_Tooltip_modifier_gu_sprut_ammo_armor_reduction"					"Пробитие"
-		"DOTA_Tooltip_modifier_gu_sprut_ammo_armor_reduction_Description"			"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+		"DOTA_Tooltip_ability_gu_sprut_artillery"                       "<font color='#B22222'>「Артиллерийский удар」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_artillery_Description"           "Выпускает тяжелый снаряд по площади с дистанции до 2000 метров. \nВраги в области получают физический урон в процентах от их максимального здоровья и помечаются меткой на 5 секунд. Под меткой они накапливают 10% от ВСЕГО получаемого урона, который взрывается чистым уроном в конце (засчитывается как Крит для системы калибровки БПС).\n\n<font color='#cf1919'>Считается ультимейтом. Расход: 50% энергии + 100.</font>"
+		"DOTA_Tooltip_ability_gu_sprut_artillery_radius"                "Радиус арт-удара:"
+		"DOTA_Tooltip_ability_gu_sprut_artillery_hp_dmg_pct"            "% от Макс ХП в урон:"
 
-		"DOTA_Tooltip_ability_gu_sprut_ammo_rocket" 							"<font color='#fd7427'>「9М119М」</font>"
-		"DOTA_Tooltip_ability_gu_sprut_ammo_rocket_Description" 					"Советский комплекс управляемого вооружения танка (КУВТ) с радиокомандным наведением <font color='#fd7427'>「9М112М2」</font> Позволяет поражать вражеские цели на дальности 50000, попадание игнорирует броню врага нанося урон по формуле %base_damage% + (%bonus_dmg_per_armor% * вашу броню), перезарядку данной способности невозможно уменьшить."
-		"DOTA_Tooltip_ability_gu_sprut_ammo_rocket_count_target" 					"Количество целей: "
-		"DOTA_Tooltip_ability_gu_sprut_ammo_rocket_shard_Description" 			"Добавляет бонусный урон - базовая атака + (ловкость * 3)"
+		"DOTA_Tooltip_ability_gu_sprut_smoke"                           "<font color='#696969'>「ТДА: Дымовая Завеса」</font>"
+		"DOTA_Tooltip_ability_gu_sprut_smoke_Description"               "АКТИВНО: Спрут блокирует шасси (не может двигаться) и пускает термодымовую аппаратуру (ТДА). Танк становится полностью невидим, при этом может безнаказанно вести огонь из инвиза.\n- Энергопотребление: первые секунды тратится 1% + 30 ед/сек, затем 20% + 75 ед/сек.\n\nПАССИВНО (выключен): Ускоряет регенерацию энергии танка.\n\n<font color='#cf1919'>Ультимейт. Если выключить до 12-й секунды — КД 40 сек. После 12-й секунды — КД 20 сек.</font>"
+		"DOTA_Tooltip_ability_gu_sprut_smoke_inactive_regen_pct"        "ПАССИВНО: % Регенерации энергии:"
+		"DOTA_Tooltip_ability_gu_sprut_smoke_scepter_description"       "АГАНИМ: Если дымы активны более 3-х секунд, все выстрелы из орудия (Скиллы 2,3,4) гарантированно наносят 220% критического урона."
 
-		"DOTA_Tooltip_ability_gu_sprut_smoke" 							"<font color='#fd7427'>「Система 902У «Туча»」</font>"
-		"DOTA_Tooltip_ability_gu_sprut_smoke_Description" 					"Система 902 «Туча» - советская унифицированная система запуска 81-мм дымовых гранат с объектов бронетанковой техники. После активации, выстреливает вокруг танка дымовыми гранатами которые создают плотную дымовую завесу, при этом 2С25 «Спрут-СД» не сможет передвигаться, но будет невидима для вражеских юнитов. "
-		"DOTA_Tooltip_ability_gu_sprut_smoke_duration" 						"Длительность: "
-		"DOTA_Tooltip_modifier_gu_sprut_smoke"							"<font color='#fd7427'>「Система 902У «Туча»」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_ap_debuff"                      "<font color='#FF4500'>「Броня пробита (БПС)」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_ap_debuff_Description"          "Броня расколота подкалиберным снарядом. Показатель защиты критически снижен."
+
+		"DOTA_Tooltip_modifier_gu_sprut_artillery_debuff"               "<font color='#B22222'>「Целеуказание Артиллерии」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_artillery_debuff_Description"   "Накапливает 10% от любого входящего урона. По истечении метки накопленный урон сдетонирует."
+
+		"DOTA_Tooltip_modifier_gu_sprut_smoke_active"                   "<font color='#696969'>「Маскировка: ТДА активна」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_smoke_active_Description"       "Машина скрыта в густом дыму. Шасси заблокировано, орудие готово к стрельбе из засады."
+
+		"DOTA_Tooltip_modifier_gu_sprut_smoke_passive"                  "<font color='#696969'>「ТДА: Режим накопления」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_smoke_passive_Description"      "Термодымовая аппаратура отключена. Идет активная регенерация энергозапаса шасси."
+
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_manager"                   "<font color='#556B2F'>「СУО: Выбор боеприпаса」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_ammo_manager_Description"       "Индикатор текущего типа заряженного снаряда в казеннике орудия."
+
+		"DOTA_Tooltip_modifier_gu_sprut_ap_calibration"                 "<font color='#FF4500'>「СУО: Калибровка орудия」</font>"
+		"DOTA_Tooltip_modifier_gu_sprut_ap_calibration_Description"     "Баллистический вычислитель адаптировался под уязвимости целей после серии критических попаданий.\n\nВаши подкалиберные снаряды (БПС) дополнительно снижают защиту цели."
+
+
+		"Talent_Sprut_Stats_10"             "Снижает базовое время атаки (BAT) танка на 0.2 секунды."
+		"Sprut_Label_BAT"                   "Базовое время атаки (BAT)"
+		"Sprut_Shard_BasicAmmo_Desc"        "Добавляет базовым снарядам 30% шанс нанести критический удар в размере 160% от урона."
+		"Talent_Sprut_APAmmo_5"             "Бронебойные снаряды пассивно снижают броню цели на дополнительные 40 единиц. Также увеличивает множитель снижения брони за каждые 3 накопленных критических удара с 4 до 6."
+		"Sprut_Label_ArmorReduction"        "Снижение брони цели"
+		"Talent_Sprut_HEAmmo_15"            "При выстреле ОФС появляется 30% шанс наложить дебафф снижения брони БПС на любую задетую сплешем цель (даже если это не 5-й гарантированный выстрел)."
+		"Talent_Sprut_Artillery_1"          "Увеличивает длительность дебаффа уязвимости до 10 секунд (вместо 5). По окончании действия дебаффа накопленный урон взрывается с эффективностью 20% (вместо 10%)."
+		"Sprut_Label_ArtilleryDuration"     "Длительность дебаффа"
+		"Sprut_Label_ArtilleryPop"          "Эффективность взрыва урона"
+		"Talent_Sprut_Smoke_20"             "Продлевает длительность «дешевой» фазы поддержания маскировки на 5 секунд (время до начала ускоренного списания энергии)."
+		"Sprut_Label_CheapSmoke"            "Время экономного режима"
+   		"Sprut_Scepter_Smoke_Desc"          "Если Дымовая завеса активна более 3 секунд, Спрут переходит в режим засады, получая гарантированный 100% шанс нанести критический удар в размере 220% при каждой атаке."
+
+
 
 		"armored_modules"												"Оборудование"
 		"armored_modules_1"												"Система отвода пороховых газов"
@@ -9155,5 +9270,11 @@
 	
 		"npc_gunduk"													"Гындык"
 		"npc_dota_hero_chen"											"A-10 Thunderbolt II"
+
+	
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator"                      "<font color='#00d9ff'>Универсальный Манипулятор Древних</font>"
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Description"          "Абсолютная вершина технологий Асгарда и наследие расы Древних. Инструмент совмещает в себе функционал Дефузера и тяжелой Буровой установки.\n\n<font color='#54ff54'><b>МГНОВЕННОЕ ДЕЙСТВИЕ:</b></font>\n\n<b>☄️ На метеоритах:</b> Мгновенно добывает кристаллические осколки (50-200) и Иридий-191.\n<b>⚡ На генераторах:</b> Взламывает щиты для получения протонов и нейтронов.\n<b>⛏️ На шахтах:</b> Раскрывает глубокие залежи 3-го уровня (расходует 10 000 ед. энергии МНТ)."
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Lore"                 "Устройство, которым Древние терраформировали планеты, теперь умещается в ладони. Осторожно: не направлять в глаза."
+		"DOTA_Tooltip_ability_item_gu_ancient_manipulator_Note0"                "Заменяет собой Инженерный комплекс «Дефузер» и Буровую установку."
 	}	
 }
